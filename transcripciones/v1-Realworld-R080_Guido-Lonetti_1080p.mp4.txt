@@ -1,0 +1,234 @@
+[00:00:00.19] - Carlos Iglesias
+Hay pocas cosas más humanas que nuestra tendencia a la suposición. Asumimos, rellenamos los huecos, nos contamos historias que parecen tener sentido, pero en el desarrollo de productos, esto puede ser una condena silenciosa. La fe ciega en la intuición, en los frameworks de moda o en los dogmas metodológicos, ha llevado a más de un producto a estrellarse antes siquiera de despegar. ¿Y si el éxito no dependiera de qué tan bien qué pensamos lo que quiere el usuario, sino de qué tan rigurosamente lo descubrimos. Hoy hablaremos de desarrollo de producto basado en evidencia, del arte y ciencia, de buscar primero la verdad, aunque a veces sea incómoda. Porque al final, en el mundo real, lo que cuenta no es lo que creemos, sino lo que podemos demostrar. Para ello nos acompaña Guido Lonetti, Head of product en DLocal. Guido, te conocí a través de tu activismo incansable en la comunidad de producto. No es fácil encontrar alguien que combine de forma tan natural, diría. La excelencia operativa, humildad intelectual, te he seguido, te he leído, te he escuchado, y las ganas genuinas de compartir conocimiento. Desde tus inicios en La Nación y Tartner, pasando por tu etapa en N26, hasta el liderazgo actual en DLocal, has vivido en primera persona la evolución del rol de producto en distintas latitudes y tamaños de empresa.
+
+[00:02:21.09] - Carlos Iglesias
+Muchas gracias, un placer. Oye, empezamos así todas las entrevistas, ¿qué es para ti el mundo real?
+
+[00:02:27.17] - Guido Lonetti
+Para mí, el mundo real es un sinsentido, es un accidente cósmico, no debería haber ocurrido, pero por problemas energéticos y de materia, aparecimos, va a durar muy poco. La historia de la humanidad va a ser un centímetro en la inmensidad. No nos tenemos que tomar tan en serio, es lo único que yo me llevo de conclusión cuando pienso en eso. Es impresionante cómo si haces un zoom out y la tierra, la vida láctea y ves la inmensidad, después te tomes tan en serio los problemas del día a día. Así que es como esa frase, el dance as if nobody was watching. Divertite, no equivócate. Bailemos como si nadie nos estuviese mirando. Equivoquemos, nos, probemos más cosas.
+
+[00:03:32.04] - Carlos Iglesias
+¿De qué hablamos cuando hablamos de desarrollo de producto basado en evidencia?
+
+[00:03:57.00] - Guido Lonetti
+Bien. Mira, te voy a romper el molde y te traje un ejercicio, que lo hacía un amigo mío, Martín Burgener, que es el director de producto en eDreams Odigeo. Y él tenía un curso de Product Discovery y traía este ejercicio: Yo tengo dos sobres, uno que tiene 10 €, el otro está vacío. Te puedo hacer elegir uno, si elegís bien, te quedas con los 10 € y si no, está vacío. O, si querés, no jugas al juego, pero te quedas con 3 €. ¿qué haces?
+
+[00:04:37.22] - Carlos Iglesias
+Hemos venido a jugar.
+
+[00:04:40.04] - Guido Lonetti
+ jugarías, perfecto. Jugarías. Supongamos que ganaste. Y ahí lo pongo un poco más interesante todavía. Y digo: ¿Qué pasa si tengo, supongamos, unos sobres gigantes y en vez de 10 €, tienes 10 millones y en el otro no tienes nada. Ya. Pero si no jugas, te doy tres millones. Correcto. ¿Qué haces?
+
+[00:05:05.21] - Carlos Iglesias
+Tres millones, seguro.
+
+[00:05:07.00] - Guido Lonetti
+Tres millones. Seguro. Perfecto. ¿Qué cambió? Al final, la incertidumbre es la misma, ¿no? Claro, sí.
+
+[00:05:16.10] - Carlos Iglesias
+La incertidumbre es la misma, cambió el riesgo.
+
+[00:05:20.20] - Guido Lonetti
+Ahí va. Bueno, me encantó. Porque para mí siempre la palabra incertidumbre era como sinónimo de riesgo, pero el riesgo es la cuantificación de la incertidumbre. En este caso, una cuantificación económica. O sea, es preferible quedarse con los tres millones asegurados que con la posibilidad de tener cero e irse triste a casa. Pero tal vez, y ahí lo llevo al próximo paso, ¿qué pasa si te digo que antes de elegir, te doy la opción de poder hacer agujeros en los sobres? Pero cada agujero te va a costar 20 000 €. Claro. Si vos es un agujero, vas a poder mirar y vas a poder ver si el sobre está vacío o si tal vez ves un poquito ahí de color, debe ser que hay un billete. Entonces, me imagino que en ese caso decís: Junto al dinero.
+
+[00:06:20.22] - Guido Lonetti
+Y eso es justamente el product discovery, es intentar bajar el riesgo con técnicas más económicas que el riesgo en sí.
+
+[00:06:35.10] - Carlos Iglesias
+Que el fracaso final.
+
+[00:06:36.23] - Guido Lonetti
+El fracaso final, exactamente. Entonces, para tener una definición, finalmente, para mí, lo que es evidence-based product management es, como dijiste vos al principio en ese poema que me encantó, queremos buscar evidencia porque es una intención de llevar la de la construcción de productos digitales al plano científico. Queremos juntar evidencia y no deja de ser muy parecido al método científico. Hay una hipótesis, hay método empírico y se observan datos y hechos para tratar de bajar el riesgo de construir un producto que finalmente sea un fracaso. Entonces, finalmente, todo lo que queremos es bajar el riesgo.
+
+[00:07:23.07] - Carlos Iglesias
+Me encanta esto que dices. Y me encanta también cuando dices el acercamiento científico, porque además caemos también en los mismos sesgos muchas veces. A veces nos enamoramos de nuestras propias hipótesis en sí mismo. O incluso nos sentimos culpables cuando no cumplimos con una hipótesis que habíamos dicho: Creemos que si hacemos esto, cuando en realidad hemos descubierto una forma de no llegar a nuestro objetivo, pero que nos puede abrir otras puertas de alguna manera. Lo que quiero decir con esto es que para mí lo has descrito perfecto. Te compro la definición, te compro además el método científico y añado que creo que además el error que tú descubres forma parte del avance. Exactamente. Sin el error, no hay fricción en el avance. Entonces, no...
+
+[00:08:13.09] - Guido Lonetti
+Sí, no deja de ser una narrativa de situación, contexto, complicación y desenlace. Total. Y como decís, yo creo que más que nunca hay que... Cuando uno hace discovery o está buscando evidencia, tenemos que ser muy conscientes de nuestros sesgos. Por eso es que aparecieron tantos libros de product management sobre los biases. El primero y principal es el confirmation bias, que es cuando estás... Es el sesgo de la confirmación. Cuando vos querés que una cosa sea como vos la querés, toda la evidencia que encuentres va a respaldar la teoría que vos querés respaldar.
+
+[00:09:12.01] - Carlos Iglesias
+Hablábamos de una ocasión No recuerdo si dentro de podcast o fuera de podcast, yo discutía con un amigo que es un poco creyente de las pseudociencias. Y yo, bueno, aún y así es mi amigo y aún y así le quiero y aún y así discutimos. Y él me decía: Bueno, pero es que un poco la medicina también se basa en la fe. Yo le decía: Yo reconozco que no soy un hombre de fe. Yo no soy un hombre de... Para mí las creencias se tienen que ganar mi respeto. Las personas lo tienen por defecto, pero las creencias no. Las creencias, por defecto, no tienen mi respeto. Una creencia es simplemente una creencia y tienes derecho a tenerla. Entonces, él me decía: Pero bueno, la medicina y la ciencia funcionan un poco de la misma manera. Alguien cree que esto Yo creo que esto va a curar a esta persona y, por lo tanto, empiezo una experimentación. Y para mí ahí está un poco, y lo quiero destacar porque para mí eso no es el método científico. El método científico no arranca de una creencia, arranca de una hipótesis. Una creencia tiene un sesgo implícito. Claro, si yo creo en algo, estoy metiéndole un sesgo clarísimo a eso.
+
+[00:10:23.16] - Carlos Iglesias
+Entonces, para mí va a ser un fracaso. Si no consigo validar mi creencia, para mí va a ser un fracaso, cuando eso no es el fracaso, es simplemente descubrir una forma de no llegar a mi objetivo final.
+
+[00:10:39.13] - Guido Lonetti
+Absolutamente, sí. Los assumptions ahí también entran en juego. 
+
+[00:10:53.22] - Guido Lonetti
+A veces los negocios fallan por una asunción recontrabásica, como esa labirome esta del espacio, que al final los rusos hicieron un lápiz y los americanos gastaron un millón de dólares o miles de productos que fracasaron porque había en el listado de asunciones iniciales, había alguna que fallaba. Entonces, también veo mucho en el Product Discovery que lo que se intenta es validar estas asunciones, más que productos enteros. A veces la asunción es: Este segmento de usuarios está dispuesto a pagar X plata por un producto de este estilo. Y si uno se casa con esa idea, pero realmente no la sale a validar, es una asunción riesgosa.
+
+[00:11:56.08] - Carlos Iglesias
+¿Qué otros errores comunes observas en los procesos de discovery?
+
+[00:12:00.09] - Guido Lonetti
+Ese es el de los sesgos, creo que diste en el clavo, porque creo que es el principal, el sesgo de la confirmación. A mí hubo un libro que me encanta. Sobre todo hay libros que casi con el título ya te das cuenta de qué viene el libro y qué aprendizaje tienes que llevarte. Y hay uno de esos es el MOM test, el test de la madre, que enseña a los emprendedores y a la gente de producto a hacer una entrevista de usuario y de esa forma poder validar si realmente lo que nosotros queremos construir es de interés para la otra persona. ¿Por qué se llama el test la madre o el MOM test? Porque nuestras madres apenas les decimos: Quiero hacer un Tinder para perros, nos van a decir-"Qué listo es mi niño. Kelly, me encanta, te invierto, vendamos la casa". Pero el momento de la verdad, es cuando salís con la aplicación, la pones en el mercado y te das cuenta si la gente la la descarga, la utiliza o no. Y entonces, sí, los sesgos, diría. Otro segundo punto para mí sería hablar con gente o intentar validarlo con una audiencia que no es tu target, que a veces por un tema de cercanía lo validamos con ciertas personas, muchas veces con un especialista en el tema, y al final, el producto o el servicio que queremos construir no está apuntado a un especialista, está apuntado a la gente justamente un especialista.
+
+[00:13:55.11] - Guido Lonetti
+Y tal vez un tercer punto sería hacer más investigación y más discovery de lo necesario. De hecho, otro libro, se llama Just enough research, que significa esto: no pasemos años haciendo research o para ponerlo de forma cuantificable, no hagamos tres meses de investigación cuando tal vez construir el producto nos lleva dos meses. Hagamos lo que nos lleve menos tiempo y nos dé mayor cantidad de evidencia. Igual de eso Me gustaría, tal vez, hablar un poquito más adelante.
+
+[00:14:32.18] - Carlos Iglesias
+¿Cómo decides cuándo una evidencia es suficientemente sólida como para seguir, como para actuar? ¿Cuándo sabes que tienes suficiente evidencia?
+
+[00:14:53.02] - Guido Lonetti
+Bien. A ver, vuelvo al ejemplo de los sobres inicial. Pero es muy simple. Cuando vos empiezas a hacer un agujero en los sobres, tal vez no ves nada, me decís: voy con otro, hasta que de repente encontraste que hay un billete, hay color, decís: Listo, este es el sobre que tiene los 10 millones. Ahí está clarísimo cuando dejar de investigar. Ahora, el mundo real no es hacer agujeros en sobre, los productos digitales y los servicios son más complejos. Finalmente, los que lo van a adoptar son seres humanos que tienen que cambiar su comportamiento, adoptarlo, encontrarle valor, tener el tiempo de dedicación para invertir, para aprender y, después de todo, estar dispuestos a pagar por ese producto. Entonces, ¿cuándo dejamos de hacer research o investigación o discovery? Digamos, todas las formas posibles que se le puede decir a esta etapa inicial de validación. Creo que tiene que ver mucho con eso, el riesgo. Si el riesgo es muy alto, de fracaso es muy alto, así como haberte ido a casa sin los 3 millones o los 10 millones. Y el riesgo es alto. La verdad que vale la pena ser un discovery importante.
+
+[00:16:09.09] - Guido Lonetti
+Ahora, si el riesgo es bajo, ahí es como que amerita menos. Pero lo que a mí siempre me llamó la atención o me ayudó mentalmente fue un framework que se llamaba la curva de la verdad. Que son dos ejes, uno es cantidad de evidencia Y la otra es... Esfuerzo. Esfuerzo, exactamente. Entonces, supongamos que yo tengo una idea en la mañana, me estoy duchando y digo: Qué bueno hacer una aplicación de tal cosa. ¿Qué puedo hacer yo para conseguir evidencia y qué esfuerzo requiere cada uno de esos eventos de búsqueda de evidencia?. Digamos que tengo ganas de hacer un producto digital, lo voy a llamar Carlitos de Runroom. ¿Qué opinás? Me parece que está bueno, por esto, por esto, por esto. Soy una persona que se formó, trabaja desde hace muchos años en esto. Digo, probablemente, ya tu mirada, esta conversación con un especialista, me esté dando bastante dirección. Ahora, el próximo paso sería: ¿Eso cuánto me llegó? Una hora de llamada por teléfono. Bueno, el esfuerzo no es alto. Pero para mí, tal vez, la evidencia a ese momento no es suficiente como para invertir el tiempo que quiero invertir en desarrollarlo. Supongamos que son tres meses de desarrollo de sentarnos para hacer el MVP, y ese es el verdadero momento de la verdad, cuando sacas el producto a live y lo pueden usar los usuarios, lo pueden adoptar, pueden probarlo, testearlo, ver la landing page, ver si les gusta hacer clic en el botón.
+
+[00:17:49.24] - Guido Lonetti
+Pero, ¿qué hay en esos tres meses entre la conversación que tuve con vos de una hora y los tres meses de desarrollo? Pueden haber prototipos en papel. Ahora podemos hacer un poco de vibe coding con Bolt, con Lovable, y ver si tracciona, si no tracciona. Realmente, puedo hacer un video, como el famoso ejemplo de Dropbox, que no habían construido el producto, hicieron el video para validar si realmente había un deseo de utilizarlo, y creo que cuestión de dos días que lo habían publicado en un blog que se llamaba Digg, que es como el Reddit, pero un poco más viejo, que probablemente nosotros dos que sepamos cuál es, pero la gente no. Depende de la edad de la audiencia. Y tuvo 75 000 inscritos que decían: Quiero usar ese producto, y no habían puesto una línea de código. Digo, hay muchas instancias, después están los Wizard of Oz, la Puerta Falsa, el Fake Door, que son diferentes experimentos que se pueden buscar en Google, y hay tan buenísimos. Pero finalmente, a los tres meses, es el momento de la verdad. Pero a veces, lo que ocurre en compañías, es que hay algo que lleva tres meses, pero la investigación a veces lleva cinco.
+
+[00:19:09.18] - Guido Lonetti
+Entonces, es preferible a veces el producto, salir con algunos usuarios, ver qué pasa, ver si funciona, si tracciona y ahí iterar. Pero bueno, para mí es lo que hay que tener en cuenta, el esfuerzo y el nivel de evidencia que queremos tener.
+
+[00:19:22.20] - Carlos Iglesias
+Totalmente. ¿Y cuánto confías en esa evidencia? ¿Cuánto confías en esa evidencia como para decir: Es suficiente o necesito invertir un poquito más o hacer un esfuerzo cualitativo o un esfuerzo cuantitativo.
+
+[00:19:36.12] - Guido Lonetti
+Absolutamente. Y hay gente que tiene más aversión al riesgo, yo creo que son más tolerantes al riesgo. Correcto. Y eso es casi como comportamiento del mercado de capitales. Hay gente que cree ciegamente en su idea y no le falta evidencia, porque la evidencia está en su cabeza y le va bien a veces.
+
+[00:19:55.23] - Carlos Iglesias
+Sí, desde luego. Y luego Y luego está la intuición. ¿Qué papel juega la intuición en todo esto?
+
+[00:20:06.00] - Guido Lonetti
+Bien. Yo hace poco estaba hablando con un compañero de esto de... Se está hablando mucho del product sense, el sentido de producto. Y viste que de repente en el mundo del product management aparecen términos que están en hype. Y, perdón, no uso todas las palabras en inglés, pero trabajo en inglés, que están de moda. Igual son palabras que ya tienen cierta difusión. Y el product sense, el sentido de producto, nació como esa idea de que el product manager ya sabe qué es lo que hay que hacer porque tiene mucha experiencia. Y a mí me encanta una anécdota de Gibson Biddle, que él fue el primer CPO de Netflix. Y cuando llega a Netflix, a las primeras dos reuniones, él cuenta en un posteo que tiene en su blog, que habla con Reed Hastings, que era el CEO de Netflix por más de 20 años, y le dice: Bueno, ¿qué tenemos que hacer? Contame un poco los problemas de usuario. Contame qué hay que hacer. ¿Qué quieren los usuarios?. Y dice: Mirá, una persona que sabía qué querían los usuarios, hubo una sola en la historia que fue Steve Jobs. Así que, andá con tu equipo, usen la ciencia del consumidor, dice él, para saber qué es lo que quiere el usuario.
+
+[00:21:25.10] - Guido Lonetti
+Yo no tengo idea, pero tenés a tu disposición A/B Testings, tenés entrevistas de usuario, tenés una base de usuarios enorme, vayan, experimenten, hagan discovery, busquen evidencia y construyan. Y a mí me encantó. Pero es cierto que vos con tus años de trayectoria, yo con mis años de trayectoria, o PMs que están hace mucho en cierta industria, no hace tanto, hace cinco años, conocen bien a los usuarios, conocen la competencia, están al tanto de las tendencias mundiales, conocen el producto de Pe a Pa, los comportamientos de usuario, han hablado con usuarios. Hay un momento en el que vas desarrollando una intuición de: Esto no, y tenés tu propio LLM interno que te está diciendo: No, porque tal usuario que hablé en un momento no le había gustado, y lo probamos, lo testeamos, algo parecido, nos dio malos resultados. Entonces, desarrollamos un cierto músculo. El problema es cómo usamos ese sentido, esa intuición, si la usamos ciegamente para tomar decisiones sin buscar evidencia o si la usamos como una hipótesis fuerte que tenemos que salir a validar. De vuelta, es el arte y la ciencia, como dijiste vos. El arte se siente en el estómago y te despertás y sabes que tienes que hacer algo y no sabes bien por qué.
+
+[00:22:55.22] - Guido Lonetti
+Y después, más con la ciencia para tratar de complementar y buscar más evidencia para vendérsela a tu CEO o para conseguir el dinero para financiar tu proyecto.
+
+[00:23:06.20] - Carlos Iglesias
+Yo reconozco que no me considero una persona que me guíe demasiado por la intuición, en realidad. Para mí, la intuición es algo como... Y soy consciente de que la intuición es importante, o sea que hay formas de desarrollar eso, porque al final es como hay metalenguajes y hay información que yo no estoy con un canal, digamos, directo o léxico o con el lenguaje, a través del lenguaje o racional, pero que sí que puedo estar entendiendo o puedo estar aprendiendo cosas. Y lo que quiero decir con esto es que creo que me parece muy válido utilizar eso, utilizar hay personas que son muy intuitivas o que se reconocen intuitivas. Y creo que eso es superválido, pero me gusta mucho como lo planteas tú. La intuición es muy útil para identificar hipótesis, porque más allá de eso, es que es mucho riesgo. Claro, si estás dispuesto a arriesgar 3 €, quizá no merece la pena, pero si lo que vas a arriesgar son 3 millones, igual...
+
+[00:24:14.15] - Guido Lonetti
+Exacto.
+
+[00:24:15.01] - Carlos Iglesias
+Claro, igual.
+
+[00:24:16.21] - Guido Lonetti
+A mí también, algo que me pasó siempre es que en el mundo del product management, cuando hablas con tus colegas, todo dicen: No, el CEO tuvo esta idea. En todas las compañías, de una u otra De todas formas, la gente se queja de los C-levels que son top down y que tenemos que hacer esto. Y dice: No, pero yo soy product manager. A mí dame una métrica. Y yo te digo qué es lo que tienes que hacer para mover tu métrica. Y yo lo que creo al respecto es, probablemente, esa startup comenzó siendo cinco personas en un garage y el primer PM fue el CEO. Y tuvo la idea, trabajó dos años, pasó la barrera del primer año, que el 90% de las empresas fracasan. Fue por el segundo año, consiguió financiación, seed, serie A, serie B, y vos entraste en serie B y el CEO viene con una idea, vos tenés que tener muy buenos argumentos para decir: No, no le voy a hacer. Tenés que decir: Mira, si esta es la métrica que queremos mover, para mí esta es la iniciativa que tenemos que empujar. Y ahí apareció también el founder mode.
+
+[00:25:21.15] - Guido Lonetti
+No sé si escuchaste toda esa movida que hubo. Ya ves que ahora se silenció un poco.
+
+[00:25:32.07] - Guido Lonetti
+El orden de acontecimiento fue una entrevista con Lenny Rachidsky, que es como una eminencia del product management que tiene el podcast más escuchado después de Runroom. Y Lenny es buenísimo, realmente entrevista a eminencias y cada vez me vuela la cabeza cada capítulo. Y entrevistó a Brian Chesky de Airbnb, y Brian Chesky contó que al principio era muy top down y luego su equipo le pidió más espacio para poder traer sus ideas, lo que se llama en inglés como el bottom up, como dejarnos tener ideas y las llevamos para arriba y nos dice: ¿Qué te parece?. Empezaron a parar de velocidad, eso lo contaba Brian Chesky, y empezaron a quedarse sin ideas y los PM le decían: Queremos volver al momento en que vos nos dabas las ideas. Entonces, Brian Chesky volvió a dar ideas y fue un podcast bastante contrarian opinion, tener una opinión contraria al establishment, a lo que al estado del arte, a lo que todo el mundo piensa.
+
+[00:27:02.22] - Guido Lonetti
+Entonces, en el mundo del product management hay como respuestas predeterminadas muy fáciles. ¿Cómo priorizas? ¿Uso RISE? ¿Cómo definís el MVP? No, uso un user story mapping. Okey. Pero de repente viene alguien y dice: No, RISE no está bueno por esto y user story mapping no está bueno por esto. Y eso a mí es lo que me gusta escuchar, una persona que tiene una opinión contraria porque trae algo nuevo a la mesa. Y bueno, Y ahí, Brian Chesky dijo que era un micromanager, que se metía en todas las demos, que corregía todos los diseños y que estaba metido y que traía todas las ideas. Después de ahí, vino Paul Graham y hizo un post sobre el founder mode, que era esto, los founders que vienen y hace una bajada de línea de qué es exactamente lo que hay que hacer, que un poco que mata toda esta cosa de buscar evidencia, el discovery y el empoderamiento de los equipos. Sí, sí.
+
+[00:27:58.05] - Carlos Iglesias
+Bueno, también es el mito un poco, y otro sesgo, el sesgo de la autoridad también, que nos encanta, somos un poco megalómanos, y nos encanta pensar que es posible que haya alguien que sea como más brillante y carismático que el resto y que sabe todas las verdades y tal. Yo también lo veo difícil, y sobre todo, creo que en ese tipo de culturas es desempoderador. O sea, mi visión particular de todo esto Entonces, creo que para que un equipo florezca y de ese equipo aparezcan ideas, necesita confianza y necesita empoderamiento, necesita evidencia, seguridad y gana seguridad teniendo evidencia y gana evidencia probando cosas. Por lo tanto, necesita un espacio. Me parece super... O sea, me parece romantizar el micromanagement, la microgestión. Me parece superpeligroso. A mí es un discurso. Eso que realmente me tira para atrás, yo lo reconozco.
+
+[00:29:03.06] - Guido Lonetti
+Sí, definitivamente peligroso. Y sin lugar a dudas, dio espacio a un diálogo para encontrar puntos intermedios y entender un poco... Es verdad, vuelvo al ejemplo, comenzaron en un garage, hicieron product-market fit, escalar la compañía y ahora vos entras como PM y querés decir qué es lo que hay que hacer. Perfecto. Eso a mí, lo que me queda de nuestra conclusión es: Tenemos que ser muy buenos entendiendo cuáles son las métricas de impacto, pero no solamente la de nuestro producto, la conversión del onboarding o la tasa de conversión o cantidad de usuarios. No, entender que hay un revenue, que hay costos operativos de la compañía y que eso termina en una EBITDA. Entonces, ¿cómo conectamos esos outcomes de producto con las métricas negocio y tener muy clara lo que estamos haciendo, hacia dónde vamos, qué evidencia tenemos y por qué nuestra idea pensamos que es la más sólida para mover las agujas de la máquina?
+
+[00:30:13.15] - Carlos Iglesias
+No puedo estar más de acuerdo. O sea, estoy 100% de acuerdo. Y en este sentido me gustaría escuchar tu opinión al respecto, porque yo me encuentro que muchas veces... Mira, voy a aprovechar, voy a hacer publicidad de un curso que vamos a estar dando en junio, no lo hago nunca, me vais a a donar, pero yo creo que me he ganado ya el 8 con 80 capítulos. Vamos a estar dando un curso que es de... Originalmente lo crearon Jeff Gothelf y Josh Seiden. Y nosotros somos uno de los primeros cinco partners certificados del mundo y lo vamos a estar dando online durante junio, los cuatro jueves de junio, empezando el día 4. Y es un curso donde estamos hablando de Product Discovery y hablamos precisamente de métricas de impacto, de outcomes, cambios en el comportamiento de los humanos, de medibles y cómo podemos ver si estamos realmente teniendo impacto en las métricas de negocio, en esas métricas de impacto que hablamos. Os invito a que busquéis en la web de Run Room, porque ahí está toda la información, si os interesa. Yo lo recomiendo mucho de verdad, o sea, creo que es un material que han hecho estos dos monstruos, repitiéndolo, Por todo el mundo, durante muchos años, prueba y error con un método científico, precisamente de eso, de cómo han descubierto la mejor forma, yo creo, la verdad que a mí me ha aportado muchísimo.
+
+[00:31:42.14] - Carlos Iglesias
+Aprender a enseñarlo para mí ha sido muy revelador también. O sea que de verdad que lo recomiendo. Y una cosa que he descubierto haciendo este curso es el terror, el miedo que sienten los miembros de un equipo, especialmente, yo diría, las personas que se dedican al diseño, Product designers, diseñadores en general, UX, UI, etcétera, por cuando se formula la palabra negocio. O sea, cuando se habla de negocio, que no paramos de hablar de negocio, siempre no, esto es negocio, esto depende de negocio. Hay negocios como una nube. Y yo me he dado cuenta que yo ya no hablo de negocio, yo hablo de impacto. Y es verdad que al final de ese impacto hay una cuenta de resultados, hay una P&L, hay una serie de costes, hay un overhead, hay una serie de costes operativos. Pero creo que ayuda a los equipos a abstraerse, porque la gente cuando tú le hablas de negocio, le entran todos los miedos y todos los complejos, porque muchos no tienen un MBA o no han hecho A de, porque han estudiado diseño, por ejemplo. Y creo que, no sé, me gustaría escuchar tu experiencia en ese sentido también.
+
+[00:33:07.02] - Carlos Iglesias
+¿Te encuentras con que en los equipos la gente siente rechazo por esta idea de negocio o por estas métricas? ¿Hay rechazo o fricción?
+
+[00:33:18.12] - Guido Lonetti
+Sí, 100%. Pero aprovecho para decir que nombraste a Jeff Gotelf y a Joshua Seydon. Son dos genios absolutos y creo que el libro que mayor retorno me dio, incluso por el esfuerzo que me llevaba de leerlo, que fueron 20 minutos, es el de Outcomes Over Output. De George Seydon, sí. Buenísimo. Buenísimo. 20 minutos. Sí, Carlitos, la verdad que absolutamente veo lo que me decís. Creo que mi teoría es la siguiente. Los tres círculos del product management. Tenemos UX, business y tech, que se superponen. Lo había inventado Martin Erickson y resultó ser una muy buena explicación, muy gráfica sobre el PM que está en el medio. Yo creo que ese punto de fricción con el negocio, que es una nube con cara de mala, es porque aparece... Porque el diseñador, naturalmente, respira al usuario, respira y convive con el usuario y está pensando en términos de desearability y usability, que sería...
+
+[00:34:37.20] - Carlos Iglesias
+Ojalá siempre sea eso, porque yo también me encuentro Yo, perdóname la interrupción. Sí, no. Pero también me encuentro guido con textos donde ni siquiera los diseñadores y las diseñadoras están cerca del usuario, ni siquiera pasan tiempo con usuario, sino que se dedican a generar output.
+
+[00:35:00.18] - Guido Lonetti
+Sí, 100%. Para mí, por poner una forma, es un buen diseñador, piensa en el usuario y tiene su trabajo centrado en el usuario, todas sus decisiones le hizo en torno al usuario. Y un gran diseñador lo hace teniendo en cuenta el negocio también. Entonces, hago, construyo un producto que entregue valor al usuario en tanto que entrega valor al negocio. Y ese es el El vínculo perdido en muchos diseñadores. Hay otros buenísimos en dLocal, gente superdana. Entonces, en N26 ha trabajado con gente muy buena. Pero es cierto que también me he encontrado con mucha gente que no puede hablar de métricas, no quiere hablar de métricas, no le gusta y no le gusta el negocio. Y el negocio es la persona mala que viene y le dice: No, ese diseño que lo hiciste así, va a tener que ser de otra forma. Y creo que tal vez lo que nos olvidamos a veces es que al final de cuentas somos una compañía y nuestro propósito es hacer dinero. ¿Y cómo queremos hacerlo, elegimos hacerlo centrados alrededor del usuario. Pero queremos hacer dinero. Digamos, uno es el cómo y el otro es el qué. Y por otro lado, también un fenómeno similar ocurre con los ingenieros, que a veces tienen intención de utilizar tecnologías más nuevas, más sexy, el último framework tecnológico o incursionar en AI.
+
+[00:36:47.09] - Guido Lonetti
+Y al final sí, me encanta, está buenísimo, pero si no resolvemos un problema con AI o si no estamos resolviendo el problema más importante que tenemos que resolver, el negocio es el que viene y dice que no, que no usemos el tiempo en eso.
+
+[00:37:03.11] - Carlos Iglesias
+Hablando de frameworks, me gustaría hablar de qué frameworks o qué herramientas sí te gusta usar para hacer discovery para validar hipótesis. Siempre te he escuchado muy crítico con los frameworks y los celebro, pero por eso te pregunto.
+
+[00:37:24.07] - Guido Lonetti
+No, yo una vez me inventé un término en una charla que me invitaron, que yo dije que soy framework agnostic, soy agnóstico de frameworks. Lo que quiero decir es están, todos tenemos un maletín, todo el product manager tiene un maletín con sus frameworks, pero los frameworks son como fórmulas que le sirvieron a una persona en un momento y nos indica el paso a paso. Hay que hacer una, hay que hacer dos, hay que hacer tres. Pero lo hizo en un contexto. Hay que ver si el contexto de tu compañía amerita que utilice tal framework. Entonces, creo que el error que podemos caer es en agarrar un framework de... No sé, cuando Spotify vino con los squads y los... Tribus. Las tribus, exacto. Todos pasamos a implementarlo. Y después, Spotify, tengo entendido que cambió porque no les había funcionado del todo.
+
+[00:38:22.10] - Carlos Iglesias
+Nunca existió. ¿No existió? No existió nunca. Bueno, en el momento de ir a ver, te dijeron: Esto era una idea que yo tiré en un boceto era una idea que compartir.
+
+[00:38:31.11] - Guido Lonetti
+El boceto lo vimos. Sí, no ha existido. Peor todavía, eso. ¿Y cuántas compañías implementaron esa metodología? Digo, puede funcionar, no puede funcionar, pero hay que usar al final los first principles, los primeros principios y la lógica y el pensamiento crítico. Pero a ver, framework que yo uso, fui cambiando con el tiempo. Últimamente, algo que me Me funciona muy bien para alinear diferentes equipos es el P&L de un producto. En mi experiencia, por ejemplo, en N26, yo estuve como head of product y gestionaba el P&L del equipo. Entonces, sabía perfectamente mes a mes qué proyectábamos en términos de usuarios. Yo estaba gestionando...
+
+[00:39:24.14] - Carlos Iglesias
+P&l para pérdidas y ganancias. O sea, es como No explicamos un baremo, cuáles son los costes, cuáles son lo que entra y lo que sale.
+
+[00:39:36.04] - Guido Lonetti
+Exactamente. Cuántos usuarios tenemos, una hoja de cálculo gigante, que es cuántos usuarios tenemos, cuántos generamos por usuario. Lo estoy simplificando al mínimo, pero estas eran unas hojas de cálculo así, que las habíamos construido con finanzas y hacemos un seguimiento cada 15 días. Pero bueno, ingresos, y finalmente, el bottom line, que es básicamente lo que nos queda. Entonces, creo que el hecho de trabajar tan cerca con finanzas, tan cerca con el equipo de producto, involucrar a gente de diseño, de ingeniería, para que vean este P&L, esta hoja donde se proyectan los ingresos y los egresos, te hace pensar también en: Bueno, okay, y si yo quiero introducir esta funcionalidad en marzo, y haces una hipótesis, si no va bien, van a subir los usuarios 10%. Entonces, haces un escenario donde a partir de abril empiezan a subir, tal vez no al 10% de Directamente, pero 5%. Y empiezas a jugar con escenarios que hacen que puedas entender cómo sumando valor de usuario, puedes generar valor de negocio. Y ahí empezamos Vamos a hacer algo que se llama priorización por... Estoy tratando de traducirlo. Probablemente, esto hay que editarlo. Sí, sí, sí. Cost Ahí está.
+
+[00:41:16.17] - Guido Lonetti
+Empezamos a utilizar priorización por costo de delay. Esto en español sería...
+
+[00:41:21.24] - Carlos Iglesias
+Sí, cost of delay.
+
+[00:41:22.21] - Guido Lonetti
+El cost of delay sería el costo de retraso. Entonces, básicamente tenemos feature A, feature B Y el feature C. ¿Cuál tenemos que trabajar? Si trabajo en el A, estoy retrasando el B y el C. Y así todas las combinaciones posibles. Les sugiero a todos los que están escuchando que busquen esto en Google y lo vean porque hay diferentes formas de calcular el costo del delay, del retraso, y es casi una forma más matemática de priorizar y que en lo particular a mí me ayudó a generar mucho alineamiento con diferentes stakeholders, y es un framework que a la capa más numérica del C-Level les resulta mucho más natural que ir con otro framework de priorización.
+
+[00:42:15.00] - Carlos Iglesias
+Qué interesante, me ha sorprendido mucho. En este podcast hablamos de cost of delay. No sé decirte qué episodio fue, pero hará ya más de seis años. Y hablábamos con Jaume Jurnet y hablábamos en el contexto de de Kanban y de los tipos de cost of delay. Y nada, invito a que bucéis por ahí en la entrevista con Jaume Jurnet, donde hablamos de eso también y de la importancia de calcular el cost of delay. Me ha sorprendido porque no había escuchado como una experiencia real de usar cost of delay desarrollando producto y utilizándolo para priorizar features y tal.
+
+[00:42:59.05] - Guido Lonetti
+Pero es fácil y Y no aplica a todos los productos, no todos son tan lineales de decir: Si introduzco esta funcionalidad. Pero se puede hacer ejercicio. Si uno trabaja en un onboarding, puedes decir: Con este experimento o con esta funcionalidad, espero subir 10% la cantidad de usuarios que pasan de paso dos al paso tres del onboarding o del flujo de creación de cuenta, por ejemplo.
+
+[00:43:26.04] - Carlos Iglesias
+Quiero aprovechar que estás tú aquí, que tienes una experiencia dilatada también en fintech, que no es algo fácil tampoco de encontrar, para que nos cuentes un poco también qué particularidades ves en el uso de la evidencia en sectores, yo diría, tan regularísimos como difíciles. Yo siempre lo he considerado un sector de los más difíciles, el sector de las finanzas, FinTech. Bien. ¿Qué nos explicas?
+
+[00:44:01.18] - Guido Lonetti
+A ver, voy a contar cosas que me ocurrieron en el 96 y algunas cosas que estoy observando en DLocal en cuanto a la experimentación y a la búsqueda de evidencia. El 96 es un banco regulado, banco con licencia bancaria, con todas las letras, licencia bancaria alemana, que es superrigurosa, de hecho. Y por lo tanto, los espacios a experimentación, a estos considerados hacks de experimentación, que serían, por ejemplo, testear precios. Me acuerdo en un momento, estábamos testeando qué precio sería el precio óptimo para un producto que queríamos vender. Entonces, las compañías en general lo que hacen es poner uno a cinco y el otro a ocho, y hace un A/B test, mandan mitad del tráfico para una versión, mitad para el otro, y ven cuántos compran y cómo se optimiza para el retorno. Si de repente poner la ocho hace que la gente siga comprando casi al mismo nivel, por lo tanto el resultado es mayor a cobrar la cinco, bueno, vamos con el de ocho. Obviamente, con un EBITES está estadísticamente comprobado, digamos, tiene significancia estadística. En un banco no podíamos hacerlo. No podíamos salir a decir: Bueno, tu cuenta acá cuesta 10 y a otros usuarios les decimos cuesta 8, por la regulación.
+
+[00:45:36.12] - Guido Lonetti
+Entonces, hay muchas cosas que no se pueden hacer. Por lo tanto, aprendí mucho más a irme hacia atrás y aprender sobre el tipo de usuarios con el que trabajamos, juntarnos mucho con usuarios a charlar, a tener conversaciones, y ahora les voy a contar cosas que hacemos en DLocal que son espectaculares, pero también a tener un business case, un caso de negocio muy muy sólido. Cuando comenzamos a construir, primero construimos en el vertical donde estaba yo gestionando, que es de inversiones, construimos cripto, porque había mucha demanda, algunos competidores lo tenían y se estaba funcionando bien. Lo construimos y salió superbien. Dijimos: ¿Qué hacemos? ¿Construimos un producto de acciones y ETFs?. No sabíamos hacerlo o no, había algunos que decían: Hagamos lo otros, que no. Empezamos a hablar con usuarios y vimos una necesidad enorme de poder invertir en el banco con el que están recibiendo su sueldo y hacerlo de una forma fácil, democratizar el acceso. Conseguimos muchísima evidencia. De cada 10 personas que hablamos, nueve decían: Sí, quiero empezar a invertir, no sé cómo arrancar. Dijimos: Bueno, acá hay una cosa importante en lo que es educación. Entonces, también no solamente sabíamos que teníamos que construirlo y teníamos más experiencia de construirlo, pero también sabíamos que teníamos que invertir mucho en educación, que tal vez, si uno descarga una aplicación más tradicional de inversiones, un broker, a veces están creados para que ya tengas una experiencia intermedia.
+
+[00:47:16.02] - Guido Lonetti
+Y hay cosas que son realmente difíciles. Yo me acuerdo mi primera experiencia descargando una de las aplicaciones acá en España y fue...
+
+[00:47:24.24] - Carlos Iglesias
+Es duro. Sí, es duro.
+
+[00:47:28.01] - Guido Lonetti
+En DLocal, algo que implementamos que está muy bueno es las entrevistas continuas de usuario, continuous interviewing, que habla mucho Teresa Torres. Que lo que hicimos fue en el sitio del dashboard de DLocal, que es una compañía de pagos, de payments, es B2B. Entonces, tenemos todos usuarios que son empleados de empresas que están utilizando el dashboard para realizar pagos, aceptar pagos de usuarios y y poder realizar pagos a otros usuarios. Damos la posibilidad de que nos dejen feedback, y cuando nos gusta el feedback que nos dejó, o nos gusta, no porque sea positivo, a veces, generalmente porque es negativo, porque hay una oportunidad de mejora. Entonces, le mandamos un mensaje mismo en el dashboard con un chat, le decimos: Hola, soy Guido. Nos interesó tu opinión, nos pareció muy interesante y queremos saber más de esto. Si querés agendarme 15 minutos en mi agenda, y ahí le mando un calendly para que puedan poner... Tengo dos slots por día de media hora libres para que puedan poner la reunión cuando quieran. Y lo divertido es que me despierto y de repente hago: Tengo una reunión con un usuario. Y ahí invito gente de mi equipo, y vamos dos o tres personas, les contamos quiénes somos, Nos comparten en pantalla, nos muestran el problema que tienen.
+
+[00:49:03.08] - Guido Lonetti
+Lo interesante de eso es que, claro, nosotros conocemos nuestro producto de una forma muy aislada. Cuando nos comparten en pantalla y nos empiezan a decir lo que hacen, dicen: No, yo copio el código de este CRM, lo mando a mi sistema interno y eso me devuelve el número de factura. El número de factura, después voy al dashboard de eLocal, y ese contexto te lo perdés absolutamente si alguien no te lo cuenta. Y a partir de ahí, podemos diseñar soluciones mucho más efectivas que sabemos y tenemos evidencia de que van a funcionar.
+
+[00:49:34.14] - Carlos Iglesias
+¿Cómo ha cambiado tu forma de trabajar a lo largo de los años? A trabajar la evidencia desde tus inicios hasta ahora.
+
+[00:49:49.00] - Guido Lonetti
+Buena pregunta. Yo creo que... Yo he dado product management hace bastantes años. Yo diría que desde más de 15 años y creo que al principio no se hablaba de evidencia, así que la verdad que había mucho gut feeling, mucha lesión de tripa de mía, de mi jefe cuando comencé mi carrera. Luego se empezó a hablar mucho de discovery y evidencia, y ya casi que era un pecado. Creo que siempre el que marca la agenda del product management es Marty Keigan. Sacó Inspired y dijeron: Bueno, hay que tener evidencia para todo. Empezamos a traer más datos para saber que lo que estábamos haciendo era lo correcto. Y ahí sí, casi de forma religiosa, traíamos datos, datos, datos. Ya casi que no había ninguna decisión que tome en donde no traiga evidencia. Y tal vez pecaba de tener sobre evidencia, que es lo que decía antes. Y creo que a lo largo del tiempo lo que fui afinando es justamente eso, saber cuándo traer mucha evidencia, cuándo no hace falta, cuándo podemos hacer una previta, cuándo lo vamos a hacer igual, por más que traigamos evidencia y nos diga que no, la vamos a hacer igual porque queremos hacer un salto cuántico.
+
+[00:51:09.15] - Guido Lonetti
+Al final, si Twitter venía y te decía: Tengo una idea Ahora, antes de que exista Twitter, vamos a una aplicación de una red social de 140 caracteres. ¿Quién iba a invertir en eso? Y hoy es lo que es. Sé que el comienzo fue diferente, pero simplemente como para simplificar la historia. Hay cosas que no vamos a tener evidencia jamás de que van a funcionar y sin embargo funcionan. Entonces, a veces hay que hacer esos saltos de rana, digamos, o saltos de fe, de decir: Aunque la evidencia me diga que no, yo lo voy a hacer. Si no, tantas cosas nos hubiesen ocurrido.
+
+[00:51:50.11] - Carlos Iglesias
+Tío, tienes una experiencia superdilatada. Has hecho además un repaso, yo creo que excelente, porque te has pasado por todos los popes. Has citado a, yo diría que no te has dejado a nadie Al menos importante para mí, desde luego, te lo agradezco un montón, que de verdad que creo que ha sido una master class de product management. Y me gustaría un poco aprovechar esto como cierre para entender un poco tu de evidencia y de tus errores. Tengo una pregunta aquí apuntada que hacerte, que es: ¿cuál ha sido una situación donde pensabas que una hipótesis era correcta y la evidencia te demostró que te estabas equivocando?
+
+[00:52:35.22] - Guido Lonetti
+Tengo un caso. De N26, que estábamos trabajando en el producto de inversiones. Sacamos el primer producto de inversiones, donde damos acceso a ETFs y acciones, que son instrumentos de inversión. Por lo tanto, el usuario tenía que elegir: Bueno, quiero comprar en Tesla, quiero Quiero comprar en Apple, quiero comprar en S&P o el IBEX, digamos. Y en un momento trabajábamos muy... Voy a la par con el head de diseño, Breno, y con mi jefe Will, que era el director de Product Management. Y teníamos una muy buena ida y vuelta de trabajo con diferentes opiniones y construíamos. Pero fue muy divertido porque Breno dijo: Para mí hay que construir esta funcionalidad, que era lo que se llaman fondos activos o fondos gestionados, en realidad, que es usuarios que no quieren directamente ni elegir en qué invertir y quieran elegir, por ejemplo, entre tres posibles fondos, uno conservador, donde el riesgo es relativamente bajo, pero el retorno potencial no es tan alto. Un arriesgado que tiene un retorno potencial alto, pero mayor riesgo, que es lo lógico, obviamente. Y uno ya muy conservador, que es: Quiero ganar. Realmente no quiero correr riesgo, que el riesgo sea casi nulo y tener, aunque sea, un poquitito de retorno.
+
+[00:54:28.04] - Guido Lonetti
+Will, mi jefe y yo, estamos totalmente Y, obviamente, en contra, dijimos: No, esto no va a funcionar, va a llevar mucho tiempo, creemos que los usuarios no lo van a adoptar. Y él nos apostaba que sí, que sí. Hemos apostado de todo, cerveza. Hicimos unas entrevistas con usuarios generativas y empezamos a ver si tuviesen ese producto, si lo usarían. Obviamente, teniendo en cuenta nuestros sesgos personales. Y vimos que sí, que había mucho interés. Entonces, empezamos a conseguir evidencia y así y todo, nosotras seguíamos diciendo que no, porque éramos cabezaduras. Y Breno dijo: Sí, tenemos que construirlo. Finalmente, se construyó y hoy es uno de los productos con mayor tasa de adquisición y de adopción de N26. Realmente, está funcionando superbien.
+
+[00:55:26.20] - Carlos Iglesias
+Qué bueno.
+
+[00:55:27.17] - Guido Lonetti
+Así que me equivoqué. Hicimos: Eso está bueno también. Y tanto. Apostar con amigos, hacerlo divertido, ¿no? Hacer divertido esas peleas ideológicas, esas opiniones.
+
+[00:55:39.16] - Carlos Iglesias
+Qué bueno, buenísimo. Guido, muchísimas gracias por compartirlo y por compartir tu experiencia, de verdad, no lo digo por decir, creo que ha sido una master class realmente y recomiendo a todos los oyentes, que por cierto, ya me lo dicen, que muchos episodios los escuchan varias veces, tomar referencias, o sea que creo que hoy es un episodio con muchos hilos de los que tirar. Has dado un montón de referencias, un montón de nombres que yo creo que son claves para entender todo esto. Y espero que la gente te siga y te pueda escuchar y seguir leyendo porque te prodigas. O sea que de verdad muy agradecido y espero que nos sigamos viendo.
+
+[00:56:51.11] - Carlos Iglesias
+Construir productos sin evidencia es como navegar en la niebla confiando solo en la intuición. Puede que lleguemos a puerto o puede que nos estrellemos contra las rocas sin siquiera verlo venir. El desarrollo de producto basado en evidencia no garantiza el éxito, pero minimiza el autoengaño, ese enemigo silencioso que tantas veces nos desvía. En tiempos de ruido, urgencia y soluciones fáciles, apostar por la verdad puede ser nuestro mayor acto de rebeldía. Si te ha resonado esta conversación con Guido, te invito a dejar tu reflexión en los comentarios, a compartir el episodio con quien creas que lo necesita y, a suscribirte para no perderte futuras charlas que invitan a pensar. Un fuerte abrazo y os espero en el mundo real.
+

@@ -1,0 +1,327 @@
+[00:00:00.19] - Carlos Iglesias
+A menudo se vende el rol de producto como el de esa persona visionaria que tiene todas las respuestas, respaldada por roadmaps perfectos y datos irrefutables. Pero cualquiera que trabaje en el mundo real sabe que la verdad es mucho más caótica. Nuestro día a día consiste en navegar la incertidumbre, tomar decisiones difíciles con información incompleta y gestionar la presión cuando las cosas no salen como esperábamos. Hoy me siento con Jessica Wolf, Senior Product Manager en eDreams, para hablar precisamente de esa cara B de la gestión de producto. No vamos a centrarnos solo en los aciertos, sino en qué aprendemos de los errores visibles, cómo evitamos que un equipo se paralice tras un fallo y cómo se decide qué no hacer cuando todo parece prioritario. Quiero explorar con ella cómo se equilibra la intuición con los datos cuando el tiempo juega en contra y sobre todo, cómo detectar el momento exacto para lanzar algo al mercado sin caer en la trampa del perfeccionismo. Si alguna vez has tenido que decidir bajo presión y con demasiadas incógnitas, este episodio es para ti. Ahora sí, bienvenida a Real World. Muchísimas gracias por estar aquí, Jessica.
+
+[00:01:19.12] - Jesica Wulf
+Gracias a vos y a todo el equipo que está por acá.
+
+[00:01:21.20] - Carlos Iglesias
+La verdad que supercontentos. Además, yo tengo muchas ganas, no es por nada, pero tengo ganas de que se acabe el episodio para poder seguir hablando con Jessica, porque tiene cosas como muy interesantes fuera del mundo de producto que me interesan bastante. Así que, por la audiencia, vamos a grabar el podcast. Y vamos a empezar, precisamente, con la pregunta canónica: ¿Qué quieres que sepamos de ti? ¿Qué quieres que la gente sepa de ti?
+
+[00:01:49.22] - Jesica Wulf
+Muchas cosas. Mi nombre es Jessica Wolf. Soy Argentina. Estoy hace seis años en España. Vine por trabajo en producto. Soy ingeniería industrial. ¿Qué más? Hace más de 10, 12 años que trabajo en producto. Trabajé en empresas y en productos B2B, B2C. Y además de haber tenido muchos fracasos y muchas victorias, también tengo una carrera que me armé en todo lo que es organización de eventos, creación de comunidades. Estuve en eventos como... Bueno, organizé eventos TEDx. Hace poco, creé una comunidad para mujeres en producto. Estoy en Product Tank en Barcelona. Y como si fuera poco, también produzco obras de teatro, pero bueno, esa es la historia que vamos a hablar después del podcast.
+
+[00:02:32.06] - Carlos Iglesias
+Es que de verdad que es mi animal spirit. En realidad, escucho a Jessica y la verdad que...
+
+[00:02:39.17] - Jesica Wulf
+A veces hasta me canso yo misma de ver.
+
+[00:02:41.17] - Carlos Iglesias
+Te entiendo, te entiendo muy bien. Okey, hoy vienes a hablar del fallo, vienes a hablar del fallo en producto, del error, vamos a decirlo así. Y quería empezar preguntándote, ¿qué error profesional ¿Y qué te enseñó más a ti que cualquier éxito.
+
+[00:03:05.18] - Jesica Wulf
+Hay un momento más que un error en sí, que para mí me marcó muchísimo, porque es como que el que me armó todo mi, voy a decir speech, que no lo es, pero como toda mi coraza alrededor de cómo me enfrento al error, que fue principalmente en un trabajo en el que estuve hace ya varios años, voy a decir que era muy chiquita, que era una empresa que tenía mucha tirada alcance global y me tocaba hacer un producto que estaba con bastante exposición, me acuerdo que estaba paralizada. O sea, me daba como pánico cualquier toma de decisiones, porque sentía que era muy fácil cagarla, básicamente. Espero que se pueda decir esas palabras.
+
+[00:03:41.04] - Carlos Iglesias
+Claro, por supuesto.
+
+[00:03:42.09] - Jesica Wulf
+Me acuerdo que una amiga mía, que en su momento era mi mentora y manager, me dijo algo que para mí fue tan importante que me marcó, que fue... O sea, todo el mundo se equivoca. Tienes que confiar en vos y en que tenés la capacidad para reaccionar ante ese fallo. Entonces, vas a poder intentar hacer lo mejor que puedas para salir con ese producto, con esa inspiración, con ese feature, pero también tienes que ser muy buena y confiar en tu capacidad de que cuando las cosas salgan mal, vas a poder reaccionar. Y esa palabra, esa conversación que me dijo, me cambió la forma de enfrentarme a esas situaciones con mucho más confianza y con armar todo un framework y toda una estructura que me permita encontrar y enfrentarme esos errores antes de que exploten. Y eso fue para mí Me marcó mucho la carrera.
+
+[00:04:31.21] - Carlos Iglesias
+¿y has sentido ese miedo otras veces?
+
+[00:04:34.04] - Jesica Wulf
+Sí, pero cada vez lo fui sacando y bajando bastante, porque yo también me fui armando esa contracara que es Bueno, esa persona que sabe qué se puede llegar a encontrar del otro lado y cómo ir armándolo. Pero sí, miedos y errores todo el tiempo.
+
+[00:04:55.24] - Carlos Iglesias
+Hay una parte, supongo que muy personal, de también Un nivel de autoexigencia, que seguramente tiene que ver con eso, pero ahora como te tiro una hipótesis. La idea de que pienso que hay culturas en las que es mucho más fácil sentir ese miedo.
+
+[00:05:18.18] - Jesica Wulf
+Totalmente. Sí.
+
+[00:05:20.13] - Carlos Iglesias
+¿y hasta qué punto en esa ocasión que dices, esa cultura te hacía sentir más vulnerable o más protegida o no? O al revés, ¿no? O era un espacio de seguridad que te permitió darte la vuelta a tu propio miedo por tu propia autoexigencia.
+
+[00:05:40.24] - Jesica Wulf
+Creo que sí, hay un montón de cosas desde la cultural, desde dónde venimos, o sea, de qué países, y de lo cultural de la empresa y el espacio en el que te rodea. Se construye una cultura sobre el error que cambia mucho dependiendo de cómo es el perfil de las personas que están en esa empresa. Y yo creo que realmente en el último tiempo, eso fue avanzando bastante. No era lo mínimo equivocarse hace 10, 15 años, que hoy, hablando particularmente de la tecnología. Y ese concepto de psicological safety, creo que también tiene que estar del lado de él, poder animarse a equivocarse y poder decir: La verdad, me equivoqué. Y hoy eso creo que se está mejorando bastante, pero también hay algo propio de cada uno de cómo mejorarlo.
+
+[00:06:28.15] - Carlos Iglesias
+¿y qué ha cambiado?
+
+[00:06:30.00] - Jesica Wulf
+Y creo que se le da mucho más espacio a esto culturalmente. Y creo que se entendió también que la mejor forma de avanzar también es cagándola. Creo que hay algo que para mí es muy importante, que ya me meto de lleno, quizás sea algo más como teórico, pero como es minimizar el riesgo. Porque no lo vimos si yo me mando una cagada de millones, que si me mando una cagada de algo pequeñito. Entonces, minimizar el riesgo. Yo me acuerdo que en un trabajo teníamos, no nos pedían como objetivo de negocio, sino nos pedían aprendizajes. No era ni outcome ni output, era aprendizaje. Qué maravilla, ¿no? Sí, teníamos el objetivo de: ¿Cuántos aprendizajes tuviste hoy?. O sea, realmente fue así. Y un poco nos reíamos. Y miraba, saqué a producción un cambio de contenido y me di cuenta que no funciona. Listo. Como que hasta nuestro manager nos decía: Pueden ser vivos y hacer tonterías y traerme cinco aprendizajes en un día. No falta que cambia en el mundo. Y esas cosas y esa estructura también te va marcando el camino y te va organizando lo cultural, esto que decís.
+
+[00:07:37.24] - Carlos Iglesias
+Qué bueno. Esto me lleva a pensar que no sé si es que... Porque me ha llamado la atención cuando decías que hace diez años no era lo mismo que ahora. Y después de escuchar esta historia, me da la sensación de que has elegido muy bien los sitios donde has querido estar. Porque creo que no es muy común eso. Yo no he visto muchos lugares donde se privilegie el aprendizaje por delante de la entrega. Es mi lucha. No paro de luchar contra eso, no paro de toda mi divulgación, digamos, todo lo que hago es como muy enfocado en eso y orientación a aprender, que para mí es la mejor definición de lo que yo entiendo por agilidad. Empresas, equipos, aprendiendo por encima de entregando. Sí.
+
+[00:08:22.16] - Jesica Wulf
+Creo que también se tiene que dar como de vuelta una estructura que te permita, primero que se alineen los planetas para que todo el management entienda lo que es un aprendizaje también y una estructura donde vos tengas ese espacio para aprender, barra, crear y sin romantizarlo, porque también es entendible que una empresa necesita ganar dinero. Entonces, ahí sí aprendan, tampoco tanto, pero yo creo que hay espacios y espacios y momentos y momentos. En ese momento se nos permitió hacer eso, en otro sabía que se haría buscar dinero como sea. Pero sí, también creo un poco como decís, que tuve suerte de encontrar ciertos espacios. Así como Y yo te digo, que independientemente de la cultura, también creo que lo que veníamos diciendo antes, hay algo muy inherente cada uno que es difícil. Es muy vulnerable decir que te equivocaste. Te pones en un lugar muy vulnerable y no es fácil. A mí también me cuesta a veces decir como o pedir ayuda, que también forma parte de eso. Y no estamos acostumbrados. No se nos enseña, o no, por lo menos a cierta edad ya empiezas a armarte, que no te puedes equivocar. Me acuerdo que yo te contaba que organizaba eventos y organizo eventos, y uno es Fuck Up Nights, que es contar sobre fracasos.
+
+[00:09:32.23] - Jesica Wulf
+Sí, lo conozco bien. Y me acuerdo, en todas las empresas en las que fui, me han dicho: Yo quiero que hagamos acá un fuck up night. ¿Y vos qué estuviste? Ayúdame. Yo le digo: Yo no tengo problema, pero ¿vos crees que hay gente acá en esta empresa que se va a parar a contar: Mira, perdí un millón de dólares con esta boludez y enfrente de todos? Yo creo que no. Y ahí es donde empiezan las cosas.
+
+[00:09:53.23] - Carlos Iglesias
+Sí, total. Y otra pregunta Esa pregunta que quería hacerte. Me estaba llevando a pensar esto en la importancia de desapegarte también de lo que haces de alguna forma. Es decir, cuando tú entiendes que tu trabajo es una hipótesis y que esa hipótesis es simplemente una cuestión de validar esa hipótesis o no validarla, de alguna forma, no es que te estés equivocando, sino que estás aprendiendo una forma de no validar esa hipótesis. Puede ser, ¿no?
+
+[00:10:31.01] - Jesica Wulf
+Sí, es revocado, pero te sigo 100%.
+
+[00:10:33.24] - Carlos Iglesias
+Entonces, yo me he encontrado equipos que asumen como un fracaso no validar esa hipótesis. ¿Cómo lo encaras eso?
+
+[00:10:47.12] - Jesica Wulf
+Voy a cambiar un segundo tema, pero tiene que ver, perdón. Claro, dale. Pero es que justo hoy me pensaba que... No me acuerdo dónde lo encontré este dato, así que no googlen. Pero que es... Me acuerdo, como soy Argentina, que había un dato que me parecía importante, que era que en Estados Unidos se valora mucho el hecho de vos armar un startup y venderlo, como que eso es su éxito. Y en Argentina pasaba, o por lo menos en esa época, cuando yo estaba en startup, que en Estados Unidos se valora mucho el hecho de vos armar un startup y venderlo. Como que eso es su éxito. Y en Argentina pasaba, o por lo menos en esa época, cuando yo estaba en startup, que en tires para adelante. Y si vos lo vendías, era un fracaso, porque no pudiste con tu empresa. Y es como muy fuerte esa parte donde a las personas les trigerean los diferentes sentimientos, las distintas situaciones. Hay gente a la cual no valía una hipótesis, le dispara un: Ahora voy a buscar otra cosa para validarte. Y hay gente a la cual les dice: Soy un tarado. Perdón, avísame cuando deje de insultar porque me salé solo.
+
+[00:11:38.16] - Jesica Wulf
+No, está perfecto. Soy un tarado de que no llegué al objetivo y no pude. Y creo, si Volviendo a la línea de metodología de producto, y por lo menos de mi experiencia, y volviendo a lo que comentaba, es cómo minimizas riesgos y cómo haces que ese aprendizaje cueste lo menos posible. Y ahí es donde uno encuentra más certidumbre y menos impotencia al momento de no llegar a validar esa hipótesis de primera instancia.
+
+[00:12:06.22] - Carlos Iglesias
+Claro, que es la visión Lean. Sí, exacto. Claro, vamos a baby steps, vamos a ir haciendo y a ir aprendiendo poquito a poquito y a ir Es que a veces es difícil.
+
+[00:12:19.03] - Jesica Wulf
+Voy a hablar de un concepto que está muy conocido en el mundo, que es el MVP, por ejemplo. Esta conversación lleva a eso. Yo creo que está muy bastardeado el concepto de MVP, y me juego esta frase y que me cancelen todo. Pero digo, está muy bastardeado. Todo es un MVP, si lo querés. O sea, ¿qué es un MVP? ¿Cómo validas? Bueno, lo mínimo. Entonces, para poder aprender... Yo conozco MVP de seis meses. Es un MVP y para esa empresa, sí. Pero hay empresas que no se pueden costear un MVP de seis meses. Entonces, esa metodología lean funciona si se entiende qué es lo mínimo que querés validar y qué forma parte de tu trabajo aprender rápido y chocarte con la pared rápido y lo antes posible para poder salir para pivotear, básicamente.
+
+[00:13:09.20] - Carlos Iglesias
+Es que el concepto de MVP tiene un problema, que es que tiene la P en el nombre. Sí, es verdad. El producto viable. Y es como que todo el mundo entiende que tiene que ser una beta, una versión beta del producto. Y a mí me gusta mucho lo que dice Jeff Wetzel, que hablábamos de él hace un momento. Es que acabo de tener esta conversación ahora con unas personas Y Jeff dice: Bueno, el que ha vendido más libros es Eric Ries. Y entonces, para él se ha ganado el derecho de definir lo que es un MVP. Y Eric Ries define MVP como lo mínimo que puedo hacer para Intentar aprender, validar una hipótesis. Interrumpo un momentito la entrevista para recordarte que Real World es el podcast de Run Room. En Run Room llevamos algo más de un par de décadas ayudando a nuestros clientes en la creación de sus productos digitales, en el diseño y ejecución de estrategias de growth marketing y en la transformación de su customer experience. Recientemente hemos lanzado la Run Room Academy, un nuevo servicio donde llevamos a cabo programas de transformación y formaciones creadas desde nuestra experiencia y práctica real para impulsar tu negocio y elevar a tu equipo al siguiente nivel.
+
+[00:14:23.14] - Carlos Iglesias
+Pese a que en cualquier momento podemos crear para ti una formación in company, tenemos muy cerquita algunas formaciones abierto que te quiero contar. El 13 y 14 de febrero lanzamos Growth Estratégico con IA, una formación presencial que te ayudará a diseñar estrategias de crecimiento orientadas a impacto, usando el poder de la inteligencia artificial. El sábado, 28 de febrero en presencial, en nuestras offices, Lean Product OKR, una guía práctica para OKR centrados en el cliente. Y por último, nuestra formación estrella, Lean Product Discovery, en formato online, todos los jueves de de 5: 00 a 7: 00 de la tarde. Visita runrun. Com/academy y echa un ojo a nuestro catálogo al completo. Ahora sí, te dejo con la entrevista.
+
+[00:15:10.14] - Jesica Wulf
+Te voy a contar una anécdota que me pasó hace poco encima, que fue... O sea, lo que aprendí de esa anécdota es que cada empresa tiene su mínimo de MVP. Y que no es lo mismo para otras empresas. Yo estaba armando una interfaz nueva y que yo quería ir al mínimo. O sea, yo soy una kamikaze del mínimo. O sea, me encanta O sea, guerrera del mínimo. Y a veces no todo es mínimo, y lo que es mínimo para uno no es lo mismo para la empresa. Y me pasó que yo estaba des. Yo quería hacer algo bien, como dicen acá, cutre, porque quería validar que esa pantalla se viera. Ese para mí era mi objetivo. ¿Qué pasa? Yo trabajo en una empresa donde tiene mucha exposición, y la verdad que una empresa así no se puede dar el lujo de tener una cosa tan cutre para salir. Y la verdad que hubo una challenge que fue: No es mínimo esto. Para mí era mínimo, porque técnicamente a mí me permitía validar lo que yo quería, pero es verdad que a nivel de la empresa, con los estándares que tenía, no era mínimo. Y ahí me di cuenta que yo entendí que el chip del MVP también cambia dependiendo dónde estás.
+
+[00:16:11.12] - Jesica Wulf
+O sea, en esa empresa ese producto mínimo era diferente que en otra empresa. Y eso fue para mí... Me cambió mucho el concepto de cómo yo encaraba también los proyectos.
+
+[00:16:24.16] - Carlos Iglesias
+Claro, es que hay un capital, o sea, hay mucho riesgo en una experiencia rota o en un o en un impacto de marca no deseado, digamos. Sí, exacto. Pero al final la idea de... Yo siempre recurro a esas dos preguntas, ¿qué es lo siguiente que tenemos que aprender ahora para validar esta hipótesis? ¿Qué es lo más importante que tenemos que aprender. ¿Y cuál es el mínimo experimento? ¿Qué es lo mínimo que puedo hacer para validar eso? Claro, poner en riesgo un impacto de marca en un punto de interacción de del cliente, del usuario y tal. Claro, eso hace que eso no pueda ser lo mínimo, porque estás sustituyendo un riesgo por otro. Sí. Es interesante.
+
+[00:17:07.15] - Jesica Wulf
+Pero siento, o por lo menos en mi experiencia, no lo veo parte de la conversación. Claro. O sea, todos entendemos que hay que algo muy un poquito y un producto. Sí. Pero, ¿qué es eso chiquito? Claro. ¿Y qué es lo mínimo válido?
+
+[00:17:21.04] - Carlos Iglesias
+Sí, totalmente. ¿Y qué haces cuando tienes demasiadas incógnitas y tienes que decidir? Tienes la presión de tener que decidir.
+
+[00:17:32.10] - Jesica Wulf
+Bueno, back to the basics. Para mí, algo que aprendemos tarde en producto, o por lo menos los que nos armamos más de las trincheras, es entender tu objetivo. O Y creo que si tienes muchas cosas por delante y necesitas organizarte, necesitas entender primero cuál es tu objetivo y para dónde disparás y por qué hay algo más importante que lo otro. Y creo que es algo que yo también trabajo mucho con gente que se quiere pasar a producto y Y es una de siempre las preguntas que surgen, es: ¿Cómo organizo un backlog? ¿Y cómo hago esto? ¿Y cómo hago un MVP? ¿Y cómo mido los.?
+
+[00:18:07.18] - Carlos Iglesias
+Output entregable.
+
+[00:18:08.20] - Jesica Wulf
+Exacto. ¿Cuál es tu objetivo? O mira, la gente que entra como nueva en producto también es como: No, porque ya hice el backlog y pregunté la arquitectura y hablé con el equipo. Y hablaste con tu manager para ver cuál es tu objetivo. ¿Entendés cómo funciona la empresa? ¿Qué es lo que le da dinero a la empresa? Porque esas son los input, la información Y yo creo que cuando estás en el peor momento, con más presión y que tenés muchas cosas para hacer, te ordena. Y también hay algo, me voy por la tangente, pero que me parece superimportante, porque también lo veo mucho en las personas, en personas senior también, pero en muchos en los que empiezan, que es esta sensación de que el product manager tiene que saber todo y tiene que tener la respuesta a todo. Y es algo que yo aprendí también. Me acuerdo cuando era mi primer trabajo, esto es verdad, me iba a dormir el domingo estresada porque el lunes no tenía backlog para la planning. Pero dormir mal cuatro o cinco veces, hasta que alguien me dice: Pero sí, o sea, el rol de producto no es tener todas las soluciones, es saber dónde ir a buscarlas.
+
+[00:19:11.23] - Jesica Wulf
+Entonces, también es parte de eso y creo que de alguna De todas formas, se conecta con este miedo del fracaso y el miedo del error de: No tengo backlog, y no sé cómo hacer mi producto. ¡Ay! Soy un desastre. No, vos tenés que saber dónde ir a buscar los problemas, las soluciones. Buenísimo. Hacerte un benchmark, hablar con la gente de customer service, hablar con tus developers. Yo siempre digo a mis developers: Yo no soy técnica. Si ustedes no me traen los problemas técnicos para priorizar, no puedo armar un backlog técnico. Depende de ustedes.
+
+[00:19:44.08] - Carlos Iglesias
+Es que no puedo estar más de acuerdo, me gusta muchísimo.
+
+[00:19:46.08] - Jesica Wulf
+Terminamos acá, entonces.
+
+[00:19:47.04] - Carlos Iglesias
+La verdad que estamos demasiado alineados, me lo haría un poquito menos de...
+
+[00:19:51.17] - Jesica Wulf
+Ahora digo algo polémico, lo termino.
+
+[00:19:53.19] - Carlos Iglesias
+No, pero es verdad, es que coincido mucho y lo hemos hablado en este podcast varias veces ya. Y la idea también de la obsesión por el backlog y que hay personas que viven en el backlog, digamos, y no en el valor o no en el impacto. Y lo importante que es tener claro, me gusta mucho como lo has dicho, el Saber dónde hay que ir a buscar. Y yo, como yo lo entiendo y me gustaría saber si tu perspectiva se parece a esto, para mí, saber dónde hay que ir a buscar significa entender cuáles son las métricas de impacto, en el sentido de decir: ¿Tu producto, qué estamos buscando? Estamos buscando adherencia Estamos buscando viralidad, estamos buscando qué es lo que necesitamos en este momento. Y a partir de ahí, cuáles son los cambios de comportamiento que esperamos. Claro, cuando tú tienes eso claro, eso es como la pista de de rizaje, de todo lo demás.
+
+[00:20:46.19] - Jesica Wulf
+No, estoy totalmente de acuerdo. Volviendo a lo mismo, vos no tenéis que tener las soluciones, pero tenés que también tener la luz que guía a la gente que te va a traer esas propuestas. Creo que es muy importante eso que decís, totalmente de acuerdo.
+
+[00:21:01.01] - Carlos Iglesias
+¿y tú cómo creas impacto?
+
+[00:21:03.24] - Jesica Wulf
+En el trabajo, creo que agrego impacto en el trabajo, en estas cosas particularmente. O sea, cuando encuentro los problemas que necesitan ser resueltos. Soy una persona que a veces molesta mucho, pero que soy esa persona que cuando me decís: Necesito el botón rojo, y yo te digo: ¿Para qué?.
+
+[00:21:27.11] - Carlos Iglesias
+¿para qué?.
+
+[00:21:27.24] - Jesica Wulf
+Que es típico de libro, pero lo hago de verdad, porque realmente no es que no confíe en tu botón rojo, es que realmente creo que quizás te levantaste pensando que era eso y nada más. Y está bien, es humano, a veces uno se enamora de la idea, pero yo siento que genera impacto en esos pequeños momentos donde rompa un poco la estructura. ¿Para qué? ¿Y qué objetivo estaba buscando con esto? Y si nos juntamos a... Diez minutos más, pero si nos juntamos a pensar más allá de esto, creo que así es mi forma de Y dar impacto, por lo menos en lo laboral.
+
+[00:22:02.17] - Carlos Iglesias
+Qué guay. Me gusta, yo eso le llamo remarcar la conversación. Okey, me gusta. Remarcar la conversación, porque es como que hay una creencia también. Bueno, no sé si es una creencia, Pero sí que se escucha mucho, hay que aprender a decir que no. O no, a mí no me digas la solución, a mí dime el problema. Y en muchas ocasiones te falta mucha información para entender el problema, para entender una solución, para entender. Pero creo que sí que es importante y tiene mucha relación con lo que decías, precisamente con entender hacia dónde hay que mirar en cada momento. Remarcar la conversación para mí significa eso, decir: Okey, ayúdame a entender cómo esto va a impactar en esto.
+
+[00:22:43.02] - Jesica Wulf
+Y usando la palabra que acabas de usar de ayúdame a entender, yo uso mucho la frase ayúdame, ayudarte, que relacionado con esto cuando hay muchos pedidos, cuando hay mucha presión, es como esto de que el rol, de alguna forma, nos enseñaron a aislarnos y sentirnos solos. Y que no estamos, no digo todos, pero que hay algo que no entendemos del todo, que es al revés. Tenemos que ser parte de esa conexión y ser un poco los que manejamos la orquesta, pero entendiendo que también están los otros que saben mucho. Y cuando vienen muchos pedidos, que es la típica, que uno se abruma por la cantidad de pedidos, que no sé qué, y no es fácil, no estoy diciendo que es. Escucha esto que te voy a decir. Pero el ayudarme, ayudarte, es como: Yo entiendo que para vos eso es importante, pero necesito que me ayudes a entender por qué, porque yo necesito venderlo y priorizarlo, porque a mí me van a preguntar por qué esto está priorizado. Entonces, no te tomas 10 minutos y me explicas por qué. Y por ahí en esa conversación no te diste cuenta y aparece como: ¿Estás seguro que Que era el botón rojo.
+
+[00:23:47.09] - Jesica Wulf
+Esto es lo que más me gustó. No lo había pensado. No me sale siempre, tampoco me había... Pero no sé, como ese espacio. Y también generar esa confianza para que se te abra la puerta porque es lo que vos decís. O sea, no puedo estar diciendo a todo el mundo: A ver, explícame. No, explícame, porque hay momentos en lo que tienes que callar la boca y decir: El botón rojo, dale, el botón rojo. Pero hay que saber lograr y entender dónde y cuándo y cómo, que eso también es muy importante.
+
+[00:24:18.05] - Carlos Iglesias
+Ahora estamos hablando de un problema también viejo conocido, de cómo decides cuando todo es importante, cuando hay un montón de cosas y todo es importante. Y antes me has volado un poco la cabeza porque me has cambiado la perspectiva. Yo te iba a hacer esta pregunta, pero en realidad la respuesta que me has dado, me decías: Yo he pasado momentos en los que no tenía backlog. Enfrentarte al vacío, eso yo no lo he vivido. Enfrentarte al vacío y decir: Hostia, ¿y ahora qué hacemos?. Normalmente me encuentro con la otra perspectiva, con la perspectiva de decir: Todo es importantísimo, todo es tal, y qué priorizamos y qué tal. Y la respuesta es la misma. Sí. Interesante, es superinteresante esto.
+
+[00:24:59.15] - Jesica Wulf
+Me gusta. Es muy loco, es verdad. Nunca me había pensado que la situación de no tener backlog, pero creo que es más un poco eso de que también tantas cosas te generan un backlog vacío. Porque el backlog es trabajo planeado, craneado. Y no sé, en cada empresa es diferente, pero donde yo trabajo tenemos el proceso de upstream y downstream, o sea, el dual track, donde vos tenés un proceso de discovery, no sé qué, y cuando ya está todo masticado y validado y tal, se manda a lo que ya es el backlog en sí, que ya es directamente el desarrollador empezar. Y a veces te pasa que tenés tantas cosas, tantas ideas, tantas propuestas, tantas cosas, que se te empieza a trabar el upstream y te quedás con un backlog vacío, no porque no haya nada para hacer. Es que hay tanto y hay tantas prioridades, y en mi caso, trabajo en una empresa muy grande donde hay muchas complejidades. Nada es cinco minutos, nada es como: ¿No me pones el botón rojo?. Y a veces son dos semanas de análisis, ¿por qué ese botón rojo se conecta con otro, no sé qué. Entonces, es muy probable.
+
+[00:26:03.03] - Jesica Wulf
+Yo hablo de un lugar de empresa grande también. Yo sé que la empresa más chica... Tampoco te puedo... Yo trabajé en empresa chica y no puedes no tener un backflow vacío. Por eso mismo te cuento que los domingos no dormía por eso, pero pasa.
+
+[00:26:16.18] - Carlos Iglesias
+Vale, voy a tocar una... Mira, igual hemos encontrado un punto aquí de divergencia, vamos allá, va. Me estoy preparando. Has hablado de dual track agile. Sí. Y es un punto que me interesa bastante La primera vez que escuché hablar de dual track agile, no sé cuántos años hará, pero unos cuantos, creo que fue una conversación entre Marty Keigan y Jeff Pato, algo así. Luego, eso se popularizó, el concepto se popularizó y hay una gráfica muy popular que muestra los dos tracks, un track de discovery arriba y un track de delivery abajo. Y eso se ha interpretado como que dos equipos distintos están trabajando en tracks distintos. Esto aprendemos, consolidamos el aprendizaje y entonces se lo pasamos a ingeniería o a desarrollo del producto para qué tal. Cuando yo soy de la escuela, o lo voy a decir así, o al menos lo que yo defiendo es el continuous discovery, continuous delivery en dual track. Es decir, un equipo multifuncional, un equipo crossfuncional que a veces está haciendo discovery y a veces está haciendo delivery y a veces se mueven entre los dos mundos.
+
+[00:27:28.12] - Jesica Wulf
+Estoy totalmente de acuerdo. Lo siento, no vamos a discutir acá. No, que estoy de acuerdo porque es muy... Porque si no es un Waterfall tapado.
+
+[00:27:38.15] - Carlos Iglesias
+Claro, un waterfall por Sprints.
+
+[00:27:40.20] - Jesica Wulf
+Claro, exacto, es un disfrazado. Un waterfall por Sprints, correcto. O sea, vamos todos a un momento y después desarrollo. Y además hay un valor tan grande, acá me voy a ganar todos los developers, pero lo digo en serio, hay un valor tan grande de tener una persona técnica en la conversación de Upstream. Yo me acuerdo, no me olvido más, esto fue que te da vergüenza. Una reunión de esas salas pomposas, todos cinco personas hipotecizando de: Hay que hacer esto y hay que hacer lo otro, una hora y media, no sé qué. Pasa uno de los chicos del equipo técnico, pero uno de ni senior: ¿En qué andan?. Y le digo: No, es que estamos acá trabados, ¿por qué no sabes?. No, pero esto es una configuración del backend y se arregla. Y fue como: No puedo creer. Claro. Y esto fue. Sí. Nadie habló nada, dijimos: Arréglalo ahora, por favor.
+
+[00:28:29.07] - Carlos Iglesias
+Hasta luego. Claro, ¿Qué es que es eso. Es que... O sea, la idea de... Hablábamos de: Vamos a intentar matar esta hipótesis, vamos a intentar entender qué es lo siguiente que tenemos que aprender y ¿Cómo vamos a.? Y que es lo mínimo que podemos hacer para aprender eso, para validarlo. Tener un equipo funcional con una única perspectiva de diseñador, UX, UI, researcher, lo que sea, una única perspectiva, es tan pobre en comparación con tener un equipo diverso con distintos roles que están observando la misma hipótesis y están diciendo: No, es que esto es una variable en la configuración del no sé qué.
+
+[00:29:16.24] - Jesica Wulf
+Claro. Y creo que ahí también tocas algo que toca una fíbre humana también muy fuerte, porque que son esto de los roles y los límites en estos míos, estos tuyos, que también hay que tenerlo muy claro con un equipo así. ¿Cómo me estaba oliendo. Se ponían a llorar. Estoy ahora mismo en un proceso de acompañamiento. Pero hay que armar un equipo donde... A mí, por ejemplo, me gusta mucho meterme en la parte técnica, no porque desarrolle, pero me gusta, me gusta mucho la lógica. Y no sé si cualquier equipo se banca que yo digo: ¿Y por qué pusiste la configuración así?. Y que le arme yo la arquitectura y le diga: Esto funciona así. Y lo vas armando, es una confianza que se va armando. Y lo mismo me pasa a mí cuando viene el UXer y me define el producto. Y yo quizás cuando era más chica era como: Se están metiendo. Y ahora es como... O sea, uno tiene que velar por encima de su ego. Y yo decimos siempre una frase que era como: Yo no quiero hacer bien mi trabajo, yo quiero hacer buenos productos. Y si Pensar en buenos productos implica que yo tengo que dejar lugar al desarrollador que sabe más de esto.
+
+[00:30:20.09] - Jesica Wulf
+No soy menos o más product manager, soy mejor porque el producto es mejor. Entonces, es difícil, no lo estoy diciendo con una liviandad de psf, porque Porque también hay gente difícil, o sea, he trabajado con todo tipo de perfiles, pero hoy, por suerte, tengo la suerte de tener un equipo en el cual, hace varios años ya, que me toca este tipo de perfiles y creo que también, de vuelta, volviendo al inicial, la cultura de trabajo tiene que permitirlo. Es superimportante.
+
+[00:30:47.19] - Carlos Iglesias
+Es difícil por eso y además, yo a veces me lo encuentro... Claro, mi rol es... Yo en muchas ocasiones nos dedicamos a acompañar a empresas a mejorar la forma en la que hacen producto. Y ahora se me ocurre un caso, que tampoco quiero decir demasiado, porque tampoco quiero que nadie se sienta atacado, pero ahí ahora mismo tenemos un caso encima de la mesa, donde está pasando esto de alguna forma, de entrar en negocio, entre distintas áreas. Y el problema, aparte de lo que tú has dicho, para mí también hay un tema de autoridad. Porque si tú no tienes la autoridad y no tienes la capacidad o alguien no te da el bastón de autoridad, es imposible. No hay otra forma de hacerlo. Y a veces es difícil y también es difícil ganarse la autoridad.
+
+[00:31:42.13] - Jesica Wulf
+Esa es difícil, sí. Es muy difícil, sin palabras.
+
+[00:31:49.17] - Carlos Iglesias
+¿qué rituales o qué procesos te ayudan a detectar riesgos, a detectar puntos ciegos antes de lanzar algo?
+
+[00:31:59.12] - Jesica Wulf
+Bueno, conectando con lo que te contaba al principio de esto, de este aprendizaje, el gran aprendizaje que yo tuve, que es... O sea, todas las empresas se mandan cagadas y fallan. Yo cuento siempre una anécdota que me encanta, que es Instagram, que se quiso parecer a TikTok y que había cambiado todo el feed y todo, y de golpe hasta los famosos más grandes diciendo: Make Instagram, Instagram again, no sé qué, y hicieron rollback. Y vos decís: Instagram se mandó eso. ¿Y por qué yo no me puedo equivocar? Entonces, ¿por qué que son mejor que Instagram, que no me puedo quedar. Entonces, ya si te implementas así, ya hay... Ese para mí es un framework, pero voy a darte más información. Pero digo, ya hay desde la humildad decir: Acá, ¿qué voy a pasar?. Entonces, hay dos o tres cosas que a mí me gustan mucho hacer. Una que es más del equipo técnico, pero yo también la hago a veces, que es el... Se me fue la palabra. Dependency Map, o sea, mapa de dependencia. Lo hace mucho mi equipo técnico, en general equipo técnico, que es dependencia de todo tipo, de módulos y tal, de arquitectura.
+
+[00:33:03.00] - Jesica Wulf
+De arquitectura. Exacto. Y son tonterías, pero particularmente en empresas tan complejas, y en otras no tan complejas también, tenerlo visualmente te permite darte cuenta: Uy, no vi esto. Y me Nos pasó en una época, me acuerdo que había un proyecto que yo estaba liderando, que era reducir llamadas por un proceso. Entonces, habíamos rediseñado todo el proceso y estaba superlindo y no sé qué y no sé cuánto. Salíamos a y: Ay, ¿cuánta gente que está funcionando acá, no sé qué. Y nos habíamos olvidado de chequear que había un equipo que mandaba los mails de confirmación, que no lo tuvimos en cuenta y que no se mandaban esos mails de confirmación, y que cuando todo el mundo marcaba y cancelaba ese proceso. Claro, era una baja del número, pero a los dos días teníamos una cantidad de llamadas de teléfono, porque no sé qué pasó con mi proceso, no me llegó el mail de confirmación. Entonces, este tipo de mapping de sistemas, pero también equipos y de dependencias, ayuda mucho a evitar ese error. Eso es más reactivo. Sí, es reactivo, es previo al error. Ahí estás haciendo minimizar riesgos de errores. Una vez que ya la cagada está mandada, que eso es lo que más a mí particularmente me preocupaba y que es donde yo creo que aprendí mucho, hay dos o tres cosas que a mí me gustan mucho.
+
+[00:34:24.20] - Jesica Wulf
+Una que implementé hace, creo que el año pasado en un proyecto muy grande que me gustó mucho, que fue esto de definir threshold en sanity Metrix. Solo por las dudas, nosotros en los A/B testing o en cualquier tipo, lo cuento en general para la audiencia, tenemos una métrica principal y después métricas de sanidad o sanity, que son, por ejemplo, yo quiero subir la conversión. Bueno, pero por subir la conversión no me quiero cargar el revenue, no me quiero cargar el attachment, etcétera. Entonces, sanity. Hay ciertos proyectos que tienen mucha sensibilidad. Entonces, nosotros, lo que yo armé con ese proyecto y con el equipo, son tres holds de decir: Bueno, esta sanities, hasta 1% abajo me la banco, pero menos no. Y eso nos permitía también nosotros entender y alinear a todos los equipos con los que trabajamos, que hay que estar mirando eso para que no se rompa, porque la primera que se empieza a romper, esto no puede pasar y hay que frenar todo.
+
+[00:35:17.06] - Carlos Iglesias
+Hostia, me parece muy interesante esto.
+
+[00:35:19.18] - Jesica Wulf
+Te doy una vuelta más, porque sobre eso... Nosotros decimos en la Argentina: Te canto el retruco, pero después te lo explico. Te canto el retruco, Y otra que es con esa threshold, también tenemos una que es el Stop the Test Metric, que es, creo que más para empresas grandes es más necesario, porque tenemos mucha gente, muchos stakeholders, muchos equipos para alinear y una decisión de parar un test implica por ahí tener una reunión de una hora y no sé qué. Nosotros teníamos una métrica que era: si esta métrica toca, no sé, menos 5%, no preguntas a nadie y vos frenas el test.
+
+[00:35:56.03] - Carlos Iglesias
+Claro.
+
+[00:35:57.05] - Jesica Wulf
+Y se acabó. Y no hay reunión, que si el CEO me avalida, que no sé qué. Y esas cosas, por más de que además te da tranquilidad porque decís: uf. Porque a mí me pasa, es como: Che, están en 4. 9, ¿eso es mucho o es poco? Y no sé, bueno, a ver, pregunto. Y en el medio estás dos semanas rompiendo todo. Esas cosas son las que también te da tranquilidad de poder saber que tenés herramientas para... Bueno, esto, la vas a cagar, pero vos vas a evitar que ese error se disperse a lo largo del tiempo, porque el problema es ese. O sea, que es lo que... No es solo evitar... O sea, el error lo vas a tener seguramente, pero es cómo te das cuenta de que existe ese error y cuándo te das cuenta. Porque no es lo mismo tener un 5% de calidad de conversión, dos horas que tres semanas. Y ahí está el punto.
+
+[00:36:45.04] - Carlos Iglesias
+Me gusta mucho. Y no solo por esto que dices, que te lo compro al 100%, la tranquilidad ante un error y ante el fallo, sino también porque a veces Entonces, pasa que tenemos, vamos a llamarle una OMTM, estamos enfocados en una métrica concreta que nos importa en este momento y eso es lo que queremos batir. Entonces, vamos a estar aprendiendo y experimentando para impactar en esa métrica. Y claro, esa métrica te puede pasar el efecto a mí, yo lo llamo el efecto PIB, el efecto PIB de un país, que de alguna forma, en este mundo, en este sistema capitalista que nos hemos montado, estamos equiparando el PIB a la calidad de vida de las personas, cuando en muchas ocasiones no tiene nada que ver. O al menos no hay una correlación evidente. Y me gusta mucho esa idea de tener en métricas higiénicas, ¿se podría traducir?
+
+[00:37:50.11] - Jesica Wulf
+Sí, sanidad, sanidad.
+
+[00:37:52.04] - Carlos Iglesias
+Sí, sanidad, higiénicas. Que de alguna forma nos garantizan, oye, sí, estás subiendo el PIB, pero ojo, porque te estás cargandoClaro, se murió la mitad de... El CO₂, estás emitiendo CO₂ a un ritmo de no sé qué. Entonces, efectivamente, se murió la mitad de tal o la gente no llega a fin de mes. Y eso me parece que es interesante también cuando estás dirigiendo un producto y O estás intentando que la estrategia del producto impacte en la estrategia de la compañía. Tener claro cuál es esa estrategia y cuál es ese...
+
+[00:38:26.23] - Jesica Wulf
+Eso que no puedas romper. Claro. O que no se podrá romper tanto.
+
+[00:38:30.10] - Carlos Iglesias
+Claro. Me parece superinteresante y me lo voy a quedar. Perfecto. Gracias. Te lo presto. Me he aprendido cosas ya. Fantástico. Luego está también el momento de saber cuándo acaba algo, el momento de cuándo algo ya es suficiente. ¿Cuándo es suficiente? ¿Cuándo podemos parar de aprender aquí? En el vida, en producto, me imagino. En producto. ¿Cuándo podemos parar de aprender aquí?
+
+[00:38:55.21] - Jesica Wulf
+Esa pregunta, sabes que es muy de entrevistas. Te lo digo porque... Entrevistas de trabajo. De trabajo, sí. No, no, de podcast. Me acuerdo en una época que era mucha entrevista, que era como... Había una que siempre me mataban a mí y mis amigos y mis amigas y era: ¿Cuándo paras de iterar?. Y para mí hay una respuesta muy clara que es, depende, como toda respuesta de product manager, y es como costo-beneficio. O sea, ¿cuánto beneficio te va a dar esa hipótesis y cuánta certeza tenés de que esa hipótesis te va a dar ese beneficio que crees. ¿Puedo estar un año iterando? Y depende. Yo me pasó tener productos que estuve testeando un año y medio y seguir intentando. ¿Por qué? Porque el costo de hacer ese producto primero fue altísimo. Entonces, más vale que intentemos a todo lo que va. Y porque había una olla de oro ahí que parecía que había algo. Y sigamos intentando. Pero la verdad que llega un momento en que el costo y el beneficio no marchan y que necesitas empezar a invertir esa de capacidad de gente y de tiempo en otra cosa. Entonces, es muy difícil decirte cuándo en el sentido de: Bueno, a los dos meses.
+
+[00:40:08.16] - Jesica Wulf
+Me acuerdo que hay una métrica en videojuegos que es Creo que es esa, pero como que si a los siete meses tu juego no enganchó, lo tenés que matar. Y conozco una empresa muy famosa en Argentina que el dueño siempre dice: Mi juego arrancó a los diez meses. Y si me hubiese basado en esa métrica, hoy no estaríamos acá. Entonces, es como: Yo no te puedo decir una regla, es muy difícil. Pero hay algo en el cual que vos sí tenés que sentarte con tu equipo, con tu manager, con el CEO, con lo que sea y decir: ¿Cuánto queremos invertir? ¿Hasta cuándo? ¿Y qué indicios necesito saber para decir: Sigo metiendo dinero acá?
+
+[00:40:45.16] - Carlos Iglesias
+¿o no? Claro, pero cuánto queremos invertir es una pregunta que, desde luego, tenemos que tener clara, por decirlo.
+
+[00:40:50.22] - Jesica Wulf
+Sí, pero no siempre. La verdad.
+
+[00:40:53.14] - Carlos Iglesias
+Sí. ¿Cuál es el mayor riesgo que has en producto?
+
+[00:41:02.18] - Jesica Wulf
+No sé si es el mayor riesgo, pero sí es algo que me... ¿Viste esas cosas que te persiguen?
+
+[00:41:10.24] - Carlos Iglesias
+Te dolió.
+
+[00:41:12.24] - Jesica Wulf
+Sí. Que fue muy personal también, que tú hace varios años ya fue en otra empresa, que había una funcionalidad que todos estaban alineados y que querían hacer, y que yo no le entendía el valor ni no se lo encontraba. Y para mí no tenía sentido sentido. Eran muchos meses de desarrollo de algo que yo nadie me podía explicar cuánto valía, qué me daba. Y era como que se notaba que era más por diversión. No sé si era eso, pero yo sentía eso. Y yo me fui con el libro abajo del brazo y a decir: Acá me tienes que mostrar el impacto y no sé qué. Y hice todo. O sea, jugué una batalla muy fuerte contra mucha gente que no tenía sentido para no hacer una iniciativa, que después se hizo y funcionó. Después lo podemos charlar. Pero fue un riesgo muy fuerte en el sentido de que me peleé con gente, tuve discusiones, todo porque yo me había quedado en que había que hacer como yo había aprendido, que era impacto, impacto, impacto. Y a veces el libro hay que guardarlo en el cajón y entender que una tiene que poder sentarse en la mesa y decir: Mira, yo creo que esto así no va.
+
+[00:42:26.13] - Jesica Wulf
+Pero si todos están de acuerdo, vamos para adelante.
+
+[00:42:29.08] - Carlos Iglesias
+Como ahí tú disagree, ¿no?
+
+[00:42:30.18] - Jesica Wulf
+Exacto. Y me costó muchos meses darme cuenta que eso fue un gran error de mi parte. Y aprendí mucho de eso, muchísimo. Hoy en día, ya me empiezo a dar cuenta. Cuando te das cuenta que está pasando de... ¿Sabes qué? Dale, vamos a hacerlo. Y para mí eso fue riesgoso en el sentido de hoy, con el diario El lunes, te digo, fue riesgoso porque yo fui con en mi libro y diciendo: A mí, Martin Kagan me enseñó en el Internet, ¿cómo vamos a decir lo que Martin Kagan hizo que no está bien?. Y todos me miraban como: Bueno, Jessica, pero está... Jefe, manager, C-Level, no sé qué, querían hacerlo. Y yo como: No sé, ni siquiera sé si era por inesperado, no sé, no la vi, no entendía cómo se movía. Y hoy en día, más allá de si creo que estaba bien o mal, la decisión creo que es un aprendizaje muy fuerte. Y que Bueno, no sé, que son cosas de esas de riesgo en el sentido de tomar esas decisiones que te marcan.
+
+[00:43:36.12] - Carlos Iglesias
+Ostras, pues es que me pongo en tu situación, claro, no es imposible ponerme en tu situación. Pero no sé si... O sea, me veo reconocido ahí también, no sé si hubiera luchado fuerte contra eso. Supongo que también depende de la edad que tienes y de la energía que te queda.
+
+[00:43:52.14] - Jesica Wulf
+Y eso lo cuento también porque hay como una ilusión en el de producto y de los que empiezan en producto, que es esto el del libro, que el baclo se arma así. Hay una pelea, un mito que me gusta derribar, que en una época se puso muy de moda de que no hay que hacer roadmap. El roadmap no funciona, no sirve. Y todos salimos así: No, no hay que hacer roadmap. No, decir al CEO que no le voy a hacer un roadmap, porque yo hago outcome, si no te puedo decir lo que voy a hacer, me lo va a decir el usuario. Y la verdad que un día me hice un clic y dije: Pero si yo fuera CEO de la empresa, yo necesito entender qué está haciendo mi equipo. O sea, por mal de que después no funcione, armar un roadmap, por eso para mí es algo importante. Después se puede definir cómo, cuándo, qué, etcétera. Y ahí es donde digo que hay una ingenuidad, quizás, no sé, que nos pasa mucho cuando empezamos en producto, que es el libro. A mí el libro me dice esto, tengo que priorizar así, el backlog es esto.
+
+[00:44:55.18] - Jesica Wulf
+Y me pasa mucho. Yo hago mentoring de mucha gente que me dice el producto, que viene y me dice: Me leí cinco libros y sigo sin entender cómo hacer producto. Y porque hacer producto es una caja de herramientas como cualquier otra. Los libros son una caja de herramientas, pero se aprende también haciendo. Y se aprende también entendiendo que esto, que uno se va a mandar las cagadas y que tiene que aprender de eso.
+
+[00:45:18.12] - Carlos Iglesias
+Sí, a veces... Bueno, también hay algo que me interesa también y me gustaría saber un poco tu experiencia en esto. Es que ese equilibrio entre intuición y Y datos, o qué pasa cuando en intuición no hay datos, que me decías este ejemplo. No sé, ¿cómo lo vives esto? No te he hecho ninguna pregunta.
+
+[00:45:44.24] - Jesica Wulf
+No, no, no, no, pero entiendo por... Te voy a responder igual.
+
+[00:45:47.21] - Carlos Iglesias
+Te lo tiro.
+
+[00:45:48.24] - Jesica Wulf
+No, pero es interesante. No creo que la tenga clara, porque si voy con el libro, o sea, tengo que ir con data. Y primero hay una cosa muy importante, es que no todas las empresas se pueden can afford, se pueden costear. No me sale. Costear, sí. Costear. Tener una base de datos fuerte, estructurada, bien armada, disponible. Y a veces no tienes tiempo para ir a buscar esa data, por más de que la tengas, que me pasa. Por más de que tenga mucha búsqueda, mucha data, mucho todo, a veces hay que tomar decisiones sin tanta data. Entonces, creo que ahí, más que intuición, que en realidad es una intuición que viene por la experiencia, pero vuelvo a lo mismo, esto de: ¿En dónde?. Porque si es algo que no me va a romper nada, igual voy más por ahí. Pero si el riesgo es muy alto, ya estamos hablando de otra cosa. Entonces, es difícil responder, porque Hay mucha gente que se juega la intuición, pero ¿cuántas veces podés ir con la intuición y que te salga bien? Hay que tener cuidado. Para mí, vale. Yo creo que para mí vale, o sea, yo creo que vale, pero tenés que saber jugar la sacasta, no podés decir: La sentí, porque creo que es esta.
+
+[00:47:02.07] - Jesica Wulf
+Un número tenés que tener, algo, no sé, googiaste cinco minutos y buscaste un research de algún lado. Hoy en día está lleno de información, quizás no la que necesitás, pero no poder ni siquiera tener un... Mira, hay 5000 búsquedas el último mes del competidor. Por eso digo que quizás pecamos por querer tener la data, la mejor información, pero tiene que haber algo que te dé soporte, porque si no, estás como en el aire.
+
+[00:47:32.23] - Carlos Iglesias
+Es que para mí, de alguna manera, la intuición es como una herramienta más, es fantástica, o sea, supera favor de la intuición, pero no deja de ser como una chispa de encender una hipótesis. O sea, para mí una intuición, hostia, creo que esto va por aquí, pero... Vale, vamos a arrancarlo.
+
+[00:47:50.01] - Jesica Wulf
+Yo digo mucho la expresión hay olor a que es por acá. Claro. Porque es como... Creo que... Claro. Pero...
+
+[00:47:59.05] - Carlos Iglesias
+Claro, es que eso es parte de, yo creo, es parte de tu talento como product manager, como product designer o como lo que sea.
+
+[00:48:04.23] - Jesica Wulf
+Sí, la experiencia. Claro. A mí me pasa mucho, diciendo esto, que me pasa mucho que en conversaciones digo: Mira, lo voy a validar, pero a mí me huele a que... Me huele que Y porque hay cosas que son, no sé, esto está todo roto. Voy a validar con datos que está roto. Está todo roto, qué sé yo. No sé, no hay mucho que validar, pero bueno, quizás sí validas otras cosas de eso. Por eso digo, es una conversación más que un: Sí, data, no data.
+
+[00:48:31.20] - Carlos Iglesias
+Jessica, ¿te quedas con ganas de decir algo?
+
+[00:48:37.11] - Jesica Wulf
+No.
+
+[00:48:37.21] - Carlos Iglesias
+Yo creo, te lo digo de verdad, creo que lo hemos dicho todo.
+
+[00:48:41.13] - Jesica Wulf
+Sí, por eso. Te lo digo en serio. Te puedo hablar muchas horas más.
+
+[00:48:43.24] - Carlos Iglesias
+Es una tontería lo que acabo de decir, pero que hemos dicho, o sea, que hemos hablado de un montón de cosas, yo creo que muy importantes. O sea, no en todos los episodios, no en todos los episodios, tocamos tantas cosas realmente que para mí, o sea, es muy insightful este episodio, de verdad te lo digo. Me alegra mucho.
+
+[00:49:04.23] - Jesica Wulf
+Está muy bien. De verdad, creo que si bien tocamos muchos temas, como decís, hay algo ahí como en el medio de esto de lo cultural y del fracaso y de cómo enfrentar situaciones difíciles que creo que dije que no tenía nada para decir, pero sí. ¿Ves? Pero que creo que es algo que tenemos que seguir explorando y que quizás, acá voy a meter un poco de lo que hago también, que es Es aprender en comunidad también. Me pasa mucho que me dicen: No, porque mi empresa no se hace bien producto o no tengo de quién aprender. Búscalo afuera. Está lleno de comunidades de producto, de gente tan amorosa y tan disponible y con ganas de enseñar. Porque a mí me pasa mucho. Yo tuve la suerte, la verdad, y esto lo digo de dar honestidad, de tener manager que me enseñaron mucho. Y un día me pasó que me di cuenta que no todo el mundo le pasa. Y ahí fue cuando dije: Igual tengo que ayudar, así como me llegó a mí, tengo que ayudar a otro. Y así como yo, hay mucha gente. Entonces, es como salir afuera, pedir ayuda, correrse un poco del lugar de tengo que ser perfecto el product manager porque tiene que salir todo bien y crecer, porque eso te permite crecer.
+
+[00:50:16.09] - Carlos Iglesias
+Fantástico. Muchísimas gracias.
+
+[00:50:18.24] - Jesica Wulf
+Por favor. A ustedes.
+
+[00:50:21.17] - Carlos Iglesias
+La conversación con Jessica nos deja una lección fundamental de pragmatismo y resiliencia. El verdadero seniority en producto no se demuestra cuando todo va bien, sino en la capacidad de mantener el foco y la calma cuando las incógnitas nos rodean. Jessica nos ha recordado que el riesgo cero no existe y que intentar alcanzarlos es el camino más rápido hacia la parálisis. Lo valioso no es tener todas las respuestas antes de empezar, sino tener los rituales adecuados para detectar riesgos a tiempo y la valentía para decir basta al perfeccionismo en favor de aportar valor real. Al final, gestionar producto no trata de no equivocarse nunca, sino de saber corregir rápido, decidir qué batallas no pelear y aprender a navegar la incertidumbre con decisión. Un fuerte abrazo y os espero en el mundo real.
+

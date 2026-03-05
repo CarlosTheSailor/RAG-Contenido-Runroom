@@ -1,0 +1,426 @@
+[00:00:02.040] 
+La vida social está asentada en la autoridad. Desde una perspectiva humana, la evolución alcanzó un momento crucial cuando los animales empezaron a vivir en grupos y la autoridad y sus precursores. La dominancia y la sumisión lo hicieron posible. En las sociedades primates podemos encontrar estructuras de dominancia que van desde jerarquías rígidas a fluidas. Los clanes de gorilas de los frondosos bosques de las montañas africanas pivotan alrededor del espalda plateada, que suele ocupar un lugar prominente en el grupo.
+
+[00:00:46.680] 
+A menudo en el centro espacial desde el que domina la atención del clan. No sólo toma un rol protector del grupo frente a depredadores, sino también mantiene la estabilidad mediando en posibles agresiones entre sus miembros. Son sociedades altamente jerarquizadas, donde, al contrario de la creencia popular, la jerarquía de dominancia no comporta lucha y disensión, sino que proporciona paz dentro del grupo, ya que relega a cada miembro a un cierto estatus y posición. Cada animal sabe exactamente dónde se encuentra en relación con todos los demás animales.
+
+[00:01:32.860] 
+En contraste, los chimpancés tienen un sistema social mucho más fluido, con ricos y sofisticados patrones de coalición política. Luchas intercomunal es. Mecanismos de resolución de conflictos. Sabías que decide en dónde viajar de forma descentralizada? La función del macho dominante, el alfa, en este caso está más relacionada con la coordinación del resto de machos, con el objetivo de mantener los límites de la comunidad, que puede llegar a alcanzar más de un centenar de integrantes. Sin embargo, tanto en las sociedades de chimpancés como en las de gorilas, los miembros dominantes comparten al menos cinco funciones sociales:
+
+[00:02:18.130] 
+elegir la dirección del movimiento del grupo; proteger al grupo de depredadores; orientar a los miembros en sus respectivos estatus y posiciones; controlar el conflicto y mantener las normas, incluyendo normas de apareamiento y asignación de recursos. Podemos extraer algunos aprendizajes interesantes de los primates sobre la naturaleza inherente de la dominación. Hoy charlamos con Ignacio Martín Maruri, consultor experto en liderazgo y transformación organizacional sobre autoridad, liderazgo, dominación, poder. ¿Cómo se consigue? ¿Cómo se pierde? ¿Es necesario?
+
+[00:03:01.140] 
+Soy Carlos Iglesias, CEO en Runroom y profesor en ESADE Executive Education, donde dirijo los programas Business Agility y Business Innovation. Os doy la bienvenida a un nuevo episodio de Realworld, el podcast sobre innovación centrada en las personas.
+
+[00:03:36.650] 
+Estoy seguro que los y las oyentes más veteranas habéis levantado una ceja al final de la entradilla. ¿Cómo que innovación no sé qué. ¿Qué ha pasado con lo de el podcast sobre Customer Experience y Negocio Digital? Os cuento. Tres años han pasado desde el arranque de este podcast. Hace ya algún tiempo que siento que la línea editorial que he ido tomando ha limitado en cierta manera algunos temas que me gustan por no estar del todo alineados ni con la experiencia de cliente ni con negocio digital en sí mismo.
+
+[00:04:13.080] 
+Y dándole vueltas, me doy cuenta de que en realidad todos y cada uno de los episodios que he publicado hasta hoy tienen que ver precisamente con la innovación. Innovación a nivel de experiencia de cliente, a nivel de operaciones, de procesos, a nivel de cultura, a nivel incluso de tecnología o de diseño de producto y de servicios. De manera que he decidido simplemente ampliar la conversación. No es un cambio menor y me gustaría saber qué pensáis de ello, si os parece acertado o no.
+
+[00:04:45.840] 
+¿Qué temas os vienen a la cabeza sobre los que os gustaría escuchar, alguna reflexión, entrevista? En fin, que quedo atento a vuestras aportaciones a través de Twitter, LinkedIn, comentarios en la plataforma de podcasting que uséis.
+
+[00:05:03.100] 
+A Ignacio me lo presentó un buen amigo, Francisco Salvador Pina, uno de los seres humanos con el corazón más grande de cuantos he conocido. Buscadle también en LinkedIn o en Twitter. Su usuario es @Quesitosgiver, seguidle, mandarle un saludo y conservarlo entre vuestros contactos porque es un tipo que merece la pena. Este va por ti, Paquete. Bueno, pues como os decía, hoy tenemos en el podcast a un invitado de auténtico lujo. Ignacio es consultor, experto en liderazgo y transformación organizacional.
+
+[00:05:39.520] 
+Actualmente establecido en Santander, recién llegado de Chile, donde también da clases precisamente de estos temas de liderazgo y transformación organizacional en la Universidad Adolfo Ibáñez, asesorando a compañías como Barrabés, mentorizando startups en la creación de la cultura más adecuada para su negocio y para su potencial crecimiento y un largo etcétera que incluye también experiencias en grandes empresas como Ericsson. Eres ingeniero superior en telecomunicaciones, si no me equivoco, estudiaste en Alemania, en la Universidad Técnica de Darmstadt Executive MBA por el IE y MPA por la Harvard Kennedy School, entre otras cosas, se dice pronto.
+
+[00:06:20.320] - Carlos Iglesias
+Ignacio Martín Maruri https://www.linkedin.com/in/ignaciomartinmaruri/, bienvenido a Real World.
+
+[00:06:23.450] - Ignacio Martín Maruri
+Muchas, muchas gracias por la invitación, estar aquí contigo.
+
+[00:06:27.650] - Carlos Iglesias
+Te lo agradezco un montón, estoy súper contento de tenerte aquí. A ti y a mi nos puso en contacto mi queridísimo amigo Francisco Salvador. Recuerdo que nos conocimos por una serie de entrevistas que me hiciste en relación con un libro que estabas escribiendo. ¿Cómo va ese proyecto y qué estás ahora? ¿Cuál es tu día a día?
+
+[00:06:46.970] - Ignacio Martín Maruri
+Bueno, bueno, iba bien, me tomé el año sabático para escribir sobre estos temas y la verdad es que iba avanzando bien. Luego llegó la pandemia, me tocó apagar fuegos por aquí y por allá, tuve que dejarlo un poquito y espero ahora aprovechar y retomar el tema y seguir escribiendo, me había tomado un año sabático para ello he tenido que dejarlo un poquito de lado. Pero con muchas ganas de retomarlo y escribir de estos temas que creo que son interesantes.
+
+[00:07:20.030] - Carlos Iglesias
+Me parece tan interesante tu perfil y a lo que te dedicas actualmente, que me gustaría que nos cuentes un poco qué haces. ¿Cómo has llegado hasta hasta ahí? ¿Qué te ha llevado a donde estás ahora?
+
+[00:07:31.970] 
+Bueno, pues mira, la verdad es que quiero estudiar ingeniero de teleco. Como has dicho, todo lo estudié en Alemania en un colegio alemán y la verdad es que yo quería haber estudiado filosofía, pero bueno, ya sabes cómo son los padres cuando uno tiene 18 años que te dicen "que te vas a morir de hambre, que eso no da para comer". Bueno, pues total, que como tenía nota, pues dije voy a estudiar teleco porque había trabajo, se suponía que pagaban bien y esas cosas y pero sobre todo elegí teleco porque porque notaba que las telecomunicaciones estaban cambiando el mundo, todo lo digital estaba cambiando la sociedad.
+
+[00:08:03.740] 
+A mí de hecho, siempre me interesó más el impacto que suponía que la tecnología en sí. Y cuando acabé, me di cuenta que efectivamente no me gustaba. Me dediqué a temas de ventas, me metí a vender el 3G, vendimos el primer 3G del mundo, fue súper apasionante y tal, pero llegó un momento en que dije ya esto no tiene más recorrido. Me fui a una fundación a trabajar temas sostenibles porque buscando los propósitos y esas cosas en la vida, aquello acabó como el rosario de la aurora y me encontré ahí con 35 años, sin haber encontrado sentido, divorciado, y me fui a Harvard diciendo "allí alguien me va a decir lo que tengo que hacer con mi vida". Y casualmente me metí en un curso que no quería meterme porque el liderazgo lo he odiado toda mi vida, me metí en un curso de Ronald Heifetz y fue como una epifanía.
+
+[00:08:55.790] 
+Allí vi la luz, cambié todas mis ideas y mis conceptos del liderazgo, todo lo que me habían enseñado, que siempre lo había odiado, y dije esto me resulta tan potente que me voy a poner a enseñarlo y a hacer consultoría con ello. Y en ello llevo doce años y feliz. Como dijo mi padre, después de muchas vueltas acabé en Filosofía.
+
+[00:09:17.280] - Carlos Iglesias
+¿Qué es lo que odiabas del liderazgo? ¿Qué creencia te llevaba a odiar el liderazgo?
+
+[00:09:21.590] - Ignacio Martín Maruri
+Pues mira, la que está instalada en general, o sea, yo me crié en un colegio alemán, como te decía el líder en alemán se dice Führer y entonces a mí desde muy niño me enseñaron a tener mucho cuidado con los Führer. Había que aprender un poquito del pasado y los alemanes lo tienen muy, muy grabado. Entonces yo cada vez que oía liderazgo, pues eso: manipulación, pastor del rebaño, creerte el cuento, tú eres superior a que otros hagan lo que tú quieres.
+
+[00:09:48.990] 
+Cada vez que oía esto me salían ronchas, pero cuando llegué a Harvard, me metí en este modelo y resulta que me encontré una cosa que no tenía nada que ver. Estructuraron entero el concepto y bueno, pues ahora trato de enseñarlo y aplicarlo. A mí me sirvió y espero que sirva a otros también.
+
+[00:10:08.780] - Carlos Iglesias
+Hoy vamos a hablar de autorización. Yo recuerdo habértelo comentado en alguna ocasión. Estos son temas que a mí me fascinan porque me los he ido encontrando, diría que de forma totalmente fortuita, informal. He ido dándoles forma desde la práctica, desde el aprendizaje empírico, si quieres.
+
+[00:10:28.450] 
+Y eso hace que cuando me encuentro con la oportunidad de hablar con alguien que se ha dedicado a estudiar, a analizar, a comprender cómo funciona todo esto desde una perspectiva social, cognitiva, cultural, estaría toda la vida haciéndote preguntas.
+
+[00:10:42.500] 
+Pero vamos a empezar por lo más básico, que es desambiguando. ¿Qué es la autoridad y qué diferencias hay con el liderazgo?
+
+[00:10:53.380] - Ignacio Martín Maruri
+Vamos a ver por qué ya sólo con esta pregunta nos puede dar toda la hora. A ver cómo lo resumo. ¿Cuál es la diferencia? Pues depende. Depende del modelo. Al final, aquí es una cuestión de modelos y definiciones, porque esto no es una ciencia exacta. Esto no es como la física, que el trabajo es está definido y es lo que es para todo el mundo. Aquí la gente entiende por autoridad o por liderazgo un poco lo que quiere y es lo que hay. Porque es una ciencia inmadura. Como te digo, va a depender mucho de la definición. Las tradicionales no hacen mucha distinción. En los modelos más tradicionales, liderazgo es una forma bonita de hablar de la autoridad. Entonces el que tiene un cargo alto le llamamos líder y el que no, pues no lo es, y al final puede hacen una mezcolanza que autoridad, liderazgo, autorización viene a ser todo lo mismo.
+
+[00:11:43.450] 
+Una de las cosas que me gustó de este modelo en particular de liderazgo adaptativo de Heifetz es que hace una distinción muy grande entre una cosa y la otra. Pero es una definición. Entonces al final depende de cómo lo quieras definir.
+
+[00:11:55.450] 
+Y aquí lo que definimos es que la autoridad sea un resultado de un proceso de autorización. Yo creo que eso es muy importante.
+
+[00:12:03.610] 
+Es decir, la autoridad como palabra tiene una carga muy negativa, como alguien que tiene poder, que lo usa para abusar de otros, que obliga a hacer cosas, etcétera. Y en este modelo, no. En este modelo hablamos de autoridad como el resultado de una autorización. Es decir, yo te autorizo y en el momento que te autorizo te estoy dando autoridad. Eso es el resultado de un proceso en el que ambas partes están involucradas.
+
+[00:12:27.280] 
+Aquí no estamos hablando de que alguien obligue. Yo te autorizo y tú me autorizas. Entonces, por ejemplo, pues ahora mismo yo te estoy autorizando a ti a que me hagas preguntas, a que dispongas de mi tiempo y tú me autorizas a mí a hablarte de ciertos temas. Entonces nos damos autorizando mutuamente. Tú me estás dando una autoridad que probablemente no le das a todo el mundo para venir a tu programa.
+
+[00:12:49.150] 
+Y yo tampoco le doy la autoridad a todo el mundo de estarme una hora hablando de estos temas, cuando podría estar con mi niña. Entonces ahí estamos en un proceso de autorización.
+
+[00:12:56.860] 
+La autoridad es el resultado de eso. Entonces es una forma de entender la autoridad que no tiene nada que ver con la con la concepción tradicional.
+
+[00:13:06.400] 
+El que tiene autoridad tiene un rol a partir de esa autorización. Y ahí puede hacer dos cosas: o gestionar o liderar.
+
+[00:13:14.390] 
+Vemos la gestión del liderazgo como actividades. Cuando tú tienes un rol con un cierto grado de autorización, tú puedes usar esa autorización para gestionar algo o liderar algo. La diferencia es que gestionar es manejar lo que lo ya se conoce. Gestionar por ejemplo es arreglar un ordenador que se ha estropeado y entonces viene la persona a la que autorizamos y lo arregla. Entonces está gestionando eso o está gestionando el pago de nóminas o lo que sea.
+
+[00:13:46.790] 
+Y hablamos de liderazgo cuando esa persona que tiene esa autorización lo usa para promover cambio. Esa es como la distinción.
+
+[00:13:55.250] 
+Liderazgo es generar cambio. Si no es generar cambio, no estás ejerciendo liderazgo como actividad. Serían las grandes distinciones: autoridad como resultado de la autorización, que la usó o bien para gestionar algo conocido o bien para generar un cambio.
+
+[00:14:11.870] - Carlos Iglesias
+Es verdad que depende un poco del modelo. También se suele, no sé si confundir o relacionar liderazgo o autoridad con la dominación o con el poder. ¿Qué diferencias hay? Bueno, entiendo que la autoridad ya lo has dejado bastante claro en el sentido de que la autoridad es precisamente necesitada, tiene que haber autorización.
+
+[00:14:42.620] 
+Pero ¿puede haber autoridad con dominancia?
+
+[00:14:51.890] - Ignacio Martín Maruri
+Es una cuestión de definiciones y nosotros aquí en este modelo hacemos una distinción muy grande entre la autoridad que procede de una autorización y la dominación.
+
+[00:15:04.130] 
+La dominación se produce cuando la otra parte se ve coercionada de una manera tan importante por el uso de la fuerza que efectivamente no le queda más remedio. Es decir, si ahora viniese un atracador, me pone una pistola en la cabeza y me pide la cartera, yo no le estoy autorizando, me está dominando. En ese sentido yo no es que le esté dando un poder a esa persona porque espero algo de esa persona. Esa persona me está poniendo un arma en la cabeza y no me queda más remedio.
+
+[00:15:30.350] 
+Entonces  hacemos esa distinción entre dominación, que es el uso coercitivo de una fuerza grande que supone un riesgo para mi vida generalmente, o la autorización que es el espacio en el que yo te concedo ese poder en la que espero que ese poder que te estoy dando lo uses de una manera que cumpla mis expectativas, que es muy distinto.
+
+[00:15:54.500] 
+Hay un grado de libertad que en la dominación no existe. Pero también es una distinción muy importante. Y de nuevo, muchas veces se mezcla. La persona que tiene autoridad se le ve enseguida como una persona que domina  y no es el caso. De hecho, la mayoría de las veces no sucede así, pero igual lo mezclamos muchos.
+
+[00:16:14.070] - Carlos Iglesias
+Es fascinante. Conviertes los sustantivos, adjetivos y cómo cambian, cómo se matizan.
+
+[00:16:21.690] 
+Ser autoritario, ser poderoso o ser dominante, adquieren unos significados. Yo creo que nos fascina el poder. No sé si nos fascina tanto tener autoridad, porque tener autoridad en cierta forma, también estoy entendiendo que si tú me autorizas, me autorizas mientras yo esté satisfaciendo algo, un servicio, una necesidad. Nos fascina más el poder que la autoridad. Estoy rizando el rizo, yo lo veo así porque al final mira.
+
+[00:17:04.210] - Ignacio Martín Maruri
+La idea de autoridad que te estoy trasmitiendo es que yo te autorizo porque te doy poder. Sí. Entonces, claro, si tú quieres que te de cierto poder, eso no viene gratis, viene con una expectativa por mi parte. Yo te doy poder para que me hagas preguntas. Y mi expectativa es que las preguntas, por ejemplo, sean respetuosas, sean del tema que estamos hablando. Si ahora tú empiezas a preguntarme de otros temas, yo le autoricé para esto, no para esto otro.
+
+[00:17:34.090] 
+Y en ese sentido lo que creo es que también en relación a la palabra poder, tenemos también muchos sesgos negativos, porque vemos el poder de nuevo como dominación. El que tiene poder domina a otros y no es el caso. Nosotros los seres humanos nos damos poder unos a otros todo el rato. O sea, que yo esta mañana voy a tomar un café y le estoy dando poder a ese camarero para hacerme el café, ponérmelo en una taza y servirme.
+
+[00:18:03.750] 
+Ese señor me podría envenenar. No pienso en ello, pero podría envenenarme, le estoy dando poder, yo me voy a tomar lo que ese señor ha preparado. Claro, yo espero que el café sea café, que esté bueno, que esté bien hecho y que no me haya escupido dentro. Ahí hay una entrega de poder. Lo que pasa es que, como vemos, el poder siempre de esta manera, así como grandes autoridades que controlan al mundo... En toda interrelación humana hay un intercambio de poder, en toda. No hay forma de vincularme con alguien sin darle algún tipo de poder, aunque sea el poder disponer de mi tiempo, dos minutos. Eso es poder.
+
+[00:18:44.970] - Carlos Iglesias
+En ese sentido es como la base de nuestras relaciones sociales y la base de la confianza en sí mismo.
+
+[00:18:54.910] - Ignacio Martín Maruri
+Yo no puedo confiar en nadie si no le doy el  poder. De hecho la demostración de la confianza es que yo te doy un poder que tú podrías usar en mi contra, que me afectaría negativamente, y a pesar de eso lo hago. Ese espacio de vulnerabilidad en el que yo me pongo con alguien en el que confío es una relación de poder. Y no lo vemos así, pero ahí está.
+
+[00:19:18.220] - Carlos Iglesias
+No me digáis que no es fascinante. El tema es que de verdad me podía estar horas filósofas hablando de estos temas y siempre es un placer hablar contigo, Ignacio. Oye, la autoridad está relacionada con el carisma. Bueno, vamos a ver, nosotros, como decía antes, podemos darle poder a personas y autorizarla para ciertas cosas. No podemos autorizar las a distintos niveles. O sea, yo puedo autorizar, como te decía antes, a ese camarero de una forma muy transaccional tú sírveme un buen café y yo te voy a pagar por ello.
+
+[00:19:47.230] 
+Entonces hay una relación ahí donde yo le doy poder, él me da un servicio o cumple mis expectativas, pero es muy transaccional. Se realiza todo alrededor de un objeto o de un recurso. En este caso un café.
+
+[00:20:00.040] 
+Pero yo también podría autorizar a otra persona para hacer algo. Puedo autorizar a un médico, por ejemplo, para que me dé consejos de qué hacer con mi salud. Y ahí es otra relación distinta.
+
+[00:20:12.400] 
+O autorizar a mis trabajadores con los que trabajo todo el día, a mis compañeros. Entonces hay una relación mucho más relacional, valga la redundancia, de vínculo, más de colaborador.
+
+[00:20:25.660] 
+Y en la tercera instancia es autorizar a alguien ya a nivel de valores, donde yo le concedo a alguien poder porque siento que es uno de los míos y que de alguna manera mi forma de entender la vida se va a realizar mejor con el apoyo de esta persona. Entonces ahí ya tengo una vinculación más trascendental de socio. Y en algunos casos, y ya llego a lo del carisma, llega un momento en que veo a una persona que tiene los valores que yo anhelo tan desarrollados, que es como la simbolización de esa trascendencia que busco, que de alguna manera me anulo ante ese individuo. Es lo se llama tradicionalmente carisma. El gran problema del carisma es que de alguna manera es que tú te anulas individualmente en pos de vincularte con esa persona que representa tanto.
+
+[00:21:20.350] 
+Ese es el riesgo, porque las figuras carismáticas son figuras que anulan a los seguidores. Más que anular, que generan que sus seguidores se autoanulen, por decirlo así. Generan muchos führers. Los führers todos son carismáticos, así que es un concepto muy peligroso.
+
+[00:21:39.400] - Carlos Iglesias
+En mi opinión genera dependencias. Nunca lo había visto desde esa perspectiva.
+
+[00:21:46.000] - Ignacio Martín Maruri
+La autoridad en general genera dependencia. Yo dependo del camarero que me traiga el café. Pero es una dependencia puntual, no pasa nada, yo sigo siendo yo. Yo trabajo con alguien y entre los dos trabajamos juntos y también genera una dependencia, porque si él no hace su parte, yo no puedo hacer la mía. Pero de nuevo, yo no me anulo.
+
+[00:22:05.440] 
+El gran problema del carisma es que tú te vinculas con el otro, generas dependencia del otro, pero además inhibes tu individualidad, tu personalidad. Pasas a ser secundario frente a ese gran individuo y lo haces de forma voluntaria. Es lo que hacen todas las sectas, donde al final la gente se anula porque el gurú lo ha dicho, el gurú es lo máximo. Entonces yo no soy nada a su lado. Cuando llega ese punto de autocastración, por decirlo de alguna manera, es cuando aparece ese carisma y es cuando se vuelve tremendamente peligroso.
+
+[00:22:39.040] 
+
+
+[00:22:40.000] - Carlos Iglesias
+Desde un punto de vista de una secta, comprendo el peligro. Desde un punto de vista de una organización, me lleva a pensar en los fundadores de una organización, que es un tema que alguna vez tú y yo hemos hablado también. Hasta qué punto es importante la herencia cultural de los fundadores o el carisma de esos fundadores. ¿Cuánto le imprime eso a la cultura de la organización?
+
+[00:23:09.430] - Ignacio Martín Maruri
+Los fundadores son como los padres en los niños. Van a marcar mucho la personalidad, la crianza, la forma de ser de sus hijos. En la fundación de organizaciones pasa exactamente lo mismo. Cuando se junta un grupo, el fundador, que es la persona que tiene más poder, empieza a actuar de una manera determinada. Por ejemplo, cómo se toman decisiones, que se escucha y qué no, cómo es el día a día, cómo nos vinculamos unos con otros, qué roles tienen unos y los de más allá.
+
+[00:23:43.510] 
+Entonces, de una forma muchas veces inconsciente, la personalidad del fundador crea una cultura. Cuando esa cultura es la adecuada para el negocio, hay muchas más posibilidades de que esa empresa, esa startup funcione. Cuando la personalidad del fundador tiene muy poco que ver con el negocio, va en contra el negocio o la gente que ha contratado, pues ahí empiezan a generar problemas.
+
+[00:24:08.150] - Carlos Iglesias
+Creencias limitantes por ejemplo, en relación con el dinero, con el negocio...
+
+[00:24:12.860] - Ignacio Martín Maruri
+Sí o en la forma de trabajar. Si tú, por ejemplo, has trabajado 20 años en el ejército, pues probablemente no montes una startup de diseño de ropa de moda. No porque no tengan las competencias, porque tu forma de ver el mundo probablemente no va a generar el espacio creativo que buscas. Ahora, si me dices que vas a montar una empresa de seguridad privada, pues probablemente sí.
+
+[00:24:39.080] 
+Y de nuevo, no es sólo por las competencias. Es porque tu forma de entender el mundo probablemente sea mucho más castrense. Vas a generar culturas que necesitan orden, estructura y si vas a meterte en temas de creatividad y diseño, eso no ayuda. 
+
+[00:24:55.280] 
+Por ejemplo, la diferencia entre Steve Jobs, ese fundador un poquito carismático y su personalidad como marca la cultura de Apple sobre todo en la primera etapa, y luego una comparativa con con Page y Brin, que son individuos mucho más low profile, que permiten que otro tome el mando, que están más desde la sombra por su propia personalidad.
+
+[00:25:20.930] 
+Y Google en ese sentido es distinto de Apple, por poner un ejemplo. Marca mucho.
+
+[00:25:26.570] 
+Yo creo que desgraciadamente una de las cosas que no hacen las startups es tomar conciencia de esto y hacerlo de una forma intencionada. Surge muy inconsciente y la mayoría de las veces no funciona la cultura con el negocio que quieren montar porque la personalidad del fundador no necesariamente es la más adecuada para el tipo de negocio que queremos.
+
+[00:25:50.590] - Carlos Iglesias
+Si tú cobras conciencia de qué significa o de cómo se gana o se pierde la autoridad, tienes una oportunidad muy importante de transformación. ¿Cómo se gana y cómo se pierde?
+
+[00:26:19.160] - Ignacio Martín Maruri
+Si seguimos con la idea de que la autorización es una entrada de poder a cambio de una prestación de un servicio, pues la consecuencia es que tienes que cumplir el servicio, tienes que cumplir la expectativa.
+
+[00:26:30.080] 
+Es decir, yo, por ejemplo, si ahora te estoy diciendo cosas que a ti te parecen interesantes, pues quizás otro día sigamos hablando de esto. Si lo que te estoy diciendo ahora dices, "qué estupidez", pues no me volverás a entrevistar. Y al revés lo mismo.
+
+[00:27:03.770] 
+
+
+[00:27:07.220] 
+
+
+[00:27:20.060] 
+Cuando Umbral dice "yo aquí he venido a hablar de mi libro", es porque yo te estoy dando el poder de hacerme una entrevista y tengo una expectativa,  que esa entrevista sea de mi libro. Entonces me estás hablando de no sé qué, no me interesa el tema, no quiero seguir y me levanto y me voy. Ahí se pierde la autoridad que había recibido el entrevistador en ese caso.
+
+[00:27:39.080] 
+Si te fijas lo interesante de esto es que es una cosa súper dinámica. Yo puedo estar perdiendo autorización con alguien porque no cumplo su expectativa y de repente decir algo interesante y vuelve la atención y me vuelven a autorizar. Por ejemplo, le pasa a los comerciales. Cuando llegan a vender un producto y empiezan a hablar del producto, al rato se dan cuenta de que el cliente se ha puesto a mirar los whatsapps. Tú sabes en ese momento que no te están dando poder, no te están prestando atención, no te están escuchando.
+
+[00:28:07.250] 
+Tú no dispones de su tiempo porque no les estás dando el servicio que esperas. No están oyendo lo que querían oír. A lo mejor cambias de tema, aciertas algo y de repente sueltan el móvil y empiezan a mirarte. Ahí has ganado de nuevo autoridad.
+
+[00:28:24.410] 
+Esto es un proceso en tiempo real, dinámico, que efectivamente normalmente no tomamos conciencia de ello, pero cuando tomamos conciencia de ello, podemos hacer un montón de cosas al respecto.
+
+[00:28:35.600] - Carlos Iglesias
+Pues sí, porque yo creo que no hay nada más aberrante para quien tiene el poder y para quien autoriza, que alguien que ostente el poder formal y sin embargo no tenga la autorización de los demás. Es decir, alguien que no tiene la autoridad, que no se ha ganado la autoridad, pero sin embargo tiene ese poder formal.
+
+[00:29:02.600] - Ignacio Martín Maruri
+El problema es que cuando tú tienes el poder formal, alguien te lo ha dado y de ese alguien sí tienes la autorización. Si yo soy el CEO de una empresa, ese poder me lo ha dado alguien y hay alguien que sí me autoriza y espera que yo use ese poder para manejar la empresa adecuadamente. Pero eso no quiere decir que el resto de las personas en la empresa me lo estén dando.
+
+[00:29:27.830] 
+No quiere decir que me lo esté dando mi equipo. Eso pasa muy a menudo. Nokia, por ejemplo. Se traen a este Microsoft de Silicon Valley. Este tipo en Microsoft lo hizo muy bien, lo vamos a fichar a Nokia ahora que nos va mal, pero que los dueños, los accionistas, crean que esta persona es la indicada, le den poder y tengan expectativas, no quiere decir que el resto de la empresa esté dispuesto a hacer lo mismo. Es muy posible que tú vas a tener autorización informal de una parte del sistema, que es por lo que tienes el título y el resto del sistema te mira y te dice "¿sabes qué? Yo a ti no te autorizo y punto. Actuaré de una forma que no me suponga un riesgo, pero te voy a boicotear. No me interesa."
+
+[00:30:19.730] 
+Esto le pasa a los entrenadores de fútbol, por ejemplo. Que el presidente del club lo pone ahí y los jugadores lo miran y dicen "no pienso jugar como tú, me dices". Pierden tres partidos y echan al entrenador.
+
+[00:30:40.220] - Carlos Iglesias
+En este sentido, ¿qué consejos le darías a alguien que llega como CEO a una nueva compañía, se encuentra con el percal que se encuentra y tiene que hacerse cargo.
+
+[00:30:52.960] - Ignacio Martín Maruri
+Creo que hay un par de cosas que son críticas.
+
+[00:30:56.230] 
+La primera es no confundir que tu nivel de autoridad formal corresponde al que tienes informal. Es decir que el cargo, que yo a veces digo que esto es como el extracto del banco, o sea, el extracto del banco te dice el dinero que tenías el mes pasado, pero eso no quiere decir lo que tengas hoy.
+
+[00:31:17.710] 
+Cuando te hicieron gerente general o CEO, efectivamente tenías un cierto grado de confianza, de validación por parte de los que te nombraron. Pero eso fue el día que te nombraron. Hoy en día, o habrás gastado eso, no cumpliendo ciertas expectativas, o habrás cumplido las expectativas, y habrás tenido más. Entonces una de las primeras cuestiones fundamentales es darse cuenta que esto es dinámico y que no es el cargo el que te da la autoridad, sino aquellos que te entregan el poder que se refleja en ese cargo.
+
+[00:31:49.010] 
+Segunda cuestión: no pensar que porque algunos confían en ti, confía el resto del sistema. Esa es otra fundamental. A mí me pasó cuando me fui a esta fundación a trabajar, el directorio de la Fundación confiaba en mí por mi perfil y me dieron el cargo y me dieron poder, pero cuando yo llegué a la Fundación y hablé con el equipo, no cumplí para nada sus expectativas y me vieron como un problema, más que una solución. Y empezaron los problemas entre nosotros. Yo por un lado tenía la autorización de los de arriba, pero no la tenía de los de abajo. Y me quedé en medio. Y ahí surgieron mil problemas que acabaron muy mal.
+
+[00:32:31.590] 
+Si no tomas conciencia de eso, difícilmente vas a tener herramientas para poder gestionarlo. Lo primero es darse cuenta.
+
+[00:32:40.000] - Carlos Iglesias
+Por tanto haber sido capaz de entender cuál eran las expectativas de tu equipo en el momento en el que tú llegabas hacia ti, hubiera ayudado un montón.
+
+[00:32:52.350] - Ignacio Martín Maruri
+Completamente, pero como yo no sabía de esto, porque esto lo aprendí después, yo llegué como llegamos la gente cuando te dan un cargo. Llegas como un poquito inflado, yo ya lo tengo, tengo muchos éxitos, además he hecho tantos master, yo ya me la sé y vamos directo a la tarea. Pero el grupo que te mira y dice "bueno, tú ahora tienes poder y ¿qué puedo esperar de ti? Y lo que estoy oyendo no me convence. Y ¿sabes qué? Te voy a boicotear". Como el equipo de fútbol al entrenador. Y si no tomas conciencia de eso, es muy fácil que te pase.
+
+[00:33:24.780] - Carlos Iglesias
+En ese sentido, esto me resuena también con la idea del líder servil o del líder que sí viene a promover un cambio, pero que también viene a identificar cuáles son las necesidades de su equipo, cuáles son las necesidades de la compañía, cómo puede apoyar al bien común. 
+
+[00:33:55.410] - Ignacio Martín Maruri
+Sí, pero hay que hacer un par de matizaciones que no son menores. Esta distinción entre la autoridad o el poder que me confieren y cómo lo uso. Yo lo puedo usar para gestionar o para liderar; para manejar el status quo y eficientar el día a día o para generar un cambio, que es la distinción que habíamos hecho entre gestión y liderazgo.
+
+[00:34:15.600] 
+Cuando yo cumplo las expectativas de un grupo, lo que estoy haciendo es validarme.
+
+[00:34:21.050] 
+Si yo llego a un grupo y me doy cuenta que la gente quiere que le suba el sueldo y le subo el sueldo, pues todo el mundo me aplaude. No tiene mucho mérito. Lo que pasa es que ahí lo que yo estoy afianzando es mi poder, mi autoridad, pero no necesariamente estoy haciendo lo que el grupo necesita. Aquí hay una distinción muy importante, porque normalmente si yo quiero mantener mi puesto, le voy a decir a la gente lo que quiere oír, porque así cumplo sus expectativas.
+
+[00:34:49.880] 
+Pero cuando llegue el momento de generar cambios y los cambios siempre traen dolores, voy a frustrar expectativas. Entonces hay muchas personas que con tal de afianzarse, lo que tienden justamente es a cumplir las expectativas, pero eso supone que el grupo no progresa. Y aquí es donde surge una cosa que parece poco evidente: cuanto más trato yo de afirmar mi poder en un grupo, más improbable es que trate de promover cambios en el grupo. Cuanto más quiero ser autoridad, más probable es que no ejerza liderazgo.
+
+[00:35:22.130] 
+Y eso chirría en muchas mentes.
+
+[00:35:24.650] - Carlos Iglesias
+Tiene todo el sentido. Cuanto más objetivo por sí mismo sea la autoridad, menos va a ser posible la capacidad de promover un cambio. 
+
+[00:35:38.970] - Ignacio Martín Maruri
+Claro, porque no es que a la gente no le guste el cambio, a la gente le encanta el cambio, lo que no quiere es perder con el cambio.
+
+[00:35:46.980] 
+Los populistas le dicen a todo el mundo lo que quiere oír y con eso la gente les da poder y tiene una expectativa y es que cumpla todas esas cosas. Cuando uno consigue esa autorización, por ejemplo como político, y luego dice "esto que os prometí requiere primero apretarse el cinturón" entonces la gente dice "hasta ahí hemos llegado. Yo quería que me dieses todo eso, pero sin coste ninguno para mí. Y si tú me das todo sin que a mí me cueste nada, yo te voy a aplaudir y te voy a volver a elegir. Pero si me estás empezando a pedir que yo meta la tijera, que recorte aquí o allá o que haga cosas distintas, pues ya no sé si te tenía que haber elegido a ti o al otro".
+
+[00:36:26.670] 
+Ahí es donde se ve la diferencia entre un populista y un estadista.
+
+[00:36:29.910] 
+El populista al final se va amoldando para cumplir expectativas y sostener el poder. Y el estadista es el que en un momento dado dice "¿Sabes qué?  Igual voy a poner en riesgo mi autoridad, pero si no hacemos esto nos vamos todos a la mierda. Y entonces voy a promover el cambio, aunque me joda a mi cargo". Y ahí está la diferencia.
+
+[00:36:51.750] 
+Por ponerte un ejemplo, cuando a Mandela lo eligen presidente, su gente, los que le votaron, la inmensa mayoría esperaba que de alguna manera hiciese justicia con los blancos y dijese "Chicos, ahora mandamos nosotros". Y llega Mandela y en vez de eso trata de integrar a los blancos con los negros. Entonces su propia gente le dijo "Oye, Mandela, nosotros no te hemos votado a ti para que les escuches a ellos. Te hemos votado porque nos escuches a nosotros". Y entonces la gente empezó a dudar de Mandela. "A este tío ya lo han comprado. Lleva 15 días de presidente y ya lo ha comprado". Pero ahí es donde está esa mirada de estadista que dice: para que esto progrese, yo tengo que poner en riesgo las expectativas de mi gente, porque necesitamos crear algo distinto. Y ahí es donde el conflicto entre autoridad y liderazgo se ve y la mayoría de las veces las personas optan por mantener su autoridad más que por ejercer liderazgo.
+
+[00:37:43.790] - Carlos Iglesias
+No sé si leer de toda esta conversación que cuando tú utilizas la autoridad para promover un cambio, si ese cambio no está alineado con las expectativas que han traído la autorización de ese poder, tú tienes una fecha de caducidad.
+
+[00:38:05.490] - Ignacio Martín Maruri
+Si lo manejas sin mucha conciencia y sin mucha estrategia, sí. Ahí es donde hay que ser muy estratégico para darte cuenta de a qué ritmo puedes frustrar las expectativas de la gente. Y de qué gente y en qué momento. Ahí es donde entra la estrategia. Es decir, voy a frustrar expectativas, ya lo sé, a todo el mundo no le voy a caer simpático, no soy monedita de oro. Pero ¿cómo lo hago de una manera que no me corten a mí la cabeza antes de que efectivamente hayamos podido progresar? Eso es muy complejo. Eso es arte puro.
+
+[00:38:40.150] - Carlos Iglesias
+Sí, claro. Es inteligencia. Muchos tipos de inteligencia, inteligencia emocional, tener una mirada periférica de ti mismo. Eso es dificilísimo.
+
+[00:38:51.550] - Ignacio Martín Maruri
+Y del sistema también, de la gente, qué le pasa, inteligencia emocional, interpersonal, habilidades de comunicación, de análisis, de reflexión. Es un ámbito muy, muy complejo.
+
+[00:39:08.440] - Carlos Iglesias
+¿Qué errores ves en los líderes de este país?
+
+[00:39:28.200] 
+Me estoy refiriendo a quien da un paso adelante para liderar. De alguna forma yo tengo la sensación de que el populismo se ha establecido como mainstream. Es la corriente continua ahora mismo de la ideología.
+
+[00:40:02.650] - Ignacio Martín Maruri
+Ese es el problema. Yo siempre lo digo: los políticos, la gente que tiene poder, es reflejo de los que autorizan. El tipo de gerente que hay en una empresa es representativo de los valores de los que la han puesto ahí. 
+
+[00:40:23.980] 
+Si yo  mi empresa quiero sacarla a bolsa, inflarla de cualquier manera para salir a bolsa y vender las acciones X, voy a buscar a un CEO que haga eso.
+
+[00:40:40.120] 
+Yo le estoy diciendo oye, promuéveme este porque ahí están mis expectativas. Cuando yo voy a votar y voto populismo, las personas que voto van a actuar populistas. Porque por eso las he votado. Entonces, de nuevo, van a preferir mantenerse en el poder cumpliendo las expectativas de sus votantes más que generar espacios de "tenemos que vincularnos con el de enfrente y algo tendremos que ceder", porque ese tipo de personas es muy fácil llamarles traidores. Entonces la gente no quiere que se dude, y para que no se dude, tienen que ser más papistas que el Papa.
+
+[00:41:19.170] 
+Y entonces empezamos a ver que ante una sociedad cada vez más polarizada, más en búsqueda de soluciones rápidas, que yo creo que ese es el gran tema, busca personas más populistas, les dan a ellas el poder y esas personas para mantenerse en ese cargo, justamente tratan de cumplir esa expectativa y ser el más populista de todos. El más puro, el que menos cede ante el enemigo.
+
+[00:41:44.700] - Carlos Iglesias
+El que menos duda, está prohibido dudar.
+
+[00:41:47.220] - Ignacio Martín Maruri
+Está prohibido dudar, por supuesto. Ahí tienes gente como, vamos a hablar de Trump para no ponerlo aquí en casa, que le habla a su gente, su gente quiere oír lo que quiere oír y él se lo dice. Y si es fake news da lo mismo. Lo importante es que sigue estando donde la gente espera que esté. La gente está feliz con eso. Pones a 5 o 6 Trump juntos en un parlamento y oyes lo que oímos allí, en el fondo, desgraciadamente. Pero no tiene que ver tanto con ellos como con lo que busca la gente.
+
+[00:42:22.260] - Carlos Iglesias
+¿Cómo se cambia esto?
+
+[00:42:24.030] - Ignacio Martín Maruri
+No lo sé. Lo único que sé es una frase de Mencken que a mí me gusta mucho, que dice que para todo problema complejo siempre hay una solución rápida, sencilla y equivocada. Yo creo que esa es la que estamos. Estamos en un mundo híper complejo, con unos vínculos de relaciones internacionales, a todos los niveles difíciles de gestionar. Además súper dinámico, unos cambios a toda velocidad, que las cosas pasan y ya no sabemos ni lo que ha pasado.
+
+[00:43:02.520] 
+Y en ese mundo de tanta complejidad y tanto dinamismo, la solución fácil es que venga alguien con carisma a decirte "déjalo en mis manos, relájate. Yo puedo". Entonces, claro, cuando la gente está en esa situación y es normal que esté en esa situación por el mundo en el que vivimos hoy en día, es un terreno fértil para que llegue alguien diciendo yo tengo la varita mágica, confía en mí, anúlate y déjalo en mi mano.
+
+[00:43:29.510] 
+Eso es lo que yo creo que está pasando a nivel mundial, en todas partes. No es de aquí. Y eso tiene mal arreglo.
+
+[00:43:37.410] - Carlos Iglesias
+¿Qué podemos hacer con esto? Más que basarnos en la educación. Le pedimos tantas cosas a la educación. Hace poco escuchaba que la calidad de una democracia depende directamente de la calidad de sus individuos, de la calidad de los individuos que están precisamente autorizando ese poder. Entonces hay que formarse.
+
+[00:44:32.250] - Ignacio Martín Maruri
+Lo que pasa es que hoy en día yo creo que hay un tema, y aquí a lo mejor se me nota la edad también. Todo tiene que ser muy rápido, todo tiene que ser muy superficial. Los mensajes tienen que calar en 30 segundos. Un vídeo que dura más de dos horas no lo ve nadie. Todo tiene que ser muy audiovisual, muy poco abstracto. Entonces, claro, cuando simplificamos nuestra forma de mirar la vida y mirar el mundo con mensajes muy cortos, muy de marketing, todo muy sencillito, cuando darnos una hora para hablar de filosofía que estamos aquí tú y yo, es perder el tiempo, porque esto no lo va a oír nadie, pues es luego muy difícil poder enfrentar la complejidad del mundo porque al final nos limitamos a golpes de efecto. Entonces es muy fácil generar fake news porque la gente tiene muchas ganas de pensar que con eso basta. Y eso creo que está in crescendo, que es lo que más me preocupa, que va más. Si cada vez tenemos menos capacidades para entender la complejidad y el mundo es cada vez más complejo, pues cuatro van a manejar esto de alguna manera que nos quedemos todos tranquilos y en el fondo esté todo controlado. No estoy hablando de teorías de la conspiración de estas de las que se oyen ahora con la Covid, ni muchísimo menos, sino de una evolución donde la gente renuncie justamente a la capacidad de análisis complejo en pos de alguien que prometa felicidad, entendida como hedonismo, como consumo, como disfrute, experiencias... Yo creo que es para donde está yendo esto.
+
+[00:46:21.160] - Carlos Iglesias
+¿Se puede sustituir la autoridad por normas explícitamente declaradas?
+
+[00:46:28.810] - Ignacio Martín Maruri
+Las normas son también un reflejo de una autoridad. Es decir, la autoridad no tiene por qué personalizarse en un individuo. Puede vincularse a una institución o a las normas de una institución.
+
+[00:46:47.290] 
+Volviendo a Trump, cuando Trump decide que no apoya más a la OMS, él está desautorizando a toda la institución. El poder que él daba, toma mi dinero y mi obediencia a tus mandatos, con una expectativa.
+
+[00:47:03.460] 
+Entonces, cuando Trump cambia la expectativa con respecto a Obama: ya la OMS no me cumple, ya no le doy dinero. Entonces desautoriza a toda una institución, igual que se desautoriza una institución, se puede desautorizar una norma. Yendo por ejemplo al tema de género. Hay un momento dado que hay una norma que dice que las mujeres en un país no podían votar, por ejemplo.
+
+[00:47:29.830] 
+Y llega un momento donde la sociedad dice: ¿sabes qué? Yo desautorizo esa norma, esa norma ya no cumple mis expectativas y en el momento en que ya no cumple mis expectativas, se va cambiando la norma y se va ajustando a las nuevas expectativas.
+
+[00:47:41.710] 
+Cuando la gente cumple una norma en general, es porque de alguna manera está dándole ese poder, esa autoridad de guíame. Pero hay unas expectativas puestas. Cuando la norma deja de cumplir las expectativas radicalmente de la población en general, no de cuatro, lo normal es que se cambie la norma y así se van cambiando las leyes. Es el mismo proceso en vez de a un individuo o a un equipo o a una institución o una empresa. En este caso a una norma.
+
+[00:48:10.630] - Carlos Iglesias
+Esto me lleva directamente a Kanban, a sistemas donde hacemos explícitas las políticas y no hay nadie ahí haciendo micromanejo. Ya hemos acordado esto y entre todos nos hemos dado una norma que vamos a respetar. Por lo tanto, en cierta forma, sí se puede sustituir una autoridad en un rol a través de una norma.
+
+[00:48:43.480] - Ignacio Martín Maruri
+Claro, incluso no tiene ni porqué ser norma. Puede ser un comportamiento culturalmente aceptado. Voy a poner un ejemplo, si yo voy por el supermercado y me encuentro a una persona que está cogiendo yogures y pone el carrito cruzado en perpendicular, pues me cabreo con esa persona porque aquí hay una norma que supone que tú tienes que ponerte a un lado para que los demás podamos pasar. Si tú pones el carrito cruzado, yo no puedo pasar y me cabreo porque hay una autorización implícita que nos estamos dando todos de molestarnos unos a otros lo menos posible.
+
+[00:49:16.210] 
+Y el momento en que tú te la saltas, yo me cabreo porque tú estás desautorizando la norma, pero los demás queremos que esa norma se mantenga.
+
+[00:49:25.450] 
+Todas las relaciones culturales en gran medida son normas que hemos autorizado de una forma implícita. Otro ejemplo, si tú te cruzas en el avión con alguien en el pasillo, le estás dando poder a esa persona de pegarse a ti.
+
+[00:49:45.910] 
+Ese poder no se lo das en general a cualquiera en la calle. Ahora, ¿cuál es la norma implícita que hay ahí? Que nos vamos a cruzar de espaldas. Nadie te lo dice. Pero tú prueba en un avión a cruzarte de otro y ponte de frente: inmediatamente vas a ver la cara de desautorización, porque hay una norma implícita que todos aceptamos y que tú te la estás saltando.
+
+[00:50:14.430] 
+Y así es como las normas culturales son los mayores mecanismos de coordinación y de control que hemos desarrollado los seres humanos. Mientras autoricemos esa norma cultural. Cuando no cumpla la norma cultural, cambiaremos la cultura y nos comportaremos de una manera distinta.
+
+[00:50:31.060] 
+Este principio de autorización es el que rige en todo.
+
+[00:50:36.250] - Carlos Iglesias
+Y al final esto también es lo que posibilita la autogestión y la autoorganización. Y ahora vuelvo a la idea de la gestión de que hablabas antes. Yo con la autoridad puedo gestionar o puedo liderar el cambio. 
+
+[00:51:00.190] 
+
+
+[00:51:42.500] - Ignacio Martín Maruri
+Le tenemos tanto asco al tema de la autoridad, hay tantos prejuicios y no somos capaces de ver cómo esto permea todo, la autorización está en todas partes.
+
+[00:52:19.820] 
+Es un tema que tiene tantas aristas, que explica tantas cosas y que lo hemos mirado tan poco, que me parece que abre muchas posibilidades, sobre todo en el mundo en el que estamos viviendo ahora, donde cada vez tenemos que ir más a esos sistemas de autorizaciones dinámicas y continuas, más que de depositar la autoridad en el individuo iluminado.
+
+[00:52:49.870] 
+Porque si no vamos a acabar en los populismos que hablábamos antes y eso, como sabemos por el siglo pasado, siempre acaba muy mal.
+
+[00:53:01.250] 
+Son temas apasionantes y muy necesarios. Así que la posibilidad estar aquí hablando contigo y que esto lo escuchen. No sé cómo lo van a escuchar, pero alguno que sea capaz de estar 50 minutos. Hay algunos miles de frikis, algunos miles de frikis.
+
+[00:53:14.180] 
+Pues ojalá seamos millones, porque si no vamos, vamos de cráneo, le diría a mi padre Ignacio, esperaremos ese libro como vacuna de COBIT y ya no es como agua de ahora, como vacuna de Kadett. Ahí sí que no sé si voy a poder cumplir sus expectativas, pero arreglarles. Oye, de verdad, un auténtico placer, muchísimas gracias y nada. Nos vemos en la próxima. Cuídate. Muchas gracias. Un abrazo. Gracias.
+
+[00:53:42.960] 
+Y hasta aquí, amigos y amigas, este episodio del podcast Realworld Innovación centrada en las personas. Muchísimas gracias por llegar hasta aquí hasta el final de este episodio. Espero que te haya inspirado, que hayas descubierto nuevos conceptos, nuevas ideas que te ayuden en tu desarrollo personal, profesional y en la transformación de tu compañía, si es el caso. Permíteme que insista pidiéndote feedback, porque el problema de hacer un podcast es que es un formato que de forma nativa es muy unidireccional.
+
+[00:54:15.600] 
+Cuesta mucho recibir ese feedback que tanto necesitamos para aprender y avanzar, de manera que:  ¡aprovecha ahora y mándame un mensajito a través de tus redes sociales o en tu plataforma de podcasting preferida! Contandome si te parece buena idea o no abrir la conversación a temas más amplios relacionados con la innovación a todos los niveles o diciéndome qué temas te gustaría que tratemos.
+
+[00:54:38.940] 
+Gracias en cualquier caso, por compartir este episodio. Envíaselo a alguien en quien hayas pensado cuando lo escuchabas. Gracias por todos esos links en iVoox, Spotify. Gracias por esas reseñas en Apple podcast que tanto me ayudan a ganar visibilidad y por todas esas muestras de cariño que no he dejado de recibir en estos tres años.
+
+[00:54:59.700] 
+Un fuerte abrazo y os espero en el mundo real.
+

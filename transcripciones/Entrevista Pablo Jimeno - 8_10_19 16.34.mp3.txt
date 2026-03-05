@@ -1,0 +1,279 @@
+[00:00:00.390] 
+Vamos pallá Pablo. Muchas gracias por venir.
+
+[00:00:03.900] 
+Buenas tardes arribado a Barcelona arribado recién arribado a Barcelona desde la capital desde la capital del imperio del imperio el imperio aragonés de Zaragoza directo de Pablo Gimeno.
+
+[00:00:21.450] 
+Muchas gracias por estar en el mundo real.
+
+[00:00:23.550] 
+En mi podcast Pablo tuyo cuánto hace que nos conocemos no tengo ni idea de cuánto.
+
+[00:00:31.380] 
+Nueve años si me lo acabo de inventar da igual.
+
+[00:00:36.900] 
+Me gustaría que sabes que para mí esto es una tradición me gusta mucho que mis invitados se presenten ellos mismos. Vale entonces lo que te quiero pedir es que expliques a los oyentes quién eres quién es Pablo Gimeno. De dónde vienes cuál es tu background y qué estás haciendo ahora. Expedían por qué experiencias has pasado no se explica un poco de tu historia.
+
+[00:01:00.990] 
+Pues yo soy Pablo Gimeno soy argentino. Antes que nada te voy a decir eso así ya sacamos el tema del acento raruno de por medio pero nací en la Patagonia no soy no soy porteño. No acepto chistes de Buenos Aires. Muy bien mi Bagram es un gran ecléctico diría yo empecé estudiando informática o computación muy joven Ciencias de la computación a 10 años como todo el mundo sólo que a mí no me habían no me habían regalado ningún ordenador estudiaba en la academia y sólo tenía ordenador allí. Eso me marcó mi modelo de aprendizaje de por vida no tener el instrumento con el cual aprender es algo terrible para un aprendiz que pese a que tenemos que preparar lo que querías aprender y entonces aprovecharla.
+
+[00:02:02.580] 
+Las generaciones que programó el lápiz en pseudocódigo. Sí sí me compraba las revistas y escribía código utilizando el de la revista o el del libro. Tenía unos libros de ciencias maravillosos suerte y estudiaba con eso y luego me fui a Mar del Plata una gran ciudad en Argentina a estudiar Biología y al quinto año hice lo que mis padres nunca me empezaron a decir oye si me voy a España y dejé la carrera pero no lo bien genial. Entonces grandes decisiones de mi vida se llaman.
+
+[00:02:50.580] 
+Y a partir de ahí me dediqué a desarrollar páginas web empezando con páginas webs y creó una empresa para montar proyectos en internet básicamente y uno de los mayores clientes que tuve fue la Universidad de Zaragoza y con la Universidad de Zaragoza con el Instituto de Biofísica hicimos un montón de proyectos relacionados con aprendizaje y a partir de ahí me puse a investigar por mi background en biología y por interés desde el punto de vista de la información y de la gente trabajaba en sistemas complejos y en inteligencia colectiva y temas de este estilo y me puse a investigar acerca de aprendizaje a nivel de personas pero también de cómo manejamos la información las personas.
+
+[00:03:51.740] 
+ Y allí monté monté la última empresa de ese país desarrollamos un software para la mejora del aprendizaje y para una mejor gestión del conocimiento. Y enseguida también me di cuenta de que el conocimiento que habíamos generado no solamente aplicaba al software sino a aplicaba a los procesos en una empresa o en una organización cualquiera y también en educación. Entonces empecé a hacer formación y consultoría sobre sobre este tema sobre aprendizaje en las organizaciones.
+
+[00:04:31.800] 
+A día de hoy sé que estás haciendo distintas cosas que están bien en el ámbito de la consultoría. Qué tipo de consultorías estás haciendo ahora.
+
+[00:04:40.890] 
+Qué tipo te refieres al tipo de proyectos.
+
+[00:04:43.980] 
+Qué tipo de proyectos Estados mira en algunas organizaciones. Digamos mejoramos procesos de aprendizaje que ocurren cuando la organización se enfrenta a un desafío cuando hay un ejemplo clásico es cualquier tipo de transformación. Depende directamente de la capacidad que tenga la gente de cambiar sus sus creencias y la forma en que hacen las cosas y entonces en cualquier proceso de cambio el aprendizaje está implícito y la mejora no va a ser más más efectivo ese aprendizaje es acelerar ese proceso básicamente. Entonces en empresas que tienen un desafío claro. Ayudamos a acoplamos nuestro nuestro a nuestro granito de arena.
+
+[00:05:39.230] 
+A que ese proceso ocurra mejor.
+
+[00:05:42.510] 
+Quería quería empezar haciéndote la primera pregunta que es obligatorio que es aprender a qué llamamos aprender qué entendemos por aprender.
+
+[00:05:51.690] 
+Definir de qué estamos hablando siempre ayuda a entenderse verdad y aprender es muchas cosas aprender es ante todo un proceso y yo diría que cuando hablamos de aprendizaje pareciera que estamos hablando de algo que ocurre en un momento determinado y no de un proceso vale y hablamos más de conocimiento en realidad que de aprendizaje y el aprendizaje es un proceso que biológico vale pero tenemos pero es algo que se ha investigado y lo que se ha estudiado desde hace miles de años. Se ha hablado de ello desde hace miles de años. Desde el punto de vista de la filosofía la mitología la religión desde el punto de vista de las artes desde la artesanía sobre todo desde las artes marciales por ejemplo hay mucha influencia de las artes marciales en las visiones modernas de aprendizaje de equipos y ese trabajo de mentor suena muy a cultura japonesa y en Linn se utilizan todos los conceptos de japoneses de aprendizaje y Jemma y el sitio donde se aprende verdad.
+
+[00:07:26.730] 
+ Entonces la empresa también y en todo el siglo XX especialmente cambió la forma en que vemos el aprendizaje y es un feedback continuo con el resto de la sociedad porque determina la forma en que se estructura un sistema de aprendizaje. El sistema educativo es producto de las necesidades de la industria y ese es el modelo que tenemos actualmente con distintas modificaciones. Y por suerte con la independencia de muchos profesores que hacen lo que quieren y no siguen el librillo del sistema pero jazzeros del sistema. Si un profesor motivado es lo que saca adelante mentes absolutamente y entonces aprendizajes este es un proceso que del cual hablamos con todas nutriéndose de todas estas fuentes y sin saberlo.
+
+[00:08:37.590] 
+Entonces tenemos un montón de modelos mentales o de estructuras en nuestra cabeza cuando hablamos de aprender sin saber muy bien a lo que nos referimos. Pero yo diría que básicamente es la forma en que capturamos el entorno no percibimos información a.
+
+[00:09:00.930] 
+La codificados o sea la guardamos dentro de nuestro cerebro y luego la recuperamos y sí digamos que para aprender tenemos que trasladarlo a otro contexto. Cuando utilizamos información que hemos percibido para resolver problemas que no son el mismo del cual hemos aprendido. Cuando estudias en física un tren que sale de Barcelona hacia Madrid y luego utilizas el mismo concepto que has aprendido allí para resolver cualquier tipo de problema de rutas. Ahí es cuando lo has aprendido no cuando te examinas para resolver el mismo examen. Entonces es este proceso de capturar. Darle sentido o conectar con él con el conocimiento que ya tienes.
+
+[00:09:49.390] 
+ Hacerlo propio y poder recuperarlo. Esto es fundamental si no podemos recuperar si no lo tenemos en la memoria. No hemos aprendido eso exactamente y esto determina una gran diferencia con con algo que es con cosas que llamamos aprender y no lo son.
+
+[00:10:11.750] 
+Yo tengo la costumbre de molestar a ti como sistema y una de las cosas con las que te molesto es que tú siempre dices que has aprendido muchísimo en cualquier congreso al que vayas no cualquier conferencia y yo siempre pregunto Qué has aprendido exactamente.
+
+[00:10:28.030] 
+Vale dime dime qué has aprendido Dime dos cosas y si te lo pregunto dos días después del Congreso seguramente me dices dos o tres cosas muy claramente y si te lo pregunto un mes después del del Congreso o de algún evento al que hayas ido ya no eres capaz de decírmelo. Lo que intentaba decir cuando me contabas que el evento había estado bien o que el Congreso había estado bien es que había sido interesante no había aprendido mucho. Vale te moviliza aprende el oír cosas nuevas pero para aprender lo tienes que tiene que ingresar a tus sistemas.
+
+[00:11:05.940] 
+ Tienes que codificar lo tienes que poder recuperarlo más tarde entonces estás en una época en la que la información es tan barata y es tan fácil acceder a la información. Ese es un gran problema. No sé si respondo a 14 preguntas que no has hecho.
+
+[00:11:21.870] 
+Yo creo que sí. Yo creo que sí y además me está resonando mucho con algunas cosas que estoy descubriendo esta semana. Estoy gracias a Nestor Salceda estoy metido de lleno en el tema del Bühler Bullet Journal me estoy leyendo el libro de Lula y habla precisamente mucho de estas cosas no de períodos de reflexión y de revisión a los hechos y a las cosas a nuestras experiencias como proceso de intencionalidad y de aprendizaje.
+
+[00:11:50.100] 
+Me parece interesante lo que dices te quiero llevar un poco al mundo más corporativo o al mundo más si quieres a nuestras empresas donde trabajamos nuestro día a día y se me ocurre preguntarte si las organizaciones aprenden Millos científico está tentado de decirte que no vale.
+
+[00:12:19.410] 
+Yo diría que intuitivamente las organizaciones no aprenden pero sí son un ente que no es igual que un ser vivo como aprende pero probablemente crean conocimiento y lo comparten de una manera que puede pervivir y a su manera aprenden. Pero lo relevante de las del aprendizaje de las organizaciones es casualmente esta última fase la fase de hacerlo pervivir hacer que el conocimiento fluya y se comparta dentro y fuera de la organización y eso es lo más complicado porque evidentemente las personas aprenden y podemos potenciar su aprendizaje los equipos aprenden y podemos también potenciar ese aprendizaje pero a partir de allí en adelante el desafío es muy grande conectar el conocimiento de diferentes equipos o el conocimiento de la SER con el conocimiento de dar sentido y profundizar y conectarlo con lo que es la empresa con los valores de la empresa con lo que la empresa intenta entender del mundo de su cliente de su competencia del resto de su entorno e incorporarlo a la narrativa y a la visión que tiene esa organización para que todo el mundo lo entienda.
+
+[00:13:58.200] 
+ Eso es lo más complicado de todo creo yo.
+
+[00:14:01.260] 
+Eso es a lo que llamamos tener una cultura de aprendizaje perdurable hablamos de eso cuando hablamos de conseguir una cultura de aprendizaje estamos hablando precisamente de eso porque las empresas necesitan una cultura de aprendizaje.
+
+[00:14:21.060] 
+No sé si las empresas necesitan una cultura desde luego que la cultura es lo que hacemos y también un paralelismo con el aprendizaje cuando hablamos de aprendizaje te decía que parecía que estuviéramos hablando de conocimiento y no del proceso pues cuando hablamos de cultura parecía que estamos hablando de aquello etéreo que sobrevuela y que son ideas y la cultura es en realidad lo que hacemos y la forma en que se trabaja el conocimiento o la forma en que se trabaja el aprendizaje en una organización va a determinar qué puedo aprender o que no vale si por darte un ejemplo representábamos un poco abstractos en casi todos los documentos que describen los valores de una organización te encontrarás que aprender es de las cosas que más se nombra y en todas las metodologías de trabajo.
+
+[00:15:25.610] 
+ Una de las fases es aprender vale. Sin embargo cuando vas a las empresas lo que te encuentras normalmente o en muchos casos no digo que sea la norma. En realidad lo que te encuentras es que el error está muy castigado. El conocer que el fallar es quedar en ridículo por ignorancia o opor por esconder algo es muy mal visto. Entonces si no nos damos ni siquiera la oportunidad de aprender del error en qué momento vamos a aprender y si no fallamos es porque tenemos todas todas nuestras ideas son correctas no somos infalibles.
+
+[00:16:19.580] 
+ Otro. Hay digamos como muchos muchos estereotipos. Yo creo que tienen que ver con con la educación que tenemos. Tú crees que aprender de niños o quieres aprender toda tu vida y ahora está muy muy muy de moda. Aprender de por vida es una necesidad. Sin embargo las empresas no creen que la o pareciera que creen que aprender es que es igual a formación. Entonces si no nos permitimos fallar y no ponemos los puntos de reflexión necesarios para convertir en conocimiento toda la información que tenemos en qué momento vamos a aprender.
+
+[00:17:15.740] 
+Antes hablabas no decías que es inevitable que en cualquier transformación cualquier transformación es posible si hay un aprendizaje implícito y esto es lo correcto pues precisamente ahora estamos diciendo que claro penalizar el error penar el error y tener una cultura que penaliza ese error. De alguna forma nos va a impedir aprender porque nos va a bloquear no nos va a impedir. Esto es algo que hemos dicho muchas veces que la mejor forma de castrar la innovación es penalizando el error no dando un espacio al error verdad.
+
+[00:17:56.150] 
+Mi punto es que el aprendizaje va a traer innovación el aprendizaje nos va. Cuáles son los beneficios de tener una establecida una cultura del aprendizaje de forma permanente o de forma sostenida. No sé cómo explicar cómo expresión de amor.
+
+[00:18:17.550] 
+Sí yo creo que ahora más que nunca las organizaciones necesitan aprender de manera continua. Vale por un lado las personas necesitan actualizarse continuamente. Si no caes quedas obsoleto en poco tiempo.
+
+[00:18:36.140] 
+Y por otro lado las organizaciones digamos que según su naturaleza o su modelo sí sí es un modelo basado sí sí tienen un modelo basado en crear digamos servicios o productos más baratos más rápido mejor vale la excelencia operativa o o como los llaméis necesitas aprender para hacer eso y necesitas estar muy pendiente de la mejora de tus procesos y es la base de tantos y tantas metodologías de mejora de calidad o DELIN. Pero por otro lado si tú si tu modelo es más orientado a encontrar nuevos modelos de negocio a mejorar la forma en que innovar básicamente en crear nuevas formas de nuevos servicios continuamente transformas la experiencia de cliente y transforma la experiencia de cliente.
+
+[00:19:40.490] 
+ Necesitas estar entender muy bien dar darle sentido en un mundo con tantísima información que cambia tan rápidamente con tanta incertidumbre que no sabemos. Hay muchas falsas promesas tendencias que no sabemos si realmente si se van a concretar o no hace falta que la organización produzca o sea así sea como una máquina de dar sentido a todo. A toda esta complejidad o a esto que parece un caos para poder crear estos nuevos para poder innovar y crear estos modelos. Entonces digamos que serían básicamente tres piezas en las cuales las personas necesitan mejorar o aprender.
+
+[00:20:31.560] 
+ La organización necesita aprender y necesitamos tener en cuenta muy en cuenta el entorno y aprender del entorno. El beneficio será personas que se desarrollan y que producen cada vez más valor para sus clientes o para la.
+
+[00:20:49.770] 
+Organización y organización más eficaces al final y supongo que también una menor rotación un mayor engagement por parte de los empleados una mayor alineación entre negocio y operaciones.
+
+[00:21:04.500] 
+Exacto.
+
+[00:21:05.310] 
+Desde luego esto no es un concepto abstracto está completamente acoplado a la cuenta de resultados y a todos los procesos que la empresa tenga desde muchas veces sobre todo desde el punto de vista de la gestión de conocimiento que en los últimos 15 años 20 años ha sido muy potente muy de crear sistemas de información cada vez más robustos y además tal vez no lo que no es lo que ahora se intenta potenciar que es la creación de redes y de hacer que las personas en realidad conecten ese conocimiento claro.
+
+[00:21:50.920] 
+Pero desde la gestión del conocimiento se ha progresado mucho en capturar y capturar la información e intentar darle darle sentido vale no tanto. No creo yo que no se ha progresado tanto en el aspecto de compartir ese sentido y de explicarlo.
+
+[00:22:15.450] 
+Vale entonces volviendo un poco retomando una idea que acabas de decir el tema de las personas los equipos y la organización y cómo precisamente hoy sea cómo logramos una cultura a través de estos tres subconjuntos digamos vale yo creo que soy bastante enemigo de las recetas y creo que necesitamos una serie de prácticas y principios que nos permitan crear potenciar en las personas la creación de un sistema personal de aprendizaje que haga evidente la forma en que aprenden. Creo que me gusta llamarlo aprendices conscientes vale. Las personas que deciden aprender durante toda su vida y que reflexionan acerca de la forma en que aprenden estas personas ya entienden o dan un paso importante que es plantearse aprender aprender y dejar de aprender de la manera intuitiva.
+
+[00:23:25.380] 
+ Digamos que el aprendizaje se tiene tiene una naturaleza dual por un lado es eso que ocurre constantemente lo pensemos o no pero por otro lado es una habilidad y como tal puede mejorarse. Existen muchas herramientas y prácticas algunas de ellas bastante poco intuitivas o que contradicen lo que hemos aprendido durante 20 años en las aulas. Entonces es muy difícil que tú puedas adoptar esas prácticas eficaces. Si si alguien no te las cuenta o si no no no las encuentras en algún sitio en la bibliografía o en algún sitio en alguna de tus redes.
+
+[00:24:13.260] 
+ El aprendizaje social también es mejor si alguien te lo cuenta seguramente que es más probable que se queden tú en tu memoria.
+
+[00:24:21.660] 
+Pero entonces el hablábamos desde la parte de personas que perdona que te interrumpa me resuena mucho gasto que estoy entendiendo que en esa parte del aprendizaje estar con ese objetivo establecer una cultura del aprendizaje la parte de las personas y la propiocepción de las personas de su propio avance en el aprendizaje es que me resuena un montón con nosotros tuvimos la suerte en random de desarrollar les estamos ayudando a Jesuitas a desarrollar su su su herramienta de apoyo para todos su sistema educativo es la herramienta que utilizan los niños en clases de los alumnos en clase hasta los profesores los padres las familias y todo el sistema y como proveedores tuvimos la suerte un día y te cuento esta historia porque me estaba resultando un montón lo que me dices y me impactó muchísimo y muy fuerte porque tuve la suerte de poder asistir y de poder ir a una de esas clases que han transformado totalmente el aula han hecho ahoras han quitado la conozco es espectacular lo que han hecho dentro del programa Horizon 2020 horizonte 2020.
+
+[00:25:36.610] 
+ Nos metieron algunos proveedores que habíamos colaborado no estaba Telefónica por nada y había varios Mitsubishi había varias marcas nos metieron en las clases con los niños los niños lo vieron totalmente normal estábamos allí los adultos nos sentamos con ellos entonces yo empecé a hablar con varios niños de una mesa y les pregunté Oye y esto qué tal respecto al año pasado a este año que era el año que arrancaban y me dijeron varias cosas.
+
+[00:26:04.360] 
+El fuego fue superguay y fue súper divertido muy emocionante para mí porque la verdad es que flipé muchísimo. Pero una de las cosas que más me impactaron fue que un chavalín de ocho años me dijo Tío es que ahora estamos aprendiendo un montón. O sea lo que él valoraba realmente era la sensación de aprendizaje en sí mismo y lo que estaba aprendiendo su propiocepción del aprendizaje y aquello me pareció increíble no decir Hostia esto yo nunca me he planteado cuánto estoy aprendiendo en mi sistema mientras yo he pasado por el sistema educativo tradicional.
+
+[00:26:39.430] 
+ Lo único que he hecho ha sido lo único que he hecho ha sido pasar de curso a curso para que me den el papelito con mi calificación calificación.
+
+[00:26:48.400] 
+Y sobre eso me pareció clave. O sea salí de allí diciendo Ostras esto es esto es lo que hay que hacer es exactamente esto. Hablas de eso poco de alguna forma.
+
+[00:26:58.630] 
+Sí sí mira yo estoy hablando claro esto con una pizarra es muy diferente el podcast requiere de mejoras multimedia pues llevamos media hora con una pizarra mucho más fácil porque todo el tiempo te estoy hablando de tres elementos las personas los equipos o la red pequeña que llamo yo y la red mayor que puede ser la organización pero puede ser también la red que las propias personas crean fuera de la organización. Por ejemplo vale vale tú participas de distintas comunidades esas comunidades afectan a random directamente año a año y no no pasan por aquí ahora sino con el open space les simples invitás está muy bien pero al final en vez de pensar a las organizaciones de esa manera lineal que seguramente habrás hablado con Pablo las organizaciones son son redes y no están cerradas y no hay que los límites son una invención que está solamente en nuestra cabeza de acuerdo entonces en la conexión de estas personas para generar conocimiento conocimiento solamente puede estar en una persona vale.
+
+[00:28:27.300] 
+ Es esto una aclaración que deberíamos debería haber hecho cuando me preguntabas por aprender pero ahora que hablabas sobre los niños como aprenden y antes te hablaba de la gestión del conocimiento el conocimiento no no es algo propio de un sistema de información el conocimiento sólo puede estar en un individuo vale.
+
+[00:28:50.500] 
+Y ese conocimiento para para ser transmitido debe debemos crear conexiones entre esos entre esos individuos. Y cuanto más fuertes sean esas conexiones pueden ser comunidades de práctica dentro de la organización o fuera de esa organización la comunidad de prácticas a mí me parece el ejemplo más potente que podemos implementar para.
+
+[00:29:20.380] 
+Generar estas dinámicas de aprendizaje sobre todo porque es inherente a la comunidad de práctica la mejora de tu práctica y el aprendizaje y el cambio van entonces en el desarrollo de los profesionales dentro de la organización depende de establecer este tipo de estructuras. Me gusta hacer el paralelismo con la Ley de Congo. Cómo te suena el nombre del juego de la vida. Pues la Ley de Congo básicamente decía algo así como que una organización estaba diseñar un sistema lo diseñara más o menos con la estructura de la organización. No depende o se mapea un poco con la estructura de la organización y esto es es es básicamente se puede aplicar aprendizaje.
+
+[00:30:23.160] 
+ No lo hablaba exclusivamente de software sino de cualquier sistema o de cualquier diseño que intentemos generar. Entonces nuestro producto o nuestro servicio es uno de esos diseños y ese producto es reflejo de la estructura que tenemos en la organización y si nuestra estructura es cerrada cajas y con equipos con silos pues ese tipo de productos crearemos cerrados en cajas total que se vendan en las tiendas pero si en cambio pensamos en términos de redes y de conectar a la gente y fortalecer esas redes vale.
+
+[00:31:00.820] 
+Pero no solamente juntar los puntos. Hay mucho que podemos hacer para.
+
+[00:31:06.970] 
+Que una comunidad de prácticas se desarrolle y evolucione y madure. Simplemente con juntar a la gente en torno a un tema o que la gente se junte en torno a un tema. Tal vez es el primer paso y está muy bien pero pero dotarla de herramientas estructuras que le permitan hacerlo de una manera eficaz aunque repercuta en el resto de la organización. Es un desafío vale entonces eso a nivel de equipos y de redes más más amplias. Es muy potente. Al final yo te decía que no me gustan las recetas pero sí sí que me gusta modelar.
+
+[00:31:54.310] 
+ Me gusta. Que ofrecer distintos tipos de herramientas. Que cada contexto y en cada contexto aplicar las que los equipos y las personas vean conveniente. Somos muy diferentes las personas y no es posible que todos aprendamos de la misma manera podemos hacer uso de la ciencia y de las cosas que sabemos que funcionan para la mayor parte de la gente. Pero tú lo tienes que combinar con lo que ya tienes entonces ahí es donde está. Tu desafío personal.
+
+[00:32:28.450] 
+No podemos imponer vale entonces bueno por aterrizar un poco más esto porque igual nos gusta mucho hablar y filosofar a los dos pero igual tiene más sentido aterrizar en el mundo real. Entonces si estábamos hablando de esos ámbitos a nivel personal a nivel individual a nivel de equipos a nivel de organización o estructuras menores y mayores como que decías esto como me lo aplicas a mí cómo me lo puedo llevar yo qué tengo que hacer.
+
+[00:33:06.080] 
+El primer paso es visualizar cómo aprendes lo que vale si tú no tienes un sistema que es bastante probable que tiramos mucho de este aprendizaje intuitivo y o de cómo aprendemos o como hemos estudiado en el colegio. Si no tienes un sistema yo diría que hay tres conceptos que te ayudan a estructurar tu propio sistema. El primero es una fase de captura. Como mencionaba antes ahí hay demasiada información y la información es muy barata entonces acceder a la información no es nuestro problema. Pero cuántos libros tienes en tu casa que no has leído o cuántas bookmarks tienes o cuántos cuántos tienes o usas Instapaper o Ribet Leiter o como se llame ahora Pocket.
+
+[00:34:08.560] 
+Cuántos tienes. Usas.
+
+[00:34:10.420] 
+Sí sí sí sí uso cuántos tienen usa Feedly usas capturas informació de dejado de utilizar estas cosas. De dónde te nutres de Twitter. Me nutro de Twitter Twitter de podcasts del podcast para mí que soy muy fan de los podcast en general.
+
+[00:34:31.060] 
+Es un caso muy muy particular.
+
+[00:34:36.460] 
+Digamos que está a mitad de camino entre el libro y el video o nos gusta contar historias y aprendemos mucho a partir de las historias pero tanto el podcast como el audio como el como el video son muy fáciles de consumir. El ejercicio que hacemos mientras consumimos esa información que uso la palabra consumir poco rara pero al percibir esa información el ejercicio mínimo estamos pensando puede que estemos pensando en ello con mayor energía o menor energía pero la cantidad de información que podemos retener de ese medio es mucho menor que si estamos haciendo algo para capturar esa información de verdad es esa fase es muy importante tenerla en cuenta por tener distintas herramientas.
+
+[00:35:34.800] 
+Por ejemplo tomar notas mientras estoy escuchando un podcast eso sería un ejemplo de captura en tomar notas.
+
+[00:35:40.110] 
+Por ejemplo si yo hago notas de audio no oigo podcast.
+
+[00:35:45.090] 
+Ayer fui a Pamplona y son dos horas en coche y hoy al podcast.
+
+[00:35:52.100] 
+Bueno en realidad era un audiolibro vale lo mismo y a medida que se me ocurrían cosas no no notas sobre el contenido en sí sino si no notas sobre lo que yo estaba pensando sobre el contenido. Esto es lo que se llama metacognición pensar acerca de la manera en la que estamos pensando lo que estamos de la información y de la forma en que la consumimos. Entonces tomaba notas de audio en el coche sobre ese sobre ese tema. Luego esas notas hay que procesarlas o hacer algo con ello entonces es bueno pensar en cuáles son las herramientas y cuáles son las prácticas que utilizas a la hora de capturar.
+
+[00:36:36.270] 
+ Hemos tocado dos o tres cosas pero piénsalo para todo. Intenta enumerar todo lo que haces habitualmente llamarías aprender más de una vez que tienes eso más o menos mapeado. La siguiente fase es la que yo llamo conectar vale y es la frase que algunos autores llaman dar sentido sense Maykel vale y en muchos frameworks de aprendizaje específico pero sí en frameworks de trabajo o de toma de decisiones. Encuentras esta esta fase y es fundamental dar sentido significa desde el punto de vista de aprendizaje conectarlo con lo que con lo que ya sabes fundamentalmente vale y eso qué significa o sea cómo.
+
+[00:37:39.000] 
+Cómo haces eso la actividad para mí es más importante con la que hago esto es pensar cómo podría enseñar esto mismo vale. Yo siempre pienso en alguien esto es una pregunta muy directa cuando cuando encuentro algo que me interesa pienso en a quién más le interesaría. Es como un truco personal pero pensaré en alguien que sabes que está conectado con esa información me ayuda a anclar de alguna manera y cómo se lo contaría. Es como el previo a la siguiente fase que la siguiente fase es compartir.
+
+[00:38:19.140] 
+Pero antes de pasar a la fase de compartir esta fase de conectar tú la haces ya.
+
+[00:38:24.120] 
+Una vez estás revisando lo que has capturado o correcto o a medida que vas capturando vas conectando valles lineales orgánico es claro.
+
+[00:38:34.650] 
+Lo divido en fases simplemente por explicarlo y por porque lo entendamos pero desde luego que esto es un continuo y las fases no están completamente separadas en el tiempo pues pueden estar pueden ocurrir en el mismo sitio. Lo importante es que reflexiones acerca de cómo lo estás haciendo y esto puede ser muy rápido no hace falta que sea algo artificial o incómodo para ti ya que tienes que crear con esto un sistema que para ti que te siente bien no sea como tu ropa y que te funcione. Entonces en esta fase de conectar puedes ser más explícito o no vale simplemente dejar que el tiempo conecte estas cosas pero claro necesitas volver a la captura en sí.
+
+[00:39:25.410] 
+ Si piensas confiar en todo todo el proceso que ocurre naturalmente vale porque si no vuelves lo más probable es que se olvide.
+
+[00:39:35.840] 
+Claro es casi seguro que lo olvides lo que vale vale vale una vez lo conecto dices compartir sería la tercera. La tercera es compartir por muchas razones pero la primera razón es que enseñando es la forma más una de las formas más eficaces de aprender desde. Fórmate hay muchas formas de explicar esto pero lo puedes ver desde el punto de vista de conseguir algo porque si tú te pones el objetivo de explicar algo o dar una charla o hacer una conferencia del tipo que sea o contarlo ya ya te planteas esto voy a tener que aprenderlo porque porque es clave actualmente no lo sé y entonces esto es un desafío o si tienes que implementarlo en algún sitio enseñar siempre te va a ayudar.
+
+[00:40:32.510] 
+A que esto se te quede y que lo aprendas con mayor profundidad. Vale es una de las razones de compartir pero otra es compartir.
+
+[00:40:43.230] 
+Va a ser que se refuercen las redes con las cuales de las cuales tú te nutres y entonces el conocimiento se genere un digamos un loop o un bucle de aprendizaje dentro de la organización Ayúdame a entender esta visualización.
+
+[00:41:05.470] 
+Estamos hablando ahora de la visualización de visualizar estas estas tres fases. Esto sucede tanto a nivel personal como a nivel de equipo como a nivel de organización.
+
+[00:41:15.420] 
+Sí exacto. Entonces esto lo podemos analizar. Cuál es la realidad y la idea es luego más adelante intervenir sobre esto y tocar el sistema intentar modificarlo y ver qué pasa. Vale adquirir una nueva práctica incorporarlo a prácticas que ya existen. Por ejemplo en Alloy tenemos nuestras ceremonias y éstas muchas de ellas están hechas con la intención de aprender. Sin embargo por las dinámicas que crean los equipos en general o muchas veces yo lo que veo es que se orientan exclusivamente hacia el trabajo y no hacia el aprendizaje y que los aprendizajes no se hacen explícitos.
+
+[00:42:05.280] 
+ Yo utilizo varias plantillas de retrospectivas por ejemplo que hacen hincapié en lo que hemos aprendido mucho más que en aquello que ha sido ha ido bien aquello que queremos mejorar y aquello que no entendemos del todo y que no sabemos trabajar sobre la incertidumbre y estas cosas está bien. Pero recoger lo que se ha aprendido es fundamental para que podamos modificar la forma en que estamos trabajando. Por darte un ejemplo la retrospectiva se puede potenciar. Si somos conscientes de cómo estamos aprendiendo y si tratamos de explicitarlo y difundirlo vale. Y así como se puede aplicar esto a la retrospectiva se puede aplicar a muchas otras prácticas e incorporar nuevas prácticas que permitan aprender entonces esto.
+
+[00:42:59.490] 
+ Por ejemplo en la forma en que nos reunimos las reuniones desestructuradas tienden.
+
+[00:43:08.730] 
+A generar debate exclusivamente y no están tan orientadas a la acción de la misma manera.
+
+[00:43:16.000] 
+Si la reunión tiene algún tipo de soporte para recoger aprendizaje para intercambiar aprendizaje y conocimiento podemos mejorar mucho la eficiencia y la eficacia de esas de esas reuniones la toma de decisiones en general en cualquier cosa que tenga que ver con pensar podemos introducir herramientas de aprendizaje y cuanto mejor piense en las personas y los equipos se aprenderá mucho más eficazmente.
+
+[00:43:46.020] 
+Pongo un ejemplo y cerramos Pablo porque oye eres de la Patagonia pero eres argentino tío o sea te ponés a hablar.
+
+[00:43:52.970] 
+Sí pero hablamos lento en la Patagonia y se lleva el Polo a dos personas por los porongo.
+
+[00:44:01.440] 
+Le pongo un ejemplo de la biología. Vale vale. En Toronto tienen muchos mapaches. No sé si lo sabías. Manu una ciudad que está plagada de mapaches y les caen muy bien los mapaches pero son muy molestos.
+
+[00:44:21.350] 
+Valerie uno de los problemas que tienen aquí en Barcelona no tenemos jabalíes jabalí los aviones eso sí.
+
+[00:44:29.850] 
+Mi hermana vive en matorrales.
+
+[00:44:34.560] 
+Entonces como tienen tantos problemas con los mapaches hay muchas muchas soluciones de diseño para estos para estos problemas y una de ellas es el cubo de basura anti mapache. Cómo. Sí si yo lo vi hace poco en Argentina dispersante invisible el podcast maravilloso vale. Y entonces los mapaches abren todo tipo de artefactos.
+
+[00:45:04.740] 
+Una empresa vino el diseño un cubo que posiblemente no iban a abrir porque no tienen pulgar y fue un éxito el proyecto.
+
+[00:45:19.830] 
+Hasta que un día una persona dijo que había visto a un mapache abrir uno de estos de estos cubos y y ahí al tiempo apareció un video de un mapache que abría estos cubos. Entonces todo el mundo se tiró en contra de la empresa que había diseñado el producto y tal porque ya había aparecido el video. Todo el mundo a trolear a la empresa y pasó el tiempo pero parece que los mapaches no no podían abrir el cubo solamente había un mapache que abría el cubo y no se entiende cómo se las apaña este mapache no tenía forma de transmitir este conocimiento al resto de los mapaches los mapaches no aprenden por imitación como otras especies ni viendo al hacerlo no podían reproducirlo y esto nos pasa en las empresas también nos pasa a nosotros mismos en las estructuras que montamos para aprender sí.
+
+[00:46:32.140] 
+ Si no nos encargamos de que el conocimiento fluya y de que los aprendizajes que tenemos tengan sentido para el resto también no solamente para nosotros el desarrollo profesional puede ser muy bueno pero el conocimiento se irá con las personas.
+
+[00:46:50.880] 
+Bueno pues oye me parece un cierre fantástico Pablo de verdad. Muchísimas gracias por venir. Nos ha costado quedar sobre todo por tu culpa porque por mi parte yo estaba súper dispuesto pero la gente de provincias muy agradecida de verdad yo espero que los oyentes lo disfruten tanto como yo no sé si no me atrevo a decirte que he aprendido no sé si he aprendido ha sido interesante en cualquier caso te lo agradezco este ratito que hemos pasado demuéstrame lo que has aprendido porque ya llevamos mucho rato tenemos que cerrar esto nada.
+
+[00:47:29.970] 
+Gracias de verdad y gracias y seguimos viéndonos por ahí un abrazo. Adiós.
+

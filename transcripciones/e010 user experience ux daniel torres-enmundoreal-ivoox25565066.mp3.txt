@@ -1,0 +1,336 @@
+[00:00:00.260] 
+Hoy es 23 de abril Día Internacional del Libro y mi ciudad se llena de vida se llena de paradas con libros y rosas para celebrar lo que para mí es la más bonita de las tradiciones que conservamos en Barcelona. La Diada de Sant Jordi para Daniel Torres Gurriel mi invitado de hoy es un día muy especial puesto que celebra San Jorge en su Zaragoza natal con su tercer libro que se titula usabilidad deja de sufrir me explica Daniel en la entrevista que los 2000 cuando presentaban una propuesta para ganar un proyecto de diseño web adjuntaba en el diseño de algunas de las pantallas y me lo cuenta desde la distancia y evidenciando el enorme error que estaban cometiendo en aquella época.
+
+[00:00:52.050] 
+Cómo es posible diseñar una buena solución sin previamente investigar en sus usuarios. Lo increíble es que a día de hoy 23 de abril de 2018. Run Run todavía seguimos recibiendo briefing donde se nos pide que juntemos a la propuesta un par de kilos del Hallows de diseño de John y de varias páginas internas y eso es tan sólo un síntoma de la poca conciencia que todavía impera en nuestras organizaciones sobre la importancia de servir experiencias desde la perspectiva de nuestros usuarios de nuestros clientes. Bueno el tema este de la investigación en un libro queda muy bien pero en el mundo real al final lo que necesitamos es una web que tenga lo que nosotros tenemos que poner y ya pero en el mundo real cuando al mundo real le precede un pero deja de ser un lugar se convierte en una excusa.
+
+[00:01:51.470] 
+Si de una forma u otra eres responsable de la transformación de la compañía donde trabajas aquí encontrarás la manera de desactivar esos pretextos ese portazo al cambio ese aquí no se puede Este podcast es para todos aquellos que estéis convencidos de que las empresas deben poner al cliente en el centro de la estrategia y a las personas de la organización en el corazón de la misma. Aquí adquirirás una visión estratégica y a la vez práctica a través de ejemplos y experiencias que os dotarán de argumentos en el idioma favorito de la alta dirección.
+
+[00:02:25.940] 
+El lenguaje de negocio no sólo hablaremos del qué sino también del cómo y hoy hablamos con Daniel acerca de experiencia de usuario Experiencia de Cliente proyectos digitales y aportación de valor soy Carlos Iglesias CEO en Run Run y profesor en varias universidades y escuelas de negocio.
+
+[00:02:47.310] 
+Cómo sabe que Scull o bought. Bienvenidos al décimo episodio de en el mundo real el podcast sobre Castañer Experience y negocio digital. Twitter genera monstruitos y algún que otro gilipollas. Esta es una de las primeras perlas que nos deja Daniel en su entrevista Aragones por los cuatro costados.
+
+[00:03:28.220] 
+Trabajador Social y sociólogo en términos de diseño admiro a Daniel por su honestidad brutalista me gusta decirlo así cinco minutos de charla con él dan más que de sobras para darse cuenta de que cuando se define como un obrero de la red lo hace desde el rigor que dan sus casi 20 años de pico y pala.
+
+[00:03:52.510] 
+Si me permitís la metáfora en esto de la experiencia de usuario soy más os dejo con este pionero del VX en nuestro país pues estamos aquí en el Open Espais Zaragoza 2018 que es un evento que a mí particularmente es uno de mis preferidos.
+
+[00:04:19.880] 
+Nunca me lo pierdo o si me lo pierdo es por fuerza mayor esta es la quinta edición y he aprovechado este viaje para hablar con una personalidad del mundo de la experiencia de usuario que es Daniel Torres Gurriel. Bienvenido al podcast. Muchas gracias Carlos. Muchísimas gracias por prestarte a este ratito en vez de estar haciendo unas cervezas que es lo que está haciendo todo el mundo en este momento.
+
+[00:04:51.160] 
+Así es Daniel me gustaría que la gente que no está tan familiarizada con el sector o que no te puedan conocer que les expliques un poquito quién eres y cuál es tu background. Pues fíjate que hay.
+
+[00:05:09.300] 
+Una experiencia personal de hace muchos años en la que me tocó escribir un reportaje para una revista sobre el panorama del diseño en Zaragoza.
+
+[00:05:19.030] 
+Esto te hablo de los primeros años de la década de los 2000 qué revista que revistas una revista llamada Revista ciclo de la que yo era socia una revista que no conocía no conocía nadie toma la revista ciclo y lo titulé obreros de la red. Decía muchas cosas de lo que vendría después. Si te dijera que me considero un obrero de la red podría quedar así pero este fantoche de qué va.
+
+[00:05:43.270] 
+Pero si te digo que aunque hoy en día me dedico a hoy en día pues tengo una empresa dirijo un estudio de 10 personas lo cual te hace tener una serie de obligaciones que antes no tenías y seguramente me ha hecho cambiar los puntos de vista acerca de bastantes cosas del ámbito laboral y de la gestión de personas eso es evidente sería un cínico si dijese lo contrario pero siempre me he considerado alguien que trabaja en el ámbito digital en el ámbito de los negocios digitales bregando bregando haciendo a veces ese trabajo que nadie quiere hacer pero que siempre debe ser hecho.
+
+[00:06:17.290] 
+ Entonces yo me iré a mi me gusta considerarme como alguien que desde las trincheras sigo bregando haciendo tampoco ese trabajo sucio en plan malote pero sí hay trabajo que debe ser hecho y que a lo mejor luce menos y que a lo mejor en fin es más complicado de exponer en un foro público para fin para presumir pero desde luego es el que aporta a la hora de obtener resultados que al final es lo que importa la visión más particular de la experiencia de usuario que en qué sentido lo dices Daniel porque me cuesta verlo te tendría en todos los sentidos para que el ordenador que estamos viendo que manejas funcione hace falta que muchos ingenieros se hayan puesto a trabajar de forma coordinada pero que a la vez haya habido un sistema de producción que suele ser en serie en fin funcione y haga que el ordenador funcione después de todo un proceso que nos lleva hasta al punto de venta.
+
+[00:07:08.600] 
+Dentro de eso es tan importante quien diseña el algoritmo para no sé que rollos del procesador como que alguien en paquete debidamente esa caja que hace que tú hagas en un podcast una descripción de lo que es un hanbok sin perfecto todos los pasos cuentan y todos los pasos que pueden tener. Si tú quieres un nivel de cualificación que pueden requerir de un nivel de cualificación menor como es joder metes el ordenador en una caja no parece tan difícil. Bueno pero todos los pasos necesitan ser ejecutados de una forma perfecta o de la mejor manera posible a eso es a lo que me refiero a no dejar ningún detalle por nimio que parezca fuera de control lo que me llama la atención es que dices que nadie lo que nadie quiere hacer lo que nadie quiere hacer porque en este mundo digital en el que ya me mojo hay de todo ya que Twitter genera monstruitos y algún que otro gilipollas.
+
+[00:08:01.170] 
+ Si que es cierto que nos gusta más presumir de lo brillante y humanamente es comprensible a nadie a nadie le amarga el decir si yo soy el responsable de esto también pero hay cosas que están en las entrañas de los productos que no se ven pero que contribuyen a que sean eficaces.
+
+[00:08:19.670] 
+Amigos este Torres Gurriel este es Daniel Torres Gurriel una persona que admiro precisamente por eso yo me quedé muy impresionado.
+
+[00:08:28.370] 
+Os doy un ejemplo de por qué admira a Daniel la última. Daniel hizo una charla en la conferencia que hicimos en Sevilla.
+
+[00:08:43.310] 
+Me impresionó mucho y te quería felicitar públicamente por ello porque en tu Twitter al acabar la casa hiciste acopio del feedback de mejora y pusiste públicamente que había bastante gente que te había dicho allá él alguien.
+
+[00:09:03.260] 
+Fue un desastre. Quiero decir las cosas por su nombre fue un feedback.
+
+[00:09:08.420] 
+Vamos a llamarlo francamente mejorable y Daniel lo que hizo fue ir a Twitter y decir gente lo siento.
+
+[00:09:20.510] 
+Intentaré mejorarlo en la próxima ocasión. Yo te admiro mucho y te respeto por cosas como éstas y por cosas o sea eres alguien directo franco y que dice las cosas como piensa quien eres Daniel o sea de dónde vienes.
+
+[00:09:34.180] 
+Pues fíjate estas preguntas no me las suelen hacer las tengo menos preparadas pero de dónde vengo pues yo soy. Soy un tipo que nació y que vive en Zaragoza Soy aragonés me considero aragonés por los cuatro costados. Mi padre es de Huesca Mi madre es de Teruel y yo soy de Zaragoza con lo cual no nos queda más que la parte de salud. Pero bueno la dejo para otra conversación.
+
+[00:09:55.910] 
+Pero bueno en una persona yo estudié Trabajo Social en la universidad luego estudiar sociología y por avatares de la vida acabé dedicándome al diseño digital. Por qué. Pues porque yo soy de aquella generación en la que cuando tenías 17 años tenía una carta del Ministerio de Defensa en el que te decían que tenías que incorporarse a filas. Bueno a mí nunca me ha desvelado ninguna sorpresa nunca me ha. Nunca me ha seducido todo ese ámbito todo ese mundo y en aquel momento con 17 años pues bueno yo tuve que decir en casa que en fin que yo iba a buscar las vías legales que en ese momento existían para evitar al cuartel hacer la mili y todo este tipo de movidas.
+
+[00:10:37.340] 
+ Entonces no sin alguna que otra dificultad por el camino porque porque cuando eres pionero en algún tema sueles llevarte algún capotazo. Entonces en mi familia no era habitual esto de negarse a hacer el servicio militar. Acabé haciendo horas de voluntario en una asociación de consumidores aquí en Zaragoza para poder ser convalidados como parte de la Prestación Social Sustitutoria sustitutoria del servicio militar. Qué sucedió. Que me preguntan Y tú qué sabes hacer. Les dije pues tengo un ordenador con Infovía e Internet. El responsable de internet. Entonces estuve 10 meses haciendo un voluntariado en el que en realidad fue como un regalo porque estaba seis horas al día conectado a Internet sin tener que pagar la conexión a Internet que entonces era como un módem blandía el teléfono en fin todas aunque había declarado a los labios.
+
+[00:11:27.500] 
+ Exacto. Y me sirvió para aprender un montón y para poder trastear con HTML fin con estas cosas y luego las hemos dado ya por sabidas pero que en el momento eran todos los días era un maldito descubrimiento maravilloso un descubrimiento. Entonces así acabé metido en el ámbito en el ámbito digital del diseño digital y no sé cómo hasta hoy.
+
+[00:11:51.950] 
+Daniel lleva unos diez y casi veinte años en este ámbito. En 2000 siete 2011 no me acuerdo.
+
+[00:12:07.700] 
+Tu estudio tiene siete años puede ser el estudio tiene desde año 11 desde 2011 arrancó su estudio y eres una persona que acaba de publicar su tercer libro fiction.
+
+[00:12:18.680] 
+Ojo cuidado que esto no lo dice no lo dice cualquiera que tal como está funcionando el libro Daniel presionante que es curioso a mí me dicen que bien yo me entero por Twitter por la gente y me parece admirable esa gente que se compra el libro le hace una foto y pone un tuit mencionando. O sea me parece maravilloso y yo les digo oye muchas gracias. A ver si me cuentas que te ha gustado o no cuando lo leas. Yo creo que bien el editor me dijo que estábamos en la recta final para agotar la primera edición.
+
+[00:12:46.670] 
+ Me lo dijo ayer mismo así que a mí me ha parecido una aventura fascinante porque sí que es verdad que este es el tercer libro pero este es el primero que publicó con una editorial como Anaya Multimedia sea una editorial grande de verdad y tal porque la primera página de una editorial. Primer libro más de ámbito local. En el segundo me lo edité yo y lo distribuye yo mismo como una estrategia comercial de publicidad de la empresa. Pero este digamos es el más profesionalizado y me ha dejado momentos impagables impagables en el ámbito de la corrección.
+
+[00:13:20.420] 
+ Cómo se corrige un libro. Yo que pensaba que escribía bien.
+
+[00:13:25.430] 
+No tengo ni idea soy un maldito impostor porque la profesional de la corrección que revisó el libro en fin llegamos a discutir por el uso de ciertas formas del lenguaje ciertos giros algunos de ellos muy curiosos pero me dejaron bien a las claras que escribir es un oficio muy serio y que quienes por nuestro trabajo tenemos acceso tenemos un cierto conocimiento muchas veces está bien que nos que la realidad nos pegue una bofetada y nos pongan sitio porque podemos saber mucho de lo mejor de un tema determinado pero escribir es otra cosa y escribir no es me pongo aquí a escribir lo primero que me sale y como me sale porque el lenguaje en idioma castellano es muy difícil de escribir bien muy difícil.
+
+[00:14:17.730] 
+Daniel estamos como os decía en este país para mí esta entrevista es especial en el sentido de que no está preparada. Es decir es un poco pensasteis también estoy absolutamente es una sesión más de este Open Space para que no sepa que se trata de una conferencia donde son los propios asistentes al evento quien configuran la agenda la parrilla de sesiones y donde se responsabiliza a cada cual de la sesión que propone.
+
+[00:14:46.320] 
+Se vota o se votan se priorizan y y un evento es un tipo de evento muy cercano nada de charlas en auditorios sino mucho corrillo y mucho compartir experiencias de verdad del mundo real. Entonces esta entrevista un poco por ahí es una conversación que a mí se me ocurrió que ya que venía a Zaragoza ya que iba a coincidir con Daniel en este evento pues podríamos hablar de qué significa experiencia de usuario y qué y que no significa experiencia usuario.
+
+[00:15:17.490] 
+Qué diferencia hay entre una experiencia de usuario y experiencia de cliente. Muchas veces cuando cuando voy a clientes potenciales a explicar lo que nosotros hacemos y les explico que es experiencia cliente o les digo que nosotros estamos enfocados en la transformación de la experiencia cliente me encuentro que muchas veces la gente piensa que le hablo de la experiencia de experiencia de usuario. Entonces me pareció interesante esa semilla para empezar por ahí. Qué es para ti experiencia de usuario Daniel. Cómo defines tu experiencia de usuario.
+
+[00:15:47.860] 
+Pues fíjate que me encantaría poder darte una respuesta así como en la radio no simple concisa rápida y que encima tuviese gancho. Sería espectacular.
+
+[00:15:58.380] 
+Lo que sí te digo es que quienes nos dedicamos a la experiencia de usuario tenemos un aliado especial y es la palabra usabilidad que no es exactamente experiencia de usuario pero por alguna razón sí que es cierto que se ha instalado en el imaginario de mucha gente en el ámbito tecnológico. Y entonces si no nos entienden cuando explicamos lo que es la experiencia de usuario decimos usabilidad usabilidad si se entiende claro aunque aunque no sepamos lo que estamos entendiendo pero la usabilidad es un término que se acepta. Otra cosa es que luego te digan dame un presupuesto porque quiero poner usabilidad en mi web que es medio kilo o cuarto y mitad o por paquetes le pongo claro pero por lo menos ya tienes.
+
+[00:16:40.460] 
+ Tienes un aliado o tienes a alguien que te abre la puerta para poder explicar tu discurso. Entonces la experiencia de usuario es un concepto que yo siempre digo que los de Digital somos unos malditos impostores. Por qué. Porque la experiencia de usuario en el ámbito de producto físico es algo que se ha trabajado siempre porque a veces nos pensamos que quien diseña un botellín de agua lo diseña porque sí o sí nos pensamos que el sonido de la puerta de un coche al cerrarse es ese sonido por una cuestión aleatoria no es aleatorio ni lo de la botella de agua ni lo del sonido de la puerta del coche.
+
+[00:17:14.280] 
+ Es una disciplina escondida. Por eso decía antes muchas veces trabajamos en esos ámbitos que realmente pueden no ser visibles pero son los que hacen que las cosas funcionen que funcionen desde una perspectiva funcional operativa o desde una perspectiva experiencial que quieras repetir que efectivamente ese ordenador esté encajado de tal forma en la caja que sea un placer hacer Boxing. Claro si lo llevamos al ámbito digital es más complicado por qué. Porque en el ámbito digital y aquí vuelvo a darte titulares joder estamos en un mercado en el que los ingenieros y los técnicos la gente de tecnología ha tomado siempre las decisiones y las sigue tomando.
+
+[00:17:54.460] 
+ Y a mí eso me parecía un disparate me pareció un disparate en tanto en cuanto estamos trabajando en el ámbito del negocio y debería ser gente preparada en el ámbito del negocio. Quien quien tomase las decisiones quienes toman las decisiones. Yo esto lo empecé a ver cuando trabajaba en una consultora en su momento porque todos mis compañeros eran ingenieros informáticos y mi jefe era ingeniero informático y el jefe de mi jefe era ingeniero robótico y entonces yo decía Hostia esto está muy bien. Hacemos productos que funcionan que son seguros estables robustos escalables.
+
+[00:18:26.160] 
+ En fin todas esas cosas que tienen los buenos sistemas pero luego a la gente no le gusta entonces esto es un problema porque si alguien viene aquí invierte en aquel momento 400 millones de pesetas en un sistema en una plataforma que hace esto o lo otro y más allá. Desde la perspectiva técnica nos van a comprar van a hacer un visto bueno va a haber un visto bueno en la recepción del trabajo pero si esto no funciona nos van a decir ustedes hacen un trabajo que no me vale. Por qué. Porque no vendo porque nadie se apunta si nadie vende sus pisos en mi plataforma de clasificados.
+
+[00:19:02.150] 
+ Y entonces quien da respuesta a eso. A mí me parece un poco desastre. Me parece francamente mejorable. Creo que en el ámbito digital tenemos se están haciendo las cosas mejor pero tradicionalmente venimos de un Legaspi en el que las decisiones han estado centradas en la tecnología y no en el negocio.
+
+[00:19:20.590] 
+A hablar de personas me parece otro nivel siguiente fase siguiente pantalla absolutamente y de alguna forma.
+
+[00:19:32.370] 
+Entiendo que la experiencia de usuario está conectado directamente con negocio y también con esa experiencia. Para mí es una alegría por cierto que haga referencia a episodios anteriores en el mundo real tener un oyente como tú es algo que me emociona profundamente.
+
+[00:19:48.000] 
+Qué crees que diferencia una disciplina como es la experiencia de una disciplina como es Castromán Experience Paraty.
+
+[00:19:56.980] 
+Yo creo que una primera diferencia de alcance es decir el círculo concéntrico de la experiencia de cliente es mucho más amplio o hay más círculos concéntricos abarcan muchos más muchos más espacios en tanto en cuanto el cliente tiene unas connotaciones y tiene ya una relación con la marca o con la empresa o con la organización que el usuario puede no tener en principio nada más yo soy de estas gentes que odian hablar de usuarios que si un usuario es un cliente o es un ciudadano o es un lector o es un consumidor o es un votante o salen cabreados contigo sabes porque el usuario ya no por la cuestión es la despersonalización si no le estamos quitando ese componente que hace que esta persona se active para algo.
+
+[00:20:40.870] 
+ Pero creo que la experiencia de cliente tiene un alcance mayor en términos generales y para ser honesto te diría.
+
+[00:20:47.880] 
+Entiendo que también tendrá una diferencia de abordaje metodológico que no te puedo precisar porque yo no soy experto en experiencia de cliente. Entonces no no me atrevo a decirte cuál es el alcance metodológico pero estoy seguro que al hacerse más ancho digamos el alcance convencional habrá abordajes metodológicos a nivel de técnicas y herramientas tipos de enfoque analítico que serán diferentes a los de la experiencia de usuario. La experiencia es algo que yo conozco que yo trabajo pues son los que van desde la investigación el descubrimiento Research en inglés ya sabes 15 por ciento más el presupuesto si dices que hasta la evaluación posterior hasta hasta la fase de testeo y la mejora continua.
+
+[00:21:31.650] 
+ Eso es lo que trabajamos nosotros en el ámbito de la experiencia de usuario. Obviamente con la fase de construcción diseño que está en el medio pero la experiencia de cliente entiendo que abarca al abarcar muchos más aspectos que trascienden obviamente lo digital trascienden al producto.
+
+[00:21:47.220] 
+Entiendo que es un ámbito muchísimo más amplio si yo también te digo yo pienso que te sorprenderías realmente ver cómo se parecen las disciplinas en el sentido de que las muchas técnicas muchas técnicas que usamos son las mismas el Journey Journey y seis personas y hay muchas muchas técnicas que son compartidas desde luego sí que estoy de acuerdo contigo que por ejemplo claro la experiencia cliente tiene que tener en cuenta todas las fases desde la fase de necesidad ni siquiera donde el cliente está usando tu aplicación o ni siquiera está considerando y tú ahí puedes empezar ya a pensar en cómo transformar esa fase de necesidad de descubrimiento del problema.
+
+[00:22:38.670] 
+ En ese sentido sí que estoy de acuerdo que la visión es un poquito más digamos que tiene un poquito más de perspectiva y quizá más holística no tan enfocada en un producto en sí mismo. Exacto.
+
+[00:22:54.570] 
+Y hablando un poco de experiencia con producto cuál es tú tu experencia mas friki en cuanto a cuál es el proyecto que hayas hecho más raro que decir Hostia pues fíjate que raro no pero curioso sí es un proyecto en el que acabé no me lo pagaron.
+
+[00:23:17.670] 
+No acabó la cosa un poco mal nombrada incomparecencia. Aquí la gente desapareció pero me pareció muy interesante por friki y por curioso porque se trataba de un comercio electrónico que se llama The Group es decir de semillas.
+
+[00:23:36.780] 
+Sí sí exacto de semillas de mariguana para entendernos cáñamo caña caña. Exacto. Claro imagínate hace 15 años la estética de ese ámbito pues una estética tricolor una estética americana tricolor. Gente con rastas en fin esta visión hedonista de la vida de fondo en fin toda esta movida.
+
+[00:24:01.540] 
+Y me pareció muy friki en el sentido de las sesiones previas de trabajo. Había una fase de descubrimiento en la que llegamos a la conclusión de que me decía esta persona a mi interlocutor yo hace 15 años era la referencia en todo esto. Y Cepero pero me parece que estaba la gente que hace 15 años podía ser mi cliente ahora tiene 35 o 40 años y es una cuestión matemática.
+
+[00:24:28.660] 
+Tú fumas y hasta y nos planteamos hostia y la gente que ahora tiene 18 está seguro de que sus necesidades objetivos y motivaciones son las mismas que hace 15 años porque a lo mejor no es así. Quiero decir la gente que tiene 18 años y que a lo mejor después de que se fuman un peta de vez en cuando entra dentro de su cultura que además yo me atrevo a decir es algo que desconozco porque yo tengo 45 años. Yo no tengo contacto con personas de 18 años o 18 y 16 está fuera de mi alcance porque mis sobrinos no son tan mayores y no tengo amigos tan jóvenes con lo cual hay una zona de sombra.
+
+[00:25:07.580] 
+ Entonces lo aborde desde una perspectiva profesional de investigación y descubrimiento o me lo pierdo todo son suposiciones. Entonces claro necesito estar muy seguro de si el usuario en este caso ha cambiado sus pautas de comportamiento o han cambiado sus necesidades. Entonces me pareció muy friki porque era el primer proyecto que me he encontrado en el que puede que no solamente haya cambiado el mercado que ha cambiado el mercado sino que han cambiado las pautas de consumo o los condicionantes de consumo y que las motivaciones de consumo sean diferentes. Entonces me pareció friki por todo ello porque me pareció a la vez interesante a la vez muy complejo porque es cierto que desde una perspectiva del regulador yo no podría llevar este caso de éxito a cualquier sitio porque todavía tiene un componente transgresora pero sí Cubasí.
+
+[00:25:59.350] 
+No sé si delictiva o por lo menos prejudice bordeando el ilícito penal que decía alguien por aquí esta mañana el frikies ese proyecto. Cuánto hace esto. Pues hace un par de años un par de años Cardeñosa un proyecto que ya era un estudio importante. Sí sí sí sí sí. Por eso había fases de descubrimiento de investigación y como decíamos el año 2000 que en la propuesta comercial ya estabas diseñando la página principal del asunto para decidir cómo lo ibas a hacer y dónde sientes que has aportado más valor.
+
+[00:26:36.340] 
+En qué proyecto cuál es tu preferido y por qué hay un proyecto con diferencia en el que creo que hemos aportado un valor brutal y me salió un poco mal porque parece que esto es de Daniel eres un puto bienqueda. Pero es verdad. Es una fundación una fundación aquí en Zaragoza que se dedica a la llamada Fundación Gehena exigentes y se dedican a trabajar entre su público objetivo son las personas que son niños y niñas con enfermedades raras. Entonces eso para mí es un caso de transformación digital del libro. Por qué.
+
+[00:27:11.920] 
+ Porque esta gente venían de gestionar presupuestos públicos subvenciones ayudas en los que se utilizaban para hacer libros para hacer jornadas para hacer eventos donde había mucho buen papel mucho buen catering mucho ponente ya de ciertas edades.
+
+[00:27:33.220] 
+Una cosa muy tradicional para entendernos. Y la crisis les ha servido para darse cuenta de que hay que gestionar presupuestos para siempre. Y nosotros hemos estado ahí ayudándoles a transformar a través de la web a transformar la forma la manera en la que primero obtenían ingresos. Eso es importante y segundo se enfocaban como una puerta de entrada del sistema sanitario público allá donde esté allá donde el sistema sanitario público no llega. Porque te hablo de casos por ejemplo de Autismo de TDA vale TDH perdón muchas veces en las consultas de Atención Primaria.
+
+[00:28:10.190] 
+ Este es mi niño es que este niño es muy movido ya no me he movido hasta que llegamos el abordaje. La atención a la familia los primeros pasos se realizan desde otra perspectiva y resulta que tenemos unos diagnósticos y unas terapias que están digamos ya. Vamos a llamar óptimamente dirigidas a esta gente les ayudamos a Stan les aconsejamos someterse al programa de Google Grants grandes para organizaciones no gubernamentales que tienen una dotación muy importante de dinero de AdWords para poder hacer una captación de tráfico interesante a través de un sistema de landing automático alfabetizando digitalmente a las personas que trabajan allí porque claro no pueden depender de un proveedor tecnológico porque no tienen presupuesto permanente para hacer una gestión de contenidos avanzada con WordPress con lo que sea y ya llevan tres o cuatro años haciendo un trabajo fantástico en la captación en captación quiere decir en toda la gente hay un montón de gente que es mi hijo mi hija se comporta de una manera extraña voy a Google y busco qué es lo que está pasando.
+
+[00:29:23.240] 
+ Imagínate la motivación que pueden tener unos padres cuando cuando su criatura tiene un comportamiento que encuadran fuera de los estándares normalizados. Esta gente y esta gente puede hacer una o puede hacer una acogida y un acompañamiento en las primeras fases de la el tratamiento. A mí yo estoy super orgulloso de haber contribuido a eso porque me parece flipante. O sea flipante como lo que valían. Sobre todo insisto libros de buen papel y eventos así como muy tradicionales no llega a 100.
+
+[00:29:57.340] 
+Esto me parece flipante como lo habéis hecho sea como un poco el proyecto como veis que habéis podido aportar valor vosotros concretamente y en cómo habéis faltante en valor sobre todo en cambiar la idea de comprar tecnología y cambiar la idea de llamamos al informático que nos hace estas cosas sino de enseñar que la tecnología no tiene que ser algo invisible para estas personas sino que es parte es una herramienta como lo es la luz como es el teléfono como son los ordenadores o las impresoras. Hay un componente digamos de alfabetización en ese sentido y en segundo lugar a través de la investigación y el descubrimiento entender cuáles son las necesidades reales de esa organización para que a través de la tecnología podamos implementar en este caso una plataforma que nos enseñe.
+
+[00:30:47.620] 
+O sea que nos permita acercarnos a nuestro público objetivo. Te pondré un ejemplo muy concreto y para mí muy muy gráfico tenemos que diseñar una landing para que las personas que estén buscando información sobre niños autistas nos dejen sus datos y podamos contactar con ellos para establecer un acompañamiento inicial y una acogida preparando los contenidos de por qué sois buenas haciendo esto y me vienen con 12 folios escritos apenas 12 folios.
+
+[00:31:17.430] 
+Esto no puede ser. Vamos a hacer un ejercicio de síntesis porque no podemos obligar a que a la gente cuando hacen una búsqueda en Google en un estado de motivación y quizá de ansiedad importante dejarse de folios tenemos que sintetizar esto en ideas básicas concretas y tal. Pero bueno es que todo es importante. Los Secretos es importante pero tenemos que me ves a mí que soy el nací allí cortando contenidos sin ningún tipo de compasión.
+
+[00:31:44.010] 
+Ese es el trabajo que acabamos haciendo 6.6 puntos Daniel pero es que me decían pero es que estamos sintetizando mucho y perdemos matices importantes. Pero es que esto no es un paper esto es una landing y tenemos que convencer a las personas que en cinco segundos tienen que decidir si somos la organización con la que deben contactar o no.. Para mí eso es la experiencia de usuario y trabajarla y trabajarla es decir enseñar a mi cliente a redactar el contenido. No es un paper de 12 folios que está muy bien pero no es para este momento porque tenemos que entender quién hay detrás y qué es lo que espera el usuario que hay detrás no sé si estás de acuerdo.
+
+[00:32:26.180] 
+En mi experiencia este tipo de conversaciones este tipo de aportación de valor es mucho más fácil que no te lo discutan cuando hay una evidencia que viene del usuario o del cliente del usuario final. Yo casi lo discutiría eso pero sí que sí en efecto sí en el sentido de si tú has hecho un trabajo de investigación previo trabajo de descubrir cuáles son esos o me han dado o me han dado un par de collejas por utilizar muchas palabras en inglés. No sé cómo traducir dale dale Oceanside chinchulines. Si tú has hecho un buen trabajo para descubrir esos insights hay una evidencia cualitativa impongamos cualitativa que tú puedes poner encima de la mesa.
+
+[00:33:21.860] 
+ Digamos que la discusión se acorta. Vale. Tú puedes tener tu opinión y yo puedo tener la mía pero aquí tengo una evidencia cualitativa. Vosotros bajáis esa discusión o esa recomendación la haces basada en este tipo de violencia.
+
+[00:33:36.770] 
+Obviamente porque si no entraría en el terreno del random. Claro entonces un cliente puede confiar mucho en mí pero ya es una cuestión de relación. En fin con fresador confesado sabes y ese no es el juego o sea el juego es otro. Con lo cual siempre que podemos nos acercamos a tratar de encontrar insights o tratar de poner sobre la mesa evidencias aunque sean aunque sean de orden cualitativo y podamos discutir en fases posteriores para ir al quanti. Vale pero por lo menos ahí es media evidencia. Yo creo que es mejor que ninguna.
+
+[00:34:11.240] 
+ Porque si no entramos en el terreno de la fe y está muy bien pero a mí yo no vendo eso. Otra cosa vale. Entonces sí que tendría que hay quien incluso en este caso no necesariamente te lo discute. Unas evidencias cualitativas porque al final tiene mucho que ver con lo que yo te comentaba antes de la toma de decisiones desde una perspectiva centrada en lo tecnológico. Entonces muchas veces es cierto que yo tengo que reconocer que la robustez de un sistema de una plataforma de una tecnología su escalabilidad su blablabla su seguridad muchas veces pesa más que una evidencia cualitativa.
+
+[00:34:46.780] 
+ Por qué por una cuestión de riesgos de evaluación de riesgos y lo puedo entender yo es una entidad bancaria. No le puedo discutir por un cualitativo una cuestión de seguridad. Por qué. Porque no me lo van a comprar. Podré estar en desacuerdo y podré intentar plasmar mi desacuerdo con argumentos creo razonables pero tengo que entender a las personas responsables de sistemas de una entidad bancaria que ante una cuestión de seguro que afecta a la seguridad yo voy a perder siempre. Eso es estar en el mundo real también por supuesto.
+
+[00:35:18.050] 
+Por supuesto que sí. Sí como suelen ser normalmente las fases de un proyecto cuando encararía un proyecto. Cuál es el sota caballo rey de vuestros proyectos el sota caballo y rey.
+
+[00:35:31.580] 
+Son esas tres fases investigación diseño y evaluación. Cómo lo hacéis más o menos la investigación como buenos consultores que te diría que depende. Depende del presupuesto sobretodo. Pero bueno en términos razonables la investigación puede tener un componente cuantitativo cuando es posible. Y entonces pues tiras de analíticas que tenga ya el cliente implementadas. Depende mucho del tamaño del cliente de su fin del recorrido que trae hasta que llega a nosotros pero no las cuantitativas son muy sencillas porque en realidad tenemos que leer Dashboard que nos permiten o que construimos que a veces los tenemos que construir o las cualitativas que son lo más divertidas son las más divertidas porque tienes que de entrevistas tienes que hacer lanzar cuestionarios tener que hacer workshops este tipo de dinámicas que son mucho más divertidas.
+
+[00:36:18.390] 
+ Yo personalmente creo que es donde más aprendemos todos no solamente a nosotros sino también al cliente porque tiene que involucrarse necesariamente y luego digamos la parte de diseño la parte de creación pues es una parte que depende en buena medida de las necesidades del proyecto. Hay proyectos que tienen unos grados de maduración muy muy avanzados con lo cual la intervención en diseño suelen ser muy Winsor suelen ser intervenciones quirúrgicas en las que digamos a tu trabajo no afecta a la estructura del diseño del producto sino que trabajas los detalles para entendernos. En otros casos hay que construir desde cero.
+
+[00:36:54.970] 
+ Entonces cuando concebimos desde cero siempre que el tiempo disponible lo permite a mí me gusta mucho trabajar de manera colaborativa pero no por una cuestión de modas es que es muchísimo más eficaz. Al principio cuesta mucho más empezar a mover a un equipo en el cliente que a veces te voy a cobrar y encima te va a hacer trabajar no hay gente dice Daniel que me estás contando pero creo que aunque cueste más arrancar el resultado es mucho más rico en términos de resultados. Obviamente en términos de aprendizaje me parece fascinante pero en resultados más rico y en la parte de evaluación pues a mi personalmente es la parte que más me gusta porque en el mundo de la usabilidad me introduje gracias a leer a Yacob Nilsen y a Eduardo Manchón con lo cual a mí toda la parte de testing con usuarios y evaluación me parece fascinante.
+
+[00:37:40.490] 
+ Yo empecé por ahí y en fin podría hablar horas y horas de tema de test con usuarios pero digamos que el colofón cuando lo hacemos lo ponemos ahí sí que es verdad que muchas veces te llaman para hacer no todo el proceso completo sino solamente una parte. Entonces eso que te permite te permite profundizar y a mí esa parte es la que me parece más fascinante. En la investigación y en el testing estoy absolutamente enamorado todavía y ahora estoy más en tareas de gestión pero sigo enamorado de esas dos disciplinas porque me parecen creo que las estamos todavía desaprovechando tienen un potencial descomunal en el ámbito del producto digital.
+
+[00:38:24.440] 
+Estoy súper de acuerdo. Entiendo que vosotros el output de vuestros proyectos suele acabar no siempre por lo que comentas pero suele acabar digamos en una entrega de una serie de frames incluso de diseños sí señor de la Yahweh de hoy de pantallas bocetos en las pantallas de las pantallas.
+
+[00:38:49.190] 
+El otro día hablaba con con alguien con alguien de una famosísima consultora diseño Thinking y me decía Me explicas una cosa que me parece súper significativa y es que un porcentaje muy alto de los proyectos que ellos conceptualizan y bajan y entregan al cliente no se llevan a cabo pues sucede esto. Si si y las razones pueden ser muy diversas muchas y variadas muchas y variadas.
+
+[00:39:25.960] 
+Efectivamente yo personalmente estaba en proyectos en los que hemos hecho Discovery y en los que hemos hecho diseños en los que hemos hecho testing y no sabe de la producción porque eso suponía poner en tela de juicio el trabajo de más de un departamento y eso sí que es mundo real. Hay gente que no quiere que se vea o ya no quiere una evidencia que gestione su trabajo y eso es humanamente comprensible. Hay algún otro trabajo que no se hable de productos sea no la cuestión que luego no se ve porque choca con algunas estrategias a nivel de dirección.
+
+[00:40:03.580] 
+ Pero bueno eso yo creo que es parte del trabajo. Creo que tenemos que tener muy claro que quienes no nos consideramos diseñadores nuestra obligación termina donde el cliente decide y eso creo que necesita de una Conciencia Autoconciencia profesional muy muy muy fuerte y muy sostenida en tanto en cuanto no pasa nada porque nuestro trabajo no se consuma no pasa nada. Creo que no pasa nada es mi visión porque somos proveedores de servicios no somos artistas somos proveedores de servicios y el cliente dice gracias por el trabajo lo de la basura pues me podrá parecer bien mal o regular pero desde una perspectiva profesional entiendo que no debería afectarnos.
+
+[00:40:51.100] 
+Esto es una conversación que me parece súper interesante y que creo que en el ámbito Alloy prácticamente es algo que a mí desde el primer momento es el momento cero que descubrí la agilidad en el mundo de las metodologías ágiles me fascinó. Realmente ese es orientación a valor entendiendo como valor el software funcionando y de alguna manera eso te hablo ahora de nuestra perspectiva de nuestra tierra. Para nosotros claro eso ha hecho un poco que esa ha sido la razón por la cual tenemos una estructura donde donde al final incorporamos también la parte de desarrollo la parte de porqué realmente.
+
+[00:41:36.590] 
+Y el otro día lo comentaba también con otro compañero sí que debe ser muy frustrante. Tú dices al final vale.
+
+[00:41:47.450] 
+Nosotros llegamos hasta donde el cliente llega a mí y yo te lo digo desde mi perspectiva me produciría una frustración brutal.
+
+[00:41:55.280] 
+Hacer un trabajo y que eso realmente no se lleve a cabo sí es frustrante pero mi obligación entiendo tendría una obligación no solo hablando contigo cuando me dirijo a mi equipo y tengo que decir chicas gracias a un trabajo cojonudo pero el cliente ha decidido que lo aparca el cliente tiene sus motivaciones tiene sus problemas tiene sus dinámicas internas y no es nuestra labor someter a juicio de valor lo que el cliente entienda oportuno. Me explico es frustrante Joder pues claro que es frustrante pero mi obligación en casos de este tipo es felicitar a mi equipo si lo hemos hecho bien decir que lo tengo que hacer mejor si lo hemos hecho mal y ya está.
+
+[00:42:41.840] 
+ Porque entiendo que esa debe ser la recompensa profesional porque si la recompensa profesional depende de cómo se pone en producción yo a mi me parece un territorio en el que no me atrevo a meterme. Por qué. Porque hay tantísimos factores que después influyen nuestros diseñadores trabajamos la experiencia de usuario pero no somos el mago Merlín ni tenemos la tecla del éxito en absoluto y yo lo tengo clarísimo. Entonces sería meternos en terrenos que sabemos nosotros de marketing de promoción de fin de penetración en diferentes mercados a diferentes niveles.
+
+[00:43:17.480] 
+No sabemos nada que somos diseñadores que tampoco que nos tenemos que bajar un poco sí pero no se integra por ejemplo la especie de usuario también es que una página no te cargue en 16 segundos. Obviamente hasta qué punto vosotros colaborarles también a ese nivel a nivel de con el equipo técnico entiendo que vosotros estáis en un punto de la cadena de valor más que un puente.
+
+[00:43:42.330] 
+Eso es una intención transversal transversal. Tenemos muchos enemigos de todos los departamentos que no pueden ser sino transversal con lo cual obviamente una página web no puede cargar en 16 segundos y uno de los primeros puntos del análisis inicial es comprobar esa eficiencia en diferentes entornos diferentes conectividades diferentes dispositivos es parte del checklist inicial que eso afecta a diferentes departamentos.
+
+[00:44:11.570] 
+Obviamente sí obviamente sí pero es parte del juego complejo del mundo de las organizaciones.
+
+[00:44:19.280] 
+Si hubiéramos estudiado.
+
+[00:44:23.190] 
+Yo siempre recuerdo una anécdota en uno de mis primeros trabajos cuando me independicé de la persona que trabajaba me fui a una comunidad autónoma que no es ésta y me pidieron un análisis de usabilidad de una web de la Consejería de Sanidad de turno y entonces yo saqué mi check list de trabajo y dije bueno pues vamos a ver necesitaríamos hablar ahora de cuáles son los objetivos de este portal y me dijeron Mira Daniel.
+
+[00:44:52.440] 
+Los objetivos son muy claros visibilizar la figura del consejero y aquel día aprendí que yo no era absolutamente nadie para juzgar la idoneidad de sus objetivos. Si el objetivo es visibilizar al consejero aquí lo que hay que hacer es conseguir mejorar la visibilidad del consejero. Punto. Mi opinión particular al respecto de cómo se utiliza el dinero público al bar y no a la mesa de trabajo. Y ese es uno de los problemas que tenemos mucha gente que trabajamos en diseño que pretendemos someter a juicios de valor cuestiones que están fuera de nuestra jurisdicción.
+
+[00:45:30.080] 
+ Entonces otra cosa es que diga Mira yo tengo un problema ético con esto y no trabajo para usted perfecto pero ese es otro escenario diferente. Yo aprendí aquel día y además fue lo mejor que me pudo haber pasado porque es verdad lo bien que me va despegándose emocionalmente a veces de los proyectos por qué. Porque si no lo haría mal si no lo haría mal y estudié Trabajo Social y cuando estudiaba trabajo social nos decían cuando cuando ejercía la profesión no se os ocurra implica implicarse emocionalmente con los pacientes porque si no si trabajáis con un secretario judicial acompañando a ejecutar órdenes de cómo se llama.
+
+[00:46:16.750] 
+ Cuando le retiran la custodia a unos padres que scenario escenario acabaría llevando a los niños a casa y nos pagan para eso. Entonces esto que te digo va un poco en contra de muchas movidas de hoy en día de la cuestión de lo emocional en el trabajo y tal la igual pero yo lo llevo hasta las últimas consecuencias. No hago un buen trabajo profesional sin mi implicación interfiere en mi ejecución profesional entonces eso a veces no se entiende a veces es complicado pero yo estoy convencido y hasta ahora en un medio tan mal que es el camino súper interesante la reflexión te lo agradezco un montón.
+
+[00:46:58.370] 
+No te quiero robar mucho más tiempo llevamos cuarenta y tres minutos. Se me ha pasado volando también. También yo tengo que estar con un ojo en el reloj por eso me gustaría me gustaría que expliques un poquito cuáles son los retos de Torres Borriana estudio en los próximos dos años.
+
+[00:47:17.590] 
+Fíjate que venimos de dos años anteriores en los que hemos duplicado personal y facturación dos años seguidos eso es una locura es una locura porque por A mí no me da un infarto con lo cual es mucha tela.
+
+[00:47:32.240] 
+No es una locura en términos de yo me he encontrado gestionando una empresa y yo soy diseñador de experiencia de usuario.
+
+[00:47:38.590] 
+Entonces para mí hoy en día mi trabajo es una novedad todos los días y aprendo todos los días a base de hostias sobre todo vale entonces el reto es ahora mismo consolidarnos es frenar un poco consolidar y como le digo a Alfonso Romay y con esto el responsable de operaciones y nos reímos mucho. Tenemos que practicar rejo Nismo recognize hemos demostrado ya las rejo nismo de correr mientras nos gastamos los zapatos y ahora vamos a más a partir de ensanchar por el centro para ocupar toda la centralidad desde una perspectiva robusta. Entonces ese es un poco el reto.
+
+[00:48:20.140] 
+ El reto es el reto es parar un poco consolidar porque no sería bueno correr riesgos con un crecimiento innecesario o con un crecimiento más que innecesario con poco o con poco control.
+
+[00:48:34.420] 
+Difícil Barrera conociéndote Daniel porque porque sois ambiciosos en cuanto a vuestra profesionalidad. Vosotros queréis hacer cada vez mejores proyectos Caraz que trabajar para sí.
+
+[00:48:48.600] 
+Yo nunca me habría atrevido a decirte que soy ambicioso pero sí es cierto que el mundo es de los valientes y segundo que no se equivocó al que hace algo es que es que si estamos pensando en pensar sobre lo que vamos a pensar que vamos a hacer entonces sí que es verdad que te equivocas. Pues claro que te equivocas no pasa nada me a decir voy a abrir la caja de feedback y voy a presumir de lo bien que ha ido la charla el debate te pegan una hostia. Los asistentes a la charla que han dicho que todo mal pues ya.
+
+[00:49:18.490] 
+Pues perdón y veremos a ver si otro día sale mejor.
+
+[00:49:22.410] 
+Que no hay otro camino porque hoy en día con este rollo digital no nos queda más camino que decir la verdad siempre porque te van a pillar.
+
+[00:49:29.680] 
+Totalmente de acuerdo. Totalmente de acuerdo Daniel. Muchísimas gracias por ser tan tú en esta entrevista y yo creo que puedo aportar bastante luz de lo que significa un proyecto de usuario que significa la expresión usuario y cómo y cómo puede aportar valor a los clientes.
+
+[00:49:52.130] 
+Cómo te puede contactar la gente como si quieren contactar contigo. Como cuáles. Cómo te sientes cómodo. Fíjate yo siempre digo lo mismo buscas Torres Gurriel en Google y no tengo escapatoria.
+
+[00:50:03.730] 
+Cuál es el SEO garantizado para garantizar Torres volvió el 4. En total siempre explicasen las americanas es una risa pero ahora es volver a lo bueno y bueno yo agradecerte el detalle de haberte traído los trastos de matar para hacer esta entrevista.
+
+[00:50:25.990] 
+Está súper agusto y lo que me ha sorprendido se me ha pasado el tiempo mucho más rápido de lo que pensaba lo cual es buena señal.
+
+[00:50:32.470] 
+Muchísimas gracias y nos vemos en la próxima.
+
+[00:50:36.370] 
+Estupendo y hasta aquí amigos.
+
+[00:50:41.120] 
+Este episodio de mi podcast en el mundo real el podcast sobre experiencia de cliente y negocio digital.
+
+[00:50:48.300] 
+Muchísimas gracias por escuchar. No no le des al stop escúchame un momentito porque ya sabes que para mí es súper importante saber qué pensáis que os ha aparecido os he aportado algo tenéis alguna experiencia relacionada.
+
+[00:51:01.200] 
+Así que me encantaría que sigáis dejándome todos esos feedbacks que me dejan.
+
+[00:51:06.160] 
+Ya sea con un comentario en la página del episodio que hoy es Carlos Iglesias punto info barra 00:10 o la página de Facebook @facebook.com barra en el mundo real punto pocas. O mejor aún a través de una reseña Noitebús iVoox Ryker o la plataforma que utilizais acompañado de unas estrellitas laicas aviesos os lo explico siempre que es la forma que tienen estas plataformas de dar visibilidad. Entonces para mí es súper importante porque de esta forma voy a poder ampliar aún más esta gran conversación que espero mantener con todos vosotros oyentes. Un fuerte abrazo y os espero en el mundo real.
+

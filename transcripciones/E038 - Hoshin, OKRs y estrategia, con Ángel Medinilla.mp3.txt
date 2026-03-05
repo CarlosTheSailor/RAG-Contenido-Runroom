@@ -1,0 +1,435 @@
+[00:00:00.150] - Carlos Iglesias
+Te propongo un juego. Voy a leer algunos de los 14 principios de la web de una importante compañía y tú tienes que adivinar de quién se trata. Ready? Vamos allá. 
+
+[00:00:14.730] 
+Principio número 1. Los intereses de nuestros clientes siempre son lo primero. Nuestra experiencia muestra que si servimos bien a nuestros clientes, nuestro propio éxito seguirá. 
+
+[00:00:31.200] 
+Principio número 2. Nuestros activos son nuestra gente, capital y reputación. Si alguna de estas disminuye alguna vez, la última es la más difícil de restaurar.
+
+[00:00:46.150] 
+Estamos dedicados a cumplir plenamente con la letra y el espíritu de las leyes, normas y principios éticos que nos gobiernan. Nuestro éxito continuo depende de la adhesión inquebrantable a este estándar... 
+
+[00:01:02.970] 
+Avanzo hasta el principio número 14: La integridad y la honestidad son la base de nuestro negocio. Esperamos que nuestra gente mantenga altos estándares éticos en todo lo que hace, tanto en su trabajo para la empresa como en sus vidas personales. 
+
+[00:01:23.800] 
+¿Cuál es tu apuesta? ¿Lo tienes claro?
+
+[00:01:27.410] 
+¿No? Pues bien, estas palabras las he extraído de la web de Goldman Sachs en 2007 gracias a web BarCamp. 
+
+[00:01:36.830] 
+¿Has acertado? Yo no. 
+
+[00:01:40.720] 
+Soy Carlos Iglesias, CEO en Runroom, la consultora tecnológica y creativa con foco en experiencia de cliente. También soy codirector del INC Digital y director del Bisnes Agility, ambos programas de Executive Education en Esade. Hoy hablamos con ángel Medinilla, consultor Lean y Agile, formador, autor, speaker y un larguísimo etcétera. Os doy la bienvenida a un nuevo episodio de Realworld, poca sobre casta, experiencia y negocio digital.
+
+[00:02:31.900] 
+Bueno, bueno, bueno, bueno, bueno, bueno, he de reconocer que esta crisis del Covi le ha pasado un poquito de factura a mi regularidad tener un monton de oyentes, me habéis ido escribiendo durante estas últimas semanas preguntándome si estoy bien y sobretodo si volvería a publicar.
+
+[00:02:51.310] 
+Muchísimas gracias por vuestro interés y especialmente gracias por los mensajes de cariño. Desde que se activó el estado de alarma tan solo he publicado dos episodios, siendo totalmente honesto, han sido principalmente dos las razones de mi ausencia. La primera y más práctica tiene que ver con la presencialidad. No me acaba de gustar entrevistar en remoto. Esos dos episodios ya los tenía grabados desde febrero. La segunda razón ha sido en realidad la más poderosa. Emocionalmente no me apetecía. Todo me parecía frívolo, insensible.
+
+[00:03:33.570] 
+A pesar de que tanto mi familia como yo estamos muy bien, los poquitos casos de amigos que han dado positivo han acabado con final feliz. Runroom continúa con buena salud y no hemos tenido que hacer fotos. He aprovechado el confinamiento para volver a poner a punto mi huerto, que ya está empezando a dar los primeros tomatitos y deliciosas lechugas de todas las clases. También aprendí a hacer un riquísimo pan de masa madre. Como sabéis, como sabréis gracias a Instagram, y llevo dos semanas trabajando de pie, cosa que mi espalda agradece enormemente.
+
+[00:04:10.740] 
+Así que todo bien. Me considero un privilegiado e incluso empieza a tener esa sensación optimista de que de que es posible que juntos lo vamos a conseguir. Pero por simple estadística, algunas de vosotras, algunos de vosotros, no habéis tenido tanta suerte como yo. Sé que no es mucho, pero. Os envío todo mi cariño con un abrazo virtual muy fuerte y os dedico este episodio que ya ha pasado a convertirse en uno de mis favoritos. Bien Hoshin Kanri es un término japonés compuesto por cuatro palabras Ho, Shin, kan y Ri, que pueden ser interpretadas respectivamente como dirección, aguja, control y razón.
+
+[00:05:17.890] 
+El año pasado dediqué algunas semanas a estudiar este marco metodológico creado por Toyota y que revolucionó la industria desde los años noventa. Me fascinó la sencillez de la matriz X y del concepto de catchball, una técnica colaborativa para definir y dar seguimiento a los objetivos e indicadores a través de los distintos estratos de la compañía. Co-crear. De nuevo, es la clave. Los OKRs persiguen objetivos muy similares y vienen a ser una versión simplificada y moderna de Hoshin Kanri y, en mi opinión, con los objetivos estratégicos de una compañía.
+
+[00:05:55.950] 
+Suele pasar algo parecido a lo que sucede cuando hablamos del propósito o plasmamos en palabras la cultura, los valores y los principios que deben guiar nuestros comportamientos. Las palabras son una representación de la realidad. Pero no son la realidad. El mapa no es el territorio que decía Alfred Korzybski. De propósito, de estrategia, de objetivos, de resultados y en definitiva, de cultura, hablamos con Ángel Medinilla, un torbellino de energía y conocimiento. Disfrutad!
+
+[00:06:41.970] 
+ pues aquí estamos con ángel Medina, ya viejo amigo ángel.
+
+[00:06:46.780] 
+Nos conocemos desde hace más de diez años. 
+
+[00:06:50.080] - Ángel Medinilla
+Menos mal que no ha especificado porque empiezas diciendo viejo y arrepintiendo de haber venido.
+
+[00:06:56.290] 
+Contigo comparto, además de la pasión por el mar, eres un amante de la vela como yo, hemos tenido la suerte de navegar en tu barco. Barcelonès por elección, sevillano de nacimiento y ciudadano del mundo, yo diría, porque consultor de transformación Lean y Agile con amplísima experiencia trabajando en grandes y medianas empresas de Europa, Asia, América, por todo el mundo.
+
+[00:07:23.410] 
+Autor de dos libros, "Agile Management", "Agile Kaizen" eres además el formador oficial de management 3.0 mejor valorado de todo el mundo.
+
+[00:07:40.800] 
+Ya te lo he dicho un montón de veces, en privado, lo he explicitado públicamente muchas veces, para mí eres una inspiración. Desde siempre ha sido así. Esta mañana venía pensando ¿qué le podría decir a Ángel que no le haya dicho hasta ahora?
+
+[00:08:04.840] 
+Y me he dado cuenta de una cosa que te quiero decir, que tiene que ver con mi faceta docente. Me doy cuenta de que para mi, en mis clases, en mi fuero interno, mi objetivo es causar en los alumnos el mismo impacto que tú has causado en mi un montón de veces.
+
+[00:08:30.340] - Ángel Medinilla
+No vale romper al entrevistado en el minuto y medio inicial. Ya me tienes roto.
+
+[00:08:48.040] - Carlos Iglesias
+Era cuestión de tiempo que estuviese sentado delante de este micrófono, así que no se me ocurre una mejor manera de arrancar esta recién estrenada fase 2 que arranca hoy aquí en Barcelona.
+
+[00:09:00.220] - Ángel Medinilla
+Estamos en fase 2, estamos en fase 2? No, no creo que no. Yo tengo que mirar lo que vivo muy de todas las noticias, porque últimamente ya me afectan. Efectivamente, pero bueno, pues yo también. Ayer tuve una videoconferencia y decía no sé si me entero de que hay una cosa de un virus. No sé si había oído algo. Lo prefiero ya quitármelo de la cabeza, pero mira que bien.
+
+[00:09:24.090] - Carlos Iglesias
+Bienvenido al podcast. 
+
+[00:09:24.890] - Ángel Medinilla
+Joder macho, mientras me estabas describiendo lo que me surgía era la frase de los Grateful Dead: "What a long strange trip it's been!"
+
+[00:09:42.510] 
+Esto ha sido un viaje y una de las cosas que yo recuerdo cuando todavía estaba haciéndome un sitio en el mundo del agilismo en España y ya había hecho alguna cosilla por fuera, pero todavía en los inicios, recuerdo que por mucha casualidad, uno de los primeros sitios donde empecé a hacer un acompañamiento fue en TV3. Y fue donde donde nosotros empezamos a conocernos, porque yo recuerdo que en TV3 empecé a hacer Scrum y Kanban y empezamos a hacer ahí tablones chulos y estuvimos unos meses y un día me dijeron hay una empresa proveedora que vino un día ha visto esto y han montado unos. Y me mandaron una foto de vuestro tablón y flipé en colores.
+
+[00:10:17.800] 
+Yo dije "hostia, esto es la versión mejorada de mis tablones" y de hecho luego me pidieron que contribuyera a un libro. No sé si te acordarás el "Beyond Agile", de Modus Cooperandi https://moduscooperandi.com/modus-cooperandi/blog/beyond-agile-tales-of-continuous-improvement-published, y yo quería contar la combinación de Scrum y Kanban y os pedí permiso para utilizar vuestros tablones. Y es curioso porque estamos en una ola de la agilidad en la que ya estamos entrando al mainstream.
+
+[00:10:47.340] 
+Y claro, los que fuimos pioneros es como esto ya no nos mola, porque a nosotros nos mola ser pioneros y estar ahí, en las montañas y con los gurús en los ashram. Entonces, cuando ya empieza a haber acro yoga y empieza a ver el yoga desnudos y el yoga en la sauna y el yoga de circo, de repente los yoguis dicen esto ya no mola, hay que buscar otra cosa.
+
+[00:11:05.340] 
+Pero nosotros sí estuvimos en esa primera ola y en esa primera ola yo recuerdo que hubieron empresas que lo pillaban a la primera, como vosotros. Hoy en día cuento lo mismo que contaba antes, y lo debo de contar mejor ahora, después de diez o quince años, y hay gente que le cuesta... ¡Pero si los de Runroom lo entendieron en el minuto uno!
+
+[00:11:28.950] - Carlos Iglesias
+Y yo siempre digo que en nuestro caso es que no tiene tanto mérito, porque realmente la cultura estaba tan alineada con sus valores y principios que para nosotros no fue un reto, fue un ¡gracias! Fue una luz y decir ¡vamos hacia allá!
+
+[00:11:45.090] - Ángel Medinilla
+Y creo que ese es el reto en el que estamos ahora, que los que adoptaron agilidad cuando nadie hacía agilidad es porque les enganchó muy bien. Es el tema de los early adopters, que es un tío que le plantean una cosa nueva y dice "esto me viene a mí fenomenal". Inmediatamente, dice "esto me ayuda a mí con mi problema".
+
+[00:12:07.440] 
+No te compra el producto,  lo que dice es "esto me ayuda a mí, con lo que yo necesito" y esto es lo que pasó. Y ahora lo que tenemos es gente que son más early majority y late majority. Son escépticos, hay que acompañarlos, hay que darles seguridad. Ahí está el reto.
+
+[00:12:21.540] - Carlos Iglesias
+Me gusta mucho que los invitados expliquen un poco su background y destaquen ellos mismos cuáles han sido sus aprendizajes, sus experiencias y dónde están ahora.
+
+[00:12:36.690] - Ángel Medinilla
+Bueno, yo ya tengo mi forma de describirlo. Yo durante casi diez años fui project manager de eso que nos reímos ahora, de los que se han visto los memes de esta semana, de los de Anonymus diciendo el "Agile Coach antes era Project Manager". Pues sí, yo antes era project manager y empresas de Telco, sobre todo en España, primero empecé poniendo cables por las fachadas y luego acabé poniendo antenas por los montes, 
+
+[00:13:06.300] 
+osea que tuve la experiencia completa porque yo estudié telecos. Luego en el 2007, después de un par de primeros intentos que no salieron muy bien, muy quemado del mundo corporativo y eso ha tenido mucho que ver con mi carrera, dije voy a montar una consultoría para trabajar solo y quiero hacer consultoría en gestión de proyectos, porque era lo que yo venía haciendo toda la vida.
+
+[00:13:32.610] 
+Eso fue en 2007, pero en 2008 me empiezan a preguntar por temas de agilidad y de Scrum y casi no había nadie en España en aquel momento hablando de esto. En aquel momento, y que yo recuerde y perdonadme si me olvido a alguien, en el 2008 estaba Rodrigo Corral que escribía un blog sobre esto, estaba Juan Palacio, que tenía un blog que hablaba de esto y yo creo que ya empezaba a haber un proto grupo de Gmail de Agile Spain en el que estaba JM Beas y Xavi Albaladejo, Agustín Jago en la universidad hablaba un poquito de esto, pero. Los abueletes de la gilismo patrio, Jorge Uriarte, tambien. Yo empecé a hacer cosas.
+
+[00:14:13.060] 
+Empecé a hacer cursito y tuve la suerte de que en un par de años después aterricé en Ericsson y en Ericsson hice un proyecto ya bastante grandote. Y como Ericsson es multinacional, empezaron a decir para arriba "hay un sevillano aquí que dice cosas muy raras, pero habla inglés". Y bueno, con aquello de que hablo inglés, pues empecé a colarme en algunas conferencias europeas y en algunas empresas que empezaron a tirar de mí.
+
+[00:14:35.840] 
+Y ahí, poco a poco escribí un par de libros, trabajé mucho por Europa, fui a muchas conferencias. En 2013 creo que di el primer salto a Latinoamérica, a Jamaica, de la mano de Rodrigo Corral con un banco, y en 2014 aterricé en Medellín, Colombia, para el Ágiles Latinoamérica y eso fue el inicio de la siguiente temporada de mi vida, porque me abrió Latinoamérica. Y Latinoamérica para mí ha sido fértil.
+
+[00:15:01.250] 
+Ha sido algo que me ha cambiado muy personalmente. Y tú has sido muy testigo de ese cambio. Yo antes siempre lo hacía todo con el látigo y con los golpes y con la energía destructora del Kraken.
+
+[00:15:14.820] 
+Yo durante mucho tiempo me describía como el kraken del agilismo y a la gente le hacía mucha gracia eso, pero parte de mi viaje ha sido darme cuenta de que el Kraken era una energía muy destructiva, muy rompehielos y muy útil, porque alguien que va destruyendo su camino y luego viene gente construyendo detrás. Pero para mí también era muy destructivo. Me di cuenta un día que la energía del Kraken no dejaba sitio a nadie. Y entonces Latinoamérica, que es tan humilde, tan hospitalaria, tan receptiva, tan linda, tan cálida, tan espectacular.
+
+[00:15:49.730] 
+Colombia para mí ha sido segunda patria también. O tercera, o cuarta o quinta, porque fíjate Sevilla, Barcelona, mi Galicia, que la echo mucho de menos también. Y pues 2014, 2015, 2016, 2017, 2018 han sido años de estar mucho allí, hasta el punto de que hubo gente que pensó que yo ya no estaba por acá. Pero luego me cansé de aeropuertos y aviones y hoteles y dije "tengo que poner raíces en algún sitio".
+
+[00:16:17.480] 
+Hubo ahí un proceso de selección importante en el que hubo una final Medellín-Barcelona interesante, pero ganó Barcelona y yo hoy estoy feliz, en la que ya considero mi ciudad. Yo soy propietario en Barcelona, en el gótic además, macho metido en piedra y en piedra chunga.
+
+[00:16:36.290] 
+Entras en mi casa y es un bunker radioeléctrico, no tienes cobertura de móvil, no tiene nada espectacular.
+
+[00:16:45.710] 
+Y salir a correr y ver el Mediterráneo y tener mi barquito en Ginesta es una cosa tan espectacular, me siento tan privilegiado y tan contento y tan feliz. Y bueno, esto es un poquito mi historia.
+
+[00:16:58.070] - Carlos Iglesias
+¿Con qué estás ahora, Ángel?
+
+[00:17:00.710] - Ángel Medinilla
+Pues mira, en enero te dije "Estoy un poco cansado de hacer siempre lo mismo". El año 2019 casi todo lo que hice fueron cursos de management 3.0, porque paré un poco. Estaba muy cansado de proyectos muy grandes de consultoría que he hecho en Latinoamérica en 2015/18, bancas de 60.000 personas, cinco países...
+
+[00:17:27.690] 
+Ha sido muy formador, muy gratificante. Me siento tan orgulloso de la gente con la que he trabajado y he visto cosas increíbles pero acabé muy cansado. El año pasado dije tranquilito, me dedico a la formación y en enero estaba un poco cansado de hacer siempre lo mismo y empecé a desarrollar un programa de liderazgo que estoy haciendo con un par de amigos con Pablo Tortorella, Juliana Betancur, que además hace un programa de liderazgo que será lo siguiente después de Management 3.0, empecé a ver otro tipo de materiales, otro tipo de clientes que podía hacer en Barcelona y más locales.
+
+[00:17:57.860] 
+Y luego dije voy a intentar hacer algo online, que yo siempre me he resistido mucho al mundo de online, porque para mí la experiencia en persona es muy gratificante. Lo que más me gusta del mundo es subirme al escenario y hacer que la gente se ría. Si pudiera, me dedicaría sólo a eso, porque cuando yo tengo a 500 polacos cayéndose de la silla de la risa, esto es muy grande y me ha pasado, afortunadamente, es lo que más me gusta del mundo, pero no le saco un pavo al tema del stand-up comedy, todavía no me gano la vida. 
+
+[00:18:33.680] 
+Entonces, en enero empecé un curso online. Y de lo que más me pregunta la gente, qué recursos buenos me recomiendas, qué libros buenos hay, es sobre el tema de los OKRs.
+
+[00:18:51.720] 
+Cuando digo no hay recursos, hay muchos artículos, hay muchos blogs, muchas cosas, pero ni siquiera el libro fundacional, el Measure What Matters https://www.whatmatters.com/, es un libro que si quieres lo comentamos luego, tiene sus cositas. Todos los que lo leemos vemos KRs que parecen un poco como cosas que hacer... rarito.
+
+[00:19:09.010] 
+Entonces la gente me pregunta por OKRs, objetivos y resultados clave, para mí es una de las tres herramientas que más utilizo en mi trabajo como consultor y la gente me dice ¿dónde puedo aprender de esto? Y yo decía, en conciencia, nada que yo haya visto.
+
+[00:19:25.940] 
+Tú me preguntas, Srum y te digo léete la Scrum Guide https://www.scrum.org/resources/scrum-guide, Scrum Primer https://scrumprimer.org/,  sigue con los libros de Henrik Kniberg, "Scrum y XP desde las trincheras", "Scrum y Kanban: obteniendo lo mejor de ambos" son libros que ahí ya tienes pa entretenerte. Si quieres seguir luego con el de Mike Cohn de Addison Wesley, es brutal, ahí vas a aprender un montón. 
+
+[00:20:08.620] 
+Pero si me preguntas de Hoshin y OKRs, no sé. Y dije voy a empezar poco a poco un curso de online de Hoshin y OKRs, lo pongo udemy https://www.udemy.com/course/estrategia-agil-con-hoshin-kanri-y-okr-s/, hago un grupo de betatester y me entretengo y ¡pumba! nos ha caído lo del confinamiento. Entonces joder, me parece un poquito oportunista el decir pues ahora me pasó al online, porque todo el mundo se ha pasado al online, obviamente, y me parece muy bien, pero la realidad es que empecé con ellos en enero y hoy lo lanzamos, esta tarde.
+
+[00:20:32.810] - Carlos Iglesias
+Tengo que decir que has dicho una palabra que se suele utilizar de una forma un poco peyorativa, que es el oportunismo. Y yo, en mi opinión, creo que ser oportunista en realidad no es una cosa negativa, todo lo contrario. Yo creo que la agilidad va de adaptación, la agilidad va de ser capaces de adaptarse al contexto, de ser una máquina de adaptación al contexto.
+
+[00:20:57.380] 
+Y en ese sentido yo pienso que la estrategia puede ser también oportunista. Tiene que haber una visión, obviamente, pero también el oportunismo es, desde luego, algo muy interesante.
+
+[00:21:12.500] - Ángel Medinilla
+Tienes toda la razón y no quiero caer en algo que ha pasado durante todo el confinamiento y nos reíamos, esta gente que dice que este confinamiento, este virus, son un regalo maravilloso y decías "vete un poco a la mierda".
+
+[00:21:41.210] 
+No quiero caer en eso y es verdad que ha habido una oportunidad de reinvención importante. Es decir, más que una oportunidad, una necesidad: es que te tienes que reinventar. Y con todo, sigo teniendo un poquito de precaución con el tema del oportunismo por dos cosas. Primero, porque yo durante mucho tiempo dije no quiero hacer formación online, no me gusta hacer formación online, no creo en la formación online. Cuando yo me apunto a cursos, luego los abandono y me aburro. Es verdad que la estadística es terrible. El 80/85 por ciento de la gente que compra un curso online no lo termina.
+
+[00:22:10.120] 
+Como no sea que te has gastado 3.800 pavos porque es el curso online del Esade o del IESE, me he dejado la pasta y lo tengo que hacer y además necesito la chapa que diga que he hecho el curso. Esos tienen un porcentaje de terminarlos mucho más alto, pero cuando te vas a plataformas tipo de udemy los números son escalofriantes. Yo no quiero vender cursos para que la gente no los haga.
+
+[00:22:33.950] 
+Ese no es mi intención. Mi propósito de vida es ayudar a la gente a tomar conciencia. Si no me sirve el curso para que que la gente tome conciencia, no me vale. Entonces es una de las precauciones que yo tenía con el tema del oportunismo. La otra precaución es estoy viendo gente que se está tirando online, que dices no deberíais. Y no quiero tampoco señalar concretamente, pero hay formatos, por ejemplo, plataformas, institutos que se dedican a hacer formación de coaching, que es muy presencial, que es muy de llevarlo al cuerpo, que es muy de tocarse y de repente dicen "ahora lo vamos a hacer online" y dices "¿en serio?", a lo mejor tendría que decir pues no, vamos a capear este temporal como podamos o vamos a hacer otras cosas que se pueden hacer online, pero algo que llevas toda la vida vendiendo, que tiene que ser cara a cara y tocandose... me preocupa que la gente lo vea como todo vale con tal de seguir facturando y con tal de seguir haciendo dinero. 
+
+[00:23:27.280] 
+Y sabes además que nuestra industria uno de los males que tiene es el vender papeles y certificados y entonces me preocupa mucho que se vean esos movimientos como todo vale con tal de vender. Y no es eso.
+
+[00:23:39.500] - Carlos Iglesias
+Es verdad. Es un contexto complicado también para la formación. En tu caso tu propuesta se llama Hoshing Planning. ¿Qué es?
+
+[00:23:56.540] 
+Es una manera que estamos usando para definirnos a lo que yo creo que es un marco metodológico, porque al final no es una herramienta ni una metodología. El curso que estamos haciendo es de 12 horas en el que pasamos por Toyota, Kata, por enfoque solución, por cuadrante de Cobay, en el que metemos kanban, en el que metemos un montón de cosas, metemos desarrollo iterativo incremental. Pero sobre todo hay dos componentes importantes que son los dos pilares metodológicos, que son los porque elegimos este nombre, que son Hoshin Kanri que viene de Toyota y OKRs, que es la metodología que John Doerr desarrolla en Intel y que luego Google hace muy popular. Cuando Google publica el libro de "How Google Works" empiezan a mencionar el tema OKRs, cuando luego empiezan a subir varios videos y cuando un día el CEO de Google dice que los OKRs son LA herramienta y cuando Eric Schmidt dice "sin esto no hubiéramos llegado a donde hemos llegado", es cuando todo el mundo se vuelve loco y dice hay que poner OKRs como sea. No sé lo que es, pero ponme cuatro.
+
+[00:24:57.770] 
+Entonces los OKRs te traen algo, que es este tema de márcate unos objetivos y a continuación define cuáles son las métricas de impacto/resultado que te dicen estás logrando estos objetivos. Pero si eso no lo unes a trabajar en ciclos cortos, si eso no lo unes a definir experimentos que son los que te dicen si se mueven los KRs o no. Y si eso no lo unes a que toda la empresa se alinea y se comunica en tener una estrategia común, entonces lo OKRs pueden caer en muchos fallos que estamos viendo en la industria.
+
+[00:25:28.130] 
+Y ahí es donde Hoshin Kanri, la idea de Toyota de ese catchball que decían los americanos, pasarnos la pelota entre todos. Cuidado porque en el curso he descubierto que en Latinoamérica pasarse la pelota es muy como escurrir el bulto. No es como aquí te pasó la patata caliente.
+
+[00:25:42.290] 
+Aquí es: te lanzo la idea y tú me devuelves la idea, yo te la vuelvo a pasar y jugamos entre todos. Entonces para mí la unión de Hoshin Kanri es el objetivo, es el norte verdadero. Esta es la brújula que marca lo que de verdad venimos a hacer aquí todos los días. Aquí no venimos a hacer 8 horas y ganarnos una nómina. Venimos a ayudar a nuestros clientes, venimos a transformar el ecosistema.
+
+[00:26:05.390] 
+Esa idea de volver al propósito, para mí es fundamental. Hemos caído muchas veces en el tema de la cosmética y en el tema del Cargo Cult (que ahora por lo visto no se puede decir. Espero no arrepentirme de abrir este melón públicamente, pero ya he leído gente diciendo que decir cargo es racista porque es reírse de las tribus del Pacífico, que era muy primitivas).
+
+[00:26:34.760] 
+Yo digo no es una cosa que pasó, está documentada, hay fotografías y ya
+
+[00:26:40.700] 
+Richard Feynman lo utilizaba para caracterizar a la gente que hacía ciencia cargo cult, pero.
+
+[00:26:45.050] 
+Pero cuando Edgar Schein empieza a definir culturas corporativas y organizacionales y dice que una cultura se define en torno a una visión y unos valores compartidos, eso la gente ha hecho cargo cult y lo ha convertido en la porquería que vemos en las webs de misión, visión, valores y lo colgamos en la pared y ¡ya tengo una cultura! Cuántas empresas tienen valores de honestidad, trabajo, esfuerzo y luego la gente está engañando y están robando y están haciendo lo mínimo posible.
+
+[00:27:13.820] 
+Creo que tenemos que recuperar el tema de la visión y el propósito. Y los OKRs, si no los enfocamos a Hoshin Kanri, es decir, a ese propósito común, ese norte verdadero y esa colaboración entre todos los estamentos de la organización para conseguir un propósito unido, que es la razón por la que existe una empresa. Eso es la empresa, no existe para ganar dinero. Eso es como si me dijeras que un hospital existe para pagar impuestos, no?
+
+[00:27:37.640] 
+Y claro que paga impuestos. ¿Y el hospital existe para ganar dinero? ¡No! Ese no es el objetivo del hospital.
+
+[00:27:43.430] 
+El hospital es un hospital porque cura gente y el día que un hospital no cure a gente, olvídate de ganar dinero, de pagar impuestos o de pagar la luz. ¿El hospital existe para darle trabajo a los médicos? Porque hay gente que dice que el objetivo de mi empresa es darle trabajo a mí, a mi tribu y a mi familia. Tío, encantador y maravilloso, ¡no es el propósito de tu empresa! Y ahí es donde yo, cada vez que abro la conversación en uno de mis clientes sobre cuál es nuestro propósito, cuál es el valor que aportamos, quién es nuestro cliente, 
+
+[00:28:09.860] 
+qué problema tiene, qué tenemos que hacer nosotros para solucionar ese problema mejor que nadie. Y hay veces que cuando hago estas preguntas parece como muy obvio, qué vergüenza... Nos da para una semana de debates. 
+
+[00:28:20.720] 
+Alucino cuando hay gente que lleva cinco y diez años trabajando en una empresa y no te saben decir de carrera: este es mi cliente, este es el problema, que nosotros solucionamos y lo solucionamos mejor que nadie por esto, por esto y por esto. El día que eso no es verdad, el día que tú no solucionas el problema de tu cliente, o hay gente que lo soluciona mejor que tú, estás en la calle. Y da igual que tu objetivo sea ganar dinero. No puedes ganar dinero sin tu cliente. Hay empresas sin empleados, lo que no hay es empresas sin clientes. 
+
+[00:28:51.330] 
+Entonces para mí el tema de volver al propósito es fundamental, lo perdemos muchísimo. ¿Cuántos equipos Agiles (y me declaro culpable, todos hemos pasado por ahí) no se centran en métricas de velocidad y en hacer todo lo que tenemos en el backlog y en vaciar backlogs? Si al final de la semana en vez de hacer 8 historias de usuario habéis hecho 12, pero esas 12 historias no sirven para nada y no le impactan al cliente y no proporcionan valor, estamos haciendo el doble de porquería, el doble de rápido, que es lo que ha pasado con muchas implementaciones de agilidad, porque nos olvidamos del propósito. ¿Para qué hacemos esto? Para mí la revolución del Hoshinplan es eso: es alinear a todo el mundo con el ¿para qué?
+
+[00:29:33.880] 
+
+
+[00:29:41.530] - Carlos Iglesias
+A aquellos que no sepan de qué estamos hablando cuando hablamos de cargo cult y de Edgar Schein, os remito al episodio 19, donde hablo con Xavi Gost de cultura organizacional, donde ahí explicamos y lo bajamos. Es uno de mis episodios favoritos y ahí se desambiguarán un par de temas.
+
+[00:30:11.180] 
+¿Qué es la estrategia?
+
+[00:30:12.690] 
+Recuerdo una vez que había una persona que decía si algún día estás en un debate y está todo el mundo muy callado y la gente no participa, pregunta ¿qué es para vosotros la calidad? Y ya la has liado. Porque cada uno te va a decir una definición distinta y con estrategia pasa casi lo mismo. 
+
+[00:30:36.860] 
+No me voy a poner muy técnico porque no quiero hablar de estrategia, táctica, operaciones, ni irme a la metáfora militar que a mí me conecta muchas veces, pero hay gente que la rechaza. 
+
+[00:30:44.480] 
+Para mí la importancia de hablar de estrategia es muy fácil: cuando no le metemos energía a un sistema, el sistema siempre se va al punto de máximo desorden. Si yo no limpio una casa, la casa se desordena y se ensucia. Si yo no le meto energía a la comunicación en una empresa, falta comunicación. Si no le meto energía a la cultura, falta cultura. Donde yo no meto energía, las cosas se van al punto de máximo desorden y de mínima energía. Y en las empresas, y esto va con la estrategia, cuando yo no meto energía a el ¿para qué?, al propósito, al futuro y a la mejora continua, se nos come el día a día.
+
+[00:31:22.310] 
+El business as usual y encima parece que estás haciendo una cosa importante ,  estás haciendo b.a.u. ¿Eso es bueno? ¡No! Estamos todo el día barriendo la casa y pagando facturas. Eso no es lo que vinimos a hacer a este mundo. Si tu vida consiste en barrer tu casa y pagar facturas, replantéate muchas cosas. ¿A qué has venido a este mundo? 
+
+[00:31:47.410] 
+Para mí la estrategia es tener un espacio en el que plantearnos: ¿pero a qué vinimos?
+
+[00:31:55.510] 
+Cuando nosotros montamos Runroom hace 15 o 20 años ¿qué es lo que queríamos hacer? Y ¿lo estamos haciendo o nos dedicamos únicamente a barrer la oficina y pagar facturas? Entonces, sí hay un día a día, que son esas operaciones en las que todos los días se pagan las nóminas, se pagan facturas, se envían propuestas, pero es muy fácil cuando no le metes energía al sistema, perder el rumbo.
+
+[00:32:18.070] 
+Para mí la estrategia es el rumbo, es esa brújula. Es de vez en cuando decir "oye, tío, saca la cabeza del agua". Estamos nadando, nadando y de vez en cuando saca la cabeza del agua y mira a ver si la isla sigue adelante o te has pasado, porque si te has pasado la isla te queda Océano Pacífico para aburrirte. De vez en cuando hay que sacar la cabeza del agua, decir "un momento, pero ¿a dónde vamos? Y esto nos falla muchísimo. Perdemos el norte, pero nos pasa en la empresa y nos pasa en la vida.
+
+[00:32:44.200] 
+Cuánta gente está estudiando carreras por inercia, porque es la carrera que te han dicho que estudies. Tío, párate de vez en cuando y di ¿a mí esto me llena? ¿Esto es lo que quiero hacer yo con mi vida? Y eso es tu estrategia vital. Una de las cosas de las que hablamos en el curso es de los Hoshin a nivel personal, en el sentido de plantearte un objetivo de vida y decir muy bien pero ¿qué vas a hacer para lograr ese objetivo? que es la siguiente parte. 
+
+[00:33:19.150] 
+Porque la estrategia también es eso: tu objetivo es ser feliz, pero la estrategia que estás siguiendo para ser feliz no te la compro. ¿Qué estás haciendo? 
+
+[00:33:28.970] 
+Bueno, pues de vez en cuando habrá que pararse y preguntar en negativo: ¿cómo sé que ahora mismo no soy feliz? Porque de vez en cuando me dan unas crisis de ansiedad estupenda. Vamos a estudiar esa crisis de ansiedad. ¿Qué te provocan las crisis de ansiedad?
+
+[00:33:41.380] 
+Y vamos a ver si haciendo ejercicio, haciend una dieta distinta, meditando y relativizando cosas, eres un poquito más feliz y de repente pasan tres o cuatro meses y dices oye, no he alcanzado el nirvana todavía, pero empiezo a dormir mejor y ya no me duele la espalda... ¡Olé, se ha movido un KR! Esto es lo que contamos, pero llevado a las empresas y lo puedes aplicar a nivel personal. 
+
+[00:34:12.780] 
+Respuesta corta a tu pregunta. Estrategia es, de vez en cuando, preguntarse: Primero: ¿sigue siendo mi destino el destino que nos marcamos? Sí/no. Si no es, cámbiese. 
+
+[00:34:22.440] 
+Segundo: ¿estoy en rumbo a ese destino? Si/no. Si es sí, persiste, si no, cámbiese. Tercero: ¿qué estoy haciendo para ir avanzando en ese rumbo que tengo?
+
+[00:34:32.420] 
+Y a alguien esto le sonará a Toyota Kata, a otros que venís del mundo del coaching a enfoque a solución. Y es que todo es un poco lo mismo. Tenemos un montón de cosas que dan vuelta en torno a una idea que para mí es muy primordial, que es: tengo un propósito en la vida y persigue ese propósito activamente. Y eso es estrategia.
+
+[00:34:53.010] - Carlos Iglesias
+Me encanta. Yo comparto clases en Esade con un profesor que se llama Jaume Hugas, que lleva muchísimos años dando clases allí y en una de las clases preguntaba a los alumnos ¿qué es estrategia? Cada uno daba un poco su visión y yo me quedé con la idea que él transmitía, muy pragmática, y su acercamiento es: estrategias es donde metes la pasta. Tú puedes tener toda la intención que quieras pero estrategia al final del día es dónde estás invirtiendo. Esa es tu estrategia, seas tú consciente o no. Me gusta tu acercamiento porque lo veo como más entrópico, más basado en dónde metes la energía.
+
+[00:35:38.970] - Ángel Medinilla
+Sí, y me encanta la definición de dónde metes la pasta, porque hay veces que tú tienes una estrategia súper bonita en la pared, pero luego pasa el día y la semana y el mes y te digo y no has podido hacer nada, pues es que entonces tu estrategia es vanidad. Eso que tienes puesto en la pared de vamos a desarrollar a nuestros trabajadores, vamos a abrir nuevos mercados, vamos a fidelizar a nuestros clientes, vamos a bajar los costes, vamos a subir en innovación y en competitividad. Y qué has hecho de todo eso este mes? No, es que este mes hemos estado muy liados, no hemos podido hacer nada...
+
+[00:36:19.060] 
+Entonces eso es un ejercicio de vanidad, es Vanity Strategy: misión, visión, valores, colgado en la pared.
+
+[00:36:34.010] 
+La estrategia al final es lo que estás haciendo y si lo que estás haciendo es pagar facturas todos los días y barrer la oficina, cuando digo esto, mi consejo a los analistas no es ¡no barráis la oficina! es, además de barrer la oficina de vez en cuando, tendrás que hacer otras cosas.
+
+[00:36:51.990] - Carlos Iglesias
+Estrategia no es intención, estrategia es intención y ejecución, es acción, es meter energía.
+
+[00:36:55.950] - Ángel Medinilla
+Y de hecho en el Hoshinplan lo que le añadimos sobre todo a los OKRs, a parte de esa capa por encima de propósito y estrategia, es "por debajo" la parte de accionables, que es algo que quizá le falta un poco a los OKRs. Algunos de los enfoques que he visto por ahí es: ponemos unos objetivos, ponemos unos KR y dentro de tres meses te digo "no se han cumplido los KR, son muy malos".
+
+[00:37:20.670] 
+¿Y qué hago para mover esos KRs? Y ahí viene la parte de accionables, de hipótesis, de experimentos, de trabajar de una manera ágil, de ir poco a poco entregando cosas, pero al final en cada ciclo decir: ¿se mueven los KRs o no? Y para mí, cuando de repente vas cambiando el shift de un equipo de output (de hacer cosas) a impacto, (de realmente decir ¿hemos movido los indicadores o no?), hay un cambio de cultura brutal.
+
+[00:37:48.560] 
+Y te voy a poner un ejemplo. Falabella, que es una de las empresas con las que trabajé en Latinoamérica, tienen sede en Chile y sobre todo en la parte de digital empezaron a trabajar de formas ágiles hace mucho tiempo y hace un año o dos les conté el tema de OKRs y les impactó un montón. Entonces cogieron a varios equipos y no vamos a preguntar más qué vais a entregar ni cuál es el roadmap ni cuándo va a estar esta funcionalidad. El objetivo es vender tarjetas de crédito y al final del trimestre lo que quiero saber es si estamos vendiendo tarjetas de crédito o no.
+
+[00:39:24.860] 
+Se les dio mucha libertad a los equipos para decidir. Seis meses después habían triplicado la venta de tarjetas que habían hecho el año anterior y ahí es donde de repente empiezan las revoluciones, porque de repente todo el resto de la compañía dice "pero qué habéis hecho?". Y siempre cuando vendemos una idea tan simple y tan sencilla, muchas veces la gente piensa "algo más tiene que haber" y no, es juntar a todo el mundo y decirles: este es el problema.
+
+[00:39:57.830] 
+Te pongo otro ejemplo práctico, real: Bancolombia. El proyecto que hice con ellos, lo grande fue que lo llevamos a toda la organización, no solamente a las áreas técnicas. 
+
+[00:40:08.630] 
+Había un grupo que se encargaba de la parte de cajeros automáticos. ¿Qué estábamos intentando solucionar con los cajeros automáticos? La disponibilidad de la red de cajeros. Y pregunté: ¿cuál es el problema de disponibilidad? Que la gente llega al cajero y no hay dinero o está roto o hay un indigente durmiendo, o está sucio o lo que sea. No pueden entrar porque no hay un mantenimiento del cajero de lo que es el espacio. Y esto ¿por qué? Y cuando empezamos a tirar un poquito del hilo nos encontramos que hay tres empresas proveedoras, una que se encarga de los camiones blindados que traen el dinero, otra que es la que repara el hardware y otra que es la que mantiene limpio el espacio. ¿Qué ocurre? Llegan los del camión blindado y no pueden meter dinero porque está roto el cajero, se van los del camión blindado, llegan los de arreglar el cajero, arreglan el cajero, se van, pero no hay dinero porque el camión blindado no pudo. Vuelve al camión blindado. No pueden reponer porque se ha metido un indigente, o está sucio, entonces se va el camión blindado, llega la empresa de mantenimiento, limpia al cajero, se van. No hay dinero y así seguimos jugando.
+
+[00:41:19.130] 
+Entonces lo que hicimos fue juntar a estas tres empresas porque nos decían que "esto no es de mi empresa". Esto es uno de los problemas que intentamos solucionar con Hoshin. Básicamente lo que hicimos fue juntarlos a los tres y decir: no vamos a volver a preguntaros si has pasado con el camión, si has limpiado el cajero o si has arreglado el software. Este indicador de la pared es disponibilidad de la red de cajeros y es responsabilidad de vosotros tres, no me contéis más historias. ¡Hablad! 
+
+[00:42:11.720] 
+Tres meses: 62% de incremento de la red de cajeros en todo el país. Nos llama el presidente: ¿qué habéis hecho? Nada, juntarlos y decirles que se hablaran. Juntar a la gente, decirles que se hablen, ponerles un indicador en la pared y decir: esto es lo que importa. 
+
+[00:42:35.570] 
+Por eso cuando John Doerr, el creador de la metodología de los OKRs, escribe el libro lo titula "Measuring What Matters", midiendo lo que importa. Y solamente este cambio de dejar de medir costes, esfuerzos, tareas, tiempos y medir impactos, medir en el cliente si esto está solucionando el problema o no, esto ya es una revolución brutal. Esto ya cuesta mover una cultura entera y dejar de medir si la gente ficha a su hora y entrega lo que han dicho que tenían que entregar y decir no te voy a volver a preguntar por eso nunca, mientras se mueva el indicador de la disponibilidad de la red de cajeros. Si los cajeros están disponibles, yo soy feliz. ¿A qué hora está entrando la gente? ¡Me da igual! ¿Saben lo que es también como gerente o como mánager la libertad de no tener que estar con el cronómetro en la entrada: "falta menganito, falta fulanito o menganito entró cinco minutos tarde hoy, fulanito me debes cinco minutos, te los descuento de tus vacaciones". ¡Qué demonios, macho! En pleno año 2020 la gente sigue así.
+
+[00:43:31.850] - Carlos Iglesias
+Una de las cosas que suelo ver es que solemos pensar que los OKRs nos traen la estrategia. Hoshin es una herramienta de despliegue estratégico. La estrategia es otra cosa, la estrategia es lo que tú defines. ¿Qué otros errores solemos cometer?
+
+[00:43:54.610] - Ángel Medinilla
+El que acaba de mencionar más que un error es una expectativa muy típica. Había gente que me preguntaba: ¿qué OKRs son buenos para recursos humanos? Esto es como decir: he aprendido una herramienta que se llama Scrum, hay una cosa que se llama backlogs e historias de usuario y entonces alguien levanta la mano y dice: ¿y qué historias de usuario serían buenas para mi producto? ¡Yo, qué sé, es tu producto!
+
+[00:44:29.880] 
+Scrum no te dice qué funcionalidades le tienes que poner a tu producto. Ahora bien, si tú tienes un producto y tienes unas funcionalidades, te ayuda a organizarte, a estructurarte, a ir haciéndolo poco a poco y comprobando, pero Scrum no va a diseñar el producto por ti. Seguimos buscando maquinitas que le den a la manivela y la gente no tenga que pensar. No es esto, no es hipótesis reduccionista, algo que me organice la vida y yo no tenga que hacer nada. Lo siento, no es así.
+
+[00:44:54.330] 
+Si tú no tienes estrategia, ese es otro problema. Hay cosas que no te las va a dar la herramienta nunca, pero ni Hoshin Kanri, ni OKRs, ni Scrum, ni un serrucho.
+
+[00:45:15.220] 
+Si no hay madera, el serrucho te va a servir de muy poco: no hay estantería porque el objetivo al final no es comprarte un serrucho y aprender a usar el serrucho, ni siquiera es tener una estantería. El objetivo es que tienes todos los libros tirados por el medio y los quieres tener organizados y se te ha ocurrido que una solución es una estantería.
+
+[00:45:34.650] 
+Luego, los dos errores clásicos que se cometen en OKRs es que yo hago unos OKRs para mí, en mi mesa, en mi esquina, en mi departamento, en mi equipito, de mi área, de mi grupo y me olvido del resto de la compañía. Es verdad que hay gente que dice que no puede imponer los OKRs a toda la organización, no tiene esa capacidad de convencer, ¿cómo hago para convencer a todo el mundo? Y eso es otro problema, que es el problema del cambio cultural y de la gestión del cambio, etcétera.
+
+[00:46:04.250] 
+Pero lo que no podemos es suboptimizar. Fred Kofman lo explica fenomenal en conscious business coaching tiene un ejemplo de fútbol que es demasiado bueno: imagínate que tú tienes un equipo de fútbol y le dices al portero: "oye, yo te voy a pagar a ti, según los goles que te meten, tú primero cobras 100 millones, pero por cada gol que te metan te quito un millón." 
+
+[00:46:30.020] 
+Y luego al delantero le dices: "yo te pago a ti por los goles que metes. Tú no cobras nada, pero por cada gol que metas te pago un millón". Pues ese equipo va a ganar muy pocos partidos, porque para empezar tienes un delantero que prefiere perder 53 a 54 que ganar 1 a 0. Porque si gana 1 a 0 gana un millón. Si perdemos 53 a, 54 ha metido 53 goles, gana 53 millones. Ese es el problema de la suboptimización.
+
+[00:46:57.090] 
+El delantero está trabajando para el delantero, no para el equipo. Y luego tienes un portero que prefiere que perdamos 0 a 1, que ganemos 54 a 53. O sea, tienes dos personas que prefieren perder. Y lo que es peor, nos quedan cinco minutos de partido, vamos ganando 1 a 0, le dices al delantero que baje a defender y te dice que "ese no es mi trabajo. Yo todavía podría meter otro gol. Yo me quedo aquí arriba". El equipo no funciona porque el propósito del equipo de fútbol no es que al portero no le metan goles y que el delantero meta muchos, es ganar partidos. De hecho, Kofman tiene una grabada muy buena, está dando una charla y pregunta: ¿cuál es el propósito de un equipo de fútbol? Y alguien del público dice: meter goles.
+
+[00:47:38.660] 
+Y entonces Kofman se queda callado y se empieza a reir y dice: "Por eso los americanos sois tan malos en el fútbol, no habéis entendido de qué va el juego". El objetivo no es meter goles. Tú estás asumiendo que por meter goles vas a ganar el partido. No necesariamente. ¿A qué quiero llegar? Al error de la suboptimización, al error de que cada parte de la organización trabaja en lo suyo. Para mí la grandeza de Hoshin es alinear, empezando por el equipo de dirección.
+
+[00:48:05.460] 
+Cuento mucho la metáfora semi real de que un día, en una reunión de un equipo de dirección, me preguntan que como lo habia visto y mi respuesta fue: he visto mucho director y poco equipo. Lo llamáis equipo de dirección, pero yo no veo al equipo por ningún lado. Yo veo un director de operaciones que se levanta y habla de la estrategia de operaciones, del presupuesto de operaciones y de las necesidades de operaciones. Y se sienta. Y ahora se levanta la directora de marketing y habla del presupuesto de marketing, del plan de marketing y de las necesidades de marketing. Y se sienta. Y luego se levanta el director de ventas y habla del plan de ventas, del presupuesto de ventas y de los objetivos de ventas. Y se sienta. ¿Y el equipo? Yo lo que quiero es tirarle a este equipo de dirección de una empresa un problema: hemos perdido el mercado latinoamericano, hay que recuperarlo, ¿cómo lo hacemos? Y que el de operaciones, el de ventas y la de marketing se miren entre ellos y digan: venga chicos, qué nos inventamos. Y entre todos generen un plan que resuelva ese problema. Ahí es donde tenemos un equipo. El error clásico de OKRs es que las operaciones se hacen los OKRs de, operaciones y el de marketing se hacen los OKRs de marketing y el de ventas se hacen los de ventas. Para mí la herramienta no es para eso. Dicho lo cual, hay veces que también he aprendido a utilizar el dial de exigencia.
+
+[00:49:14.030] 
+Si estamos empezando, transige con que los tenemos todavía muy separados, en algún momento los agentes de cambio de esta organización y los que sean facilitadores, los estrategas de esta organización, tienen que entender que la capacidad de ejecución de estrategia de la organización está muy mermada si cada uno está tirando por su lado y si cada uno tira de una cuerda distinta.  Tenemos que tirar todos de la misma cuerda. Ese es el error clásico.
+
+[00:50:17.580] - Carlos Iglesias
+Creo que hemos sobrevolado con mucha visión y con mucha intención y creo que hemos tocado los temas más importantes, pero quizá aquellos que no saben qué es OKRs, de qué estamos hablando. ¿Cómo los sintetizarías?
+
+[00:50:42.720] - Ángel Medinilla
+Fred Kofman dice "Tu trabajo no es tu trabajo". Tú le preguntas a un programador: ¿cuál es tu trabajo?  y te dice: programar.
+
+[00:50:56.160] 
+No, eso es lo que haces todo el día, pero tu trabajo es hacer feliz a un cliente de alguna manera y programando tienes que conseguir hacer feliz a ese cliente. Para mí OKRs es una metodología que te permite eso, que la gente, aparte del trabajo que hace todos los días, dices ¿cuál es el objetivo? Y esa es la O de OKR: ¿qué estamos intentando hacer aquí? Y luego existe una parte que es KR (Key Results) que es ¿cómo sé que estoy logrando ese objetivo?
+
+[00:51:17.940] 
+Un ejemplo que utilizo mucho últimamente es el del autobús que va de Barcelona a Madrid. El objetivo es llegar a Madrid. ¿Cuál es el indicador clave? Tú haces un proyecto: hay que hacer 600 kilómetros y la velocidad media va a ser 100 kilómetros por hora y el consumo va a ser de 10 litros a los 100 kilómetros, por tanto 60 litros. Y cuando preguntas ¿cómo va el proyecto? la organización tradicional te dice: "llevamos tres horas, hemos recorrido 350 kilómetros cuando la previsión era 300 y hemos consumido 26 litros de combustible, cuando en teoría íbamos a haber consumido treinta".
+
+[00:51:48.450] 
+Ah, pues entonces el proyecto va fenomenal. Y ¿cuál es el último pueblo que hay pasado? "Perpinyan". ¡Pues vais en dirección contraria! Porque estás midiendo KPIs, Key Performance Indicators. Todo el mundo piensa que las métricas estratégicas son KPIs porque ya asumimos que métrica igual a KPI. La P de KPI es perfomance rendimiento. Estás midiendo el rendimiento del autobús y el autobús está rindiendo a tope, pero en dirección contraria.
+
+[00:52:16.680] 
+El objetivo no es consumir poco combustible, el objetivo no es ir muy rápido y es buenísimo que vayamos muy rápido y consumamos muy poco combustible. Pero el objetivo es llegar a Madrid. Por tanto, ¿cuál es el indicador clave? Distancia a Madrid. Distancia Madrid eran 600 y ahora 938, pues fatal, el proyecto va muy mal. Esa es la métrica clave, la que me dice si estoy logrando mi objetivo.
+
+[00:52:40.110] 
+OKRs es montar todo un marco metodológico y abrir conversaciones en la organización sobre qué es lo que importa, cuál es la estrategia, qué estamos intentando lograr y cuál es esa métrica, una o dos o tres, pero no mil y no métricas de rendimiento, de coste, de esfuerzo. Cuál es la que de verdad nos dice que estamos logrando el objetivo.
+
+[00:52:59.820] 
+ Si consigues solo eso ya es una burrada, pero en Hoshinplan estamos metiendo muchas más cosas: conversaciones, alineación, estrategia, pequeños pasos.
+
+[00:53:08.640] 
+Así que os invito a seguir investigando sobre el tema porque para mí es una de las tres herramientas que más he utilizado con diferencia en mi trabajo como consultor y de las que más beneficios me ha traído.
+
+[00:53:20.510] 
+Muchísimas gracias ángel, de verdad por estar aquí me quiero aprovechar para que explique un poco cómo vas a abrir este curso.
+
+[00:53:30.390] 
+Ya esta tarde lo lanzamos de mil y lo podréis encontrar para cuando escuchéis este podcast esta tarde.
+
+[00:53:37.550] 
+Hoy es día 8 de junio, día a día hasta que se acabe.
+
+[00:53:43.890] 
+No voy a lanzar hoy este episodio, probablemente. Cuando esté lanzado en mi encontrareis estrategia Agile con José Carrillo Cáceres si metéis estas palabras, estrategia Agile José en Carries. De hecho, el título completo sería Josín Plan Estrategia Agile con José Carrillo. Si buscais con estos términos debería de salir.
+
+[00:54:05.600] 
+Y si no busqueis ángel Medina en Google o saldrá mi correo electrónico y me escribís ángel, que no encuentro curso y mi trabajo será que encontréis ese curso y nada bueno, pues es un curso online que podréis hacer a vuestro propio ritmo, que podréis descargar en vuestras plataformas para hacerlo incluso cuando no tengáis conexión y que hemos estado yo ahora mismo.
+
+[00:54:27.240] 
+Honestamente, tengo un síndrome de impostor brutal y estoy diciendo Dios mío, cuando la gente vea esto, qué vergüenza van a decir. No tienes ni idea. Pero afortunadamente he hecho y quería tirarles también un pequeño reconocimiento. Durante los últimos dos meses y medio, casi tres meses, está trabajando con un grupo de personas que me han hecho el beta testing del curso 7 personas de Latinoamérica, 7 personas de España, de empresas como Movistar, Vodafone, Manta de Perú, Falabella y luego también pequeños emprendedores, gente que tiene una agencia de marketing digital, gente que trabaja en sector farmacia, un grupo espectacular con un talento increíble y ellos están muy contentos.
+
+[00:55:01.410] 
+Entonces, el remedio al síndrome de impostores de vez en cuando pensar yo no soy tan listo y tan inteligente como para engañar a esta gente tan inteligente. Entonces, si ellos dicen que está bien, me voy a tener que creer que el curso está bien y ojalá ojalá sirva y ojalá se orienten.
+
+[00:55:16.680] 
+Estoy convencido de que será así.
+
+[00:55:19.620] 
+Gracias a ti hablarlos tenía muchas ganas de ya tenía un poquito de pelusilla, estaba. Hoy están llevando a todo el mundo y a mí no me lleva a esto que pasa. Hay algo ahí que todavía no hemos resuelto, que hace tiempo que hace tiempo que quería.
+
+[00:55:32.790] 
+Es verdad que a mí esto del confinamiento no he hecho ninguna entrevista durante el confinamiento lanzado dos, dos episodios que ya tenía grabados previamente, pero he preferido esperar hasta el momento de poder hacerlo presencialmente, porque para mí es importante mirarte a los ojos y no es otra energía, es otra guardería y estamos muy telúricos, muy energéticos.
+
+[00:55:56.640] 
+Otro día me invitas y conocíais una parte de mí que todavía conoce muy poquita gente, que es en los tres últimos años sobre cómo he ido conectando con este tema de las energías, que es muy antiminera. 2010 o sea, es todo lo contrario.
+
+[00:56:09.060] 
+Yo antes era una máquina de ejecutar proyectos y ahora me dejo llevar mucho más por eso, por las intuiciones, la energía, la conexión, las personas, el espacio para seguir angel, para aprender sobre chakras, síganme para aprender, para más consejos energéticos.
+
+[00:56:27.960] 
+Muchas gracias a ti, Carlos.
+
+[00:56:29.580] 
+Un placer brutal. Y hasta aquí, amigos y amigas, este episodio de Real World del podcast sobre experiencia de cliente y negocio digital. Muchas personas me decís que soleis a escuchar este podcast con papel y lápiz, que tomáis apuntes, que los volvais a escuchar más de una vez. Yo confieso que es algo que me hace estallar la cabeza. Pero lo entiendo porque hay invitadas e invitados, como el de hoy, que merecen ser escuchados más de una vez, su voz merece ser compartida.
+
+[00:57:03.740] 
+Así que ojalá envíes este episodio a todas las personas con las que compartas tu día a día laboral. Ojalá les invites a escucharlo. Ojalá. Ojalá uses tu poder de persuasión y les expliques por qué crees que les puede parecer interesante, porque son las voces que necesitamos para cambiar el mundo, el mundo real.
+
+[00:57:25.730] 
+Agradeceros una vez más vuestra fidelidad, vuestros likes y vuestras reseñas en las distintas plataformas de podcasting. Un fuerte abrazo y os espero en el mundo real.
+

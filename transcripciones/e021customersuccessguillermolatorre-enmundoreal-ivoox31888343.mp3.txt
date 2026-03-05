@@ -1,0 +1,339 @@
+[00:00:00.240] 
+En un modelo de negocio SaaS es decir software as a Service una parte crucial del Journey es aquella en la que nuestro cliente empieza a utilizar la plataforma lograr adherencia en ese momento es clave puesto que es lo que nos va a traer recurrencia y a esto precisamente se enfoca el gasto. Success una estrategia especialmente popular precisamente en modelos Software as a Service o modelos SaaS pero que se está extendiendo rápidamente a otros modelos con vocación centric conscientes de la importancia de trabajar bien la experiencia de cliente.
+
+[00:00:46.570] 
+Pero claro esto es factible. Empresas grandes con presupuestos abultados y dedicados específicamente a marketing y ventas pero en el mundo real más del 90 por ciento de empresas somos pymes que no nos podemos permitir estas inversiones.
+
+[00:01:06.190] 
+Pero en el mundo real cuando al mundo real le precede un pero deja de ser un lugar se convierte en una excusa. Si de una forma u otra eres responsable de la transformación de la compañía donde trabajas aquí encontrarás la manera de desactivar esos pretextos ese portazo al cambio ese aquí no se puede Este podcast es para quienes estáis convencidos de que las empresas deben poner al cliente en el centro de la estrategia y a las personas de la organización en el corazón de la misma aquí adquiriría una visión estratégica y a la vez practica a través de ejemplos y experiencias que os dotarán de argumentos en el idioma favorito de la alta dirección.
+
+[00:01:51.260] 
+ El lenguaje de negocio no sólo hablaremos de él sino también del cómo y en el episodio de hoy hablamos con Guillermo Latorre CEO de cuantica una empresa que para mí es toda una referencia por su orientación al cliente. Soy Carlos Iglesias CEO de rán Room y profesor en varias universidades y escuelas de negocio como Esade y Scull o bought os doy la bienvenida al vigésimo primer episodio de en el mundo real el podcast sobre Castromán Experience y negocio digital.
+
+[00:02:42.820] 
+Pues sí sí llevaba más de un mes sin publicar y eso que esta entrevista la tengo grabada desde mediados de diciembre pero la verdad es que he tenido un arranque de año que está siendo una auténtica locura no solo por lo que por lo que respecta a RAM ROM sino también por varias charlas y un montón de horas de clase que como sabréis lo que os los que os dedicáis a la formación pues consumen un montón de tiempo tiempo del día a día y también personal.
+
+[00:03:14.030] 
+A mí por lo menos a mí. En fin que tenía ya muchísimas ganas de volver. Algunos ya me estabais presionando un poquito para que publicase así que en fin allá vamos. Estoy muy contento de verdad de poder presentaros a Guille Guillermo. No sólo porque lo veréis es un tipo genial con un fondo humano espectacular sino porque en todo este tiempo algunos oyentes ya me había comentado que os gustaría conocer algún caso real de alguna empresa no tan grande como las Iberdrola Decathlon naturally CaixaBank etcétera que ya han pasado por el podcast.
+
+[00:03:56.810] 
+ Bueno que no se me olvide una novedad una novedad que sepáis que en adelante podéis enviarme preguntas a través de la web simplemente entrando en Carlos Iglesias punto info hacéis clic en el botón graba tu pregunta y ahí me dejáis un mensaje de voz. La idea es que se me ha ocurrido es que si os gusta la propuesta y os animáis a ir a enviándome consultas que espero que si de verdad pues iré haciendo episodios donde trataré de darle respuesta.
+
+[00:04:32.440] 
+Os animo a preguntar preguntan mucho me hará mucha ilusión poder interactuar con vosotros de una forma más directa y además pues daros voz en el podcast.
+
+[00:04:43.700] 
+En fin sin más. Os dejo con cuantica que lo disfrutéis Guillermo Latorre.
+
+[00:04:50.650] 
+Muchas gracias por venir. Muy buenas tardes muchas gracias a ti por invitarme es un súper placer.
+
+[00:04:55.750] 
+Además cuando estamos grabando hay un runrún que no sólo grabar nunca.
+
+[00:05:00.900] 
+Si un domingo íntimo no hay nadie estaba por Barcelona. Pues no llevo todo el fin de semana por aquí en la Copa en la Copom o evento para la escena barcelonesa. Oye explica un poquito a la audiencia.
+
+[00:05:20.110] 
+Porque tu background quién eres de dónde vienes vengo yo vengo de un pueblo de Zaragoza de un pueblo que se llama Fuentes de Ebro eso es bien informado.
+
+[00:05:31.910] 
+Viene viene el pueblo es muy famoso por las cebollas dulces así que les voy a decir esto no sabía si las cebollas de fuente son famosas sí y nada yo me metí en la universidad a estudiar Ingeniera Informática en Zaragoza y no terminé la carrera me puse a trabajar como freelance.
+
+[00:05:52.990] 
+Empecé un proyecto con un compañero en una especie de aplicación online un poco no estaba muy bien enfocada estábamos un poco verdes y aquello no salió bien.
+
+[00:06:05.890] 
+Me puse a trabajar un poquito por mi cuenta como consultor básicamente porque entonces era de Zaragoza que hay un círculo muy muy fuerte de gente que trabaja en experiencia de usuario en diseño en desarrollo web nos juntamos me junté con unos cuantos por allí hemos compartido oficina durante muchos años y finalmente me propusieron entrara a través de un contacto me propusieron entrar a un nuevo proyecto que se llamaba cuantica y no lo fundaste tu sino que ya estaba creado de alguna manera.
+
+[00:06:40.330] 
+No no estaba la idea planteada la idea por por mi socio mi socio Moisés es asesor contable de toda la vida.
+
+[00:06:48.440] 
+Entonces ya llevaba ya 25 años haciendo lo mismo y se estaba planteando que la tecnología podía ayudar a hacer las cosas de otra manera. Entonces necesitaba a alguien que tuviera un poquito de conocimiento de tecnología no para que le diera una visión de qué cosas se podían hacer y qué no y entonces fue cuando nos conocimos y nos caímos muy bien. También con mi socia Alejandra y decidimos meternos en el proyecto a saco y fundar cuentico y seguir los tres y seguimos en cuanto hace esto esto hace ocho años y ocho añitos.
+
+[00:07:19.170] 
+Si tú tenías un blog y yo iba a buscar un blog que se llamaba hache muda que ha desaparecido esto ya no está offline. Qué pasa con tu blog h muda.
+
+[00:07:30.070] 
+Pues es que es un influencer. Yo era de los que tenían el blog con la pegatina del grupo en este blog nunca va a haber publicidad cuando salió.
+
+[00:07:41.730] 
+Por si todas estas todas estas herramientas h muda es que no la actualizaba y era un foco de spam me lo pirateo.
+
+[00:07:53.330] 
+Pero está quedando cada dos por tres y al final le dice bueno hasta aquí no entra nadie. Esto tiene que desaparecer entonces y Cuéntame que es cuentico. O sea que la cuántica cuántica es una.
+
+[00:08:06.490] 
+Es un producto online una herramienta online que sirve para que los autónomos y las pequeñas empresas lleven un control de su negocio de forma online de una forma un poco más novedosa como se ha hecho tradicionalmente. Entonces es una herramienta para llevar toda la gestión de facturas gastos control de cobros y pagos. El tema de los módulos de Hacienda llevarlo todo desde desde una única herramienta todo centralizado y hay una diferencia que tenemos con algunas soluciones similares es que cuantica como te decía la fundamos una parte de tecnología y otra parte de asesoría contable y fiscal con mucha experiencia.
+
+[00:08:47.910] 
+ Entonces es el principio del proyecto. La parte de asesoría de gestoría ha estado como Kore del producto desde el propio diseño del producto y incluso la atención al cliente la dan asesores contables y fiscales y bueno es un modelo SaaS.
+
+[00:09:09.310] 
+Sí es un software as a Service. Y cómo es el modelo de revenido es freemium.
+
+[00:09:13.750] 
+Si no me equivoco era freemium era hasta hace un año exactamente así que nosotros fuimos clientes de cuentico bastantes años estuvimos cinco seis seis años como cinco años y pico como modelo freemium y el año pasado en diciembre el 12 de diciembre fue cuando hicimos el de play el cambio del cambio de modelo y no el 12 de diciembre fue cuando anunciamos que íbamos a cambiar el modelo y dejamos cuatro meses a los usuarios ahora decidieran si querían continuar con cuantica pasándose a un plan de pago o si dejaban de utilizar el producto en una decisión.
+
+[00:09:58.870] 
+ Pues la verdad es que estábamos muy acojonados y preparamos un montonazo de flujos de comunicaciones y intentando prepararnos para todas las posibilidades que se enfadara muchísima gente que se enfadara poquita poquita gente que no se enfadara a nadie que se montara una guerra por ahí por internet encarnizada contra nosotros. Y sinceramente al final no pasó nada de nada no pasó nada tuvimos un montonazo de conversiones muchísimas más de las que esperábamos duplicamos prácticamente nuestra base de clientes fuerte y estamos encantadísimos con el cambio porque nos ha hecho nos ayuda mucho a enfocarnos en lo que nos queríamos enfocar.
+
+[00:10:42.630] 
+ En cuanto al desarrollo del producto porque la parte gratuita nos limitaba mucho en muchas decisiones hoy tenéis un tibio no.
+
+[00:10:53.850] 
+Si no me equivoco tenéis un sólo 15 días pero una cosa así vale ya en seguida. A mí me interesaba mucho más. Yo recuerdo que en la última tarugo con la cual tuve el honor de estar también la suerte de estar tú hiciste un workshop al que no pude asistir pero era un workshop sobre el Bordin de los clientes. Vamos lo que yo entiendo por hasta Success cómo hacemos cómo logramos adherencia de nuevos clientes que entran. Cómo conseguimos que ellos solos consigan sus propios objetivos y yo creo que vosotros tenéis un Bordin muy estudiado muy elaborado que lleváis años trabajando.
+
+[00:11:41.340] 
+Me interesa mucho eso que explica un poquito en qué consistía el Workshop el workshop fue una combinación de explicar un poquito los conceptos básicos por los que es necesario prestar mucha atención a los Bordin de usuarios a esos primeros a esa primera fase de los usuarios son los que empiezan a utilizar tu producto por primera vez. No solamente lo descubren lo compran o lo prueban sino que empiezan a utilizarlo porque le prestamos muchísima atención a todas las métricas de adquisición de captación a ese funeral de adquisición de usuarios y Velits pero le prestamos muy poquita atención a ese otro el que es vale y de todos los que se han registrado tres meses después cuántos quedan.
+
+[00:12:34.500] 
+ Entonces estamos en un momento en el que vi una imagen unos días antes del Workshop en el que salía que estamos en la era de la Customer retención de la customer acquisition y un poco para justificar la importancia de esto porque es muy muy muy importante para un producto así tener muy trabajado ese Fúnez y luego veíamos algunos ejemplos y algunos ejercicios para hacerlo un poco un poco práctico veíamos pues los tres cosas que yo considero que son un trabajo tres puntos clave de mejora en el proceso de mordiente prácticamente cualquier producto digital y luego veíamos también algunos ejercicios concretos que se pueden aplicar a cualquier producto en realidad es muy interesante porque mira yo hasta ahora todas las entrevistas que he hecho eran grandes.
+
+[00:13:26.760] 
+Son grandes empresas no son monstruos de Live dixital y hay parte de la audiencia que me estaba pidiendo oye poner un ejemplo de alguna empresa más pequeña de alguna empresa y yo pienso que aunque vuestra compañía en ese sentido es un ejemplo también me parece interesante que sea un software as a Service porque yo al menos desde mi perspectiva entiendo que se está popularizando más o está ganando mucha fuerza el concepto de Success es precisamente en compañías software as a Service donde precisamente es adherencia y esa retención es tan importante más que la captación que también lo es.
+
+[00:14:08.160] 
+ Obviamente también es súper importante pero las retenciones es súper básica en un software as a Service. Entonces a mí yo más o menos ya te he escuchado alguna vez explicar como cómo lo hacéis vosotros pero sí que me gustaría que explicase un poco a los oyentes cómo es cómo es el proceso de un boarding y cómo cómo lo habéis diseñado vosotros.
+
+[00:14:29.820] 
+Pues es bastante difícil responder a esto porque en realidad es un trabajo que lleva llevamos muchos años investigando y aprendiendo y cagándola y corrigiendo corrigiendo nuestros errores. Pero yo creo que la clave de todo está en darse cuenta de que al final cuando cuando una persona cuando cualquiera de nosotros alquilamos un producto para lo que estamos haciendo es alquilar en realidad un superpoder estamos alquilando poder hacer algo que hasta ahora no hacíamos. Aprender un nuevo idioma desde el salón de nuestra casa o cualquier otro superpoder o poder gestionar todo mi negocio de forma centralizada y tal en la clave está en que la empresa.
+
+[00:15:23.080] 
+ Nosotros como empresa tenemos que preocuparnos de que durante los primeros días en que nos conocemos del cliente construyamos una relación lo más sólida posible entre el cliente y nosotros porque eso es lo que va a asegurar que luego hay una muy buena relación entre nosotros es lo que va a asegurar que después el cliente sea leal y que se quede durante mucho tiempo que tenga una retención muy alta y demás y eso sólo se puede conseguir de una manera y es haciendo que el cliente entienda perfectamente cómo funciona el producto si resuelve las cosas que él necesita resolver o no. Cómo puede pedir ayuda cuando se encuentre perdido y no sepa cómo actuar resolver todas esas dudas que tenemos todos cuando afrontamos el uso de un nuevo producto un nuevo servicio o algo nuevo.
+
+[00:16:15.050] 
+Claro entiendo entonces que vosotros os trasgredir.
+
+[00:16:20.440] 
+Carlos no es es más pensar en el cliente como alguien es una persona que necesita mejorar algo en su vida.
+
+[00:16:31.600] 
+Yo iba un poco por ahí verdad o sea iba en el sentido de que yo supongo que lo más importante para esto es entender cuáles son las necesidades cuáles son los dolores de los clientes no los Pain los clientes por qué están accediendo a ti y qué es lo que necesitan.
+
+[00:16:48.010] 
+Claro que hay muchos procesos hasta nosotros hemos cometido errores también. Igual que el resto de productos que yo también he visto que al final los procesos no están definidos en base a funcionalidades o en base a un departamento comercial básicamente y no en base a lo que debería estar definido que es siempre el punto de vista en el éxito del cliente claro. O sea que el cliente tenga éxito utilizando tu producto y eso para empezar tiene que estar definido qué es éxito y después hay que tirar hacia atrás para esto es mi forma de verlo definir bien el éxito de lo que es el éxito del cliente que puede ser distinto en función de diferentes arquetipos de cliente y de ahí tirar hacia atrás para ver qué se lo impide.
+
+[00:17:37.720] 
+ Qué le impide llegar ahí. Cuáles son los pasos que tiene que ir siguiendo y qué cosas qué partes le impiden llegar a llegar a ese punto.
+
+[00:17:45.310] 
+Y a partir de ahí trabajar en soluciones que mejoren pues cada una de esas y cómo lo habéis hecho vosotros habéis hecho entrevistas con distintos tipos de cliente cómo identificaste los arquetipos y cómo extranjis dais esos insights de cliente de dichos arquetipos.
+
+[00:18:08.120] 
+Nosotros lo que hacemos es intentar mantener una comunicación muy fluida con nuestros clientes. Obviamente trabajamos mucho en el feedback de nuestros clientes. Hemos aprendido mucho en esto también en la gestión de Filba que cuando pedirlo como pedirlo. Hemos aprendido mucho aquí también hay otro podcast solamente sobre el feedback pero sobre todo lo más importante es que nosotros aplicamos una filosofía de trabajo que se llama obstruyeron y que va muy orientada a ponerse en el lugar del cliente para entender el contexto y la situación en la que se mueve cuando toma determinadas decisiones y cuáles son las motivaciones.
+
+[00:18:45.280] 
+ Cuáles son esas fuerzas que le hacen no decidir hacer un cambio o decidir tirar hacia hacia comprar un producto o hacer algo en concreto. Eso nos ayuda mucho a identificar los diferentes tipos de clientes que tenemos en cuentico.
+
+[00:19:04.250] 
+Os habéis ido definiendo en base al Fita que ya os dieron al inicio es decir al inicio no estaban muy claros o partieron. Es simple curiosidad y yo entiendo que claro tu socio tu y tu socia no tenían ya experiencia en el mundo de la contabilidad digital tal pues supongo que se debían haber encontrado ya con un montón de tipos de clientes y esa información se aprovechó para definir una serie de arquetipos o algo así o ha sido mucho más o más orgánico y más naíf y al principio ni siquiera había una reflexión sobre arquetipos y fue en base a esos feedbacks que fuisteis definiendo fue como teníamos mucha experiencia en el mundo de asesoría sabíamos exactamente qué tipos de clientes iban a venir pero por supuesto nosotros sabemos exactamente qué tipos de clientes tenemos lo que necesita cada uno y luego no no luego no es exactamente así.
+
+[00:19:57.820] 
+No vas a acertar no necesitan exactamente esas cosas las que tú tenías planeadas y luego además ocurre que a lo mejor esa definición de arquetipos no es la que más te ayuda a ti. Claro para poder definir un proceso de un Bordin que le ayude al usuario en nuestro caso tenemos una definición de tipos de clientes pues en base no podríamos hacer por ejemplo en base a al tipo de empresa que tiene. Puede ser una sociedad limitada puede ser una asociación o puede ser un autónomo.
+
+[00:20:23.570] 
+Son tres tipos de usuarios muy distintos tienen necesidades comunes.
+
+[00:20:29.460] 
+No es lo mismo que ocurre cuando cuando separas a los usuarios por datos demográficos pueden tener necesidades comunes o problemas comunes pero eso no define muchas de las cosas más valiosas. Totalmente de acuerdo. Entonces en nuestro caso la metodología de trabajo en obstruidos lo que nos ha hecho ha sido descubrir que hay cuatro tipos de personas que compran pero podemos separar en base a cómo hacían las cosas antes de utilizar cuentico entonces en función de cómo han hecho las cosas antes y utilizaban Excel para llevar toda la gestión todas sus facturas y tal si tenían un gestor al que le derivaban todo o si son nuevos autónomos y no han hecho no saben de qué estamos hablando en base a eso realmente es una información muy valiosa para nosotros para que nosotros podamos diseñar un buen proceso de un Bordin en el que le podamos realmente ayudar en muy poco tiempo y que él pueda descubrir el potencial de una herramienta como cuentico.
+
+[00:21:39.250] 
+Pues muy rápidamente y de forma muy sencilla me parece súper interesante porque cuando he hablado de arquetipos o de varias personas en el podcast súper de acuerdo con lo que has dicho sea una segmentación de marketing es una segmentación de marketing una segmentación de ventas es una segmentación de ventas un arquetipo responde a algo más. Yo suelo recomendar hacer arquetipal por necesidades pero en vuestro caso me llama mucho la atención que ni siquiera los arquetipos o sea vuestro acercamiento no ha sido vale vamos a montar estos cuatro arquetipos. Cuáles son sus necesidades que al final llegais ahí pero vuestro acercamiento ha sido de dónde viene esta gente.
+
+[00:22:18.020] 
+ Vienen de utilizar un Excel vienen de son nuevos son y me parece súper interesante y creo que tienen muchos matices al hableis.
+
+[00:22:28.040] 
+O sea en algún momento habéis hecho entrevistas de usuarios o focus groups o algo así o ha sido un proceso mucho más. No sé si automãtico pero su multijugador automatizado online de recepción de feedback.
+
+[00:22:42.770] 
+Ha habido un poco de todo hubo al principio una fase en la que veíamos que era necesario tener feedback de los usuarios y entonces abrimos un canal típico para que todos los productos lo hemos hecho alguna vez un serveis o canales de este tipo nos llegó una cantidad de feedback que no éramos capaces de gestionar y lo cerramos básicamente. Luego evolucionamos y empezamos a pedir feedback de una forma un poco distinta de una forma más automatizada lo dejábamos abierto para que cualquiera pudiera decirnos cualquier cosa nosotros lo archivamos y tal vamos a gestionar. También nos dimos cuenta de que ya había bastantes problemas porque pierdes mucho.
+
+[00:23:21.740] 
+ Quién te ha dado el feedback y en qué momento. Son datos muy importantes incluso también si lo debes registrar o no hay muchas ocasiones en las que hay Zica que no es válido. En realidad no debería ser válido debería contar con un feedback para luego utilizarlo y tomar una decisión. Pongo un ejemplo Un ejemplo podría ser el tema de las encuestas NPS de promotores que habéis hablado aquí en el podcast. Y es que una encuesta NPS en la que se te pregunta se le pregunta a un usuario si con qué probabilidad recomendaría utilizar este producto a un compañero o amigo.
+
+[00:24:02.990] 
+ Dependiendo del momento en el que le llegue ese email puede estar en un momento efusivo respecto al producto o puede estar en un momento de bajón si se acaba de registrar y tú le mandas una encuesta como ésta el tío está ilusionado está es un usuario que tiene muchas expectativas en el producto que seguramente va a decir un 9 un 10. Eso no es válido no es una respuesta válida. Si además añade un feedback en realidad no deberías ni leerlo.
+
+[00:24:30.150] 
+No entiendo si se entiende entiende mucho mejor lo que quieres decir vale Volvamos entonces a Jobs.
+
+[00:24:39.130] 
+Qué es en qué consiste es un poco difícil de explicar pero subidones es una teoría y no es un trabajo. No es algo súper concreto que tú puedas replicar continuamente.
+
+[00:24:54.070] 
+Hay una serie de normas y leyes que hacer esto luego esto luego esto no son los pasos a seguir. Es más una colección de principios para ayudarte a investigar sobre tus usuarios.
+
+[00:25:05.470] 
+El objetivo es que tú construyas y vendas productos que la gente realmente quiera comprar. Ese es el objetivo principal de ellos. Cómo se hace eso.
+
+[00:25:15.920] 
+Entonces eso es lo más difícil es el secreto y se utilizan entrevistas con los usuarios con un formato determinado con una serie de preguntas predeterminadas. Se utilizan si intentan traducir esas entrevistas a lo que se llaman Job Stories que se podrían son similares a los Stories Job Stories en base a la diferencia principal entre un gestor y un gestor y es que el Job Story empieza por cuando ocurre algo o cuando encuentra una determinada situación es decir con el contexto del usuario. Yo estoy donde está muy centrado en el contexto en el que se mueve el usuario cuál es su situación y cuáles son sus motivaciones cuáles son unas fuerzas que se llaman fuerzas push y pull que hacen que sienta que necesita progresar en su vida que necesita un cambio para mejorar en algo que necesite comprar un producto que le ayude a mejorar en una parte de su vida.
+
+[00:26:16.170] 
+O sea que de alguna forma yo estudiante te ayuda a extraer esas esas razones clave y esas razones clave que van a hacer que en el momento de la toma de decisión impulsan al usuario a seguir hacia adelante sobre todo si y además te ayuda.
+
+[00:26:35.610] 
+Una de las primeras cosas que ocurren cuando se empieza a trabajar con obstruyeron es que empiezas a plantearte que la competencia de tu producto a lo mejor no es la que te estamos planteando OK porque estamos muy acostumbrados a que a pensar que la competencia de un producto determinado son otros productos que son similares o similares a ellos y no tiene por qué ser exactamente así. Claro tu competencia es excelente en un momento dado tu competidor ejemplo claro por ejemplo o mi competencia podría ser aquellas empresas que están contratando autónomos a raudales y entonces dejan de ser autónomos y dejan de ser mis clientes y eso solamente te das cuenta cuando entrevistas a las personas entiendes cuáles son sus motivaciones cuáles son sus problemas y cuál es el contexto en el que se mueven y por qué deciden hacer algo.
+
+[00:27:25.830] 
+Me parece súper difícil sobre todo ser capaz de extraer el contexto de los clientes a base de preguntas qué tipo de preguntas hacéis para al inicio para intentar entender ese contexto las preguntas son las entrevistas que nosotros hacemos con los usuarios.
+
+[00:27:45.180] 
+Las bases no son la misma pregunta siempre al final lo que tienes que intentar conseguir es primero que el usuario recuerde exactamente el momento en el que compró tu producto porque todas las entrevistas que hacemos son siempre a usuarios que recientemente han comprado el producto y que lo han comprado para ellos claro. Y a partir de ahí haces preguntas un poco chorras que pueden parecer muy chorras como por ejemplo si ese día estaba lloviendo o con quién estaba o si estaba en casa. Si recuerdas si estaba en un bar o en casa dónde porque eso hace que el usuario le vengan todos los recuerdos de ese momento y sienta que lo traiga al frente.
+
+[00:28:27.750] 
+ Y a partir de ahí intentar tener una conversación para intentar averiguar sobre todo sobre todo la situación en la que se encontraba en su vida para que sintiera la necesidad de hacer algo para mejorar. En nuestro caso se centran muchísimo en cuestiones laborales situaciones laborales me han echado de mi trabajo y entonces necesitaba plantearme mejorar en esto o no tener un trabajo distinto. En realidad he aprovechado este momento para hacer una cosa que es el sueño de mi vida que es montar una tienda de no sé qué o situaciones totalmente distintas a esto.
+
+[00:29:13.680] 
+Y qué hacéis con todo eso.
+
+[00:29:15.650] 
+Cómo le dais forma metodológica cómo utilizáis vosotros en cuenta Job subidon lo utilizamos de dos maneras la primera para un punto de vista de diseño de producto de dirección de producto nos viene muy bien para decidir las mejoras y las nuevas funcionalidades que vamos a ir desarrollando. Priorizar eso es hacer una priorización mucho más mucho más efectiva. Y por otro lado nosotros trabajamos con la metodología iterativa en la que continuamente el equipo va proponiendo posibles mejoras nuevas funcionalidades o mejoras en el propio producto y la forma de proponer estas mejoras es rellenar una especie de ficha en la que está en esta ficha hay algunas partes que tienen que ver con con esto entonces yo como trabajador de cuantica como desarrollador o como o como asesor contable de cuantica pudo proponer una mejora en el producto pero se me exige hacer una investigación con una filosofía y obstruyeron sobre esta mejora que yo estoy planteando.
+
+[00:30:30.390] 
+Vale vale y entiendo que eso parte de un determinado arquetipo o sea cómo se define en una ficha y cómo se prioriza en cuenta. Imagínate yo soy no sé qué tipo de roles tenéis ahora entramos ahí un poco pero online cuantica hablo con un cliente y me doy cuenta de una necesidad o tengo o tengo una idea de un Fitur que creo que podría enriquecer y aportar valor a nuestros clientes. Cómo lo hago. Me voy a un arquetipo de cliente y relleno una ficha defino cómo priorizo cómo sé que es más importante una cosa que otra.
+
+[00:31:12.480] 
+De hecho muchas preguntas Bille en cuenta que somos nuestra forma de trabajar es bastante orgánica. Ponemos de una manera muy natural. Entonces cuando alguien en el equipo detecta que hay alguna cosa en la que se podría mejorar tiene alguna idea una nueva funcionalidad o una mejora para el producto aunque sea una cosa que no tenga que ser desarrollo sino simplemente mejorarlo. El horario de atención al cliente o perfecto cosas cualquier cosa lo que hace es rellenar una propuesta una propuesta de mejora. Entonces con esa propuesta de mejora que incluye un montonazo de cosas que son vitales que yo creo que son fundamentales y que precisamente el proceso Bordin nos ha ayudado a detectar que son tan importantes como por ejemplo cómo se va a comunicar la misma propuesta en la que el usuario es en la que un trabajador de cuenta propone hacer una mejora ya tiene que dar alguna pista de cómo se va a comunicar esa mejora a los usuarios si va a ayudar a usuarios que ya existen o si va a atraer a nuevos clientes a cuenta de cuál es el gestor y al que responde esta mejora.
+
+[00:32:35.820] 
+ Cuál es esa investigación que ha hecho esa propuesta no es solamente una propuesta técnica digamos sino que tiene mucho que ver con incluir el marketing y la comunicación dentro de todo el proceso de cuantica que al final es poner al cliente en el centro de todo nuestra forma de poner al cliente en el centro de todo y de alguna forma eso no prioriza al gestor en sí mismo.
+
+[00:33:01.600] 
+Pero supongo que va a parar a un backlog.
+
+[00:33:04.090] 
+Efectivamente lo que hacemos es tener una especie de Pablo de pequeñito porque como cada propuesta exige mucho trabajo tenemos un backlog bastante pequeño y hacemos una reunión cada seis semanas para saber en equipo cuáles van a ser las siguientes cosas que vamos a desarrollar las decidimos en base a lo que se necesita en el momento. El periodo del año en el que estamos y la dirección del producto lo decidimos lo ponemos le ponemos fecha y en las siguientes seis semanas es lo que se ha desarrollado.
+
+[00:33:37.450] 
+Entiendo entonces que en estas no sé si en la Job Story o donde no pero supongo que de alguna forma a la hora de definir qué es lo que queremos conseguir y qué valor va a aportar si va aportar valor en la fase de captación en la fase a nivel de retención o donde sea hay alguna métrica objetivo asociada o cómo tiene que impactar a un determinado KPI de negocio o algo parecido.
+
+[00:34:01.750] 
+Cuando defines una nueva funcionalidad o una nueva mejora la propia propuesta tiene que llevar ya de serie. Tiene que responder a cómo vamos a medir si está teniendo éxito o no. No me lo imaginaba esto y esto es una cosa es una pregunta pero fundamental fundamental porque nosotros nos hemos vuelto muy locos con el tema de las métricas hemos tenido que deshacer nuestro sistema de medición ya un par de veces por estar midiendo demasiado por medir demasiado poco demasiadas cosas o demasiado. Eso es y ahora tenemos un panel muy básico en cuanto a en cuanto a cuál es el estado del producto que son una serie de métricas básicas de un producto así.
+
+[00:34:46.510] 
+ Cómo está la empresa y luego tenemos paneles de métricas específicos precisamente para las mejoras y las funcionalidades para ver cómo están cómo están funcionando. Hacemos una auditoría de funcionalidades cada cierto tiempo para intentar averiguar si se está usando más o menos qué es lo que está ocurriendo si hay alguna parte de cuentico que nos está generando el engagement que nosotros queremos que se mantiene en el tiempo cada funcionalidad que desarrolla y sobre cada mejora que incorporamos que tiene sus propias métricas esas métricas será el tiempo o acaban miden caducando digamos. De alguna forma y se miden de forma temporal durante un tiempo hasta que ya se considera que la funcionalidad está asentada está asentada y entonces sobre todo la medición del principio cuando se usa con una funcionalidad precisamente espor por ver cómo está funcionando lo Mordin porque por dentro los usuarios no solamente es en el momento en el que el usuario ha comprado cuantica y en los primeros 15 días de taller sino que es en cada nueva funcionalidad que saquemos a un usuario que lleva ya tres años con nosotros hay que hacerle un proceso de un Bordin a esa nueva funcionalidad.
+
+[00:35:57.710] 
+ Claro tenemos que conseguir que este usuario aprenda a utilizarla de la forma más rápida posible que descubra el valor que tiene y cómo va a ser un superpoder todavía mayor.
+
+[00:36:08.980] 
+Ahora cuantica para él es buenísimo claro y yo entiendo además que Bostrom boarding cada vez son boarding tiene que ser muy amplio porque es una cosa compleja. Es algo que supongo que además necesita una evolución de años y es un no parar de modificarle en constante evolución. Pero entiendo que el foco en esos 15 días ahora mismo debe ser muy alto claro. Y qué tipo de cosas intentáis que sucedan en estos 15 meses.
+
+[00:36:40.270] 
+Lo que intentamos es lo primero de todo construir una relación de confianza y de seguridad del usuario con nosotros porque eso sabemos que nos da muy buen resultado porque estamos hablando de contabilidad estamos hablando de facturas de modelos de Hacienda y es muy importante que el usuario confíe en que lo que está haciendo está bien hecho que hay gente detrás que sabe lo que dice y que puede preguntar y qué no va a llegar Hacienda y le va a meter un palo porque está haciendo las cosas mal. Básicamente ya le habrá pasado probablemente a correr o correr mucho claro.
+
+[00:37:20.230] 
+ Entonces nosotros en el proceso de un Bordin nos aseguramos mucho de esto como lo haceis fundamentalmente teniendo conversaciones con los usuarios pues hay mucha interacción mucha interacción intentar persona a persona con los usuarios intentar conversar e intentar responder muy rápido y muy bien claro la única manera que sabemos hacerlo responder bien y ya está más secreto.
+
+[00:37:48.070] 
+Si yo me pongo a hablar contigo no nos conocemos de nada hablar contigo y hablamos con transparencia y con tranquilidad y yo obtengo lo que yo esperaba de la conversación pues te has ganado mi confianza claro.
+
+[00:38:03.660] 
+Y en esos 15 primeros días cuando te das de alta en cuantica a mí nadie me pregunta qué herramienta estaba utilizando antes o cómo hacía antes mi contabilidad o dentro del propio proceso dentro del panel de conversión. Ya discrimino a qué tipo pertenezco explicó cómo sois capaces de lograr identificar que para una cuenta una nueva cuenta que se da de alta en cuenta. Quiénes.
+
+[00:38:30.890] 
+Qué arquetipo hacker arquetipo corresponde nosotros esa es la única. La única pregunta que le hacemos que no es digamos una cosa obligatoria entender el proceso de registro. Obviamente nosotros en el proceso vamos Bordin desde el conocimiento hasta el registro en cuenta intentamos que los formularios sean lo más ligeros posibles. Preguntar el mínimo número de cosas pero la primera vez que entra en cuenta en la aplicación. La herramienta tiene que responder una pregunta se la puede saltar pero tiene que responder a cómo hacían las cosas antes de utilizar cuentico. Hay cuatro respuestas posibles se puede saltar la encuesta pero el 90 por ciento de la gente responde en base a cómo hacía las cosas antes.
+
+[00:39:20.150] 
+ Nosotros tenemos diseñado un flow de Bordin totalmente diferente claro para cada uno de los usuarios porque el proceso no tiene que ser el mismo para todos. Claro tiene que ser totalmente listo. Cada uno tiene sus propias motivaciones su propia situación y sus propios como no lo puedes hacer para todo el mundo distinto. Tienes que hacer grupos pero cuanto más afinado esté mucho mejor.
+
+[00:39:40.640] 
+Nosotros nos basamos en cuatro en esas cuatro posibles respuestas a esa pregunta y utilizais alguna herramienta de automatización para una vez identificados los arquetipos guiar a través de un determinado Workflow a los usuarios para acelerar ese Bordin.
+
+[00:39:57.010] 
+Si en la parte de un Bordin que tiene que ver con comunicaciones con nosotros nos comunicamos con el usuario lo que hacemos es utilizar Intercom quiero decir en base a lo que ha respondido. Cambian algunas cosas en la aplicación. A lo mejor te pueden cambiar algunos textos puede cambiar incluso diseño pero aparte de eso las comunicaciones que nosotros tenemos contigo cambian porque te vamos a intentar enseñar de otra manera dependiendo de si tú te has enfrentado una serie de problemas porque hasta ahora juegas con él o no te has enfrentado a ellos porque tenías un gestor.
+
+[00:40:33.500] 
+ Te vamos a mostrar las bondades de cuantica y el potencial que tiene para ti de diferente forma con quizá hasta con diferente tono o mensajes diferentes. Entonces todo esto lo hacemos a través de a través de Intercom una herramienta que utilizamos para el proceso bombardino y lo utilizamos para todo lo que tiene que ver con la atención al cliente que se me ocurren 20 millones de preguntas que no te puedo hacer todas porque tenemos tiempo limitado.
+
+[00:40:58.640] 
+Pero volviendo otra vez al tema de las métricas no me decías que bueno cada una de estas historias o cada una de esas funcionalidades o mejoras tiene su propio foco de métricas hasta que está asentada y luego tenéis una serie de métricas a nivel de negocio de la compañía. Qué miráis miráis miráis harpa miráis qué es lo que estáis mirando mirais mensualmente cuál es el MRL o cuál es vuestro foco el Charan.
+
+[00:41:24.950] 
+Básicamente lo que medimos es lo básico de un producto. Cuántos usuarios se han registrado cuántos clientes tenemos ahora mismo. Tallan cuántos han convertido. Cuántos han dado de baja cuántos han cancelado su cuenta. Separamos los que Android de dentro de la tienda de fuera del Bordin vale para intentar afinar mucho más todo ese proceso de principio y luego tenemos métricas más convencionales.
+
+[00:41:56.510] 
+Sí ha habido muchos errores de cobro y ha habido mientras sentido le decías nos separamos los de fuera y dentro del Bordin te quiero hacer dos preguntas que no se me olvide. Una es cuando acaba Lombardi. Para vosotros Dónde. Dónde acaba y otra es que es una baja para vosotros no está claro yo soy usuario me doy de baja. Eso es una baja pero si dejo de utilizar la aplicación durante cuánto tiempo porque para mí eso es. No sé si lo haceis o no pero claro para mí identificar cuando un usuario lleva tanto tiempo sin utilizar la aplicación como para considerar una baja pues es básico como para poder calcular luego el celeb el gasto en valio o no sé un tipo de información de negocio que me ayude.
+
+[00:42:47.540] 
+En realidad esto del tiempo de vida del cliente es siempre lo he encontrado súper complicado de calcular porque si atendemos a las fórmulas que utilizan los productos de las empresas por ahí nuestro ciclo de vida del cliente ahora mismo está en torno a casi dos años. Pero claro esto no. En realidad a mí no me ayuda mucho porque eso significa que hay un montón de usuarios que llevan un mes y un montón de usuarios que llevan cuatro o cinco años con nosotros. Entonces tenemos muchos usuarios que van cinco años con nosotros eso es mucho más valioso esa información que saber que la media es dos.
+
+[00:43:28.430] 
+Pero vale entonces el Bordin hasta dónde llega el Bordin.
+
+[00:43:32.570] 
+Para empezar para nosotros como empresa para diseñar nuestros procesos de Bordin tiene que ser un trabajo continuo constante siempre tiene que estar en evolución y pensando en el cliente. Nosotros separamos quizá porque tampoco podemos acometerlo todo. Somos un equipo pequeñito y tal pero separamos la parte inicial de los tres primeros meses que un usuario utiliza cuantica y luego un proceso. También los procesos de un bordillo específicos cuando sacamos una nueva funcionalidad significativa o una nueva mejora que necesita su trabajo también de un Bordin. La nueva funcionalidad pero nosotros nos planteamos siempre los espacios de tres meses porque como fiscalmente cuentico a los autónomos y las empresas cada tres meses tienen que presentar todos sus modelos son puntos de inflexión a lo largo del año.
+
+[00:44:28.670] 
+ De hecho las motivaciones a lo largo del año van cambiando muchísimo y nosotros tenemos un producto que es bastante cíclico. Cuándo va a llegar el final del trimestre que es cuando la gente se plantea que tiene que presentar otra vez dos modelos tiene que recopilar las facturas todos los dolores que tienen todos los autónomos es cuando se plantean que no habrá una forma mejor de hacer las cosas no habrá un producto que me pueda ayudar a progresar un poquito en esto y ser un poquito más eficiente. Entonces eso suele ocurrir cuando llega el plazo de Hacienda para presentar los impuestos.
+
+[00:45:09.170] 
+ Qué te quita el sueño.
+
+[00:45:15.770] 
+Roger que me quita el sueño.
+
+[00:45:23.430] 
+Nada en realidad. La verdad es que estamos muy muy contentos todos con cuentico con nuestro producto y con lo que estamos construyendo estamos mostrando una empresa de la que creo que todos los ticos nos sentimos muy orgullosos y creo que estamos construyendo un producto honesto y que ayuda realmente realmente a las personas con procesos muy naturales y muy humanos.
+
+[00:45:52.710] 
+Una empresa muy humana y y de momento las cosas van funcionando despacito mucho más lentas de lo que nosotros habíamos habíamos imaginado pero de momento las cosas van bien.
+
+[00:46:07.740] 
+Recuerdas algún error especialmente que te duela.
+
+[00:46:13.090] 
+Hostia esto si volviese a empezar no lo haría seguro.
+
+[00:46:16.970] 
+Bueno sí unos cuantos unos cuantos que ahora hay un montonazo de errores que hemos cometido que juego que no volverían a ocurrir nunca.
+
+[00:46:28.250] 
+Muchos tienen que ver con cuestiones más de empresa más de cultura de empresa de definir los valores y la cultura de la empresa desde desde el principio desde el minuto uno. Eso tiene que ver mucho con trabajo de equipo no de cómo se organiza el equipo y respetar respecto al producto pues por ejemplo el tema de las métricas que comentábamos antes ha sido un hueso muy duro hemos invertido muchísima energía muchísimo tiempo en cosas que después ha habido que tirar directamente entonces el tema de las métricas lo haríamos de una manera totalmente distinta. El Bordin el proceso de un Bordin es una cosa que si volviera a montar cuantica todo estaría bueno no todo pero sí que lo mordiéndole los nuevos usuarios estarían desde el minuto uno desde el minuto uno y nos costó muchos años darnos cuenta de que necesitábamos trabajar mucho en este segundo Fúnez y para vosotros por ir cerrando y porque estoy súper contento me está gustando mucho todo lo que estás aportando creo que lo estás aportando de una forma que es muy difícil aportar una visión teórica también y explicar los conceptos de forma más didáctica y bajarlo ejemplos concretos me está gustando mucho de Podemos hablar de cualquier cosa sobre cualquier tema técnico.
+
+[00:48:02.570] 
+Si quieres somos muy transparentes.
+
+[00:48:04.910] 
+Perfecto no relacionado con un tema técnico no me interesa mucho entender también si estáis construyendo vuestro propio Staley. Si estáis pensando si vais de aquí unos años el tema del que se biblio ni machine learning como algo que os pueda aportar a vosotros o simplemente o lo veis un poco ajeno a vuestra área porque a mí de alguna forma me da la sensación de que estáis aglutinando un montón de datos que pueden ser muy útiles para que no tengo ni idea.
+
+[00:48:42.260] 
+Pero tenéis un montón de información super útil.
+
+[00:48:46.980] 
+No sé a qué te resuena todo esto que te digo pues me suena que ha habido muchas ideas relacionadas con esto en cuenta obviamente y ha habido mucha gente muchas otras empresas muy interesadas en saber qué queremos hacer con todos estos datos.
+
+[00:49:04.220] 
+Así se han acercado para preguntar por vuestros datos. Claro claro directamente por ellos no por nosotros no por guapos sino por nuestros datos.
+
+[00:49:14.240] 
+Bueno sí claro que es un tema muy importante de momento no es un trabajo que estamos haciendo. Utilizamos nuestros datos para mejorar nuestro producto para mejorar las soluciones que nosotros damos a nuestros clientes lo estamos utilizando constantemente. Trabajamos mucho con el tema de la analítica de uso y de analítica de todos los datos que están metidos en cuentas de los usuarios.
+
+[00:49:38.480] 
+Para eso para mejorar nuestro producto al final también me encantaba perdona que te interrumpa y es que me he acordado ahora al hacerte la pregunta me encantaba recibir me parece que actualmente o al menos los últimos años que estuvimos que tuvimos cambiamos porque tuvimos que cambiar el gráfico el infográfico estábamos encantados con cuenta de que yo siempre te lo he dicho y nosotros nos sentíamos muy agusto con cuantica y muy bien acogidos y bien tratados tuvimos que cambiar una serie de razones pero me encantaba ese infográfico donde me daba la visión de donde estábamos nosotros respecto al resto de pymes que tenía respecto al tema del sector me daba un montón de información para mí de valor anual que difícilmente yo puedo extraer de otra manera.
+
+[00:50:22.980] 
+Si eso es infográfico era un ejemplo de un pequeño proyecto dentro de cuantica para para poder utilizar la información que tenemos para que sea algo útil era lo que hacía era sacar el perfil del autónomo y de la pequeña empresa en España pero de verdad contratos de verdad. Es información muy muy muy interesante porque te comparas con los demás convecinos entre comillas con gente que es como tú que tiene tu misma profesión que tenía más o menos tu misma edad o que entonces ahí sí que te puedes comparar cuando sacan las típicas estadísticas de los autónomos factura Nosecuántos.
+
+[00:51:03.580] 
+ Bueno no es lo mismo un autónomo que tiene una tienda que tienen stock que un profesional de servicios que hace una factura comparar churras con merinas. Entonces en este caso es información mucho más mucho más útil. Claro el tema de los datos es un mundo apasionante y tiene una cantidad de posibilidades bestiales y nosotros de momento por una cuestión de recursos y porque todavía estamos muy enfocados en el producto lo que estamos haciendo es utilizarlos para mejorar nuestro propio producto y nuestras soluciones. De momento solamente para esto más adelante no tengo ni idea de lo que es lo que podremos hacer pero siempre se van a utilizar los datos en cuenta que siempre se van a utilizar de una forma honesta siempre va a ser para mejorar crear nuevas soluciones o crear nuevos productos no para utilizarlos de una forma un poco os vais a vender a terceros.
+
+[00:52:09.180] 
+ Muchísimas gracias Guille te quedas con algo que decir te gustaría decir algo más nada que me ha encantado encantado de estar aquí y soy muy fan muy fan del podcast y que ha sido un placer que va de súper súper agradecido de verdad yo creo que va a ser un punto de vista muy interesante ya tiene pasando feedbacks que nos llegan de la entrevista.
+
+[00:52:33.720] 
+Muchas gracias.
+
+[00:52:35.280] 
+Gracias a ti y hasta aquí amigos y amigas este episodio de mi podcast en el mundo real el podcast sobre experiencia de cliente y negocio digital.
+
+[00:52:47.610] 
+Hoy me vais me vais a disculpar pero me voy a ahorrar el cierre tradicional donde os invito a compartirlo y a suscribir y demás hoy quiero dedicarte a ti Gelli Botsman un ron Rumer de sonrisa imborrable y eterna que la tierra te sea leve.
+
+[00:53:12.730] 
+Amigo gracias por tanto Gelli.
+

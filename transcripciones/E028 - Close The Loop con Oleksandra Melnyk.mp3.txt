@@ -1,0 +1,285 @@
+[00:00:00.210] 
+A quién no le gusta sentirse escuchado escuchar es una habilidad poderosa y exigente exigente porque nos fuerza a desprendernos de nuestro ensimismamiento de nuestro yo yo yo mostrar interés genuino en las necesidades del otro es probablemente el más generoso obsequio que podamos hacer a otro ser humano. La gracia de esto es que sólo nos damos cuenta realmente de la importancia de la escucha cuando no nos sentimos escuchados. Nos irrita profundamente verdad el Clowes de Lugo es el proceso a través del cual las compañías se ponen en contacto con sus clientes para conocer sus motivos de insatisfacción y actuar en consecuencia.
+
+[00:00:50.820] 
+ Claro estoy hablando de llamar por teléfono a un cliente decirle ella mira perdona es que hemos visto que has enviado una queja por esto y por esto y nos gustaría ante todo disculparnos y por supuesto ofrecerte esta solución claro esto en un pequeño negocio en una tienda pues es fácil no pero en el mundo real las grandes empresas no pueden estar todo el día llamando a sus clientes. Menuda ruina pero en el mundo real cuando al mundo real le precede un pero deja de ser un lugar se convierte en una excusa si de una forma u otra eres responsable de la transformación de la compañía donde trabajas aquí encontrarás la manera de desactivar esos pretextos ese portazo al cambio ese aquí no se puede.
+
+[00:01:41.570] 
+ Este podcast es para quienes estáis convencidos de que las empresas deben poner al cliente en el centro de la estrategia y a las personas de la organización en el corazón de la misma. Aquí adquirirá una visión estratégica y a la vez practica a través de ejemplos y experiencias que os dotarán de argumentos en el idioma favorito de la alta dirección. El lenguaje de negocio no sólo hablaremos de él sino también del cómo y hoy charlaremos sobre la escucha sobre cómo capturar la voz del cliente y sobre la voz de Loup con Alexandra Melnick voice the Casto Barlett en Pronovias.
+
+[00:02:23.450] 
+ Soy Carlos Iglesias CEO en rán Rumiko director del índice Ital el programa de marketing y Transformación Digital de Save os doy la bienvenida a un nuevo episodio de Rial Worm el podcast sobre experiencia de cliente y negocio digital.
+
+[00:02:59.880] 
+Desde luego escuchar en el mundo de los negocios es probablemente la única fuente de ventaja competitiva que nos queda hoy en día. Claro el tema del cloud de Luv es que para poder hacerlo de forma escalable tienes que tener un programa de voz del cliente en la compañía voz del cliente.
+
+[00:03:19.620] 
+Es un término que describe el proceso exhaustivo de captar e interpretar con regularidad no sólo las las experiencias de cliente sino también sus expectativas y sus preferencias. Y para ello necesitamos tecnología tecnología que nos permita capturar en tiempo real irradiar la información a toda la compañía. Y claro cuanto más volumen de información más más importante va a ser las capacidades de inteligencia artificial que tenga o de desarrollar modelos predictivos hacer análisis de sentimiento de los textos o de las llamadas que nos hagan nuestros clientes etc. Como dice Alexandra la tecnología es imprescindible porque te ayuda a escalar en horizontal y en vertical por supuesto llevar a cabo un programa de voz de cliente requiere de total compromiso e implicación de toda la compañía.
+
+[00:04:22.580] 
+ Y en mi opinión especialmente del liderazgo os dejo con la entrevista.
+
+[00:04:28.010] 
+Muy bien Alexandra pues oye muchísimas gracias por prestarte a esta entrevista yo una de las cosas que más me gusta hacer es precisamente entrevistar a personas que están implementando y que están trabajando la experiencia de cliente en el mundo real y que se enfrentan a problemas reales y que además los comparten con generosidad de los aprendizajes. Entonces en este sentido Muchísimas gracias a agradecerte agradecerte tu tiempo tu atención y tu generosidad.
+
+[00:05:00.300] 
+La gente no te conoce. Me gusta mucho que los invitados se presenten entonces preséntate de quién eres. Me llamo Alexandra Melnick.
+
+[00:05:10.980] 
+Trabajo en Pronovias como huesos de Kassem lit. Y a mí me gusta llamarme Kashima Experience Engineered porque justo me gusta de esa parte de crear experiencias de cliente y trabajar en eso pero como una parte más metódica analítica conectando los datos con con más el mundo quizás creativo.
+
+[00:05:34.930] 
+No me encaja mucho esto que estás diciendo entendiendo cuál es tu background cuál es tu estilo.
+
+[00:05:40.520] 
+Bueno yo empecé mi carrera empezó en Deloitte Digital entonces en el área especializado en toda la parte de clientes.
+
+[00:05:49.910] 
+Nosotros en su época éramos pioneros y pecadoras. Deloitte sigue siendo en todo lo que es creación de casa en el centro y si tienen las organizaciones. Entonces me apasionaba este mundo esta visión que tenía nuestro socio y me formé parte de esta empresa durante siete años pues puede trabajar desarrollando estrategias modelos de relación destinados a crear mejores relaciones con los clientes. Con esta pasión no me llevó también a asaltar un poco al otro mundo pasar de consultoría al mundo de cliente real no para poder implementar cosas. Entonces he estado emango un tiempo después volví a consultoría digital y ahora estoy en Pronovias siguiendo un poco la misma la misma línea.
+
+[00:06:42.260] 
+Muy bien dices que estás en Pronovias ahora es un poco la responsable de la voz del cliente. Qué nivel dirías a nivel de organización. De quién es la responsabilidad de la experiencia de cliente. Novias cómo está repartida. Muy buena pregunta.
+
+[00:07:02.800] 
+Yo creo que la exclusividad está en todos en todos los que formamos parte de Pronovias no porque cada uno de nosotros estamos en algún momento del churri del cliente un departamento u otro colaborando. Entonces el hecho que colaboremos mejor o peor hace esa experiencia magnífica. Entonces estamos en producto estamos en tienda estamos en la parte de personas entonces hay muchas variables que hacen que la experiencia sea magnífica por tanto para mí experencia está y depende de todos nosotros que formamos parte de Pronovias. Es verdad que también nuestra CEO amándonos Gallón es una clara Promotur de toda la parte de voz de cliente y de la importancia que tenemos que dar y cómo nos tenemos que transformar hacia un mundo mucho más Kase más céntrico.
+
+[00:07:57.660] 
+Cuánta importancia le das a eso. El liderazgo líder de una compañía sea promotor vea claro que la centralidad del cliente es importante. Cómo de importante es para ti para mí.
+
+[00:08:09.900] 
+Cómo crees que es de importante para una cosa así. Es muy importante y es muy importante en todos los niveles.
+
+[00:08:16.700] 
+No es importante ni a nivel de inspiración de las personas. No es imponer es importante a nivel de empowerment.
+
+[00:08:24.300] 
+No puedes dar a otros directores de áreas y transmitirles esa importancia de por qué tienen que empezar a pensar en cliente pero en cada una de sus acciones y también es importante a nivel de pues al final también las tiendas tienen que ver que la central está pensando también en el cliente final que las tiendas viven todos los días. Las tiendas son las más cashmere el centric porque están todos los días en contacto con nuestras clientas. El Frontline. Entonces yo creo mucho en la casa tiene que venir desde arriba pero también tiene que ser escuchada desde abajo.
+
+[00:08:59.190] 
+Absolutamente de acuerdo. Es más siempre impulsada desde abajo. Exacto también. Totalmente totalmente alineado me resuena mucho todo esto que dices cuando es cuando arranca el proyecto de Castromán Experience en Pronovias. Cuáles dirías que han sido los principales hitos hasta el momento.
+
+[00:09:18.310] 
+Bueno realmente yo creo que como organización Pronovias de toda la vida no lleva trabajando en lo que es la experiencia de cliente justo en el mundo de la novia es muy emocional es muy experiencial y nosotros como una empresa de lujo no queremos ser fashion Fourth blend. Siempre hemos estado orientados hacia. Entregar la mejor experiencia pero es verdad que ahora hemos empezado a pensar más en cómo puede ser esto real a nivel de cómo gestionamos el producto cómo gestionamos cómo pensamos más en cliente a la hora de hacer las campañas las fotos etc. que esto se vea reflejado en todas las partes.
+
+[00:09:57.750] 
+ Entonces más o menos con esa transformación que hace unos hemos pasado a formar parte de un fondo Visi Partners. Entonces con esta transformación de la organización se puso mucho más enfoque en la importancia de poner al cliente en el centro en cada una de las decisiones.
+
+[00:10:15.850] 
+Totalmente de acuerdo con lo que comentas de vuestro producto realmente tiene una relación. Yo diría que fuera de lo normal con la experiencia en sí misma no es un producto experiencial en sí mismo porque es un momento súper importante. De hecho yo tuve una charla que te invitaré a ver donde arrancó explicando que es un caso más Journey precisamente explicando el Jonay de una boda. En mi caso no soy no soy cliente vuestro pero espero invitarle a verla muy bien perfecto y qué más o menos para hacernos un poquito una idea de lo que es Pronovias hoy en día cuántas tiendas tenéis.
+
+[00:10:54.200] 
+ Cómo es de grande cómo os esta magnitud.
+
+[00:10:57.220] 
+Sí bueno realmente Pronovias somos líder en la moda nupcial a nivel mundial. Entonces nosotros nuestro negocio se compone mejor. Lo de las tiendas multimarca y también de las tiendas propias y de las tiendas franquicias. Entonces la mayor parte de tiendas propias por ejemplo se concentra en España pero también nuestra. Nuestros ojos no están puestos en la conquista del mercado americano no hay por ejemplo este año es una apuesta clave y queremos abrir diez tiendas en los próximos meses en el mercado y fortalecer nuestra presencia al otro lado del charco.
+
+[00:11:35.050] 
+Qué más o menos un orden de magnitud el número de tiendas que tenéis hoy.
+
+[00:11:38.700] 
+Si tenemos más de 120 tiendas si se dice pronto. Sí sí sí bueno y todas.
+
+[00:11:46.660] 
+A escuchar a sus clientes que con inteligencia sobre eso yo iba un poco por ahí porque qué canales de feedback tenéis. Cómo escucháis la voz de cliente.
+
+[00:11:55.920] 
+Sí bueno hemos empezado a escuchar en diferentes canales. Para nosotros es igual de importante escuchar tanto en la web como entiendase queremos ser omnicanal es porque es verdad que la puerta de entrada para una novia como inspiración es nuestra página web o los canales como pueden ser Instagram claro Facebook la novia. Pues en cuanto tiene el anillo puesto no o mucho antes de saber qué se va a casar ya está investigando cómo le gustaría que fuera el vestido de sus sueños. Entonces hemos querido ser omnicanal desde el principio ahora mismo hemos empezado por el canal digital también porque es el más sencillo de implementar es cierto y aprendiendo en base a lo que el cliente decía en cada digital.
+
+[00:12:42.570] 
+ También hemos trasladado estos aprendizajes para construir por ejemplo la encuesta no la forma de preguntar en el canal físico entonces también haber empezado antes en un canal en otro nos ha ayudado un poco contextualizar mejor qué queremos saber de los clientes. Entonces ahora mismo estamos en dos canales. Queremos también escuchar a clientes en Contact Center de nuestro Contact Center pero bueno poco a poco a poco el contact center.
+
+[00:13:07.450] 
+Yo siempre digo que está el petróleo de la información realmente toda la información que conoce que conoce a la gente que está en contacto directo y que responde a las dudas y preguntas. Para mí tiene muchísimo valor. Me has hecho acordarme que a veces les cuento a mis alumnos chicos a mis alumnos que Google e Instagram sabe antes que ellos si se van a casar o no sé por qué. Por lo que tú decías que realmente en vuestro caso lo veréis de cerca verdad que el proceso de investigación es decir el Journey empieza mucho antes del momento de comprometerse o de que entre los dos acordaron una boda.
+
+[00:13:49.800] 
+ En este sentido me interesa entender qué herramientas o qué tecnologías utilizáis en Pronovias para capturar esa información del cliente.
+
+[00:14:01.950] 
+Si nosotros trabajamos con Moralia que es el líder en el mercado de lo que escucha del cliente y en ese sentido queríamos que los mejores nos acompañarán en este camino. Entonces utilizamos esta tecnología porque nos permite escuchar en distintos canales con un reporting como muy agregado no tener dotes de la misma fuente tenerlo tenerlo todo más conectado del cliente.
+
+[00:14:32.150] 
+Entonces para nosotros era muy importante conservar esa omnicanalidad también en forma recogemos el feedback del cliente.
+
+[00:14:41.270] 
+Qué hacéis con la información que recogemos del cliente. Entiendo que tenéis a través de tecnología utilizais distintas formas de capturar esa voz con toda esa información que es lo que hacéis cerrar el look. Sí si realmente hacemos tres cosas.
+
+[00:15:02.010] 
+Hacemos. Por una parte nos ayuda escuchar al cliente nos ayuda a entender mejor. Entonces está la parte de escucha de generar insights de ver comportamientos que es lo que necesita realmente la novia. Luego estaría la parte de análisis y conectar esa información que estamos decidiendo con la información del negocio mayor que por ejemplo sería si una tienda tiene X puntuación de satisfacción. Cuántas citas está generando cuántas ventas está generando entonces.
+
+[00:15:33.020] 
+Al final no sólo los clientes están contentos más o menos sino que también conectarlo a nivel de nuestras tiendas y regiones. Qué regiones están más contentos o menos y lo estamos haciendo.
+
+[00:15:44.790] 
+Y tercera parte es lo que nos permite la herramienta es justo poder repescar a los clientes.
+
+[00:15:52.470] 
+Entonces si antes la clienta venía con nuestros clientes vienen para la primera prueba del vestido pasan de media dos horas en nuestra tienda tienen que agendar una cita y ahí de una experiencia de prueba del vestido de asesoramiento personalizado de escucha.
+
+[00:16:10.150] 
+Entonces antes las novias después de dos horas de nuestro trabajo no las personas asesoras que se entregan al máximo quizás una novia puede decidir comprar el vestido o no. Entonces se iban y hasta ahora con esto lo que tenemos es realmente la opinión de la clienta y también si la clienta no está satisfecha por X motivos podemos llamarla y rescatarla. Eso se llama Close Up. También sería como explicarlo porque es verdad que también es un término que antes no. Antes de trabajar con esta herramienta no se manejaba en la casa lo que es cerrar el bucle entonces también para nosotros era como repescar a la clienta no hace sino de preguntar por qué no ha comprado.
+
+[00:16:59.510] 
+ Pero ahora también puede ser que te ha comprado pero también estaba descontenta. Entonces quizás pedí disculpas por un cierto comportamiento o por falta de algún accesorio o porque hacía mucho frío en la tienda. Entonces el hecho que nosotras Pronovias no se enfrente a esos comentarios y de una forma muy positiva y dispuesta a escuchar al cliente era que está generando un impacto muy positivo en nuestras clientas y muchas tiendas nos dicen que la clienta está muy contenta. Las que cogen el teléfono porque también cuesta mucho que te cojan el teléfono claro así cogen el teléfono están muy satisfechas que les es que les estamos llamando y que quizás no todo ha ido tan bien como tú esperabas en alguno de los aspectos pero que sepas que estamos ahí para que vuelvas y para ofrecerte lo mejor.
+
+[00:17:50.390] 
+ Al final es lo que tiene que ofrecer una empresa de lujo.
+
+[00:17:54.420] 
+Y es fácil medir el retorno de todo esto. Yo creo que se puede intuir el impacto realmente en la experiencia de las clientas pero esto tiene que tener un impacto del negocio evidente.
+
+[00:18:10.770] 
+Sí totalmente. Tiene impacto en el negocio tiene impacto en la organización y en las personas.
+
+[00:18:16.280] 
+Si hablamos en el negocio pues lo que queremos hacer con la herramienta es que al final no sólo las clientas contentas sino también las descontenta no sólo las insatisfechas sino también las satisfechas las llamemos y preguntemos por qué no han comprado. Pero no sólo las llamamos para decirle por qué hemos comprado sino también analizamos lo que nos han dicho ya y vemos que nos dices que quizás en este punto del aspecto de la tienda no estás muy contenta. Por ejemplo puede ser ambiente en tienda vale.
+
+[00:18:51.730] 
+Por qué motivo entonces la directora ya se pone en la situación revive qué pasó con esta novia y ya antes ha tenido que preparar esa llamada con la asesora de entonces realmente cuenta con un contexto súper amplio para rescatar la clienta y la entiende mucho mejor. Ibaraki justo esta empatía que estamos trabajando es lo que ayuda a conectar con la novia porque no sólo estaba de vender vestidos sino también de conectar con esas novias y volver a esa experiencia emocional que queremos entregar en todo momento momentos la idea de medir el impacto que además tú eres si es de consultoría y si no entonces medir el impacto queremos lo que estamos haciendo es por cada llamada que se hace por ejemplo a las clientas insatisfechas a cuántas citas nuevas ha generado.
+
+[00:19:43.960] 
+Vale si antes esto era podía ser un 0 no porque no les contestábamos pues ahora mismo estamos estamos rescatando si como yo diría no tenemos muchas detractoras pero es verdad que podemos conseguir a rescatar un 20 30 por ciento de la gente que sí solo llamando o te contestan no muchas gracias por llamar y tenemos realmente historias muy muy bonitas de poder reconquistar a nuestra novia.
+
+[00:20:13.530] 
+Pongo un ejemplo por ejemplo justo cuando lanzamos el programa sinas piloto alguna una tienda tenía ya unas cuantas elegían unas cuantas detractoras. Entonces me fui a la tienda a hacer como loco en la directora porque es verdad que estábamos en la fase de piloto de aprendizaje y lo que hicimos era llamar a la clienta.
+
+[00:20:36.420] 
+Tuvimos suerte porque nos cogió el teléfono y bueno pues era que el mensaje de la directora fue súper empático y la clienta yo lo escuché por teléfono. Lo primero fue súper sorprendida de que le hemos llamado y en tan corto plazo de tiempo porque te llega la encuesta y enseguida lo ves en la plataforma y te llega un aviso en tu correo. Entonces la directora enseguida vio que tenía esa clienta insatisfecha. Entonces la directora entendió primero el feedback habló con la asesora entonces clara ayuda. También estás en el contexto de la conversación y la clienta está muy contenta y lo que pudo hacer la directora es traer otra vez a la clienta a la tienda pero es más que el cliente como fue descontenta canceló la cita tras siguientes citas que tenía y llegamos a la competencia.
+
+[00:21:25.230] 
+Es decir no fue la clienta programa varias citas rápidas entonces canceló las citas y aparte contrató a una amiga en no vayas a cancelar la cita así que está enfadada. Sí sí sí. Entonces la voz cómo es importante el boca a boca es nuestro negocio totalmente entonces el hecho que la llamara a la directora el efecto súper sorpresa es muy positivo.
+
+[00:21:47.880] 
+Entonces después de él conseguimos traer otra vez a la tienda La novia vino con su madre le reservamos un espacio privado. Una experiencia que nosotros damos siempre. La verdad que la escuchamos empatizamos cómo reconducir esta experiencia primera que tuvo y estuvo tan contenta que la madre se acabó comprando vestido y la novia llamando a su amiga la que canceló la cita para que ésta volviera a programarla la cita. Entonces en este momento no solo vendimos dos vestidos para la novia de la madre sino también cogimos de nuevo la cita que tenía la amiga futura novia también entonces ganamos para así decir tres clientes la importancia de los promotores.
+
+[00:22:33.100] 
+Sí sí sí sino total nuestro negocio e importancia al boca oreja y la recomendación realmente.
+
+[00:22:41.430] 
+Sí sí tenemos estudios y un 68 por ciento de los clientes indican que buscan marcas de novias o de vestidos de novia por Boca no de su recomendación de las bodas que ya se han ido de lo que les han dicho sus amigas que recomiendan dónde ir entonces y también muy importantes en las personas. Por ejemplo nosotros más o menos recibimos como 70 por ciento de las encuestas contienen un comentario abierto es decir la clienta se dedica a escribir.
+
+[00:23:13.890] 
+Te digo más de cinco líneas de texto mucho más con emoticonos. Sobre su experiencia y la frase clave siempre habla si ha sido una buena experiencia siempre habla de la asesora que la atendió entonces también aquí confirma el valor de las personas que el proyecto de expertas las asesoras en esa parte.
+
+[00:23:36.840] 
+Entonces cómo tenemos que trabajarlo para potenciar su rol en la experiencia de cliente.
+
+[00:23:42.900] 
+Claro absolutamente. De hecho hay un estudio que también habla ahora lo relaciono en cierta manera el Employee expedientes con el caso de Al final que realmente las personas ya no sólo las están Fruela sino toda la compañía está implicada y entienda esta visión que hemos sentido y entienda esta visión de la importancia de la experiencia. Lo determinante que es verdad para transformar esa experiencia para convertir en productos a los clientes. Exacto. Me ha parecido escuchar antes que decías que esta era una tienda piloto entonces eso me ha llevado a pensar en el proceso el proceso de despliegue cómo empezamos cómo cómo se empieza un proyecto de captación de la voz del cliente y de clase Lupi todo esto cómo lo diseña Elastix aquí.
+
+[00:24:38.350] 
+ Por qué decidisteis empezar por algunas tiendas cómo fue.
+
+[00:24:42.480] 
+Bueno yo creo que en Pronovias lo hemos hecho muy bien en sentido de en diferentes aspectos por una parte también tomando como mi experiencia de proyectos donde la experiencia cliente que he podido desarrollar en consultoría muchas veces las empresas empiezan por construir el lluny entonces internamente aquí es muy importante para nosotros como que hemos construido el Juni desde la voz del cliente no entendiendo lo que dice el cliente todos los días estamos construyendo el Churín que todavía estamos en la fase de cómo cerrar esa primera versión pero en el feedback del cliente no lo que nosotros internamente pensamos aquí sino en lo que realmente viven las tiendas todos los días.
+
+[00:25:21.370] 
+Eso es por una parte por otra parte hemos empezado poco a poco y creo que es muy importante no lanzarte con todas estas cosas a la vez no lanzarte con todas las preguntas a la vez no lanzarte con los estudios de mercado macro que puedas enviar a los clientes sino pues como comenté antes el primero canal digital para entender por qué la gente visita nuestra página web y entender también Contact Center que es lo que la gente pregunta y luego ir construyendo esta encuesta y también mi gran aprendizaje ha sido estar muy cerca de las tiendas por ejemplo de las directoras están hechos a Tübingen con las clientas.
+
+[00:25:58.720] 
+ Yo he sido una de las asesoras para escucharlo para lo que para ella es importante en la cita. Entonces eso te ayuda a construir bien la encuesta porque había ciertos elementos que quizás predeterminados. Por ejemplo cómo puede ser. Has encontrado lo que buscabas para nuestro negocio encontrar lo que buscabas significa encontrar tu Runrunes claro. Entonces es como el macro resultado final en la primera cita quizás no es esto es el segundo punto que sí muy importante es estar muy cerca del Frontline para construir este proceso y luego también como a nivel organizativo siempre ir validando con diferentes departamentos por ejemplo para la colaboración con contact center o retail.
+
+[00:26:43.820] 
+ Es clave en esa operación. En nuestro caso para construir estas variables ellos están midiendo en sus reportes porque lo que importa el voz de clientes que al final lo que genera voz de cliente esté conectado con el resto de los departamentos. Entonces qué hace para aportar valor o sea insights de clientes sino que mañana podemos hablar de negocio y de insights.
+
+[00:27:09.320] 
+Entonces yo creo que estas han sido como variables que creo que hemos aprendido que son claves de éxito para empezar un programa y también otra parte es contar con un partner tecnológico que te ayude a tener esta agilidad y también es muy importante para nosotros también como benchmark. Sobre todo qué hacen otras empresas en el sector lujo. Cómo están escuchando cuáles son sus benchmarks por ejemplo sus ratios de respuesta en las encuestas. Entonces también para tener esa referencia porque es de tener referencias del sector también para nosotros han sido ha sido importante.
+
+[00:27:47.330] 
+Yo creo que has dicho un montón de cosas que son que tienen muchísimo valor muchísimo valor como por ejemplo esta parte de validar el Journey sea sea objetivo en el sentido y desde un punto de vista cualitativo desde un punto de vista cuantitativo pero que exprese información mapeada con la realidad con el cliente y que no sea un póster bonito o que nos juntamos aquí en esta sala y es muy sencillo ponernos a dibujar un Jorginho lo que tardamos en poner post-its en la pared es algo que con lo que me resuena un montón. Esto que dices y luego también creo que es muy un muy buen ejemplo porque realmente no quita que a veces se piensa o se tiene la película o sea medir la voz del cliente y pedirle feedback al cliente.
+
+[00:28:34.860] 
+ Muchas veces se interpreta como enviar encuestas y ya está. Yo creo que el ejercicio de elegir por qué tiendas empezábamos qué segmentos cubrimos cuáles nos interesan más estratégicamente. Hay una conexión directa con la estrategia de negocio y eso creo que es algo que no se suele que no se percibe que no se suele ver y a mí me parece importantísimo desde luego. Entonces yo también estoy aquí por eso creo que habéis hecho cosas muy bien. También me interesaría saber qué hubiera hecho diferente si volviese si volviese a empezar hoy todo el proceso de despliegue de captación.
+
+[00:29:14.380] 
+Qué cambiarías. Muy buena pregunta.
+
+[00:29:17.900] 
+Yo creo que cambiaría aún más. 1. Para mí es aún transversal. Es decir escuchar esto sin seis de diferentes departamentos para decir qué es lo que realmente quiero entender del cliente. No cambiaría también estar mucho más en tienda.
+
+[00:29:39.190] 
+Por ejemplo ahora hemos lanzado vamos a lanzar segundo Touch Point. Entonces bueno pues a pesar de haber ido a la tienda con la novia en diferentes pruebas pues nos hemos dado cuenta que teníamos que haber estado mucho más. Entonces y ahora estamos adaptando el proceso de la encuesta para que sea mucho más real y que la novia le responda justo a lo que es para ella importante en un taxi o en otro equipo también cuando le leamos los resultados sepamos de lo que estamos interpretando.
+
+[00:30:12.830] 
+Y luego otro aprendizaje para mí es quizás como hacer más más ágil.
+
+[00:30:21.670] 
+Esta parte de Yo diría comunicación no transversal a la hora de implementación de un proyecto así. Comunicación interna. Sí sí sí sí ya estamos en ello estamos en ello pero es verdad que es muy importante para que todos estén alineados.
+
+[00:30:40.190] 
+Es muy importante tener a todos desde el principio claro porque muchas veces los programas por ejemplo de voz del viento de casa de Johnny nacen en un departamento X o pueden ser yo misma como consultora y c Journeys he diseñado experiencias pero es muy importante que esté todo el mundo desde el principio dijo desde el área de voz de cliente experiencia como legal muy importante legal para nosotros como Operations como producto. Por ejemplo nosotros una de las encuestas las hemos diseñado con la gente del taller que son las personas que se definen pues al final no se dedican a construir los vestidos.
+
+[00:31:19.650] 
+No ha sido muy importante su opinión pero no quizás no contamos con ellos. Entonces yo he aprendido que es muy importante tener a todos desde el principio porque sobre todo luego es mucho más fácil. Toda la parte de formación que tú vas a hacer y luego es mucho más fácil es la evangelización del proyecto no porque al final necesitamos promotores dentro de la organización porque yo creo que la herramienta que ponga que tengamos o lo que mi área SEPA del cliente si es así si se queda ahí no sirve para nada si tiene que expandir en diferentes áreas y que mucha gente crea en este proyecto.
+
+[00:32:00.650] 
+ Entonces quizás eso tener todos en el barco los más importantes pero desde el principio Bravo sí es súper de acuerdo.
+
+[00:32:10.630] 
+Yo de hecho suelo decir que para mí el nirvana del nirvana de la experiencia de cliente sucede cuando todo el mundo es consciente de cómo impacta su trabajo en el Journey de ese cliente no cuando somos capaces a través de la comunicación interna de dar visibilidad a todos esos aprendizajes a todos esos descubrimientos y todo el mundo es consciente de cómo impacta eso realmente es transformador. Mi experiencia ha sido así y yo lo he visto que lo más transformador ha sido eso y es muy clave y estoy muy de acuerdo y lo he repetido un montón de veces que mi escucho tanto me parece que soy un pesado que tú llegas a decir estas cosas y subraye las cosas que para mí son importantes como por ejemplo la transversalidad del proyecto que tiene que haber tiene que ser funcional tiene que estar integrado con todas las áreas funcionales.
+
+[00:32:59.810] 
+ Desde luego hay que subir al Albornoz hay que subir al autobús a esas áreas funcionales que tienen la capacidad de decidir que luego se van a ver impactadas porque tenemos que lograr un y sin y sin eso sí sin incorporarlos desde el principio al menos es lo que yo me he encontrado en mi experiencia.
+
+[00:33:19.430] 
+Te vas a ganar un montón de enemigos incluso te vas a ganar boicoteadores del proyecto en muchas ocasiones. Con lo cual me parece súper inteligente que lo haya hecho desde un principio que lo haya visto claro. Cómo de importante crees que tu experiencia previa en consultoría concretamente para poder pilotar un negocio así. Es una pregunta que me viene a la cabeza ahora.
+
+[00:33:42.490] 
+Bueno yo creo que es muy importante porque tú lo has visto desde el otro lado es decir te has dedicado a diseñar coches diseñar procesos diseñar experiencias que creías que son óptimas en base a tu experiencia en diferentes proyectos etcétera expertise.
+
+[00:33:58.940] 
+Entonces ahora estás realmente en ese sentido o tienes el esquema no tienes como el esqueleto construido en la mente.
+
+[00:34:07.420] 
+Entonces ahora realmente estás empezando a andar estás aprendiendo a andar y cómo esto que tú o tu esquema como es real en una organización y cómo es aplicable también.
+
+[00:34:23.600] 
+Como bien digo siempre que una organización son personas entonces una cosa que puede funcionar en un sector en una empresa en el que es totalmente trasladable a otra empresa.
+
+[00:34:34.340] 
+Entonces otra parte del aprendizaje es aprender a cómo funcionan los procesos internos también para poder cambiar las cosas y para que también la gente te escuche y se sienta dueño de lo que tú le comentas.
+
+[00:34:52.910] 
+Cuáles han sido las principales dificultades que os habéis encontrado dificultades en nuestro caso.
+
+[00:35:00.320] 
+Yo creo que siempre son temas de integración de más nivel de Haití.
+
+[00:35:05.510] 
+Por ejemplo el área de Haití se ha involucrado pero es verdad que con estos proyectos omnicanal es tú descubres ciertos GApps que pueden haber o no a nivel de conexión de información del cliente.
+
+[00:35:19.430] 
+Entonces este proyecto también nos está ayudando a pulir cómo es el proceso de cómo estamos recopilando la información del cliente en tienda o en canal digital. Bueno ese quizás ha sido el mayor reto de conectar diferentes puntos a nivel de sistemas pero contamos con un área de Haití magnífico que quedará que también es otro área que es clave temerles desde el principio en este proyecto muy bien.
+
+[00:35:50.840] 
+Bueno me gustaría entender un poco cuáles son los retos a los que nos enfrentamos en los próximos años como Pronovias y especialmente este proyecto Experiencia de Cliente los retos son muchos.
+
+[00:36:07.180] 
+No depende de los vagos los hemos falseado porque es importante fantasear no entender dónde estás ahora porque ahora estamos en el momento de alinear o sea en esa fase de entendimiento del siguiente.
+
+[00:36:20.930] 
+1. Entender qué opina nuestra clienta en todos los momentos y cuáles son los elementos básicos de su experiencia que tenemos que entregar independientemente de la tienda en la que vaya que no siente que está en una franquicia que está en la tienda propia claro entonces que podamos entregar una experiencia única y sobre todo de cara al cliente y también nuestras tiendas también son nuestros clientes entonces que ellos también estén en el mismo mensaje.
+
+[00:36:48.310] 
+También omnicanalidad con exalto a sí mismo.
+
+[00:36:50.900] 
+Exacto y luego yo creo que estamos en la fase de la siguiente fase será empezar a elegir en qué momentos queremos ser o no de que sea qué momento queremos cómo liderar dónde queremos ser diferenciadores dónde Pronovias quiere ser una marca que va más allá del producto de nuestros vestidos que tenemos donde el nivel de experiencia en donde queremos ser realmente muy fuertes entonces diferenciarnos yo introducir la innovación porque también es muy interesante la innovación en el sector nupcial serviría racion todos esos aspectos. Entonces cómo nosotros podemos expandir esa parte. Yo creo que es muy importante y luego por otra parte está también escuchar la voz la voz del cliente entender también a toda la parte de Shail.
+
+[00:37:42.710] 
+ Entonces para mí es muy importante también poder entregar el mayor valor al final de lo que es mayor parte de nuestro negocio. Entonces pues al final generar una experiencia única independientemente en que Ketty en qué marca estés en qué tipo de tienda estés y con quién está tratando que sea siempre que se respire que es una experiencia Pronovias Pronovias no es sólo Pronovias está Pronovias Wittman San Patrick Nicolo entonces pues que sepamos crear estas experiencias diferenciadores propias de cada marca y de cada tipo de cliente.
+
+[00:38:20.780] 
+Imprescindible la tecnología para ello.
+
+[00:38:23.300] 
+Sí exacto porque la tecnología lo que te ayuda es escalar. Para mí es clave la tecnología te ayuda a escalar tus deseos tus ambiciones. Tanto en el número 9 horizontal y en vertical no en horizontal. Para mí es en el número de tiendas en unidades de negocio y a nivel verticales eso no las marcas y también perfiles de clientes que tú tienes cómo generar esa experiencia diferenciadora para cada uno de ellos total.
+
+[00:38:56.810] 
+De hecho también es otra idea no sólo repetir esta experiencia de cliente hace muchos años la experiencia cliente en el momento de la verdad. Estos son conceptos noventeros diría pero realmente lo que ha cambiado es la tecnología esa capacidad que tenemos en tiempo real estar recibiendo ese input del cliente es un ser de cliente analizando sintetizando los andariegos a diferentes niveles y poder actuar sobre ella. Yo creo que es lo que la gran oportunidad que tenemos hoy en día me alegra mucho ver que hay quien lo está aprovechando. Así que nada muchísimas gracias y enhorabuena por el trabajo que estáis haciendo y espero que nos volvamos a encontrar.
+
+[00:39:40.590] 
+Muchas gracias a ti Carlos gracias Oxana y hasta aquí amigos y amigas este episodio de Real World el podcast sobre experiencia de cliente y negocio digital agradeceros una vez más vuestra fidelidad por escuchar por compartir por darle al like y por dejar vuestra reseña en la plataforma de podcasting que sois ya lo sabéis sois explicó muchas veces es la forma que tienen los algoritmos de saber a quién han de darle más o menos visibilidad así que cada vez que le dais a un like una reseña me estáis ayudando. Un fuerte abrazo y os espero.
+
+[00:40:17.750] 
+ En el mundo real.
+

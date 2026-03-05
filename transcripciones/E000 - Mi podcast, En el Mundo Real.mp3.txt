@@ -1,0 +1,231 @@
+[00:00:01.620] 
+Hace poco más de un año en la conferencia de agiles Spain 2016 los algunas personas de la organización del evento ACAS en 2016 me escribieron para sugerirme para invitarme a presentar una charla me invitaron a hoy hemos abierto el Consol papers nos gustaría recibir una propuesta de charla por tu parte yo recibí la propuesta como un halago la verdad me sentí muy halagado pero tras una semana dándole vueltas les escribí diciendo chicos mirad yo siento que no tengo nada que aportar.
+
+[00:00:50.310] 
+Declinó la oferta. No voy a presentar ninguna charla porque no no tengo nada que contar.
+
+[00:00:58.210] 
+La historia fue que por aquella época volví a ser padre por segunda vez y de alguna manera el destino quiso que una semana antes del evento pues me dio por publicar un post en el blog cosa que hago muy de tanto en cuanto al menos hasta ahora.
+
+[00:01:19.880] 
+Espero que a partir de ahora darle un poquito más de caña.
+
+[00:01:24.170] 
+La cuestión es que en aquel momento publiqué publiqué ese post y publiqué un post sobre conciliación y cultura corporativa salvo en un post donde hablaba de mi experiencia mi segunda experiencia la paternidad y el nivel de conciliación era una reflexión muy personal y lo que sucedió es que yo fui a la casa fui a la casa del 2016 y lo que pasó es que en cinco charlas distintas mencionaron mi post mencionaron ese post que yo ya había escrito unas semanas antes.
+
+[00:02:02.280] 
+La charla donde yo había considerado que no tenía nada que aportar la verdad es que todavía me rompe la cabeza eso no sé si no sé si habéis oído hablar del síndrome del impostor el síndrome del impostor.
+
+[00:02:19.080] 
+Para aquellos que no lo conozcáis pues es ese fenómeno psicológico en el que nos sentimos poco cualificados bien para emitir nuestra opinión profesional o para dar una charla o sencillamente para desempeñar nuestro trabajo no bueno no sé si os ha pasado a vosotros yo me he sorprendido infinidad de veces cayendo en esa trampa en esa trampa mental.
+
+[00:02:50.950] 
+Este podcast esto que estáis escuchando es mi particular manera de luchar contra mi síndrome del impostor así que nada. Bienvenidos a este episodio cero del podcast en el mundo real.
+
+[00:03:07.950] 
+El podcast sobre experiencia de cliente y negocio digital.
+
+[00:03:48.270] 
+Entonces qué quiero aportar a ver este año por ejemplo si que me he obligado a enviar una charla a la casa este año al mismo evento a la edición del 2017 y la verdad es que el Citaste la gente ha sido extraordinario estoy súper contento yo creo que en realidad esa es.
+
+[00:04:14.440] 
+Yo creo que no era pa tanto pero es verdad el feedback ha sido espectacular.
+
+[00:04:22.970] 
+Mucha gente me ha dicho que le ha gustado mucho y que le ha ayudado.
+
+[00:04:30.400] 
+Entonces lo que me sucede lo que veo es que yo necesito el feedback de las personas para entender dónde puedo aportar valor no me cuesta entender sobre qué sobre qué puedo hablar sobre qué charla puedo proponer y tal porque no tengo referencias de mí mismo cómo lo explico y yo qué sé.
+
+[00:04:54.940] 
+Es un poco como cuando estás nadando en el mar.
+
+[00:04:59.230] 
+No sé si has tenido la oportunidad de nadar en medio de la nada Mar Adentro tienes un poco la sensación de que no avanzas porque no tienes referencias no sabes ni cuál es la velocidad que llevas ni la distancia que recorres pues de alguna manera a mí me pasa un poco lo mismo que yo siento que no tengo mucho que aportar pero cuando hablo con otras personas cuando consigo conectar con otras personas y tomo distancia de mí mismo hablando con esas otras personas pues entonces ahí me doy cuenta de del valor que tiene mi experiencia y y el conocimiento que he ido adquiriendo durante todos estos años.
+
+[00:05:47.740] 
+ Entonces para mí también es muy importante y uno de mis objetivos personales para con este podcast es establecer conexiones con gente que me ayude a tomar referencias de mí mismo y que me enseñe cosas que me aporte cosas quiero descubrir a gente increíble. Ese es otro de mis objetivos. Bueno para quienes no me conozcan y no sabes quién soy y a qué me dedico soy y soy Carlos Iglesias soy CEO de Random Runrunes una consultora de negocio digital que fundamos en 2003 cuatro socios los cuatro socios ingenieros 15 años después.
+
+[00:06:44.050] 
+Somos 50 personas y una de las cosas que más orgullo me hacen sentir es que sigo contando a mis socios entre mis mejores amigos. Por cierto cuando arrancamos un gestor nos dijo que no íbamos a durar ni un año siendo cuatro. Que esto no era operativo porque la toma de decisiones necesitan gestor y te mandó un cálido abrazo como estás en fin en Twitter me vais a encontrar por Carlos de Saylor porque soy y me gusta mucho la náutica.
+
+[00:07:24.070] 
+Navegar a vela es algo que me apasiona y no tengo barcos y te lo estás preguntando y bueno qué es lo que hacemos en RAM ROM.
+
+[00:07:35.070] 
+Porque qué es lo que hago yo entrenándome aparte de compaginar la dirección de la empresa con hago también consultoría consultoría de negocio digital consultoría de estrategia de negocio digital etc. para los clientes en general nos gusta decir que lo que hacemos nosotros es transformar la experiencia cliente la experiencia de cliente o expidiendo va a ser un eje troncal en este podcast y en el negocio digital.
+
+[00:08:10.640] 
+También nosotros Senran rompés trabajamos la experiencia de cliente desde la tecnología al marketing online la analítica etc.. Ahí es donde yo he ido adquiriendo experiencia y ahí es donde espero aportar un poquito de valor a los oyentes.
+
+[00:08:35.720] 
+Compagino compagino mi trabajo en Run Run como os decía siendo profesor en distintas universidades y escuelas de negocios Esade exculpaba o materias tan diversas como el marketing digital pero también la esencia de cliente.
+
+[00:08:56.120] 
+Recientemente me han propuesto hacer clases de Lihn Management también en Esade cosa que me hace muy feliz porque es una de mis temas favoritos allá el y todo esto qué más hago.
+
+[00:09:13.700] 
+Otra de las materias esa experiencia de usuario etcétera no diseño.
+
+[00:09:19.070] 
+Llevo unos 20 años en este sector de hecho yo empecé programando programando webs en una consultora en la época de la burbuja de las puntocom mientras estudiaba compaginando mis estudios con el trabajo.
+
+[00:09:35.510] 
+Esto lo hice durante bastantes años de hecho después me fui a TV3 mientras estudiaba también y estuve haciendo desarrollando aplicaciones de televisión interactiva. Por aquella época la televisión interactiva lo iba a petar muchísimo y era el futuro de todo. Trabajé también algunos años como programador de videojuegos.
+
+[00:09:54.500] 
+De hecho yo me metía en esto de la informática porque mi sueño era ser programador de videojuegos y una de las cosas que aprendí es que llegué a mi sueño lo alcancé antes de acabar la carrera y me puse a programar videojuegos en C E F sobre hardware propio porque era la empresa era de máquinas de Conap que son estos arcades de salón recreativo y tal. Una de las cosas que aprendí es que si programar me apasionaba me gustaba mucho. Programar videojuegos a programar cualquier otra cosa no era tan importante y me di cuenta de que yo había fantaseado con la idea de que ya me había dibujado un espacio mental donde los desarrolladores de videojuegos vivían en un limbo de buen rollo de creatividad y de cooperación y tal y me di cuenta de que eso depende más de la cultura corporativa del lugar de trabajo que de lo que programes.
+
+[00:11:13.890] 
+Al final ese fue mi gran aprendizaje. Y esa fue la principal razón por la que formamos. La verdad lo formamos siempre.
+
+[00:11:25.980] 
+Siempre lo explico y siempre lo digo de la misma manera pero es que es totalmente verídico.
+
+[00:11:31.310] 
+Uno nace de un plan de negocio nace de un plan de vida y nuestro propósito era ser felices y desarrollarnos como profesionales como personas a intentar aportar valor a nuestros clientes enfocarnos en una cultura del esfuerzo y también de la aportación de valor.
+
+[00:11:52.760] 
+Y yo creo que eso se mantiene en el ADN de Radnor. A día de hoy bueno ese es un poco a lo que me dedico yo no los invito también a que eches un ojo a la página de quién soy o sobre mí de mí ni de mi página. Carlos Iglesias info Landers explicó cositas que probablemente no sabes de mí en un plano un poquito más personal si quieres entonces de qué vamos a hablar en este podcast. Pues a ver como se decía no principalmente de casta ahora experience experiencia de cliente pero siempre desde un plano digital.
+
+[00:12:35.760] 
+ A pesar de que obviamente las preceda de clientes omnicanal sí es cierto que nosotros random y por lo tanto mi experiencia personal y profesional pues basamos esa transformación de la experiencia de cliente en la innovación a través del negocio digital de la originalidad. Entonces bueno no me quiero extender mucho en cuanto a la experiencia de cliente que es que no necesitan porque uno de los próximos episodios va a ir precisamente de eso experiencia de cliente que es comentar muy rápidamente que al final la experiencia de cliente se define por el recuerdo de marca de nuestros clientes para con nuestro servicio para sí o para con nuestro producto no es tu al final lo que recuerdas de un servicio es lo que realmente importa es ese recuerdo del servicio lo que tú has vivido en la experiencia desde que conoces un determinado servicio a una determinada marca hasta que la utilizas hasta que la recomiendas.
+
+[00:13:43.200] 
+ Por tanto por tanto yo creo que tiene mucho sentido que el foco del podcast Customer Experience es muy amplio es tremendamente amplio me permite tocar temas desde el uso personal vaya persona como conocer cómo formaron cómo generar una persona cómo conocer a tus arquetipos de cliente al Journey no al Journey o el pasillo del cliente cómo identificar cómo medir cómo es esa experiencia Cómo entenderla. Esto tiene mucho que ver también desde el punto de vista del marketing con el Inbound Marketing. No sé si lo conoceréis habéis oído hablar de inbound pero invades es un poco se basa precisamente en eso en conocer quiénes son tus Ballart persona entender sus Ballers Journeys y a partir de ahí diseñar una estrategia de contenidos para impactar para aportarles valor en función del momento de su experiencia.
+
+[00:14:43.990] 
+Yo creo que tiene mucho que ver por ejemplo experiencia estrategia de contenidos creo que es un tema interesante que también trataremos y por lo tanto podemos hablar de SEO en un momento dado como hacemos que esos contenidos lleguen de forma que se posicionen de forma orgánica o también de performance Vidia como hacemos cómo utilizamos la publicidad de pago el PP el primer click en Internet para hacer llegar esos contenidos a nuestros clientes en un momento de consideración etc..
+
+[00:15:17.640] 
+Si hablamos de marketing también deberíamos estar hablando de marketing automation y también de CRM pero no Urtubi Inglis scoring. Hay un montón de temas relacionados con el marketing que me gustaría ir tratando poquito a poquito pero también de Product Management de allá el delin.
+
+[00:15:37.830] 
+En este momento en el momento en el que arranco este podcast probablemente la gente aquellos que me seguís me conocéis más por esta parte digamos no por la parte de allá el management incluso de IVEX no de experiencia de usuario Thinking prototipado de Yusa el centro del diseño de un proceso iterativo incremental de diseño. Para mí todas estas cosas son imprescindibles si hablamos de Castromán Experience hablamos de innovación desde el negocio digital tenemos que entender cómo cómo innovar a través de un flujo de creación ágil y cómo no de analítica e inteligencia el dato es imposible mejorar aquello que no puedes medir.
+
+[00:16:29.350] 
+ No hablaremos de big data de data Saiyans de machine learning Learning etcétera.
+
+[00:16:39.980] 
+Por qué. Porque esto ha llegado ha llegado para acompañarnos lo que nos queda de vida y creo que no se puede hablar de negocio digital sin tocar estos temas. Esto pues bueno habrá episodios que sean esté yo hablando como estoy haciendo ahora mismo y explicando mi punto de vista.
+
+[00:17:04.830] 
+Mi experiencia de una forma intentaré hacerlo dar una visión estratégica pero también muy pragmática me interesa mucho me interesa mucho bajar a el mundo real al mundo real.
+
+[00:17:21.220] 
+Por qué en el mundo real. Por qué este título.
+
+[00:17:24.750] 
+Bueno seguro que estoy seguro de que si habéis estado en algún foro de negocio donde se hable de empresas el futuro de las empresas estoy seguro de que habéis escuchado esto de que las empresas tendrán éxito en el futuro serán aquellas empresas que se adapten al cambio que mejor adaptarse al cambio estén verdad o por decirlo de otra manera aquellas empresas que no se adapten al cambio jodido lo tienen digamos.
+
+[00:18:04.760] 
+Entonces yo creo que para mí esto es muy importante para mí y de hecho en los últimos años nuestra los mayores esfuerzos en RAM ROM en nuestra empresa ha sido consolidar una cultura de adaptación al cambio no precisamente de innovación de toma de decisión por parte de los runners etcétera.
+
+[00:18:28.670] 
+En el mundo real la verdad yo me considero una persona muy pragmática nada. Huyo huyo del humo que hablo de temas de marketing y que me interesa muchísimo todo esto pues es verdad que suele haber mucho humo alrededor de todos estos temas. Quienes estéis cercanos a quienes estéis cerca de estos temas seguro que sois conscientes de ello.
+
+[00:18:57.990] 
+Yo me considero como una persona muy pragmática muy en el mundo real muy de tocar en las trincheras del barro. Me encanta el mundo real en ese sentido.
+
+[00:19:10.370] 
+El problema del mundo real es cuando al mundo real le antecede un pero qué quiero decir con esto yo estoy y estoy cansado.
+
+[00:19:23.500] 
+Bueno tampoco es que esté cansado.
+
+[00:19:25.160] 
+Si estuviese cansado mal iríamos no pero me ha pasado muchas veces voy a dar una charla sobre Ayapel sobre CEO o sobre el tema que sea no explicar esa charla desde intentar dar una visión panorámica estratégica a largo plazo bajar e intentar cómo no como estos se hace como él del qué al cómo y al final de la charla.
+
+[00:19:52.010] 
+Es bastante común me ha pasado más de una vez que de repente alguien levanta la mano y todo esto está muy bien pero en el mundo real no y esto es algo que a mí me llama me llama poderosamente la atención. No sé si habéis leído un libro muy famoso de los fundadores de Seven Signals que se llama Rework Rework hay un capítulo que se llama ignore the real world.
+
+[00:20:24.660] 
+Y creo recordar la verdad no me acuerdo como se llama al tío me parece que es Jason Fried que escribe derrier World y a Pleiss y Chan exclavos Iris justifiques Forno trying it has no centro de no es decir el mundo real tu mundo real no es un lugar es una excusa es simplemente una justificación para no hacer nada para no intentarlo. Para qué. Para que eso que tienes que hacer no tenga nada que ver contigo. Es un poco. Yo creo que esto es muy poderoso.
+
+[00:21:05.370] 
+Ser conscientes de nuestros sesgos y de cómo nos cómo nos engañamos a nosotros mismos. Entonces bueno ese es un poco el título en honor en honor a esto no le he llamado al podcast en el mundo real ni mi ambición es intentar desactivar esto no esta excusa al final al final de cada podcast hacer una llamada a la acción.
+
+[00:21:31.790] 
+Hacer un Breitbart como dice un amigo pintarme la cara azul y hacer una llamada a la acción no se puede hacer se puede lograr.
+
+[00:21:43.310] 
+Y para ello yo voy a explicar cómo lo hemos logrado nosotros.
+
+[00:21:48.590] 
+O voy a traer a gente hasta allí donde yo no llegué. Explique cuál es su experiencia en el mundo real no porque porque tu mundo real o el mundo real de cualquiera no es más real que el mío propio o de él de aquellos que lo han logrado que han logrado el cambio. Entonces leyendo un poquito acerca de la psicología de la excusa una de las cosas que he aprendido es que cuando sabemos que hemos de afrontar un cambio y no lo hacemos se produce una tensión entre entre lo que deberíamos hacer y lo que decidimos no hacer una tensión interna entonces esa distancia entre entre lo que deberíamos hacer y lo que decidimos hacer nos genera una angustia interna importante.
+
+[00:22:38.590] 
+ Digamos entonces ante esa angustia es donde aparecen los pretextos pues para apaciguar esa incomodidad interna no es probablemente nuestra nuestra táctica no usamos la táctica de la excusa como un mecanismo de supervivencia de nuestra autoestima porque nos jode nos jode muchísimo fallar a nosotros mismos somos conscientes de que deberíamos estar haciendo eso pero no lo hacemos. Entonces como necesitamos demostrar coherencia en la imagen que proyectamos a los demás pues ahí aparece la excusa como un mecanismo de eso de supervivencia. De hecho es interesante el concepto de determinismo existencial. Por eso lo ha petado tanto el determinismo existencial esa esa creencia de que estamos estamos determinados estamos condicionados y que por lo tanto el cambio en sí mismo no merece la pena el esfuerzo.
+
+[00:23:44.530] 
+ No soy como soy y no puedo cambiar es mi temperamento o mis genes y ante eso no puedo hacer nada. Incluso se ha demostrado que la genética condiciona pero no determina digamos no tuvo un con un estilo de vida saludable puedes modificar incluso tus genes no entonces el determinismo existencial no estamos determinados o tenemos libertad para elegir y el tema de la libertad la libertad pesa no la toma de responsabilidad ser ser dueños asumir nuestra responsabilidad es algo que pesa.
+
+[00:24:32.920] 
+Esto también es algo muy comentado en los entornos de agilidad no cuando cuando se intenta introducir una cultura ágil en una cultura lejana a la agilidad una de las una de las cosas que yo he observado que más se que menos se tienen en cuenta o que no se les da mucha importancia es precisamente a que una de las mayores fricciones ante ese cambio es la diferencia en la toma de de la responsabilidad no la asume asumir la responsabilidad porque en el momento en el que tú eres partícipe de un equipo autogestionado ahí tienes que ser responsable de tu libertad de toma de decisiones.
+
+[00:25:26.220] 
+No supongo que la manera de eliminar las excusas es sencillamente asumir al cien por cien la responsabilidad de los errores o de las cosas que dejan de hacerse bien.
+
+[00:25:40.630] 
+Esto no es tan fácil porque también requiere dejar de culpabilizar de manera castrante.
+
+[00:25:48.020] 
+Venimos de vivimos en una cultura muy por muy ateo que seas por muy ateos que seamos. Vivimos en una cultura judeo cristiana donde la culpa es una palabra muy importante no es una palabra muy es su nombre propio con mucha presencia y la culpa y los miedos al cambio pues todavía pesan pesan demasiado no entonces. Bueno yo espero de todo lo que vamos a hablar de todos esos temas que he comentado antes vamos a hablar desde una perspectiva del mundo real de experiencias propias como decía de experiencias de otras personas que están intentando que lo han conseguido o no y nada bueno.
+
+[00:26:44.470] 
+De hecho Bueno de hecho es ese síndrome del impostor del que hablaba al principio no es más que otra forma de excusa.
+
+[00:26:52.780] 
+Otra forma de autoengaño de decirte a ti mismo que no sabes lo suficiente y esas las usa que utilizo para no arrancar este podcast.
+
+[00:27:07.330] 
+Así que aquí me tenéis delante de un micro con una mesa de mezclas de mi ordenador no sé muy bien lo que hago soy como un chimpancé con una CA 47. Espero que si no se oye muy bien o si escucháis sonidos extraños o alguna cosa rara me lo sepáis perdonar lo estoy haciendo con todo mi cariño vale y desde mi y desde mi síndrome del impostor siendo un fraude.
+
+[00:27:36.040] 
+La verdad es que en este sentido todavía no me he atrevido a comprometerme conmigo misma a una frecuencia de publicación al cien por cien necesito un poco entender cuánto me va a costar hacer esto. Mi intención es publicar un episodio cada dos semanas al menos bueno al menos no cada dos semanas.
+
+[00:27:54.100] 
+La verdad sospecho que una por semana va a ser demasiado ambicioso para mi y me temo que si lo hago más largo de dos semanas pues la cadencia igual es un poco demasiado holgada.
+
+[00:28:13.260] 
+Así que de momento prefiero no marcarme objetivos cerrados en este sentido no ponerme más presión de la que ya tengo.
+
+[00:28:22.110] 
+Pero bueno mi intención ya os digo es publicar un episodio cada dos semanas sin nada más. Esto es todo. Sólo una cosita más sí. Y si tras escuchar este episodio quieres proponer a alguien como entrevistado por qué creas que es afín al espíritu del podcast.
+
+[00:28:47.340] 
+Porque creas que puede aportar valor.
+
+[00:28:48.880] 
+Pues por favor escribía en el mundo real la arroba.
+
+[00:28:52.650] 
+Carlos Iglesias punto info o tira un DM en Twitter a arroba Carlos de Saylor. La única condición es que la persona propuesta no seas tú mismo.
+
+[00:29:06.870] 
+Sólo quería dar las gracias a mis tres socios a Aurelio César y Jordi por apoyarme en todo lo que hago por creer en mí.
+
+[00:29:19.580] 
+A mi mujer y a mis hijos también por por comprenderme y por su firme siempre estoy dándole vueltas a esto la verdad es que este posteas no se imagina es el tiempo que me ha costado publicarlo.
+
+[00:29:36.010] 
+Se iba a llamar de una manera. Le di la vuelta no me gustaba no me sentía cómodo grabé un primer episodio lo tiré porque no no me sentía cómodo conmigo mismo sentía que estaba interpretando un papel que no me correspondía. Y todo esto en mi día a día. Estoy las 24 7 no estás 24 horas al día dándole vueltas a esto por lo tanto gracias. Gracias a mi mujer por comprenderme también en este sentido y por seguir al lado mío durante más de media vida llevamos un montón de tiempo juntos. También quería agradecer a Txabi Ghosh mi mentor Txabi es un faro para mí y me ha ayudado mucho a poner orden a todo esto a darme cuenta de lo que quiero hacer de por qué lo quiero hacer incluso de cómo debería hacerlo aprendo un montón con él.
+
+[00:30:33.790] 
+ También quería dar las gracias a José Carlos Gil y a Jose Torres que me han regalado a esa mesa de mezclas me han donado me han hecho en esa donación y han asesorado a mi hermana a la que también quería agradecer y a mi familia por haberme regalado estos tres micrófonos que ha posibilitado que esto tenga un sonido de calidad espero y de momento nada más.
+
+[00:31:04.000] 
+Quería agradecer a estas personas y dedicarles este episodio 0 hasta aquí este episodio cero de mi podcast en el mundo real el podcast sobre experiencia de cliente y negocio digital.
+
+[00:31:17.990] 
+Necesitaba explicar los porqués de este podcast y cómo no presentarme para que empezais a conocerme un poquito más cerca a aquellos que no me tengáis muy muy localizado muchísimas gracias por escuchar por favor si le ves valor a todo esto que te cuento.
+
+[00:31:38.420] 
+Si te gustaría que continúe con este podcast te agradecería mucho que me ayudes a amplificar la señal que compartas en tus redes sociales este episodio y sobretodo sobretodo sobretodo que te tomes la molestia de darle a las estrellitas dejar un comentario en iBooks Noitebús en Google Play o la plataforma que utilices para mí de verdad que es súper importante.
+
+[00:32:00.200] 
+Quiero que esto salga bien y esos comentarios esas estrellitas es lo que son las que me van a permitir pues ganar visibilidad y poder conseguir esas conexiones.
+
+[00:32:15.970] 
+Si esas de esas referencias que tanto que tanto anhelo que tanto necesito nada más. Un fuerte abrazo y os espero en el mundo real.
+

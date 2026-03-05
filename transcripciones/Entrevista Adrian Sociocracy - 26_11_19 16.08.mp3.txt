@@ -1,0 +1,267 @@
+[00:00:03.180] - Carlos Iglesias
+Bueno pues Adrian Perreau de Pinninck Bas no puedo evitar decir todos tus apellidos yo sabía que yo estoy seguro que tú ya sabías que iba a hacer algún tipo de coña porque Adrián perro de picnic las Bas el segundo apellido vamos a desambiguación ya esto además no sé si lo conoces bien porque me parece que se escribe Pinín al final. Pues sí pero se pronuncia bueno si quieres decir lo que sí dejó de Pini de picnic porque Adrián pegó de picnic. Muchas gracias bienvenida a este post gracias a ti. De verdad que es un placer y un honor con Adrián que me unen ya unos cuantos añitos unos cuantos añitos de amistad y de admiración habría hoy.
+
+[00:00:43.960] - Carlos Iglesias
+Bueno te voy a presentar como emprendedor. También es socio cofundador de la consultora ãgil Parnos y además eres CIO en Voxel Group que hablamos ya de Voxel hace dos programas yo creo que ya casi que tendría que pasarles algo como para que colabore con el podcast.
+
+[00:01:06.620] - Carlos Iglesias
+Eres profesor además en varias escuelas de negocio siempre estas comunidades en todos los saraos estás moviendo también la el meetup de Sociocracy en Barcelona.
+
+[00:01:17.920] - Adrian Perreau de Pinninck
+Me he despegado un poco de la comunidad ãgil porque estoy metiendo mucha energía en esto claro pero siempre que puedo conferencias y además intento no fallar.
+
+[00:01:28.940] - Carlos Iglesias
+Eres un explorador yo verdad y yo a ti te veo un poco como explorador siempre descubriendo cosas nuevas. Eres de los pocos doctores que conozco realmente que tras hacer un doctorado me parece un mérito terrible especialmente con el ritmo de vida que llevamos y creerselo recognized.
+
+[00:01:50.160] 
+En fin expica un poco tu por donde has pasado cómo has llegado a hoy cómo has llegado hasta hoy.
+
+[00:01:59.280] - Adrian Perreau de Pinninck
+Ostras, cuanto atrás puedo ir lo que tú consideras que aporta valor.
+
+[00:02:05.400] 
+Yo me acuerdo una conversación que tuve con un primo mío cuando tendríamos 10 años en la cual él tenía un robotito que se había comprado y lo desmontaba para volverla a montar para ver cómo funcionaba. Y a mí la robótica en sí me llama la atención pero no desde el punto de vista de cómo funcionan las partes sino el sistema. Ya desde pequeño me llamaba mucho la atención eso, cómo piensa, cómo hacer que piense, cómo hacer que piense bien y que interactúe con otros.
+
+[00:02:42.400] 
+ La mecánica no me interesaba tanto me interesaba la interacción con otras partes y el pensar y este no me di cuenta de lo importante que era mi vida hasta que más adelante cuando hice el doctorado en inteligencia artificial qué coño me acordaba de esa conversación. Entonces lo del doctorado fue curioso porque yo voy viendo ahora como diferentes cosas que he ido explorando en mi vida están todas alineadas pero no porque yo lo pensara con un plan maestro es como que las cosas van pasando y dices Coño qué fuerte no que todo esto está alineado conectando los puntos ahí totalmente dando los puntos.
+
+[00:03:16.580] 
+ Y yo me acuerdo de la universidad yo empecé en la universidad en el 97 en la Salle como tú y me acuerdo que cuando estudié era superior me puse a trabajar a la vez. Entonces ya empecé a hacer consultoría y como vi que las herramientas que me daban en la Universidad de programación no cubrían todos los aspectos que yo necesitaba para hacer software que funcionara y que fuera que evolucionara con el tiempo y tal pues ahí empecé a estudiar y a partir de ahí como yo hablaba bien inglés pues me compraba libros en Amazon.
+
+[00:04:04.150] 
+ Ya en el 2000 y empecé a tirar del hilo hasta que descubrí la comunidad Agile y en el 2004, que en España no existía existía.
+
+[00:04:14.390] 
+Y ahora que empezamos en 2009 más o menos por ahí anda la cosa.
+
+[00:04:18.490] 
+Entonces yo en 2004 descubro primero Design Patterns, los libros de factoring, Extreme Programming, el scrum y todo eso me flipa y dije Esto es como yo creo que debería trabajar esto que yo en ese momento veo el como yo el qué lo había descubierto leyendo un libro en la carrera que era el de 7 day weekend de Ricardo sembla así que a mí me flipó yo antes de aquello quería trabajar en Accenture porque yo veía que la gente ni pensaba estos son los top de los top. Eso en mi cabeza. Si yo quiero trabajar ahí y me leí el libro y se me pasó dije Yo quiero trabajar en un sistema autorganizado y Agile  me dio las primeras herramientas de cómo hacer eso. Y de ahí empecé a investigar empecé a hacer TDD en el 2004 2005 y programã pero no encontraba a nadie me acuerdo que me puse a trabajar en TV3 y les pasaba libros a los managers y no teníamos que hacer esto.
+
+[00:05:18.340] 
+ No sabía que salir yo también estuve trabajando en eso y no sabía que CRTVE yo también. A lo mejor así estuve trabajando allí y Zape hombre con Alberto Alejo. Sí si pudiera era de Comunitel fuerte no eran los que llamaban el gestor de contenidos vale. Se quedó allí.
+
+[00:05:37.630] 
+Bueno luego lo  retomamos, que fuerte.
+
+[00:05:43.810] 
+Y les pasaba libros Destin programen patrones. Tenemos que hacer esto y me decía eso no funcionan aquí.
+
+[00:05:51.250] 
+Entonces yo vi que me topaba con demasiadas Paredes no encontraba ningún tipo de empresa en España que trabajara como yo quería trabajar era demasiado Junior como para tener el peso como para poder impactar en eso y me salió la oportunidad hacer un doctorado y dije pues hago un doctorado y el doctorado lo hice en sistemas multi agentes.
+
+[00:06:13.900] 
+Ahora que la inteligencia artificial está muy de moda está de moda lo que es el machine learning. Yo no hice machine learning , no me importaba tanto como el tener grupos de cosas inteligentes cómo interactúan entre sí para coordinarse y tal. Entonces yo me doy cuenta ahora que yo lo que estaba estudiando era sociedades humanas pero todavía no. Con otro interfaz. Yo muchas de las cosas que aprendí y estudié durante el doctorado ahora veo cómo aplican para escalar organizaciones autogestionadas. Entonces hay que unir los puntos..
+
+[00:06:51.530] 
+ Y una de las cosas que yo estudiaba en  el doctorado era sistemas de argumentación a la inteligencia artificial cómo dos agentes inteligentes si interactuaban entre ellos para tomar decisiones conjuntamente rebatiéndose el uno a otro los puntos de vista. Y es que eso es en los patrones de toma de decisiones el socio cracia son eso. Te das cuenta de que realmente me da la sensación de que lo del destino quizás es más real de lo que nos gustaría creer.
+
+[00:07:39.380] - Carlos Iglesias
+Adrian Perreau de Pinninck ya has empezado a tocar el tema de la sociocracia que de hecho es un poco el corte de este episodio Tú ahora estás impulsando ese Meetup de Sociocracy 3.0 en Barcelona y Sociocracia es algo que siempre aparece en  las clases que yo doy de Management en Esade hablo mucho del problema de los silos el problema de los silos funcionales que para mí es uno de los principales problemas que tienen las organizaciones hoy en día, desde mi perspectiva y me gusta mucho hablar de Sociocracy, son cosas que existen y que la gente no conoce porque a lo mejor no se enseña tanto en las escuelas de negocio como debería. 
+
+[00:08:28.790] - Adrian Perreau de Pinninck
+No se enseña porque la gente no lo conoce. Esto existe y existe desde hace un siglo y medio pero al mundo anglosajón le llega en el 2000 cuando John Buck escribe el primer libro en inglés de sociocracia porque sociocracia en Holanda ya existía de antes pero toda la documentación era en neerlandés con lo cual ningún inglés podía entenderse al mundo anglosajón llega en 2000.
+
+[00:08:58.660] - Carlos Iglesias
+Esa es un poco la razón por la cual es todavía un gran desconocido. La versión 1.0 de sociocracia es de 1926 de Kees Boeke.
+
+[00:09:30.610] 
+Entonces bueno luego hablaremos un poco de las distintas versiones de sociocracia y de Holacracy también pero sí que me gustaría como para arrancar el podcast. Para aquellos que no hayan oído nunca hablar de sociopatía tú cómo describirías qué es o Sociocracia.
+
+[00:09:50.500] - Adrian Perreau de Pinninck
+Sociocracia explicado muy  en resumen es un sistema de gobernanza donde gobernanza es decidir cómo decidimos. Meta decisiones. Entonces Sociocracia 3.0 es un sistema de gobernanza iterativo incremental, donde yo puedo ir tomando decisiones que van mejorando decisiones anteriores sobre cómo tomamos decisiones y cómo nos organizamos. 
+
+[00:10:21.500] - Carlos Iglesias
+Vale y eso qué es y cómo es socio cracia?
+
+[00:10:28.990] - Adrian Perreau de Pinninck
+La gran diferencia respecto a los tipos de gobernanza a los que estamos habituados que son una jerarquía es que en vez de organizarnos y en vez de tener una jerarquía donde la propiedad delega todo en un director general y el director general delega partes funcionales en diferentes departamentos que a su vez delegan en middle managers que a vez le dicen a los equipos lo que tienen que hacer, es totalmente push, esto se sigue pudiendo hacer con patrones de Sociocracia 3.0.
+
+[00:11:10.810] 
+Pero lo que añade la Sociocracia 3.0 con el concepto de dominios y círculos es que se establecen dominios de delegacion y tú puedes establecer dentro de los dominios subdominios. Aquí puede parecer todavía departamentos. Entonces hay herramientas que en vez de hacerlo exclusivamente a través de jerarquía, permiten establecer vínculos entre dominios de delegación para que se tomen decisiones. Por ejemplo al de marketing cuando toma decisiones dentro de ventas. 
+
+[00:11:43.650] - Carlos Iglesias
+Pongamos un ejemplo de qué sería un dominio de delegacion.
+
+[00:11:48.940] - Adrian Perreau de Pinninck
+Un dominio delegacion sería el dominio de marketing o sea todo lo que es dar a conocer lo que hacemos en la empresa. Eso es un espacio donde hay necesidades de dar a conocer nuestra marca, nuestros productos, lo que hacemos, nuestra identidad y eso se delega en la gente que trabaja en ese dominio.
+
+[00:12:15.010] - Carlos Iglesias
+Ok. Y cómo interactúan entre dominios o sea que qué diferencia hay entonces entre un departamento y un dominio.
+
+[00:12:25.630] - Adrian Perreau de Pinninck
+La diferencia no es entre departamento y dominio. Primero que un dominio tienes que definir claramente la necesidad que cubre, las responsabilidades que tiene, los recursos a los que tiene acceso y cómo se va a medir su éxito.
+
+[00:12:42.640] 
+Ya el hecho de definir esto es mucho más de lo que hacemos en la mayoría de departamentos pero hay departamentos que sí que lo hacen. Lo que te da Sociocracia son mecanismos a través de los cuales esta definición de delegación puede cambiar de manera dinámica y que no sea necesariamente el jefe el que dice "ahora tenemos que tomar esta responsabilidad" sino que otros departamentos, como por ejemplo ventas, se da cuenta de que tienen necesidades que no se están cubriendo en ningún sitio. Entonces hay reuniones de gobernanza en las cuales se modifica los dominios y se añaden, se quitan responsabilidades, se crean subdominios a medida que veamos viendo que hay necesidades que no estamos cubriendo y buscamos nuevas maneras de cubrirlas.
+
+[00:13:30.860] 
+Por eso es iterativo incremental porque no se espera poder definir la estructura de acompañar, es decir "esto es cómo va a funcionar" sino que como es un mundo cambiante y complejo, buscamos herramientas que nos permitan adaptar la estructura de toma de decisiones de la compañía para que resolvamos mejor las necesidades en el mercado que estamos intentando cubrir.
+
+[00:13:55.700] - Carlos Iglesias
+Las primeras veces cuando me acercaba  a Sociocracia y empezaba a leer sobre drivers, domains, patrones, círculos, sobre principios... es una especie de batiburrillo, una especie de nebulosa que a mí al menos al principio me costó entender. Vale pero ¿qué es un drive exactamente y qué es un dominio y luego es un círculo y cuál es la diferencia entre una cosa y otra y qué papel juega los roles...? ¿Se te ocurre una forma sintetizada de explicarlo de forma fácil?
+
+[00:14:32.020] - Adrian Perreau de Pinninck
+Vale voy a intentarlo. Al final una organización lo que está haciendo es cubrir las necesidades de gente ahí fuera a través de productos o servicios. Con lo cual una organización es un grupo de gente que se une para cubrir una necesidad. Para cubrir esa necesidad vamos a tener otras necesidades. Entonces la organización se va a organizar internamente en sub-organizaciones que cubren las necesidades para cubrir la necesidad global de la propia organización. Así se estructura en subdominios (que son círculos) el cómo resolver necesidades. 
+
+[00:15:15.100] 
+Lo primero es detectar necesidades.
+
+[00:15:17.420] 
+Lo primero que dice la Sociocracia es que los humanos que trabajamos en organizaciones somos como sensores y sentimos tensiones. Esa tensión es que hay una necesidad que no se está cubriendo, porque el mundo y yo espero que sea de una manera y no lo es. Y esa diferencia entre lo que yo deseo y lo que es, genera una tensión que yo tengo que sentir y la expreso en forma de necesidad o driver. Ese driver se tiene que gestionar dentro del dominio que toca. Si es una necesidad de marketing pues irá al dominio de marketing; si es una necesidad de una funcionalidad que no está en el producto pues al equipo de producto y ese equipo lo que hace es procesar necesidades a través de diferentes maneras.
+
+[00:16:09.440] 
+Una necesidad, que es un driver, se procesa o bien llegando a un acuerdo de cómo hacer las cosas a través de una propuesta y con decisiones por consentimiento aprobamos una propuesta para resolver ese driver. O bien creando un subdominio que diga "vosotros a partir de ahora os vais a encargar de esto". Un dominio es un área de responsabilidad nueva porque es una necesidad que vemos que no se va a resolver con una acción o no se va a resolver con un acuerdo con lo cual tenemos que tener un dominio que personas van a ser responsables de él.
+
+[00:16:45.130] 
+ Ese dominio lo puede llevar una persona, entonces un rol, o lo puede llevar un grupo de personas porque una sola no llega, entonces es un círculo y hay diferentes tipos de círculo.
+
+[00:16:55.500] 
+Típicamente nosotros estamos acostumbrados a que hay dominios y subdominios y siempre se encarga un rol que es la persona que lleva las órdenes de estrategia de arriba para abajo. Lo que pasa es que esto en un sistema es frágil. Y aquí es donde entra Sociocracia 2.0 con Gerard Endenburg, un ingeniero eléctrico que fue quien lo aplicó por primera vez a una empresa. Cuando estudiaba Ingeniería Eléctrica, veía que los circuitos que sólo tenían un canal de ida y no tenían un canal de retorno eran frágiles, a la mínima que pasaba algo petaban.
+
+[00:17:34.280] 
+Si veo el mismo sistema en las organizaciones, por eso son frágiles. Entonces de ahí se establece el concepto de doble Link para enlazar dos áreas que están relacionadas y tienen que tomar decisiones que afectan la una a la otra. En vez de tener solamente la persona que es el jefe que manda la estrategia de arriba a abajo, también necesitamos un link de abajo a arriba para que lo que se siente en la trinchera suba para arriba para que las decisiones de estrategia lo tengan en cuenta. Que no estemos tomando estrategias solamente ciegos de arriba para abajo sino tener este doble Link.  Este doble link puede ser a nivel de jefe / departamento / sub-departamento pero también puede ir de entre dos departamentos separados y así cuando tienen que tomar decisiones que impactan potencialmente a los dos, no escalamos en la jerarquía sino que establecemos un doble link entre los dos dominios y lo pueden decidir de manera horizontal.
+
+[00:18:33.060] - Carlos Iglesias
+Yo creo que ha quedado bastante claro. Me parece que creo que ha sido una muy buena explicación. Ya has dicho una palabra clave que ha pasado creo un poco desapercibida que es "tomar las decisiones por consentimiento". Habitualmente en el 99 por ciento de las organizaciones que yo he conocido no se toman ni siquiera por consenso. Se toman un poco top down, esto es porque lo digo yo, porque es mi responsabilidad a partir de aquí y lo impulso hacia abajo y lo impongo.
+
+[00:19:15.880] 
+Luego hay otro tipo de toma de decisión que es por consenso, se consensúa lo que diga la mayoría o llegamos al compromiso. Esto es democracia. ¿Cuál es la diferencia entre la toma de decisión por consenso y por consentimiento?
+
+[00:19:38.110] 
+Si tú hablas con expertos de toma de decisión por consenso te dicen que para hacerlo bien lo que acabas haciendo es consentimiento. El consenso como lo entiende la mayoría es que todos estamos de acuerdo en que esa es la mejor opción. Es como una votación donde todo el mundo está a favor. El problema que tiene eso es que a veces es imposible llegar a ese consenso y si es posible suele tardar mucho. Porque como queremos todo la mejor decisión, acaba habiendo análisis-parálisis.
+
+[00:20:14.910] 
+El tema es dónde recae el poder. Cuando tienes decisiones autoritarias el poder recae en el jefe, cuando tienes decisiones por democracia el poder recae en la mayoría, cuando tienes decisiones por consenso el poder recae en cualquiera porque todo el mundo tiene la opción de veto. A mí no me gusta digo que a mí no me gusta y no se tira para alante. En cambio en consentimiento el poder recae en la razón y esto es totalmente distinto porque ya no es en las personas, una varias o todas, es la razón.
+
+[00:20:50.590] 
+Decidir por consentimiento ¿qué quiere decir? En vez de decir que creo que esa es la mejor decisión,  entonces estoy a favor, la cuestión es decir: lo que se está proponiendo ¿es suficientemente bueno para ahora? ¿Hay algún riesgo por el cual esto no vaya a funcionar o nos vaya a hacer daño en otra área de la compañía? Y si no tengo una razón por la cual no es suficientemente bueno o tiene un riesgo que nos va a hacer daño, yo consiento a que se tire para alante. Pero consiento no porque me guste sino porque no encuentro una razón por la cual eso no vaya a funcionar.
+
+[00:21:35.540] - Carlos Iglesias
+Para mí hay una cosa muy interesante. Sociocracia propone un montón de patrones divididos en distintos grupos: patrones de cocreación y evolución, de construcción de organizaciones.... Estos patrones están basados en una serie de principios y creo que esto es lo que realmente hace poderosa la Sociocracia y a la vez difícil de encajar en algunas organizaciones.
+
+[00:22:20.540] - Adrian Perreau de Pinninck
+Es lo mismo que pasa con Agile y Scrum. Si tú simplemente haces las reuniones y los valores de fondo no los tienes integrados, le vas a sacar el provecho que le vas a sacar pero no todo, claro. Y lo mismo pasa con Sociocracia.
+
+[00:22:37.850] - Carlos Iglesias
+Ese es el problema principal, al menos desde mi experiencia, que por debajo hay una serie de valores y principios que no están alineados con esas metodologías de trabajo.
+
+[00:23:29.120] 
+¿Qué principios defiende la Sociocracia?
+
+[00:23:34.000] - Adrian Perreau de Pinninck
+En Sociocracia 3.0 los siete principios que sustentan todos los patrones son: 
+
+[00:23:54.390] 
+1. Accountability, al castellano se traduce a responsabilidad pero en inglés también está responsability. Responsability es el que hace, Accountability es al que se le cae el pelo si eso no pasa. La gente tiene que hacerse responsable de que las cosas pasen. Si la gente no se hace responsable, no se puede delegar. Esa es la clave. 
+
+[00:24:16.350] 
+2. Mejora continua, por eso es iterativo incremental porque no buscamos la solución perfecta sino lo que nos funcione ahora y ya lo modificaremos.
+
+[00:24:26.890] 
+3. Consentimiento, que este es bastante nuevo de Sociocracia, en general los otros son cosas que muchas organizaciones ya tienen. 
+
+[00:24:36.880] 
+4. Empirismo, o sea validar de manera empírica que lo que estás haciendo funciona y funciona mejor que lo que tenías antes.
+
+[00:24:47.650] 
+5. Equivalencia, que quiere decir que todo el mundo al que le impacte una decisión debería formar parte de esa toma de decisión, porque si tenemos a todo el mundo en cuenta no haremos cosas que nos vayan a hacer daño, porque todo el mundo al que le pueda hacer daño podrá decir "esto no va a funcionar por esto", siempre en base a la razón.
+
+[00:25:13.460] 
+6. Efectividad, hacer cosas que nos acercan a nuestro objetivo solamente.
+
+[00:25:19.240] 
+7. Transparencia, que también suele doler, que todas las decisiones deben ser transparentes a no ser que haya una razón de peso por la cuál no lo sean. 
+
+[00:25:40.740] - Carlos Iglesias
+Si estoy en una organización y tengo capacidad de decisión y creo que es una muy buena idea implantar Sociocracia en mi organización, ¿por dónde empiezo?
+
+[00:26:04.940] - Adrian Perreau de Pinninck
+Lo primero es explicarle a la gente un poco de qué va y pedir consentimiento. Si la organización o el grupo de personas a la cual quieres ayudar a organizarse mejor a través de la Sociocracia no consienten a ello, ya hay uno de los principios que falla con lo cual lo primero es explicarles que es la decisión por consentimiento y los principios y, si todo el mundo consiente, entonces continuamos. Si no, yo frenaría un poco.
+
+[00:26:43.980] - Carlos Iglesias
+Una de las primeras cosas que lees cuando entras a https://sociocracy30.org/ es que S3 aplica a todos los tamaños, aplica a organizaciones startups, a equipos muy pequeños, incluso a familias, a grandes organizaciones, de alguna forma sirve para todo el mundo. En una organización con una cultura tradicional con 7 capas de Management que se dedican a hacer push y reporting y donde existe la cultura del héroe o la cultura del palo y la zanahoria, ¿cómo es la mejor forma de entrar? ¿Ha sucedido alguna vez?
+
+[00:27:48.170] - Adrian Perreau de Pinninck
+Que yo sepa no. Lo que dicen en la web es que se pueden aplicar patrones en todo tipo de organizaciones según tamaño y demás. Pero la cultura tiene que estar. Si la organización, sea grande o pequeña, no cree que los principios de Sociocracia sean principios valiosos para ellos, difícilmente se va a poder aplicar mucha cosa.
+
+[00:28:14.180] 
+Aún así hay patrones que seguramente ya están aplicando; los patrones de Sociocracia hay algunos que son muy novedosos pero hay otros que son muy de perogrullo. Por ejemplo el rol. Todas las organizaciones tienen roles. Lo que lo hace Sociocracia 3.0 de manera muy interesante es separar lo que es el dominio, del rol, de la persona que lo ejecuta. Un dominio es el área que yo delego, rol es una manera de tomar responsabilidad de un dominio a través de una persona y después yo puedo escoger qué persona es la mejor para ese rol. Pero el día de mañana vemos que ese dominio lleva demasiado trabajo y convertimos el rol en un círculo porque ahora ya hay más de una persona y uno puede ser el jefe o tomar el rol de jefe o no. En Sociocracia 3.0 el patrón de círculo es equivalente, o sea nadie tiene por qué tener el rol de jefe. En cambio en otras versiones de Sociocracia como en Holocracia o en SCM que sería el Sociocracia 2.0, todos los círculos tienen un lead que es el que traslada la estrategia de la organización hacia abajo, hacia el círculo. En Sociocracia 3.0 esto es optativo.
+
+[00:29:34.670] - Carlos Iglesias
+¿Conoces alguna empresa que haya implantado S 3 y que funcione?
+
+[00:29:42.240] - Adrian Perreau de Pinninck
+Nosotros en Voxel llevamos tiempo aplicando muchas de estas cosas. Lo bueno que tiene Sociocracia 3.0 es que no te obliga a que sea un todo o nada. Holocracia y el método clásico de Sociocracia sí que te dicen "o todo o nada", claro eso es muy difícil.
+
+[00:30:08.550] - Carlos Iglesias
+Claro es un poco la idea de que no hay empresas que estén haciendo Sociocracy 3.0 porque son patrones y tú los adaptas a tu contexto. Sin embargo Holacracy es un poco más exacto, es la receta y a partir de ahora vamos a funcionar así. Creo que la referencia más famosa es Zappos, lo ha implantado y además lleva unos siete u ocho años ya, con muchos problemas dentro de la organización, obviamente, pero ahí siguen y no tienen ninguna intención de volver atrás.
+
+[00:30:49.530] - Adrian Perreau de Pinninck
+Es interesante porque uno de los principales facilitadores internos de Holocracia en Zappos está en contacto con James Priest y le ha gustado mucho la idea de que no hace falta que sea un todo o nada, podemos ir aplicando patrones según necesidad.
+
+[00:31:07.950] 
+Hay mucha gente de Holocracia que ve las limitaciones de ese corsé que es el todo o nada y acaban yendo a formaciones de Sociocracia 3.0 para ver otras maneras de implantar este tipo de manera de organizarse.
+
+[00:31:27.020] - Carlos Iglesias
+Está claro, lo primero que necesitamos para poder empezar a utilizar estos patrones y empezar a tomar decisiones de forma sociocrática y tener un modelo sociocrático es sentirnos alineados con estos principios. Esto es un sine qua non, si no es muy difícil que puedas tomar decisiones. 
+
+[00:31:57.060] - Adrian Perreau de Pinninck
+No sé si es un sine qua non. Seguramente hay cosas que puedes aplicar. Por ejemplo hay uno de los patrones que es la Daily Meeting. Eso lo puedes aplicar con los valores que tengas.
+
+[00:32:06.180] - Carlos Iglesias
+Entiendo lo que dices pero mi punto es el beneficio final de aplicar Sociocracia, el objetivo ideal de Sociocracia es tener organizaciones autoorganizadas, autogestionadas, con una toma de decisión descentralizada, distribuida y por consentimiento.
+
+[00:32:28.300] - Adrian Perreau de Pinninck
+Sí, para podernos adaptar más rápidamente a situaciones cambiantes en el entorno. Ahí sí que los principios son bastante imprescindibles.
+
+[00:32:39.390] - Carlos Iglesias
+Pongamos que esto ya lo hemos superado. Soy una compañía que mis principios están bastante alineados, mi cultura ya de alguna forma no es tan difícil, que yo creo que ya es todo un hito, y empezamos a descentralizar esa toma de decisiones y esos managers, que antes estaban tomando decisiones de una forma, de repente empiezan a delegar esa toma de decisión y aparece ese miedo de "dónde está mi queso". ¿Qué pasa con esa sensación de control y también esa sensación de autoridad o de poder?
+
+[00:33:24.170] - Adrian Perreau de Pinninck
+El tema es que el control no tienes porque perderlo.
+
+[00:33:29.800] 
+Al definir un dominio bien hecho con responsabilidades claras el cómo se va evaluar, ritmo de esa evaluación, puedes llegar a controlar incluso mejor que antes porque están muy claros los KPI y el cómo se va a medir, cada cuánto, cuáles son las responsabilidades, con quien tienes que hacer interfaz, quién te ha delegado. Ese control está ahí, lo que ya no está tanto es el imponer mis decisiones por autoridad. Y ahí es cuando yo creo que el manager tiene que tener esa epifanía en la cual se da cuenta de que tomando las decisiones en grupo y escuchando las objeciones del grupo tomamos mejor decisión que si lo hubiera hecho yo solo. Y hasta que no lleguen a esa epifanía va a costar.
+
+[00:34:20.920] 
+ Pero el control desde el punto de vista de evaluación de resultados, de poder ser previsible en lo que vamos a conseguir, lo puedes conseguir igual con menos trabajo por tu parte, y eso yo creo que es el selling point: puedes conseguir un grado similar de control no a través de la autoridad sino a través de la delegación con menos estrés y trabajo por tu parte.
+
+[00:34:48.490] - Carlos Iglesias
+Interesante también hablar la diferencia entre la autoridad y el liderazgo (enlace episodio Liderazgo https://www.runroom.com/realworld/e023-persuasion-y-capacidad-de-influencia-con-javier-alonso). De alguna manera quien ostenta la autoridad es el único que puede delegar o sea el único que puede deshacerse de ella. No es posible hacer un bottom-up de la autoridad de algo y conquistarla. Lo veo muy difícil, ese Agile de guerrilla, ese defender el bottom-up como capacidad transformadora, para mí siempre choca con esa autoridad que es de alguien actualmente. Y me parece un punto súper interesante que podemos llevar también por ejemplo a sesgos de género.
+
+[00:36:32.680] 
+De alguna forma son sesgos con los que convivimos actualmente que tienen mucho que ver con la autoridad. No hablo de liderazgo, hablo de con quien ostenta esa autoridad, y esa autoridad dentro de una organización vendrá dada por la propiedad o por la asignación de un determinado puesto, y a nivel social pues viene por otras razones. No sé si estamos en el mismo punto.
+
+[00:36:57.640] - Adrian Perreau de Pinninck
+Voy a hacer alguna puntualización. Tú hablas de autoridad y liderazgo. Yo quiero añadir una palabra más que es poder, porque se confunde autoridad con poder. Entonces el liderazgo es la habilidad para que otros me sigan. La autoridad es la capacidad que yo tengo para que tú tomes decisiones que, si yo no te hubiera ayudado a tomarlas, no las tomarías. Un médico tiene autoridad pero no tiene poder. El médico no te puede obligar a tomarte las pastillas pero el médico te dice que te tendrías que tomar esta pastilla y como tiene autoridad por su posición, es más probable que te la tomes.
+
+[00:37:39.880] 
+Es cierto que la figura del hombre en la sociedad tiene más autoridad que el de la mujer, pero eso no es poder. Poder es la capacidad que yo tengo de obligarte a tomar decisiones o hacer acciones que, si no te obligara, tú no harías. No ya porque yo tengo más conocimiento y crees lo que estoy diciendo, sino porque como no lo hagas, te voy a castigar. El poder no tiene género o sea el que tiene la propiedad de la organización puede en cualquier momento, si hay una sublevación ágil, "los hechos todos a la calle y me quedo tan ancho".
+
+[00:38:19.650] 
+Yo sé que eso va a tener detrimento a mi organización pero puedo decidir hacerlo. El poder se delega, la autoridad no. La autoridad se da de abajo a arriba. Yo a mi médico le doy autoridad porque voy a él, me dice que me toma pastillas, me lo creo porque supongo que estudiado y entonces hago lo que me dice. En las organizaciones lo que se delega es el poder. La gente con la autoridad puede tener o no liderazgo.
+
+[00:38:50.190] 
+Hay gente que tiene autoridad porque técnicamente conoce mucho y se le valora en sus decisiones pero a lo mejor te dice "vámonos todos a hacer esto ahora" y no le sigue ni dios porque es el típico genio cabrón, que los hay. Entonces yo diferencio entre esas tres cosas. Lo que hacemos en Sociocracia es delegar el poder. La autoridad se la gana uno a través de demostrar su capacidad y que los otros le sigan. Entonces la autoridad te facilita el liderazgo. El poder facilita el liderazgo también, porque si yo tengo poder es más fácil que los otros me sigan, porque si no pego, ya sea echando a la calle, ya sea cambiándose de puesto... Es el poder lo que se delega desde la propiedad.
+
+[00:39:41.450] 
+Por eso es tan importante y esto no se trata mucho, que la propiedad de la organización (no el CEO) tenga un nivel de consciencia suficientemente elevado como para permitir que eso suceda. Porque el problema es que cuando las cosas van bien, delegar es fácil. Todo va bien. A la propiedad le van llegando dividendos y es cojonudo, nadie se va a quejar. Cuando las cosas vayan mal la propiedad se pone nerviosa y si no tienes ese nivel de conciencia preparado como para mirar y decir "no, es que están delegados, es autoorganizado, voy a confiar", si no está ese nivel de conciencia, lo primero que va a hacer es chafar, decir al CEO "oye tú, ¿qué está pasando aquí?" y el CEO va a hacer lo mismo hacia abajo y va a haber ese equipo ágil autoorganizado con banderas de Liberación Nacional y lo van a chafar, los van a echar a la calle.
+
+[00:40:44.600] - Carlos Iglesias
+En realidad nunca no había escuchado la diferenciación entre los tres conceptos. Para mí autoridad y poder eran muy parecidos pero me gusta mucho ese matiz que haces tú, de te otorgo autoridad, me lo creo, me cuadra mucho y al final lo que yo me estaba refiriendo era precisamente a la delegación del poder. En ese sentido yo creo que necesitamos una cultura inclusiva. La diversidad es importante en un modelo de gobernanza sociocrático, y por lo tanto la inclusión porque la diversidad sin inclusión también es peligrosísima. (enlace episodio Raquel Lainde https://www.runroom.com/realworld/e015-employee-experience-y-diversidad-con-raquel-lainde) 
+
+[00:41:31.010] - Adrian Perreau de Pinninck
+Bueno está el group thinking. Si no hay diversidad es fácil estar alineados pero tenemos unos puntos ciegos enormes que nos pueden hacer mucho daño.
+
+[00:41:45.470] 
+ Adrián yo creo que llevamos 40 minutos.
+
+[00:41:50.080] 
+Yo creo que ya lo sabía que se iba a hacer corto porque podíamos estar aquí más tú y yo teníamos un largo historial de filosofía de filósofas de estas no se te quedas con ganas de decir algo.
+
+[00:42:12.150] 
+Solo comentar que en Agile y Sociocracia, si te quedas solo en la parte organizativa, vas a perder mucha de la capacidad transformadora en la organización. Hay una capa que tienes que trabajar que es la cultura, superimportante que la cultura esté alineada, pero para que eso funcione hay algo todavía más básico que ha ido saliendo aquí: la palabra consciencia. 
+
+[00:42:35.790] 
+Tenemos que trabajar la consciencia de la gente, sobre todo de la propiedad y del Upper Management para que sean conscientes que a través de la delegación puedo conseguir más poder. A la gente que está ahí arriba suele importarle el poder. Darles a entender que si aprenden a delegar mejor eso les permitirá llegar más lejos lo cual les va a dar más poder es la clave para conseguir que todo lo otro funcione. Que seamos líderes más conscientes. 
+

@@ -1,0 +1,303 @@
+[00:00:01.360] - Pablo Ruiz-Múzquiz
+El movimiento Open Source está transformando la forma en que creamos tecnología, impulsando modelos de negocio más abiertos, sostenibles y colaborativos. Lo que empezó como una filosofía para compartir conocimiento libremente, hoy está revolucionando industrias enteras. Pero, ¿cómo está impactando realmente este cambio en empresas y usuarios? ¿Puede competir el software abierto contra gigantes tecnológicos tradicionales profesionales? Y sobre todo, ¿qué podemos aprender de quienes lideran esta nueva forma de crear valor? Hoy hablamos con Pablo Ruiz-Múzquiz, CEO de Penpot, la plataforma open source que une diseño y desarrollo para impulsar productos digitales innovadores. Pablo, no recuerdo exactamente cuándo nos conocimos tú y yo personalmente, pero sí recuerdo la primera vez que oye hablar de de Kaleidos. Fue en una sesión que propuso Toño de la Torre en la Conferencia Agile Spain de 2012, donde explicaba cómo el equipo estaba lidiando con las dificultades de integrar UX y desarrollo. Y Para mí, te prometo que fue un shock escuchar de otra persona exactamente los mismos retos con los que lidiábamos por entonces en Runru. En aquel momento, pasasteis a formar parte de mi podio de referentes y ya nunca dejé de seguiros ni de admiraros. Admiración que se multiplicó cuando me contaste personalmente cómo habíais decidido dejar de ser definitivamente una empresa de servicios para convertiros en una empresa 100% orientada a producto open source.
+
+[00:01:48.090] - Carlos Iglesias
+Pablo Ruiz-Múzquiz, bienvenido a Realworld.
+
+[00:01:51.440] - Pablo Ruiz-Múzquiz
+Muchísimas gracias por tenerme.
+
+[00:01:52.520] - Carlos Iglesias
+De verdad que es un placer, Pablo. Sabes que tengo mucho cariño y admiración, además.
+
+[00:01:57.950] - Pablo Ruiz-Múzquiz
+Retíproco. Y recuerdo ese Agile Space de 2012 y recuerdo exactamente que estuvimos hablando en una salita. Sí, pequeña, ¿no? Pequeña. Creo que no sé si era arriba en unas escaleras o algo. Sí. Ahí estuvimos hablando. Sí, sí. Me acuerdo, tengo memoria del espacio.
+
+[00:02:12.780] - Carlos Iglesias
+Qué guay. Además, estabais Anécdota, me acuerdo que estabais peleando con Scrumban, intentando hacer... O sea, yo recuerdo que vosotros hacíais Scrumban, nosotros también, y estábamos ahí como: ¿Qué es esto de Scrumban?. Investigando. O sea, que para mí fue como: ¡Guau!. Pablo, sabes que arrancamos siempre el podcast con la misma pregunta, ¿qué es para ti el mundo real?
+
+[00:02:37.660] - Pablo Ruiz-Múzquiz
+Preguntaza. Bueno, se puede abordar desde la ciencia, se puede hablar del punto filosófico, se puede apuntar de filosofía de lenguaje, que es una materia que me encanta, pero por ir un poco a algo más personal, más pertinente, para mí el mundo real es aquel que me hace aprender ¿Empoder algo o emocionarme. Y yo siento un día más real si he conseguido que al menos suceda una de las dos cosas. Ese día me he emocionado por algo o he aprendido algo? Hay algunos días que tengo el jackpot y pasan las dos cosas. Y esos días son muy reales. Entonces, como muy... Es una sensación muy tangible de estar experimentando un mundo pertinente, un mundo con el que interaccionas. Entonces, esa es una de muchísimas respuestas. El mundo real para mí es aquel del que yo estoy aprendiendo algo o del que me estoy emocionando.
+
+[00:03:37.040] - Carlos Iglesias
+¿y qué te emociona?
+
+[00:03:38.570] - Pablo Ruiz-Múzquiz
+Probablemente me emociona el ejercicio básico de la empatía humana. Ahí es donde noto un poco como una cosa como muy base, muy basal, que es cómo el humano negocia la otredad en positivo.
+
+[00:03:55.010] - Carlos Iglesias
+Qué bueno. ¿Y te consideras un adicto a aprender?
+
+[00:03:59.290] - Pablo Ruiz-Múzquiz
+Sí. Sí. Sí, tengo un problema, yo creo, de adicción.
+
+[00:04:03.270] - Carlos Iglesias
+Te mando un abrazo desde esta silla.
+
+[00:04:05.920] - Pablo Ruiz-Múzquiz
+De hecho, algunas personas que me conocen, tengo anécdotas muchas, pero hay algunas en las que... O sea, me apasiona a veces... O sea, el apasionamiento por aprender algo me lleva a los rabbit holes fractales más problemáticos. Y ha habido situaciones cómicas de cómo los demás han vivido eso y han malinterpretado, incluso en unos casos, esa pasión, que no da para hoy porque no tomar... Pero sí, un adicto otro día.
+
+[00:04:39.970] - Carlos Iglesias
+Hay filio. Me siento muy identificado con todas las palabras que has dicho, incluso con Rabbit Hole. Es algo que también he comentado con muchas otras personas que se defienen un poco como esta adicción a aprender, al aprendizaje. Pablo, háblanos de Penpot.
+
+[00:04:58.770] - Pablo Ruiz-Múzquiz
+Mira, tú lo comentabas en lo de 2012, Kaleidos, que es la empresa que está desarrollando Open Pot, tomó una decisión dentro de... Nació en 2011, una época complicada. Yo siempre he comentado que somos hijos del 15M y además en Madrid, particularmente, intenso también en Barcelona, obviamente. Y que pensábamos que otro PIB era posible. Esa era básicamente nuestra máxima. Turismo y sector inmobiliario no nos ilusiona para el Estado. Y Y quizá el mundo de la tecnología, de los trabajos de el conocimiento, sí. Montamos Kaleidos y pronto nos dimos cuenta de que las cuestiones metodológicas de la colaboración tenían que resolverse bien y por eso estábamos metidos en temas de agile, etcétera. Y luego, incorporamos a los pocos años a gente de diseño en una empresa, Kaleidos, que era la quintasencia del nerd, donde todos los frameworks eran muy de lenguajes de programación, editores de programación de código, todas las cosas. Éramos superpro de Linux, open source, etcétera. Pero aprendimos, de la mano a algunas personas expertas que tú conoces, estoy pensando en Isaludita o Pilar Esteban, la potencia del buen con UX y el buen UI. Y lo que empezó siendo algo que queríamos externalizar, quisimos internalizar.
+
+[00:06:22.230] - Pablo Ruiz-Múzquiz
+Nos inventamos Taiga, un producto de open source de gestión ágil de proyectos para incorporar en positivo al agente de diseño a los procesos ágiles. Y Pen Pot es el resultado un poco inverso. Pen Pot es la decisión del equipo de diseño de Kaleidos de construir una nueva herramienta de diseño prototipado de interfaces de usuario que involucra a los desarrolladores en el proceso de diseño. Es un camino un poco de ida y vuelta. Taiga es el regalo de los desarrolladores al mundo del diseño en Kaleidos, herramienta que hicimos para nosotras mismas. Y PEMPOT es como el regalo de vuelta. O sea, Ahora, el proceso de diseño necesita una herramienta nueva de colaboración real. Al final, es una herramienta creada en estos tiempos que tiene que resolver diseño prototipado de interfaces de usuario, pero lo hace siendo open source, utilizando open standards, permitiéndote instalar tu propio servidor de PEMP o tueridizar nuestro SaaS y que involucra al desarrollador en el proceso de diseño. Y lo hace con un truco. Y ese truco no es que sea open source, que sería un poco como un camino fácil, pero y superficial, sino trayendo principios de diseño declarativo que existen en el mundo del código al diseño, en lugar de los principios del diseño imperativo, que son los que han alimentado las diferentes etapas de las herramientas de diseño hasta ahora y de la que nuestros competidores son todavía herederos.
+
+[00:07:48.950] - Pablo Ruiz-Múzquiz
+Y estamos con un producto muy maduro. Acabamos de sacar la versión 2. 5. Pronto sacamos Design Tokens Nativo en Tempod. Y es un productazo. O sea, un millón de usuarios, la mitad nos usa en selfhost y la otra mitad nos usa en el SaaS. Y estamos consiguiendo esa alianza necesaria de diseño y código.
+
+[00:08:11.770] - Carlos Iglesias
+¿y qué significa el diseño declarativo?
+
+[00:08:14.390] - Pablo Ruiz-Múzquiz
+Diseño El paradigma es el paradigma por el cual es más importante establecer lo que quieres que suceda con una interfaz de usuario y no tanto cómo exactamente tiene que suceder. Yo a mí me gusta poner el ejemplo de las señales de tráfico. Las señales de tráfico es un código declarativo. Por ejemplo, tú tienes una señal de stop y la señal de stop te dice lo que tiene que suceder, pero no te dice cómo tiene que suceder exactamente. No se involucra controlando cómo tú tienes que llegar a velocidad igual a cero en el momento en el que estás al lado de la señal de stop, te dice: No me importa cómo lo hagas, pero que cuando llegues aquí, pares. Puedes ir en bicicleta, puedes ir en coche, puedes ir en coche automático, manual, puedes frenar en el último momento, puedes hacerlo con un degradado. Y eso, para que nos entendamos, en el mundo real, el lenguaje de código que ha implementado esos principios es CSS, que es verdad que lo asociamos a la web, pero que internamente expresa principios de diseño declarativo, en donde el navegador hace lo que puede para hacer caso a unas indicaciones, pero no es tan importante exactamente como lo tiene que hacer en cada momento.
+
+[00:09:30.550] - Pablo Ruiz-Múzquiz
+Y el diseño imperativo, al contrario, es control friquismo de donde cada pixel va. Y el problema es que eso no escala. En el mundo fluido de los interfaces usuarios modernos, es imposible trabajar con toda la combinatoria. Es mejor ceder un poco la agencia propia a otros medios. Los soportes. Los soportes, las situaciones cambiantes. Esto en el mundo de la programación se entiende perfectamente. Y en el mundo del diseño todavía no se trabajan con esos códigos. Y por eso, cuando se dice que hay una pérdida de traducción entre el diseño y el código, si analizas, de un punto de vista así un poco profundo, filosófico, es que estamos con el lenguaje imperativo traduciendo al lenguaje declarativo. Y PEMPOT, la Me gusta es: Me traigo el lenguaje declarativo directamente ya a la herramienta de diseño y resuelvo en un solo lenguaje los dos aspectos.
+
+[00:10:22.560] - Carlos Iglesias
+El Insight me gusta. ¿Os molesta que os digan que sois el Figma Open Source?
+
+[00:10:27.550] - Pablo Ruiz-Múzquiz
+De momento no. De momento, no sé si es útil porque nos ubica muy fácilmente en el imaginario de: ¿Pero a qué categoría de software pertenecéis?. Cuando tuvimos una crisis interna en Kaleidos sobre si usar Figma o no, porque como tú bien sabes, en Kaleidos de ellos, cuyos apellidos de la empresa es open source. Usamos exclusivamente o en 99% de los casos es open source. No estábamos encontrando herramientas de diseño que estuvieran a la altura del talento y de la colaboración que teníamos. Y entonces, en esa crisis, surgió la opción de usar Figma. Y decidimos que temporalmente aceptaríamos ese problema, porque lo entendíamos como un problema de valores, siempre que creáramos el open source Figma killer. Entonces, si ahora alguien, por atajos, dice: PEMPED es un open source Figma o un Figma open source, diríamos: Bueno, originalmente era un poco esa idea. Pero al poco que uno se introduce en PEMPED, se da cuenta de que ya estamos divergiendo mucho. Yo diría que de momento en 2025 y parte de 2026 no me importa. Más allá, seguramente empecemos a decir: Sí, ¿en serio? ¿Tan simplificado nos ves? Qué guay.
+
+[00:11:44.230] - Carlos Iglesias
+¿por qué ¿Y por qué es importante el open source?
+
+[00:11:47.780] - Pablo Ruiz-Múzquiz
+Bueno, es importante, es una función de tus valores y principios. Para otra gente puede no ser un importante. Open source puede ser importante por una cuestión ética o epistemológica. Hay gente que considera que el open source es bueno porque sí y es un fin en sí mismo. No es ningún medio para nada. Es compartir información, como la ciencia. Y también, y eso puede ser muy importante para mucha gente. Como decía alguno, soy mejor vecino. Soy mejor persona Si trabajo con tecnología abierta y me gano la vida con eso de base. Y luego hay personas que dicen: No, el open source es importante porque permite a más gente acceder a mejor resultados tecnológicos, a que puedan construir mejores herramientas, tecnologías, productos o lo que sea. Es decir, es un medio para conseguir un fin y ese fin nos interesa. Bueno, no sé. Yo soy más de... Para mí es importante por lo primero que por lo segundo. Lo segundo es una evidencia indirecta. Es como: Pues parece que sí. Parece que si desarrollamos en abierto, más gente opta a desarrollar mejores herramientas. Pero aunque fueran peores, y de hecho a veces el open source resuelve peor algunas soluciones, para mí lo importante es lo que representa en términos del contrato social que propone el open source o el software libre, que sabes que hay pequeñas diferencias, no son relevantes realmente en la mayoría de los casos.
+
+[00:13:12.290] - Pablo Ruiz-Múzquiz
+Me parece simplemente una manera de construir tecnología en sociedad más afín a la ciencia, por lo tanto más abierta y más democrática.
+
+[00:13:20.950] - Carlos Iglesias
+No son relevantes, dices, las diferencias entre software libre y yo creo que es un ejercicio...
+
+[00:13:27.480] - Pablo Ruiz-Múzquiz
+Depende a qué nivel estemos. Un ejercicio de de explicar a la audiencia, porque probablemente no todo el mundo tiene claro cuáles son las diferencias conceptuales entre el open source y el software libre.
+
+[00:13:37.630] - Carlos Iglesias
+¿cómo lo explicarías tú?
+
+[00:13:38.920] - Pablo Ruiz-Múzquiz
+Hay muchos ejes para responder, pero yo creo que en el que más gente estaría de acuerdo es que el open source es todo el espectro de posibles formas de entender una licencia abierta que cede de forma incondicional derechos que normalmente se reservaría a alguien por tener la autoridad moral. Y el software libre es un subconjunto, un subconjunto de lo que el open source propone, en donde hay una cláusula que dice que no puedes restringir derechos que ya se estaban cediendo. A veces se habla en términos de copyleft débil y copyleft fuerte. Copie left débil sería el open source. Es como un poco laxo. Yo te doy esta tecnología bajo esta licencia de Software Libre, pero si tú quieres, puedes convertirlo en software propietario. No mi copia original, pero tu copia sí. Y el software libre dice: No, las reglas de juego es que no puedes cerrar lo que ya se abrió en un momento. Entonces, hay gente que el open source en general le gusta, pero se enamora realmente de software libre y dice: Ahí es donde yo quiero estar. Son las cartas boca arriba incondicionalmente. Y hay personas que dicen: A mí me da igual.
+
+[00:14:48.940] - Pablo Ruiz-Múzquiz
+No tengo. O incluso prefiero que no sea software libre copyleft fuerte, prefiero un laissez faire más amplio. En Kaleidos somos un poco más de copyleft fuerte, si nos ha notado. Pero vamos, que esa diferencia en términos prácticos para mucha gente no es tan relevante. Últimamente, quizá ha sido un poco más, porque grandes empresas, los Hyperscalers, que llaman, han abusado del open source y no han podido abusar del software libre. Como intermediarios entre la tecnología que han cogido y el usuario final, el open source, el Copilet débil, les ha permitido hacer cosas que a escala les benefician, sobre todo los hyperscales. Y el software libre, ese a él se les atraganta un poco más. Tiene como mecanismos de protección. Y entonces, algunas empresas o proyectos que no son comerciales de open source, han vuelto a abrir el debate de... Parecía que las diferencias no eran solo sutiles. Impactan luego en el desarrollo de tecnología y quiénes son tus aliados.
+
+[00:15:54.340] - Carlos Iglesias
+Sí, también hace... Bueno, David, no sé si no creo que hables de esto, concretamente, pero está el tema también de automátic y WordPress.
+
+[00:16:03.710] - Pablo Ruiz-Múzquiz
+Sí, sí, sí.
+
+[00:16:04.720] - Carlos Iglesias
+Se han... Bueno, todavía no sé. Ahora mismo no lo estoy siguiendo la pista con muchísima atención, pero yo creo que se ha suavizado un poquito.
+
+[00:16:13.280] - Pablo Ruiz-Múzquiz
+Se ha suavizado un poquito y yo tengo pendiente de escuchar un podcast en donde a CEO de Automatic, creo que se titula como: Hablamos con el villano de internet del último año, pero en plan broma del mismo. Claro, el open source / software libre, y en este punto con el WordPress no creo que la distinción sea tan importante, sí que hay una constante revaluación de si la teoría de juegos que se está implantando, es decir, si la manera en la que todo el mundo está interactuando es fair play o no. Y entonces, normalmente, el software libre tiene mecanismos como de compensación, en donde el fair play, el bien común, prevalece. Pero si hay un abuso, y el abuso es muy prejuicioso, quiero decir que alguien puede pensar que tú estás abusando y tú puedes pensar que yo soy el que está abusando. Si hay un desequilibro temporal suficientemente así como tensito, ese modelo que era un poco homeostático, o sea que bueno, se arregla por aquí y tal, se puede romper y generar algunas crisis de confianza en el propio modelo, en el ecosistema. Y esto no es habitual, pero WordPress es que es gigantesco.
+
+[00:17:22.750] - Pablo Ruiz-Múzquiz
+Es que por estadística alguna vez iba a pasar que iba a haber esa sensación de no, esta teoría de juegos, en donde teníamos que ser 70% altruista, 30% egoísta, se está desequilibrando rápidamente en una zona. Y los mecanismos de corrección a veces son un poco precipitados, y eso en parte también es lo que ha pasado. Muy emocional, muy visceral. La gente entonces dice: A lo visceral juego yo también. Claro, claro.
+
+[00:17:49.780] - Carlos Iglesias
+Sí, un juez a lo visceral. Superinteresante. Gracias por... Yo creo que siempre lo digo, para mí tú eres la persona que más sabe de open source que conozco de lejos. Y que vengas aquí a-Empecé hace mucho también.
+
+[00:18:05.460] - Pablo Ruiz-Múzquiz
+Es un tema también de estar años ya. Sí, sí, sí, sí, sí, de todo.
+
+[00:18:08.940] - Carlos Iglesias
+Bueno, es que yo estaba repasando antes tu trayectoria y siempre has estado relacionado con el open source.
+
+[00:18:16.030] - Pablo Ruiz-Múzquiz
+Siempre. Desde que empecé la carrera de física, que lo descubrí ahí, o sea, desde el siglo pasado. Siempre porque lo vi como la aplicación de la ciencia en el mundo de la tecnología. Y entonces, fue como: Pues esto ya está, esto es lo que yo quiero hacer. Si no hago ciencia, haré lo más parecido, su web libre. O sea que desde muy temprano. Y eso te mete también en estas en ambientes activistas muy pronto. En fin, todo fue de la mano. Entonces, mucho tiempo ya.
+
+[00:18:43.520] - Carlos Iglesias
+Me interesa muchísimo tu visión del producto digital. Un producto digital, aquí hablamos muchas veces en este podcast de productos digitales y de cultura de producto digital. En tu opinión, ¿cuáles son las principales diferencias entre un producto open source y un producto, vamos a llamarlo cerrado o no sé, propietario, no sé.
+
+[00:19:08.080] - Pablo Ruiz-Múzquiz
+Guau. Así en términos lo más general posible, yo creo que el producto Open Source va a tender a tener un conflicto de intereses menor con la comunidad co-creadora del propio producto. Es más resiliente la idea de que tú quieres construir en abierto, pero no solo de forma transparente, sino invitando a las personas a tomar parte en pequeños porcentajes del proyecto. Y para que tú puedas formular eso en términos que la gente confíe, open source tiene una licencia, que de alguna manera es, en términos así como más puristas, es open source es simplemente un modelo de licenciamiento de propia intelectual tecnológica. Pero digamos, el open source se dota de unas fórmulas fórmulas para hacer posible, mantener el máximo tiempo posible, una relación, voy a decir, de iguales, entre el equipo promotor del proyecto y la comunidad que lo usa/apoya. Y eso con el mundo del software propietario, no es que sea un sistema feudal. Bueno. Puede ir. Pero es verdad que hay una relación en donde el productor y el consumidor están en estamentos muy diferentes. Y en el de en open source o web libre es como: Bueno, aquí hay vasos comunicantes, membranas. Y hay un interés, en principio, hay un interés porque entender que eso es algo positivo.
+
+[00:20:44.300] - Pablo Ruiz-Múzquiz
+Y eso Pues si lo haces bien, ¿a qué conduce? A que la capacidad de innovación y de adaptación de tu producto es, no sé, voy a inventarme, 100 veces mayor que la de su propio propietario, sin que los promotores del proyecto incurran en 100 más gasto o inversión en desarrollo.
+
+[00:21:02.580] - Carlos Iglesias
+Claro, tu capacidad de innovar escala sin correlación con recursos. Pero me parece superinteresante eso. Una de las primeras cosas que yo descubrí contigo fue eso, la importancia de la comunidad y cómo el roadmap de propio producto, no es que deba tener en cuenta, es que debe incorporar la comunidad en su propio roadmap y en el modelo de licenciamiento y en el modelo de la La arquitectura en sí misma del producto, eso me parece fascinante, me parece increíble.
+
+[00:21:33.860] - Pablo Ruiz-Múzquiz
+Por eso hay, aunque en teoría es solo una licencia, hay proyectos que siendo open source, por la licencia que utilizan, no lo son realmente, no actúan como tales. Y algunos proyectos de solo propietario están casi en el límite de casi pensar que serían open source, pero no tienen la licencia. Y la conversación con la comunidad es clave. Nuestro roadmap, por ejemplo, el de de un startup, se puede seguir al minuto. Es decir, el roadmap lo que es, un poco en términos de meses y años, pero incluso lo que está pasando ahora mismo, tú puedes ir a nuestro proyecto de Taiga, público, y ver qué está haciendo EVA con los design tokens Y con el pull request de tal, y ver exactamente lo que está haciendo. Pero no un issue en GitHub. No, la user story con su tarea, los comentarios y un prototipo enlazado para que se puede seguir en tiempo real. Eso es muy open source. Es chulísimo.
+
+[00:22:30.490] - Carlos Iglesias
+Y creo que la gente adicta a aprender. Creo que para alguien, aunque no tengas la oportunidad de estar en un equipo de producto, poder ver lo que se está haciendo.
+
+[00:22:41.650] - Pablo Ruiz-Múzquiz
+A mí por redes sociales profesionales, esta semana otra vez ha sucedido, gente que dice: Solo quería escribirte para darte las gracias por la transparencia del día a día del proyecto. Aprendo simplemente mirando cómo en PEMPO gestionáis el proyecto, porque lo veo todo. Y es un voyeur que está ahí y que está mirando cómo trabajamos. Qué guay.
+
+[00:23:05.150] - Carlos Iglesias
+Es superinteresante. Desde un punto de vista antropológico, es apasionante.
+
+[00:23:11.040] - Pablo Ruiz-Múzquiz
+Porque además no tenemos un proyecto en B. Aquí es donde realmente decimos las cosas y tal.
+
+[00:23:17.720] - Carlos Iglesias
+No, no, no. Ahí está todo. Ahí está todo. Vamos a full con esto.
+
+[00:23:20.930] - Pablo Ruiz-Múzquiz
+Muchos emojis para engrasar, lubricar la conversación, pero ahí está todo, sí.
+
+[00:23:26.970] - Carlos Iglesias
+Claro, y entonces aquí hay algo también que tiene que ver con el modelo de negocio. Porque hay muchas personas que piensan que open source significa software gratis. Y una de las cosas que aprendes cuando te acercas un poco a este mundo es que hay muchos modelos de negocio por detrás o distintos modelos de negocio por detrás. Me gustaría hablar también de distintos tipos de modelo de negocio. Pero me parece ya interesante en sí mismo poner la palabra negocio aquí ahora mismo encima de la mesa y empezar a hablar de negocio. Porque vosotros habéis estado en rondas de inversión, habéis levantado... Bastante pasta. Bastante pasta, bastante capital.
+
+[00:24:09.080] - Pablo Ruiz-Múzquiz
+Hay algunos milestones históricos para una empresa española.
+
+[00:24:14.310] - Carlos Iglesias
+Y A mí me gustaría saber qué busca un VC, qué busca un venture capitalist, alguien que está invirtiendo en capital riesgo, cuándo a la hora de invertir en un producto open source. ¿Qué es lo que mira? ¿En qué se fija? ¿Qué es lo que busca?
+
+[00:24:31.620] - Pablo Ruiz-Múzquiz
+Bueno, aquí hay muchas familias de venture capital. Debo empezar diciendo que no se podría generalizar o simplificar. Yo he hablado con muchos VC que buscaban un retorno de la inversión a través del open source. A explicar por qué creen que hay retorno de la inversión? Pero el enfoque varía mucho, no sé si decir por escuelas de pensamiento o qué, pero ha habido momentos que yo lo que quería era cortar la llamada y darme una hucha fría, vamos, o sea, en plan: ¿Qué ha pasado aquí. En principio, la tesis de inversión en un producto open source, en un producto open source que tiene una variante comercial, es que si consigues un éxito global, aunque captures en términos de creación de valor y captura de valor, aunque la captura de valor en porcentual sea muy pequeña comparada con la creación de valor, al tener éxito global, en términos absolutos, es un gran negocio. Y si lo hacéis bien, como he dicho antes, no hay que invertir tanto dinero en conseguir una cierta innovación, etcétera. Entonces, la tesis de inversión es Si este proyecto verdaderamente puede ser universal, y esto es muy importante, no puede ser de nicho, es muy difícil que un venture capital apueste por un producto pensoso de nicho.
+
+[00:25:57.400] - Pablo Ruiz-Múzquiz
+Porque como en general lo que estás haciendo es dejar muchísimo dinero encima de la mesa para que otros lo cojan, es decir, hay una generosidad enorme, esa generosidad solo es compatible con tener un impacto masivo. Entonces, empieza la tesis de inversión así. Este es un producto que podría ser de éxito mundial?. Sí. Vale. Pues entonces, ¿este equipo tiene el talento para hacer algo tan complicado como esto?. Sí. Vale. Pues sigo. Hay un posible market fit en donde alguien va a querer pagar por algo que no es la parte open source, sino otra cosa alrededor. Y eso va a tener una cantidad económica asociada, que cuando yo hago el ratio, sale bien, sí. Sin embargo, hay otros, hay BCs que haciendo estas preguntas y llegando a plan sí, el problema que tienen es que luego intentan aplicar las reglas del software propietario. El template o el blueprint de cómo hacer negocio si eres un software cerrado. Eso es muy delicado. Lo que en source tiene que ser open source en muchos ámbitos y no molar y ser sexy para un VC, porque estás teniendo un modelo viral de distribución, muy típico de open source, cero fricción.
+
+[00:27:19.460] - Pablo Ruiz-Múzquiz
+Para que luego te digan: Me ha gustado mucho hasta donde habéis llegado, ahora vamos a hacer las cosas a la antigua usanza. Eso lo mata. Entonces, ahí es donde las familias de BCs se distinguen claramente. El BC que es paciente, que entiende que tienes que tener un éxito global y luego encontrar algo que sea sostenible en el tiempo a la altura del tamaño de tu mercado. Pero no es algo esencialmente diferente a un VC. Y hay BC que apuestan en open source a evitar. Y hay BC que apuestan en source propietario, que son grandes compañeros de viaje. O sea, que ahí se nota un poco también el estilo.
+
+[00:27:58.380] - Carlos Iglesias
+¿hay muchos o se cuentan con los dedos de las dos?
+
+[00:28:01.130] - Pablo Ruiz-Múzquiz
+La minoría. Ha habido una mejoría generacional que fundamentalmente ha cambiado el principio de: El que pone el dinero es el que manda y te microgestiona. A: El que pone el dinero espera no molestar. Y entonces, eso se agradece. No es igual levantar un capital ahora que hace diez años. Claro. Se han dado cuenta de lo que han hecho mal. Pero aún así, la mayoría es horrorosa. O sea, Tienen la fama que se merecen, pero hay auténticas joyas. Y yo debo decir que creo que tengo un par de esas joyas trabajando conjuntamente con Carreidos.
+
+[00:28:42.660] - Carlos Iglesias
+Oye, explícanos cuáles son los modelos de negocio principales, los más importantes que existen?
+
+[00:28:49.690] - Pablo Ruiz-Múzquiz
+Pues mira, no existe como tal un modelo de negocio open source. De hecho, hace poco de una charla, la di un poco así en primicia en París. Luego, si no, si hay enlaces que se puedan compartir. Claro, claro, por supuesto. Sí, Son 15 minutos que voy a toda la velocidad, no como ahora. Y básicamente los modelos de negocio es capturo valor por servicios o capturo valor por producto. Esto la gente lo entiende. Es decir, yo creo valor y luego intento capturar algo de valor. Por servicios es, el producto es open source y no cobro nada por el software, pero he creado servicios de valor añadido de adaptación, consultoría, modificación, lo que sea, soporte. Y entonces, son otras cuestiones por las que tú estás cobrando, que a lo mejor ni siquiera son exclusivas de tu empresa. Otra empresa podría hacer lo mismo. Caso de WordPress, no, y otros no. Quizá tú eres el que mejor lo haces. Y luego está la captura de valor a través del producto, en donde reservas algunas funcionalidades de pago, que ya no son open source. Ese es el modelo clásico que se llama open core. Esos son los dos con los que hemos trabajado los últimos 25 años.
+
+[00:29:59.350] - Pablo Ruiz-Múzquiz
+Yo Yo me acuerdo de las conferencias internacionales de Software Libre que hubo en Málaga, en Badajoz, no sé si hubo alguna en Sevilla también, hablamos del año 2002, 2003, 2004, que fundamentalmente la tesis era la de servicios. Un poco los primeros tiempos era servicios, no del producto. Cuando la gente se hartó de los servicios porque pensaba que no escalaba bien, entonces empezó a experimentar con OpenCore, que es un premium aplicado a open source. Y entonces, reserva las funcionarias más jugosas tras un paywall. Y la pregunta que podría alguien hacerse es: ¿Y entonces,, cuál elige? ¿Captura valor a través de servicios de valor añadido o a través del modo OpenCore? Y la respuesta es ninguna. No nos gusta Ninguna de las dos. Y entonces, vamos a experimentar con otro modelo nuevo que llamamos el Open nitrate, que no da tiempo a explicarlo, pero que fundamentalmente lo que hace es que el producto, Open Source, es el mejor producto, el más avanzado, la mejor la experiencia posible que tú puedas tener. Ya acabas de llegar a OpenBot o sea, es el usuario más avanzado, el mejor producto que podamos imaginar, es ese Open Source. Y luego hay un producto inferior por el que pagas, un producto peor por el que Cuéntame más.
+
+[00:31:17.810] - Carlos Iglesias
+Cuéntame más.
+
+[00:31:18.870] - Pablo Ruiz-Múzquiz
+Tengo tu atención. Hemos dicho que el open core es: yo tengo un freemium. Entonces, empiezo con unas funcionalidades y hay un momento en que digo: me gustaría alcanzar El modo avanzado aquí. Pues tienes que pagar. Y nosotros es como: No, el modo avanzado lo tienes de base. El modo avanzado lo tienes de base. Vas a pagar por simplificar el modo avanzado. Pero bueno, esto es una cuestión semántica. Nosotros traducimos el modo avanzado al modo de libertad total, en donde los usuarios usan el producto como pensamos que debería usarse, con la mayor autonomía, flexibilidad y libertad. Pero hay gente que no quiere eso. Hay gente que quiere configurar, limitar, restringir, gobernar, cómo en su organización, usuarios, usuarias, aprovechan el producto. Y entonces, el paywall aparece cuando tienes esa necesidad de gobernanza. Desde el punto de vista del usuario avanzado, está perdiendo capacidad de actuación y por eso la broma. Desde el punto de vista de la organización, está obteniendo un valor claro de control a escala de una herramienta de productividad y creatividad de equipos de desarrollo de Y por las razones que sean, sin entrar a juzgarlas, en todas las organizaciones que hemos propuesto este modelo, han dicho: Me interesa.
+
+[00:32:38.490] - Pablo Ruiz-Múzquiz
+Y lo bueno que tiene este modelo, el Open nitrate, es que los usuarios, la comunidad, dice: Esto es maravilloso. No hay conflicto de Ese es conmigo. No te voy a proponer, por ejemplo, un pull request de una funcionaria avanzada que está detrás del paywall y me lo vas a rechazar porque está detrás del paywall, me lo vas a aceptar porque no es el problema. Y a mí no me interesa desarrollar Este sistema de control, yo no estoy ahí. Así que estamos en plena experimentación en 2025 de un modelo de negocio friendly, amistoso con el open source, que hasta ahora no se había aprobado. Que es un poco el camino inverso. Libertad total, open source. Control, pagas. Cuanto más quieres controlar y a cuanta más gente quieres controlar, más pagas.
+
+[00:33:26.390] - Carlos Iglesias
+Súper interesante, porque estáis como, de alguna forma, garantizando que vuestros clientes, es decir, aquellos que van a pagar, son corporate, son empresas grandes.
+
+[00:33:35.820] - Pablo Ruiz-Múzquiz
+Hay una correlación inevitable entre quién tiene que controlar y el tamaño de la organización. Pero hemos encontrado empresas de tamaño mediano que necesitan algunos mecanismos de control y entienden perfectamente que eso les aporta valor. Todo esto hay un subtexto que no estamos explicando y es que nosotros pensamos que el diseño todavía no ha experimentado el boom que merece. Entonces, estamos trabajando en la herramienta que desbloquea la capacidad, el potencial del diseño de VX, con D mayúscula, como queramos interpretarlo, y aquí sois expertos en esto. Y que cuanto más explotes el potencial, más excusas tendrán algunas organizaciones para pensar que hay que poner algunos raíles. O sea, que también estamos construyendo un poco la necesidad de algunas organizaciones de tamaño más pequeño para embarcarse en este modelo. Pero sí, lo que dices es totalmente cierto. Típicamente son los medianos y grandes. Y ahí mi justicia poética me indica que lo que estamos experimentando es con un modelo de transferencia inversa de rentas.
+
+[00:34:47.300] - Carlos Iglesias
+Me encanta, tío. Me tienes dentrísimo con esto. Bueno, ya me conoces. Oye, vamos a hablar de cultura. Vamos a hablar de cultura porque... O sea, me parece superinteresante de hablar de cómo son las compañías. Entiendo cómo son, estamos generalizando todo el tiempo y, por lo tanto, es incorrecto. Pero, ¿qué diferencias culturales encuentras tú de forma generalizada utilizando entre las compañías open source y las compañías tradicionales?
+
+[00:35:19.900] - Pablo Ruiz-Múzquiz
+Yo te voy a romper un mito aquí, a lo mejor. A veces, nada. O sea, para bien o para mal. Siendo un poco como muy autocrítico, Hay empresas open source en el sentido de que tienen un producto, quitando proyectos open source de comunidad. Estamos hablando de organizaciones, empresas, vehículos societarios que necesitan ingresos, etcétera. Porque hay empresas open source, entre comillas, megatóxicas, en las que yo nunca quería trabajar, por mucho que desarrollen tecnología abierta, porque es como: Mira, no me compensa. Y empresas con una cultura de trabajo en equipo, de respeto por la decisión que hacen las diferentes personas, desarrollo de carreras profesionales, de los intereses, los apetitos intelectuales, en empresas de sobrepropietario. Yo tengo un sesgo favorable a las empresas de open source, pero ya he visto de todo. De hecho, hay oportunismo en muchas empresas de open source. Hay empresas de solo propietario que ven que se les acaba un poco el fuelle y dicen: Ya está, golpe de efecto, pivotamos a ser open source. Y dices: Bueno, y tu cultura de empresa no cambia nada, solo es una táctica comercial de marketing. Y entonces, pues... Es posible que haya una característica, sí que sea inevitable, que es muy difícil que no tengas que estar escuchando constantemente el feedback de tu comunidad.
+
+[00:36:48.020] - Pablo Ruiz-Múzquiz
+Entonces, eso genera un... Bueno, un formato de relación entre quién está produciendo el software y quién lo está usando, más directo, sin intermediarios. Y eso yo creo que también te hace un poquito, por utilizar un término así un poco manido últimamente, más honesto, que rápidamente se te puede pillar en algo que no es verdad, porque tienes menos cosas que poder esconder.
+
+[00:37:14.430] - Carlos Iglesias
+Sí, es No sé de qué rompes un mito. Porque mi cabeza va...
+
+[00:37:21.540] - Pablo Ruiz-Múzquiz
+En términos de cultura. En términos de cultura.
+
+[00:37:22.730] - Carlos Iglesias
+En términos de cultura, sí. Mi imaginación va, yo me imagino, o mi razonamiento lógico, incorrecto, probablemente, y por lo que me estás contando seguro, asumo la premisa de que en la fundación de una empresa open source hay un sesgo ideológico Y un posicionamiento en el mundo, de alguna forma. Entonces, es como me cuesta entender... Claro, y luego me estás diciendo: Hay empresas que están utilizando como marketing lo que es el open source porque ven una serie de de beneficios en hacerlo, básicamente, beneficios económicos y beneficios de posicionamiento. Básicamente, entiendo que tienen que ser beneficios de posicionamiento, de ocupar un territorio de marca, de ocupar un territorio, no mucho más.
+
+[00:38:13.410] - Pablo Ruiz-Múzquiz
+De decir, Eso es así. Eso es el oportunismo. Y yo aquí tengo que decir: Warning, hay oportunismo. Pero te voy a dar algo que yo creo que vas a entender más fácilmente. El software libre, open source barra software libre, de base tiene un problema de sesgo de género problemático. Pero no solo de género, sino de privilegio. Es decir, el open source es un invento de los ricos, realmente, de los privilegiados, que se pueden permitir regalar tiempo. Y eso está genial. Es como: Ostras, qué interesante. Los privilegiados que tienen tiempo libre para regalar. En plan: Yo no necesito, no dependo de esto. Yo puedo dar y dar y dar y dar y vivir en En la comunidad, una especie de hippie capitalista que se lo puede permitir. Pero eso, claro, eso históricamente, por una cuestión estadística, ¿qué tipo de personas te da? Pues hombres blancos cis. Entonces, si tú tienes una empresa open source, ¿qué vas a encontrar típicamente? A ver, el reflejo de la sociedad, pero en general. Con lo cual, ahí todavía hay mucha tarea que cortar. En Kaleidos empezamos así, en 2011, y ahí trabajando, trabajando. Ahora mismo somos más mujeres que hombres en parte de todos los puestos.
+
+[00:39:38.700] - Pablo Ruiz-Múzquiz
+Pero eso, que es en el sector tecnológico, ya es... Pero una empresa open source es incluso más difícil, porque la tendencia natural es ir a tus pares. Entonces, bueno, no sé, romper mitos, autocrítica, decir las cosas como son.
+
+[00:39:54.370] - Carlos Iglesias
+Oye, ¿cómo fue la transición de Kaleidos, de una empresa de servicios a una empresa de producto? O sea, entiendo que es muy buscado, pero no hemos hablado de vuestra PI Week y de este tipo de cosas. ¿Qué importancia tiene la PI Week en todo esto?
+
+[00:40:12.910] - Pablo Ruiz-Múzquiz
+La PI Week, escrito PI Week, Personal Innovation Week, nos la inventamos junto con otras, no sé, 40 ideas locas en 2011, en plan: A ver, vamos a asegurarnos de que nos ponemos reglas para hacer algo diferente. Y esto es una semana cada seis meses, en donde la empresa, todo el mundo para, pero por ley para. Y podemos hacer individualmente o en equipos proyectos que nos reten y que aprendamos y nos lo pasemos bien. Siempre que el viernes lo compartamos de alguna manera con el resto. Y no hay premios ni hay unos criterios de quién gana o qué es lo que tienes que hacer. Es una cuestión más de la innovación, el reto, porque sí. Es un hackatón. Pero qué decir que es un hackatón como per se, por el disfrute. Y claro, si tú haces eso sistemáticamente, todo cada julio y cada diciembre, cada julio y cada diciembre, empiezan a salir cosas muy raras y muy interesantes. La mayoría se quedan en un cajón, otras sirven de aprendizaje para proyectos que estás haciendo y otras se convierten en Pempot. Entonces, en 2019, o en Taiga, antes, y otros productos que la gente no conoce, pero que hemos lanzado o que usamos internamente.
+
+[00:41:28.850] - Pablo Ruiz-Múzquiz
+Entonces, en 2019, Cuadriga, desde a mí, la Alex, Pablo y yo, estábamos en una situación en la que llevamos ocho años en Kaleidos haciendo servicios de desarrollo tecnológico muy punteros. Nos gustaría hacer un nuevo proceso constituyente de Kaleidos, un nuevo contrato social, incluso interno. Para lo cual tenemos que pensar cuáles son las nuevas reglas de juego, y una de las reglas de juego es vamos a apoyar, apostar más por nuestros propios productos. Pensamos que está bien hacerlo. Tenemos Taiga y tenemos Penbot. Y entonces, hicimos la propuesta al resto de Kaleidos. Les gustó. Eso desbloqueó la compra del resto del accionariado, que no estaba en manos de empleadas a 100% empleadas. Esto salió en una noticia en su día, en plan: ¿Quién nos ha comprado? Adivina. La gente de: ¡Guau! ¿Os ha comprado Indra? ¿Os ha comprado Reja?. La gracia era: nos hemos comprado nosotras mismas. Eso fue muy divertido. Y eso desbloqueó el de: ¿Y ahora qué?. Kaleidos 2. 0 de dinero. Y lo que parece que va a ser transitorio, en plan mitad servicios, mitad producto, cuando hablábamos con fondos de inversión de capital riesgo, nos dimos cuenta de que lo que querían era el equipo entero.
+
+[00:42:40.540] - Pablo Ruiz-Múzquiz
+Y decíamos: Hombre, es que para el equipo entero, para un spin-off, tendría que ser todo Kaleidos. O sea, empezamos a plantearnos, ¿y si nos dedicáramos enteramente todo caleidos a producto? Y eso sucedió en 2020, que es el año que todo el mundo recuerda de la pandemia. Otra crisis. Pero bueno. Y ahora, y No hemos mirado atrás.
+
+[00:43:01.640] - Carlos Iglesias
+Qué guay, me parece fascinante, superchulo.
+
+[00:43:04.640] - Pablo Ruiz-Múzquiz
+Tiene una ventaja esto. Primero, que sucede orgánicamente y no lo tratas de diseñar. Y segundo, que claro, tienes un talento, es muy potente en galeido siempre, que ha trabajado tanto... Mucha gente ha trabajado tanto tiempo junta, que hay muchas cosas como que van muy fluidas. Y eso para alguien que invierte, ya sea venture capital o no, eso no tiene precio. Porque normalmente los cofounders del garaje no han demostrado muchas veces haberlas pasado canutas o haber... Y hay mucho riesgo simplemente en esa relación. Pero claro, con Kaleidos, eso era como muy sólido.
+
+[00:43:52.830] - Carlos Iglesias
+No sé, a mí me parece superinspirador y lo admiro muchísimo, de verdad. Te lo he dicho muchas veces, pero es verdad, me parece que es Es muy excepcional. Yo no conozco ningún caso como el vuestro. No conozco ninguno.
+
+[00:44:06.480] - Pablo Ruiz-Múzquiz
+Alguna gente pone: ¿Cuál es la gente que hizo Base Camp?. Sí, se lo hicieron en signos. Petrologina, tal. Algunos casos, pero luego son relaciones mucho más jerárquicas.
+
+[00:44:15.280] - Carlos Iglesias
+Sí, no es exactamente igual. No, no es igual. Pero es bueno, es verdad que es parecido.
+
+[00:44:18.820] - Pablo Ruiz-Múzquiz
+Pero alguna vez has surgido, ¿no?
+
+[00:44:20.570] - Carlos Iglesias
+Sí, sí, sí, sí.
+
+[00:44:21.490] - Pablo Ruiz-Múzquiz
+Pero vamos, que esto lo podemos hacer porque tenemos el privilegio al 2000%. ¿Sabes? O sea, que es lo peor que nos puede pasar. Yo siempre digo: ¿Qué es lo peor que nos puede pasar? Si es que nunca nos vamos a poner a vivir bajo un puente. Total, total. Habrá que, no sé, arriesgar un poco, ¿no?
+
+[00:44:38.400] - Carlos Iglesias
+Pablo, quiero robar más tiempo ya porque llevamos ya un ratillo, pero sí que te quiero pedir una mirada al futuro y me gustaría entender un poco, en la medida que puedas explicar, ¿cuáles son vuestros retos? ¿Hacia dónde va? ¿Cuál es el futuro de Petpot?
+
+[00:44:55.450] - Pablo Ruiz-Múzquiz
+Bueno, podemos decir que hay un reto a nivel de producto y otro reto a nivel de negociación. Solución. A nivel de producto, es confirmar que teníamos razón. Es decir, que sí, que la solución a esta alianza necesaria entre diseño y código, se resolvía como hemos pensado que se resolvía. Principios de diseño declarativo, open source, estándares abiertos, una herramienta que busca menos que algún tipo de usuario se sienta O sea, como muy agustito en su silo y que entre el aire fresco. Y eso significa, además, resolver una especie de inequuación, que es la típica de David contra Goliath, que es que hay un player que tiene el 80% del mercado. Y que es verdad que solamente puedes ir contra una potencia de fuego como esa, si eres radicalmente diferente. Entonces, ahí hay retos, que es como siempre los productos que son el challenger es: tengo que innovar, pero tengo que seguir ofreciendo cierta familiaridad. Y esa familiaridad tiene que ser fácil migrar, por ejemplo.
+
+[00:46:12.960] - Carlos Iglesias
+Claro, reducir la fricción.
+
+[00:46:14.530] - Pablo Ruiz-Múzquiz
+Reducir la fricción para que alguien cambie y luego cambie y diga: Ya me quedo aquí. Tú mismo sabes que estamos colaborando en un plugin de Figma para que la gente pueda exportar sus proyectos de la mejor manera que se nos pueda ocurrir, porque diseño imperativo, diseño declarativo. Ahora ya la gente puede... La traducción nunca va a ser perfecta, es otro tipo de herramienta. Pero bueno, estás haciendo un trabajo maravilloso y diciendo: Lo que en Figma se llama así y representa esto, en Pen Pot, es esto. Y este es un reto. El producto innovador en varios frentes, en una situación de desventaja por la posición del Pero que si logramos que el mundo del desarrollo adopte Pen Pot, entonces ganamos. Es decir, hay que convencer al mundo del diseño, que esta es la herramienta que les interesa, y al mundo del desarrollo, que esta es una herramienta nueva que les interesa. Esto es un reto importante, pero claro, es un reto muy divertido. Y para empezar como que ha leído, es que tenemos un ratio de una diseñadora por dos desarrolladoras. O sea, uno a dos. Eso ya te da una idea de la de Kaleidos.
+
+[00:47:32.220] - Pablo Ruiz-Múzquiz
+Y entonces, estas cuestiones como el plugin vuestro que estáis desarrollando, que es maravilloso, yo creo que tendrá un impacto sobre todo a finales de este año. Yo creo que estamos notando puntos de inflexión a esa escala de tiempo. Y luego, el reto de negocio es... Bueno, tiene que ser sostenible. En Caledos no tenemos ninguna intención de vivir a base de rondas de inversión ni nada de esto. Cuando lo ves eso, un poco como que te ríes así. Vaya bullshit. Y luego cuando te ves dentro y dices: Es que realmente no es tan complicado este bullshit. Es muy tentador que tus ingresos vengan de un primo que sustituir a otro primo. Y ahí es donde está el reto de nuestro modelo de negocio. Tampoco tenemos que formarnos como a lo bestia. No se trata de eso. Eso creo que también, el no ser codiciosos, yo creo que también ayuda a que el reto de negocio esté en orden de magnitud, manejable. Y eso también lo sabremos este año. Este año es un punto de inflexión. 2025, todo el mundo en cada uno es teníamos muy claro que va a ser un año muy importante para PEMP, en términos de producto y de adopción, que ya está siendo muy rápida, y en punto de negocio, porque esperamos no tener que renunciar al modelo de open nitrate, porque no queremos ni el de servicios ni el open core, el freemium este tradicional.
+
+[00:49:01.110] - Pablo Ruiz-Múzquiz
+Y luego está a temas de IA, que particularmente en nuestro mundo...
+
+[00:49:05.040] - Carlos Iglesias
+Hemos aguantado hasta este minuto sin hablar de IA, increíble.
+
+[00:49:08.260] - Pablo Ruiz-Múzquiz
+Exactamente. Y eso daría para... Eso podemos hablar en otro momento. Los retos específicos que tiene la IA generativa y en particular los modelos de difusión, los LLMs, con los entes vivos caóticos que son interfaces de usuario. Y porque no parece ser la tecnología más adecuada para para resolverlos. Pues sí. Pero es que, claro, en algún momento hay que acabar esta entrevista. He visto que habéis fichado a Alberto... Álvaro. Álvaro. Álvaro. Álvaro. Álvaro. Nos conocimos en física.
+
+[00:49:45.920] - Carlos Iglesias
+¿sí?
+
+[00:49:46.670] - Pablo Ruiz-Múzquiz
+Sí. Estudiando fíj. Es un amigo de la... De toda la vida. De toda la vida. Y juntos hicimos con otro amigo Marc, un proyecto de documentos científicos libres, que se llamaba ALQUA, que son anécdotas maravillosas, en donde éramos los antisistema de la época. Bueno, antisistema, a ver, entre comillas. Pero que estábamos escribiendo licencias libres de contenido antes de que Lawrence Lesht llegara con Creative Commons.
+
+[00:50:13.860] - Carlos Iglesias
+Creative Commons.
+
+[00:50:14.890] - Pablo Ruiz-Múzquiz
+Es anterior a eso. Qué bueno. Y entonces, él siguió la carrera científica y ahora es estelar en temas de neurociencia y machine learning. Y ahora había la oportunidad de que de poder contar con él y claro, es como... Qué maravilla. Maravilloso. Qué guay.
+
+[00:50:35.390] - Carlos Iglesias
+Pues, oye, para nosotros, yo te lo he dicho ya más de una vez en privado, pero realmente es un honor para nosotros poder acompañaros e intentar sumar nuestro granito de arena. Espero que podamos continuar colaborando. También estoy convencido de que así será. Y nada más, Pablo, superagradecido. Vamos, no sé, me dan ganas de eso. No, yo... Unas cervecitas y a continuar con la conversación. Exactamente. Pero bueno, tendremos más ocasiones. Así que nada, muchísimas gracias.
+
+[00:51:05.190] - Pablo Ruiz-Múzquiz
+A vosotros y a ti en particular por este ratito tan agradable. Gracias.
+
+[00:51:10.150] - Carlos Iglesias
+Y hasta aquí esta conversación sobre el poder del open source y su impacto real, tanto tanto en la sociedad como en los negocios. Personalmente, siempre me ha fascinado cómo algo aparentemente técnico como el software libre puede convertirse en una fuerza transformadora que cambia industrias y democratiza el conocimiento. Espero que te haya inspirado tanto como a mí esta charla con Pablo. El escritor alemán Thomas Mann hizo famosa una cita: Todo es política. Las decisiones, acciones o posturas que tomamos en nuestra vida cotidiana tienen implicaciones, incluso cuando no somos conscientes de ello. Si algo te ha sorprendido, inspirado o te gustaría profundizar más en este tema, déjanos tu comentario. No olvides compartir el episodio, darle al like o suscribirte. Ya sabes cómo funcionan los algoritmos. Cada interacción ayuda muchísimo. Un fuerte abrazo y os espero en el mundo real.
+

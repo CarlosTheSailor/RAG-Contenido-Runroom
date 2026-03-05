@@ -1,0 +1,264 @@
+[00:00:00.090] 
+Recordábamos a Lord Kelvin el anterior episodio cuando decía que lo que no se define no se puede medir que lo que no se mide no se puede mejorar y que lo que no se mejora se degrada siempre.
+
+[00:00:16.280] 
+Pero y si estamos midiendo lo que no debemos y si lo que mide nuestra métrica a la postre no le aporta absolutamente nada a nuestro cliente o lo que es peor y si le penaliza y si estamos invirtiendo en intentar mejorar un KPI irrelevante para él porque no entendemos sus necesidades sí vale vale vale lo que tú digas pero en el mundo real sólo hay una métrica que importa la pasta la rentabilidad del negocio pero en el mundo real cuando al mundo real le precede un pero deja de ser un lugar se convierte en una excusa.
+
+[00:00:54.850] 
+ Si de una forma u otra eres responsable de la transformación de la compañía donde trabajas aquí encontrarás la manera de desactivar esos pretextos ese portazo al cambio ese aquí no se puede Este podcast es para todos aquellos que estéis convencidos de que las empresas deben poner al cliente en el centro de la estrategia y a las personas de la organización en el corazón de la misma. Aquí adquiriremos una visión estratégica y a la vez práctica a través de ejemplos y experiencias que os dotarán de argumentos en el idioma favorito de la alta dirección. El lenguaje de negocio no sólo hablaremos de él sino también del cómo y en el episodio de hoy hablamos con mi querido amigo James Jornet Glinka manias ya el coach independiente soy Carlos Iglesias CEO en rán Room y profesor en varias universidades y escuelas de negocio como Esade que discóbolo o Bown.
+
+[00:01:51.840] 
+ Bienvenidos al décimo octavo episodio de en el mundo real el podcast sobre Castorena Experience y negocio digital.
+
+[00:02:20.230] 
+Por supuesto que sí. Por supuesto la pasta es la métrica la métrica. Pero qué pasta.
+
+[00:02:29.470] 
+La que estoy ingresando por dar el servicio actual o la que estoy perdiendo por no ser capaz de ofrecer en un tiempo óptimo el servicio que mis clientes desean y por el cual estarían dispuestos a pagar más o por el cual podría conquistar nuevos nichos de mercado. Hablamos de bisnes agility cuando nos referimos precisamente a esa capacidad de las organizaciones de adaptarse a nuevos contextos de responder rápidamente a un cambio comentábamos en el episodio 11 donde hablábamos de allá Ayapel que no es exactamente lo mismo cómo los modelos de negocios están transformando cómo la tecnología no sólo está trayendo nuevos modelos sino que literalmente está poniendo patas arriba a sectores muy muy tradicionales fuertemente establecidos centralidad del cliente romper los silos para optimizar el flujo de valor a través de la colaboración y con una constante obsesión en la mejora continua.
+
+[00:03:36.250] 
+ Eso es bisnes agility sin más. Os dejo con Jaumà Jornet. Nadie mejor que él para hablar de todos estos temas desde la experiencia en el mundo real y desde el conocimiento adquirido a través del estudio y de la generosidad a la hora de compartir.
+
+[00:03:58.780] 
+Quizá la palabra que mejor le define comunidad Bueno pues aquí estamos con Joma Jornet mi querido amigo llama Jornet llama Buenas tardes cómo estás.
+
+[00:04:10.150] 
+Hola buenas tardes. Bien gracias.
+
+[00:04:12.280] 
+Bienvenido a el mundo real. Este podcast me gustaría que yo te conozco bastante bien desde hace unos cuantos años nos conocemos muy bien.
+
+[00:04:24.070] 
+Me gustaría que le expliques a la audiencia quién eres y quién eres qué haces y cómo has llegado ahí.
+
+[00:04:32.490] 
+Así lo puedes hacer en menos de un cuarto de hora.
+
+[00:04:35.680] 
+Complicado muy difícil. Bueno quien soy soy muchas cosas no soy padre y entiendo que la pregunta tampoco me orientaba qué hago. A qué me dedico. Nos conocemos del ámbito allá el de la comunidad y es lo que hago ayudo a organizaciones que quieren trabajar de una forma más ágil y durante muchos años he participado y aprendido y nutrido y me he aprovechado porque si a día de hoy puedo hacer lo que estoy haciendo es gracias a todo lo que he estado aprendiendo de la comunidad de Barcelona de donde nos hemos conocido y donde seguimos participando.
+
+[00:05:18.070] 
+Qué haces ahora. A qué te dedicas tu día a día.
+
+[00:05:22.300] 
+Mi día a día normalmente involucra ayudar a organizaciones. Cuando hablo de organizaciones ayudo a personas personas que trabajan en organizaciones que quieren de alguna manera tener procesos más ágiles y esto habría que enmarcarlo en que entendemos como ágil porque cada para cada organización será diferente que entienda para cómo Hager pero quieren de alguna manera mejorar su agilidad en el negocio.
+
+[00:05:50.280] 
+Y cómo has llegado aquí. Cuál es tu background cómo empezaste técnico.
+
+[00:05:54.720] 
+Tú eres tú si tú tienes un pasado turbio sucio se hace un poco raro fue extraño como cómo he llegado aquí porque yo estuve yo desarrollaba software durante muchos años normalmente en proyectos. Los últimos años muy grandes que involucraban mucha gente y esto me hizo llegar a un momento en el que parte de mi trabajo ya no era únicamente desarrollar software sino también ayudar a personas que estábamos en equipos desarrollando software.
+
+[00:06:30.820] 
+Eso me llevó a darme cuenta que no tenía ni idea de cómo tratar con personas de cómo ayudarles y buscando qué podría aprender o cómo podría mejorar para hacer esta parte. Entré en contacto con las metodologías ágiles y fue el principio del fin fue que llegó un momento en que vi la cabeza y la cara todo fue un grave error porque cada vez leía menos libros de César para que nos entendamos y leía más sobre motivación sobre este tipo. Hasta que llegó un momento que se lo planteé a mi mujer y le dije Oye yo quiero dedicarme a esto.
+
+[00:07:09.790] 
+ Me dijo estás loco tú trabajas con personas no sabes lo que es eso bueno pero creo que puedo aprender.
+
+[00:07:16.870] 
+Y bueno fue un cambio o fue un cambio grande porque además involucraba un salto al vacío dejar lo que sabes hacer que has estado haciendo durante 15 años para empezar una profesión en los que tus años de experiencia son cero.
+
+[00:07:32.500] 
+Yo he tenido la suerte de vivir gran parte de ese arco de evolución de Jaumà y realmente es impresionante. O sea yo lo digo totalmente de forma muy sincera ya está trabajando con grandes organizaciones estás trabajando. Bueno yo no sé si lo puedes decir con qué tipo qué tipo de clientes trabajar.
+
+[00:07:53.800] 
+Bueno sí normalmente de empresas grandes bancos empresas de seguros muy grande de manufactura y muy grandes consultoras muy grandes. Sí afortunadamente de lo que me siento más afortunado. Los últimos años es que efectivamente estos clientes están ahí. Trabajo para estas grandes empresas pero eso además me ha permitido trabajar en entornos en contextos en los que muchas veces no trabajamos en entornos de fundaciones de oenegé que igual no pueden permitir. No quiero decir no pueden permitirse pero sí que tienen cosas mejores a las dedicar sus recursos que contratar servicios de más y el poder trabajar en unos entornos me ha permitido trabajar en otros que es donde me nutre más.
+
+[00:08:44.670] 
+Yo he invitado llama porque me interesaba hablar con él del tema bisnes agility. Además últimamente a través de Barcelona está organizando una serie de apps que se han hecho dos ya si no me equivoco ahora empezará el tercero de aquí poco son cuatro los que se llama el tercero cuándo es la semana que viene. La semana que viene la semana que viene los mitad son sobre bisnes agility y precisamente yo estuve hace poco en una sesión una charla muy larga de una hora hora y pico quedaba hablando sobre sobrevives agility. Me gustó mucho el enfoque que le dabas hablabas de tres grandes áreas de Flow.
+
+[00:09:32.270] 
+ Hablas de colaboración y hablabas de aprendizaje no me enlazaban mucho un poco precisamente con los episodios del podcast donde hemos hablado de la agilidad que son grandes temas que también hemos tocado como temas importantes.
+
+[00:09:45.480] 
+Me gustaría que llama un poquito de visión a los oyentes de sobre qué hablamos cuando hablamos de bistecs agility agilidad de negocio a qué nos referimos con esto.
+
+[00:10:00.330] 
+Cuando cuando hablamos de élite me gusta diferenciarlo porque muchas veces hablamos de El General y diferentes personas con diferentes percepciones diferentes momentos entenderan de formas muy diferentes. Qué significa para ti ronroco o qué puede significar allá para la para o para sea. Podemos decir sus nombres no pasa nada. Seguramente sea muy diferente cuando hablamos de vernissage y estamos hablando precisamente de cómo podemos dotar a la organización de agilidad en sus procesos de manera que puedan tener esa adaptabilidad para servir mejor a sus clientes sea lo que sea lo que hacen para servir a sus clientes.
+
+[00:10:49.270] 
+ Pero cómo podemos tener una visión más holística. Ya no se trata tanto de mejorar en determinada área quiero mejorar como funciona este determinado equipo quiero mejorar. Cómo funciona este determinado proceso es decir cómo la forma en la que estás trabajando está afectando al valor que aportas a tus clientes que es ese valor que esperan tus clientes y cómo podemos orientarnos totalmente y decidir cómo trabajar de una forma que maximice ese valor o que permita que ese valor llegue antes.
+
+[00:11:22.770] 
+Ahí entra la parte de qué es para ti ágil hablábamos fuera de micro antes de empezar la entrevista que precisamente el concepto fin de de Deivid que relacionándolo con un poco qué significa agilidad de negocio.
+
+[00:11:45.000] 
+Por esto es bueno evitando que el creador de Camba que escribió el libro de Kanban ha escrito un libro recientemente que ha sacado la segunda edición que precisamente se titula firme por post y que él pone en este libro algo que ya desde hace muchos años utilizamos dentro de esta comunidad de Kanban pero muy ver la organización como un conjunto de servicios y entender cuál es el propósito de cada uno de estos servicios. Por qué hacemos lo que hacemos. Por qué nuestros clientes deciden contratarnos a nosotros y no a otros que valoran nuestros clientes.
+
+[00:12:23.700] 
+ Lo que buscamos es entender ese purposes ese propósito y entonces crear la organización más Fitness. No sabría cómo traducirlo al castellano más adecuada a servir a ese propósito. Fíjate que si ponemos un ejemplo muy entenderás muy bien muy simplista tú puedes decir yo me dedico al mercado de hacer pizzas. Es totalmente diferente. Si yo soy una gran cadena Dominos Pizza o si es pizza de autor lo que valoran mis clientes de mi es totalmente diferente. Y el tipo de organización de estructuras y procesos que crearé para servir a un tipo de cliente o a otro serán totalmente diferentes.
+
+[00:13:06.420] 
+ No se trata de juzgar y decir cómo es el Bulli es mucho mejor que la calidad que te pueda dar un MacDonalds MacDonalds está optimizado para el propósito al que sirve es comida rápida que se pueda servir y El Bulli está optimizado para el propósito que sirve que es cocina de vanguardia etcétera. Pero fijaros que no son comparables entre ellos pero sí que de alguna manera necesitamos entender qué es lo que queremos conseguir para crear estructuras que nos permitan maximizar esto.
+
+[00:13:47.940] 
+Digamos que a nivel gastronómico te tienes que actualizar porque si voy a hacer el trabajo pensando que aquella vez que yo no soy consumidor de este tipo de recetas en cualquier caso me estaba ahora recordando un poco hace una década nos muchos equipos no nos centramos mucho para nosotros allá significaba mucho cómo trabajan nuestros equipos y una visión quizá sé si endogámica era una visión mucho más concentrada digamos los equipos y de alguna forma ese cambio de perspectiva va un poco a subrayar el negocio y la entrega de valor a los clientes.
+
+[00:14:28.820] 
+Lo que venimos lo que viene a decir de evitándole son con el fin de ser purposes que de alguna manera de lo que se trata es de adaptar la totalidad de la estructura de la compañía a esa entrega de valor.
+
+[00:14:40.690] 
+No ya no se trata de hacer es Cram en nuestro departamento de Haití sino que es una visión mucho más amplia y mucho más de negocio y en ese sentido a nivel de negocio pues alguna vez también hemos hablado de que al final yo siempre he dicho en este podcast también que para mí la agilidad tenía que ver con esa capacidad de adaptación al mercado y con esa capacidad de respuesta de ser ágiles y ser rápidos en el sentido de poder ofrecer una respuesta ágil y rápida a una oportunidad de mercado o una necesidad de mercado.
+
+[00:15:19.610] 
+ Hay un concepto que a ti últimamente te escucho mucho hablar de él que es el tema del costo y del coste de retraso. No sé cómo traducirlo muy bien al castellano. Costos podrías introducir un poquito el concepto a la comunidad en el mundo real.
+
+[00:15:37.400] 
+Por favor. Sí hay conceptos a mí me pasa lo mismo que me cuesta mucho traducir al castellano. Vamos a decir cuesta Oddysey que todo el mundo seguro que lo va a entender. Esto es una idea muy sencilla. Costos de ley no deja de ser la idea. O sea lo que sea lo que haces es el producto que ofreces el servicio que ofreces. Hay una diferencia entre que tu cliente disponga de ese producto de ese servicio este viernes o dentro de dos meses si no hay ninguna diferencia. Si da igual que ese servicio esté disponible y ese producto esté disponible este viernes o dentro de dos meses no hay costo.
+
+[00:16:17.240] 
+ Pero sí hay costo Oddysey sí sí que hay una diferencia. Cuál es esa diferencia. Cuál es el coste de llegar tarde y fijarse es una perspectiva que nos sitúa mucho en la perspectiva del valor no entendiendo el valor no como algo estático. En estas grandes organizaciones que comentábamos antes nosotros a veces nos encontramos con procesos que hay que entender son son tradicionales son largos e involucran a negocio finanzas legal a una serie. El otro día estaba con unas personas que me contaban cómo funciona su proceso de gestión de la demanda cómo deciden los proyectos que van a trabajar el año siguiente.
+
+[00:16:59.510] 
+ Proyectos que después duran un año o un año y medio y que esto se traduce. Había un momento que decía Espera déjame que lo entienda mal me estáis diciendo que durante un año de marzo a diciembre trabajáis en decidir qué proyectos haréis en 2019 no se empezarán todos el 1 de enero de 2019. Pongamos que de media se empezarían en mitad de año y que estos proyectos duran un año un año y medio en serio alguien se presenta en el comité de dirección diciendo traigo aquí un viernes que os traigo una idea de negocio que me parece que lo va a petar en 2021 porque esto es lo que estamos hablando cuando tenemos estos procesos tan largos.
+
+[00:17:41.780] 
+ Cuál es el costo de ley de esa idea de negocio. Entretenerla ahora fijaros que ya no estoy hablando de una semana de un mes. Da igual cuál es la diferencia entre poder tenerla ahora o a final de año o en el primer cuarto de 2019 o tenerla en 2021. Cada vez más los contextos en los que nos encontramos se ven más afectados por esta ley. Ser capaz de cuantificarlo como mínimo te pone en la mentalidad de entender qué es lo que provoca una organización que tú tengas un determinado proceso o una determinada forma de trabajar que acaba haciendo que tus proyectos.
+
+[00:18:18.860] 
+ Cuando detectas una necesidad de tu cliente y tú quieres servirle quieres cómo aportar más valor a mi cliente. Te focaliza totalmente en ello pongo lo mejor de mí y consigo satisfacerte dentro de un año. Hay una gran posibilidad de que el cliente haya cambiado de idea y ya no le aporte tanto valor o otro agente de tu competencia como un competidor. Satisfecho satisfecha pero fijaros que todavía muchas organizaciones tenemos una visión muy estática. Nosotros nos encontramos con estos bisnes que no demonizarlos pero siempre que he visto en bisnes que tiene un número al final y un número estático acaba diciendo la idea de negocio si la implementamos y la ponemos en el mercado no se acabará repercutiendo lo que sea un millón de euros nos dará un millón de euros siempre o nos dará un millón de euros.
+
+[00:19:15.130] 
+ Si la tenemos al final de año medio millón si la tenemos a mitad de 2019 y cero si la tenemos al final de 2019 el valor de lo que hacemos no es estático. No se puede decir esta funcionalidad nos da un millón de euros esta funcionalidad nos da un millón de euros. En este momento del tiempo tres meses después este nivel de dinero. Tres meses después este nivel de dinero por lo tanto si me Dotto de la capacidad de tenerlo en el momento un millón mejor que si me Dotto de la capacidad de tenerlo dentro de seis meses o un año etcétera.
+
+[00:19:50.790] 
+ Eso es élite y eso es Costa útiles tu experiencia.
+
+[00:19:55.390] 
+Qué implicaciones tiene ser consciente de esto es decir cómo se transforma una compañía para tomar decisiones desde el punto de vista del costo Filey y para aprovechar esas oportunidades de negocio de una forma mucho más efectiva. De alguna manera lo que estoy entendiendo que dices es que de forma tradicional y lo más común es encontrarnos con organizaciones que toman las decisiones en función de los presupuestos del año que viene.
+
+[00:20:25.390] 
+Organizaciones que por otra parte están enfocadas en la eficiencia digamos de tiempo o la eficiencia de las tareas que tienen que realizar las personas no están enfocadas no son organizaciones normalmente enfocadas precisamente a esa entrega de valor de una forma ágil. Qué implicaciones tiene ser consciente de ello y cómo puede transformarse en una compañía donde debe poner el foco.
+
+[00:20:54.200] 
+Bueno seguramente depende de cuál sea tu contexto depende de cuál sea tu situación pondrás el foco en las cosas antes mencionadas. Esos tres pilares que hablábamos del flujo colaboración y mejora continua identificados que son ideas muy sencillas es decir Enfréntate en cuál es el flujo de toda aportación de valor para intentar maximizar lo probablemente para poder maximizar lo tendrás que de alguna manera fomentar colaboración entre distintas áreas. Lo que encontramos dentro de estas grandes organizaciones cuando vamos a buscar es que muchos de los tiempos que provocan que yo no pueda servir a mis clientes a principios de 2019 sino que lo haga al final son tiempos de espera y tiempos de traspaso entre distintas partes cuando intervienen legal y finanzas y operaciones para acabar entrando y creando.
+
+[00:21:46.360] 
+ Los tiempos no están tanto en cuánto tiempo dedican ellos a hacer su trabajo sino cuánto tiempo está esperando un paso al otro. De manera que podemos maximizar cómo llegamos a ese valor no optimizando que trabaje más rápido que le haga el trabajo más rápido sino que simplemente entre que una parte ya ha acabado su trabajo y empiezo el siguiente trabajo.
+
+[00:22:13.150] 
+Pase el menor tiempo posible minimizando los tiempos de espera.
+
+[00:22:17.780] 
+No me daba mucho miedo introducir el tema Flow dentro del episodio porque la verdad es algo es algo en lo que he pensado y he pensado hacer un capítulo expresamente para hablar de lo que significa flujo también desde una visión muy lineal y desde el concepto Flow. Es un concepto que comentábamos fuera de micro. A mí personalmente me da la sensación de que hablar de Flow difícilmente traslada el conocimiento del concepto al receptor del mensaje. Para mí esto es una cosa que tiene mucho. Es mucho más entendible es mucho más fácil de entender en una dinámica en algún tipo de workshop pero algún tipo de ejercicio donde podríamos intentar explicar un caso real.
+
+[00:23:07.000] 
+Un ejemplo real que haga que se pueda entender. Yo creo que hace ya dos o tres años un gran banco no era más que un banco contrató para poder ayudar a el área de canales.
+
+[00:23:22.060] 
+Al final son los que hacen la aplicación móvil la web etcétera. En aquel momento el proyecto estrella era tan Payments simplemente era este tema de poder hacer pagos de móvil a móvil y algunas entidades bancarias lo tenían pero sólo dentro de su entidad bancaria. Todo esto venía de una iniciativa del Banco Central Europeo que dijo todos los bancos en Europa deberían tener esta capacidad. Creo que ahora 2018 2019 y el Banco Central de crédito español decidió adelantarse y decir nosotros lo tendremos antes lo tendremos en 2016 o 2017 junto a todos los bancos y se establecieron dos momentos de salida cidades uno grueso de bancos salía en una fecha y el otro salía cuatro meses después.
+
+[00:24:10.890] 
+ Todos los grandes bancos estaban en la primera fecha fijaros si enlazamos con lo que decíamos antes de Costa de ley. Cuál es el costo de no salir en la primera fecha. Aunque todo el mundo sabía que no llegaba a la primera fecha nadie lo decía porque si lo decían corría el riesgo de que te pusiesen en el segundo grupo. Si yo soy una gran entidad financiera y no salgo en el primer grupo sino que salgo en el segundo. Mis clientes que trabajan con distintas entidades financieras que suelen ser los más atractivos para mí.
+
+[00:24:41.370] 
+ Yo suelo decir yo no tengo mucho dinero tengo el dinero en una única cuenta en un único banco. Las personas que realmente no tienen dinero trabajan con distintas entidades. Sí mi competencia sale en el primer grupo y Liga ya su teléfono a una entidad de mi competencia. Es muy difícil que cuatro meses después yo consiga convencer a mi cliente para que cambie y se venga a mi entidad financiera. Todos sabían que no llegaban a la primera fecha. Nadie decía uno de los grandes focos por favor ayuda al área de canales porque necesitan dentro de dos meses a Calista.
+
+[00:25:14.400] 
+ Obviamente lo hacíamos lo orientamos pero yo recuerdo una conversación en la que aunque sabía cuál iba a ser la respuesta no dejas caer un poco ok. No sabemos si lo conseguiremos o no pero un poco también cabrón el Banco de España porque al final daros sólo dos meses para hacer el proyecto de MPM. Bueno en realidad no eran dos meses. Al inicio teníamos 18 meses de esos 18 meses primeros tuvimos una serie de meses pensando qué áreas deberían participar aquí. Luego aquello se quedó parado hasta qué operaciones hizo una licitación decidió cómo deberíamos contratar a los proveedores entonces aquello entró dentro de unos procesos de compras que acabó quedando en crear una capacidad de equipos y ahora hemos llegado al momento en el que sólo tenemos dos meses.
+
+[00:26:07.920] 
+ Si tú mides todo lo que ha pasado desde esos 18 meses hasta dentro de dos meses que será la fecha en que vas a observar es que seguramente el tiempo que realmente más estaba trabajando Paime comparativamente con el tiempo que algo se ha quedado dentro de un mes sabremos dentro de dos meses decidiremos. Empezaremos en marzo. Será mucho menor el tiempo del trabajo al tiempo. Por qué esto se produce porque seguramente tu organización está más orientada a optimizar cada una de las partes que no el flujo en total. No hemos pensado la organización para cómo consigo que el proyecto Sapem suceda lo más rápido posible sino cómo hago que todo el trabajo que hace operaciones sea muy eficiente en operaciones.
+
+[00:26:55.470] 
+ Todo el trabajo que hace finanzas sea muy eficiente en finanzas las mesas de compras son muy eficientes haciendo la compra pero no me he molestado en ver cómo esas distintas piezas están encajando entre ellas. Y qué está provocando esos silos dentro de la organización que al final lo que está provocando es 16 meses de retrasos para llegar al final a dos meses de algo que tiene un impacto económico un costo enorme.
+
+[00:27:20.250] 
+Bravo.
+
+[00:27:21.080] 
+Sí yo supongo que hemos aprendido a resolver la complejidad de lo que representa escalar un negocio en cuanto a trabajar con miles de personas. Hemos aprendido a a o hemos pretendido modelar esa complejidad poniendo estructuras rígidas procesos muy cerrados burocracia muy pesada precisamente para no tomar decisiones a la ligera y para al menos tener la sensación de control constante sobre todo lo que está sucediendo y probablemente incluso diría que eso en algún momento de la historia de los mercados funcionó. Pero de alguna manera hoy estamos en otro contexto no en un contexto súper cambiante un contexto de tecnologías disruptivas constantemente en un contexto donde hablaba con Isabel Gorgonio hace un par de episodios de Iberdrola donde yo le decía cuáles son vuestros.
+
+[00:28:23.670] 
+ Cuáles. Le preguntaba cuál es vuestro próximo reto. No lo sabemos es que eso es exactamente el tema o sea el tema es que no sabemos qué va a pasar de aquí seis meses es que no tenemos ni idea ni a nivel legislativo ni en ningún otro nivel. Entonces claro hemos aprendido a hacer las cosas de una determinada manera y hoy de alguna forma nos estamos dando cuenta de que eso quizá no es lo más efectivo desde el punto de vista de la entrega de valor o de la O de la oportunidad de negocio.
+
+[00:28:55.710] 
+Cuando comenzamos nuestras organizaciones para momentos del tiempo diferente en aquel momento yo suelo decir que ahora ya hemos hablado antes que es lo que hacemos es una idea viejunas si lo piensas no estamos hablando de algo que ha aparecido hace dos años sino que el manifiesto de 2001 estamos hablando de 18 años que no llegaba. Sin embargo todavía se sigue percibiendo como algo nuevo. El motivo de esto es que no empezamos hace 18 años allá él está llegando a estas grandes organizaciones a estos sectores o saliendo de aire para llegar a una gran cantidad de sectores.
+
+[00:29:36.270] 
+ En los últimos cuatro o cinco años el motivo que esto sucede no es que seamos más guapos o mejores que otras metodologías simplemente nos adaptamos más a los contextos actuales los contextos de hace diez años eran más estáticos los contextos actuales no sé que va a suceder dentro de seis meses requiere de dotar a mi organización de capacidad para poder adaptarme dentro de esos periodos de tiempo y es lo que hace que cada vez más organizaciones no quieran de alguna manera adoptar Yahel o empezaras o empiezan a pensar en esta agilidad empresarial porque tiene valor en el contexto actual porque cada vez más el costo es de ley si así se crea es un marco económico de todas las cosas que me afectan desde el punto de vista de negocio encontraría que probablemente costo.
+
+[00:30:27.040] 
+ Es una de las variables que más afección tiene tienen más afección. Si un proyecto se retrasa un mes dos meses tres meses desde el punto de vista de coste oportunidad de imagen de penetración de mercado de muchas variables que tienen sentido para mí que no si estoy gestionando los recursos de mi departamento de legal de una forma más eficiente o menos y tiene sentido si lo piensas desde una forma muy simplista siempre todo lo que hacemos debería aportar más valor que el coste que cuesta producirlo seguimos optimizando el lado del coste cuando el lado del valor cada vez más.
+
+[00:31:02.010] 
+ Yo recuerdo un podcast en el que hablabas precisamente entre la diferencia entre el coste de producción y el valor que cada vez está más alejado. Seguimos optimizando en el lado que es más estático cuando eso es lo que provoca es penalización en el otro lado porque cada vez que penaliza en el tiempo penalizó en el valor que puedo aportar al cliente claro.
+
+[00:31:24.250] 
+Eres partidario de medir entonces el costo Filey. Muchísimo.
+
+[00:31:29.230] 
+Es factible medir el costo Pilay desde una perspectiva determinista de saber directamente mis costos de ley va a ser veinti siete mil quinientos euros a la semana. Seguramente no y todavía muchas personas tienen esa mentalidad pero es que el valor que encontramos también es mover esa mentalidad desde el punto determinista al punto estadista de decir no se trata. Para mí el valor que aportan las organizaciones en muchos casos empezar a trabajar con costos de ley no es simplemente tener esa medida que no deja de ser una hipótesis que no deja de ser un bisnes que hay alguien que apuesta a que en el momento que pongamos esto en el mercado nos dará un millón de euros.
+
+[00:32:19.540] 
+ Pero fíjate que toma la toma de decisiones producida a raíz del costo y obliga a que toda la organización seamos conscientes de cuál es el propósito de mi organización de cómo mido por qué mis clientes me seleccionan. Si mañana tengo que tomar una decisión tomaré una decisión sabiendo cómo eso va a afectar al retraso o retraso de este proyecto y qué impacto eso tiene en el valor que perciben mis clientes. Alinear a toda la organización es lo que para mí realmente da un gran valor a empezar a trabajar con costos de ley. No es el número me da igual que sean porque realmente si acabamos pensando dará igual que sea un millón 800 mil que sea un millón 200 lo importante es que donde tengamos el foco que estamos utilizando para tomar nuestras decisiones me lleva esta conversación a la conversación que tuve con Javier Gallardo en el último episodio donde hablábamos de NPS.
+
+[00:33:16.180] 
+Cuando hablamos desde promotores scored y con Javier un poco al final la conclusión era NPS se puede ser muy útil puede ser muy útil si no desde un punto de vista determinista no desde un punto de vista del valor absoluto de qué numerito te ha salido a ti porque no tienen la menor importancia final porque es una métrica un poquito volátil y si no que realmente donde donde no se es útil es entender el porqué el porqué de esa valoración. Entender cuáles son los motivos y cuáles son los los precisamente desde qué perspectivas nos están juzgando nuestros clientes y por qué nos recomendarían o no nos recomendarían digamos.
+
+[00:34:02.140] 
+Ahí es donde realmente potencia desde un punto de vista de agilidad de negocio.
+
+[00:34:08.460] 
+Qué métricas debemos tener aquellas que permitan medir el servicio que estás ofreciendo a tus clientes. Precisamente el porqué te valoran tus clientes tus distintos clientes porque tendrás distintas motivaciones y qué es lo que les hace tomar la decisión de trabajar contigo o contratar tus productos. Comprar tus productos y contratar sus servicios.
+
+[00:34:37.410] 
+Yo hace poco me hacía mucha gracia pero me parecía curioso porque estaba viendo las noticias y salía una noticia sobre Rahner Renner había tomado una decisión en la que decía que íbamos a tener que pagar por el equipaje en cabina pero que eso lo hacía por nuestro bien por el bien de los usuarios que consumimos Rahner porque su métrica de tiempos de despegue no cuántas veces despego a la hora se había reducido. Si antes estaba en el 96 98 por ciento que eran los estándares que ellos habían determinado que querían para ellos había bajado hasta el 90 o incluso por debajo del 90 entonces habían tomado decisiones.
+
+[00:35:23.600] 
+ Bueno es realmente la métrica de que el vuelo despegue ahora lo que valoran tus clientes o lo que valoran tus clientes es que el vuelo aterrice. Porque fíjate que tú puedes despegar tarde y aterrizar en horas simplemente gastarás más combustible para ir más rápido. Es algo que obviamente no va a querer. Me acuerdo al decir mi métrica es que el vuelo despega en hora no deja de ser una bonita y métrica una métrica que utiliza simplemente para mirarte al espejo y hacerte sentir bien como una de las cosas que hago bien es despegar en hora pues voy a reportar que despego 98 por ciento de veces senora asumiendo que eso es algo que valoran mis clientes.
+
+[00:36:06.770] 
+ Si realmente te pusiste a pensar tus clientes valoran más el llegar en hora empieza a medir eso sí y mide esa diferencia entre llegar en horas no llegar. Qué supone para ti dejan de contratarte y dejan de si siguen contratando pero están dispuestos a pagar un precio más pequeño. Fíjate que todo eso es lo que tienes que plantearte cuando intentas calcular el costo del enlazando con la pregunta anterior por qué es importante porque te hace pensar precisamente en cómo calculó esto el número final da igual el proceso de calcular esto me obliga a pensar en todas estas variables por qué me seleccionan clientes.
+
+[00:36:48.470] 
+ Cómo puedo medir de alguna manera qué impacto tiene si mueve se mueve o no se mueve esta determinada métrica si combinada con todas las demás. Porque fíjate que distintos clientes me contrataran por distintas razones. Hay muchas personas que no tienen un propósito 1 por qué han escogido regeneró.
+
+[00:37:09.530] 
+Esa es la principal razón probablemente por la que en mi opinión personal tomar experiencia es algo tan tan tan relevante no tener una estrategia centrada en el cliente en una estrategia Customer Sentry pasa por precisamente preguntarle al cliente qué es realmente lo que tu valoras y cómo esperarías que sea ese servicio esa experiencia y cómo es en realidad la que estamos teniendo al final para eso nos sirve una mentalidad basada en el Jordy también basada en la propia experiencia de los clientes.
+
+[00:37:46.220] 
+Volviendo un poco a cerrar por intentar cerrar de alguna forma la entrevista porque llevamos treinta y cuatro minutos de entrevista hablábamos de Flow hablamos de colaboración y hablamos de aprendizaje y creo que estas dos últimas palabras son palabras clave también dentro de el concepto de bisnes agility explícanos alguna reflexión en este sentido en colaboración se ve muy ilustrarán el ejemplo que ponía antes de decir cómo están colaborando las distintas partes de mi organización porque a veces esto aquí igual tenemos que hacer un poco de autocrítica desde el mundo hacia el yo el primero nos hemos centrado mucho en optimizar las distintas partes y hemos dicho la manera de optimizar es reducir desescalar tu organización crear equipos auto organizados etcétera.
+
+[00:38:41.880] 
+ Cómo organizo un proceso bancario que va buscando Zintan Payments que hago creo un equipo en el que cada equipo hay una persona de finanzas personales o busco cómo estas distintas partes pueden colaborar entre ellos. Cómo puedo dar autonomía en la toma de decisiones pero manteniendo el alineamiento en esos objetivos de negocio proveer estos marcos con el costo de ley me va a ayudar en el alineamiento y luego voy a dejar que sean ellos quienes mejoran y decidan cómo pueden mejorar esa colaboración en esa parte de aprendizaje. El concepto de mejora continua no significa nada más que decir sea lo que sea lo que estoy haciendo ahora o sea lo que sea el nivel de valor que puedo entregar a mis clientes.
+
+[00:39:26.490] 
+ Cómo puedo conseguir que dentro de seis meses sea más que dentro de otros seis meses sea más. Cómo puedo estar constantemente buscando cómo optimizar por qué nunca vamos a llegar al estadio perfecto. Eso es lo que queremos crear en las organizaciones. No queremos crear las organizaciones un proceso perfecto sino más bien la capacidad de pensar. Si ahora este es tu contexto y éste igual es tu proceso perfecto date cuenta la misma reflexión que hacíamos antes de que los contextos hace cinco años eran diferentes dentro de cinco años volverán a ser diferentes.
+
+[00:39:58.230] 
+ Si no tienes la capacidad interna dentro de tu gente de que repiense en su forma de trabajar cuando dentro de cinco años se estarán encontrando en un contexto totalmente diferente siempre irás a remolque trabajando para contextos que ya no son los actuales o tendrás una dependencia externa de lo que tengo que hacer. 5. Y esto desgraciadamente no lo encontramos en estas grandes organizaciones que cuando llegamos decimos bueno ahora sois vosotros los de allá. Pero hace dos años tuvimos aquí la transformación X y dos años antes habíamos sufrido la transformación lo que intenta entender es que precisamente lo que provoca esto es que cada vez que quieres adaptarte a un cambio en el contexto necesitas hacer la transformación.
+
+[00:40:45.120] 
+ La verdadera transformación es que tú seas capaz de adaptarse a los contextos que tú tengas esta capacidad de aprender de mejorar continuamente y de cambiar en base a lo que necesito ahora para poder servir mejor a mis clientes. Esa es la combinación. Entender el valor de tus clientes crear marcos que permitan si el contexto actual es que ese valor va asociado al tiempo mejorar ese tiempo instructoras colaborar dentro de las distintas áreas para poder estar constantemente reinventándose y mejorando.
+
+[00:41:17.380] 
+Mil gracias. Llama una vez más y llama. Como veis es un pozo sin fondo de sabiduría Yo siempre aprendo con él. Es un honor y un placer tenerte cerca jamás.
+
+[00:41:33.450] 
+Si alguien quiere tenerte cerca como lo puedes hacer cómo te pueden encontrar cuál es la mejor manera.
+
+[00:41:40.150] 
+Yo creo que es fácil que siempre ando por la comunidad por la mitad y de hecho me encanta tomar café con la gente. Es habitual que alguien me contacte. Hacemos un café y hablamos cómo es la mejor manera de contactarte por correo o por Twitter. No llama Jornet a Roballo mayormente en Twitter y LinkedIn. Yo creo que si vas a Google y pones ya mayor te va a salir un jugador de fútbol de Segunda División así y seguramente Gargallo por ahí.
+
+[00:42:12.330] 
+Si pones cualquier canal puedes Carlos Iglesias te va a salir un actor un actor de serie si ni siquiera es director de cine. Por eso tengo el punto de info llevaba tu fe la traidora llamada estamos estamos tengo que explicar así en la intimidad que estamos grabando en casa de mi madre porque hoy es sábado y en mi casa con los dos peques es imposible grabar nos hemos venido a casa a mi madre que es donde habitualmente grabo los podcast y mi madre tiene una foto mía aquí cuando yo tenía 15 años y el traidor de Jumba dice esto porque me ha visto vestido de rockabilly con un tupe y tal.
+
+[00:42:55.200] 
+Yo creo que deberías incluir a la gente entienda lo que estoy visualizando ahora mismo prometo hacerlo prometo hacerlo.
+
+[00:43:04.800] 
+Muchísimas gracias llamá también por esto cabrones. Espero que nos volvamos a encontrar de nuevo en el mundo real.
+
+[00:43:11.790] 
+Seguro y hasta aquí.
+
+[00:43:14.920] 
+Amigos este episodio de mi podcast en el mundo real el podcast sobre experiencia de cliente y negocio digital por cierto en el momento de publicar este episodio acabamos de superar las 20000 escuchas así que nada me parece alucinante la verdad. Muchísimas gracias por escuchar. Recordad que encontraréis las notas del episodio en Carlos Iglesias punto info barra e 00:18 en minúscula 018. Y si tengo el punto info como habéis escuchado hace un momento. Si eres un recién llegado a esta ya gran comunidad de oyentes pues bienvenido para empezar. Que sepas que puedes recibir los próximos episodios de forma automática si todavía no lo estás haciendo sin hacer nada simplemente suscríbete a través de tu aplicación de podcasting favorita.
+
+[00:44:08.420] 
+ Si eres de iPhone como yo pues con la aplicación pocas que viene preinstalada de forma nativa con el sistema operativo. Si eres más de Android o simplemente prefieres podcast Pear sigamos con apps alternativas pues también tienes un montón como Google podcast Spotify y iBooks Obert cast etcétera en todas ellas no encontrarás lo único que tienes que hacer es buscar en el mundo real la que más te guste y darle a suscribir. Y bueno ya si me dais unas estrellitas o un link como escribir una reseña os voy a estar súper súper agradecido.
+
+[00:44:45.920] 
+Ya sabéis que los algoritmos que deciden dar visibilidad a uno u otro programa tienen muy muy en cuenta todas estas interacciones de los oyentes. Y qué demonios estoy haciendo esto es para llegar al mayor número de personas posible. Así que ojalá con vuestra ayuda logremos entre todos que cada vez más y más compañías adopten esta mentalidad. Gastón centric en la que tanto creemos. Un fuerte abrazo y os espero en el mundo real.
+

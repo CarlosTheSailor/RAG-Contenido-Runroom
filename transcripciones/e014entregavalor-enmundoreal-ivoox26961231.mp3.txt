@@ -1,0 +1,237 @@
+[00:00:00.660] 
+Yo me pregunto cómo puede ser que en pleno 2018 17 años después de la firma del manifiesto ágil todavía me encuentre por el camino cadáveres en forma de proyecto en cascada.
+
+[00:00:16.000] 
+Cuántas evidencias hacen falta. Cómo es posible que aún no hayamos entendido que no funciona.
+
+[00:00:23.540] 
+Supongo que por la misma razón que hace unos cuantos años leí en el libro El libro negro del emprendedor. Alguien me lo regaló donde Fernando Trías de Bes afirma que el 90 por ciento de las empresas cierran antes de cumplir cuatro años.
+
+[00:00:40.130] 
+Me da la sensación de que como especie no somos muy buenos aprendiendo de los errores de los demás quizá y solo quizá somos un poquito mejores aprendiendo de los propios aunque esto es una hipótesis donde si somos muy buenos es encontrando excusas. No sé si estaréis de acuerdo. Usamos expresiones como en el mundo real al final tampoco hay tiempo para pararse a aprender a hacer las cosas de otra manera o en el mundo real. Yo lo que necesito es un precio alcance y tiempo cerrados es lo que hay la cuestión es que en esos casos el mundo real deja de ser un lugar se convierte en una excusa si de una forma u otra eres responsable de la transformación de la compañía donde trabajas aquí encontrarás la manera de desactivar esos pretextos ese portazo al cambio ese aquí no se puede Este podcast es para todos aquellos que estáis convencidos de que las empresas deben poner al cliente en el centro de la estrategia y a las personas de la organización en el corazón de la misma aquí adquiriría una visión estratégica y a la vez practica a través de ejemplos y experiencias que os dotarán de argumentos en el idioma favorito de la alta dirección.
+
+[00:02:00.370] 
+ El lenguaje de negocio no sólo hablaremos del qué sino también del cómo hoy volvemos a hablar de Alloy reflexionando acerca del valor que es valor soy Carlos Iglesias CEO en RAM Run y profesor en varias universidades y escuelas de negocio como sabe que Scull o vou. Bienvenidos al décimo cuarto episodio de en el mundo real el podcast sobre Castromán Experience y negocio digital.
+
+[00:02:51.450] 
+He decidido que este va a ser el último capítulo de la primera temporada de En el mundo real.
+
+[00:02:57.960] 
+Vienen vacaciones necesito descansar hacer retrospectiva reflexionar sobre lo que he hecho hasta ahora mirar hacia adelante incorporar aprendizajes. Volveré seguro cuando aún no lo he decidido. Necesito hacer esa reflexión un poquito lo que tengo claro es que voy a hacer un parón en verano.
+
+[00:03:24.990] 
+Os invito a los que no lo habéis hecho o a los que os habéis incorporado al programa desde la mitad. Pues que aprovechas para revisar revisitar episodios antiguos o visitar si no lo has hecho todavía.
+
+[00:03:39.760] 
+Vamos que Amelio en general la valoración que hago ahora mismo es súper positiva. Tengo aquí algunos datos en este medio año. La verdad es que he sido bastante regular excepto un par de entregas que se me torcieron y me las salté como la última como la de hace dos semanas. He ido publicando semanalmente el de hoy es el. Como decía el décimo cuarto episodio y contando el episodio cero.
+
+[00:04:07.680] 
+Según iVoox hemos pasado de las diez mil escuchas por tanto la media de escuchas por episodio ronda los 670. A mí me parece una pasada. Realmente yo no esperaba tener esta audiencia. Hay cosas a mejorar como la duración media. Pero como digo muy muy contento también con mi propia evolución como conductor del programa me siento mucho más seguro. Desde los primeros episodios creo que he ganado fluidez ritmo estructura definitivamente muy contento y ese síndrome del impostor del que hablaba en el episodio piloto. Pues bueno creo que estoy aprendiendo a mantenerlo bien a raya.
+
+[00:04:53.160] 
+Poquito a poquito aunque todavía me queda trabajo por hacer en fin vamos al episodio de hoy.
+
+[00:05:01.960] 
+Si os parece esta reflexión viene del episodio 11 sobre ángel donde no sé si recordáis que hablamos de para mí allá él lo explicaba como en cuatro grandes conceptos el primero era entrega temprana y frecuente de valor.
+
+[00:05:19.870] 
+El segundo era acerca de la funcionalidad en el tema de romper los silos funcionales que son el porqué de la metodología en cascada. El tercero era el equipo motivado las personas motivadas y el último era kaizen la mejora continua. Entonces bueno me gustaría hablar hacer la reflexión sobre sobre el valor de este primero. Este primero de los conceptos de entrega temprana y frecuenté de valor. Por qué. Porque las cosas valen lo que valen el valor tiene el valor viene del costo de producción las cosas valen más porque cuesta más producirlas o vale más si son más útiles.
+
+[00:06:13.340] 
+Entonces me he puesto a revisar las reflexiones que han habido y las discusiones que han habido en el campo de la economía a lo largo de la historia y la verdad me encontré con un debate que me ha sorprendido y que ocupó siglos y que aún hay cierto debate alrededor verdad. Un momento clave de esta historia viene de la mano de la escuela clásica de Economía de Adam Smith David Ricardo y toda esta gente que como digo son los máximos exponentes de esta escuela de la escuela clásica entonces a ese nivel esa primera reflexión acerca del valor diferencia entre valor de uso y valor de cambio.
+
+[00:06:59.690] 
+ No cree que el valor de uso de un producto resulte económicamente significativo ya que existen objetos que son muy útiles y que sin embargo no se intercambian el valor de cambio por otro lado pues es aquel que establece cuánto de un producto se debe intercambiar para obtener otro permite establecer relaciones entre productos. Y es por ello que resulta económicamente tan significativo. La pregunta es cuál es ese elemento unificador que permite comparar los valores de cambio digamos los valores de cambio de diversos productos. Entonces es aquí introducen un concepto que sostuvo que el trabajo era la medida del valor es decir desde esta perspectiva la cantidad de trabajo invertido en un producto en un bien pues determina su valor su valía en el contexto de toda esta discusión pues es muy conocida la paradoja del valor.
+
+[00:08:04.800] 
+No sé si lo habréis oído. La paradoja también conocida como el agua y los diamantes.
+
+[00:08:10.010] 
+El propio Adam Smith la menciona en su obra La riqueza de las naciones y ha sido objeto de estudio por parte de los economistas de diferentes ideologías porque al final aquí hay un componente ideológico muy importante pues como decía durante más de durante más de tres siglos entonces la cuestión es imaginamos que llevamos varias horas vagando por el desierto calor infernal la boca seca como un trapo arrastrándonos por el suelo.
+
+[00:08:40.430] 
+Esa imagen de las películas de tipo a punto de morir muertos de sed a punto de morir deshidratados y de repente una tienda que vende diamantes y botellas de agua el precio de la botella de agua es 100 veces el del diamante que compraríamos.
+
+[00:08:59.120] 
+Si tuviésemos el dinero claro porque esa teoría de que el trabajo como medida de valor no soluciona esta paradoja verdad. Entonces aquí hay varias soluciones. Una que llama la atención. Es este Marx Mark desarrolla la teoría del valor trabajo.
+
+[00:09:21.200] 
+Entonces para Marx es complejo esto no me quiero ensalzar demasiado porque aquí hay niveles de profundidad la verdad es que me he tirado horas y he aprendido un montón de Economía y de al menos de ideología económica. Ha sido muy interesante este risottos que me ha obligado a hacer este capítulo que en realidad secretamente os digo que es una de las razones por las que hago también este este este programa este post verdad el forzarme un poquito va a salir también de mi entorno habitual y sumergirme en este tipo de conocimiento.
+
+[00:09:57.320] 
+Entonces para Marx decía la magnitud del valor de una mercancía es el matiz es el trabajo socialmente necesario para su producción que no está determinado en absoluto por el valor de uso o sea por él por el uso concreto que se da posteriormente a esa mercancía o a la necesidad concreta que satisfaga. Por tanto el valor del agua es normalmente menor que el de un diamante porque el trabajo socialmente necesario para conseguir un diamante es mayor que el necesario para proveerse de agua y ello es independiente de que el agua sea usada para satisfacer una función vital y el diamante no trabajo socialmente necesario.
+
+[00:10:41.630] 
+ Esto es un componente que en realidad este concepto ha condicionado no es una de las diferencias al final entre el capitalismo y el comunismo. Cómo los individuos colaboran y en base a esa colaboración ese contexto social desempeñan un trabajo con muchas individualidades a través de muchas individualidades. Está claro que en situaciones de escasez el valor es mayor porque las condiciones de escasez implican un aumento del trabajo socialmente necesario para adquirir o producir una mercancía. Así lo entendía Marx. Así precisamente la escasez la escasez de los diamantes implica mucho más trabajo para conseguirlos y por eso son tan valiosos.
+
+[00:11:26.740] 
+ Y de la misma manera se explica que en zonas desérticas que se requieren más trabajo para conseguirla el agua sea también mucho más valiosa que en zonas no desérticas vaya fumada no estoy yendo a la raíz del valor pero es que yo creo que es muy interesante para entender y para acabar entendiendo qué es y qué no es valor que parece que parece obvio. Pero me doy cuenta de que no lo es tanto desde el punto de vista de Marx. En definitiva la paradoja del valor o la paradoja del agua y el diamante pues es sólo un ejemplo del error teórico en que incurrían los economistas clásicos como Smith al confundir y mezclar el valor con el valor de uso y también un ejemplo según él de fetichismo de la mercancía en el que incurren estos economistas al intentar deducir el valor de la naturaleza del del propio bien de la mercancía.
+
+[00:12:28.230] 
+ Entonces bueno luego también aparte de esta teoría del valor trabajo de Marx también aparece la teoría subjetiva del valor que es la solución que acuña la escuela neoclásica. Digamos que es un poco la escuela que se relaciona con con el liberalismo entonces la teoría subjetiva del valor desarrolla la idea de que el valor de un bien no está determinado por ninguna propiedad inherente a éste ni por la cantidad de trabajo requerido para producirlo sino por la importancia que un individuo le da para lograr sus objetivos o deseos. La capacidad de un servicio o producto de satisfacer una necesidad aunque el agua es una necesidad.
+
+[00:13:21.250] 
+ Las personas no querrán un suministro particular de agua si en su alrededor existen pues fuentes alternativas suficientes cuando existen pocas fuentes como en el desierto el valor de una cantidad particular de agua aumenta. Entonces esto se va evolucionando a finales del siglo XIX aparece un concepto muy interesante que es el de la utilidad marginal dentro de la teoría subjetiva del valor verdad. La teoría de la utilidad marginal dice que el valor de un bien no está determinado por cuanto trabajo se ejercite se ejerció en su producción como la teoría del valor trabajo ni en la utilidad total.
+
+[00:14:06.790] 
+ Más bien su precio es determinado por la por su utilidad marginal es decir el primer vaso de agua cuando estamos sedientos nos resulta estrenarme extremadamente útil nos produce una enorme satisfacción o bienestar. Pero los sucesivos vasos nos aportarán un bienestar mucho menor y llegar a un nivel de consumo en el que nuestra utilidad total no seguir aumentando por el hecho de que bebamos litros y litros y litros no se entiende por utilidad marginal de un determinado bien. El aumento o la disminución en la utilidad total que nos supone el hecho de consumir una unidad adicional del mismo entonces una mayor disponibilidad pues hará decrecer la utilidad marginal y viceversa la escasez incrementará la utilidad marginal de un bien en definitiva actualmente la defensa del valor como algo objetivamente medible y asignarle prácticamente ha desaparecido.
+
+[00:15:14.960] 
+ Hoy el valor se reconoce claramente como subjetivo. Entonces a esta pregunta de qué es el valor a mí me gusta responder y es una pregunta que suelo hacer en clase que es el valor y hay muchas respuestas distintas pero al final esta subjetividad del valor no es ese valor subjetivo que nuestro cliente le da a lo que nosotros entregamos es lo que define el valor.
+
+[00:15:41.470] 
+Otra reflexión que me interesa es la diferencia entre output y Hatton lo que lo quería poner encima de la mesa también no sé cómo traducir ha estudiado cómo me vais a perdonar.
+
+[00:15:51.460] 
+Sé que algunos no os mola mucho que utiliza expresiones anglosajonas pero oye decidme vosotros cómo llamamos a un puti. No sé. Yo no lo sé traducir.
+
+[00:16:01.430] 
+Vale entonces los apuntes son los resultados de un proceso derivado de la aplicación de unos inputs a un sistema. Estos inputs procesados de una forma concreta determinan ciertos outputs los ACOM son la consecución de unos resultados buscados y ligados a un objetivo de negocio y esto es un matiz muy importante relacionándolo con el tema del valor.
+
+[00:16:34.850] 
+El típico ejemplo de esto es la diferencia entre el número de líneas de código que pica un programador y el valor real de un software. El software que produce y aquí esto me parece una reflexión muy interesante y además también os diría también es cultural hay organizaciones donde la cultura está enfocada a outputs y no los Atoms. No sé por ejemplo eso esa inclinación de los de los departamentos a que su entregable el valor que ellos entregan en realidad son outputs enfocados a o bien hacer reporting o bien justificar su trabajo de cara al resto de departamentos o bien incluso consumir recursos económicos para que no les quiten el presupuesto.
+
+[00:17:31.540] 
+ También sucede esto es decir a veces me encuentro con que muchas compañías están enfocadas a los Autobots no bien no puede ser ágil si tus procesos no están creados con una clara visión de orientación al cliente final porque eso es precisamente lo que es el valor andante que de manera más sutil de enlazar con con este discurso amigo de Castromán expidiendo.
+
+[00:17:58.780] 
+No no no no es ninguna sutileza ni es casual es que está todo relacionado es que la experiencia es la forma en la que tenemos que trabajar pues precisamente la centralidad del cliente a nivel de toda la organización de todos sus procesos de creación por tanto por tanto necesitamos identificar qué es valor qué es valor y sobre todo cuál es el flujo de creación de ese valor y esto no es ninguna movida friki inventada por los agilizarse listarse ni ni estoy hablando únicamente de creación de software estoy hablando de valor valor Elim Eldin tenemos el VSM el valio Stray mapping que es una técnica que se aplica a organizaciones monstruosamente industriales a fábricas a la fabricación a la creación de producto físico no estamos hablando únicamente de software.
+
+[00:18:59.050] 
+ El VSM el Balestra mapping es un mapeo de todos los pasos cómo lo explico tanto de tanto de ellos dicen de valor agregado como sin valor agregado requeridos para llevar un producto desde su fase de materia prima hasta las manos de los clientes.
+
+[00:19:22.090] 
+El foco pues suele ser mucho en el desperdicio muda palabra japonesa el UASD que utilizamos muy muy comúnmente en entornos ágiles y Sinkiang. Veamos entonces el valiese mapping decía se enfoca tanto en el material como en la información que supercrítico cómo fluye la información y cómo son esos procesos entonces cuando más veamos procesos nos damos cuenta de que son transversales al organigrama de la empresa no siguen las relaciones clásicas departamentales el orden no pasa si no sino que afectan a varios departamentos o funciones a la vez o desde comercial producción administración logística etc.. Es necesario dotar a la organización de una estructura de carácter horizontal siguiendo los procesos Inter funcionales y con una como decíamos con una clara visión de orientación al cliente final y esto no significa necesariamente que se anulen las funciones tradicionales de los distintos departamentos simplemente se trata de poner foco a las interrelaciones entre ellos.
+
+[00:20:43.460] 
+ Y ahí estamos de nuevo con la idea de la Crows funcionalidad verdad pero en fin este es un show son conceptos que se interrelaciona de mí. Es una discusión compleja y probablemente por eso cuesta que cale este discurso en algunos en algunos medios.
+
+[00:21:01.970] 
+El otro día escuchaba y me llama mucho la atención estoy muy de acuerdo con esta reflexión de César de la hora Maykel me hablaba de él decía Cómo puede ser que los FabLab todavía no no hayan explotado como se suponía que iban a hacer no ir y él hacía una reflexión muy interesante en el libro que está comentando en el podcast y hablaba de la del intelectualismo el intelectualismo. Yo pienso que es un mal endémico oculto y con muy poca visibilidad que tenemos en la sociedad es verdad y cualquiera que intente iniciar una conversación compleja con muchos parámetros que no tiende a la simplificación de las visiones y tal se va a encontrar con esta dificultad y probablemente esa es la razón.
+
+[00:21:50.230] 
+También que comentaba por la cual comentaba al principio no que me sigo encontrando todavía muchos clientes que vienen de pegarse un ostión con un piano con perdón con proyectos en cascada y para los cuales hay que hacer una labor didáctica extraordinaria no sólo para que entiendan cómo desarrollar cómo cómo hacer un diseño de su producto sino también para hacer la venta o sea vender un proyecto ágil es el 90 por ciento labor didáctica esto que estoy haciendo ahora mismo aquí en este podcast. La palabra el poder de la palabra del concepto de toda esta reflexión.
+
+[00:22:33.710] 
+ En fin volvamos de nuevo a esa idea inicial de entrega temprana y frecuenté de valor porque ahí es donde yo creo que allá él es realmente rompedor todas las metodologías ágiles están enfocadas a la entrega de valor en el contexto de allá pues se entiende el valor como software funcionando es decir en el contexto de Alloy un funcional no es valor si no es valor valor es lo que es valor para el cliente final y el cliente final sólo puede valorar el software funcionando. Recordemos el séptimo principio del Manifesto el software funcionando es la principal medida de progreso no Gant no una herramienta de pronóstico digamos estamos al 40 por ciento de esto que dijimos que íbamos a hacer el 40 por ciento no tiene ningún maldito valor si lo único que tiene valor es aquello que podemos poner en producción aquello que podemos entregar a aquello que el usuario puede utilizar aquello que podemos testear.
+
+[00:23:51.420] 
+ Esto es común a todas las metodologías ágiles no he entrado a hablar de distintas metodologías todavía tampoco sé si lo haré. No sé si hay interés por parte de la audiencia mira traslado esta pregunta a la audiencia. En cualquier caso sí que deciros por ejemplo que es Cram pues se habla de Sprint exclamã habla de Sprint sprint son esas esos períodos frecuentes de donde al final de los cuales hay una entrega de valor de software funcionando típicamente Experience de dos semanas en Kanban en Cashman por ejemplo lo que se trabaja es el flujo de la entrega de valor es decir es un flujo constante de entrega de valor pero ese valor ese valor se entiende de la misma manera si bien en Scream se trabaja con con historias de usuario y en Kamba no cambian no prescribe las historias de usuario se puede trabajar con tareas directamente el foco es esa entrega de valor y entendido valor como precisamente como algo deseable como algo como algo potencialmente publicable que el usuario puede usar y por lo tanto podemos aprender de ese uso.
+
+[00:25:12.140] 
+Es la forma en la que haya el tiene de comerse el elefante a cachitos no tú tienes un enorme proyecto lo puedes dividir como decíamos en el episodio 11 por el primero el análisis funcional de todo luego todos los Wilfried de todo luego todo el diseño los colorines y las tipografías de todo.
+
+[00:25:28.920] 
+Luego ta ta ta ta ta y al final programamos y desplegamos o lo puedes dividir por lo que se conoce como historias de usuarios o historias de usuario o son features que responden a funcionalidades que responden y satisfacen una necesidad de nuestro usuario.
+
+[00:25:48.270] 
+Pongo un ejemplo el ejemplo que suelo poner para explicar esto pues imaginemos que tenemos que hacer único Hummers pues en un comer podríamos tener por una parte la ficha básica de producto donde encontraríamos la foto la foto de producto con una breve descripción esto sería la ficha básica de producto o incluso podría tener el precio o si algo así podríamos tener una funcionalidad que interesa propia funcionalidad de esa historia de usuario de ficha de producto que fuese valoración de ese producto vivo de ese producto cuántas estrellitas tiene ese producto y esa funcionalidad pues podría incorporar otra funcionalidad que sea la de votar y así sucesivamente podemos iterar esas funcionalidades añadir complejidad en las mismas o incrementar la funcionalidad de esa ficha de producto.
+
+[00:26:47.210] 
+ De igual manera podríamos tener un listado de productos básico en el típico listado Grit de productos pues oye a lo mejor en la primera iteración sólo tenemos 15 productos pues basta con un listado básico con foto y nombre de producto tenemos suficiente pero es posible que en otro nivel de madurez del producto de preppers del proyecto tengamos 150 productos pues igual tendríamos que empezar a pensar en páginas web o en filtrar o aceptar y a partir de ahí vamos añadiendo funcionalidad de forma iterativa incremental.
+
+[00:27:22.130] 
+A mí me gusta mucho es muy famosa lo pondré en las notas del episodio ese es de nivel que yo siempre pongo en todas mis presentaciones. Ojo hablo de presentaciones hablo de presupuestos cuando yo presenté un presupuesto a cliente añado un slight que explica que es iterativo incremental y que no es iterativo incremental y en este es Enric que es un tipo muy lúcido. Pone el ejemplo si tú y tú tienes que satisfacer la necesidad de tu cliente de transporte tu cliente tiene la necesidad de transportarse imagínate 10 kilómetros cada día para ir a trabajar.
+
+[00:27:58.620] 
+ Bueno tú tienes la oportunidad de la primera iteración entregarle una rueda en la segunda entregarle las cuatro ruedas unidas por sendos ejes y un cigüeñal. En la tercera pues joder qué técnico me he puesto con el cigüeñal. Yo creo que he acertado. No sé muy bien qué es un cigüeñal pero me da la sensación de que si en la tercera iteración decía pues igual pues podrías entregarle esas cuatro ruedas con los dos ejes con el cigüeñal con el chasis digamoslo en la cuarta le podrías añadir los asientos en la quinta el motor y el volante y los pedales.
+
+[00:28:33.650] 
+ No es hasta la quinta iteración cuando estamos recibiendo valor porque a mí no me sirve para nada no me sirve para absolutamente nada tener cuatro ruedas con un chasis por muy protegido del frío que esté fino y con unos asientos muy cómodos que sean y por muy bonito que sea el diseño del coche no me sirve para absolutamente nada cuando mi necesidades poder transportarme e ir a trabajar a 10 kilómetros de mi casa en un vehículo digamos generic nivel explica lo que significa de verdad iterativo incremental diciendo es que en la primera iteración te voy a entregar un patinete o un monopatín un monopatín te voy entrenando y en la siguiente te voy a entrenar de nuevo que ya se llaman ahora un patinete de toda la vida con su con su manillar y tú vas a ir un poquito más cómodo que con el monopatín.
+
+[00:29:29.720] 
+Y es un poquito más precario pero es que a lo mejor en la siguiente iteración pues a lo mejor puedo cambiar las ruedas poner un par de ruedas más grandes incluso un asiento y puede ser sentado en ese monopatín y a lo mejor en la siguiente le podemos añadir unos pedales con una cadena que vaya y entonces no tienes que ir pateando el suelo cosa que es muy incómoda sino que le podemos añadir incluso unas marchas a esa cadena y al final vas a tener una bicicleta y la siguiente iteración le podemos añadir un motor eléctrico a esa bicicleta y la siguiente un motor mucho más potente de gasolina por ejemplo y acabas teniendo una motocicleta así hasta que en la última iteración te voy a entregar un coche funcionando en cada una de esas iteraciones yo te voy a entregar valor funcional valor funcionando y esto para mí es muy clave no comerse el elefante a cachitos en exclamã hablamos de historias de usuario.
+
+[00:30:25.700] 
+La gracia de esto es cómo hacemos para que un equipo multidisciplinar trabaje conjuntamente los VX los los.
+
+[00:30:37.170] 
+Uy Dessalines o virreinales. Los frontenis los vaqueros la gente de contenidos los copies. La gente de marketing. Cómo hacemos para entregar valor de forma iterativa incremental cada dos semanas o semanas.
+
+[00:30:54.320] 
+Por ejemplo en random los equipos entregan valor a cliente en aquellos proyectos donde digamos entregamos por Prince al cliente entregan valor cada dos semanas pero nosotros tenemos sprints internos de revisión de Rivi o de planificación de una semana por ejemplo o sea al final no se trata de seguir un libro no se trata de coger el manual de scrap y seguirlo a pies juntillas porque es que son 16 páginas se crean escarnecidos y las crean os lo podéis leer en media hora.
+
+[00:31:34.730] 
+No se trata de eso no se trata de entender qué significa valor cómo podemos organizar nuestra estructura formal informal para poder optimizar precisamente ese flujo de creación de valor.
+
+[00:31:50.660] 
+No sólo esos outputs sino también ese ACOM final donde claro cuál es la ventaja de todo esto. Un poco como.
+
+[00:32:00.890] 
+Como cierre del episodio vale como cierre del episodio de esta reflexión acerca de la entrega de valor frecuenten cuál es la ventaja de hacer entregas frecuentes y tempranas de valor.
+
+[00:32:19.040] 
+Puedes saber sin ser muy imaginativos. Lo más obvio es que si hacemos así las cosas vamos a poder testear y recibir feedback constantemente. Y esto no es esto.
+
+[00:32:35.000] 
+Esto es brutal la diferencia que yo pueda empezar a testear una propuesta de valor si se entiende lo que estoy ofreciendo. Si la gente está interesada en mi producto y lo compra o no lo compra desde la primera iteración verdad porque además podemos ser muy inteligentes y decir oye vamos a hacer que en la primera iteración vamos a ordenar la entrega de valor por lo que vamos a hacer primero lo que más valor aporta a nuestro cliente y vamos a dejar para iteraciones futuras aquello que menos valor le entrega. Entonces de esta forma podemos testear lo que es más importante lo que más valor tiene y más retorno de valor tiene para nosotros lo podemos testear muy pronto al inicio porque al final de cada iteración vamos a tener algo funcionando que es verdad que no va a ser tú y comeros completo no va a ser tú tu súper y como es con toda la funcionalidad de comer pero os digo en random hemos hecho y comerse en cuatro sprints hemos hecho el lanzamiento de un producto industrial de venta de un producto de moda en cuatro sprint cuatro exprimes en dos meses hemos entregado un comercio donde ya el cliente podía comprar de punta a punta podía entender cuál era el catálogo de producto entrar dentro de una ficha de producto comprar pagar hacer el check out y recibir ese producto en su casa.
+
+[00:34:01.250] 
+ Y esto nos ha permitido ir integrando ese comercio haciendo test de usuario haciendo incorporando el feedback del Gold Center de las llamadas de atención al cliente ir incorporándolo e ir diseñando ese producto maximizando el valor que entregábamos a exprima al cliente. Por lo tanto la primera ventaja y la número 1 en la que yo pongo por encima de todo es el testeo y la recepción de citas sobre lo que estamos haciendo. No esperamos al final a tener todo el ecommerce hecho para lanzarlo y ver si lo que hemos hecho tenía sentido o no tenía sentido si el nuestro usuario lo necesitaba no lo necesitaba.
+
+[00:34:43.730] 
+ En definitiva si le aportaba valor la segunda ventaja que quiero destacar es que trabajando de esta forma trabajando de forma iterativa incremental enfocándonos a la entrega de valor iterativa incremental con entregas frecuentes y tempranas de valor el cambio es bienvenido el cambio es bienvenido.
+
+[00:35:03.590] 
+Por qué.
+
+[00:35:04.430] 
+Porque el cambio va a venir va va a estar mucho más controlado va a ser mucho menos arriesgado vamos a minimizar los costes del cambio precisamente porque vamos a poder testear cada uno de esos sprints cada una de esas entregas de valor y es muy raro que de repente tengamos que pivotar absolutamente todo y tengamos que tirar todo lo que hayamos hecho a la basura o nos demos cuenta de que una decisión que tomamos seis meses no sirva para nada que eso es lo más probable que te pase en un proyecto en cascada que desde que empiezas a conceptualizar lo hasta que lo llevas al mercado no puedes validar no puedes testear no puedes recibir recibir esa feedback que comentábamos y por lo tanto hacer un cambio en un proyecto así en cascada tan largo y tan tedioso y tan Wangchuck es una apuesta a un solo disparo es carísimo porque tienes que volver a arrancar todo el proceso.
+
+[00:36:02.380] 
+ Aquí el cambio es bienvenido porque realmente estamos dando Beibis steps pasitos poquito a poquito vamos añadiendo valor a nuestra aplicación y entonces podemos el cambio y los cambios que vayan a venir van a ser sobre una parte pequeña de ese valor que hemos ido acumulando entregando de forma iterativo incremental.
+
+[00:36:23.590] 
+La tercera ventaja que quería comentar es obviamente el time to market.
+
+[00:36:28.240] 
+Si somos capaces de imaginaros que ese comercio que decíamos antes no es tal sino que en el primer sprint soy capaz de entregarte una landing page con la foto de tu producto con una descripción muy bien hecha de tu producto porque ojo ahora quedado muy bien hecho aprovecho para decir que Iterativo Incremental no quiere decir que te voy entregando mierda y que te lo acabo haciendo bonita de aquí a 4 sprint no al final de cada iteración te voy a entregar software potencialmente publicable. Por lo tanto tiene que estar perfecto de cara al usuario si se lo voy a publicar al usuario no tiene que tener bugs no tiene que ser feo tiene que ser sencillo lo suficientemente sencillo para que aporte el máximo para maximizar esa entrega de valor pero no quiere decir que vaya a ser feo o chungo de acuerdo.
+
+[00:37:18.690] 
+ Entonces imaginaos yo cómo plantearía si queremos validar si queremos lanzar un comercial pero no tenemos claro si el producto que estamos lanzando va a tener aceptación en el mercado. La estrategia más inteligente desde mi punto de vista sería Oye vamos a empezar haciendo una landing page una página de aterrizaje o que esa página de aterrizaje sea una plantilla que yo manualmente luego pueda subir distintos productos pero cada uno de ellos con una página y voy a hacer campañas segmentadas que me aterrizan en el salãn. Y en esa Landing lo único que voy a tener es la foto del producto el texto que acompañe los beneficios del producto el precio y poco más y poco más y un cliente insiste en si quiere saber si para ti es importante el feedback del usuario para poder definir si ese producto el pricing etcétera acceder a los filtros necesarios que te quepan en un sprint que te quepan.
+
+[00:38:19.350] 
+Me refiero desde el punto de vista de tu de tu de tu capacidad de producción de tu capacidad de desarrollo que eso dependerá de muchas cosas dependerá del contexto tecnológico dependerá de el expertise de los miembros del equipo de la cantidad de personas que haya etcétera no de muchos parámetros.
+
+[00:38:40.560] 
+Si yo soy capaz de validar en la primera iteración en dos semanas de que mi producto tiene aceptación en el mercado. Hostia no tengo que esperarme seis meses a validar esto y si no lo válido siempre estoy a tiempo de pivotar y probar si ese mensaje Qué es lo que no se entiende me puedo ir a testear puedo salir a la calle puedo coger el móvil puedo decirle a la gente oye te comprarías esto o puedo hacer una campaña lo que decía una campaña de algo es una campaña en Facebook que valide si realmente tengo un público objetivo que gastaría el dinero en ese producto antes de ponerme a desarrollar todas las fotos de único mes que puede ser complejísimo único puede tener desde un buscador de producto avanzado y gastado hasta puede tener un mapa de tiendas donde puedo encontrar el producto en tiendas físicas puedo tener una conexión con el zapote con el CRM puede tener una parte de intranet un historial de pedidos imaginaos lo complejo que puede llegar a ser único.
+
+[00:39:40.410] 
+ Si yo tengo una forma de validar que lo que el valor final que quiero entregar que es mi producto se va a entender el usuario el cliente lo va a comprar lo entiende. Entiende la propuesta de valor diferencial etcétera.
+
+[00:39:55.950] 
+Yo voy sobre seguro. Yo voy con el rigor de saber que estoy disminuyendo los riesgos de la inversión y no sólo eso sino que voy a tener la oportunidad de empezar a competir antes.
+
+[00:40:11.880] 
+Si es verdad no tendré ni comer con todo lo que necesito pero a lo mejor puedo suplirlo con mucha gestión manual Telefónica lo que sea o con una plataforma externa de ayuda hasta que no sea capaz es lo que sea. Ahí entra es parte de la estrategia hay que entender bien el medio y saber por dónde empezar y hacia dónde ir. Por lo tanto ventajas habíamos dicho testear y recibir feedback constante. El cambio es bienvenido.
+
+[00:40:38.520] 
+La tercera ventaja era el tantu Market y la última ventaja que tienen mucho que ver con con todas las anteriores. Para mí es la capacidad de disminuir riesgos sobre desarrollo puedo sobre desarrollo que significa no muchas veces. Si tú te planteas un proyecto en cascada un pleito ágil donde haces toda la definición funcional al principio la vas a cagar te vas a equivocar. Sabéis que el 60 por ciento de las funcionalidades de un software no se utilizan nunca.
+
+[00:41:13.230] 
+No se utilizan jamás. Nuestros usuarios no las van a utilizar. Muchas veces estamos haciendo sobre desarrollo no estamos manteniendo la simplicidad al máximo y por tanto minimizando esos riesgos. Entonces si yo desarrollo de una forma ágil si yo entrego valor de una forma ágil iterativo incremental puedo parar de invertir en cualquier momento. Si considero que he alcanzado suficiente retorno de valor puedo parar al cuarto esprín cuando ya tengo y comer es básico. Si me doy cuenta de que añadir dos es Prins más para enriquecer la funcionalidad con cosas que a lo mejor son commodity me lo puedo ahorrar y me ahorro treinta o cuarenta y cinco mil pavos o lo que sea lo que cueste tres es Prins o dos o dos exprimieron.
+
+[00:42:06.630] 
+ En definitiva yo lo que puedo hacer es en un momento dado decir hasta aquí no me compensa seguir invirtiendo. De momento y eso me da una capacidad brutal especialmente cuando cuando cuanto más importante yo veo que es allá él es Cuanta más incertidumbre hay dentro del proyecto verdad.
+
+[00:42:30.330] 
+El problema de esto es engañoso es falsamente falsamente explícito.
+
+[00:42:36.420] 
+Esto que acabo de decir porque muchos clientes llegan a RAM ROM creyendo que saben exactamente lo que necesitan porque muchas veces pensamos que nosotros sabemos lo que el cliente necesita y en la mayoría de esas ocasiones lo que me encuentro es que ni siquiera le hemos preguntado al cliente qué es lo que necesita.
+
+[00:43:03.230] 
+Ni siquiera hemos invertido tiempo en hacer entrevistas para descubrir insights de usuario campaigns momentos de la verdad. Y entender bien su Journey para entender cómo podemos maximizar esa entrega de valor. Dónde está. Dónde están los momentos críticos. Cómo podemos ayudarle al máximo.
+
+[00:43:26.850] 
+Verdad en fin amigos que queda mucho trabajo por hacer todavía. Decía al principio del episodio me parece mentira que estamos a punto de llegar a al 2020 y todavía me encuentro verdaderas aberraciones verdaderos cadáveres en algunos proyectos hechos en cascada y no pensando en la entrega de valor sino en el ataúd en el ataúd en vez de en el acto y hasta aquí amigos este episodio de mi podcast en el mundo real el podcast sobre la experiencia de cliente y negocio digital.
+
+[00:44:08.930] 
+Muchísimas gracias por escuchar. Ya sabéis que para mí es súper importante saber qué pensáis que os aparecido os ha aportado algo y especialmente ahora que me voy a tomar un período de reflexión. De verdad os pediría por favor que si tenéis alguna experencia relacionada o simplemente un feedback que queréis dejarme de cara a la siguiente temporada próximos episodios. Pues ya bien sea con un comentario en la página del episodio que os recuerdo que es Carlos Iglesias punto info barra 00:14 donde por cierto os voy a dejar pues como siempre un montón de recursos de utilidad documentación de referencia del episodio etcétera.
+
+[00:44:47.180] 
+ O mejor aún mejor aún por lo que os explico siempre cuando cuanta más likes tengo en noitebús se vuelve a explicar cuanto más interacción cuantos más comentarios me deejays dentro de estas plataformas. Sabéis que estas plataformas son esas señas esas señales sociales que diría Marx esas señales sociales son las que las que les ayudan a entender a qué podcast deben dar más o menos visibilidad. Para mí sabéis que esto es súper importante. Esas estrellitas esos likes me van a ayudar a ganar esa visibilidad que sabéis que necesito para ampliar más todavía esta gran conversación que espero tener espero mantener con todos vosotros oyentes.
+
+[00:45:33.560] 
+Un fuerte abrazo y os espero en la próxima temporada de En el mundo real.
+

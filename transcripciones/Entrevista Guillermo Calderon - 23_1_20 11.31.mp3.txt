@@ -1,0 +1,177 @@
+[00:00:00.290] 
+Y aquí nos encontramos en las oficinas de Generali, en el centro de Madrid con Guillermo Calderón.
+
+[00:00:08.280] 
+Muchísimas gracias Guillermo por estar en mi programa. Gracias a ti Carlos por la invitación. Es un placer. De verdad que te lo agradezco porque sé que vas de bólido, que acabas de llegar de Zaragoza. Estamos aquí en precario, con la agenda que te agradezco de barato tiempo y la generosidad de compartir. Te conocí en un evento de Customer Experience de Medallia y me encantó tu charla en una charla súper interesante porque conectaba así. Ven pocas veces charlas donde se conecte, métricas de experiencia, de cliente, la experiencia de negocio con perdón, con impacto en negocio y me pareció súper interesante, y eso es un poco el primer motivo por el cual me interesaba entrevistar de verdad.
+
+[00:00:53.740] 
+Pero de alguna manera yo creo que tú puedes aportarnos una visión muy, muy transversal. Tienes un montón de ideas, tienes mucha experiencia, llevas más de diez años en Generali y muchos más, muchos más.
+
+[00:01:08.520] 
+Estoy encantado de ello, pero mucho más de vender. Tengo una vida paralela.
+
+[00:01:14.450] 
+También ejerces como profesor que no paras tampoco, no es verdad.
+
+[00:01:21.060] - Carlos Iglesias
+Cuéntanos un poquito en qué consiste tu trabajo. Actualmente eres director de experiencia de cliente y experiencia de distribuidor en Generali. ¿En qué consiste tu trabajo y cómo has llegado a hacer lo que haces en estos momentos? 
+
+[00:01:36.410] - Guillermo Calderón
+Te agradezco mucho que hagas esa pregunta, porque es verdad que ahora mismo el puesto de experiencia de cliente e incluso la experiencia de distribuidor no es fácil verlo en muchas organizaciones y aquellas en las que tenemos este rol, esta posición, pues cada uno cuando me junto en determinados eventos como el que comentas o en otros, pues tenemos un background completamente distinto o tenemos unas funciones bastante diferentes. Yo vengo desde que entré en la compañía de contacto con clientes y contacto con mediadores, entré como responsable de formación comercial, estuve siempre en contacto con los distribuidores, después fui responsable de atención al cliente, después he sido director territorial en toda la zona norte, llevando equipos comerciales tanto de distribuidores, agentes y corredores como obviamente del propio equipo comercial, muy cerca del cliente.
+
+[00:02:34.050] 
+Después he sido director de agentes cuando se fusionaron Estrella y Vitalicio, que es lo que ha constituido Generali como grupo en España. Generali es un grupo italiano líder en Europa desde un punto de vista de seguros. 
+
+[00:02:47.720] 
+La compañía, cuando comenzó todo este boom de las nuevas tecnologías, de internet, de la optimización que podías realizar de las nuevas tecnologías como medio para hacer más eficientes a nuestros equipos comerciales y para dar un mejor servicio a nuestros clientes, pues decidió constituir una dirección de transformación digital que tuviera un componente muy de front con los clientes y con los mediadores. Esa posición en muchas entidades tiene un componente más de back, de IT, de organización. En nuestro caso, ese componente de transformación digital se lo pusimos a todas aquellas herramientas que hacían que nuestra red de distribución o nuestros clientes pudieran interactuar de una manera más sencilla, más rápida, más satisfactoria y eficiente con la compañía. 
+
+[00:03:39.710] 
+Entonces, ya en mi etapa de director territorial, yo con el equipo que tenía, creamos muchísimas herramientas informáticas bases de datos, gestión de oportunidades con Excel, con bases de datos de Access, que en aquel momento era novedoso, pero que nos ayudó a conseguir muchos objetivos comerciales. Y Santiago Villa consejero delegado de Generali, vio que había una oportunidad clara de que esos elementos permitieran esa eficiencia de la red y empezamos a construir portales para los clientes, portales para los mediadores, aplicaciones que permitieran con un solo clic acceder a las actividades más importantes de la red o que a los clientes les permitiera hacer las acciones más importantes, como consultar una póliza, pedir un reembolso de salud, una autorización, una asistencia en carretera con un vehículo... y todo este parangón de distintas herramientas y capacidades digitales es lo que empezamos a construir desde esa dirección de transformación digital.
+
+[00:04:45.750] 
+A la vez a nivel de grupo, se planteó en el año 2014 un proyecto novedoso que era el desarrollo de la experiencia de cliente desde la utilización de herramientas de software que permitieran medir la voz del cliente no de una forma relacional, es decir, con una encuesta al año, sino de una forma transaccional, es decir, cada vez que ocurre un evento, preguntamos a nuestros clientes 24 horas después. Y claro, el elemento de cambio de la organización que ha supuesto escuchar al cliente cuando pasa algo, cuando contrata, cuando renueva, cuando tiene un siniestro, tiene un problema, cuando tiene que hacer una gestión sobre una capacidad digital... Esto nos ha enriquecido de tal forma que realmente ha cambiado la compañía hacia eso que tan de moda está de customer centric. Realmente cuando tú escuchas al cliente y tienes más de 500.000 respuestas como tenemos desde que empezamos, no hay mejor consultor que tu propio usuario diciéndote qué partes de tu proceso, qué parte de tu producto no funciona. 
+
+[00:05:56.040] 
+Con lo cual ahora estamos ya constituidos tanto en esa experiencia de cliente como en esa experiencia de distribuidor. Tenemos un importante equipo, somos muy transversales dentro de lo que es la compañía, apoyando y ayudando a todas las áreas, al área de los call centers, al área comercial, al área técnica y la verdad es que creo que ha sido un gran acierto el hecho de que hayamos constituido esta dirección tanto a nivel central, es decir, en el grupo, donde este programa está ya implantado en todos los países de Generali a nivel mundial.
+
+[00:06:24.510] - Carlos Iglesias
+¿Cuántos son más o menos? 
+
+[00:06:25.900] - Guillermo Calderón
+Pues mira, ahora mismo estamos hablando de que se han hecho más de 20 millones de encuestas y hay más de 64 países del grupo que ya tienen puesto lo que es el proyecto de customer experience en marcha. Esto nos está dando un valor enorme desde un punto de vista de transformación, incluso de gestión del cambio interna de los propios empleados, no solamente de los procesos, de los servicios o de los productos. 
+
+[00:06:54.310] - Carlos Iglesias
+Creo que las palabras transformación digital de alguna forma se perciben como una amenaza. Sin embargo, experiencia de cliente es un poco la oportunidad. Para mi la experiencia de cliente da un propósito a la compañía. ¿Qué opinas de esto?
+
+[00:07:27.360] - Guillermo Calderón
+Me parece totalmente acertado. Si tú cada vez que ante una interacción de un cliente obtienes por parte del cliente una respuesta inmediata que te valora con un 10 o un 9 en ese proceso o en esa interacción concreta, y esa puntuación es conocida por todos los ámbitos de la compañía que están involucrados en esa interacción, el elemento motivacional que supone respecto a todo el equipo que está dando ese servicio es enorme. Y por otro lado, si te ponen un cero, no hay nada como ir a una reunión del consejo de administración o del equipo directivo al más alto nivel, y no ser tú quien le dice a otro compañero cuál es el problema que hay en un proceso determinado. Si no que vas allí dices: "es que el proceso este deberíamos retocarlo porque tenemos 252 clientes que están diciendo que esto no va". La capacidad de movilización y de aceptación de que hay que hacer un cambio basada en la opinión de 252 clientes que te han puesto un cero es irrebatible, se acaba la discusión. Ha facilitado que los procesos estén en permanente mejora continua, porque están basados objetivamente en opiniones de clientes cuando están realizando justamente la interacción.
+
+[00:09:01.000] 
+Eso ha revolucionado la forma en la que modificamos incluso y elegimos los proyectos o las iniciativas sobre las cuales vamos a trabajar, porque nos permite tener un elenco enorme de iniciativas que con una matriz de impacto y de coste vamos permanentemente implementando en todos los ámbitos, desde informática hasta el servicio de atención al cliente, en producto... en todos los ámbitos de la compañía.
+
+[00:09:30.540] - Carlos Iglesias
+Qué maravilla! Decías que habíais arrancado como hace unos tres años, el proyecto de Customer Experience
+
+[00:09:37.540] 
+El grupo empezó en 2014 con este proyecto de NPS y con la integración del software que permitía hacer las encuestas y escuchar a los clientes. Y en España actuamos como país piloto. Nos encanta ser país piloto en todos los proyectos de digitalización. Y eso nos ha permitido, por un lado, tener ya una implantación muy grande, con una experiencia bastante elevada y por otro lado también actuar como elemento de evitar los errores que nosotros cometimos, en otros países, en otras implementaciones. 
+
+[00:10:24.560] - Carlos Iglesias
+Le das mucha importancia a las herramientas. Creo que las herramientas en vuestro caso os han ayudado un montón a poner en valor, a captar la voz del cliente en tiempo real, a llevar eso a las conversaciones, a llevar esas conversaciones a comité de dirección, a tomar decisiones a través de ellas. Siempre escucho una discusión cuando se da una transformación, sobre dónde ponemos el foco: si en herramientas, si en la cultura, en los valores. ¿Cuál es tu visión respecto a esto, cuánto crees que es responsabilidad de las herramientas esta transformación que habéis tenido hacia la Customer Centricity? 
+
+[00:11:13.330] - Guillermo Calderón
+Esta es una gran pregunta. Yo creo que la herramienta, como su propio nombre indica, es un medio con el cual tú consigues un fin. Yo creo que lo critico aquí es que desde el más alto ámbito de la compañía se esponsorice este proyecto y se presione en su implementación para que de alguna manera fluya de forma ágil y rápida respecto a todos los stakeholders de la compañía.
+
+[00:11:38.210] 
+Si el CEO de la compañía es el que coge la bandera y dice esto hay que aplicarlo y vamos a hacerlo y hay reuniones de forma periódica y permanente donde se está viendo cuál es la evolución del proyecto y eso va calando desde arriba hasta abajo de la organización, es evidente que con el empuje del consejero delegado se consigue un cambio cultural importantísimo. Y eso yo diría que es el 60 por ciento, quizá más, de lo que es la implantación de un proyecto de estas características en una gran compañía. 
+
+[00:12:15.740] 
+Ahora bien, es importantísimo contar con una herramienta que te permita preguntar al cliente a las 24 horas de que se ha producido la interacción. Es importantísimo que eso se aglutine y se presente en un dashboard que sea fácil de seguir y falta interpretar por todos los stakeholders que están interviniendo.
+
+[00:12:36.770] 
+Es importantísimo que esa herramienta permita de una manera muy estandarizada, el conocer la evolución de cada uno de los touchpoints que estás midiendo con las preguntas que realizas, porque te permite ver una evolución sobre preguntas similares sobre valores similares. Todos sabemos que el NPS como tal, uno de sus principales valores es la posibilidad de comparación sobre una pregunta específica de distintas compañías de un mismo sector o incluso distintas compañías de distintos sectores y, por tanto, el valor de la herramienta, el valor del concepto NPS es muy importante en ese sentido.
+
+[00:13:22.010] 
+Pero vuelvo a reiterar que desde mi punto de vista es muy, muy importante, además de la herramienta, que es el medio con el que haces el cambio cultural, el tener desde arriba, desde el CEO de la compañía, la mentalidad y el interés de que realmente la compañía cambie escuchando al cliente, que en nuestro caso es el cliente final, obviamente, pero que también es el mediador que actúa dando ese servicio al cliente que hace que esté satisfecho.
+
+[00:14:04.840] - Carlos Iglesias
+¿Cómo ha sido este proceso de creación de estos journeys y dónde estáis ahora en este sentido?
+
+[00:14:11.570] 
+Nosotros ahora estamos viviendo un momento que yo estoy convencido que es de los momentos más complicados y más complejos de gestionar, porque tenemos clientes de 75 años que utilizan nuestros servicios en pólizas de ahorro, jubilación, en pólizas de hogar, en pólizas de vehículos, de enfermedad, de accidentes, que tienen unas demandas y un customer journey muy tradicional. Es decir, que le gusta que haya una persona que le atienda en una sucursal, un agente. Y a la vez tenemos clientes de 24 - 25 años que quieren hacerlo todo a través de aplicaciones, que quieren no tener que llamar a nadie, sino de alguna manera tener la información y la capacidad de interactuar con la compañía por sí mismos. Y claro, el desarrollar sistemas y procesos de interacción para esa tipología de cliente totalmente tradicional, al cliente totalmente digital, con clientes híbridos en medio que empiezan por Internet, pero que quieren ante un siniestro tener alguien con quien hablar, pues construir suficientes customer journeys con suficiente valoración positiva desde un punto de vista de NPS, ha sido un grandísimo reto. Diría incluso de saber seleccionar por qué empezar y cómo empezar. 
+
+[00:15:53.990] 
+Nosotros, como llevamos ciento y pico años en España, ya desde un punto de vista de lo que es el cliente tradicional, pues tenemos muy trabajado lo que es el customer journey de un cliente que quiere ver a un mediador, que quiere sentarse con un agente que le dé un asesoramiento tanto en la venta como en el servicio, y nos focalizamos en buscar la máxima posible creación de customer journeys para clientes híbridos y digitales que quieren empezar en un canal tradicional pero qué quieren hacer ellos muchas de las interacciones con la compañía, o aquellos que todo lo quieren hacer con la compañía. Nuestro principal foco ha sido desarrollar una herramienta, un portal de cliente responsive, que puede ser utilizado desde la web de la compañía o puede ser utilizado desde un smartphone, y que permita que un cliente pueda hacer el 90 por ciento de las posibles interacciones que pueda tener con la compañía. Eso nos ha hecho dibujar esos distintos customer journeys desde lo tradicional a lo digital, con todos los distintos canales de posible interacción del cliente, que es una sucursal que tiene una agencia, que es el móvil, que es la web. Y ahora mismo tenemos 283 customer journeys pintados. 
+
+[00:17:12.170] 
+¿Los tenéis en digital o tenéis alquilado el Museo del Prado para colgarlos de las paredes? 
+
+[00:17:21.070] 
+Están construidos porque, claro, debemos tener en cuenta que un customer journey tal como nosotros lo concebimos puede ser desde darse de alta en la propia aplicación en Mi Generali que tiene muy pocos pasos o touchpoints de interacción del cliente, hasta abrir un siniestro de un choque con el vehículo que, desde un punto de vista digital, tiene muchas más pantallas, tiene más interacciones, tienen terceros intervinientes que también tienen que estar dentro de ese customer journey. Tanto es un customer journey darte de alta en Mi Generali, como una vez dado de alta, abrir un siniestro digitalmente a través de la aplicación. Y eso es lo que hace que haya esos 283 casos que están divididos entre lo que es la web de la compañía, la web de los agentes, el propio portal del cliente Mi Generali y las acciones que puede hacer un cliente de reclamacion a través de redes sociales, por ponerte un ejemplo, que también es otro de los customer journeys que tenemos pintado. 
+
+[00:18:24.960] - Carlos Iglesias
+¿Esto ha sido algo orquestado? ¿Cómo habéis repartido el mapeo de los journeys?
+
+[00:18:40.370] - Guillermo Calderón
+Totalmente, es decir, así como el concepto, la herramienta, los touchpoints que se quieren medir es algo que es global y que está aplicándose a nivel internacional en todos los países en los que Generali tiene presencia, los customer journeys concretos de interacción de los clientes son normalmente muy locales porque el proceso. Por ejemplo, la asistencia en carretera digital que tenemos nosotros en España, puede asemejarse con el de Francia, pero es muy distinto al de Indonesia o es muy distinto al de Argentina. Entonces al final los propios customer journeys de proceso de digitalización, aunque la herramienta Mi Generali la hemos construido en España y es la herramienta que se ha tenido como base para el resto de países, las peculiaridades del negocio en cada país hacen que construyas customer journeys más locales o más asociados a cada uno de los países. Pero sí es importante decir que igual que es muy importante que el CEO sea quien esponsorice el proyecto desde el principio, es tan crucial o más que todas las áreas, desde el minuto uno, construyan de forma conjunta los customer journeys. Esto no es una tarea que tiene que hacer el departamento de marketing o el director de Customer Experience. Esto con metodologías Agile, se trata de poner en una mesa al señor del ramo de salud, al señor del Centro de atención al cliente que tiene que atender al cliente de salud, al señor que ha construido el producto de salud y que lo conoce desde un punto de vista técnico, a la gente que lo vende, a un director de sucursal, al señor de legal, al señor de comunicación que después tiene que crear el folleto... y que entre todos y con sprints muy definidos, construyamos el proceso de asistencia en Carretera Digital. Vienen los señores de Europe Assistance, el señor del Call, el señor de autos, nos sentamos en una sala, empezamos a pintar como deberían ser los pasos y procesos que debe tener un cliente cuando está en la carretera. Después lo llevamos a Haití, nos sentamos ya en esa misma reunión con el primer prototipo, Haití está viendo si eso se puede construir o no, qué implicaciones tienen. Es absolutamente crítico que toda la compañía participe en la construcción de los customer journeys, porque es la manera de que todo el mundo sienta que ha participado en la creación de ese proceso y de que desde el minuto uno todo el mundo entienda que ese es el proceso más adecuado para dar ese servicio, en ese punto concreto. Esto es crítico.
+
+[00:21:35.340] - Carlos Iglesias
+Lo repito mucho. O el Journey es co-creado o es un póster bonito en la pared.
+
+[00:21:48.620] 
+Es una expresión estupenda. Yo creo que es tal cual. Y en vuestro caso yo subrayo varias cosas de las que has dicho: estoy escuchando cross-funcionalidad, transversalidad, commitment de todas las áreas, pudiendo aportar, subiéndonos al autobús en el momento de la cocreación; pero sobre todo estoy escuchando incorporar al cliente a la conceptualización, a la ideación, a la priorización y al testeo, y trabajar de una forma ágil por sprints, con entrega continua, pero que te permita incorporar el feedback del cliente para saber si la estás cagando o estás haciendo lo correcto o estás ofreciendo la solución que necesitabas. Me da la sensación de que es parte de vuestro éxito.
+
+[00:22:40.650] - Guillermo Calderón
+Totalmente, vamos. De hecho tienes que ir haciendo prototipos y MVPs que vayan siendo siempre testados. Tenemos metodologías con la cual medimos en proyectos digitales cómo interactúan un número determinado de clientes con el prototipo en InVision de lo que vamos a lanzar, les ponemos unas gafas y vemos dónde están mirando en las pantallas y qué están haciendo. Si tienen algún problema para detectar algún botón que es importante en el customer journey y si entienden el texto de lo que se les está poniendo. Y eso nos ha permitido antes de lanzar muchas cosas mejorar notablemente. Te pongo un ejemplo reciente, nosotros poníamos en un botón para todo lo que es el customer journey de salud "guías médicas" y muchos clientes no entendían qué es una guía médica. Tuvimos que poner "cuadro médico" porque eso sí que lo entendían. Pero bueno, como tenemos guías de talleres, tenemos oficinas, pusimos el mismo nombre y los clientes no lo entendían y eso lo detectamos porque no eran capaces de clicar en la app porque no sabían que ahí lo que estaba era el cuadro médico con los distintos profesionales o doctores que tenemos a nivel nacional.
+
+[00:23:53.700] 
+Estas pequeñas cosas, que tú las creas, las pintas y no caes en ello, pues al final si tú no lo testeas, si tú no lo co-creas con los propios clientes, puedes cometer graves errores que son mínimos desde un punto de vista conceptual, pero que son muy importantes en lo que es la usabilidad y el uso de los procesos.
+
+[00:24:15.210] - Carlos Iglesias
+Me ha sorprendido este acercamiento tan ágil o desde el UX hacia el CX o de UX  (experiencia de usuario) como parte de la experiencia de cliente.
+
+[00:24:34.000] 
+Porque es un poco de donde venimos nosotros en Runroom. Nuestra historia personal viene de hacer las cosas de forma Agile, de entregar por sprints, de incorporar el feedback, de enfrentarnos al problema de UX mientras estamos haciendo investigación de experiencia de usuario, estamos entregando software y estamos haciéndolo de forma iterativo-incremental. Me parecen conceptos clave que creo que muchas veces pasan desapercibidos y te agradezco mucho que los pongas encima de la mesa.
+
+[00:25:13.400] 
+Volviendo un poco a esa parte más "resultadista", hablaba el otro día con Marta Bazaco de Schneider Electric y decía que está tan claro ya que mejorar la experiencia de cliente va a hacer que tus clientes consuman más, va a hacer que tus clientes reboten menos, estén más tiempo contigo, te va a traer más recomendación, te va a hacer más eficiente... ¿Cómo puede ser que esto esté tan claro, tan demostrado y todavía que pocas compañías lo han visto y han abierto los ojos, han creído en ello y están apostando por ello? ¿Por qué crees que sucede esto?
+
+[00:26:03.360] - Guillermo Calderón
+Pues es otra de las grandes preguntas. Tú sabes que en las empresas, aunque queramos que no, sigue habiendo sus pequeños silos de formas de actuar, formas de entender el negocio que tienen que poco a poco ir evolucionando para ir juntas hacia un punto común. Los de marketing hemos sido los que estamos con el presupuesto variable, intentando conseguir satisfacción del cliente, que es difícil de medir y de cuantificar, frente a alguien de un ramo técnico que dice mire usted, la prima es tanto los siniestros son tantos, las cuentas tanto y aquí hay tanto margen en cada producto y en medio está el señor financiero que tiene que darle resultado a sus accionistas. Todo esto genera una dificultad para los ámbitos de marketing, para los ámbitos de experiencia, de cliente, respecto a la relación causa-efecto de mejorar el NPS. 
+
+[00:27:11.060] 
+Nosotros primero hemos cuantificado desde el inicio las iniciativas que vamos haciendo y hemos cuantificado desde el inicio que si el año pasado hicimos 59 iniciativas, hay tantas iniciativas para el touchpoint de contratación, tantas para renovación y tantas para el touchpoint de siniestros, y eso lo vamos midiendo en lo que es la evolución que el NPS ha tenido en esos tres touchpoints. 
+
+[00:27:37.850] 
+Algún dato: desde el 2016, que es cuando tengo datos ya con todo el programa completamente desplegado y con mucha experiencia, que nos permitía hacer esas reuniones periódicas, coger las iniciativas, priorizar las implementarlas, hemos pasado en el más importante de los touchpoints, que es el de servicio de siniestros de 38,4 puntos a 49 puntos en autos, 10,6 puntos más de NPS SNPs, que es una barbaridad. Si lo vemos en salud tenemos 53,4. Hemos crecido 18 puntos en NPS; en hogar tenemos 45,4, hemos crecido 16,3 puntos. Es decir que esta mecánica, esta metodología, esta forma de aproximarnos a la experiencia de cliente desde la medición y desde la implementación de iniciativas, es evidente que tiene un impacto. Primero, claramente en cuántos clientes nos ponen un 9 y un 10 cuando interactúan con nosotros en el elemento más importante, que es la promesa de servicio.
+
+[00:28:47.800] 
+Ya esto ya desde un punto de vista del consejo de dirección es objetivable, está medido, lo hace un software ajeno y se puede visualizar en un dashboard que todo el comité de dirección lo ve. Ahora bien, como tú decías, ¿esto cómo lo cuantificamos? ¿Qué supone tener 10% más de promotores dentro de esos ámbitos que acabamos de comentar? Nosotros quisimos ir un paso más allá y cuantificar eso desde un punto de vista de ROI, de beneficio.
+
+[00:29:24.530] 
+Lo que hicimos fue medir los niveles de retención, porque parece evidente que un señor que te ha puesto un 9 o un 10, lo normal es que el año siguiente contrate la póliza contigo y eso parece que es evidente que todo el mundo lo entiende y alguien te ha puesto un cero, pues está en riesgo de que se pueda ir de la compañía. Pero cuando tú lo pones con números (los promotores tienen este ratio de retención, los directores tienen este ratio de retención...) y eso lo elevas a ver cuál es el margen que te dejan los productos que tienen esos clientes y lo trasladas a un lifetime value, vas sumando euros que puedes aplicar a ese aspecto de retención, más lo que supone un cliente promotor contratando otro tipo de pólizas. Cuando tú le haces una oferta a un cliente promotor, la facilidad de que compra una segunda póliza frente a un cliente detractor es mucho mayor, con lo cual tienes otro efecto económico. También medimos cuántos de los clientes nuevos que vienen a la compañía vienen recomendados por otro cliente y sabemos qué porcentaje de los clientes de nueva producción son por recomendación de un cliente promotor. Entonces todo eso ya no es tan subjetivo.
+
+[00:30:42.500] 
+Es algo que está basado en ratios de negocio, de impacto de negocio clarísimo, y que permiten en esa mesa en la que están las áreas técnicas, los financieros, tener un discurso más cercano a su forma de ver el negocio y, por tanto, defender el efecto importantísimo que tiene en el negocio, en las cifras de negocio y en el margen, el que tengas un buen NPS en los puntos de contacto más relevantes.
+
+[00:31:12.840] - Carlos Iglesias
+Tu carrera respecto a customer experience está repleta de aprendizajes de muchísimo valor. ¿Qué hubieses hecho diferente? ¿Qué le dirías a tu Guillermo de hace cinco años?
+
+[00:31:48.920] - Guillermo Calderón
+Muchas cosas. Hemos aprendido mucho y hemos cometido obviamente, muchos errores. Yo no diría tanto errores de peso porque esto era nuevo y las posibilidades de cometer grandes errores no son muchas, pero sí que es verdad que podríamos haber ido mucho más rápido si hubiéramos hecho algunas cosas que creo que son valiosas. Por ejemplo, primero, el haber identificado efectivamente cuál es el impacto de NPS desde el minuto uno en estos ratios que te he comentado antes de negocio, porque nos habría ayudado a mejorar internamente la implementación más ágil y más rápida del proyecto. Porque al final tú tienes que pelear ante otras áreas de la compañía por horas de informática, tienes que planear por presupuesto y seguramente con esta información que ahora tenemos, hace tres años hubiéramos conseguido más recursos con los que implementar más rápidamente el proyecto. Pero es verdad que sí, que hemos tenido los recursos, por la esponsorización del CEO que nos han permitido avanzar muy rápido y conseguir las cifras que te comentaba antes. Quizá otro elemento que sí hubiera puesto desde el principio es una herramienta que llamamos Voices a disposición de todos los empleados, que permite visualizar todas las mañanas diez comentarios de clientes. Y esto hace empatizar a todo el mundo con lo importante que es escuchar al cliente, porque los que estamos en el ámbito comercial sabemos lo importante que es un cliente, pero que un señor del área financiera, un señor del área técnica, un señor de backoffice, sea capaz de vez en cuando de ver lo que un cliente está diciendo de su ámbito, te da esa cercanía al cliente que es muy necesaria porque todos, hagamos lo que hagamos, estamos involucrados en la satisfacción del cliente. De ese señor de contabilidad que está gestionando los recibos y hace que sea más ágil y haya menos devueltos, hasta el señor del área técnica que ha puesto una cobertura que realmente es muy valiosa para los clientes. Todos en la empresa estamos orientados a que el cliente esté satisfecho y el mediador esté satisfecho. 
+
+[00:34:16.190] - Carlos Iglesias
+Esto también es un tema recurrente: el poder de la empatía, cómo de poderoso es calzarse los zapatos del cliente o de otra área funcional de la compañía. Intercambiarnos los zapatos, entender dónde te duele a ti, cuál es tu perspectiva es poderosísimo. Yo creo que de hecho es una de las herramientas más poderosas que podemos utilizar los que trabajamos directamente con clientes y exponemos eso al resto de la compañía. Creo que ahí tenemos muchas palancas. 
+
+[00:34:54.990] 
+¿Cuáles han sido las principales dificultades que habéis encontrado por el camino a la hora de desplegar vuestro programa de CX?
+
+[00:35:08.100] - Guillermo Calderón
+Vamos a ver, por ejemplo, el hecho de que cuando tú pones en manos de un tercero y además con un componente tan tecnológico, la forma en la que mides o cuando tú estás recibiendo un número muy alto de posibles nuevas iniciativas que todo el mundo quiere implementar lo que te decía antes, eso lucha con los recursos ilimitados que tiene cualquier empresa. Entonces, cuando tienes que priorizar de alguna manera algo, dejas que no estás cubriendo y a veces la persona que te ha dado esa opinión o que se ha molestado en escribir un comentario o ha tenido una reunión trasversal en la que ha dicho "oye, tenemos este problema y deberíamos de cuanto antes solucionarlo" y tienes que decirle"este año caben 59 iniciativas y tu iniciativa es muy importante y lo sabemos, pero es que no podemos abordarla en el cuarto Q del año, tenemos que ponerla el primer Q del año siguiente.
+
+[00:36:16.690] 
+Claro, esto hay que saberlo gestionar, porque también genera cierta frustración. A todo el mundo que se ha gastado un tiempo en darte una opinión le gusta que eso que él ha aportado finalmente ayude a que la compañía mejore. No siempre podemos implementar todo lo que sabemos que deberíamos implementar, porque no llegamos, por las limitaciones de horas de informática o de recursos que obviamente cualquier compañía tiene. Ese quizá sea el elemento que más, entre comillas, pequeñas frustraciones genera.
+
+[00:37:03.690] 
+Es verdad que siempre explicamos, igual que mandamos un informe mensual donde decimos que iniciativas se van a llevar a cabo, las que están en evaluación y las que no vamos a implementar o vamos a retrasar, explicamos por qué; entendemos que es lo mínimo que podemos darle a quien ha hecho el esfuerzo de aportar su idea. Creo que es un elemento que, aunque no es suficiente, pero creo que es adecuado  para darle valor a lo que cada uno ha aportado.
+
+[00:37:33.210] - Carlos Iglesias
+¿A qué retos os enfrentáis? ¿Dónde tenéis la vista puesta de cara al futuro?
+
+[00:37:44.880] - Guillermo Calderón
+Por suerte siempre hay algo que mejorar, siempre hay una opinión de un cliente o un proceso que se puede mejorar y por tanto, siempre hay trabajo que hacer. Ahora bien, el reto es saber cuál es el trabajo que más impacta desde un punto de vista del propio NPS, es decir, de la satisfacción de los clientes y desde un punto de vista de ese retorno financiero del que estamos hablando. En ese sentido ahora mismo otro de los grandes retos a los que nos enfrentamos, a parte de la situación intergeneracional que hay en clientes, en distribuidores, es el saber elegir cuál es la tecnología que vas a utilizar para mejorar las interacciones de los clientes contigo.
+
+[00:38:39.840] 
+Es decir, ¿Apuestas todo tu presupuesto a robotizar o automatizar determinados proyectos o te vuelcas en la inteligencia artificial para desarrollar chatbots que permitan responder a los clientes? O quizás es mejor dotar de herramientas de IoT (Internet of Things) para mejorar la experiencia de clientes de salud con wearable que permitan medir la actividad o el estilo de conducción o que mejoren tu domótica en tu casa con sensores para personas seniors que puedan tener un servicio inmediato ante un problema. Todo esto vuelve a ser un número de recursos limitados para un montón de posibles iniciativas, te pone sobre el papel en un reto de elegir y de priorizar otra vez. ¿A dónde ponemos nuestras inversiones? Yo creo que ese es el principal reto que tenemos: el saber invertir correctamente en aquello que realmente más va a impactar en los clientes y que más posibilidades les va a dar de mejorar esos nueves o dieces que tienen que darte en cada interacción con la compañía, porque si aciertas posiblemente ese acierto esté pagando la inversión que estás haciendo en ese proyecto en concreto. 
+
+[00:39:59.360] - Carlos Iglesias
+La dificultad de gestionar el portafolio de innovación y de ir validando es difícil, es verdad, especialmente a mí, es algo que me llama mucho la atención. El 3 de marzo estoy montando un programa online que se llama Business Agility y creo que has sintetizado en esta entrevista todos los temas de los que hablamos. Hablamos de customer experience, de customer centricity, de design thinking, de cómo gestionar el portfolio de iniciativas de innovación dando peso a iniciativas de eficiencia o de innovación adyacente, etcétera. Hablamos de Lean, de Agile...
+
+[00:40:36.390] 
+Has hablado de todos los temas que yo creo que son súper importantes para poder dar valor, entregar valor de una forma ágil, frecuente y que las decisiones de iniciativa de mejora de la experiencia de cliente no tarde tres años en salir a la calle porque entonces hemos fracasado. 
+
+[00:40:56.220] - Guillermo Calderón
+Claro, es que ahora mismo es una ventaja competitiva. Es el elemento de diferenciación claro en el que tú, ante un servicio, puedes tener mejor o peor posicionamiento en el mercado.
+
+[00:42:34.360] 
+
+

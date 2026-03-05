@@ -1,0 +1,234 @@
+[00:00:01.18] - Carlos Iglesias
+Diseñar es una acción profundamente humana, un acto que nace del deseo de comprender, de intervenir, de cambiar. Pero durante demasiado tiempo hemos diseñado desde la superficie, interfaces, productos, servicios, como si pudieran separarse de los sistemas donde viven, como si no formaran parte de una red interconectada de relaciones, poderes, historias y consecuencias. Hoy sabemos que los grandes retos de nuestro tiempo no se resuelven desde la fragmentación. Crises climáticas, desigualdad, salud mental, polarización social, son retos sistémicos, complejos, interdependientes, y necesitan mentes que piensen desde esa complejidad. Miradas capaces de ver los flujos, las estructuras, las tensiones. Diseñadoras y diseñadores que no busquen solo la forma, sino las conexiones, que no busquen solo soluciones, sino mejores preguntas. Hoy hablamos de diseño sistémico con Stephanie Esperanza, Digital Strategy y Service Designer. Steph, nos conocimos gracias a Guido Lonetti, a quien entrevisté hace apenas unas semanas y que me habló muy bien de ti, te lo he de decir. Y como me pasa con las buenas recomendaciones, no tarde en nada en ponerme a investigar, leer tus ideas sobre el diseño sistémico. Y lo cierto es que fue un poco como encontrar, te lo digo de verdad, como una pieza que me faltaba.
+
+[00:01:30.14] - Carlos Iglesias
+Como cuando alguien pone palabras a algo que intuías, pero no sabías cómo nombrar. Me interesa especialmente tu forma de conectar el pensamiento etnográfico con las estructuras complejas, de expandir el rol de diseño más allá de los outputs, hacia las relaciones, los flujos, las decisiones. Y esa insistencia en no simplificar lo complejo, sino en aprender a navegarlo. Porque si algo necesitamos ahora mismo, son mapas para movernos en la incertidumbre. Steph, bienvenida a Real World.
+
+[00:02:03.05] - Stephanie Speranza
+Gracias. Qué espectacular esa presentación. Gracias Guido por crear o poner la semilla de este momento, sí. Creo que más que una pregunta, hiciste una especie de introducción a mi misma manera de acercarme al tema, porque también para mí fue... Más que una pieza faltante, para mí fue una pieza conectora, siendo tal vez casi como ese defecto profesional como socióloga y etnógrafa de carrera de origen, con más de siete años en el diseño, fue la pieza que conectaba dos de mis formas de pensar, no solo la que era tal vez mi escuela de pensamiento etnográfica, sino también en lo que estaba aplicando en la práctica y en lo que había llegado a desarrollarme profesionalmente, con incluso hablar de UX research, no era suficiente. Luego aparece el service design, agregamos una capa más, pero faltaba de algo. Y justamente, que lo has dicho, para mí es como si el diseño, que es algo sumamente flat, algo del 2D hasta cierto punto, le agregamos una capa más de ese producto al servicio, incluso pensando en herramientas como un blueprint, se agrega una capa más al journey, empezamos a profundizar un poco, pero la complejidad real está con el verdadero 3D, que es estos vínculos mucho más complejos de los que describías.
+
+[00:03:34.09] - Carlos Iglesias
+La mirada mucho más amplia, ¿no?
+
+[00:03:36.24] - Stephanie Speranza
+Exacto. Salimos de la perspectiva flat y empezamos a ver... Profundidad.
+
+[00:03:41.17] - Carlos Iglesias
+Profundidad. Steph, ¿qué es para ti el mundo real?
+
+[00:03:47.21] - Stephanie Speranza
+Empecemos por lo primero. Bueno, por supuesto, después de ver algunas de las entrevistas y adelantarme a esta pregunta, dije: ¡Guau!, es como casi Es una pregunta épica, me encanta. Pero la quiero traer a la conversación de systemic design. Y primero decirte que seguramente la realidad, para mí, se vea como un sentido común, que tal vez es compartido contigo. Si podemos decir que estamos aquí sentados en el mismo espacio de grabación, que vivimos en la misma ciudad, que estamos habitando al mismo tiempo, que compartimos un idioma, por lo menos, en común. Entonces, seguramente vemos la realidad de forma parecida. Si, en cambio, en la silla de enfrente tuviera a una persona que viene a Barcelona por primera vez a visitarnos de Tokio, la realidad sería otra para esa persona que para mí. Y si jugáramos con la imaginación y esa persona, en vez de venir de Tokio, viene de 1950, la realidad será otra. Y si viene del 2075, su realidad será absolutamente diferente. Entonces, la realidad tiene que ver Para el systemic design y también para mí, tiene que ver justamente con el sentido común que compartimos como comportamiento social de personas que vivimos dentro de un sistema.
+
+[00:05:13.04] - Carlos Iglesias
+Buenísimo, me gusta muchísimo. ¿Qué significa para ti pensar entonces en términos sistémicos? Cuando tú hablas de pensar en términos sistémicos, ¿cómo cambia tu forma de ver el mundo o de abordar un problema?
+
+[00:05:32.01] - Stephanie Speranza
+Bueno, creo que es casi terapéutico empezar a abrazar la incertidumbre. Como mi forma de pensar viene, por suerte, de una escuela que es mucho más de estudiar la sociología, no la psicología, no, lo macro que lo micro. Pero en el mundo laboral se nos exige muchas veces, en una gestión tradicional pensar de forma lineal, causal, de soluciones a problemas e incluso como defecto profesional de diseñadores. Muchas veces nos definimos como: Vengo a resolver un problema, un problema de diseño. Cuando empezamos a pensarnos como diseñadores de sistemas, ya no venimos a resolver un problema. Posiblemente no hay una solución para un problema, ni siquiera hay que pensar las cosas de forma tan lineal. Entonces, esta multicausalidad es tal vez lo más importante a la hora de repensarme como diseñadora. Es poner en hacke que seguramente no salgamos de una instancia de discovery o una instancia de workshop o una instancia ya de proceso más avanzado de output sobre el producto o de testing de ese producto con una respuesta unívoca, sino que vamos a salir con múltiples actores, relaciones y un mapeo de lo que está pasando en mayor profundidad y a mayor entendimiento para luego generar una solución.
+
+[00:07:00.04] - Stephanie Speranza
+Que no es lo mismo que decir: Esta es la solución mágica, como decías tú.
+
+[00:07:04.05] - Carlos Iglesias
+Aprovechar el poder del mapeo y de hacer visible, de visibilizar lo invisible de alguna forma, lo invisible que se esconde en las distintas perspectivas, las distintas realidades, los distintos contextos, mapear todo eso, hacerlo visible y a partir de ahí intentar llegar a un entendimiento común que nos permita reflexionar conjuntamente sobre ello.
+
+[00:07:26.08] - Stephanie Speranza
+Eso es definitivamente, pero incluso creo que es importante dar un paso más y priorizar y ser conscientes de qué estamos eligiendo. Dentro de todo el sistema hay un concepto que es el bráketing, que es como los brackets del paréntesis, exacto, todas estas anglojosonizadas. Pero al final, esa selección es una priorización sobre la cual voy a hacer foco, un foco consciente de que hay un montón de otros problemas, pero este es el que me urge. Este es el que es Ecogemos como prioridad, porque es el desafío que tal vez está alineado a mi KPI, que tal vez es la métrica con la cual van a evaluar mis usuarios. Puede ser cualquier decisión en general de negocio, porque el pensamiento estratégico, sumamente vinculado a todo esto que estamos hablando, empieza a unificar no solo la perspectiva del usuario, sino también la del negocio y la tecnología. Y esa decisión de los equipos de un producto, y aquí vuelvo a la parte de mi desarrollo en general, es en producto, no es en el mundo de las Naciones Unidas y que todos selgamos aquí con un mapeo de gente feliz, sino como que yo trabajo en el mundo de desarrollo de soluciones digitales.
+
+[00:08:43.24] - Stephanie Speranza
+Y en esas soluciones es entender que estoy escogiendo esto por encima de otra cosa, no que era lo único. ¿Verdad?
+
+[00:08:52.24] - Carlos Iglesias
+¿y qué tipo de problemas crees tú que necesitan urgentemente ese tipo de acercamiento, una mirada sistémica?
+
+[00:09:01.09] - Stephanie Speranza
+Bueno, la respuesta por default sería todos, ¿no? Pero me gusta el desafío de decir: ¿Cuáles urgentemente lo necesitan? Y hay una respuesta que me parece no solo urgente, sino tal vez la más obvia, que lo has mencionado incluso cuando hablábamos de problemáticas de salud, de salud mental, problemáticas de medio ambiente, problemáticas de urbanismo, problemáticas de habitacionales, como por ejemplo ahora en Barcelona es un supertema. Ni que hablar con cuestiones de inmigración. Son todos donde aparecen tantos actores, recursos y vínculos que tienen diferentes jerarquías para cada uno de esos actores, que es muy importante no aplicar una solución lista, readymade, tipo la sopa Campbell, que abro el enlatado y aplico la solución que ya conocemos, sino comprender para poder proponer algo mejor. Dicho eso, para mí, por ejemplo, icónicos analistas de este tipo de problemática son en Airbnb. Y no es una Há una ética hipercompleja. Estamos hablando del turismo y el alojamiento, pero ellos tienen una forma de entender su producto de forma sistémica espectacular. Entonces, no hace falta de nuevo alejarnos del todo del craft de producto o de diseñador y como para aplicar estas metodologías.
+
+[00:10:32.07] - Carlos Iglesias
+¿en qué sentido, Airbnb? ¿Qué es lo que admiras de su approach, de su acercamiento?
+
+[00:10:36.21] - Stephanie Speranza
+Primero, me gusta verlo en el tiempo, su desarrollo en el tiempo. Hay una charla que da uno de los founders que que es bastante vieja la charla, si no me equivoco, creo que es en 2008, 2009, y habla de designing for trust, que es diseñar para la confianza. Y cuenta que uno de los desafíos del sentido común más grandes que tuvieron que atravesar cuando empezaban con la plataforma, era que el sentido común era cuando voy a un sitio nuevo como turista, me quedo en un hotel. Eso era con opciones diversas de bed and breakfast, hostal, hotel, hotel de una a cinco estrellas y dejamos de contar. Tarpa. Cuando ellos introducen esta situación de las casas privadas, hay que atravesar el sentido del comportamiento de la confianza. Claro. ¿Cómo voy a confiar en que me quedo en la casa de un desconocido y cómo voy a dejar que un desconocido se quede en mi casa? Es de los dos lados un proceso que ellos tuvieron que atravesar, entendiendo Primero, que estos actores tenían un approach a la solución que ellos estaban trayendo, que iba a tener, además, un criterio completamente distinto. Los hoteles se estandarizan en todo el mundo.
+
+[00:12:00.15] - Stephanie Speranza
+Las casas no se estandarizan ni siquiera en la misma finca. Entonces, ¿cómo hago para asegurarte que tengas una buena experiencia también? Entonces, no sé si alguna vez has alquilado tu piso por el bien vivo, has estado como en el back-end, como alquilando. Pero ellos tienen todo un sistema donde vas cargando exactamente en cada uno de los bloques lo que ellos esperan para poder mostrar en el front de quién está buscando y generar esa homologación. Entonces, unificar esos sentidos comunes. Y generan, y son uno de los primeros que desarrollan, un sistema que hoy en día para nosotros es muy común y lo utilizamos en muchas plataformas, que es el de dar feedback y de creer en la comunidad y cuantificar ese feedback. Pero este tiene cinco personas que han dicho que está muy bien y este ninguna. Este tiene 50. Entonces, la comunidad también es una herramienta superimportante que ellos tuvieron que desarrollar. Hasta ahí hablamos de como casi un caso de UX research y punto. Pero, ¿qué pasa cuando miramos a Serviente en el tiempo? Lo siguiente que ellos desarrollan es: entiendo ahora que mi usuario como Insight No es solo el tema de la confianza, sino que es un usuario que quiere habitar la ciudad como un local.
+
+[00:13:21.11] - Stephanie Speranza
+Entonces, tal vez no le interesa tampoco ir al bus turístico de rojo ese que va por la ciudad, sino que le interesa hacer experiencias locales. Y si va a Buenos Aires, quiere ir a hacer una clase de empanadas con Donia Rosa, que hace las empanadas. Y empieza a desarrollar dentro de su plataforma, por primera vez, la idea de experiencias de locales o bilocals. Eso también es un insight de formas de entender lo relacional y lo vincular, aplicado a diseño en una plataforma. Pero luego seguimos avanzando en el tiempo y en la pandemia, ellos entienden que las personas están en sus casas, están aburridas y empiezan a generar experiences online. Entonces, ahora doña Rosa da la clase de empanadas online. Y hasta ahí todavía pongo a decir: Okey, este es un desarrollo como casi natural de lo que han hecho tantas otras empresas. Pero lo que más me gusta es si vemos cómo lo están haciendo ahora y una charla que da, creo que es 2021, o sea, casi 10, 11 años más tarde, el otro founder cuenta antes la tendencia era todas las personas querían ir y quedarse en el centro de una ciudad, en Barcelona, en París, en Londres.
+
+[00:14:37.10] - Stephanie Speranza
+Ahora, con la pandemia, son los locales que quieren salir de la ciudad y alquilar casas más grandes, más aisladas en el campo, en la naturaleza. Y ya no están buscando la fecha exacta de donde se cogieron las vacaciones, sino que están todos trabajando remoto. Esa es la nueva tendencia. Entonces, ahora tenemos que incorporar, así como en básicos, así como antes había cama, ducha, lavarropas o lavajillas, ahora hay que tener que haber escritorio y wifi. Y en la parte de las features hay una que es un flexible para las fechas. Sí, sí. Porque igual puedo trabajar remoto desde cualquier sitio. Claro. Esto es un ajuste de una lectura de un cambio sistémico, atravesado por las leyes de empleo que nos permitieron trabajar remotos, por el tipo de dinámicas en las cuales... Nosotros trabajamos remotos, tú y yo lo veníamos hablando de que igual a las oficinas ya no vamos tanto. Esos comportamientos, ellos lo cogieron a pesar de estar en la industria de turismo y entendieron cómo acomodar su producto digital. Por eso, primero, y lo más urgente siempre va a ser el medio ambiente, los temas de salud. Pero no creo que por estar en una industria que tal vez no tenga el el más obvio de lo urgente en la agenda como humanos, no podamos aplicar estos sistemas.
+
+[00:16:04.22] - Stephanie Speranza
+Y a eso me refería como una invitación a que cualquier diseñador UX puede incorporar estos mapeos y estas herramientas para transformar el valor de su producto.
+
+[00:16:15.02] - Carlos Iglesias
+¿y es un tema de mirada o también es un tema de recursos ahí? Es decir, ¿requiere mucho más esfuerzo tener esta visión y utilizar este tipo de herramientas o es simplemente cambiar la mirada? ¿Tú cómo lo ves?
+
+[00:16:30.17] - Stephanie Speranza
+Yo creo que es cambiar la mirada, es casi como levantar la mirada, no hacer solo foco en la métrica de una funcionalidad o en cómo un usuario o cinco usuarios, la media del testing, se comportan, sino salir del vínculo lineal de usuario-producto y abrir y ampliar la mirada a por qué ese usuario, más allá de que sea el arquetipo, en qué sistema está inmerso, en qué recursos, qué leyes se están cambiando, qué ¿Qué comportamientos, qué tendencias están afectando, qué otros productos está utilizando ese usuario. Y sí, creo que tiene que ver con recursos. Pienso, incluso en la mayoría de los proyectos en los que estuve, en pocos he tenido la oportunidad de aplicar un research sistémico. Es un paso que incluso casi como que me siento hablando de algo nuevo. Alguien que tal vez está hace mucho tiempo en en el rubro del research, tal vez no aplica muchas estas metodologías, sino porque no existan o no porque no entendamos su valor, sino porque hay que salir a venderlas como instancias y horas de trabajo y a veces es el cliente que todavía le cuesta entender el research de usuario, imagínate si se va a ir...
+
+[00:17:47.19] - Carlos Iglesias
+Un doble salto mortal hacia adelante.
+
+[00:17:50.01] - Stephanie Speranza
+Exacto. Entonces, sí, coincido que tiene que ver con recursos, pero si uno puede transmitir el valor, por lo menos ejercer esta mirada sistémica, incluso en el research.
+
+[00:18:04.24] - Carlos Iglesias
+¿y cómo cambia el trabajo de una diseñadora cuando deja de pensar en outputs y empieza a pensar en relaciones, en flujos, en ecosistemas? ¿Cómo es ese cambio? ¿Cómo ¿qué te pasó a ti? ¿Qué hiciste? ¿Qué dejaste de hacer? ¿Y qué empezaste a hacer?
+
+[00:18:20.16] - Stephanie Speranza
+Creo que el cambio lo vi más en compañeros y personas de mis equipos que nunca habían hecho ni siquiera research. Entonces, como por mi defecto profesional, yo ya tengo una mirada sistémica, para mí tal vez no sé si dejé de hacer tantas cosas, pero empezar a encontrar ese punto medio en la educación de tal vez alguien que viene más del UI o alguien del front-end y empezar a explicarle la importancia de estudiar al usuario y luego ampliar la mirada de eso como equipo, cross. Y creo que donde he visto el cambio más grande es en empezar empezar a sumar esas perspectivas, salir de la solución 2D y empezar a entender esa complejidad. Y creo que donde hoy en día estamos parados con más confianza es con el service design, como ejemplo de lo que pasa afuera de la pantalla, de las interacciones que no son solo en la instancia de apretar botones, movernos dentro de flujos de prototipos, sino empezar a ver el before, el during y el after, lo que pasa antes, durante y después. Y sumar la capa de qué está pasando a nivel negocio para que eso suceda, cómo funciona la experiencia del customer, el famoso customer experience, en un 100%.
+
+[00:19:46.08] - Stephanie Speranza
+Ahora, a mi persona me ha sumado muchísimo este tipo de pensamiento para aplicarlo, para llevar adelante equipos. Porque yo no trato de imponer mi visión, sino que trato de sumar visiones. Entonces, yo soy la primera en traer a la persona del equipo técnico, al técnical lead o principal engineer o como se llame en el equipo, desde el comienzo. Venga, cuéntanos qué está pasando. Y yo no soy desarrolladora, solo puedo escuchar y tratar de sumar una visión. Facilitar que venga del lado del cliente la mayor cantidad de personas core a la problemática para que nos traigan su input y sumen su perspectiva. Sumar a los Los diseñadores, incluso que van a estar en instancias más visuales y gráficas, también para que entiendan las lógicas de las decisiones y del producto desde el comienzo. Entonces, a mí, incluso para liderar equipos, me ayuda mucho. Y del lado equipo, me doy cuenta que a ellos ver, si quieres, ese suma la perspectiva más grande, en vez del efecto cascada, o incluso para mí, más que efecto cascado, es el efecto teléfono descompuesto, porque se va perdiendo información a medida que hacemos el paso a manos. Así que es un nivel de equipo y productos de diseño, ¿no?
+
+[00:21:07.05] - Carlos Iglesias
+A mí me atrae este tipo de approaches, porque muchas veces como que en los equipos de producto y en la forma que tenemos de diseñar producto, estamos tan enfocados en crear producto, que a veces perdemos de vista que en muchas ocasiones ojalá no creemos producto para resolver un determinado problema o al revés. O a veces, valdría más la pena quitar un producto o al menos algunas funcionalidades de ese producto para simplificar una experiencia, para mejorar. Y ese tipo de acercamiento, que yo creo que es supernecesario, es muy difícil tenerlo si no haces un zoom out realmente y no entiendes otras complejidades alrededor.
+
+[00:21:46.08] - Stephanie Speranza
+Exacto. Ese sum out es supernecesario para luego hacer el sum in que decíamos. Ese marketing, esa selección. No hay que quedarse, y esto para mí es superimportante, que el diseño sistémico no nos aleje de lo lo que queríamos resolver o de la persona, del usuario. Por decir, no nos quedemos solo con el UX research, no quiero decir que me quiero alejar del usuario, sino que al revés, con ese sum out, poder tener incluso más empatía por la persona de Tokio que está sentado en frente mío y decirle: Okey, venga, entiendo que es la primera vez que tal vez estás en una ciudad donde se cena a las diez de la noche. Entonces, ahí puedo ofrecerte una experiencia diferente.
+
+[00:22:28.15] - Carlos Iglesias
+Oye, ¿qué habilidades crees que necesitamos desarrollar para movernos? Sobre todo, movernos en sistemas en constante cambio, porque no estamos hablando, además, estamos hablando de la complejidad, estamos hablando de contextos distintos, pero es que además estos contextos no paran de cambiar y eso todavía es más complejo, lo hace todo más complejo. Entonces, ¿qué habilidades crees que necesitamos desarrollar?
+
+[00:22:57.01] - Stephanie Speranza
+Pues las más blandas, sin duda en las épocas de incertidumbre, las soluciones que intentan aferrarse a algo por mucho tiempo, que sería la gestión más dura, las habilidades técnicas que son, digamos, que estamos más enfocadas en una sola forma de hacer las cosas, son las metodologías que más rápido caen por su propio peso, porque hoy en día, ¿cuál diríamos que es el mejor código para un developer de aprender. No lo sé. Y hace dos meses empezó esto ahora de aplicar IA para codear y no tiene que ni ser un programa. O sea, ya no hay un craft, una metodología que no va a estar tocada por el desarrollo, no solo de tecnología, sino como decíamos, los cambios en el mundo. Entonces, son las habilidades de las blandas y las estratégicas, que para mí son la capacidad de hacer preguntas, más que buscar imponer respuestas, la capacidad de lo que se llama la crespolinización, entonces de aprender de muchas disciplinas y de dialogar con muchas disciplinas. Capacidad de persona T, de tal vez incorporar múltiples pensamientos en vez de enfocarse en uno solo. La empatía, por supuesto. Por supuesto, la empatía, que ya no sé si es una habilidad, si es un superpoder, si es...
+
+[00:24:25.23] - Stephanie Speranza
+Pero es tan, tan, tan, tan relevante porque si no te toca con el usuario, te toca con tu compi que viene de otra disciplina a mostrarte cómo lo estás resolviendo en otro sitio. A ver, que la empatía es una habilidad al final. Y la última, me gusta mucho siempre la creatividad, porque parece un supercliché, empatía-creatividad, pero al final son soluciones que posiblemente, aunque no sean las UnidoCast, seguramente tampoco van a ser las últimas, pero tal vez no se han creado antes tampoco. Entonces, hay ahí un poco de salpimienta de creatividad necesaria.
+
+[00:25:10.12] - Carlos Iglesias
+A mí hay una parte que me parece... O sea, que me resulta especialmente difícil cuando tú de repente mapeas ese todo, intentas mapear ese todo, entiéndeme, porque al final es una síntesis igualmente, al final no deja de ser una síntesis. Una síntesis con mucha más información sistémica y un zoom out que nos permite ganar perspectiva y ganar... Sí, distintas perspectivas. Pero cuanto más zoom out y más perspectiva, más difícil me Me parece como precisamente elegir qué parte del sistema quieres intervenir sin perder de vista esa visión que has ganado. Y eso, ¿existen como técnicas concretas? ¿Cómo ¿Cómo lo haces esto?
+
+[00:26:01.16] - Stephanie Speranza
+Existen muchas técnicas. Es difícil no perderse y que no se vuelva a pasar de la palabra complejidad a la palabra caos. Y también me gusta eso que dijiste que una de las de las técnicas es estar siempre consciente de que incluso cuando piensas que estás viéndolo todo, en realidad es un recorte. Entonces, si volvemos a qué es la realidad como pregunta, la realidad es inabarcable, seguro. Y el sentido común, lo que hace ese mecanismo del cerebro de tratar de darnos una explicación de cómo se organizan las cosas. Y en ese sentido común... Es un hack. Es un hack de la mente, ¿no? Exacto. Y sin meternos en neurociencias ni en hacks de cómo funcionan nuestro cerebro, al final... Lísticos y cosas así. Claro, que igual me apasionan. No hay que perder de vista que incluso en esos ejercicios ya estamos haciendo la síntesis. Claro. Pero cuando yo, por ejemplo, tengo que facilitar una instancia de... Por ejemplo, instancias sistémicas, un debrief, una jornada de alineación al comienzo de un nuevo cliente, un gran proyecto, o cuando viene con el desafío de cosas como: Quiero cambiar mi CX, mi customer experience, o desconozco a quiénes son mis usuarios finales, o cuando son esos desafíos grandes, que en general parecen un caos, esos ya son momentos para aprovechar sistémicamente Y una de las técnicas para mí más importantes es, vamos a usar como si fuera que somos cartógrafos en un mapa, vamos a usar un código.
+
+[00:27:39.24] - Stephanie Speranza
+Y ese código o esa brújula nos va a guiar qué puede ser qué información sí tenemos. Entonces, una instancia de brief, yo trato de recolectar la información que sí podemos poner como parte del sentido común de realidad. Por ejemplo, ¿cuántos usuarios tienes? ¿Quién es tu target audience? ¿Cuáles son las métricas para este Q? ¿Cuáles son los KPI del año? ¿A qué canales estás llegando? Vamos a mapear lo que debería ser sentido común para todos. Y luego, vamos a ver cuáles son las cosas en blanco que nos faltan por conocer. Y viendo, por lo menos, el monstruo, el problema mapeado con el cliente o con las personas involucradas, podemos decir: Vale, de todos los espacios en blanco que me faltan comprender, quiero que nos enfoquemos en este. Y esa es una priorización que tiene que ser una decisión que a veces un hand off por escrito. Te pido, por favor, para que no vuelva luego y diga: Ay, no quería ver tanto la competencia en UK, ahora quiero ver la que está pasando en los Estados Unidos. Como: Vale, no, pero nos pusimos a ver qué estaba pasando aquí porque nos pusimos de acuerdo de que este era tu dolor más grande, entender la competencia o el mercado de lo que están haciendo tus usuarios en el Reino Unido.
+
+[00:28:54.20] - Stephanie Speranza
+Entonces, si nos ponemos de acuerdo de que esto es lo que falta, ahí podemos priorizar. Pero en esa instancia de alineación, en ese primer mapeo, el ejercicio no es: Voy a salir a entender toda la realidad. El ejercicio es: Vamos a ponernos de acuerdo acerca de qué es la realidad, qué sabemos, y ver cuáles son los espacios en blanco de lo que no sabemos.
+
+[00:29:15.10] - Carlos Iglesias
+Me gustan mucho muchas cosas, y a la vez voy a retar esa idea de alguna forma. Claro, adelante. Porque me gusta mucho, sobre todo la idea de utilizar el mapeo para identificar lo que no sabemos que no sabemos. Porque somos capaces de mapear lo que somos capaces de ver, lo que somos capaces de identificar. Y me gusta mucho el tipo de herramientas que nos prestan, no sé, canvas y este tipo de herramientas que de repente nos dicen: Oye, en esta parte no lo has pensado demasiado, ayúdate a pensar en esta parte y que nos radíe en información. Me gusta muchísimo eso. Lo entiendo bien y me parece poderoso. Y lo he vivido Como muchas veces, que de repente, ¡guau! Esto nos ha dado claridad o nos ha ayudado a analizar el problema con mucho más criterio al final.
+
+[00:30:08.08] - Stephanie Speranza
+Ordenar el caos.
+
+[00:30:09.12] - Carlos Iglesias
+Ordenar el caos. Y a la vez me pasa una cosa y ahí es donde quiero retar un poco esa idea, a ver qué te parece esto. Porque en los últimos años nosotros venimos también a hacer grandes discoveries al principio o si quieres, decías: Hay grandes momentos al inicio, a lo mejor, donde podemos aprovechar esa oportunidad. Sin embargo, con la tendencia que estoy observando en los últimos pocos años, si miramos a lo que nos dedicamos desde el tiempo que hace que nos dedicamos, es que cada vez la inversión que hacemos al principio en discovery, en research o en lo que sea, en entender para definir una una solución y para llevar a cabo un plan o definir ese plan o una solución en concreto, cada vez es menor, porque nos damos cuenta de que las decisiones que estamos tomando en un momento, las estamos tomando con una fotografía de la complejidad de ese momento, un frame de ese momento. Y eso no para de cambiar. Entonces, con el tiempo, me doy cuenta de que estamos destinando menos tiempo a hacer como un gran discovery al principio y hacer más un continuous discovery o ese research continuo.
+
+[00:31:30.24] - Carlos Iglesias
+Y estamos tomando pequeñas decisiones, haciendo pequeñas implementaciones, haciendo pequeños discoveries, identificando pequeñas hipótesis, pequeños experimentos. Entonces, ¿hasta qué punto es compatible tener una visión sistémica de diseño, mantener esa visión de zoom out amplia con toda la información que necesitamos y a la vez hacer ese continuous discovery?
+
+[00:32:00.05] - Stephanie Speranza
+Creo que a tu pregunta acerca de si vale la pena invertir al comienzo un discovery que trate de retratar la realidad más grande y demás, la respuesta es depende mucho del proyecto que tenemos. Claro. Primero Pero también depende si estamos trabajando en un producto, que es, no sé, soy un desarrollador o diseñador de Spotify, producto robusto, andando y tal, o si trabajo en una agencia y por primera vez tengo que ingresar al mundo de la industria del banking, de la fintech o al mundo de la agricultura o el mundo de los emprendedores sociales en la Yoka, que me escuché ese podcast y me encanta. Entonces, es muy importante, si estamos del lado agencia, tomarnos el tiempo de intentar retratar la complejidad para poder acompañar mejor el proyecto, porque vamos a tener que ponernos, como siempre, un sombrero de un cliente, de una industria Claro. Que no conocemos, y no asumir que nuestro sentido común va a resolver, que vamos a aplicar la solución de UX habitual, porque tampoco es la mejor forma de trabajar. Y Entonces, ahí sí siempre veo valor de, por lo menos, esa jornada de debrief, darle una perspectiva, una herramienta, un tooling sistémico.
+
+[00:33:23.10] - Stephanie Speranza
+Por otro lado, puede ser que en un formato que vamos a dejar de lado el caso Spotify, donde pensemos en un producto sumamente robusto con un equipo de UX que está en constante contacto con el resto de los equipos y que comprende las dinámicas y los desafíos de su industria muy bien. Por otro lado, si volvemos al lado de agencia, si viene un cliente que está en un desafío superabstracto, como esto que te digo de: No conozco a mi consumidor final. Caso concreto que me ha pasado con McLaren, los autos de carrera. Época de pandemia, esto era en el 2021. Y claro, su cadena de distribución, los clientes iban directamente al retailer, al distribuidor, a probar el coche, y eso no se podía hacer. Estaba todos los sitios cerrados. Entonces, dijeron: Perdimos completamente contacto. No tenemos más contacto con mi consumidor Entonces, dijeron: Tenemos que empezar a que nuestras herramientas digitales realmente no sean más B2B para entrega de partes, piezas o coches a la distribución, sino como entender cómo llegar y hacer un B2B, tú sí. Ese es un desafío sumamente grande y eso sí requiere intentar, por lo menos, tomar la foto más grande y la priorización de, como decías tú, esos frames.
+
+[00:34:57.10] - Stephanie Speranza
+Bueno, el primero es setting de first pre frame, de cuál es la primera foto. Incluso en una película hay una primera imagen. Y si, en cambio, estamos en un proyecto que va a ser de larga oración o que ya tenemos una buena foto, un cliente recurrente o demás, por supuesto. Ahí hay metodologías como el dual track en agile, que justamente si el agile es esta iteración constante en el dual track, se propone hacer discoveries que van alimentando cada uno de esos ciclos. Y esos discoveries pueden ser una medida mucho más pequeña. No hace falta abrir de la caja de Pandora cada vez que salimos a hacer una investigación. Pero quedarnos solo con el user testing de cinco usuarios para validación es una instancia de entendimiento muy concreta. Necesito saber si este botón se entiende, si este es el CTA que se necesita, un A/B testing. Pero tiene que ser una herramienta, no la única. A eso me refiero.
+
+[00:35:57.05] - Carlos Iglesias
+Bien. Me parece O sea, me parece fantástico, y estoy de acuerdo y lo compro, lo entiendo. Me resulta difícil, que a veces me pasa, me pasa a mí, nos pasa, y reconozo a algunas personas de mi equipo, que nos pasa, que nos enamoramos también del trabajo que hacemos. Y a veces cuesta mantener, incluso, no sé si a ti te pasará a Steph, porque tú tienes esa parte alemana y a lo mejor esa parte alemana te ayuda a ordenar mucho más. Pero tienes otra parte impetuosa, que igual a ver si luchas con eso. El El tema de... A veces se nos escapa al alcance de las cosas de lo que queremos hacer y a veces no siempre están... A mí no me resulta tan sencillo, no me resulta sencillo tener claro cuándo es suficiente.
+
+[00:36:45.14] - Stephanie Speranza
+¿no?
+
+[00:36:46.03] - Carlos Iglesias
+¿cuándo es suficiente discovery? ¿Cuándo es suficiente zoom out? ¿Cuándo es suficiente? A mí me... O sea, me ayudaría tener como herramientas que me ayuden a estar seguro para decir: Vale, hasta aquí, enough. Porque a partir de este punto ya es waste. Y hasta aquí es: ¡Guau! Esto es ganancia exponencial y a partir de aquí ya estamos invirtiendo en algo que no va a tener retorno. ¡Guau! Ese punto me interesa. Me interesa mucho. Ese punto es superdifícil.
+
+[00:37:17.24] - Stephanie Speranza
+Ese sweet spot.
+
+[00:37:19.01] - Carlos Iglesias
+Sí, un sweet spot de experiencia, supongo, que tiene que ver eso, con tu experiencia, con tu...
+
+[00:37:24.22] - Stephanie Speranza
+Sí. Creo, justo, obviamente, siendo una colega y amigo querido, escuché el podcast completo que le hacías a Guido y preguntabas acerca de cuánto hay de intuición. Y creo que la respuesta de Guido se va a parecer a la mía, que decía: Es que al final hay una cosa de años de práctica que decís: Bueno, hasta acá. No quiero que esa sea mi respuesta, de todos modos. Me gustaría decirte: Pues aplica la fórmula matemática de la raíz cuadrada del potus y te dará el sweet spot. No tengo la respuesta exacta. Sí me parece que es importante tratar de gestionar esa expectativa con el equipo. Por ejemplo, algo que yo trato de medir es qué disponibilidad hay de la mayor cantidad de actores para llegar a esto. Entonces, si todos pueden juntarse en un workshop en Ginebra, que es el punto medio de todas las oficinas en los headquarters, que me ha pasado, esto se Hablando de la vida real. Pero es dos días, una vez, y ahí vamos a sacar la mayor cantidad de información posible. Si en cambio, no, todos los martes o tenemos una daily, entonces, hacemos un espacio de una hora y suficiente, no podemos quemar todas las balas en un solo día, no es necesario tampoco.
+
+[00:38:53.21] - Stephanie Speranza
+Entonces, a veces es, si yo quiero incluir la complejidad de las miradas como una de las para aplicar en diseño, ¿qué disponibilidad hay de esas miradas? Porque una de las primeras respuestas es que no lo estás haciendo solo. Entonces, una buena manera de medirlo es el logo tangible del tiempo.
+
+[00:39:15.09] - Carlos Iglesias
+Buenísimo. Y luego, otra vuelta de tuerca de esto, ¿no? Y qué haces cuando los distintos actores del sistema no se ponen de acuerdo o tienen visiones opuestas, ¿no? Eso cómo lo gestionas?
+
+[00:39:32.08] - Stephanie Speranza
+Volvemos a las habilidades blandas, ¿no? Yo creo que depende mucho si uno está en el lugar de tener que, no sé, como contrariar una posición o si estoy en el lugar de facilitar distintas miradas. Cuando estoy en el lugar de facilitar distintas miradas, son herramientas de eso, de como gestión de facilitación, de monitorear y distintas voces, asegurarme que todo el mundo participe por igual, taller de condulsura, ser firme, decir: Vamos a escuchar lo que dijo esta otra persona y casi a veces uno se siente en un kindergarten aunque esté facilitando algo en el C level. Pero no es lo mismo cuando la mirada, que tal vez es clásica, contraposición entre operaciones y equipo comercial, pero hemos vendido todo esto, pero lo que se puede hacer es esto. Entonces, es ir a explicarle al cliente que: Mira, a pesar de que has vendido esto, te lo hemos vendido nosotros, vamos a entregarte esto. Y ahí es distinto porque es una negociación. Y la facilitación no es la misma herramienta que la negociación, y en la negociación, lo que intento hacer en general es encontrar cuáles son los puntos a ceder de lo que vamos a hacer y cuáles son los puntos que no se pueden negociar.
+
+[00:40:50.23] - Stephanie Speranza
+Y los que no se pueden negociar hay que ser muy firme y los otros hay que parecer como que se los estás dando hoy en realidad.
+
+[00:40:56.20] - Carlos Iglesias
+Brillante respuesta, Steph, de verdad me ha gustado mucho.
+
+[00:41:00.00] - Stephanie Speranza
+Muchos años de gestión de clientes.
+
+[00:41:01.22] - Carlos Iglesias
+Me ha gustado muchísimo, sí, se nota en esos años, sí, sí. ¿Y has vivido algún proyecto en el que, no sé, algo que pareció un pequeño cambio al final ha acabado resultando tener un efecto mucho mayor del que esperabas? ¿Te ha pasado esto?
+
+[00:41:23.23] - Stephanie Speranza
+Qué buena pregunta. Ahora mi cabeza es como un Viste cuando haces scroll down en Netflix y ves todas las series? Ya, ya. Como el hijo, ¿no? Sí. A ver, un pequeño cambio que ha generado un impacto muy grande, sí, estoy pensando sobre todo en los productos más de home banking, que en un momento la banca se despertó y dijo: Vamos a digitalizar, no sé, eso era más o menos, no sé, 2018, 2019, no es hace tantos años que la aplicación de un home banking. Y me acuerdo de tratar de salir de la lógica del banquero para introducir la logística del usuario y generar en el equipo del cliente, que sería todo lo que es la cápsula de negocio, que nos estaban transmitiendo la información, que lo que para ellos era el home banking era digitalizar lo que ellos veían detrás de computadora cuando te atendían en persona. Y yo lo que logré, además esto era con el BBVA, o sea, un banco que aquí también es muy grande en España, inmenso en Argentina, en LATAM, logré que entendieran que no, que lo que justamente íbamos a lograr juntos era que ellos se iban a traer la perspectiva de lo que tiene que estar en la aplicación, pero que lo íbamos a hacer con los ojos del usuario.
+
+[00:42:56.10] - Stephanie Speranza
+Y que la manera de habitar la interacción con el banco no era que llega la persona hasta tu escritorio, sino que eres como la persona que está entrando por la puerta al banco. Y eso para mí fue muy poderoso.
+
+[00:43:12.14] - Carlos Iglesias
+No parece pequeño, o sea, no me parece algo pequeño.
+
+[00:43:15.10] - Stephanie Speranza
+Bueno, sí, es verdad que no fue pequeño.
+
+[00:43:17.17] - Carlos Iglesias
+Pero desde luego me parece como un cambio de perspectiva...
+
+[00:43:21.24] - Stephanie Speranza
+Para eso fue muy grande. Muy bestia, sí, sí. Claro.
+
+[00:43:26.02] - Carlos Iglesias
+Debió ser interesante. Debió ser Muy interesante. Interesantes conversaciones en el C-Level, desde luego, me imagino también.
+
+[00:43:35.09] - Stephanie Speranza
+Perdón, no era el C-Level, es la persona, que cuando decimos los todo el stakeholders, creo que el C-Level entendía el área de innovación y digitalización en nos contrataban justamente porque entendían perfectamente. Pero teníamos que traducir todas las funcionalidades de esta persona, que tal vez llevaba 45 años en el banco y que había... Y le decían: No, porque yo estuve en las primeras computadoras que trajeron al banco. Y era como: Igual, hermana, esto no es cómo vamos a generar la solución. Y se sentían tan reemplazados, y ahí hablamos de la empatía, que no lograban ceder su punto de vista.
+
+[00:44:11.24] - Carlos Iglesias
+Qué bueno, qué bueno, qué interesante. Me hubiera pagado por estar en ese momento, me hubiera gustado. Me hubiera gustado vivirlo. ¿Y cómo mides el impacto? ¿Cómo mides el impacto de cuando trabajas a nivel sistémico y cómo sabes si lo que diseñaste en un momento, ¿está funcionando?
+
+[00:44:34.21] - Stephanie Speranza
+Bueno, con la raíz cuadrada del potus, más o menos. O sea, como que no hay una forma de medirlo. Eso es un poco parte de la definición del pensamiento sistémico. No hay una escala. Hay múltiples escalas y múltiples dimensiones y múltiples perspectivas, porque estamos hablando de un sistema, actores, recursos y relaciones asimétricas. Entonces, Entonces, lo que hay que hacer es escoger qué es la métrica que vamos a mirar en el tiempo como parte de estos ejercicios de bráketing, de paréntesis, de selección del sumin y verlo en el tiempo. Pero saber que es una selección de lo que estoy observando. Si es medible y se puede observar en el tiempo, entonces, guay, pero si no todo lo que vamos a ver como efecto o gran impacto va va a tener una escala que nosotros podamos medir. Como, por ejemplo, yo puedo evaluar la cantidad de personas que se suscriben o desuscriben el churn rate. Esas cosas en términos de producto para mí son imprescindibles para ir viendo a ver si nos estamos avanzando hacia el lado correcto, según los objetivos que nos ponemos al comienzo. Volvemos a eso de: Es la brújula con la cual empezamos con el mapa.
+
+[00:45:58.18] - Stephanie Speranza
+Pero también es importante A ver que incluso si lo vemos desde el lugar de pensamiento sistémico, va a ser muy difícil medir resultados o medir un impacto. Sí, va a ser más fácil si lo vemos a nivel de UX research. Entonces, a nivel de sistémico, te diría la raíz cuadra de No sé, es difícil, imposible. A nivel UX research, muchísimas metodologías y sobre todo dentro de producto. Pero es la conciencia de que estoy escogiendo algo que yo puedo medir y puedo controlar.
+
+[00:46:29.08] - Carlos Iglesias
+Qué bueno. Te voy a hacer una pregunta que no hago nunca. ¿Te quedas con ganas de explicar algo más del diseño sistémico?
+
+[00:46:37.17] - Stephanie Speranza
+Qué linda pregunta. Creo que hablamos mucho acerca de la capacidad de entender y de hacer el zoom out. Pero una cosa que me encanta cuando hablo de esto es que en realidad es una gran herramienta para proponer, para rediseñar el sistema. Y si yo entiendo dónde está el sentido común o el comportamiento de los usuarios, como hizo Airbnb, puedo generar un valor agregado, puedo generar las experiencias, puedo generar el unflexible feature. La capacidad de adaptarnos, no debería solo ser para ser como responsive, como reactivos a los cambios del sistema, sino que podemos también proponer nosotros cambios al sistema. Entonces, a veces estudiar entender la parte sistémica para mí tiene como ese mensaje de esperanza, de como no es solo un mundo de incertidumbre, de caos, y intento mapear para priorizar y seleccionar una cosa que voy a estudiar, sino que también es, tal vez si comprendo dónde están los gaps en mi industria, dónde están esos espacios en blanco, puedo proponer una mejora al sistema. Y hay un mogollón de ejemplos que uso cuando voy a las clases o demás, que muestran que por acertar a un entendimiento de comportamiento, hoy en día tenemos formas distintas de vincularlos que nos parecen nuevos sentidos comunes.
+
+[00:48:12.22] - Stephanie Speranza
+Por ejemplo, Tinder. Antes nos parecía super extraño quedar con alguien que nunca habías visto o estar como si fuera un catálogo de humanos. Y hoy en día, si bien creo que todavía es un una carnicería como lo hacemos, al final hay un montón de personas que se conoce así y que luego está sentado en una cena con amigos y dice: ¿Y ustedes cómo se conocieron en Tinder?. Y pasa como si nada, o sea, lo que hemos normalizado, lo que es parte del sentido común de hoy, es a veces también una propuesta de un equipo de diseño y de producto.
+
+[00:48:54.22] - Carlos Iglesias
+Qué bonito, interesantísimo. Me parece muy guay la reflexión. Gracias por traerla. A ti por contar. Recomiéndanos un recurso, algo que dirías: Queremos aprender más de esto, ¿qué hacemos? Puede ser una charla tuya o algo tuyo también.
+
+[00:49:09.24] - Stephanie Speranza
+Hay uno que me gusta mucho, que es el fácil de recordar para cualquiera que esté escuchando esto, es el Systemic Design Framework, que se lo pusieron fácil porque se lo pusieron al nombre. Y tiene un montón de tools online y gratuitas como templates también, además de procesos y demás, y se lo montaron superbien. Y yo utilizo muchas de esos mapeos como inspiración. Y el otro que me gusta mucho y que es así, recursos que para mí hoy, si bien se enfocan en la innovación, tiene una perspectiva mucho más amplia de lo que he visto del canvas de negocio o Horizontes de Innovación, es Board of Innovation. Board of Innovation. Board of Innovation, me parece que hace de las herramientas herramientas más guay para, por lo menos, pensar de esta manera y facilitar una sesión para usarla como equipo. Me interesa muchísimo.
+
+[00:50:08.11] - Carlos Iglesias
+Me voy a explorar.
+
+[00:50:09.12] - Stephanie Speranza
+Lo recomiendo un montón. Esos dos, así, son mis top dos de recursos de donde o creo una herramienta o utilizo las mismas que ellas proponen.
+
+[00:50:19.01] - Carlos Iglesias
+Muchísimas gracias por la recomendación. Igualmente, en las notas del episodio, pondremos un artículo de Steph, que seguro que os gusta. Y nada más, Me ha parecido superinteresante la conversación, como ya sabía que me pasaría. Superagradecido, gracias por venir. Y cuando quieras, pues aquí tienes tu casa para lo que necesites.
+
+[00:50:40.01] - Stephanie Speranza
+Muchas gracias.
+
+[00:50:40.24] - Carlos Iglesias
+La complejidad no es algo que debamos temer, es una condición inevitable de nuestro tiempo, un espejo de nuestras propias contradicciones, interdependencias y deseos, y también una fuente inagotable de aprendizajes, de posibilidades, de futuro. Cuando elegimos ver el mundo como un sistema programa, dejamos de buscar culpables y empezamos a ver relaciones, dejamos de pensar en soluciones mágicas y comenzamos a intervenir con humildad, con responsabilidad, con sentido. Gracias, Steph, por ayudarnos a ampliar la mirada, por recordarnos que El diseño puede ser una forma de cuidado, una forma de leer el mundo y de actuar sobre él con inteligencia y sensibilidad. Si este episodio te ha hecho pensar, si te ha tocado alguna fíbra, si te ha abierto una nueva pregunta, compártelo. Un fuerte abrazo y os espero en el mundo real.
+

@@ -1,0 +1,189 @@
+[00:00:00.720] 
+Nos gusta criticar nos gusta criticar. Prueba de ello yo creo que no hay mejor prueba que encender la tele especialmente Telecirco y a cualquier hora del día. Veremos algún programa que vaya de eso básicamente habrá quien me escuche. Espero por favor. Ojalá ojalá entre mis oyentes muchos de vosotros me direis. Pues mira yo no me identifico con esa afirmación. A mí ni me gusta criticar ni ni veo ese tipo de programas. Pero lo que sí estoy seguro es que estoy muy convencido de que a todos a todos nosotros nos gusta recomendar y nos gusta que nos recomienden una película en el cine o una exposición en un museo un restaurante un plato dentro de ese restaurante.
+
+[00:01:03.040] 
+El último disco de No sé qué grupo en definitiva nos gusta que nos recomienden y nos gusta recomendar las empresas que están trabajando eso que han entendido que hay hoy más que nunca es especialmente importante eso porque vivimos enganchados a un teléfono móvil o a un smartphone que es una máquina perfecta para emitir opiniones y por lo tanto para para recomendar y ser recomendado. Las empresas que han entendido eso y que están trabajando en la forma de impactar en el recuerdo de sus clientes para con su servicio esas empresas están trabajando la experiencia de cliente y de eso va el episodio de hoy que tomar experiencia en el mundo real.
+
+[00:02:46.670] 
+Yo soy muy fan de la estrategia en sí mismo no me gusta pensar Me gusta pensar en modo modo estratégico. En ese sentido quizá los que hace más tiempo que me conocéis me habréis oído hablar alguna vez de Lin Analytics. De hecho tengo alguna charla por ahí preparada. Es una lástima que no la tengo no la tengo grabada. Ver si si si la doy en algún sitio donde graben charlas y la cuelgo en mi blog porque es una charla que yo creo que está bien porque es divertida está basada también en una experiencia real propia y como decía soy muy fan de Analytics Analytics es un framework estratégico es un marco de trabajo estratégico que está documentado en el libro Line Analytics que es de donde sale la idea y para mí es brutal.
+
+[00:03:55.420] 
+ O sea siempre hago referencia siempre que pienso en estrategia o sea del tipo que sea empresarial claro de negocio. Siempre siempre acabo recurriendo a alguien Analytics el tema el tema del in Analytics es que de alguna forma está muy pensado como todos como todos los libros estos que llevan el prefijo Lien delante no está muy pensado para el mundo estará instara running English etcétera. Entonces si bien Blin Analytics tiene una parte que es muy útil para cualquier negocio sea del tipo que sea gran empresa o o pequeña estará porque viene documentado mucho mucho rigor y mucho valor.
+
+[00:04:48.810] 
+ Desde aquí lo recomiendo es más me comprometo a en algún momento hacer un programa sobre Lien Analytics si que si que estaba bastante enfocado a Astaroth entonces yo desde el punto de vista estratégico para mí la estrategia más certera más acertada mejor enfocada de todas las estrategias que creo que pueden existir para un negocio es el caso más centrista que no sea pensar tener a tu cliente en el centro de la toma de decisión incluso incorporarlo a tus propios al diseño de las propias soluciones de los propios servicios de los propios productos. Para mí esa es la mejor estrategia tanto si eres una start up como si eres una una gran empresa.
+
+[00:05:44.680] 
+ No y eso es un poco lo que lo que hace Gastón expidiendo lo que hace trabajar la experiencia de cliente no la experiencia de cliente busca impactar en el recuerdo de nuestros clientes. No nos enfocamos tanto si bien es importante lo que pasa o lo que vemos lo que observamos todavía es más importante entender lo que recuerda el usuario al cliente. Qué pasa que no tiene por qué ser lo mismo. Muchas veces no y esto hay que trabajarlo de punta a punta. Digamos que Castagno Experience de experiencia de cliente no es marketing en el sentido de que precisamente eso no es una cuestión punta punta yo a mí me gusta definir marketing como esa herramienta que permite conectar un consumidor potencial con un producto o servicio.
+
+[00:06:52.520] 
+ Digamos alguien que puede estar potencialmente interesado en un servicio en un producto. Cómo le haces llegar ahí. Pues sí entre las cuatro pero no lo voy a decir de memoria. No sé si me voy a acordar pero vamos si son producto precio punto de venta y promoción. Esto sería las cuatro patas del marketing tradicionales. Se dice se dice que experiencia cliente son siete pesos seis seis o siete pesos depende de la idea de sitios que habla de las seis de las siete Pest donde además además de estas cuatro del marketing producto precio punto de venta y promoción pues están las personas están los procesos y está la pasión.
+
+[00:07:42.500] 
+ Yo la verdad yo soy la verdad. Huyo bastante y queda muy bien este tipo de Marcos. Las cuatro las GTP y tal. Para explicar las cosas yo suele oír bastante esto porque al final es un poco encajar querer encajar la definición no en tu pseudo meta definición pero al final lo que yo lo que yo extraigo de aquí es precisamente que la palabra persona es muy muy muy importante en experiencia de cliente mucho más que en el marketing. También la personalización de la octava. Bueno ya sabéis que estas metáforas se pueden estirar tanto como tú quieras hasta que dejen de tener sentido.
+
+[00:08:29.210] 
+ Es lo que pasa con las metáforas que las estiras tanto tanto tanto que al final te chirrian. Bueno en este caso al final lo que yo decía es no es marketing porque yo el marketing lo entiendo más pues dentro de la parte de consideración o de atracción digamos no Castañer experiences de punta a punta Castromán experiences. Si no solo la parte de atracción no sólo la parte de Awareness de la parte de consideración no sólo la parte de compra sino también la parte de servicio. En la parte del post servicio en la parte de recomendación es punta punta.
+
+[00:09:13.770] 
+ Tampoco es calidad tampoco es calidad. Muchas empresas tienen puesto el foco en la calidad y está muy bien la calidad se baja. Se basa en la mejora continua no en optimizar procesos en definir mejoras y eso está genial. Tener una cultura Kaizen una cultura de mejora continua eso yo creo que es Mast de las empresas de hoy en día pero Castromán experiencia además tiene un puntito de diferenciación de ser de buscar esa diferencia respecto a la competencia no solo la mejora de la calidad en sí mismo no sólo la mejora continua sino también diferenciación y Castromán expidiendo tampoco es IVEX tampoco es no es lo mismo Cedex que yo ex CX que X no es lo mismo Castorena Experience User Experience y el expidiendo experiencia de usuario es trabajar la experiencia de usuario significa trabajar sobre una pantalla o trabajar sobre un interfaz donde el usuario interactúa con tu servicio con tu producto trabajar la usabilidad entender cuáles son las necesidades las dificultades del usuario durante el uso de tu aplicación no de de tu servicio no es lo mismo tampoco Castañer experiencia también es omnicanal también está fuera de la pantalla también incluso no tienen ni por qué haber pantalla en la experiencia de cliente no hay todavía deben quedar empresas que no están digitalizadas.
+
+[00:11:02.620] 
+ Entiendo que cada vez menos es verdad que este podcast va de experiencia de cliente y negocio digital. Ahí es donde está mi expertise en todos estos años pero muchas veces es cierto que se confunde CX con o X y no es lo mismo experiencia de cliente es un poco eso no es un poco entender de punta a punta cuál es la experiencia cuál es la experiencia real de tu cliente y eso implica bajar al barro bajar al barro y cuando hablamos de tu cliente claro tradicionalmente solemos segmentar desde el punto de vista de las ventas desde el punto de vista de marketing de las ventas pues cuales son el segmento de clientes con un potencial con una potencial mayor facturación para qué productos.
+
+[00:12:11.620] 
+ Muchas empresas tienen esto muy mapeado a abecé de clientes quienes quiénes son sus clientes y qué productos potenciales y qué margen potencial en cada uno de ellos pueden pueden tener esos segmentos son necesarios yo diría que muchas empresas no lo invalida. Me parece muy interesante conocer eso como me parece muy interesante conocer socio gráficamente quién es quién es tu cliente son mujeres de entre 15 o entre 18 y 55 años con un poder adquisitivo medio con unos hábitos de consumo X en una determinada área geográfica también es muy importante conocer la segmentación de tus clientes desde el punto de vista de marketing de alguna forma en experiencia de cliente lo que trabajamos es una segmentación desde el punto de vista de la necesidad de tu cliente y de la emoción de tu cliente.
+
+[00:13:22.830] 
+ Y ahí es donde trabajamos con personas no trabajamos en Convair persona o que es una técnica es una técnica muy utilizada no sólo en experiencia de cliente sino también en muchísimas disciplinas desde user experience experiencia de usuario pasando por Disa en Sinkiang etcétera. Al final vaya persona o usa el personal o lo iréis de muchas maneras también el matiz Bailleres es importante porque uso persona es tu usuario pero Vallaure es tu comprador es tu cliente entonces es un valor persona pues al final es una forma de arquetipal tus tú tú tus consumidores tus clientes y arquetipal.
+
+[00:14:21.420] 
+ Pues precisamente desde ese punto de vista que decía no desde la necesidad desde desde la emoción entonces creo que es una forma distinta de trabajar a nosotros nos gusta arrancar los proyectos donde podemos trabajar la experiencia de cliente nos gusta empezar haciendo workshops con el cliente interno digamos ya no con el cliente final solo sino también con nuestro propio cliente no con las empresas para las que trabajamos porque en las empresas está el conocimiento lo que pasa que es necesario ordenarlo ordenarlo de otra manera no de una manera mucho más enfocada en eso en intentar trabajar el recuerdo o trabajar la emoción entonces al final hablaba de Disa en Zinkia en la primera fase de Disney Zinkia es empatizar y para empatizar necesitas entender a quien tienes al otro lado y cuáles son las emociones que sienten cuáles son las emociones claves también dentro del diseño Thinking hay una técnica muy conocida que es el caso de Journey Journey.
+
+[00:15:39.330] 
+ Para mí sí hay una técnica que sea un más dentro de una estrategia de Castromán experience. Es el caso de Mazzoni yo creo que lo primero que habría que hacer a la hora de enfocar encarar tu estrategia de una experiencia es tener claro cuál es el Castañer Journey de cada uno de tus vaya al persona de cada uno de esos arquetipos que has detectado que has definido. Pero además es que esos arquetipos que tú tú los conoces a esos arquetipos no tú sabes quiénes son tus clientes desde el punto de vista necesidad pues yo sé que tengo un cliente interesado en un estilo de vida.
+
+[00:16:21.330] 
+ Si tengo un tipo de cliente deportista joven tengo un cliente pues no sé tú conoces a tus tipos de clientes desde el punto de vista de los hábitos de sus necesidades y tal de lo que se trata es de objetivar un poco todo eso. Vamos a estudiar quiénes son esos clientes vamos a hacer entrevistas con ellos vamos a hablar con ellos vamos a hacer observación etnográfica vamos a a también a cuantificar. No vamos a extraer información cuantitativa de las analíticas de nuestras plataformas de nuestros sistemas y todo eso lo vamos a transformar en un journey map un mapa del pasillo del cliente o del viaje del cliente donde vamos a ver cuáles son sus momentos clave dentro de cuáles son sus fases.
+
+[00:17:17.190] 
+ Primero tenemos que identificar cuáles son las fases por las que pasa nuestro cliente. Hay una primera fase de concienciación de la necesidad. No si yo estoy si mi servicio mi producto son planes de pensiones pues habrá una primera fase de concienciación donde nuestros potenciales compradores se den cuenta de que tienen que empezar a pensar en ahorrar para su futuro. Por ejemplo ahí es importante entender cuáles son cuáles son las fases y cuáles son los momentos dentro de esas fases pues probablemente en las fases las fases incluirá la fase de concienciación incluirá la fase de consideración incluirá la fase de contratación de un plan incluirá la fase de seguimiento de mi plan de pensiones por ejemplo no la fase de recomendación etcétera.
+
+[00:18:18.420] 
+ Incluso de Axel o de Sailing. Entonces dentro de cada una de estas fases vamos vamos a identificar momentos esos momentos pueden ser puntos de contacto con la marca o pueden no serlo dentro de la fase de concienciación pues habrá puntos de contacto que nosotros podemos trabajar de forma activa. Pues haciendo una campaña de display y haciendo una campaña en redes sociales trabajando contenidos de calidad en una estrategia más inbound marketing etcétera.
+
+[00:18:57.000] 
+Pero habrá momentos que pueden ser momentos de la verdad para el usuario o Paime Points Momentos de dolor para nuestro para nuestro cliente y esos momentos de la verdad es importante tenerlos identificados y muchas veces las empresas nos centramos en los Touch points en los puntos de contacto porque eso es lo que conocemos no conocemos los puntos de contacto del cliente para con nosotros cuando nos da feedback cuándo cómo utiliza nuestra aplicación cómo compra que compra cómo utiliza el servicio de atención al cliente etcétera. El problema es que muchas veces incluso nos centramos en su optimizar esos Touch points cuando no se trata de optimizar los Touch pues no se trata de optimizar el servicio atención al cliente se trata optimizar tu concentrar los minutos por llamada el número de llamadas atendidas.
+
+[00:19:55.430] 
+ No se trata de eso se trata de proporcionar la mejor experiencia.
+
+[00:20:00.620] 
+Se trata de que el cliente acabe o sea pase por su pasillo de experiencia pase por ese servicio con un recuerdo y se vaya con un recuerdo bueno se vaya con un buen recuerdo de esa experiencia. No se trata de eso y muchas veces nos obsesionamos repito con optimizar esos Touch points cuando muchas veces ojalá nos centremos en eliminar el Touch pues ojalá no sea necesario que tu cliente tenga que llamar al servicio al QOL Center para protestar. Por muy optimizado que tengas tu concentrar si tu experiencia es nefasta da igual lo optimizado que tengas ese ese concentrar entonces decía no es muy importante identificar todos esos momentos y especialmente los momentos de la verdad y esos momentos de la verdad un momento de la verdad es un momento que tiene especial impacto para el usuario pues no sé y hay pocos habrá tres cuatro o cinco momentos de la verdad dentro de una experiencia en la moda pues el momento de es sobradamente conocido que en el momento de probarnos una prenda eso es un momento de la verdad en una experiencia de compra de una pieza de un producto y por lo tanto tenemos que considerar ese momento de la verdad dentro de una experiencia online porque se va a trasladar muy probablemente no se va a trasladar IVA y iba y va a generar frustraciones también no poderme probar una determinada prenda.
+
+[00:21:38.530] 
+ Tenemos que tener identificados en definitiva esos momentos de la verdad y lo que tenemos que hacer es buscar la diferenciación ahí en esos momentos o en los momentos de dolor en esos Paime points y eso tenemos que que tenemos que hacerlo provocando un wow impactando en la emoción impactando en el recuerdo a través de la emoción.
+
+[00:22:07.980] 
+Muchas veces cometemos el error de intentar buscar un wow constante en la experiencia a nuestro cliente y eso no es posible. Sencillamente no es posible.
+
+[00:22:16.380] 
+No podemos mantener constantemente la emoción no podemos mantener es imposible estar todo el rato sintiendo un wow interno no se puede donde es importante es importante que la experiencia sea correcta siempre que higiénicamente sea correcta que no tengas una mala experiencia en ningún sitio por lo tanto es importante la calidad es importante la mejora continua es importante mejorar los procesos pero es muy importante diferenciarse con momentos wow en esos momentos de la verdad en esos momentos de dolor y eso es un poco lo que se tiene que basar nuestra nuestra estrategia de experiencia de cliente y para ello es muy útil utilizar por ejemplo Dessein Cinque hablábamos de Infinity como esa herramienta de diseño de soluciones de interacción de prototipado de cocreación donde podemos rápidamente validar muy muy rápido o mucho más rápido que si que haciéndolo en un proceso más unidireccional no tan no tan iterativo no tan incorporando a nuestro cliente y creando con él las soluciones es muchísimo más rápido hacerlo de esta manera.
+
+[00:23:43.320] 
+ Entonces bueno para mí un poquito lo que he intentado transmitir hasta ahora es en qué se debería basar esa experiencia esa estrategia experiencia de cliente. Los grandes retos los grandes retos donde están los grandes retos del cliente el principal para mí como yo lo veo es que trabajar la experiencia de cliente y hacerlo bien implica una transformación también a nivel de estructura os invito a ver de nuevo esa charla que os comentaba en el anterior en el anterior episodio esa charla que di en Sevilla en la casa de este año donde hablaba precisamente de eso del caso Experience.
+
+[00:24:31.960] 
+ Y allá él y en qué sentido aquellas empresas que han estado trabajando allá él de una forma consciente de una forma verdadera en el sentido de de dónde han tenido o donde haya tenido un impacto a nivel cultural no entendiendo tal como esa cultura objetivo no tienen tienen mucha ventaja esas empresas en cuanto a la centric cidad.
+
+[00:25:02.210] 
+No sé si es correcta la palabra casta me Sentry SITI a poner al usuario en el centro no porque porque porque siempre invariablemente y aquellos que trabajais en grandes corporaciones lo viviréis todavía de una forma mucho más fuerte de una forma mucho más marcada los silos verticales los silos funcionales dentro de nuestras organizaciones de nuestras grandes organizaciones siguen siendo una limitación brutal siguen siendo el principal dolor la principal limitación que muchas veces nos nos encontramos a la hora de diseñar un flujo de entrega de valor al cliente realmente estar centrados en la entrega de valor a cliente lo que supone es no estar centrados en nuestros propios departamentos en nuestros propios objetivos departamentales en nuestros propios objetivos de equipo sino en los objetivos de cliente en satisfacer al cliente en mejorar su experiencia.
+
+[00:26:10.020] 
+ Y ahí es donde creo que ese es el principal reto diría o uno de los principales retos de la experiencia de cliente en nuestras empresas. Ese cambio cultural esa transformación estructural y organizacional necesaria dentro de nuestras empresas para vencer esos silos y poder trabajar la experiencia de cliente de una forma transversal a todas las disciplinas marketing comunicación ventas calidad etcétera etcétera etcétera. Otro gran reto otro gran reto y este gran reto me parece apasionante. Y también le vamos a dedicar al igual que a ella Elía y al cambio cultural y a la cultura nacional y todos estos temas que me flipan me parece apasionante especialmente por el momento en el que vivimos vamos a vivir unos años increíbles en este sentido el gran segundo gran reto que quiero destacar es el reto del dato el dato.
+
+[00:27:15.720] 
+ Precisamente por por el hecho por la omnicanalidad dentro de la experiencia de cliente nos encontramos con datos. Estamos generando un montón de datos queramos o no tenemos aplicaciones tenemos webs tenemos datos de QOL Centers datos internos o externos a la compañía datos estructurados y datos no estructurados. Todos esos datos. Vivimos en una época en la que estamos generando una ingente cantidad de baita no y todos esos datos tenemos que ser capaces de sacar de extraer realmente valor de esos datos y ahí es donde entra pues entra el Big Data donde entra la inteligencia artificial en juego donde entra el machine learning donde entra el DIB Learning donde entran todas esas todas esas palabras que nos suenan tan a ciencia ficción pero que están aquí y ya están en el mundo real señores y hablaremos de ello también en los próximos en los próximos episodios pero ya sin irnos ya al Forecasting ya y a la predicción hay un montón de datos que podemos ya entender que Podemos ya procesar.
+
+[00:28:45.630] 
+ Podemos ya identificar objetivar y que podemos trasladar al Jonhy de nuestro cliente. Y eso es muy importante. Eso es muy importante y eso al final también representa un reto en el cultural en el sentido de que nuestras empresas tienen que estar orientadas a datos orientadas a la toma de decisión tiene que venir a través del dato y eso está muy lejos de ser verdad.
+
+[00:29:16.980] 
+Desgraciadamente en la mayoría de nuestras empresas también encuestas hacemos Customer Experience está muy basado en métricas de métricas específicas de experiencia de cliente como puede ser el NPS Net promote score o como puede ser el buey que hay un montón de métricas no va desde Boston Consulting Group te parece que significa Bran Advocacy Advocacy Index. Es esta el CES Castañer score. Hay un montón de métricas relacionadas con el gasto en el expediente. Hablaremos también en algún programa específicamente de cómo hacer encuestas en qué momento lanzar las encuestas. Qué métricas medir qué preguntar mira mientas mientras estaba hoy preparando este podcast y mientras estaba haciendo un poquito de ordenando mis ideas para grabar el programa de repente he puesto a Spotify para escuchar un par de cosas y me ha parecido integrado dentro de Spotify y por primera vez no lo había visto nunca.
+
+[00:30:29.640] 
+ No sé si os ha parecido a vosotros os pondré una captura de pantalla para que lo veáis una entrevista en el promotor score. Os la leo.
+
+[00:30:38.190] 
+Os leo la pregunta exacta que me hacían tres preguntas la primera era qué probabilidad hay que recomiendes de Spotify a un amigo o compañero. Esto es exactamente el promotor score.
+
+[00:30:55.020] 
+La pregunta que se hacen de forma 3:40 es exactamente esta qué probabilidad de que tú me recomiendes a un familiar o o a un amigo y la escalaba la escala de valoración extra entre cero y diez. No cero ninguna probabilidad y es muy alta.
+
+[00:31:12.210] 
+Bueno ya entraremos en detalle el día que hablemos de métricas de promote score tienen una forma de extraer ese score no es indirecto digamos no es tanta gente ha votado un cero o tanta gente un 10 y por lo tanto la nota media es un cinco y medio. No no va así es un poquito diferente ya explicaré y explicaré explicaremos cómo es y por qué es así también en Spotify y nos preguntan por qué opinás así.
+
+[00:31:38.820] 
+Una pregunta abierta y en general cuál es tu nivel de satisfacción con Spotify. El Cesac que se llama el índice de satisfacción.
+
+[00:31:49.530] 
+Todo esto Spotify también está trabajando su Castromán Experience obviamente como todas las grandes empresas. Como todas las empresas líderes en sus sectores lo son precisamente porque están trabajando la experiencia de cliente y la están trabajando conscientemente y a través de este tipo de métricas también a través del dato y analizando mucho.
+
+[00:32:12.780] 
+Y si hablamos de machine learning y de big data este tipo de cosas pues desde luego Spotify son unos maestros realmente asusta asusta escuchar sus recomendaciones y eso que yo tengo una hija de 7 años a la cual un hijo de un año al cual les pongo música infantil y tal pero igualmente mis Daily nicks Daily Nick son espectaculares me hacen unas mezclas espectaculares me hacen descubrir música que yo no conocía y aciertan cien por cien y eso eso es Castorena Experience eso es identificar y hacer utilizar el Data utilizar los para deleitar al usuario ese es el segundo reto un poco loita.
+
+[00:33:03.770] 
+Y el tercer reto que yo identifico y que quiero destacar pues es lo comentaba antes un poco cuando hablaba de cultura.
+
+[00:33:14.480] 
+Pero ya va más allá de la cultura también es esa capacidad de de realmente hacer un delivery de entregar valor de una forma ágil rápida certera no validar rápidamente qué es lo que necesita el usuario está funcionando está funcionando eso que estamos lanzando. Cuando tú analizas un Journey cuando tú cuando tú tienes el Journey claro lo tienes mapeado objetivamente sabes exactamente cómo es la experiencia de tu cliente dónde están los Point points por qué no es satisfactorio el Journey. En este punto concreto etcétera.
+
+[00:33:57.730] 
+Cuando tú tienes identificado el Journey ahí puedes tienes la oportunidad de innovar en la experiencia y de lanzar nuevos servicios nuevos productos o modificar los productos y servicios que ya tienes para deleitar. No para buscar que mejorar esa experiencia. Eso no es posible hacerlo sin una metodología ágil sin un proceso de entrega frecuente rápida en una empresa donde dependemos de unos tiempos de delivery brutales de un año. Yo me encuentro en mi día a día en mis clientes. Muchas veces son nuestros clientes en RAM ROM son grandes empresas. Empresas muy grandes de miles de personas y muchas veces veo eso no veo esa frustración.
+
+[00:34:52.870] 
+ No sabemos que tenemos que cambiar esto pero es que nos muestra un año y medio lanzar un nuevo servicio digital cómo puede ser eso cómo puede ser bueno. Puede ser porque todavía vivimos anclados en metodologías no centradas en la entrega de valor precisamente y eso es básico. Eso es eso es crucial. Allá él allá el competir desde operaciones también es una forma de competir no también es un eje estratégico en sí mismo.
+
+[00:35:34.020] 
+Tengo que me quedan cosas por decir del caso Marchionne pero prefiero dedicarle otro episodio me están saliendo un montón de episodios supongo que claro ya os decía en el episodio anterior para mi caso en el Experience es tan amplio hay tantas cosas que tratar de aquí van a salir un montón un montón de conceptos que iremos bajando de forma más ya más segmentada y más más vertical por decirlo de alguna manera en cada en cada uno de ellos.
+
+[00:36:05.060] 
+Kastner Journey me gustaría hacer también un episodio de Castellón de cómo llevar a cabo un Journey vale concretamente. Por último quería comentar el porqué no hablábamos al principio de que nos gusta nos gusta recomendar el porqué de todo el por qué por qué hacer esto me expidiendo. No es otro que la rentabilidad o sea estamos hablando de pasta. Estamos hablando de dinero. Estamos hablando de que las empresas líderes lo son porque trabajan la experiencia de cliente. Las empresas que proporcionan una mejor experiencia crecen claramente por encima de la media de sus sectores y al revés las que proporcionan una peor experiencia sufren el efecto contrario.
+
+[00:36:51.350] 
+Por ejemplo en España la diferencia en crecimiento de depósitos entre entre los dos bancos que proporcionan una mejor experiencia y los dos peores es de 10 puntos porcentuales y no es. No es el sector precisamente donde más diferencia haya. Por ejemplo hay muchísima más diferencia en telefonía móvil donde la diferencia es de 26 puntos porcentuales o en distribución alimentaria que hay 11 puntos porcentuales en el crecimiento orgánico de ventas o el diferencial de crecimiento de ventas.
+
+[00:37:27.080] 
+Esto lo podéis ver en el informe sobre sobre el estado de madurez de las Paniza de clientes realizado por BCG y la Asociación de Desarrollo de experencia de cliente Oscos-Eo por responder en las notas del podcast y en el post que ponga en mi web y lo tendréis en el post de mi web lo pondré más completo porque os pondré algunas gráficas y los links al post. Perdona al estudio.
+
+[00:37:59.240] 
+Este estudio está basado en más de un millón y medio de entrevistas en más de 30 países y sectores. O sea que estamos hablando de hecho en esto que comentábamos en España la diferencia de crecimiento es así la que decíamos. Pero es que en el benchmark internacional arroja datos muy muy similares pues mientras que en banca hay 10 10 puntos en Internacional y 9 mientras que en telefonía móvil hay 26 en internacional hay 20 están muy correlacionados balea a nivel nacional y a nivel internacional este mayor crecimiento en ventas de las empresas con una buena experiencia se explica básicamente por tres factores.
+
+[00:38:53.360] 
+El primero es que los clientes con una buena experiencia gastan más o contratan más productos. Por ejemplo en alimentación el 96 por ciento de los clientes que han tenido una buena experiencia con su distribuidor realiza más de la mitad de su compra en ese distribuidor frente a el 4 por ciento solo el 4 por ciento de aquellos que han tenido una mala experiencia no realiza más del 50 por ciento de su gasto en la misma cadena. El 96 por ciento respecto al 4 por ciento. Por lo tanto queda claro que los clientes con una buena experiencia gastan más gastan más en el sector moda no es tan pronunciado como en el sector de distribución pero es muy bestia.
+
+[00:39:49.940] 
+ Igualmente el 33 por ciento compra más del 50 por ciento en la misma marca. Cuidado eso es más de un tercio más de un tercio de consumidores compran más del 50 por ciento de la ropa que usan en la misma marca por haber tenido una buena experiencia frente al solo el 3 por ciento compra en esa marca al haber tenido una mala experiencia en restauración. El 48 por ciento respecto al 2 por ciento. Como veis estamos hablando de rentabilidad estamos hablando de que las empresas líderes están consiguiendo que los clientes que sus clientes gasten más y es así de sencillo.
+
+[00:40:37.320] 
+ Os decía tres factores el primero es éste el segundo es que los clientes con una buena experiencia tienen una menor tasa de abandono no sólo gastan más sino que abandonan menos por ejemplo sólo el 8 por ciento de los clientes con una buena experiencia en banca estaría dispuesto a cambiarse de banco. De los cuales sea el 8 por ciento estaría dispuesto de ese 8 por ciento sólo un 10 por ciento está buscando activamente mejores ofertas. Por lo tanto es un porcentaje muy muy reducido muy reducido cuando hablamos de experiencia. Cuando hablamos de buenas de una buena experiencia sin embargo el 80 por ciento de los que han tenido una mala experiencia de abandonar la entidad y un 64 por ciento de ellos ya está activamente buscando otro banco es salvaje.
+
+[00:41:28.210] 
+ La diferencia entre entre los dos bancos líderes en experiencia de cliente a los dos en la cola. Esa es la gran diferencia. El tercer factor es que los clientes con una buena experiencia recomiendan y captan nuevos clientes y aquí engancho con lo que con lo que empezar a explicar al principio del programa. A ver cuál es la fuente de información que más se utiliza en todo el mundo a la hora de decidirse por un nuevo producto o servicio. Pues efectivamente las recomendaciones de amigos y familiares que decíamos a todos nos gusta recomendar y que nos recomienden y cuando tenemos una duda preguntamos.
+
+[00:42:12.150] 
+ Preguntamos a nuestros allegados preguntamos a nuestros amigos preguntamos a nuestros familiares no vamos a buscar incluso al experto y quiero invertir en bitcoins. Y no soy experto en criptomonedas pero mucha gente amigos y familiares me pregunta dónde oye dónde puedo comprar bitcoins a crédito. No es sólo un ejemplo no buscamos la recomendación la fuerte la fuente más importante que más se utiliza en todo el mundo es la recomendación y cuál es la segunda fuente. Pues la segunda fuente es la recomendación la recomendación de consumidores independientes entre comillas y en foros en blogs en webs.
+
+[00:42:53.680] 
+ Si por tanto por tanto teniendo una buena experiencia de cliente no sólo mejoramos la fidelidad no sólo mejoramos la fidelidad sino también la atracción la captación. Por eso por eso yo insisto en que es la mejor estrategia de negocio que podemos que podemos implementar nos gusta contar las buenas experiencias y además es que tenemos más medios que nunca a nuestro alcance para hacerlo. Entonces en España leo en España el 62 por ciento de los consumidores basamos nuestras decisiones de compra en las recomendaciones de familiares amigos y un 40 por ciento en opiniones de Consumidores Independientes expresadas digitalmente en foros en blogs etcétera.
+
+[00:43:42.800] 
+ El tercer la tercera fuente os os colgaré este gráfico también para que lo veáis la tercera fuente es las webs de compañías un 39 por ciento la quinta fuente son las redes sociales con el 12 por ciento. Es muy importante es muy importante en definitiva un poco para ir cerrando e invertir en Castorena experience.
+
+[00:44:05.010] 
+Para mí es la mejor estrategia de negocio insisto que podemos implementar no sólo desde un punto de vista financiero de retorno sino también a nivel de aportación de valor a nuestros clientes. Como ya se está demostrando en todos los países sectores y con aquellas empresas que ya que ya lo están trabajando y que lideran entonces desde aquí quiero hacer una llamada. Quiero hacer una llamada a todo el mundo. Deberíamos estar enfocándonos en el mundo real el mundo real como decía Jayson Freud en el libro Rework aquellos que han extraído el primer episodio este va de eso esta es la de hacer una llamada a la acción dejémonos ya de ponernos excusas el mundo real no es un lugar es una excusa.
+
+[00:44:48.150] 
+ En el mundo real podemos trabajar la experiencia de cliente y lo podemos hacer.
+
+[00:44:53.190] 
+Está al alcance de nuestra mano. Empecemos por conocer a nuestro cliente. Yo recomiendo empezar haciendo entrevistas hablando con nuestro cliente entendiendo cuáles son sus momentos de verdad en las empresas. Hoy no conocemos a nuestros clientes me lo encuentro una y otra vez hablamos de nuestro a veces de clientes desde una segmentación de ventas desde una segmentación de marketing pero no tenemos conversaciones con nuestro cliente real. No los incorporamos a nuestras reflexiones no hacemos focus groups no hacemos entrevistas no hacemos observación etnográfica hablaremos de todo esto en siguientes programas y daremos recomendaciones de cómo hacerlo.
+
+[00:45:36.300] 
+ Pero sí obviamente si te puedes permitir que venga un consultor y te ayude si te puedes permitir recibir ayuda externa para trabajar tu experiencia cliente enhorabuena hazlo. Pero si no empieza a trabajar lo empieza a conocer a tu cliente y hazte un Kastner Johnny Mapp hace un Castromán Jerónima por sencillo que sea va a ser muy revelador y ese Johnny IMAP deberías hacerlo de forma transversal a todos los departamentos y todo todo CEO todo CEO que se precie va a entender la importancia estratégica del caso en la Experience.
+
+[00:46:14.830] 
+Si tienes que hablar con tu CEO para que te permita trabajar con otros departamentos en la experiencia de cliente háblale de por qué es tan importante explícale por qué por qué es tan relevante y que no dale todos estos datos que ofrece facilitando de todas las empresas líderes lo están trabajando por tener porque al final esto reporta rentabilidad reporta en captación recomendación en fidelidad y en y en viralización.
+
+[00:46:46.810] 
+Como decíamos si bueno es un poco mi llamada a la acción de verdad yo creo que sí en el mundo real es factible hacer esto. Dejémonos de excusas y pongámonos a trabajar y esto es todo. Queridos oyentes sólo una cosa más como siempre y tras escuchar este episodio quieres proponer a alguien como entrevistado porque creas que es afín al espíritu del podcast porque crees que puede compartir su experiencia porque crees que puede aportar valor. Por favor escríbeme a en el mundo real arroba. Carlos Iglesias punto info o tirarme un DM en Twitter a arroba Carlos de Saylor Carlos el marinero.
+
+[00:47:27.940] 
+ La única condición es que la persona propuesta no seas tú mismo y hasta aquí amigos este episodio número 1 de mi podcast en el mundo real el podcast sobre experiencia de cliente y negocio digital. Muchísimas gracias por escuchar de verdad. Quiero saber qué piensas qué te ha parecido así que me encantaría que me dejes tu feedback tus dudas. Bien a través de comentarios en mi página. Carlos Iglesias punto. Info info.
+
+[00:47:59.560] 
+O mejor aún a través de un comentario en Haití o en Google Play o la plataforma que utilices acompañado de unas estrellitas por favor. Para mi es súper importante porque porque es lo que me va a permitir ganar visibilidad para ampliar aún más esta gran conversación que espero mantener con todos vosotros oyentes.
+
+[00:48:23.020] 
+Un fuerte abrazo y os espero un.
+

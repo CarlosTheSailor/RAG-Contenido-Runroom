@@ -1,0 +1,342 @@
+[00:00:00.370] 
+En el mundo real cuando al mundo real le precede un pero deja de ser un lugar y se convierte en una excusa si de alguna forma u otra eres responsable de la transformación de la compañía donde trabajas aquí encontrarás la manera de desactivar esos pretextos ese portazo al cambio ese aquí no se puede. Este podcast es para quienes estáis convencidos de que las empresas deben poner al cliente en el centro de la estrategia y a las personas de la organización en el corazón de la misma. Aquí adquirirá una visión estratégica y a la vez practica a través de ejemplos y experiencias que os dotarán de argumentos en el idioma favorito de la alta dirección.
+
+[00:00:46.110] 
+ El lenguaje de negocio y no sólo hablaremos del qué sino también del cómo Hoy nuestro foco es este podcast y para ello contamos con su creador Carlos Iglesias. Yo soy Franc Carreras cofundador de mamis digitales y profesor en varias universidades y escuelas de negocio como Esade y otras. Bienvenidos al vigésimo episodio de El mundo real el podcast sobre Customer Experience y negocio digital.
+
+[00:01:35.790] 
+Qué tal lo ha hecho Carlos Ifrán. Espero que nadie escriba pidiéndome que a partir de ahora lo tienes que hacer tú. Estoy impresionado estoy impresionado. Pero bueno apártate de mi micro que es mi Ofra por favor.
+
+[00:01:48.410] 
+Vale venga va pues aparte de no no he venido aquí a entrevistarte a ti así claro que sí. O sea que esto va de que tú me vas a hacer una entrevista a mí. A ver tú piensa toda la gente que te escucha te escucha ve como entrevistas pero nadie nadie sabe todo lo que hay detrás de la persona que entrevista por qué no te hacemos a ti el protagonista por una vez hoy estoy empezando a preocupar. Venga va. Cómo que no. Claro que si hemos venido a jugar no vengas pues venga pues gran entrevistador soy yo y voy a empezar como empiezo siempre mis entrevistas mi entrevista va a empezar hablando de cómo nos conocemos tú y yo nos conocimos a través de Yo.
+
+[00:02:27.680] 
+ No sé si te acordarás me acuerdo perfectamente se nos presentó por nuestra afición común a la vela y también evidentemente a los negocios digitales. Giuseppe es un gran oyente de mi podcast y del tuyo estoy seguro y podemos aprovechar este momento también para agradecérselo. Yo la verdad es que me hacía mucha ilusión desde hacía tiempo poder entrevistarte y lo voy a hacer como hago siempre directos con la primera pregunta Vamos ya estás preparada. No pero. Bueno pues yo me estaba estudiando tu podcast y en el episodio cero hablas del síndrome del impostor y luego como ejemplo pones el caso de aquella vez que te pidieron una charla en el caso conferencias de Allardyce y lo rechazaste pero tengo entendido que acabas de llegar de otra edición de esa conferencia.
+
+[00:03:13.620] 
+Cuéntanos de qué fue tu charla en esta última. Bueno en esta última el título era diseño ágil de producto para terceros pero yo iba a hablar yo iba yo iba a jaquear un poco el tema no porque los asistentes estaban muy interesados en producto digital pero yo iba a hablar de los temas que a mí me apasionan realmente que son cultura equipo personas valores principios y por ahí han ido los tiros y cómo fue.
+
+[00:03:42.900] 
+Fue tan exitosa como yo creo que bien he tenido buen feedback y la verdad es que sí estoy contento. Tú llevas viendo esta conferencia desde casi desde el principio.
+
+[00:03:51.020] 
+Pues sí sí sí sí es realmente bueno yo creo que la primera fue en 2009 2010 y si me he saltado alguna pero por fuerza mayor no porque no porque haya querido para mí es un referente en este aspecto y no es una cosa que haya aprendido este año por favor en esta edición esta última semana interesante una cosa que he aprendido ha aprendido cosas he aprendido varias cosas pero he asentado algunos conceptos como por ejemplo el concepto del cambio el cambio el cambio a sí mismo no estamos en constante transformación el cambio el cambio ni siquiera es una cosa que pase en un momento el cambio es una cosa que sucede todo el tiempo es una cosa que sucede lo veas tú o no lo veas de alguna forma.
+
+[00:04:39.000] 
+ Entonces he aprendido a modificar mi visión sobre el cambio. He aprendido a ver el cambio como la información diferencial es decir esto es un concepto que me ha regalado Diego Rojas en una de estas charlas explica que él utiliza la diferencia para detectar cambios a la hora de introducir de hacer una transformación organizacional a la hora de introducir cambios dentro de un equipo dentro de un sistema. Tenemos que estar atentos a la diferencia qué está pasando ahora que no pasaba hace un mes o que está pasando ahora que no pasaba la semana pasada dónde está esa información diferencial y eso me ha ayudado creo que me he llevado una joyita que ir explotando con el tiempo pero me encanta eso porque además tú eres también una de las personas muy muy orientadas a medir.
+
+[00:05:37.590] 
+No siempre hablas de que es imposible mejorar lo que no podamos medir entonces también tiene mucho que ver con medir la diferencia. Pero ese es un poco contrasta mucho con algo que has hecho muy bien en la cultura que has creado por ejemplo en tu empresa Enron y ahí hay muchísimas cosas imposibles de medir que son que han mejorado mucho que son mejores que muchas otras organizaciones. Cómo lo haces en esos casos para saber si has mejorado o no has mejorado. Por ejemplo la inspiración de tu equipo o la motivación o ese espíritu de ilusión que tanto te importa cuando contratas.
+
+[00:06:13.080] 
+Cómo no mides esa es verdad que no hay un KPI y no hay una métrica exacta para aunque sí que te digo que también utilizamos herramientas de limpieza con las palabras en inglés employee experience o herramientas que se integran con nuestro día a día y que son hacen encuestas por ejemplo de cómo está la gente. No tenemos una herramienta que se llama Office por ejemplo que utilizamos para medir realmente cuán feliz está la gente cómo de energéticos se sienten cuánto feedback han recibido o no. Este tipo de cosas son muy importantes y son cosas que se pueden medir.
+
+[00:06:55.890] 
+ También es verdad que no es tan evidente medir sentimientos o medir actitudes es más difícil pero sí que ponemos foco también en eso y nos sirve mucho. Realmente lo miramos y realmente tomamos decisiones al respecto.
+
+[00:07:13.630] 
+Me encanta pues ya estoy aprendiendo a decir me encanta lo que has dicho. Hay cosas más difíciles de medir pero no por eso no deben ser medibles déjame llevarlo al extremo. Hay alguna cosa que no se pueda medir.
+
+[00:07:24.810] 
+Ostras yo no sé si hay alguna cosa que no se pueda medir. Otra cosa es que tenga interés medirlo o que te aporte información porque yo tampoco creo que haya que medir por medir. Yo creo que hay que medir para algo para provocar algo. Digamos que una de las uno de los de los olores que yo detecto al principio en algún proyecto típico Dashboard el típico cuadro de mandos con un montonazo de métricas que es completamente accionaba. Yo creo que no hay que medirlo todo hay que medir lo importante y siempre con métricas sancionables métricas que te permitan tomar decisiones para cambiar eso de alguna forma.
+
+[00:08:12.250] 
+ Entonces no sé es posible que el sentimiento es posible que sea más difícil de medir o tampoco sé si tiene interés medir el sentimiento para qué queremos conseguir con eso.
+
+[00:08:24.820] 
+Claro bueno mejorarlo algunas veces no pero es verdad que al final hay cosas más difíciles de medir y si hay interés se puede medir y ese es el punto. Yo me encuentro muchas veces haciendo una pregunta es muy difícil creer en lo que me esperaba algo más facilito o no sé algo de no sé qué es que hablemos de barcos llegar ya llegará igual.
+
+[00:08:42.500] 
+Yo quiero aprender de ti y además este es un tema que lo tengo muy presente porque yo cuando doy clase también a mis alumnos de métricas etc. lo que les digo es escoger tres métricas y mide esas superbién y tomar decisiones.
+
+[00:08:55.000] 
+Pero claro eso puede quedarse corto muy rápido. Entonces y hay veces que tienes razón hay cosas que cuesta mucho medir y hay que medir las igualmente aunque parezca que no así que gracias por esa lección vamos a hablar de Rando muy bien porque hoy me he dado cuenta no lo sabía y estuve aquí en el décimo aniversario porque llevas 15 años y ya lleva 15 años llevamos así.
+
+[00:09:19.530] 
+Años. Has hecho alguna otra cosa en tu vida desde entonces. Ese es el foco. Sí hago muchísimas cosas a la vez pero realmente el foco a nivel profesional es el foco porque te diría que no es a nivel profesional a nivel vital. Es un poco la grasa habrás oído decir alguna vez no que querrán Romulo nació de un business plan no nacido. No es un proyecto de negocio es un poquito de vida. Explícame un poco que te lo he escuchado decir y tenía la sospecha a decir verdad es que de vida que estás trabajando como un loco cada día igual pero no a cualquier precio.
+
+[00:09:55.440] 
+ Vale. Es decir nosotros hemos decidido de forma consciente que hasta ahora no queríamos irnos a abrir una oficina a Bogotá a pesar de que somos muy conscientes de la gran oportunidad que hay de negocio. De hecho hasta ahora vais a abrir el motor. No lo sé. No no no. verá si está alineado con nuestro propósito vital. Pues sí será posible pero antes que nada está ese propósito vital. De alguna forma y nosotros nos juntamos los cuatro socios los cuatro amigos que son. Yo los considero mis hermanos prácticamente nos juntamos para ser felices cada uno veníamos de una historia totalmente distinta y no nos juntamos con ninguno.
+
+[00:10:43.320] 
+ O sea no sabíamos ni que íbamos a hacer te lo prometo. Cómo empezó como empezó Cuéntame el primer pensamiento de una forma servilleta. Mira yo desde mi perspectiva lo que yo recuerdo yo estaba en mi sueño mi sueño cuando yo me puse a estudiar lo que me puse a estudiar y tal era ser desarrollador de videojuegos. Empezaste. Yo empecé. Sí sí yo empecé informática porque quería ser desarrollador de videojuegos y antes de acabar la carrera ya era desarrollador de videojuegos porque te encantaban los videojuegos. Sí porque era un estado líquido las dos cosas el desarrollo es un ejercicio muy intelectual es muy muy creativo.
+
+[00:11:20.210] 
+ Es una cosa muy de rigor. También tienen requieren muchos equipos y es algo que me apasiona también pero el tema de los videojuegos especialmente me parecía alucinante no era quizá porque mi madre me prohibió jugar de pequeño a los videojuegos 12:26 y me lo prohibía mi madre a los videojuegos los llamaba los comecocos. En aquella época cualquier cosa era un comecocos. Entonces yo antes de acabar la carrera ya estaba trabajando haciendo videojuegos y ahí me di cuenta que no era lo que esperaba porque yo me imaginaba no sé qué es lo que me imaginaba exactamente pero me di cuenta de que lo importante no era lo que programaba lo importante no es lo que construyes sino con quién lo haces y con qué propósito.
+
+[00:12:02.660] 
+ O sea con quién trabajas cuál es la cultura y yo en aquella empresa de videojuegos no me veía no me veía no me veía era un empresario muy basada en una cultura de expresión del miedo del sí muy opaco todo. Entonces decidí que ya estaba ya había cumplido mi sueño y entonces tenía que crear otro. De alguna manera y en ese momento pues casualmente con mi socio César que ya que ya era freelance pues estaba también como no sabía muy bien por dónde ir nos juntamos. Me acuerdo perfectamente en un banco del Raval comiéndonos un shawarma muy bien en plan que los otros dos nosotros dos empezábamos así pero en seguida se juntaron Orelia y Jordi que también estaban en situaciones muy parecidas.
+
+[00:12:50.390] 
+ Necesitamos a este masajista antes que vayamos juntos los cuatro estábamos juntos la carrera y estudiamos Ingeniería Informática Ingeniería Multimedia. Somos de la primera promoción en Europa digeridas multimedial la Salle y antiguos alumnos más antiguos y antiguos alumnos de Ingeniería de Martín media y entonces nos conocimos ahí. Yo hice la superior ellos tres hicieron la técnica esto es algo que me gusta restregarse por la brava. No tiene más interés pero sí nos conocimos en la carrera éramos amigos nos queríamos bien y de repente surgió y punto y surgió como y esto es algo que lo hemos reflexionado mucho a posteriori.
+
+[00:13:29.030] 
+ Qué edad tenía entonces 26.
+
+[00:13:32.540] 
+Si no me equivoco la misma edad claro 27 26 27 hicieron que yo sé que las agencias cambian con el paso del tiempo y yo he visto a vuestra cambiar habláis de cosas ahora que cuando ellos conocí no estaban en el menú que ofrecía al principio pues al principio lo que hacíamos era programar para terceros porque eso es lo que sabemos hacer.
+
+[00:13:51.440] 
+Empezamos a diseñar páginas web lo que fuese lo que fuese mirad nuestro primer proyecto nuestro primer proyecto nos lo inventamos nosotros. César tenía una novia por aquel entonces que era ilustradora y ya estaba trabajando para la editorial Oxford University Press. Y se nos ocurrió porque no íbamos a Oxford University Press una animación de un interactivo de animación. Ella hacía ilustración infantil no para el. El libro infantil se nos ocurrió llevarlos a hacer una serie de animación citas con interacción con tal para niños pensando en los niños. Hicimos un par hicimos una demo sin presupuesto sin dinero se habían sacado un ordenador bajo el brazo.
+
+[00:14:34.560] 
+ Desde mi casa no hicimos nada se la hicimos llegar a Osornio University Press a través de la novia de César la exnovia de César y nos llamaron para que fuésemos a verlos. Nos cogimos el Seat Ibiza de César nos metimos en el coche nos plantamos en Madrid y ahí fue nuestro primer gran proyecto de alguna manera empezamos a trabajar. O sea que hicimos una producción si no recuerdo mal 200 y pico episodios de animación con programación con juegos interactivos para niños hicimos una banda sonora instrumental con fue un pollo que no veas o sea montamos algo pero de alguna forma o sea yo a lo que iba un poco de forma recurrente.
+
+[00:15:19.160] 
+Nosotros montamos esto para ser felices y eso continúa aquí y momentico que consideráis experiences.
+
+[00:15:26.960] 
+Controlar vuestro destino no depender de nadie.
+
+[00:15:31.490] 
+Escoger los proyectos tener un espacio tener un lugar donde yo te diría desde mi perspectiva sentirse querido por los demás y donde poder desarrollarme personal y profesionalmente y eso que existían en todo el mundo que trabaje con nosotros tenga esa oportunidad. De alguna forma no lo encontramos en ese momento no lo encontramos no vimos la manera.
+
+[00:15:58.010] 
+El mundo corporativo del mundo corporativo nos sonaba un poco a la lucha de tiburones un juego que no queríamos jugar simplemente no y arrancamos esto sin ser conscientes de que estábamos arrancando una empresa.
+
+[00:16:11.000] 
+La verdad yo nunca me he sentido emprendedor. No no nunca. Yo no es más a mí la gente me dice óttar pero tú eres emprendedor. No me identifico mucho con esa etiqueta la verdad no me identifico tuviste siempre la inquietud de crear algo para ti o simplemente fue así porque vino el momento de crear algo así de crear muchas cosas. Yo tengo inquietudes se quedan muchas cosas pero no desde un punto de vista de emprendeduría de bisnes. Yo nunca he sido un vieses Man ninguno de nosotros cuatro hemos sido bisnes ni fíjate qué es lo que hacemos es business sabemos digital bisnes hacemos con un foco en negocio tal pero lo hacemos desde nuestra artesanía.
+
+[00:16:50.510] 
+ No sé cómo explicarlo mejor o sea lo hacemos porque nos sentimos colmados. Desarrollándonos profesionalmente ayudando a nuestros clientes en sus negocios. No porque de verdad la prioridad aquí en runrún nunca nunca ha sido el negocio para nosotros la prioridad ha sido el equipo la gente y la cultura construir un lugar especial donde estar.
+
+[00:17:12.700] 
+No dejar una pequeña huella digamos hoy te das cuenta de lo excepcional que es haber empezado amigos que es ya una receta para conflictos en algún momento para mucha gente. Eso es un punto. Dos compañeros de la misma carrera normalmente los que asesoramos a emprendedores les decimos tenéis que ser complementarios diferentes no los amiguitos que se juntan y aguantar 15 años.
+
+[00:17:39.650] 
+Cuéntame cómo sabes o no ser pares y ser pares.
+
+[00:17:44.570] 
+Esto es algo que te hace vía libre o sea yo siempre cuento esta anécdota que a nosotros el primer gestor que fuimos a visitar nos dijo que no quería trabajar con nosotros porque no íbamos a durar ni y esto nos sucedió. Esto nos pasó entonces sí pero por eso te digo probablemente si hubiésemos sido de una escuela de negocios a a que alguien nos explicase cómo se hace esto no lo hubiéramos hecho o no lo hubiéramos hecho de la misma manera. Pero cuando estaba en la pregunta cómo se hace eso. 15 años con amigos parecidos.
+
+[00:18:14.210] 
+ Mira yo te diría que la verdad es que es difícil es difícil sintetizarlo. O sea es muy difícil pero para mí hubo un click. Siempre ha habido siempre. La clave ha sido el respeto mutuo. Obviamente el respeto mutuo el cariño y hubo una época en la que me enganchaba bastante con mi socio Aurelio por ejemplo teníamos enganchadas porque somos los dos somos bellamente emocionales defendemos nuestra estado y fui hasta que entendí que lo que él defendía no lo defendía por ir en contra mío sino por porque él creía que realmente eso iba a aportar al bien común y iba a aportar a nuestro proyecto nos iba a llevar al éxito digamos.
+
+[00:19:01.010] 
+Eso me costó años fíjate me costó años entenderlo y él también y yo creo que eso cuando lo entendimos supimos que ya era ya está una vez superado eso.
+
+[00:19:13.280] 
+Lo demás fue más fácil digamos no porque ya estaba bien es encontrar la manera de encontrar el equilibrio. Pero en 15 años hay momentos buenos y hay crisis. Con mi no pasaba una sino dos. Cómo lo habéis gestionado. Habéis tenido que haceros pequeños alguna vez no.
+
+[00:19:31.350] 
+No hacernos pequeños en el sentido de tener que echar a gente porque no teníamos suficiente trabajo verdad. No pero por una cuestión coyuntural no sé como decirlo no porque nosotros hemos sido como nunca hemos tenido esa visión de empresario. Nosotros nos encontramos con una empresa cuando llevábamos 11 años.
+
+[00:19:53.830] 
+Dijimos coño cuántos somos. Hay un momento de quien lleva los números aquí.
+
+[00:20:00.050] 
+Ahora ahora ahora ya hay un cierto orden a los 55 personas por casualidad estaban o no ahora.
+
+[00:20:05.570] 
+Ahora ya hay un cierto orden digamos pero espero esto que te cuento es cierto. Nosotros llevábamos ocho años igual éramos ocho personas y de alguna manera este crecimiento se fue acelerando y llegó un momento que tomamos consciencia de decidir cuidado que tenemos una empresa y tendríamos que entender qué significa eso pero de verdad o sea nuestro mundo nuestro es nuestro. Nuestro enfoque nunca fue ese nunca fue. Somos empresarios. Vamos a gestionar esto y yo no he estudiado contabilidad en mi vida y no te ha hecho falta. Bueno no me ha hecho falta.
+
+[00:20:37.000] 
+ Seguramente si hubiese tenido esas habilidades de contabilidad A lo mejor no se hubiese ido mejor. Yo siempre pienso que cuantas más habilidades en la mochila pues mejor. Pero la realidad es que fue así. O sea no teníamos esa información con nuestros Excel numéricos para ir bajo sobrevivimos de alguna manera y no no nos hizo falta pasamos. Claro que sí. Hemos pasado momentos de fiducias y parecía que no llegábamos parece que no llegamos a preguntarnos si esto tiene sentido. Yo recuerdo épocas en la de estar pagando nóminas de trabajadores y de vernos seis nóminas nuevos a nosotros mismos.
+
+[00:21:13.470] 
+ Para qué estoy haciendo esto. Aunque ha habido momentos donde no han salido los pájaros. Claro claro claro. Nuestro negocio es un negocio muy difícil muy difícil con poco margen. En general no es un negocio para forrarse. Realmente es un negocio que seguramente si te compra un centro sé que si te compraste están comprando a ti. Al final tienes que seguir trabajando. No hay fórmulas no hay fórmulas porque la gente los casos que conozco hacen un hermano y al cabo de un año y medio ya está bueno. Hay fórmulas y hay maneras de hacerlo pero es verdad tampoco ha estado nuestro nunca en nuestro rol de vender.
+
+[00:21:49.450] 
+ No te puedes imaginar porque para nosotros un pleito vital no es un proyecto de negocio en ese sentido.
+
+[00:21:55.290] 
+Pero he perdido el hilo final estamos hablando de cuando no podías pagar nóminas. Exacto es que una de las cosas que tiene este tipo de negocio yo también lo conozco es que tienes que financiar a tus clientes es lo que me parece más injusto si no es verdad le pagan a 60 días y tienes que pagar nóminas al instante. Entiendo que hayas tenido situaciones en las que la tesorería no te permitía pagarte a ti mismo. Estábamos hablando de eso.
+
+[00:22:15.260] 
+Sí sí sí es verdad es verdad pero un detalle no sé a nosotros nunca nos hemos repartido dividendos. Siempre ha sido salario y salario y punto y lo demás lo hemos dejado para no tener tensiones. Siempre hemos sido como muy conservadores dentro de porque por puro desconocimiento tenéis pólizas de crédito no. Sí sí por desgracia Colanta ahí nos hemos hecho mayores nos hemos hecho mayores. Llegó aprendido que tiene solución muy sencilla un momento que dijimos necesitamos una dirección financiera. Aquí estamos alguien y hoy afortunadamente contamos con Yudith es una directora financiera con mucha experiencia que ha estado en otras agencias y tal y ha puesto orden está poniendo orden a todo esto.
+
+[00:22:53.480] 
+ Digamos no pero sí sí hay.
+
+[00:22:56.800] 
+Yo creo que somos una empresa adulta somos una empresa adulta 15 años yo creo que ya casi 15 añitos ya viene tocando ya es adolescente ya es más en nuestro sector diez años en nuestro sector no son diez años en cualquier sector.
+
+[00:23:11.560] 
+Realmente no porque cuando empezamos nosotros no existía y no existía YouTube no existía Facebook no existía Twitter.
+
+[00:23:20.410] 
+Eso también es verdad que estamos en un sector creciente nuevo y eso nos permite crecer al ritmo que otras empresas más consolidadas en otros sectores no pueden hacer eso. Eso también ha sido la ventaja. Eso es tuyo comentábamos a menudo porque nos conocemos hace tiempo lo que tenemos en común. Pero yo te admiro mucho por eso pero yo soy incapaz de hacer una cosa a seguir durante 15 años. Entonces el hecho de que tú hayas tenido ese foco y lo hayas podido hacer también realmente es admirable. Y en eso no estoy a la altura tampoco vaya.
+
+[00:23:48.490] 
+Pero primero quiero hablar de eso quiero hablar de tus objetivos he leído tus objetivos para 2018 basarlo ya lo vamos a hacer. Pero primero felicitarte porque llevas un año y ya con el podcast estamos en el 20 y eso tiene mucho mérito y será una de las cosas que tenías como objetivo conseguir petarlo con el podcast y creo que lo estás haciendo de sobras pero tienes otras cosas allí como tu libro cómo ayudar a tu madre y cómo hacer más ejercicio. No te voy a preguntar por cada una de ellas pero dime de cuál estás más orgullosa de haber conseguido.
+
+[00:24:20.650] 
+Bueno yo creo que de podcast estoy muy orgulloso porque estoy contento estoy contento de haber hecho entrega de forma frecuente y de no haber fallado ahí estoy orgulloso de eso pero lo de mi madre ha sido un regalo de la vida. A ver cuéntame qué pasará cuando muera mi madre. Mi madre ha sido profesora toda su vida en el instituto bueno empezó dando clases en párvulos niños de párvulos y fue subiendo hasta con nuestra época hasta bachillerato. Estuvo muchos años dando clases y se jubiló y antes de jubilarse pues ella siempre había querido escribir.
+
+[00:25:03.870] 
+ No siempre le gustaba mucho la poesía la novela. Ella era profesora de literatura historia geografía. Era una persona muy cultivada. Yo creo que es persona más culta que conozco del mundo y entonces ella se apuntó al Ateneo de Barcelona a un curso muy muy famoso que ahí tienen de escritura de novela. Estuvo cuatro años escribiendo su novela una novela histórica una novela basada en investigación que fue hacer investigación de campo se fue al Bierzo que es su tierra a investigar qué es lo que sucedió durante la Guerra Civil en el período previo de la República.
+
+[00:25:43.260] 
+Mucho trabajo mucho mucho mucho talento y al cabo de cuatro años tenía una novela al cabo de cuatro años había escrito una novela y ya terminó la terminó. Terminó su novela y entonces ella se quería autoeditar la novela. Y yo le dijimos ni hablar ni hablar.
+
+[00:26:00.920] 
+Cómo autoeditar una novela que es la manera hoy en día de sacar un libro.
+
+[00:26:04.560] 
+No vamos a conseguir que te editen la novela y vamos a conseguir que una editorial te publique tu novela y tú vas a vender tu libro. Y ese fue nuestro propósito. Queremos lograr eso y lo logramos y lo logramos. Lo que sucedió es que hablando con Neus Arqués una amiga mía que es escritora y también es una profesional del márketing italo me explicó cómo funcionaba el mundo editorial. En este sentido la ayudábamos a crear una propuesta editorial la enviamos a varios agentes editoriales nos seleccionó porque esto es así o si a ti te eligen un agente literario un agente o un agente literario.
+
+[00:26:43.580] 
+ Lo primero que hicimos fue buscar agente literario y la idea y la cogió la agente literario que había sido la descubridora de Ildefonso Falcones. Imagínate nosotros apuntamos alto de repente y en un mes tenía editorial y había firmado que estaba firmando con Random House Mondadori. O sea una cosa muy loca. No es un sello editorial más grande del mundo. Efectivamente y así fue. Y le sacaron el libro y le hicimos la campaña. Grabamos un video nosotros le hicimos un trailer y la ayudamos a lanzar el libro y a partir de ahí eso lo ha hecho todo ella.
+
+[00:27:23.090] 
+ Yo he flipado con mi madre realmente haciendo entrevistas en televisión radios y una soltura como si lo hubiera hecho toda la vida. Y de alguna manera eso para mí ha sido un regalo de la vida que quizá no le he podido dedicar tanto tiempo como me hubiese gustado pero que al menos he tenido la oportunidad decir venga te vamos a acompañar a este camino y tal vez hayas utilizado tu experiencia en marketing de comunicación. Mi hermana también en los dos también. Sí sí sí tu hermana a qué se dedica. Pues mira mi hermana trabaja en runrún desde hace te diría seis o siete años.
+
+[00:27:54.260] 
+ Fíjate que especiales esto no lo sabía. Sí sí sí mi hermana mi hermana hizo Comunicación Audiovisual estaba en izaba estaba en producción estuvo en la fábrica la tele estuvo en varias máquinas de estas corporativas producciones visual y me acuerdo que le decía Tú tienes que entender de qué va esto de AdWords tú tienes que entender de qué va esto del marketing digital tiene que entender esto porque esto es esto es la ola que viene y te tienes que subir a esa ola y de alguna forma tuvimos la suerte de que además fueron mis socios que me dijo Oye tu hermana tu hermana que venga aquí a trabajar.
+
+[00:28:31.640] 
+ Ay ay ay ay ay ay. Y funcionó. Gibelli pues mira qué traspasar.
+
+[00:28:37.160] 
+Encima de tener socios amigos de haber estado 15 años de haberlo hecho todo en contra el libro del manual de emprendimiento contratado a un familiar y un familiar lo llevas superbien.
+
+[00:28:46.780] 
+Sí sí sí. O sea eso nos ha unido más si cabe. Nos llevábamos muy mal de pequeño mi hermana y yo nos llevábamos fatal. Quién es el mayor yo. Cuántos lleváis. Ocho años. Uf mucha diferencia hay mucha diferencia. Es complicado es complicado una relación niño niña claro niña niñas y no sé. Supongo que el contexto también y tal. Pero ahora no vamos a llegar a Somos.
+
+[00:29:13.380] 
+Vamos si yo me corto un brazo voy a acabar con hablabas de ella me has hecho darme cuenta de una cosa cómo pasa un programador de videojuegos a entender SEM SEO todo lo que estás haciendo ahora. Cómo fue esa transición.
+
+[00:29:30.320] 
+Pues ha sido no es que haya sido una transición es que vivimos en esa transición estamos aprendiendo todavía gente que tengo que explicárselo. Nosotros nos dimos cuenta en un momento dado al principio cuando éramos cuatro personitas que las cosas que estábamos haciendo estábamos haciendo muchos desarrollos para terceros para agencias que nos decían que teníamos que programar. No le veíamos ningún sentido a las cosas que hacíamos. Qué valor aporta a quien le aporta valor esto. Entonces decidimos que teníamos que incorporar capas de valor a nuestra oferta para poder sentir que estábamos haciendo algo útil.
+
+[00:30:05.330] 
+ Entonces empezamos a eso a incorporamos una diseñadora. Al principio salió fatal salió fatal no acabó de encajar. Lo fuimos probando y a medida que los clientes y los proyectos lo fueron permitiendo fuimos añadiendo capas de valor digamos. Y el tema del marketing. Tuvimos la suerte de estar ahí al principio realmente porque lo visteis lo mismo ya lo vimos crecer es que ni siquiera queríamos clientes claro. No ni siquiera pero nosotros como ese ímpetu de diferenciación eso que queremos hacer las cosas bien. Entonces no podemos hacer una página que no sea indexar o que nos preocupaban este tipo de cosas y ahí nos empezamos a formar también en el SEM.
+
+[00:30:48.500] 
+ Empezamos por no ha sido como una cosa como un NonStop pero es que esto cada cada día pasa no pasa.
+
+[00:30:57.200] 
+Ahora dime hoy qué es lo que estáis aprendiendo que otros todavía no han aprendido y que tienes la misma sensación de decir que hoy en día no podemos hacer negocio digital sino que tener experiencia allá el que estamos estamos y eso yo diría que hemos aprendido bastante y todavía nos queda mucho por aprender siempre ya no es tan nuevo.
+
+[00:31:22.190] 
+Ya no es tan nuevo. Digamos que ahí estamos cómodos ahí estamos en un lugar que ya no sentimos tenemos cierto grado de maestría. Si miramos hacia el futuro yo veo yo veo Boitano la palabra no veo learning o inteligencia artificial que todo eso nos está tocando y aún nos cuesta entrar ahí nos cuesta entrar porque es difícil hay que ponerle mucho foco pero nos gustaría mucho ahora y esta semana también otra de las cosas que queremos hacer es que tenemos que subirnos al carro de las apps de voz para Alexa para Google. Eso nos parece fundamental queremos estar ahí.
+
+[00:32:01.100] 
+ Ayer estuve leyendo pero está claro que si conoces al éxtasis. Sí sí sí has probado Tengo tengo. Todavía no lo he probado pero no me ha parecido tan difícil como yo creo que lo están haciendo bien para tomar una serie de tutoriales guías de entrada detallada y con algo de conocimientos de programación. No es difícil entrar ahí creo que se pueden hacer cosas al menos un experimento no lo voy a probar eso seguro seguro.
+
+[00:32:28.790] 
+Me encanta pues ya tengo deberes para aprender. Además para estar al nivel que estáis vosotros voy a cambiar de tema porque además de ser gran aunque no lo digas estuvo emprendedor o empresario porque al ayatollahs empresario también es padre.
+
+[00:32:44.870] 
+Y también hablamos tuyo a veces de eso y has hecho una cosa que tengo mucha curiosidad porque me la expliques porque lo había visto en redes pero quiero saber qué es boiled Atlapa.
+
+[00:32:56.810] 
+Pues mira esa es otra de las cosas de las que más orgulloso estoy en mi vida Bayless llegó en un momento en el que yo Bruna a mi hija mayor tenía 3 años en su momento la tiene 8 tenía 3 años y a mí me llegó desde Estados Unidos y esa corriente de comodin Obama. Obama quiso introducir una hora de programación a la semana en las escuelas y empecé a tomar conciencia de lo importante que sería saber programar en una en una sociedad donde la tecnología ya no es un básico ni siquiera es absolutamente necesario para cualquier profesión.
+
+[00:33:42.500] 
+ No recuerdo un libro que me leí leído un tal vez me acordaré ahora no me acuerdo que el tipo hablaba de la brecha digital y del nuevo analfabetismo digamos entonces a mí eso de alguna forma pues bueno era como que me llamaba la atención y a la vez claro en un momento de los tres años donde mi hija tenía que entrar en el sistema educativo Yo soy extremadamente crítico con el sistema educativo está utilizando un eufemismo por no decir realmente lo que pienso. No soy muy crítico con el sistema educativo.
+
+[00:34:14.590] 
+Siempre explicó que yo siempre he sido un estudiante mediocre casi siempre he sido un estudiante mediocre de sacar un 5 mejor que un 6 porque eso significaba que había aprovechado mejor mi tiempo en otras cosas campanero profesional en la universidad o sea muy mal estudiante muy mal estudiante y sin embargo no hay nada que me guste más que aprender. Entonces con los años le preguntaba Pero cómo es posible que esto sea así si no hay nada que me motive más. Siempre estoy aprendiendo cosas nuevas Skills Aleksei cosas. El patrón de yate en mi familia navega nadie.
+
+[00:34:46.850] 
+ Este tipo de cosas entonces siempre he sido muy crítico con el sistema. Yo creo que es un problema sistémico es un problema que estamos enseñando a los niños exactamente igual que hace no sé cuántos siglos con unas clases unidireccionales con profesores con el rollo incentivando la memorización cuando eso cada vez tiene menos sentido y tiene más sentido la resolución de problemas. Entonces yo afortunadamente tengo cierta visibilidad en el sector Thaçi levanté la mano y seguí Peña. Yo me fijé en una en una comunidad que estaba en el que había en Zaragoza que se llamaban zagales jetlag que eran unos padres sencillamente que quedaban para cacharrear con sus hijos.
+
+[00:35:23.750] 
+ A nivel de tecnología ellos lo hacían quedaban ellos con sus propios ojos y yo tuve la visión de que a mí lo que me hubiese gustado de lo que me gustaría de montar una comunidad digamos una comunidad más amplia más allá de nuestros propios hijos. Entonces levanté la mano por Twitter y gente. Yo quiero montar algo así aparecieron. Como me interesa me interesa me interesa me interesa y los diez primeros pues nos fuimos a dar un taller gratuito a una escuela de es un sábado por la mañana. Imagínate diez motivados de la vida dando un taller de scratch de programación a niños de 7 u 8 años lo sabéis vosotros salvamos nosotros a los niños.
+
+[00:36:01.250] 
+ Cómo vamos a empezar a quedar niños en esos 7 10 años más o menos y ya se enganchaban.
+
+[00:36:07.530] 
+Yo tengo niños de saber están empezando a los niños fliparon los años. Aquello fue como guau. Esto es la leche y lo que sucedió fue magia.
+
+[00:36:17.200] 
+Eso es lo que sucedió es que yo creo que eso llega en un momento en el que era mucho más necesario que hoy probablemente donde ya hay más extraescolares de robótica y cosas así en aquel momento no había nada. No era un perseguido. Sí sí sí seguimos. Ha perdido un poco de energía también porque porque es una comunidad orgánica que las cosas que suceden suceden porque la gente que está en ese momento quiere que sucedan pero en el primer año llegamos a montar un evento de mil y pico personas. Sí sí sí sí voluntarios a 50 voluntarios haciendo cacharros haciendo brazos robóticos de cartón con una cola espectacular pianos hechos con plátanos y peras que sonaba música con un Makemake acercar la tecnología y quitar ese elemento mágico a la tecnología.
+
+[00:37:00.540] 
+ Esto lo puedes hacer tú lo puedes hacer tú y utiliza esto de forma creativa para resolver problemas. No es nuestro mensaje de alguna manera y esto ha sucedido que eso que se ha ido sumando sumando de repente ha entrado la comunidad educativa han entrado los profesores los profesores llegaron profesores de Tecnología llegaron a formarse a aprender de la propia comunidad y se creó un fuego un fuego espectacular. Ha sido una cosa de las cosas que más impacto social han hecho de las que he hecho y me parece alucinante espectacular.
+
+[00:37:35.880] 
+Yo tengo niños de sala y ya me apunto ya no no de verdad porque yo tengo esa frustración igual. Yo pienso que las escuelas están muy atrasadas. Yo no voy a dar detalles pero yo estuve en una presentación en el colegio de mis hijas en el que hablaban de pantallas y lo único que sabían decir es que no hay que usarlas y yo decía y todos los usos positivos y necesarios del futuro.
+
+[00:37:56.960] 
+Quienes los cuentan y no estaban preparados para ello.
+
+[00:38:00.420] 
+Faltaba baile claro que gracias por hacer eso ya tienes nuevos participantes ya en la próxima sesión de Cuento contigo. Por qué. Por qué tenemos que contarnos lo que pensamos así y hacerlo por los nuestros pero también por los de los demás. Claro que sí. Y lo que no hemos contado nunca a pesar de que siempre hablamos del tema es cómo empezó lo de la vela contigo Carlos de Saylor en Twitter. Sea que se ha cambiado no has pretendido ser otra cosa. Siempre ha sido el navegante.
+
+[00:38:24.630] 
+Pues mira ya te digo a mi familia soy yo. Yo me he criado en mi familia en una familia de trabajadores quiero decir nadie en mi familia nunca ha navegado nunca nadie pero yo tuve un profesor un profesor que me influyó mucho cuando yo era un adolescente tenía 17 años un el profesor de biología Javier Balbuena que para mí ha sido una referencia vital. Este tío es un tío para que te hagas una idea de quiénes tuvo un accidente de moto perdió una pierna y no sé cuántos años más tarde se fue a la Antártida en una expedición.
+
+[00:39:03.670] 
+ Con tres o cuatro discapacitados físicos más. Cada uno tenía su programa a él le faltaba una pierna y cada día y lo hizo. Es un tío que para mí es un referente a nivel de gente que es muy inspirador y de alguna manera. Yo siempre había tenido esa pulsión por el mar por navegar y me enteré de que él había ya navegaba ya se había sacado el título y entonces yo yo al principio ni siquiera pensaba en la vela. Yo pensaba navegar así yo me imaginaba desde el mar viendo y viendo la tierra viendo y me imaginaba Feliza y en medio no pero él fue el que me dijo esto.
+
+[00:39:45.870] 
+ Quedamos para comer y yo le pregunté Oye vamos a quedar un día para comer. Ya no era profesor mío y yo ya estaba en la universidad. No vamos a quedar para comer y me cuentas que por dónde empiezo no sabía ni qué títulos había. Entonces quedamos en me explicó lo que era un perro que era un Penev el patrón de yate trataba y me dijo Mira aquí el sentido de la vela es atún.
+
+[00:40:07.710] 
+Todo esto está muy bien. Los barcos que está muy bien pero aquí la clave es la vela y las tonterías están no hay por qué pasa. Porque entonces él me dijo Tú sacate lo que quieras. El título que tú quieras pero a motor y vela. Entonces me fue un poco quien me dijo Tienes que probar esto y bueno lo probé y nunca más salida.
+
+[00:40:30.580] 
+Digamos que le encuentras a la vela que no entiende la Vela la Vela te voy a explicar a ti Franke pero ayúdame a resumir la vela es estar en comunión con el universo yo creo yo tengo un poco esa sensación. Yo tengo momentos vividos la vela es esa sensación de control de la naturaleza de las fuerzas naturaleza de decir yo puedo con esto yo estoy controlando la situación yo sé lo que está pasando yo voy a tomar estas decisiones y estoy en comunión con la naturaleza. Es que no sé explicarlo de otra manera y con algo más fuerte que yo mucho más exactamente remata exasperó.
+
+[00:41:07.520] 
+ No puedo utilizar el respeto al mar de ese respeto de decir oye esto es muy grande y tengo recuerdos de la vela que yo la primera vez que hice las prácticas de patrón de yate tuve la suerte de que en mi escuela organizaban una salida en Semana Santa a Mallorca. Me apunté. Me enrolé nos fuimos para allí y el profesor en un atardecer en la bahía de Palma cuando estaba cayendo el sol sobre las montañas de la Tramuntana de la Serra de Tramuntana era algo de verdad es que esto fue así tal cual acabábamos de ver delfines saltando una situación muy especial de ceñida con el viento de cara con olas me dijo Oye deshacerla un pillín cambia el enfoque cambia el Jenova por el foque dan velas semanales.
+
+[00:41:57.370] 
+Sí sí sí se habían arrimaban reglas y tal normada enrollable nada pero yo tengo que pagar el barco dando tanto cazos o sea una cosa y me fui para la proa baje la vela me bajaron a las Vela de la mañana cambió la vela. En ese momento el barco entró dentro del agua un tanto cazo me metí dentro del agua durante unas décimas de segundo salí del agua está ahí y vi el sol poniéndose de verdad. Fue un momento un momento de iluminación de Epifania de decir Hostia esto es lo mejor de la vida y nunca más lo dejó en claro que nunca lo has dejado por eso y encuentras alguna.
+
+[00:42:35.830] 
+Has aprendido algo en el mar que te haya servido en otros lugares.
+
+[00:42:38.860] 
+Muchísimo muchísimo unasola muchísimo mira la gestión del estrés o sea tuve la suerte de que había una página que ahora ya no existe no se llama así que era busco tripulantes puntocom no sé si la llegaste a conocer. Yo no tenía barco mi ningún conocido barco entonces me llamó un señor que tenía un barco que con él tengo una amistad con una amistad que podría ser mi padre un señor que salimos muchos años a navegar juntos de pachanga de paseíto.
+
+[00:43:12.810] 
+Y bueno yo fui adquiriendo experiencia navegando con él fin de semana fin de semana y un día me llamó el dueño de un barco de regatas y me dijo Oye quieres hacer regatas esferoides que yo no sé ni cómo funciona la regata no te preocupes por esto.
+
+[00:43:27.690] 
+Entonces fui fui y pocas.
+
+[00:43:30.330] 
+O sea fue un baño de humildad pero pero al cien por cien no se fue un sentirte inútil que molestaba a la gente un momento estresante las salidas a estribor la gente gritando tú ahí en medio que no sabías qué hacer o no sabías de Cavo tirar ni no entendías nada. Maniobras mucho más complejas ya me tiré un año año y pico CMAC domingo a domingo que el sábado por la noche pensaba. Mañana tengo regata y te lo juro y te pasé mal lo pasé mal y seguí y seguí y seguí seguí hasta que dejé de pasarlo mal y empecé a disfrutar y hice el click lo entendí todo y empecé a disfrutar y luego pasé por todos los puestos del barco y llevaba la mayor y llevaba Valdano y fui.
+
+[00:44:19.860] 
+ Pero para mí eso fue un aprendizaje no de lo que es la constancia la resiliencia la resiliencia lo importante que es no lo dejes. Pero claro no lo dejes con algo que realmente te importa te interesarlos y tan enganchado como estás con la vela.
+
+[00:44:34.740] 
+Has probado y no le vas a dejar. Has probado el vuelo a vela.
+
+[00:44:38.610] 
+Lo he probado lo he probado y es gran descubrimiento de probado ser espectacular. Además lo probé con un tío que el monitor que me llevaba era había hecho la Vendée Globe la regata dormirlo en navegación a vela velas y si el tío era un navegante a vela súper experimentado que se había pesado se había pasado al vuelo a vela. No lo probé gracias a un cliente que tenía una avioneta y también nos llevó a cesãrea a mí hicimos la prueba y para mi 40 aniversario. A mi familia y mis allegados se les ocurrió regalarme diez vales para diez clases de vela Vela.
+
+[00:45:18.990] 
+ Todavía no lo he hecho como que no lo he hecho porque justo acababa de nacer mi hijo y fue como este tío me entró como un ejercicio de responsabilidad pero lo haré o sea lo haré lo tengo ahí lo tengo ahí sea sé que voy a hacer diez clases de vuelo a vela. Yo no sé si aprenderé a volar o no porque es muy exigente y requiere mucho otras agallas buenas da una clase la primera dice soltando los seis el bautizo ya lo hizo y ya lo hiciste. Ya lo hice.
+
+[00:45:44.460] 
+A mí me sorprendió yo lo probé por eso porque también pensé Bueno cómo puede ser esto no será igual. Y tiene mucho en común con lo que hablabas de la vela. Si usas las fuerzas naturales de vida o muerte ahí se pierde sube o si te caes pero tienes una oportunidad para aterrizar. Otra fascinante. Pues oye me has hablado de tu profesor no has hablado de tu madre. Has hablado de tu hermana. Has hablado de muchas personas de tus socios evidentemente.
+
+[00:46:09.810] 
+Y bueno tienes muchísimo muchísimo muchísimo que aportar como ejemplo para muchos.
+
+[00:46:18.570] 
+Pero te voy a hacer mi pregunta favorita ya que sabes que te. Te juro que la verdad no esperaba que me lo hicieras de verdad. Sabías que te la ibas. Te juro que no te lo juro de verdad.
+
+[00:46:29.310] 
+A quién le las gracias. Día pues tú sabes. Tú sabes cuántos años llevo yo con mi mujer. No pues voy a decir públicamente que es algo que me da cierta vergüenza me da vergüenza. Yo vivo con mi mujer desde que yo tenía 17 años. Llevo 25 años con mi mujer 25 años o sea con las bodas de plata. Ya tengo 42 y hemos tenido una relación pues imagínate con 17 años no teníamos nada que ver. O sea el cambio todo esto que hablamos del cambio cambia a mí algo que me fascina de la transformación constante de la propia relación de ella como persona de mí como persona.
+
+[00:47:16.760] 
+ Haber sabido los niños las etapas de los recién nacidos son etapas súper duras. Hemos pasado de todo de todos los colores por fases súper distintas cuando empezábamos cada uno siga con sus amigos yo salía de fiesta con mis amigos y ya con los suyos. Hemos tenido muchas fases de relación pero siempre estaba ahí. Siempre estaba ahí y yo sé que puedo contar con ella y eso es algo que joder que es súper importante para mí ha sido muy importante así que aprovecho para darle las gracias.
+
+[00:47:52.790] 
+Pues mira tú sabes que yo cuando recibo esa respuesta a esta pregunta nunca la acepto ya lo sé porque busco más allá pero en este caso no voy a ir más allá. Te lo digo en serio porque realmente esta vez creo que es la respuesta que buscaba.
+
+[00:48:08.540] 
+Gracias a ti por poder contestar de forma tan sincera se van a acabar las preguntas podríamos estar muchas horas hablando Carlos pero yo creo que podemos dejarlo aquí súper agradecido.
+
+[00:48:20.600] 
+Fran me ha gustado mucho es una experiencia guay ésta yo creo que es la mejor forma de celebrar mi primer aniversario del podcast del episodio número 20 con alguien como tú contabas con ellos tú sabes que esto no es peloteo. Te admiro mucho. También me gustaría entrevistarte a ti así que lo que voy a hacer es hacerlo en tu propio podcast. Si te parece bien hablar con los oyentes de En el mundo real tenéis una cita con Mastermind que es el podcast de Fran carreras. Bueno espero que os guste también su propia entrevista.
+
+[00:49:00.930] 
+ Pues venga vamos al mío.
+
+[00:49:02.750] 
+Gracias Carlos gracias a ti y hasta aquí amigos y amigas este episodio de mi podcast en el mundo real el podcast sobre la experiencia de cliente y negocio digital. Muchísimas gracias por escuchar como habéis visto un episodio especial con Fran. Me ha hecho muchísima ilusión por la admiración que siento hacia él y porque también es un episodio que me sirve para celebrar este primer aniversario con todos vosotros espero que os haya gustado. Si acabas de llegar a esta gran comunidad de oyentes te doy la bienvenida a que sepas que puedes recibir los próximos episodios de forma automática sin hacer nada simplemente suscríbete a través de tu aplicación de podcasting favorita.
+
+[00:49:41.220] 
+ Si eres de iPhone como yo pues con la aplicación pocas que viene preinstalada de forma nativa con el sistema operativo y si eres de Android o prefieres pocas zehar con apps alternativas puedes también un montón como Google pocas Spotify y explique etcétera. En todas ellas me encontrarás. Lo único que tienes que hacer es buscar en el mundo real en la que más te guste y darle a suscribir. Y ya sabéis que agradezco especialmente unas estrellitas un link una reseña ya que las plataformas que las plataformas de podcasting deciden dar visibilidad a uno u otro programa en función de todas estas interacciones de los oyentes y que si estoy haciendo esto es para llegar al mayor número de personas posible.
+
+[00:50:21.660] 
+ Así que ojalá con vuestra ayuda logremos entre todos y todas. Que cada vez más y más compañías transformen sus culturas organizativas. Un fuerte abrazo y os espero en el mundo real.
+

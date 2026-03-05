@@ -1,0 +1,291 @@
+[00:00:09.790] 
+
+
+[00:00:45.340] 
+Me llama la atención de tu background público, la de años que has estado trabajando en Oracle, creciendo y cambiando de departamento en departamento, de área de responsabilidad en área de responsabilidad hasta llegar a Sales Director en España y Portugal de la parte de Cloud. Y así has pasado por distintas experiencias hasta hoy que eres Sales Director en Medalla, que es un partner estratégico para Runroom, somos partner instalador de Medalla.
+
+[00:01:31.930] 
+La razón de que tú estés aquí Rosa es porque muchas personas piden entender cómo medir esto, cómo bajar esto. Entonces esto va a ser un poco el foco de la entrevista, pero antes me gustaría que te presentes y nos expliques quién eres, Rosa.
+
+[00:01:53.370] 
+Soy Rosa. Como bien has dicho, soy matemática y soy una amante viajera. Estoy aquí hoy porque efectivamente estoy en Medallia y tengo una larga carrera profesional, gran parte de ella en Oracle, casi 20 años, pero esto no quiere decir que me quedara estancada ni mucho menos. Al revés, yo soy una persona muy curiosa, me gusta aprender y me gusta transmitir lo que aprendo. Y entonces en en Oracle cada 3 o 4 años cambiaba de rol.
+
+[00:02:43.410] 
+Eso es lo que te permite una multinacional de este tipo. Yo entré de consultora y terminé siendo directora de Alianzas y Canal de Cloud para España y Portugal. Antes de eso también tuve mi vena emprendedora, que entonces no existía la palabra start up.
+
+[00:03:04.190] 
+
+
+[00:03:13.260] 
+Estábamos en una pequeña empresa que se dedicaba a vender hardware y nosotros éramos consultores, hacíamos proyectos y entendía esto de los ciclos de proyecto que tú entiendes muy bien, Carlos, y decidimos recién salidos de la universidad, sin nada de dinero, había una persona que era nuestro director, que era nuestro líder, al que le agradezco también mucho, Luis, y decidimos crear nuestra empresa y buscar el dinero, y nos lo dio Enrique Sarasola padre.
+
+[00:03:47.730] 
+De ahí pasé a Oracle, fui consultora, después fui pre-venta, viví toda la transformación de Oracle de lo que es una base de datos a vender aplicaciones, a migrar al Cloud. Me fui a un puesto internacional para llevar Vodafone a nivel worldwide, en la que tres personas coordinábamos todo. Eso desapareció cuando adquirimos Sibel porque claro, Oracle ha crecido de muchas formas, orgánicamente y por adquisiciones.
+
+[00:04:30.210] 
+Y bueno, pues llegó un momento en el que al ser Sales Director en Oracle, era de las pocas mujeres Sales Director en Oracle, y yo sentía que mi etapa allí había terminado, que quería hacer cosas diferentes. Entonces decidí cogerme un año sabático. Vivir mi propia experiencia, ya que estamos en un podcast de experiencia, quería vivir unas experiencias diferentes y eso fue un año sabático, pero para nada estuve quieta. Como buena matemática, en la especialidad de Ciencias de la Computación, me encanta todo el tema que tiene que ver con la inteligencia artificial, con transformación digital.
+
+[00:05:28.640] 
+Y bueno, yo ya había estado en la Singularity University hacía dos años en el Oracle Open World, aquello me encantó. La Singularity University vino a España y dije "voy a ampliar mis conocimientos", porque si bien en Oracle te formas un montón, yo llevaba 20 años, entonces siempre por muy informada que estés, al final está sesgado, que es otra de las cosas también importante en la experiencia de cliente. Hice un máster en Transformación Digital, lo enganché con uno el liderazgo exponencial, muy relacionado con todas las tecnologías exponenciales, para quien no esté familiarizado, básicamente tecnologías exponenciales son aquellas que crecen por 10 o más.
+
+[00:06:28.530] 
+Un ejemplo es la voz (por eso estamos hoy aquí en el podcast). La voz está creciendo muchísimo. O sea, ya no se mandan mensajes de texto, la gente se manda mensajes de voz. Otras tecnología exponencial es el vídeo, la inteligencia artificial. Este tipo de cosas y la combinación de todas ellas, podemos ir a cosas ya más técnicas para su la impresión 3D, IoT y  todos estos temas, y en uno de estos masters, en los que yo todavía estaba decidiendo dónde quería trabajar, escuché hablar de Medallia. Y entonces como a mí me encantan las personas, me encanta la tecnología, dije: "me encanta la solución que tiene, me miro sus valores y están centrados en las personas, o sea, pone al cliente y al empleado en el centro. Es una empresa en la que me gustaría trabajar". Y por eso estoy hoy aquí.
+
+[00:07:41.920] 
+Luego, además, conocí a otro de mis compañeros, Roberto Mejías, habíamos sido compañeros en Oracle y fenomenal, y con Adolfo también. Es que 20 años en Oracle...
+
+[00:08:14.880] 
+Pues en ese máster aprendí muchísimo sobre marketing digital, transformación digital y en el tema de experiencia de cliente. Y fue cuando escuché a Medalla, dijeron que era líder y me encantó. Primero cambias totalmente el chip porque en Oracle hay muchas soluciones, pero ésta está centrada en que las personas, tanto los empleados como los clientes, tengan experiencias "wow". Y luego además los valores de la empresa me encantan.
+
+[00:08:52.470] 
+Entonces aquí estamos intentando que todos vivan esta historia que yo estoy viviendo personalmente, trasladarla al resto de las personas.
+
+[00:09:04.320] - Carlos Iglesias
+¿Cómo defines la experiencia de cliente? ¿Qué es experiencia de cliente para ti?
+
+[00:09:10.260] - Rosa Peña
+Para mí la experiencia del cliente de cliente es que cuando alguien interactúa con tu marca, eso se le quede grabado como algo memorable. Por una cosa o por otra. Yo soy cliente por ejemplo de Uterqüe. Hay diferentes tiendas de Uterqüe pero siempre voy a la misma porque hay una persona que me atiende de una manera muy especial en esa tienda.
+
+[00:09:45.680] 
+Y esa persona hace que para mí la experiencia en Uterqüe sea impresionante. Hay otras otros casos. Por ejemplopor ¿por qué repites en Apple? Pues porque Apple tiene una experiencia espectacular. A ti te pasa cualquier cosa con un dispositivo Apple y ¿cuál es la respuesta? Primero tienes la razón y segundo, te lo van a resolver seguro.
+
+[00:10:20.180] 
+Apple por ejemplo es un cliente nuestro. Entonces para mí eso es la experiencia de cliente.
+
+[00:10:33.740] 
+Para mi experiencia de cliente tiene que ver con la memoria, con el recuerdo, con el recuerdo del impacto de la marca en el tiempo. Cuando interactúas con la marca, con un producto, con un servicio, ¿qué recuerdos te queda? Si eres capaz como marca de conseguir esos momentos "wow" ahí eres capaz de multiplicar.
+
+[00:10:53.790] - Rosa Peña
+A mi me gusta contar una historia. Hilton fue nuestro primer cliente y yo también he sido cliente Hilton durante mucho tiempo porque he viajado mucho por empresa. Cuando yo iba a Londres y repetía por tercera vez el  hotel, yo me acuerdo que hacía la reserva a través de un marketplace, pero ellos se preocupaban y me ponían un correo: "hola Rosa, estamos deseando que vuelvas. ¿Te gustó la habitación del otro día o prefieres otra?" Y tú dices "Wow". Eso es una experiencia memorable.
+
+[00:11:40.880] 
+Y eso hacía que yo no buscara otro hotel dentro de mi aplicación.
+
+[00:11:57.050] 
+Eso primero es enviarte una encuesta de forma proactiva antes de que vayas. Pero luego, cuando me iba, también me preguntaban qué tal había sido la estancia.
+
+[00:12:08.360] 
+Entonces dices "Ostras, me están escuchando". Eso es lo que yo espero de una marca, y por eso para mí Hilton me ofreció una experiencia diferenciadora.
+
+[00:12:20.690] - Carlos Iglesias
+Has tocado un tema que es muy relevante en la experiencia de cliente, que es la escucha. La escucha, preguntar, hablar con el cliente, entender lo que llamamos la extracción de insight. A mí siempre me hacen una pregunta que te voy a trasladar: en el momento de recolectar esos insights de cliente, en el momento de pedir feedback, ¿es más importante el research cualitativo o cuantitativo? ¿Qué valoras más y por qué lo valoras más?
+
+[00:13:11.330] - Rosa Peña
+A ver, yo creo que hay que medir las dos cosas. El cuantitativo te da al final unos KPIs y te hace poder comparar y saber dónde puedes mejorar. Pero el cualitativo para mí es mucho más importante. Porque en el cuantitativo tú preguntas por unas cosas determinadas y en el cualitativo yo te voy a hablar de lo que a mí me preocupa y que a lo mejor tú ni siquiera lo sabes.
+
+[00:13:46.280] 
+También hay una diferencia entre lo que es el feedback solicitado y el no solicitado. El no solicitado es mucho más importante, porque es cuando esa persona te quiere contar algo sin que tú le estés preguntando. Tenemos ejemplos de feedback cualitativo muy interesante. Por ejemplo, en Delta Airlines implantaron nuestra solución de Medalla de Digital y lo implantaron porque tenían un problema a la hora de convertir, es decir vendían muy pocos equipajes extras. Lo que hicieron fue poner la solución de Medallia y dejar un campo abierto en el que el cliente podía poner un comentario de cuál había sido su experiencia. Entonces detectaron que todo el mundo se quejaba que no encontraba dónde añadir una segunda maleta. Entonces inmediatamente cambiaron la página web, la hicieron visible y incrementaron un gran porcentaje la venta del segundo equipaje.
+
+[00:15:15.670] 
+Primero, el cliente podía aportar su comentario y cuál era su experiencia. Segundo, detectaron un problema que no tenían identificado. Y tercero, eso tuvo un impacto en la cuenta de resultados porque incrementaron más de un 20% la venta de segundo. Por eso creo que el cualitativo es muy importante. Esto además lo hacemos, ya que hemos hablado antes de tecnologías exponenciales, usando soluciones de Text Analytics, que coge esos comentarios, los analiza y te dice cuáles son los temas, los tópicos que le preocupan al cliente y entonces tú lo puedes ver de forma muy visual y esto te permite tomar decisiones de eficiencias operacionales.
+
+[00:16:12.530] 
+En este caso cambiar simplemente una página web, pero hay otros casos en los que estos comentarios te llevan a replantearte procesos dentro de tu compañía y que afectan mucho a los ingresos de la misma.
+
+[00:16:28.370] - Carlos Iglesias
+Me gustaría que expliques qué es Medallia, en tus propias palabras.
+
+[00:17:03.380] - Rosa Peña
+Para mi Medallia es la empresa que ayuda a sus clientes a ganar más revenue a través de mejorar la experiencia del cliente y del empleado.
+
+[00:17:20.080] 
+Este es un resumen muy cortito. Si lo podemos ampliar, somos una plataforma de gestión operativa de la experiencia del cliente. Es decir, nosotros recogemos la experiencia del cliente y del empleado, pero no nos quedamos en recolectarla. Sino que la recogemos y además lo que hacemos es escuchar señales. Vamos más allá de lo que es recoger un feedback de una encuesta tradicional que se pueda enviar. Nosotros recogemos feedback de bot y lo transcribimos a texto y analizamos el sentimiento, o de vídeo y analizamos el sentimiento de tu cara o del texto que estás diciendo o escuchamos en redes sociales o te escuchamos en la web, que es lo que antes me he referido a Medallia Digital, o te escuchamos en el call center cuando tú llamas, y todas esas señales las incluimos en nuestra plataforma de Medallia Experience Cloud, la combinamos con sistemas que el cliente tenga dentro de su compañía, como puede ser un CRM o otro tipo de soluciones de big data y analítica para enriquecerlos.
+
+[00:18:39.010] 
+Y con nuestro machine learning y toda esa información lo que hacemos es obtenemos insights. ¿Cual es la siguiente parte importante? Que creamos dashboard personalizados para la jerarquía dentro de la empresa y distribuimos el feedback dentro de toda la empresa. Porque está demostrado que cuanto más distribuyas el feedback dentro de una organización y crees una cultura del feedback, más revenue vas a generar dentro de tu compañía y además vas a crear un engagement con tu empleado, le vas a involucrar en esa cultura del feedback.
+
+[00:19:17.590] 
+Él se va a sentir propietario de que tus clientes estén totalmente satisfechos y eso es lo que Medallia te da. Con un dashboard personalizado a tu rol, permitirte que en ese momento soluciones esa posible queja o si alguien por ejemplo está muy contento contigo, también le puedas contactar para seguir, fidelizándolo.
+
+[00:19:37.810] 
+Y entonces cuando un empleado consigue tratar la queja de un cliente, voy a cerrar el loop y llamo a este cliente, y en ese momento el cliente dice "veo que mi queja no ha caído en saco roto. Me están llamando". Ese cliente lo más probable es que lo conviertas en un promotor, que repita contigo y además te va a dar pistas de qué es lo que no está funcionando en tu compañía, con lo cual yo creo que no hay nada más valioso.
+
+[00:20:15.760] 
+Aprovecho la ocasión para recomendar a los oyentes que escuchen el episodio donde entrevisté a Oleksandra Melnyk de Pronovias, https://www.runroom.com/realworld/e028-close-the-loop-en-el-sector-nupcial-con-pronovias que por cierto utilizan también Medallia, y hablábamos precisamente del concepto Close the loop. O sea, a aquellos oyentes que os quede un poco lejano este concepto, os invito a que escuchéis aquel episodio. 
+
+[00:20:40.780] 
+Has nombrado Apple, Hilton, y a la vez estabas hablando de una serie de características de Medallia, como por ejemplo esa capacidad de integración con otras plataformas, con otros sistemas, que es tan importante en este tipo de clientes tan globales, tan Enterprise.
+
+[00:20:15.760] - Carlos Iglesias
+O por ejemplo, esa capacidad de radiar esa información a los distintos estratos dentro de una propia compañía además añadiría, si me permites, con un nivel de síntesis distinto, porque no es lo mismo alguien con un perfil ejecutivo, que alguien que está en la operación o alguien que está cerrando el loop. Necesitan un tipo de insight distinto, un tipo de digestión del dato distinta. Y yo creo que eso yo admiro muy profundamente Medallia por como de bien lo hace en ese sentido.
+
+[00:21:40.900] 
+¿Qué tipo de clientes tenéis? Sé que son clientes Enterprise, pero ¿también estáis llegando a clientes de mid-market?
+
+[00:21:52.900] 
+Sí, de hecho Medallia se fundó hace casi 20 años en Estados Unidos y empezó con clientes Enterprise. Pero hemos cambiado nuestra estrategia. Por supuesto que tenemos clientes en mid-market y ahora lo que tenemos es una encuesta más modular que encaja en cualquier tamaño de cliente. Y luego tenemos soluciones muy específicas.
+
+[00:22:29.360] 
+Por ejemplo, tenemos soluciones que lo que hacen es capturar el feedback en vídeo y para todas las empresas que se dedican a publicidad a Media es espectacular.
+
+[00:22:43.520] 
+Nos estamos orientando también mucho a todo el tema que sea escuchar a los empleados a crear, por ejemplo, comunidades de innovación y de crowdsourcing, tanto para los empleados como para los clientes o en el sector público. Tenemos algunas por ejemplo, con la sanidad pública en UK debido al tema del Covid-19, pues han puesto esta solución para poder promover ahí todas las soluciones que fueran relevantes. Lo hemos hecho también en Australia.
+
+[00:23:24.770] 
+Aquí en España tenemos clientes como Pronovias, Mapfre, Amadeus, Generali España.
+
+[00:23:39.590] - Carlos Iglesias
+(que también ha estado en este podcast)
+
+[00:23:46.450] - Rosa Peña
+Y en todos los sectores. En Retail tenemos clientes de lujo, por ejemplo, como Cartier, pero luego tenemos supermercados, Walmart, Macy's, Nike...  Tenemos de todos los tamaños y de todos los casos.
+
+[00:24:17.660] - Carlos Iglesias
+Sí. Lo que veo en común en todos ellos es precisamente que para mí son líderes en experiencia de cliente en sus respectivos sectores, de alguna forma.
+
+[00:24:29.860] 
+Cuando tuvimos la posibilidad de este partnership con Medallia me he sentido bastante identificado con lo que tú comentabas a nivel de valores y principios. Para mí es importante. En Runroom tenemos una cultura que es un sine qua non. Eso es algo que está en nuestro ADN desde hace diecisiete años que nacimos, y me sentí muy alineado.
+
+[00:25:22.910] 
+Me pareció interesante tu punto de vista de cómo Medallia puede aportar valor y en ese sentido yo creo que eso os hace diferentes. ¿Qué otras cosas os hacen diferentes?
+
+[00:25:38.930] - Rosa Peña
+Hemos hablado del contact center. Yo creo que ahí también somos diferenciadores porque cuando alguien llama un contact center y tiene Medallia, el agente del Contact Center tiene un dashboard que le permite tratar el feedback de ese cliente. Pero si él no puede resolverlo, automáticamente puede escalarlo a su responsable, y su responsable va a ver una información diferente.
+
+[00:26:29.650] 
+Ahora hemos adquirido dos soluciones.
+
+[00:26:34.910] 
+Una que sea más Speech Analytics para que automáticamente cuando tú llamas al  Contact Center se sepa si esa llamada está siendo positiva o negativa con análisis de sentimiento en tiempo real sobre esa llamada.
+
+[00:26:53.000] 
+Y otra herramienta que te permite hacer coaching de los empleados del contact center, pero en el sentido positivo. Por ejemplo, esta llamada ha tardado este tiempo porque hemos lanzado un producto nuevo y nos hemos formado a la gente del frontline que realmente son los que los que están ahí.
+
+[00:27:18.300] 
+En otra cosa que somos diferentes es en el tema de Text Analytics. Somos diferenciadores. Por eso decía que el tema del feedback cualitativo es muy importante. Nosotros el tema de Text Analytics  lo vemos clave, ahí es donde puedes identificar problemas que no conocías. Lo tenemos integrado de forma nativa en nuestra plataforma y lo tenemos nativo en multitud de idiomas y además creemos que esta es la clave.
+
+[00:28:00.810] 
+Y otra cosa en la que somos diferenciadores es la unicanalidad. Es decir, ahora mismo el cliente es omnicanal. Ahora lo normal es que alguien compre en la web y quiera devolver en tienda.
+
+[00:28:25.050] 
+Ayer escuché, por ejemplo, un concepto que me pareció interesante y es que Amazon, aparte de ser un marketplace, se había convertido en un buscador porque la gente busca el producto en Amazon y mira los ratios que tienen. La situación que estamos viviendo está haciendo que los comportamientos del comprador sean totalmente diferentes. Entonces Medallia te permite una solución omnicanal, es decir cubre el Customer Journey del cliente en los diferentes touchpoint que vive.
+
+[00:29:00.630] 
+Entonces puede empezar tu proceso de compra buscando en la web o viendo en redes sociales a un influencer, después busca los precios en tu web, si le convence tu web (esa es una de las cosas importantes) compra allí directamente. Si no, lo que va a hacer es irse a la tienda y a veces hay una cola para pagar que es un punto de fricción muy importante, y entonces me voy al móvil y compro en el móvil, aunque esté en la propia tienda. Y después sé que, aunque compre en el móvil, voy a poder devolver.
+
+[00:29:41.280] 
+Entonces nosotros tenemos soluciones para cubrir todos esos touchpoints.
+
+[00:29:48.060] 
+La segunda cosa diferenciadora es que lo hacemos tanto para empresas pequeñas como para empresas en las que hay una cultura del feedback y hay más de miles de usuarios utilizando esta plataforma día a día.
+
+[00:30:03.330] 
+De hecho Vodafone es cliente nuestro y hay una frase que me comentaban y es: "para mi Medallia es mi primer café del día, me cojo el café, me siento y miro como van mis clientes".
+
+[00:30:17.580] - Rosa Peña
+Engancha desde la aplicación móvil porque no tienes que estar sentado en el ordenador para poder ver el dashboard o para recibir las alertas. Tenemos una adopción mayor que Facebook o LinkedIn o que el Candy Crash. La gente entra más veces a Medallia que a jugar al Candy Crash.
+
+[00:30:51.410] - Carlos Iglesias
+Y aparte eso es una métrica importante para Medallia seguramente, el engagement de sus propios clientes con la herramienta. Para mí es una métrica de la temperatura de la transformación.
+
+[00:31:04.350] 
+Tú antes hablabas precisamente de poder radiar esa información y esas métricas a los distintos estratos de la compañía. Siempre digo que para mí el nirvana de la experiencia de cliente es que toda la organización sea capaz de entender cómo impacta su trabajo en el journey del cliente, en la experiencia del cliente.
+
+[00:31:32.250] 
+Y en ese sentido claro que engancha, es que te cambia un poco la percepción y te ayuda a entender realmente y te ayuda a ganar seguridad en el trabajo, en cómo tienes que desempeñar tu trabajo, en cómo puedes ayudar más y mejor, cómo aportar más y mayor valor.
+
+[00:31:51.690] 
+Hablando de métricas, quería darle una vuelta de tuerca a esto de las métricas.
+
+[00:31:56.490] 
+En uno de los episodios de este podcast alguien llamó y preguntó "todo eso está muy bien, pero en el mundo real ¿cómo conectamos esas métricas de mejora de Customer Experience con un impacto financiero en la línea de resultados de las compañías?
+
+[00:32:35.430] 
+¿Cómo lo hacemos? ¿Es posible hacer esto? ¿Tenéis algún tipo de ejemplo?
+
+[00:32:40.130] - Rosa Peña
+Sí, de hecho lo hacemos con muchos clientes. Es un servicio que ofrecemos y que la mayoría de los clientes lo hace. Normalmente se hace un año o un año y medio después de que el programa esté en marcha para poder medirlo. El caso de Hilton que hemos comentado antes, ellos simplemente con la métrica de NPS detectaron que un promotor en Hilton se gastaba un 48% más de dinero en su estancia que otro cliente que no lo fuera. Hay un equipo especializado que lo que hace es analizar los KPIs de negocio del cliente, los KPIs que se están midiendo con Medallia, y entonces analizamos el impacto en la cuenta de resultados.
+
+[00:33:42.890] 
+Tenemos un caso de una de una Telco que el retorno de la inversión fue en dos meses. Era una Telco que tenía muy mala puntuación, muy mala percepción por parte de sus clientes, implementó la solución de Contact Center y en dos meses había recuperado todo lo que había pagado por Medallia.
+
+[00:34:09.050] 
+Hay casos muy espectaculares, otros que llevan más tiempo, pero efectivamente se puede medir, se mide y hay una correlación directa en la cuenta de resultados.
+
+[00:34:22.430] 
+Hablabas del NPS, que hay promotores y detractores, hay gente que desconfía de la métrica. Tenemos un episodio que siempre recomiendo, una entrevista que hice con Javier Gallardo, responsable de experiencia de cliente en Sage, y hablábamos de Net Promoter Score, de cuál era el sistema, de cómo funcionaba. Y una de las claves era que yo tengo que saber qué clientes míos son promotores, me tiene que permitir segmentar mi base de clientes y yo tengo que entender cómo se comportan los clientes promotores, los neutrales, los detractores.
+
+[00:34:22.430] - Carlos Iglesias
+Si yo soy capaz de identificar que hay correlación entre cuánto gasta un cliente y su nivel de satisfacción, o sea su likelyhood to recommend (cómo de probable es que tú me recomiendes) o si yo puedo conectar el rebote y las bajas de clientes con el NPS o si yo puedo conectar la viralidad, las recomendaciones... Todo eso son métricas que impactan absolutamente en la P&L de una compañía.
+
+[00:35:50.840] - Rosa Peña
+En el caso de la Telco, tú tienes un un coste de adquisición por cliente y un lifetime value, o sea una vez que captas ese cliente, cuánto tiempo se queda contigo. Entonces si resulta que si Churn Rate es muy alto, implantas una solución e inmediatamente el Churn Rate se reduce, tú tienes claramente cuál ha sido el impacto de negocio. Es de cajón.
+
+[00:36:47.570] 
+Una de las cosas que decimos es que nuestro objetivo es que el cliente esté feliz, esté satisfecho con su experiencia, pero bueno tu cliente puede estar muy satisfecho y tú no ganar dinero.
+
+[00:37:02.450] 
+Con Medallia lo que vendemos es que tu cliente va a estar contento pero tú vas a ganar dinero. Es que esa es la clave.
+
+[00:37:13.910] - Carlos Iglesias
+Hay otro factor que me parece importante y que correlaciona mucho con las métricas de experiencia de cliente, que es la experiencia empleado. ¿Cómo defines tu experiencia de empleado? ¿Qué es para ti experiencia de empleado y por qué crees que es importante?
+
+[00:37:39.240] - Rosa Peña
+No hay experiencia de cliente sin experiencia de empleado.
+
+[00:37:13.910] - Carlos Iglesias
+Porque al final tus empleados son tu cara visible cara al cliente. Si tu empleado no está satisfecho, ¿cómo va a trasladar una buena experiencia al cliente?
+
+[00:38:05.000] 
+Segundo, yo creo que no hay transformación ni cambio cultural sin las personas. Antes hemos hablado de la adopción de Madallia, es que eso es clave. Tú puedes decidir poner el mejor sistema del mundo, pero como tus empleados no quieran utilizarlo, esos millones van van a la basura.
+
+[00:38:28.220] 
+Un empleado, ¿cómo mejoras su experiencia? Sintiéndolo involucrado, empoderado, viendo que él realmente forma parte de esos valores de la compañía que lo que quieren es que el cliente esté satisfecho; dándole las herramientas para que lo pueda hacer. Porque claro, muchas veces eso lo haces escuchando. Es que hay gente que dice "es que a mí no me escuchan".
+
+[00:39:02.470] 
+Tú tienes que demostrar al empleado que lo escuchas.
+
+[00:39:17.650] 
+Luego le dirás que eso es factible implementarlo o no, pero ya sólo con que él se sienta escuchado, ya va a mejorar muchísimo. Hay un vídeo buenísimo que tenemos de hace muchos años y es eso, es clave de la relación entre lo que es customer experience y employee experience. No se concibe una cosa sin la otra.
+
+[00:39:48.470] 
+
+
+[00:40:12.800] - Carlos Iglesias
+Has tocado un tema interesante que es la transformación. Es un proyecto de transformación cultural, al final transformar la experiencia de cliente es estratégica en ese sentido. Si tú dotas a tu organización de una visión de cómo impacta el trabajo individual y en equipo de las personas sobre la experiencia, eso es realmente transformador.
+
+[00:40:35.780] 
+Y al final estamos hablando de la transformación digital de las compañías, de la transformación organizacional, de la transformación cultural.
+
+[00:40:12.800] - Carlos Iglesias
+La palabra transformación es una palabra con mucho peso, con muchas letras y que necesita además una buena gestión del cambio, etcétera. Creo que Medallia también ha hecho algo bien, que es un poco acompañar al inicio y ayudar a definir cómo debe arrancar un programa de experiencia de cliente, muy basado en sus propias experiencias, con muchos sectores muy distintos. Yo eso lo valoro muchísimo porque siempre ha habido un foco valorando muy mucho esa visión del experto, del consultor que te puede acompañar y que te puede ayudar a transformar. ¿Cómo crees tú que debería arrancar un programa de experiencia de cliente?
+
+[00:41:40.160] 
+Pues mira, me encanta que hayas dicho eso, porque nosotros hacemos una venta por valor. Nosotros no consideramos que vendamos una solución, sino que lo que queremos es ser advisors y partners de nuestros clientes y acompañarles en la puesta en marcha y en el desarrollo de su programa de voz del cliente o del empleado. Entonces, ¿por qué debe empezar? Nosotros consideramos que los Big Bangs no son buenos.
+
+[00:41:40.160] - Rosa Peña
+Primero que hay que encontrar dónde tienes el problema. Es decir, dónde están los problemas de tu negocio.
+
+[00:42:20.780] 
+Si tú incrementas el NPS, ¿en qué KPI de tu negocio, de tu director de operaciones, de tu CEO, de tu financiero, vamos a impactar?
+
+[00:42:44.570] 
+Una vez identificas eso, saber quién va a ser el sponsor dentro de tu compañía. Porque un programa de voz del cliente, de experiencia de cliente, no involucra un único departamento. Si se hace bien, es algo que involucra a toda la compañía. Entonces tienes que tener un buen sponsor y si no lo tienes, lo buscamos juntos y te ayudamos a construirlo.
+
+[00:43:24.090] 
+Entonces ya tenemos el para qué, vamos a tener el quién nos va a ayudar y el cómo es marcándonos hitos claros. Entonces, si tú sabes el qué es lo que vas a medir, pues vas a saber en qué canal por ejemplo estás teniendo los programas. Entonces pues empezamos por ahí y mientras vamos desarrollando, te vamos acompañando. Entonces lo que vendemos es un acompañamiento. Y luego otra cosa muy importante que también has dicho es que tenemos referencias en todos los sectores y mucha experiencia implantando soluciones.
+
+[00:44:02.880] 
+Entonces nosotros vendemos por valor y basándonos en una cosa que llamamos mejores prácticas.
+
+[00:44:11.220] 
+Imagínate que fuera una solución de retail o de banca. Tenemos muchos clientes de banca, pero probablemente podamos aplicar cosas que utiliza un Apple o un Hilton y que hacen que esas marcas sean las que a todo el mundo le encanta, y lo puedas utilizar en tu sector. Ya sabes que una de las cosas que está ocurriendo con la transformación digital es que los sectores están convergiendo.
+
+[00:45:08.890] - Carlos Iglesias
+Entonces a lo mejor si a ti te aplico nuestra experiencia de Telco y eres un banco, te va a venir también muy bien.
+
+[00:44:49.110] 
+Entonces no vas a tener que empezar de cero porque te vamos a asesorar con estas mejores prácticas y vamos a estar ahí contigo, acompañándote. Y sobre todo te vamos a poner al principio diciendo "dime que quieres mejorar y dónde" y por ahí es por donde hay que empezar, donde realmente te aprieta el zapato.
+
+[00:45:08.890] - Carlos Iglesias
+Eso es porque si no, no somos una solución. Si no hay una pregunta que debamos responder, no somos una solución. Así que me parece perfecto el acercamiento. ¿Hacia dónde va Medallia?
+
+[00:45:22.190] - Rosa Peña
+Pues seguimos centrados en mejorar, en escuchar la voz del cliente y la voz del empleado. Crreemos que los clientes están cambiando y que ahora lo que hay que hacer es escuchar señales. Y ahí es hacia donde vamos. Nuestro CEO Leslie J. Stretch lo llama "la era de la escucha y de la disrupción digital".
+
+[00:45:51.100] 
+Las soluciones y el desarrollo que tenemos en roadmap de nuestra solución van orientadas a escuchar al cliente en redes sociales, en capturar el feedback en vídeo, capturar el feedback en bot, en hacer la vida más sencilla a todos aquellos que están en el frontline para que puedan dar mejor una experiencia. En estos tres meses yo creo que además hemos sido un ejemplo de compañía durante el Covid, hemos adquirido empresas, en España, cuando yo entré en enero, éramos cinco y ahora somos trece. O sea que es una empresa que está demostrando que está apoyando a sus empleados y que sigue invirtiendo para que los clientes les esté apoyando.
+
+[00:46:47.050] 
+
+

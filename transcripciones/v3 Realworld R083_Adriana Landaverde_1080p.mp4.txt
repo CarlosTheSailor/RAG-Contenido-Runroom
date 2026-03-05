@@ -1,0 +1,312 @@
+[00:00:01.10] - Carlos Iglesias
+Cuando pensamos en una startup, a menudo nos viene a la cabeza la imagen de rondas de inversión, unicornios y titulares de crecimiento. Pero hay otra parte que al menos a mí me resulta mucho más interesante: la urgencia y el hambre por entender qué es lo que realmente genera valor para sus clientes. Las startups que tienen éxito viven en un estado de búsqueda constante, probando, midiendo y tomando decisiones basadas en evidencia. Con una disciplina férrea, incansable, aprendiendo y volviendo a intentarlo, basan su cultura en los resultados, más que en las opiniones o las jerarquías. Hoy quiero explorar con Adriana Landaverde, consultora de producto con una experiencia increíble, lo vais a ver, qué podemos aprender de esa mentalidad? ¿Qué lecciones se puede trasladar al mundo corporate o a otros contextos donde quizá no se sienta esa presión diaria por sobrevivir, pero donde también se necesita asegurar que lo que construimos, que lo que hacemos, realmente crea impacto. Pues Adriana, bienvenida. Muchísimas gracias por venir. Un placer tenerte.
+
+[00:01:15.05] - Adriana Landaverde
+Muchas gracias a ti, Carlos. El placer es mío.
+
+[00:01:18.04] - Carlos Iglesias
+De verdad que es un placer. Es una persona con una experiencia brutal y estamos muy agradecidos de que compartas tu tiempo con nosotros. Adriana, ¿qué te gustaría que sepamos de ti?
+
+[00:01:30.19] - Adriana Landaverde
+Pues mira, soy un poco una ciudadana del mundo, aunque nací en El Salvador, me formé como Product Manager en Estados Unidos y ahí comenzó, casi por accidente, mi trayectoria en startups. Y el accidente, o tal vez no tan accidente, fue la crisis financiera del 2009, cuando las empresas grandes ya no contrataban, pero las startups todavía sí. Y ahí Y lo que me pivoté fue que la vida me pivoteó a...
+
+[00:02:02.15] - Carlos Iglesias
+¿dónde te pilló? ¿En el 2008, en Silicon Valley?
+
+[00:02:04.24] - Adriana Landaverde
+Sí, yo me gradué del máster, del MBA de Stanford, en el 2009, que usualmente las clases terminan 70% de la clase y ya tiene trabajo después de graduarse. En mi clase fue lo contrario, el 30% tenía trabajo, el 70 nos teníamos que buscar la vida. Y yo había hecho mis prácticas en Expedia, pensé que iba a regresar, pero no contrataron. Entonces, ahí comenzó, bueno, buscar cómo, ¿no? Comienzo mi trabajo en la primera startup que ni siquiera sabía cómo me iban a pagar, o mejor dicho, sí me iban a pagar muchísimo menos de salario base Y más en equity, un concepto que para mí no sabía cómo evaluarlo, cómo apreciarlo. Con el tiempo lo fui aprendiendo, pero aún eso, o sea, es un cambio de paradigma significativo y así lo fue para mí. Pero no he vuelto a ver atrás. Después de venir, antes del máster, estaba trabajando en una empresa supergrande de El Salvador, una aerolínea. Después, comencé en startup y no he ido a ninguna corporación grande y no me veo regresando. Regresando, exacto. He tenido la suerte de ser parte de tres salidas de la startup de la que he trabajado.
+
+[00:03:27.20] - Adriana Landaverde
+La más emocionante quizás habrá sido la salida a bolsa de Trulia. Un IPO. Un IPO, exacto, en el 2012. Y eso para mí, o sea, fue como una Navidad, matrimonio, todo en un solo día. Y Y luego Nutmeg en Londres, que lo terminó adquiriendo J. P. Morgan. Y luego, anteriormente, otra empresa que la terminó adquiriendo el competidor mayor de ellos. Y claro, a la que te vas preparando es presión y todo. Y esa es el glamur, esas son las noticias. Pero el día a día no es glamoroso, es duro, es riesgoso, es, como te digo, un cambio de paradigma. Comienzas a apostar por otras variables que quizás antes no habías apostado.
+
+[00:04:23.13] - Carlos Iglesias
+Superinteresante. Lo que me gustaría saber es si ya cuando empiezas allí en Silicon Valley, Valley, tienes claro que te quieres dedicar a producto. ¿Sí?
+
+[00:04:33.23] - Adriana Landaverde
+Sí, porque hice... También eso... Yo cuando veo en retrospectiva mi vida no ha sido nada estratégica, pero confío. Confío en que si escucho bien, pues la vida me irá llevando. Entonces, yo llegué a producto porque sabía que yo no iba a ser técnica. O sea, mi formación fue de economía y negocios. Y estabas un MBA, o sea, nada de Computer Science ni nada. Entonces, sabía que no iba a ser por el lado técnico. Entonces, me preguntaba: ¿Cómo voy a entrar?. Y así fue que comencé a probar cuál sería mi edge, qué es lo que yo he podido ofrecer basado en mi experiencia, y encontré producto en Expedia, que fue muy comercial, muy de entender el valor de De hecho, el proyecto en el que estuve era SEO. Entonces, entender el valor de la creación de todas estas páginas para aumentar el SEO. Entonces, fui entendiendo, hay un sitio Para mí. Y luego, comparándolo con mi experiencia anterior, que había sido de consultoría, pero muy interna, me encantó que con producto iba a poder generar resultados. O sea, anteriormente había estado diciendo: Esto es lo que deberíamos ¿Qué vas a hacer? Pero le pertenecía al manager, implementar o no implementar, esa es la vida de un consultor.
+
+[00:06:07.19] - Adriana Landaverde
+Y ahora también he llegado un poco a eso, pero ya lo hablaremos en su momento. Pero sí, entonces, en el producto sentí que el impacto que iba a generar iba a ser muchísimo mayor. Entonces, mira, tengo las habilidades y creo que puedo generar impacto, todo bien. Ahora, expidiera una máquina, una... Bueno, enorme. Y aún así pensé que iba a tener impacto. Y luego ves la startup, y es que tu impacto lo ves en el día a día.
+
+[00:06:41.22] - Carlos Iglesias
+Claro, supongo que esa es un poco la razón por la cual nunca te has ido del mundo startup al mundo corporate.
+
+[00:06:48.06] - Adriana Landaverde
+Exacto. Y a pesar de, como te digo, lo poco glamoroso de a veces tener que cerrar. O sea, yo estuve en una empresa que tuvo que cerrar. O de que hay que tener menos personal. O sea, o de decir: Mira, pensábamos que esta iba a ser una buena idea y nadie está adoptando esta solución. Entonces, sí, son cosas más que te das con la pared mucho más a menudo, pero el impacto es más.
+
+[00:07:20.16] - Carlos Iglesias
+Un poco con la sensación de muy cerca al éxito y muy cerca al fracaso, ¿no? También.
+
+[00:07:24.22] - Adriana Landaverde
+Un poco como la cuerda floja. Claro. Pero como es más tangible, yo creo que eso es como... Bueno, habrá algo de masoquismo un poco en estar en una startup, ¿no? Pero la verdad a mí me compensa un montón. Es muy interesante.
+
+[00:07:42.11] - Carlos Iglesias
+Recientemente dabas una charla sobre product market Y me parece un tema como interesante para que lo exploremos y que parte de nuestra audiencia, seguro que no está tan familiarizada con el concepto. Entonces, para empezar, te pediría que introduzcas un poco el concepto de qué hablamos cuando hablamos de market fit.
+
+[00:08:02.23] - Adriana Landaverde
+Vale, vale. Pues mira, ahora que soy consultora, que ha sido como mi enfoque de los últimos años, me gusta enfocarme en las etapas tempranas de las startups, que es el momento en donde tienen que decidir, tenemos el producto correcto para la necesidad correcta. En este product market fit existe el producto que está, digamos, dentro del control de una startup, pero luego está el mercado que está completamente fuera de tu control. Y entonces, se tiene que entender bien ese mercado y entender bien la necesidad para generar un producto que esté en línea. Por eso se llama product y market fit, porque tienen que estar los dos en línea. Decían, hay unos autores como Marc Andreessen, que decía: El product market fit es cuando te quitan el producto de las manos o hay que invertir en más servidores o están los reviews a tope. Es como un poco inspiracional.
+
+[00:09:06.19] - Carlos Iglesias
+Es que él es tecnooptimista. Exacto.
+
+[00:09:09.17] - Adriana Landaverde
+Entonces, el tema ahí es también que decía, y aunque la ejecución del producto sea ideal, si el mercado no está, por mucho que intente, no hay un fit.
+
+[00:09:24.23] - Carlos Iglesias
+No puedes generar la necesidad tú, tiene que existir la necesidad.
+
+[00:09:27.22] - Adriana Landaverde
+Exacto. Entonces, es eso. Imagina, qué sé yo, que te inventas un caramelo picante. En España no lo compra nadie. Y luego vas a México y tampoco igual lo compra nadie porque ya está el mercado saturado. Entonces, igual te vas a otro mercado o cambias de producto. Muy buen ejemplo. Y entonces es eso, qué es lo que yo voy a hacer para que haya el match.
+
+[00:09:51.18] - Carlos Iglesias
+¿y cómo lo haces? ¿Cómo ayudas a las startups?
+
+[00:09:55.08] - Adriana Landaverde
+Pues mira, yo creo que muchos de los founders se casan con una idea. Se enamoran. Se enamoran. Y porque ha sido quizás a veces pasión desde pequeños. Yo acabo de conocer a un founder en Londres que se enfocó en estudiar biología marina y bueno, es increíble todo lo que sabe. Ha sido como la misión de su vida, entender los océanos. Ahora está en su segunda startup y no es hasta hoy que está trabajando en ello. Pero ella tiene otra startup que era un B2B, con un CRM, o sea, completamente diferente, porque es ahora donde ve la oportunidad, donde ve el momentum. Entonces, creo que también tiene que ver con el tiempo correcto en donde lo haces. Y entonces, cuando son tan apasionados de sus ideas, estos founders cuesta entender como: Pero esto no es lo que quiere el mercado. Entonces, no se sienten, creo yo, el no siempre se sienten muy seguros de hacer un pushback, de decir: Mira, no va bien. Y a veces creo que tengo el privilegio de ser externo y preguntar: ¿Y cuáles son las señales que tienes? ¿Y cuánto se te está costando adquirir cada usuario? Y ves un camino hacia la monetización, porque a día de hoy todo es gratis, ¿cuándo vas a comenzar?.
+
+[00:11:27.09] - Adriana Landaverde
+Preguntas que al final son lógicas o, no sé, que deberían fluir, pero que el founder, por la pasión con la que ve su idea, le cuesta llegar a entender. Entonces, yo creo que eso es un poco... Y luego también, Esta charla la di porque me dijo el organizador, la comunidad es de fundadores que le dicen underrepresented, que no están tan bien representados mujeres, de diferentes etnias y orientaciones. Y me decía: Está bien que hablemos de cómo la inteligencia artificial, porque inicialmente ese era mi tema, inteligencia artificial y cómo te ayuda para llegar al product market fit, pero me dice: Y si regresamos un par de pasos más y nos aseguramos que cada uno sepa qué es el product market fit y cómo se mide, porque hay diferentes tests. No sé si has oído de qué tan decepcionado estarías si este producto no existiera en el mercado. Y entonces, hay como una fórmula mágica, que nada es mágico en esto, pero que si el 40% de tus entrevistados te dice que se sentiría muy decepcionado, que ese es un buen indicativo de que vas por buen camino. Entonces, ese tipo de cosas igual no te las planteas cuando estás en ello, cuando estás queriendo que funcione.
+
+[00:12:56.12] - Adriana Landaverde
+Y quizás se necesita alguien que te diga: Vale, toma un poco de distancia y observa y evalúa si de verdad vas por el buen camino.
+
+[00:13:06.11] - Carlos Iglesias
+Me lleva un poco a una conversación que ha salido en varios episodios, la idea, y que yo también lo he visto, la idea de Sí, nosotros tenemos un plan, este es nuestro plan de escalado. Todos son hipótesis, somos conscientes de que todos son hipótesis, pero si fracasa un experimento, una hipótesis. Vale, y diseño un experimento para validar, para comprobar esa hipótesis. Así es. Si ese experimento fracasa, en lugar de decir: Okey, esa hipótesis es incorrecta, yo veo que a veces sucede que los equipos de repente asumen eso como: No hemos no hemos sabido.
+
+[00:13:45.15] - Adriana Landaverde
+Exacto.
+
+[00:13:46.15] - Carlos Iglesias
+No hemos sabido conseguir esa hipótesis, cuando en muchas ocasiones la respuesta es: Lo has encontrado, has encontrado la respuesta, y es que esa hipótesis no era correcta.
+
+[00:13:57.18] - Adriana Landaverde
+Claro, y entonces pruebas otra, ¿no? Es otra hipótesis. Y entonces, yo creo que es eso, como se convierten en sus bebé, las propias startups, yo creo que ellos mismos cuesta ver con objetividad. Y entonces, es ahí quizás donde buscan un par de ojos externos que les ayude a pensar. Lo que dices es uno de un poco mi obsesión de pensar un poco en el método científico. Claro, eso es. No No tenemos una bola para adivinar, no tenemos el poder de anticiparnos al futuro aún. Y por tanto, entonces, es de ir probando. Y mientras más rápido puedes probar y llegar a la conclusión que esa hipótesis no era, más rápido puedes por la siguiente. Yo creo que es eso. Para mí, el pensar, otro fundador me decía: Yo ahora que he aprendido lo que en lo que me enfoco, no es en validar mi hipótesis, sino que esforzarme por completamente matarla. Y buscar a críticos y buscar toda la información que refute mi hipótesis. Porque si paso ese test, entonces quiero decir que vale la pena explorarla. Claro.
+
+[00:15:21.21] - Carlos Iglesias
+Eso debe ser muy difícil en el momento en el que estás intentando escalar un producto, en el que estás intentando, o levantas una ronda de inversión, que entiendo que también influyen mucho esas dinámicas de... De inversores. Claro, inversores que están poniendo mucha pasta encima de la mesa para que tú te comprometes a que exista un retorno y debe ser muy difícil.
+
+[00:15:45.21] - Adriana Landaverde
+Claro, no, totalmente difícil. Debe ser un reto. Yo creo que también quizás debe existir un fit entre fundador e inversor. No todos los inversores... Y yo creo que el mismo inversor mejor fit con un founder que con otro, y con un tipo de empresa que con otra. A medida que voy hablando con más fundadores, cada vez voy viendo más las ganas de sacar adelante sus empresas sin requerir inversión externa. De manera que implica generar ingresos muchísimo más temprano, plantearse en los temas de monetización, tal vez una ronda antes de lo que lo habrían hecho, etcétera, pero con el objetivo de quitar ese stakeholder, que a veces sin mucho conocimiento, te ejerce mucha presión para subsistir. Y entonces, cada vez voy viendo más que quieren ser más independientes. Claro.
+
+[00:16:52.01] - Carlos Iglesias
+Sí, yo creo que ha habido un cambio, ¿no? Quizá después de la pandemia o no sé muy bien, pero es verdad que Que había una fiebre y que no importaba tanto tampoco la monetización y que era dinero en volumen y en volumen y en volumen. Pero bueno, ¿y luego cómo vas a monetizar eso? No sé si ahora, creo que ahora estamos en un punto diferente. No, total. Ahora también se valora mucho más. Oye, esto realmente es sostenible, se monetiza. Tenemos evidencias de que es factible la monetización.
+
+[00:17:23.17] - Adriana Landaverde
+Sí, yo me atrevería a decir que las rondas, al menos de aquí, en este lado del mundo, ya te están pidiendo teniendo signos claros de que alguien está dispuesto a pagar por tus productos. Mientras hace unos años, habrían apostado por ti como fundador, por tu talento, por tu capacidad de formar bien equipo y hacer otras cosas. Pero ahora ya tienes que comprobar un poco de cosas del producto en sí.
+
+[00:17:53.20] - Carlos Iglesias
+Y por tangibilizar un poco en qué consiste, qué hacemos para validar un product market fit. Si te contrata a ti una startup, imagínate, te ronda una serie A o lo que sea, una serie A, una serie B, y te pide ayuda en ese sentido. ¿Qué haces las dos primeras semanas? ¿Qué haces los dos primeros meses? ¿Qué haces el primer cuartel? ¿Qué haces los seis primeros meses?
+
+[00:18:21.06] - Adriana Landaverde
+Lo que a mí, lo que yo primero haría es establecer la baseline de... A mí me gusta esa métrica, qué tan decepcional decepcionado estarías si este producto no existiera? Imagínate, solo hay 5% que estaría muy decepcionado. Eso sí te está diciendo algo que igual tu producto no es lo suficientemente diferenciado o la value proposition no está ahí. Entonces, yo creo que me gustaría saber, y si no es con esta pregunta, otra satisfacción de los clientes o quejas o diferentes inputs que te ayuden a construir. Así comenzamos.
+
+[00:19:00.00] - Carlos Iglesias
+Cuantitativamente.
+
+[00:19:01.22] - Adriana Landaverde
+Perdón. Cuantitativamente. Cuantitativamente, exacto. Y cualitativamente, para entender un poco el por qué detrás. Una vez ya haces eso, y no tiene que ser estadísticamente significativo, porque no tienes unos volúmenes de inputs que te lleven ahí, pero hay suficiente data que te hace pensar, no es por ahí. Y luego, entonces, ir ¿Está entendiendo los gaps, de dónde vienen los gaps, no solo gaps entre la expectativa de tus usuarios y lo que tienes, sino gaps entre tu solución y lo que hay en el mercado. Porque igual, tú ibas por el buen camino y un mes después, el competidor lanzó algo doblemente mejor o más amplio o más nicho, diferentes maneras de hacerlo. Entonces, hacer un análisis de cuál es el gap. Y entonces, yo creo que ahí sería de ver, vale, nos consideramos capaces, tenemos las habilidades, porque a veces puede ser tecnología, que no cuentas con el equipo que lo puede hacer. Pero a veces puede ser user experience y sí cuentas con el equipo que lo... No, entonces, son diferentes gaps y dependiendo de lo que tengas, puedes o no puedes lograrlo. Pero quizás antes de llegar a todo eso, es establecer confianza, Porque si tu cliente no tiene confianza de que estás ahí no para encontrar los gaps, sino para ayudarles, obviamente no te contratan si no confían en ti, pero es establecer empatía Ya ahora yo soy fundadora de mi propia consultoría, ya tengo mucha empatía de lo que es decir: Mira, a veces va a funcionar y a veces no va a funcionar.
+
+[00:20:56.09] - Adriana Landaverde
+Y decirlo con mucho tacto y de eso. Entonces, volviendo al approach, ver si, volviendo a lo que tú decías de hipótesis, hacer un roadmap de hipótesis, basado en lo que tenemos, estas son las hipótesis de cómo creemos que vamos a llegar a ese gap. Y luego, después de cada experimento, ir midiendo resultados. Y también hay diferentes tipos de experimentos, porque una cosa es el problem solution, sí. Tenemos el producto para el el problema que estamos encarando. Pero a veces también son temas de go-to-market, que no es el canal correcto o esto no debería ser directo al consumidor, sino que tendría que ser más B2B. Entonces, a través de Crecimiento de Partnerships, y tenemos los... O sea, toda esa discusión para que estén todas las cartas sobre la mesa y hacer un... Ponerse la mano la conciencia y hacer un análisis, si vale la pena continuar. A ver, lo que te decía como consultora, llego hasta donde pueda. Y Y tratando de ser lo más honesta posible, pero luego lo dejas en las manos del founder de cómo tomar tu input desde ahí.
+
+[00:22:22.22] - Carlos Iglesias
+Hay una parte que no sé si estarás de acuerdo o te pasa también a mí como consultor, en mi rol de consultor a veces me sucede. Nosotros somos bastante agnósticos de los sectores con los que trabajamos. Trabajamos mucho con el sector fármaco, trabajamos mucho con el sector salud, pero trabajamos con otros muchos sectores, retail, travel, utilities, de todo. Hay un peaje de entrada como consultor. Te ayudas en una consultoría de negocio digital o de producto digital, Pero a veces el reto es más entender cómo es el contexto de negocio y cuáles son los límites regulatorios de ese contexto o los límites, no sé, ¿te encuentras con esto o te puedes enfocar más estrictamente en la parte de producto? ¿Cómo intentas resolver esto?
+
+[00:23:21.03] - Adriana Landaverde
+Mira, hace poco, a principios de ese año, estaba trabajando con una fundadora que quería hacer una solución de HealthTech para el Reino Unido y que inicialmente pensaba que su canal de distribución iba a ser el NHS, la National Health Care System, no sé, el organismo interno que maneja el tema de salud. Entonces, meterle esa cantidad de burocracia, porque claro, si vas a distribuir a través del NHS, hay que tener tiempo, y me refiero a tiempo en términos de runway, tienes que tener el capital que te va a sostener los 18 meses que en promedio toma para llegar con suerte para cerrar contratos con el NHS. Sí, va todo bien. Sí, va todo bien, exacto. Entonces, puedes preguntarle: ¿Estás segura que no hay otro tipo de offering que puedas hacer directamente al consumidor o algo que puedas hacer.? Era para recuperación de las mamás después de dar a luz. No hay algún tipo de comunidad que puedas formar, dado que hay muchas comunidades de mamás y a través de eso, encontrar otras maneras para comenzar. Que te ayuden un poco a financiar la trayectoria, porque igual Puede ser que el NHS sea el canal ideal. Pero comencemos por otro lado para poder llegar ahí.
+
+[00:24:53.05] - Adriana Landaverde
+Yo creo que una de las cosas que deberían saber de mí, volviendo a tu primera pregunta, es que yo busco la manera. O sea, si no es así, ¿cómo lo podemos lograr de otra manera para que mañana comencemos a ver otro tipo de resultados? Pero claro, cuesta que te escuchen cuando ya... O sea, esta era una doctora que ya conoce el sistema y no es tan fácil hacerles considerar otros tipos, otras maneras.
+
+[00:25:29.04] - Carlos Iglesias
+Y cuéntame un ¿Y qué era el caso en el que no encontrasteis Product Market Fit.
+
+[00:25:34.12] - Adriana Landaverde
+Ya.
+
+[00:25:35.04] - Carlos Iglesias
+Y que aprendiste durante.?
+
+[00:25:38.18] - Adriana Landaverde
+Mira, estuvimos trabajando en un... ¿Te suena el concepto roboadvisor. Sí. En un roboadvisor, porque yo trabajé en el primer roboadvisor del Reino Unido que se llamaba NutMek. Entonces, era conseguir un roboadvisor.
+
+[00:25:53.01] - Carlos Iglesias
+Perdón, los oyentes, un roboadvisor es una plataforma que automatiza tus inversiones con una serie de y con un curation propio del advisor. Pero digamos que sería un fondo de inversión automatizado y, por lo tanto, puede reducir muchísimo las comisiones. Los costes, exacto.
+
+[00:26:11.24] - Adriana Landaverde
+Y sobre todo, dar acceso a muchas más personas de lo que un asesor independiente podría darte. Muchas gracias. Entonces, la idea era hacer un robo advisor para sostenibilidad. Es decir, que los activos fueran, no necesariamente que a veces Microsoft tiene un programa, sino como para empresas que están trabajando en energía solar o en temas de viento. O sea, diferentes tipos de empresas que realmente querían hacer un impacto en el ambiente. Me encantó la misión y yo me uní con ellos cuando éramos cuatro en la oficina. Y sobrevivimos Sobrevimos la pandemia, trabajando todos en remoto, porque comenzamos en el 2019, sobrevimos la pandemia. Pero creo yo que comenzamos a gastar mucho, comenzamos muy rápido a gastar mucho, entonces ya el cash, ya de entrada iba así. Luego, el modelo de negocios del roboadvisor hace que los márgenes sean muy bajos. Entonces, si tienes poco dinero, lo está gastando muy rápido, con márgenes superbajos, entonces, no es que no había un product market fit, sino que tuvimos que cerrar antes de llegar a ello porque no lo pudimos costear. Entonces, también en la balanza va cuánto dinero tienes para llegar a ello. Y es por eso, que otra obsesión mía es, no le metamos ninguna línea de código hasta que sepamos claramente cuáles son las necesidades, hayamos prototipado, hayamos probado esto y entonces ya tener mucha más confianza de qué el código que le vas a meter, y ahora que es tan más barato hacer código, No gasto, porque claro, cuando tienes tan bajos presupuestos, cada euro es crítico.
+
+[00:28:22.20] - Carlos Iglesias
+Sí, y desarrollar software es caro, es una cosa muy cara. O sea que también entiendo que... O sea, por afinar y entender mejor las razones, porque me ha parecido entender, vale, sí, entiendo que había como un equipo que iba como desarrollando el producto lo iba desarrollando, pero el negocio... Pero muy grande. Claro, era un equipo demasiado grande. Probablemente, ahí había un problema también de sincronía entre el producto y la escala de...
+
+[00:28:55.17] - Adriana Landaverde
+A la que teníamos que llegar para que esto fuera más sostenible. Claro. Aparte de eso, ya que hablábamos de regulación, la regulación, o mejor dicho, el organismo regulador en el Reino Unido, después de que ya varios roboadvisors habían crecido, Ya se había puesto muchísimo más exigente. Entonces, requería también que nosotros fuéramos viendo la manera de solventar las demandas del organismo regulador al mismo... Entonces, te imaginas un roadmap donde hay un layer de regulación y un layer de usuario. Y entonces estas... Porque claro, tenemos todavía las luces prendidas o tenemos que satisfacer a nuestros usuarios. Y no siempre la respuesta a este dilema es clara.
+
+[00:29:53.19] - Carlos Iglesias
+Dificilísimo. No, no. Muchas gracias por contarlo, porque me parece un muy buen ejemplo. Te voy a hacer una pregunta que ahora voy a hacer siempre en todas las entrevistas. Y es muy abierta, es cómo creas impacto.
+
+[00:30:08.16] - Adriana Landaverde
+Yo creo... Ahora como consultora, el impacto lo generaré al tener una escala que me permita llegar a más founders para que no gasten tanto. O sea, yo creo que esa es mi principal motivación, que no gasten tanto en una idea, en validar sus ideas, porque cada vez vas viendo que los presupuestos son más escasos. Como que sacar adelante una startup en estas épocas es un logro. Entonces, quiero que pase más de eso, quiero que haya más mujeres haciendo startups. Y que obviamente va a ser difícil, que fallarán en ciertos casos, pero quiero llegar a una escala en que sea mayor la La palabra agile no me encanta, porque creo que a veces la hemos mal utilizado. Pero eso, que sea más fácil, que sea más rápido la experimentación, a manera de llegar al éxito también más rápido. Yo creo que eso es mi razón de ser, creo.
+
+[00:31:21.22] - Carlos Iglesias
+Claro, la IA tiene un impacto brutal en este momento. Exacto. La IA generativa y los pipe coding y no coding y.
+
+[00:31:29.12] - Adriana Landaverde
+Exacto, creo que hay que usar esas herramientas. Y eso no solo aplica a founders, eso aplica a todos los que estamos en product management. 100%. No nos podemos dormir.
+
+[00:31:39.23] - Carlos Iglesias
+Incluso, me atrevería a decir, con tu permiso, y desarrollo de producto, incluso. O sea, que creo que en el propio desarrollo. No podemos no incorporar todo eso dentro del propio desarrollo, porque estamos hablando de reducción de tiempos y de... No sé.
+
+[00:31:57.23] - Adriana Landaverde
+Yo hablaba con un founder hace que ya está en serie C, y me dice: Me encanta el VP de ingeniería que he contratado. ¿Y por qué? Le digo: Porque está contratando product engineers. Y hoy, ¿qué son product engineers?. Bueno, que saben por qué están desarrollando lo que están desarrollando, tienen acceso a los clientes. O sea, product engineering. Los círculos cada vez están overlapping más. Ahora, Yo le dije: ¿Y de dónde los está contratando?. Porque los desarrolladores no siempre tienen ese lado de la ecuación, fino y eso, pero es una tendencia. Y claro, yo me imagino el valor que podría generar yo con un product engineer, que quizás antes habría sido un product manager, seis engineers, y ahora debe ser un product manager, un product engineer y haces muchísimo más. Entonces, no me asusta. La inteligencia artificial a mí no me asusta, sino que me motiva, porque creo que podemos hacer mucho mejor nuestro trabajo.
+
+[00:33:14.10] - Carlos Iglesias
+Estamos en la misma página. Nosotros tenemos un reto aquí brutal de ya no solo cómo hacer mejor discovery y cómo utilizar todas estas herramientas, precisamente, para validar, sino también, como te decía, o sea, cómo hacemos para acelerar los ciclos de entrega de producto y validación.
+
+[00:33:37.05] - Adriana Landaverde
+Claro.
+
+[00:33:38.09] - Carlos Iglesias
+Nos cambia por completo. Estamos en plena transformación. ¿Sí? Okey. Plena transformación en ese sentido y con una apuesta muy decidida y muy fuerte, porque lo vemos de una forma tan evidente y tan clara que es como no...
+
+[00:33:53.24] - Adriana Landaverde
+Ahí es donde el mercado te lo pide. Claro. Y estás haciendo... Esa es la otra, que el product market fit no es una foto. Claro, una foto es. Porque a lo rápido que va el mercado cambiando...
+
+[00:34:07.09] - Carlos Iglesias
+Es una película, es un vídeo.
+
+[00:34:09.07] - Adriana Landaverde
+Exacto. Y lo que te funcionó los últimos tres años, pues igual te tienes un poco que reinventar.
+
+[00:34:15.04] - Carlos Iglesias
+Totalmente. Y entonces, tenía una pregunta preparada para ti, no sé si le ves el sentido, pero que es: ¿Dónde crees que agrega valor? O sea, que la IA en producto aporta valor. Más o menos lo hemos discutido, pero también me gustaría preguntarte: ¿Dónde crees que no.
+
+[00:34:34.07] - Adriana Landaverde
+Vale. ¿Dónde crea valor? Prototipado. Síntesis y análisis de datos. Eso es increíble. Sí. Luego también hay personas que para el user research no es su fuerte. Y entonces, utilizar un ChatGPT para preguntar: Mira qué preguntas, podrían ser non leading questions o: ¿Qué pregunta deberías saber si esto es lo que quiero descubrir, creo que puede ser muy útil. Yo creo que para lo que no es para... Hay un autor súper bueno, no sé si te suena Tal Raviv, me encanta lo que hace, porque es como muy enfocado a cómo aplicar la inteligencia artificial en producto. Y eso me...
+
+[00:35:23.17] - Carlos Iglesias
+Lo investigaré, gracias.
+
+[00:35:24.23] - Adriana Landaverde
+100% lo paso. Gracias. Decía, lo que no vas a lo que hacer es dejar de escuchar al usuario, sintetizar completamente, pero lee todos los correos, haz si puedes todas las entrevistas, porque no hay nada que te ayude a generar la empatía que ese tipo de conversaciones te generan. Entonces, es un atajo para sintetizar, pero la lectura te toca.
+
+[00:35:55.02] - Carlos Iglesias
+¿qué pueden aprender las empresas más tradicionales de esta forma de hacer, de esta forma de trabajar de las startups?
+
+[00:36:03.21] - Adriana Landaverde
+Yo creo que es pensar en escasez de recursos. Yo creo que en empresas ya más establecidas hay mucha más estructura, te sientes, entre comillas, te sientes mucho más estable, te sientes mucho más seguro. Pero yo creo que los últimos años nos han enseñado que la estabilidad es un poco una ilusión. Entonces, yo creo que todos nos tenemos que poner un poco a ver cómo puedo yo hacer mi trabajo de la manera más eficiente posible. Es que a veces te metes en el LinkedIn y cada post es de inteligencia artificial, pero luego vas al supermercado y dices: Pero esto no es tema de inteligencia artificial, esto es de un proceso que se puede hacer 10 veces mejor. Entonces, la adopción de inteligencia artificial, yo creo que a veces va a tener la barrera de no saber hasta qué potencial puede llegar. Entonces, yo creo que la idea es que todos veamos, si mis recursos no son tan escasos como lo serían en una startup, ¿cómo podría yo hacer mi trabajo de la mejor manera? Con excepciones. Al principio de este año estábamos en una conferencia y había una empresa, varios en la mesa eran de una empresa de de apuestas, y como es tan regulada, solo podían utilizar el copilot de Microsoft.
+
+[00:37:40.15] - Adriana Landaverde
+Entonces, claro, eso te quita el acceso a muchas otras herramientas, que igual no vas a poder upload un documento porque te lo tienen... Entonces, yo creo que hay ciertas industrias que todavía lo van a mantener muy controlado. Pero si estás en un contexto en el un poco más de libertad, pues en los tiempos libres. Yo realmente a veces agradezco estar como independiente, como mi propia empresa, porque si estuviera trabajando para una empresa, creo que no tendría el tiempo para aprender todo lo que estoy aprendiendo. Entonces, si está trabajando en una empresa, hay que hacer el tiempo para aprender, porque es una oleada de aprendiz. Y cuesta también discernir cuáles son las cosas a las que les vas a prestar atención y cuáles son, porque es mucho.
+
+[00:38:36.12] - Carlos Iglesias
+Se pierde mucho tiempo también, pero es que es tiempo necesario, yo creo que tenemos que invertirlo. Exacto. ¿Qué te haría volver a una corporate?
+
+[00:38:45.06] - Adriana Landaverde
+Mira, yo creo el equipo, para mí, las personas siempre han sido clave en quedarme o irme. Y yo creo que tiene que ser un equipo donde haya lo que se dice psychological safety.
+
+[00:39:04.14] - Carlos Iglesias
+Sí, sí. Seguridad psicológica.
+
+[00:39:06.21] - Adriana Landaverde
+Seguridad psicológica. Perdón por el espanglish. No, no te preocupes.
+
+[00:39:10.23] - Carlos Iglesias
+Creo que están acostumbrados los oyentes de este podcast.
+
+[00:39:13.23] - Adriana Landaverde
+Pero eso, seguridad psicológica para debatir, para decir: Mira, pero esto no está funcionando, sin culpar, sin señalar, sino que trabajar como un equipo y en las culturas, donde más, incluyendo en El Salvador, creo que teníamos un equipo en lo que todos estábamos alineados para generar resultados. Entonces, eso sería quizás trabajar con alguno de ellos, con quienes en el futuro, en el pasado, que sean gente que ellos se que pueden construir una buena cultura. Y no porque tengas a la misma gente, vas a tener a la misma cultura, pero al menos vas viendo que Y habrá como restos de esa cultura que sí pueden traer.
+
+[00:40:04.09] - Carlos Iglesias
+Hay una cosa que a mí me obsesiona bastante, que es como la estructura formal de la organización. Cuando hablo de estructura formal, me estoy refiriendo a cómo están diseñados los departamentos, los equipos. Aquí está el departamento de diseño, departamento de UX a veces, departamento de ingeniería, departamento de producto. Y los silos, cómo los silos configuran tu capacidad de entrega de valor.
+
+[00:40:36.08] - Adriana Landaverde
+Claro.
+
+[00:40:37.11] - Carlos Iglesias
+Y configuran cómo va a ser tu producto. Te afectan hasta el punto de cómo va a ser? Sí, literalmente, ¿cómo va a ser el producto? Y hay un punto ahí que no sé si lo habrás vivido alguna vez, en alguna startup, tú que has acompañado a startups hasta una IPO y no sé más allá, que pienso que es muy difícil ser una startup y tener éxito si no haces las cosas de una determinada manera, si no haces las cosas con una mentalidad agile, una mentalidad lean, una mentalidad de probar, validar, desarrollar de forma iterativa, incremental, aportando valor, con mentalidad de entrega de valor frecuente, siempre pensando en el cliente, bla bla bla bla bla bla. Que para esto es necesario equipos cross profesionales, mucha transversalidad, mucha colaboración, cocreación. ¿Has visto cambiar alguna vez a una startup, a una scale up? ¿Y cómo se rompe esa capacidad de entrega de valor?
+
+[00:41:44.24] - Adriana Landaverde
+He visto para bien y para mal. Por ejemplo, cuando estábamos en Trulia, uno de los mejores jefes de ingeniería con quien yo he trabajado era el jefe de ingeniería de Trulia. Era el colega, digamos, o al mismo nivel que mi jefe, el director de producto. Y entonces, a mi jefe le reportábamos producto, a él le reportaba todo ingeniería. Pero él, cuando íbamos con nuevas iniciativas, siempre me decía: ¿Y esto qué? ¿Cómo lo vamos a vender? ¿A qué tipo de usuario? ¿Cuántos usuarios?. O sea, era una disciplina y entonces yo sabía: Vale, ya pasó ese filtro, ya tiramos. Pero me gustaba, me gustaba el challenge de mis supuestos y O sea, para cada proyecto teníamos una camiseta, teníamos un nombre del proyecto, una camiseta. Llegué a tener como 15 camisetas de Trulia. Pero es que significaba para nosotros una misión, resultados. Y no solo nos la pusimos producto de ingeniería, se la ponía marketing, se la ponía ventas. Había un proyecto que se llamaba whisky, alguien llevó una botella de whisky para celebrar. O sea, realmente nos alineábamos con toda la organización alrededor del...
+
+[00:43:06.18] - Carlos Iglesias
+¿y cuánta gente había, más o menos?
+
+[00:43:08.23] - Adriana Landaverde
+Eso debe haber sido unas 200, máximo. Pero claro, vino el IPO y cambia, cambia por las presiones más cortoplacistas que te ponen los mercados públicos, ya no te alineas a proyectos de tan largo, no necesariamente largo de más envergadura, sino que vas por lo más marginal para llegar a lo que te va a llevar a que quedes bien en la próxima llamada con inversionistas. Entonces, cambia. Y no necesariamente para mal, pero quizás ahí yo ya no era el fit. Volviendo a lo de fit, ya Adriana, compañía fit, ya pasó. Y luego, curiosamente, yo cuando vine a Barcelona, yo trabajé con eDreams. Sí. En eDreams, que ya en aquel entonces tenía... Era 2014, y eDreams ya había salido a la bolsa y no sé qué.
+
+[00:44:07.24] - Carlos Iglesias
+Tengo muchos amigos que trabajaron allí y que alguno aún trabaja.
+
+[00:44:11.17] - Adriana Landaverde
+Claro, entonces habrá visto la transformación de muy Waterfall, que entre el 2015, habrá sido 2016, le dieron una vuelta. Y que no vi todo el proceso, pero que ahora, a la que tenemos los product tanks y eso, o sea, eDreams creo que le ha dado, no sé si completamente la vuelta, pero ha mejorado significativamente su manera de trabajar. Entonces, también toca de tener una una empresa interna o externa que vaya ayudando con esa transformación.
+
+[00:44:49.22] - Carlos Iglesias
+Totalmente. Sí, quizá si Itdream es una empresa, pues eso, nativa digital, como de base tecnológica Creo que eso un poco la ayudó a entender bien. Puede ser, sí. Cómo es esa agilidad.
+
+[00:45:05.12] - Adriana Landaverde
+Y para competir, ¿no? O sea, ese... Desde luego. Creo que habrá sido la mayor presión.
+
+[00:45:11.13] - Carlos Iglesias
+Seguramente, sí. Esto O sea, ¿cuál es el antipatrón más común que tú te encuentras en empresas grandes?
+
+[00:45:20.17] - Adriana Landaverde
+Ay, a menudo. Yo creo que... El tener que preguntar mucho. O sea, la falta de autonomía.
+
+[00:45:29.17] - Carlos Iglesias
+Agencia, ¿no? Sí. De autonomía y agencia.
+
+[00:45:32.01] - Adriana Landaverde
+Sí, falta de autonomía y agencia. Falta de autonomía en el sentido de que no me dejan. Y también, como dices, falta de agencia porque yo no tomo la iniciativa. Hay mucha queja en los product managers, tú lo debes saber. Y yo he estado ahí. Hay mucha queja, de que: Ay, qué pobrecita víctima yo, pero realmente tanto de eso es entender cómo navegar, porque las empresas grandes requieren más las soft skills. O sea, a veces uno las, ¿cómo se dice? La subestima. Sí, sí. Pero son importantes para ver a quién hay que influenciar, con quién me tengo que aliar. Hay que pensar un poco estratégicamente. Y creo que esas dos, o sea, creerme el víctima de mi entorno, es lo que a veces no se puede, pero yo creo que a veces es la falta de intentarlo.
+
+[00:46:38.19] - Carlos Iglesias
+Me gusta tu visión guerrera, ¿no? De lateral. Pues lateral, por aquí no, pues por el lateral.
+
+[00:46:44.18] - Adriana Landaverde
+Sí, mira, si no... Yo me entregué en NutMage, habían despedido a mi jefe, que era el CPO. Y luego me quedé yo solita como head of product y punto número uno, me voy al pub con el jefe de ingeniería y a tomar una cerveza, o sea, algo hay que... Y si no le gusta la cerveza, un café, y si no le gusta el café, el té, para establecer un poco de cercanía.
+
+[00:47:09.19] - Carlos Iglesias
+Es verdad que los product managers se quejan. También es verdad que yo veo que están O sea que creo que estamos en una era de transformación donde se empieza desde mi perspectiva, porque me encantará conocer la tuya y ahora que también estás empezando en el mercado latino también, con Y toda esa visión, que creo que es superinteresante, tu visión desde Silicon Valley hasta Londres, Europa en general, me da la sensación de que muchas empresas tradicionales con las que tú no trabajas, que igual Esa es la visión que yo te puedo trasladar. Están empezando a entender que necesitan estructura de producto, que necesitan estructura de producto. Están empezando a descubrir que hay una necesidad. Es que ya no es solo negocio, dice: Hacetme esto, sino que necesitamos estar seguros de que el roadmap de lo que estamos haciendo está alineado con la estrategia, etcétera. Y lo que me encuentro muchas veces es que los product managers se quejan precisamente de: Bueno, es que no tenemos un roadmap de outcomes o no tenemos un roadmap de hipótesis, como tú decías. Tenemos un roadmap de funcionalidades que de dónde vienen, vienen de la jerarquía de: Queremos esto para el siguiente quarter y esto otro para el siguiente.
+
+[00:48:30.16] - Carlos Iglesias
+Entonces, que estamos descubriendo, que estamos aprendiendo, que estamos... Sí, sí. ¿Cómo sabemos que estamos entregando el valor que.? Y esto me da la sensación que sucede en las compañías, en el mundo corporate, que está empezando a entender, pero que todavía le cuesta. Pero también hay muchas startups. Puede ser. O sea, veo startups grandes, es verdad. Startups grandes o scale-ups, yo diría ya, pero muchas scale-ups que ya funcionan de la misma forma y funcionan con el buque de outputs. Sí. Y quiero esto, quiero esto, quiero esto.
+
+[00:49:07.00] - Adriana Landaverde
+De acuerdo, lo veo. Yo también he pasado por ese tipo de startups y la estimosamente esa, en el que el behavior, un poco lo que diga el founder, lo que diga el founder, lo que dijo el founder, nos llevó a la quiebra. Claro. Porque, bueno, lo que diga el founder, el founder no es infalible. Y si nosotros conocemos un poquito más que el founder, pero entonces no existe, volviendo a la seguridad psicológica, para decir: Hey, no vamos por ahí. Y yo creo que hay mucho de eso, mucho de el founder creer que siempre será exitoso. Yo creo que hay una paradoja que la vi en el fundador de Trulia. Su empresa, su bebé que sacó a IPO y no sé qué, finalmente lo fueron, porque ya no era la persona que lo iba, que iba a llevar a la empresa al siguiente nivel. Y no siempre, obviamente lo asume y se dedicó a hacer muchísimas otras cosas, pero no siempre eres un buen fit para todas las fases de la compañía. 100%, sí, sí. Y luego, yo creo que son un montón de variables, pero si eso pasa en una startup, si hay ese nivel como de muy top down, digamos, ese es el ejemplo, que el founder dice lo que se tiene que hacer.
+
+[00:50:43.03] - Adriana Landaverde
+Yo creo que a veces como Product Managers, como nos leímos el libro o los 10 libros que había de product manager, encontramos que el ideal no existe. El libro fue una colección de de estudio y el Marty Cagan brillante lo llegó a sintetizar. Pero no existe ese ideal. Este es un framework al que todos aspiramos llegar. Pero por estar tan enfocados en el ideal, te enfocas menos en: Vale, ¿cómo navego yo mi situación? ¿Cómo genero resultados antes de decir que no? Antes de decir: ¿Cómo me gano la confianza del founder?
+
+[00:51:32.10] - Carlos Iglesias
+No sabes lo que entiendo, lo que dices.
+
+[00:51:34.05] - Adriana Landaverde
+Antes de decir: Pues mira, ya que estamos, no te interesaría no. Y no pretender que de golpe, solo porque es una startup y no sé qué, ya es el paraíso. Ni por cerca. Hay muchos founders muy jóvenes que para bien o para mal no han tenido experiencia laboral, porque tienen una idea fantástica, que pueden vender, que Y entonces, tienen su merito también.
+
+[00:52:03.04] - Carlos Iglesias
+Me gusta mucho como reflexión final, que cuando te pregunto por un antipatrón en las empresas grandes, me hablas de que falta autonomía y falta agencia y no puedo estar más de acuerdo y lo suscribo mucho y que a la vez estás diciendo: Y es que te tienes que ganar el derecho de poder tener una opinión también. Y que tienes que hacer un... Tienes que hacer un... Tienes que remarcar la conversación y tienes que ser capaz de hablar con evidencias y de... Claro.
+
+[00:52:35.09] - Adriana Landaverde
+Y eso tiene... Y porque a veces el founder te puede decir: Sí, sí, somos product lead. Y entonces ahí te genera como la disonancia de ver que en el día a día no es una compañía product lead y no sé qué. Entonces, lo aceptas y al founder le dices: Sí, sí, somos product lead. Hasta que hayas logrado comenzar el cambio desde dentro.
+
+[00:52:59.06] - Carlos Iglesias
+Adriana, es un placer, de verdad. Muchísimas gracias por esta conversación. A ti. Y por compartir toda tu experiencia. Y nada, de verdad, gracias y espero que sigamos conectados. Me tienes que pasar la referencia del autor.
+
+[00:53:11.01] - Adriana Landaverde
+El autor, sí. Y así lo ponemos en el... Tal, ¿cómo has dicho? Tal Raviv. ¿Y qué tal, Ravi? Este chico trabajó en Riverside. ¿Te suena? No sé si usaste alguna vez Riverside para tus podcasts.
+
+[00:53:20.24] - Carlos Iglesias
+Me suena. No lo he llegado a usar, pero sí que me... Sí, para el podcast.
+
+[00:53:25.21] - Adriana Landaverde
+Ahora que lo has dicho, sí, por eso me suena. Yo creo que en tu versión inicial habrás sido en Riverside. Sí, lo usé.
+
+[00:53:32.02] - Carlos Iglesias
+Muchísimas gracias, de verdad.
+
+[00:53:33.04] - Adriana Landaverde
+Encantada, Carlos. Hasta la próxima. Hasta la próxima. Hasta la próxima. Sí me invitas.
+
+[00:53:36.22] - Carlos Iglesias
+La conversación con Adriana nos deja una idea poderosa. No hace falta estar en una startup para adoptar esa mentalidad de búsqueda constante. La disciplina de experimentar, medir y decidir con evidencia no es solo para quienes persiguen el product market feed, porque también es crucial en organizaciones grandes donde el riesgo no es desaparecer, sino volverse irrelevantes. Lo valioso es cómo esa urgencia se traduce en prácticas aplicables a cualquier contexto. Escuchar de verdad a los clientes, conectar métricas con objetivos de negocio y tener la valentía de parar lo que no funciona para apostar en lo que sí. Al final, la pregunta que deberíamos hacernos siempre es la misma: ¿Lo que estamos construyendo realmente está creando impacto? Un fuerte abrazo y os espero en el mundo real.
+

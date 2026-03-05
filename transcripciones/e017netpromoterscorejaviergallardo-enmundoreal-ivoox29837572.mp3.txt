@@ -1,0 +1,246 @@
+[00:00:00.360] 
+Lo que no se define no se puede medir lo que no se mide no se puede mejorar lo que no se mejora se degrada siempre es una cita que se le atribuye a Lord Kelvin un físico matemático británico que desarrolló la práctica totalidad de su carrera en el siglo XIX y a quien debemos entre otras cosas la escala de temperatura de Kelvin que constituye la escala natural en la que se plantean las ecuaciones termodinámicas. Os acordáis de la escuela. El cero absoluto se encuentra en los 273 coma quince grados Celsius está claro medir la rentabilidad de la compañía la eficiencia de un recurso el ratio de desperfectos en una cadena de fabricación parece relativamente sencillo pero en el mundo real es factible medir las emociones lo que siente un cliente en un determinado momento del Journey pero en el mundo real cuando al mundo real le precede un pero deja de ser un lugar se convierte en una excusa si de una forma u otra eres responsable de la transformación de la compañía donde trabajas aquí encontrarás la manera de desactivar esos pretextos ese portazo al cambio.
+
+[00:01:27.660] 
+ Ese aquí no se puede. Este podcast es para todos aquellos que estéis convencidos de que las empresas deben poner al cliente en el centro de la estrategia y a las personas de la organización en el corazón de la misma. Aquí adquirirás una visión estratégica y a la vez práctica a través de ejemplos y experiencias que os dotarán de argumentos en el idioma favorito de la alta dirección. El lenguaje de negocio no sólo hablaremos del qué sino también del cómo y en el episodio de hoy hablamos con Javier Gallardo director de Experiencia de Cliente en Sage.
+
+[00:02:07.170] 
+ Soy Carlos Iglesias CEO en Run Run y profesor en varias universidades y escuelas de negocio como Esade que Scull o Bowe. Bienvenidos al décimo séptimo episodio de en el mundo real el podcast sobre Castañer Experience y negocio digital.
+
+[00:02:44.320] 
+Javier además de atesorar una dilatada trayectoria en el ámbito de la Experiencia Cliente es profesor en varios máster de esta temática en sí y en CD. A mí me gusta llamarle el profesor Gallardo. Porque ya lo veréis que aunque tiene una personalidad súper afable y accesible tiene tanto conocimiento teórico y práctico y le gusta tanto compartirlo. Lo vive con tanta pasión que es un verdadero placer escucharle y aprender de él. Veréis que gran parte de la entrevista nos centramos en una métrica muy concreta el Promotor Score comúnmente conocido por su acrónimo NPS de largo.
+
+[00:03:31.080] 
+ El NPS es el indicador más utilizado como métrica de la experiencia cliente en todo el mundo probablemente por su sencillez a la hora de implementarlo pero también por la importancia de lo que mide que no es otra cosa que la lealtad de los clientes hacia hacia una determinada marca.
+
+[00:03:50.530] 
+Básicamente consiste en preguntar a nuestra base de consumidores con qué probabilidad recomendarías esta empresa a un amigo o familiar potente a la pregunta el cliente puede dar su respuesta en una escala del 0 al 10 siendo cero muy improbable y el 10 definitivamente lo recomendaría. Normalmente además se le permite explicar las razones de su respuesta digamos en una pregunta más abierta cuál es la razón de tu valoración y por qué. La particularidad del NPS es que el resultado final el KPI final no es la media de las respuestas.
+
+[00:04:36.850] 
+No sé si si si 20 han respondido un 8 y otros 20. 7. Pues la media es un siete y medio. Pues no en el caso del promotor score la cifra final es en realidad.
+
+[00:04:53.810] 
+Un porcentaje que se consigue restando por una parte el porcentaje de gente que nos ha valorado entre un 0 y un 6 del porcentaje de los que nos han valorado con un 9 o un 10. Es decir restamos el porcentaje de detractores al de promotores o apóstoles como comenta Javier en la entrevista por ejemplo si en una encuesta sacamos un 30 por ciento de promotores un 10 por ciento de pasivos y un 60 por ciento de detractores entonces el valor NPC's es menos 30. Por qué porque el 30 por ciento promotores menos 60 por ciento de tractores da un 30 por ciento.
+
+[00:05:45.890] 
+ Pero en la escala NPS el valor final no es un porcentaje sino un número por tanto menos 30 como veis los pasivos no cuentan en el cálculo que los pasivos básicamente son todos aquellos que han votado digamos entre un 7 o un 8 de manera que los índices de la métrica van del menos 100 al 100 una valoración por encima de cero. Se considera un buen resultado y una valoración por encima de 50 se considera excelente un poco rara la escala. Bueno pues esto en definitiva es el promotor score en varios episodios anteriores la habíamos nombrado habíamos hablaba de ello pero sin profundizar demasiado.
+
+[00:06:36.560] 
+Así que hoy toca sesión con el profesor Gallardo espero que disfrutéis la master class tanto como yo.
+
+[00:06:45.110] 
+En fin aquí estamos en las oficinas de Sage en Madrid estoy acompañado de Javier Gallardo que es el director desperdiciã cliente entre otras cosas porque seguro que hace un montón más.
+
+[00:06:58.550] 
+Entonces bueno para empezar me gustaría que explicase un poquito a qué te dedicas tú aquí y cómo ha sido un poco tu Bagram cómo has llegado aquí.
+
+[00:07:09.560] 
+Pues bienvenido Carlos. Muchas gracias por la entrevista. Gracias a ti vale mi puesto actual es director de Castorena expiren pero no exagero alrededor de 20 años y he pasado por la mayoría de los puestos que existen ahora y que existían en la antigüedad y pasado por muchos puestos a qué me dedico pues me dedico es muy difícil y cuando me preguntan en casa por ejemplo mi madre a qué me dedico. Es muy difícil explicárselo no lo paso realmente mal es un puesto realmente nuevo. Supongo que como la mayoría de los puestos que tienen que ver con el marketing con el diseño de los puestos que tienen que ver o que saldrán en el futuro pero básicamente yo me dedico a hacer el defensor del cliente dentro de mi organización recoger su voz intentar influir en el diseño de las interacciones que tiene con nosotros ser el garante de que lo que hacemos realmente es lo que desea y necesita el cliente en este caso de saber cómo ha llegado a este puesto por dónde has pasado cuál es tu experiencia vital y profesional dentro y fuera.
+
+[00:08:26.300] 
+ Supongo que he llegado por casualidad que esta casualidad mueve a las personas. Nosotros empezamos y fuimos pioneros en trabajar en el tema de Castromán expiren estamos hace muchos años y empezamos por accidente contratamos los servicios de un gurú que USIL que por ejemplo ha participado en este congreso Vic que se ha hecho recientemente pero que contratamos cuando nadie conocía una usina desconocida lo contratamos para hacer un estudio de satisfacción aplicó sus técnicas que en aquel momento para nosotros era rozaban la brujería es decir empezó a diseñar un casco Mazzoni medir las diferentes la importancia y la percepción del cliente dentro de ese Kastner Johnny y llegó el momento el día a día.
+
+[00:09:22.880] 
+ El día 10 fue cuando lo presentó en el comité de dirección. Yo era el esponsor de que me había contratado con otra persona librar USIL con mi jefe de ese momento. Y claro la imagen es representativa quizás en un programa que es complicado representarla. Imagínate 21 puntos de contacto tres zonas a partir de las cuales evaluar la percepción la experiencia percibida la zona nunca más en rojo zona funcional y zona wow. El libro Así fue el que inventó el término wow. Nosotros creíamos que tenía una enfermedad cada tres palabras era Waka Waka Waka.
+
+[00:10:14.610] 
+En aquel momento no estamos Famelab estaba el tema de la rabia algo impensable. Esto debe ser algo de esto cuántos años hace 20 un punto de contacto.
+
+[00:10:26.830] 
+Eso fue 2008 2008 1007 oncenas 11 21 puntos de contacto. Nosotros estamos acostumbrados a encuestas digamos funcionales las cuales medíamos la aplicación mide o es capaz de importar los datos correctamente hace los asientos bien muy bien sacamos un medio mueve 75 mueve decir no bajamos de 9.
+
+[00:10:55.070] 
+Dentro de esa escala vino este señor que por otro era como la llegada del último astronauta dentro de Sage y de los 21 puntos de contacto. He dicho antes la escala si todos o casi todos estábamos más que por aquel momento iba a bordo Carlos. Esto es verídico. Fue cuando lo del Prestige no decía nunca máis nunca máis. Yo me acordaba de los hilillos de plastilina de plastilina. Lo pasamos realmente mal. La imagen del consejero delegado en ese momento cayó soy Extremadura la cuna del chorizo del jamón de salchichón etcétera etcétera pues le salía como una vainilla no el hilo del Prestige pero una venía por el cuello del grosor de un salchichón ibérico y decía majadera y ahí buscar las tres excusas Carlotta que tiene toda la gente que han contratado un estudio que no lo hice lo que quiere hoy lo que quiere oír que una es toma ya que el consultor no tiene ni idea del sector.
+
+[00:12:07.820] 
+ La primera vez que tiene un acercamiento en este caso era la primera vez que se acercaba a Europa. éramos el siguiente el segundo cliente del Lior en Europa el primero en Manchester. Ahora con Mouriño lo tendría más complicado no pero me acuerdo en aquel momento yo había muy bien el Manchester. Esa es la primera excusa. La segunda excusa es que te podías plantear es la muestra no es suficiente. Los datos están sesgados no es cualitativo y cuantitativo. La tercera es en aquel momento lo que pensábamos argüir en contra de ese nunca máis que nos pintó quizás a nosotros nos estamos equivocando y resulta ser qué era esa última.
+
+[00:12:58.550] 
+ La última opción que teníamos nosotros nos estamos equivocando porque medíamos aquello que queríamos medir y realmente sabíamos que éramos bueno a la hora de medir esas interacciones.
+
+[00:13:11.560] 
+Pero claro lo que no descubrió en ese momento por accidente es el plano de las emociones lo que medíamos con ese estudio del año 2007 era cómo se sentía el cliente en cada una de las interacciones y ahí no sólo nosotros éramos un fracaso sino supongo que no porque nadie efecto Disney había medido realmente las emociones de sus clientes. Fue el primer acercamiento Carlos que tuvimos. Lo pasamos mal pero he de decir que conseguimos un hito importante primero medir las emociones del cliente en los diferentes pasos de los cuales se atraviesa con nosotros con Kastner jónica que es una fuente inimaginable y muy muy buena y muy eficaz a la hora de diseñar y de medir esa experiencia que están recibiendo nuestros clientes.
+
+[00:14:18.130] 
+ Y la segunda el segundo aprendizaje importante es que nos dimos cuenta de que nosotros no éramos el culo del mundo perdonadme la expresión no pero realmente la gente cree que su producto su servicio es lo mejor del mundo mundial sobre todo si ha participado en el diseño de ese producto y al final te das cuenta de que pasados unos años pasados puede ser que tu producto sea algo inédito o algo innovador pero en muy corto espacio de tiempo tu producto es un commodity y eso lo aprendimos con esta persona con Lior que presentó los resultados al consejero delegado que había participado había diseñado el producto tipo Apple y en esa mesa le dijo que realmente su producto era como una barra de pan con lo cual estuvimos unos meses un poco de tránsitos tensos.
+
+[00:15:24.300] 
+ Pero digamos lo que más me gustó de todo ese aprendizaje y aprendimos mucho es que a los seis meses nuestro consejero delegado en cualquier reunión decía que éramos una commodity y esa es la verdad. Entonces mi anterior jefe decía siempre oye si eres una commodity como la inmensa mayoría de las empresas o de los productos servicios que se venden sólo tienes dos formas de diferenciarte por precio o por poesía y verdad es decir por precio ya sabes lo que tienes que hacer y por poesía es digamos todo el mundo de la Castromán es decir del valor añadido que te pagaría un cliente han salido hace poco estudio 38 18 decía.
+
+[00:16:16.500] 
+ Lo que sí tenemos claro es que un cliente pagaría más por recibir una buena experiencia trabajar en poesía no es lo que nos ha llegado aquí. Qué bueno qué bueno entonces.
+
+[00:16:28.810] 
+Bueno yo yo estaba muy interesado en hablar contigo porque contigo sé que tiene una experiencia dilatada y bueno esta historia así lo demuestra digamos y me interesa mucho.
+
+[00:16:43.620] 
+Cuál es tu visión sobre cómo medir la experiencia de cliente entonces. Bueno yo he visto alguna charla tuya y tú te planteas una slight que esto es como otros moldeamos. Por qué cómo medir dónde está la importancia. Has dicho ya unas cuantas palabras clave desde que has empezado a hablar has hablado de la voz de clientas hablaba de las interacciones a salada Journey qué tenemos que medir y por qué medir cómo medir.
+
+[00:17:12.020] 
+Pues eso es un arte Carlos. Si yo tuviera la respuesta correcta pues supongo que no estaría aquí estaría la dama o en otro sitio.
+
+[00:17:23.250] 
+Decir que cada uno mire lo que puede y como puede y no sé con los recursos que tiene. Es decir hace poco ayer leía un artículo que tiene que ver con la forma de medición y cómo desde la función de gasto me piden que digamos. Recursos no están utilizando para incidir en el diseño etcétera etcétera. La creación de experiencias memorables o de ese diseño de experiencias y la verdad es que hay de todo vale decir hay de todo. Hay muchas formas de medición. Una cosa que yo utilizo siempre es el framework al cual tú te referías en el cual yo creo que responde a la cuestión mollar.
+
+[00:18:13.550] 
+ No todo esto es porque medir o decidir porque medir tiene que ver qué herramientas me van a permitir ese diseño correcto qué herramientas me van a permitir transformar la cultura de mi organización hacia una cultura cliente céntrica que tengo que medir qué tengo que imput tengo que recoger de mis clientes o del mercado para transformar desde el punto de vista estratégico a mi organización. Digamos lo que yo siempre digo es que tiene que haber una relación y que tienes que plantearte el objetivo que tú quieres conseguir para ver digamos la fuente de medición o el recurso de medición más correcto.
+
+[00:19:01.340] 
+ Lo que veo en la formación es en la charla es decir conozco a mucha gente a lo largo del año que está relacionada con estos temas. Muchas veces empezamos la casa por el tejado es decir oye vamos a medir el NPS o vamos a medir el gasto Miri frescor el gasto casi en índice de satisfacción y una vez que la mide que lo mide por la gente pues tiene un número que puede ser como el del sorteo de la ONCE pero no tiene mucho más claro yo voy a lo básico siempre es decir la medición es muy importante pero la medición tiene que estar hilada tiene que tener una relación directa con lo que es relevante para ti.
+
+[00:19:50.960] 
+No sé si te contesto Sí yo creo que bueno al menos lo hemos introducido en la respuesta porque has hablado de NPS el promotor score que de alguna forma mide la fidelidad. No hemos hablado de distintas métricas aquí hemos hablado del CSD de la medición de esfuerzo hemos hablado de las bocas y hemos hablado podemos hablar también del simplemente del caso más satisfecho.
+
+[00:20:21.850] 
+Factions Coward el NPS digamos que se ha hecho muy popular porque precisamente mide la fidelidad de un cliente y impresionante y cuánto nos recomendaría cuánto está dispuesto a recomendarnos. Qué te parece. Qué ventajas le ves a ambas. Medir el NPS.
+
+[00:20:48.180] 
+Y por qué me diriamos pese al abismo como tú bien dices Carlos es el indicador de moda dentro de la casta. Me despidieron cuando tú mides un indicador como el NPC's que mide la recomendación decir Oye recomendaría a una compañía no a un colega o amigo. Básicamente la pregunta que tiene NPS. No sabe lo que estás midiendo es la consecuencia de haber recibido un viaje maravilloso decir unas muy buenas o muy malas experiencias bien. En cuanto a ventajas la primera ventaja es que está de moda que está de moda. Supone que hay muchas empresas que miden el NPS con lo cual no te puedes comparar no hay BX+ de NPC.
+
+[00:21:45.530] 
+ Muchas web incluso en algunos casos dentro de sus memorias corporativas incluyen el NPC que es algo muy positivo. Otra cosa es que sepan que está midiendo y que es algo relevante y que afecte a su cifra o sus resultados de negocio. En cuanto a ventajas para mí una sustancial es una que encontré hace unos años y que me encontré tomando un café en la cafetería de la empresa lo que vi que la gente hablaba de hoy mira me ha entrado un cliente detractor. No es un lenguaje maravilloso. Cliente apóstol cliente neutral cliente detractor.
+
+[00:22:35.390] 
+ El hecho de categorizar no y que haya cierto runrún oferta cultura hacía que los clientes son los promotores y que tenemos que hacer cosas sobre esos promotores. Es algo divino. Yo también me encontré con un compañero de Sevilla es decía a los clientes obispos clientes obispos no apóstoles. Hay muchas interpretaciones al mantra un cliente obispo obispo no no existe el hecho de categorizar a los clientes en digamos por la experiencia que han percibido es algo muy bueno culturalmente y algo muy bueno desde el punto de vista de la clasificación desde el punto de vista de la segmentación y los comportamientos que podemos entregar a nuestro cliente.
+
+[00:23:27.920] 
+ De hecho en los últimos años dentro de mi compañía estamos trabajando con unos resultados digamos espectaculares. Es en el hecho de incluir variables cualitativas es decir Oye cómo está ese cliente con nosotros dentro de la ecuación que define los segmentos a los cuales llegamos con los cuales trabajamos es decir con los cuales intentamos personalizar nuestros mensajes nuestros productos nuestros servicios nuestra interacción. Eso la verdad es que está teniendo unos resultados tremendos te lo permite la medición de la NPC's. Pongo un ejemplo concreto ejemplo Oye yo tengo dentro de mi cartera un gran porcentaje de clientes apostoles un gran porcentaje de clientes de tractores y otro porcentaje de clientes neutrales es algo importante y relevante a la hora de segmentar a mis clientes.
+
+[00:24:31.500] 
+Tú qué crees Carlos.
+
+[00:24:35.040] 
+Yo creo que sí que es muy relevante sobre todo si somos consecuentes con lo que hablamos dentro del mundo de experiencia de clientes.
+
+[00:24:42.530] 
+Entonces el tipo de mensajes el tipo de interacciones que tú puedes entregar a un cliente apóstol pueden ser distintos. Presumiblemente aquellos clientes que son detractores claro por ejemplo nosotros a los clientes apostoles le damos las gracias. Intentamos que los mensajes sean mucho más relacionados con la pertenencia a ese grupo a reconocer su recomendación a entregarles las herramientas para hacer las acciones típicas de members member o recomendación eso es un detractor. No podrías hacerlo claro. Al detractor que nos importa primero solventar el tema que tiene y hoy ves Carlos que el 80 por ciento de las cosas son problemas de comunicación no son problemas graves sí.
+
+[00:25:44.810] 
+ Si nuestras compañías tuvieran un problema muy grave no existirían si nuestro producto fuera manos de nuestro servicio fuera Malus ya estaríamos fuera del mercado. Hay muchos casos en los cuales hay un problema de entendimiento decir igual que en las relaciones de pareja decir nosotros decimos muchas veces hay que cuidar los pequeños detalles nos ha hecho grandes pues esto lo mismo es decir cuando un cliente detractor en la mayoría de las ocasiones el cliente es detractor por un problema ínfimo grande para él vale pero íntimo. En cuanto a los recursos que yo tengo que dedicar como empresa para solventarlo.
+
+[00:26:29.280] 
+ Una de las acciones que son fundamentales cuando aplicas un programa de NPS es aplicar o intentar solventar en primera instancia los problemas que tiene ese cliente a esa acción la deambos detractor Program en inglés un programa de tractores que básicamente es algo muy fácil cuando un cliente. Yo le invito a hacer una encuesta de NPS y ese cliente me dice que es detractor de mi marca. Lo único que hago es coger ese input esa voz de cliente digamos ese guarismo esa categorización y anticiparme de una reclamación para asegurarme de que ese cliente oye.
+
+[00:27:13.830] 
+ Le he escuchado y que voy a tomar cartas en el asunto.
+
+[00:27:18.140] 
+Eso es fundamental. Por ejemplo en cuanto a datos vale hacer ese tractor. El club de Luv que llevan los guiris no los ingleses. Exterior tiene una repercusión de en torno a 40 puntos de mejora de NPS en ese target que son los detractores con lo cual si tú haces el detractor Program se supone vale y con los datos míos y con los datos de otros países con lo cual tengo datos suficientes. Hablando de 35 un cuarenta y tantos depende del país de mejora de naipes es decir ya no tengo un cien por cien de FPS en ese grupo que sería su target si yo les pregunto otra vez sería su turno si les pregunto otra vez si les pregunto en una sucesiva ocasión ese target va a tener unos 60 o menos 65 con lo cual he mejorado 35 puntos es M-Pesa eso sí algo importante.
+
+[00:28:16.570] 
+ Lo que veo en digamos basado en los años que llevo trabajando en este tema es que un cliente suele ser promotor no por el servicio es decir hemos hecho algo excepcional en el servicio hemos hecho algo que no esperaba no le hemos sorprendido y le hemos ayudado en un momento que en otros denominamos momento de alta carga emocional. Y digo yo un momento de alta carga emocional cuando mis clientes son contables no son administrativos que presumiblemente joder que esto no es ha hablado antes de Walt Disney no pero mis contables y mis administrativos milpersonas de Recursos Humanos de Laboral y tal tiene su corazoncito.
+
+[00:29:03.590] 
+ Claro tienen muchas cosas de las cuales pueden tener cierta urgencia emocional a la hora de resolver ese aspecto. Por ejemplo hablamos antes de momento Montoro. Pues ya descansado no hombre tan pro no sé ahora como Calviño de momento Calviño que es el momento por ejemplo cuando cuando tienen que presentar las cuentas o tienen una expresión de Hacienda o decir son momentos de alta carga emocional dentro de ese Yonni en los cuales si tú haces e interpretas bien esa interacción a ese cliente te lo has ganado para varias generaciones claro.
+
+[00:29:46.100] 
+No son momentos o por ejemplo hoy mi jefe me ha pedido que haga un informe y no tengo ni idea o tengo que pagar la nomina mañana de 2000 empleados y tengo problemas con el programa. Es decir si tú en ese momento estás a la altura pero es un par te conviertes en alguien que camina a mi lado eres un producto exacto eres alguien y eso es importante.
+
+[00:30:10.190] 
+Eso es un poco volver un poco a donde estábamos. Estoy encantado.
+
+[00:30:16.970] 
+Estoy aprendiendo un montón un poco por sintetizar y volver a las raíces. Decíamos que claro uno de los principales problemas de NPS es que se hace muchas veces pues como si fuese un número absoluto y ese es el número absoluto que tenemos que seguir y ese es el indicativo que nos da y claro cuando el NPS lo utilizas para tener una conversación individualizada para personalizar el trato a un determinado cliente para darle una continuidad. Para cerrar ese círculo ahí es donde realmente le puedas sacar potencial NPS. Eso es fundamental para nosotros claro.
+
+[00:30:51.740] 
+ Yo creo que eso es algo que cuesta entender que normalmente porque es muy fácil precisamente cuesta entender por qué es tan fácil recibir una CPF como enviar una encuesta que es algo muy activamente y que.
+
+[00:31:03.860] 
+Por ejemplo Carlos últimamente lo que estamos trabajando es no solo en PC sino en la utilización de la razón argüido por el cliente a la hora de valorar NPS como criterio de segmentación. Por ejemplo pongo un caso que es el caso que estoy manejando últimamente no este mes.
+
+[00:31:23.870] 
+Si un cliente te habla del precio y te dice que su NPS es detractor por el precio y que puedes hacerlo que puedes hacer muchas cosas pero ya tienes información para erizar.
+
+[00:31:40.300] 
+El año pasado el último Cub hicimos un piloto con clientes los cuales se quejaban del precio tiene que ver con el valor también y si hicimos uno dejamos un torneo específico para ello dentro de ese marketing relacional el claim básicamente era Oye te hemos escuchado vale. Durante el año que viene te vamos a mantener el precio pero que sepas que tienes esto que tienes esto tan tan tan tan tan es decir el Balio Fornoni no fomentar el índice de renovación.
+
+[00:32:12.430] 
+No ha habido ninguna campaña dentro de mi organización que tenga un éxito en cuanto a la renovación como. Claro ninguna en el mundo mundial ni nada. Por qué. Porque estás personalizando los mensajes con realmente aquello que tiene en la cabeza aquello más importante para el cliente que tiene en su cabeza sobre la relación que tiene con mi organización y eso es lo que estamos trabajando. Hablando del NPS o NPC es un número un inconveniente es un número sólo una de las cosas que yo aconsejo a la gente es cuando preguntas en NPC que el cliente te diga el porqué.
+
+[00:32:56.860] 
+ Porque si no es muy difícil digamos hacerlo accionaba. Eso es un número me dice Oye tengo un NPC de 20 o 20 o 40 80 o menos 80 y que la siguiente pregunta Y qué hago yo mañana qué hago con eso. La efectividad es siempre que se pregunta acerca de MPS tenemos que preguntar acerca de por qué todas mis encuestas lo recogen así me voy a atrever a hacer una cosa es hablar de algo que hemos estado hablando fuera de micro porque ten cuidado con la cosa mala.
+
+[00:33:34.240] 
+Javi me ha dicho me ha enseñado la oficina y me ha enseñado dónde están los equipos los distintos equipos y tal y con mucho orgullo me ha enseñado la parte de cliente. Así me ha explicado una cosa que me ha gustado mucho que es la parte de los pokemons y creo que es muy significativo explicó muy rápidamente que es este concepto de los Pokémon la gente que está en el front line atendiendo a los clientes y presentando precisamente este tipo de problemáticas a este tipo de dudas este tipo de necesidades. Esta gente tiene el permiso explícito para saltarse las capas burocráticas por lo tanto los silos los silos de la compañía para poder ofrecer una solución en ese momento que precisamente mejora experiencia.
+
+[00:34:28.810] 
+Y claro imaginaos cómo tiene que ser la experiencia de alguien que hace una llamada a una compañía y que no te pasa lo que suele pasar. Pues esto ya no pasamos al departamento de noseque al apartamento de no sé cuánto. Y yo creo que hablábamos precisamente que a final todas las compañías pasa lo mismo los grandes problemas de todas las compañías son esos silos funcionales esos silos de conocimiento esa incomunicación interdepartamentales esa no transversalidad y por lo tanto esa no centralidad del cliente y ahí cuando tú al principio de tu Framework hablas de transformación cultural cultural hablas claro cómo no vas a estar.
+
+[00:35:10.720] 
+ Yo entiendo muy bien a lo que te refieres no desde un punto de vista estratégico necesitas transformar la cultura y necesitas eliminar esos silos para a esa transversalidad para poder tener al cliente en el centro. Realmente tú lo has clavado entonces claro en ese sentido claro es tomarse en serio es realmente transformador. A mí me gusta cuando la gente habla de transformación digital o transformación digital muchas veces pasa por una transformación cultural y para mí es exactamente esto.
+
+[00:35:47.230] 
+Volviendo un poquito al tema del NFC nos vamos por ahí nos gusta mucho hablar media hora de poca duración no puede ser no puede ser por sintetizar un poquito vale yo me gustaría entender también más allá de este inconveniente más obvio la mala utilización del NPS Qué otros inconvenientes qué inconvenientes ves dentro de qué es qué se le achaca al NPS como se le achacan muchas cosas buenas y malas por ejemplo malas situarlas con un doctor en Estadística o Matemáticas y tal.
+
+[00:36:28.010] 
+El primero te dice que es totalmente incomprensible que es inconsistente decir cuando se parió el NPS es la escala que se utiliza.
+
+[00:36:39.010] 
+También veo que hay problemas muchas veces la gente utiliza escalas diferentes y muestra resultados como si fueran M-Pesa pero esto está mal.
+
+[00:36:50.650] 
+A qué te refieres por ejemplo Oye. Hace poco veía en una charla hoy mis clientes la escala de evaluación de mi NPS es de 1 a 10 error y los 8 9 10 son promotores. Error son lo que tú quieras que sea claro pero no son promotores. Respecto al indicador que se planteó hace ya unos años de NPS la escala de NPC's de 0 a 10 13 y los promotores son 9 y 10 con lo cual no pueden manejar como tú quieras ese indicador. Otro aspecto digamos en este caso negativo no asociado a la NPS en otro rey mono dentro de equipo de la volatilidad.
+
+[00:37:42.580] 
+ Si tú planteas y envías una encuesta de NPS algo está muy muy referenciada muy muy influenciada no con respecto a las últimas o última interacción que ese cliente haya tenido contigo claro a su contexto me acuerdo hace un año hay una tipología de productos cloud el fin de semana se cayó en el servidor y paso a buenos clientes tuvieron problemas en cuanto a acceder justo encuestamos a ese tipo de clientes y en el PC fue menos 50. Estos se han vuelto locos. La gente no sé si este producto tiene una PC siempre es muy bueno y tal pero nos dimos cuenta realmente cuando analizamos el porqué los primeros documentario no de por qué habían valorado de CNPC tan mal es porque no habían podido trabajar de fijo lo cual hay que tener mucho cuidado en elegir el momento no momento de interacciones y Caste Mazzoni de ese cliente.
+
+[00:38:54.370] 
+ Uno de esos momentos vale que nos puede interesar desde el punto de vista de negocio es asociarlo y tratar el NPS como lo que es que es. Oye pues es la conclusión de la relación que tú tienes con esa compañía nosotros por ejemplo en algunos pilotos en algunas iniciativas fijamos la medición del NPS en un mes que nos permite tomar acciones correctivas sobre ese cliente para mejorar los ratios económicos individuales de cada uno de ellos. Me explico si mi contrato es de un año o cuando me interesaba medir RPC no lo sé pero por ejemplo nosotros se nos ocurrió vale medirlo en el noveno mes o el noveno mes ya tienes un bagaje tienes una relación muy vívida y ISEP realmente vinculándolo con los indicadores básicos del cliente.
+
+[00:40:02.510] 
+ Si CNPC tu valoración de DPC puede ser que puede influir tu renovación o tu clóset o tu áxel o lo que sea que tenga que ver con ser algo muy importante es decir elegir en qué momento vas a medir ese impacto con con tu cliente.
+
+[00:40:26.870] 
+Es posible que en función de lo que vendas esté bien en función de la estacionalidad de tu producto de tal que te interese hacer un gancho anual o que te interese hacerlo de forma más continuada. Claro esto es otra de las cosas que se le achacan también al cambio de tercio pero se le achacan también precisamente al NPS a esa dificultad de mostrar contexto de que depende mucho del momento en el que lo hagas y de la forma en la que lo hagas. Totalmente claro que el NPS puede resultar inconsistente también en ese sentido totalmente.
+
+[00:41:03.840] 
+Aquí depende. Por ejemplo si hablabas caló de la forma en la que se haga pues si lo haces online tienes unos resultados claro si lo haces telefónicamente y tienes otros resultados mejores. En este caso. Si lo haces después de una interacción exitosa tienes otros resultados. Aquí entra ya digamos la Lazarillo de Tormes no es el mundo del PC según lo que tú quieras conseguir. Claro entonces claro que tiene mucha mucha relación el momento también.
+
+[00:41:36.510] 
+Por ejemplo también he apreciado que hay un componente cultural. Hay países por ejemplo ya tenemos empresas en todos los países casi todos tenemos objetivos y medición de NPS a nivel global y hay un componente digamos cultural por país que muchas veces no se tiene en cuenta. Por ejemplo cuáles son los peores huespedes en cuanto a valoraciones dadas nos provoca tener los peores que valoran vale van a los hoteles a nivel mundial quiénes son qué país no saben ni los franceses. Así eso se ve reflejado en elepés claro. Claro si tú quieres comparar un país anglosajón con un país como Francia o España como por ejemplo Brasil tienes problemas.
+
+[00:42:43.290] 
+ Claro nunca vas a tener un objetivo que pueda ser homogéneo a nivel digamos por país.
+
+[00:42:50.870] 
+Claro absolutamente. Puede ayudar a esto. Digamos por avanzar un poquito más aparte de MPS. Hay vida más allá de Hay vida. Puede ayudar a este fenómeno precisamente a estos segmentos o a este tipo de comportamientos distintos en función del propio contexto. Puede ayudar tener más métricas genéricas como el NPS como las que decíamos no es el CeSAC generalmente la gente que trabaja con un mide NPS no mide solo indepes.
+
+[00:43:29.140] 
+Esto es un hecho mide o lo que se te plantea cuando hablas de medición de NPS mide SNPs digamos como conclusión o como resumen de la relación pero previamente lo que están midiendo es digamos el gasto en el Jonhy que tú tienes con ese cliente es decir las distintas fases. Crees que las acciones de marketing han influido en la decisión de compra. Crees que el servicio técnico es el adecuado y responde No sé qué tipo de tipología de preguntas de este tipo se vale que midan los diferentes o las diferentes interacciones que el cliente tiene contigo y suelen utilizarse lo que se denomina indicadores estándar o indicadores estándar o resumen.
+
+[00:44:10.210] 
+ Hablamos de mucho pero básicamente lo que la inmensa mayoría de las empresas que conozco trabajan tienen que ver con o son el NPC's que hemos hablado el Castromil y frescor gastrobares y frescor es un indicador que mide la facilidad de hacer negocios a nivel global o de realizar alguna interacción a nivel individual con lo cual ya te está dando una cosa que empieza en otro da sí cuando tú mides la relación o la sencillez o la facilidad para hacer una interacción te da capilaridad claro te da cierta información sobre qué está bien o qué está mal oye.
+
+[00:44:53.850] 
+ Fue fácil encontrar el producto que usted necesita en nuestra web. Fue fácil interactuar con el departamento comercial. Y así claro para cada una de las interacciones con lo cual te está dando una información que no tiene nada que ver con el propio NTC te focaliza muy bien qué tipo de o qué tipología de acciones puedes hacer. Otro indicador que en este caso es un poco más arriesgado y que yo no conozco muchas empresas que lo estén utilizando o por lo menos en su formulación original es el gasto casi vale que básicamente se basan en una pregunta crees que tu compañía hace lo mejor para ti o lo que es mejor para su cuenta de resultados.
+
+[00:45:44.450] 
+ Fijar qué provocador no decir es una pregunta un poco no sé lo que valoraría en las relaciones. Este es otro otro tipo de indicador que se está utilizando a nivel también estándar hay indicadores como el Castromán inspiring Index de Forrester que es un indicador en sí sino un conjunto de indicadores que compara a diferentes empresas de diferentes sectores a nivel mundial o por ejemplo en la parte iberoamericana de CX que es un indicador que básicamente se parece bastante al Castromán expiren Index. Es decir tiene varias dimensiones por ejemplo la marca el producto o el servicio y a partir de ahí se configura o rankea a las empresas dependiendo de la nota que tenga.
+
+[00:46:39.440] 
+ Básicamente lo que lo que yo veo en el mercado pero casi todos tienen en NPS pocos tienen el resto de indicadores. Claro desde antes decíamos que depende de cómo preguntes no cómo. La forma en la que estás adquiriendo SNPs condiciona al propio NPS pues si además en la misma encuesta del NPS añadimos nuevas preguntas y añadimos nuevas métricas y tal y hacemos una encuesta súper extensa pues en a manipulación sí manipulable totalmente es decir por ejemplo los últimos casos logran un centro comercial que te muestra delante del comercial vale unas Càritas vale verde roja y amarilla.
+
+[00:47:31.870] 
+ Y qué valoras a esa persona que está mirando a los ojos no decir eso manipulable pues no sé. Todos tenemos debilidades no decir 10 es complicado o el típico concesionario de coches vale te dice oye mira pongo un 9 porque lo demás no vale para nada con lo cual si a mí me van a castigar o confesar yo mismo o la central de automóviles. Claro eso pasa día a día con lo cual el NPS es lo que decíamos. A mí no me importa la nota de mi empresa siempre lo digo es decir a mí lo que me importa es qué puedo hacer con la información que me da el NPS de nuevo.
+
+[00:48:11.740] 
+También en cierta manera es un tema de cultura no creo que un propietario de un taller o de un dependiente en un taller tenga el miedo de lo que va a suceder con esa encuesta en vez de entender que eso sirve para mejorar el servicio y tal es el tema de la cultura del miedo.
+
+[00:48:29.280] 
+No totalmente del castigo. Efectivamente ahí sería otro poca Aparisi pero sí es interesante lo que pasa es que la mayoría yo cuando doy alguna charla o una conferencia talento hay quien tiene RPS como objetivo a todos levanta la mano. Entonces claro si el comercial que te está atendiendo en ese momento tiene NPS como objetivo. él hace lo que puede hacer lo mejor para cumplir esos objetivos. Yo creo que es un problema de las capas superiores de decir oye es un objetivo vale pero realmente es un objetivo que me permite a mí un indicador que me permita mejorar como empresa no maquillar esa felicidad de mis clientes efectivamente es la manera más eficiente de estropear una métrica como el NPS es ligarla a bonos a objetivos.
+
+[00:49:27.020] 
+Tú lo has dicho canjearlas salvaje.
+
+[00:49:31.430] 
+Seguramente el CEO de la empresa no tiene un GPS como bueno Javier pues oye yo creo que realmente ha sido bastante más extenso de lo que yo quería pero me parece que ha sido de una calidad y de un nivel de profundidad que te agradezco un montón.
+
+[00:49:53.950] 
+Tú tu generosidad a la hora de compartir tu experiencia tu conocimiento te queda algo por decir tienes ganas de decir algo no decirte gracias por la oportunidad me encantó el formato como te decía anteriormente soy consumidor de podcast tengo una oreja poco hasta que no escucho bien ni a la izquierda de las casquitos y creo que la iniciativa que has montado es de muchísima calidad y aporta muchísimo con lo cual enhorabuena pues muchísimas gracias Javier y seguimos en contacto y hasta aquí amigos.
+
+[00:50:29.730] 
+Este episodio de mi podcast en el mundo real el podcast sobre experiencia de cliente y negocio digital. Muchísimas gracias por escuchar recordar que encontraréis las notas del episodio en Carlos Iglesias punto info barra 017. Por cierto supongo que sabréis que podéis recibir los próximos episodios de forma automática sin hacer nada. Tanto si tienes un iPhone con la aplicación podcast que viene preinstalado de forma nativa con el sistema operativo no tienes que hacer nada ya viene hecho como si prefieres tener una app de podcasting alternativa como Google podcast para Android o Spotify y iBooks hovercraft.
+
+[00:51:08.130] 
+Hay un montón lo único que tienes que hacer es entrar en tu aplicación favorita buscar en el mundo real y darle a suscribir. Y ya si me dais unas estrellitas sólo escribís una reseña. Pues os voy a estar súper agradecido. Para mi ya sabéis es muy importante porque es lo que me va a permitir ganar visibilidad y por tanto poder ampliar aún más esta gran conversación que espero mantener con todos vosotros oyentes. Un fuerte abrazo y os espero en el mundo real.
+

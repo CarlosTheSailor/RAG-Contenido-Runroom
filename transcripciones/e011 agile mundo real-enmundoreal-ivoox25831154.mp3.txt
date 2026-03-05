@@ -1,0 +1,183 @@
+[00:00:00.150] 
+Vivimos en la era más disruptiva de la historia de la humanidad. No sólo por la profundidad e impacto en nuestras vidas de las distintas disrupciones tecnológicas que van apareciendo sino también por la alta frecuencia y la velocidad con la que aparecen.
+
+[00:00:19.800] 
+No hay que ser un genio ni un visionario para darse cuenta de ello yo desde luego no soy ni una cosa ni otra pero sí me doy cuenta de que cuando fundamos RAM rumen en 2003 yo manejaba un Nokia 32 10 no existía Facebook ni Twitter YouTube y ni siquiera existía la palabra podcast.
+
+[00:00:37.050] 
+Los modelos de negocio se están transformando la tecnología no sólo inventa nuevos modelos sino que está dando la vuelta literalmente a sectores muy tradicionales y tan solo está enseñando la patita en ese escenario. Uno de los mayores retos de nuestras compañías es ser capaces de adaptarse al cambio en mayúscula y esa es la razón por la cual cualquier organización que se precie tiene su propio departamento TIC o digital o de internet o llámese como se quiera el problema viene cuando se da una imperiosa necesidad de velocidad de adaptación a ese cambio. Pero en el mundo real los tiempos que se manejan para lanzar un nuevo producto digital o actualizar una plataforma que nos permita ser más eficientes rondan los 2 años e incluso los cuatro años que estos ojitos lo han visto pero en el mundo real cuando al mundo real le precede un pero deja de ser un lugar se convierte en una excusa si de una forma u otra eres responsable de la transformación de la compañía donde trabajas aquí encontrarás la manera de desactivar esos pretextos ese portazo al cambio ese aquí no se puede.
+
+[00:01:56.330] 
+ Este podcast es para todos aquellos que estéis convencidos de que las empresas deben poner al cliente en el centro de la estrategia y a las personas de la organización en el corazón de la misma aquí adquirirá una visión estratégica y a la vez practica a través de ejemplos y experiencias que os dotarán de argumentos en el idioma favorito de la alta dirección. El lenguaje de negocio no sólo hablaremos del qué sino también del cómo hablaremos de Alloy qué es y por qué es tan importante desde una perspectiva estratégica y competitiva. Soy Carlos Iglesias CEO en rán Room y profesor en varias universidades y escuelas de negocio como Esade Scull o Bowe.
+
+[00:02:44.730] 
+ Bienvenidos al undécimo episodio de en el mundo real el podcast sobre Castañar Experience y negocio digital.
+
+[00:03:08.970] 
+Bueno bueno bueno he de decir que me siento un poquito de depresiones bastante siento bastante responsabilidad a la hora de hacer este episodio.
+
+[00:03:22.470] 
+Muchos de mis oyentes son reputados allá el coches consultores de transformación organizacional personas con muchísima experiencia y bueno pues eso que exponerme de esta manera a hablar de un tema como Alloy pues ahí noto cierta presión. Por cierto aprovecho para saludar de forma muy especial a José Manuel Vegas no sólo por ser un fiel seguidor del programa y no perder la ocasión de compartir y darle visibilidad. Muchísimas gracias por ello José. Sino también porque es uno de los pioneros por lo que respecta a las metodologías ágiles en este país que no es el único.
+
+[00:04:04.120] 
+ Pero hombre permitidme que hoy le dedique el programa José Bueno allá él tiene que ver con el software esto va a empezar el concepto allá él nace de la voluntad de 17 personalidades que el 17 de febrero de hace 17 años es decir en 2001 nada menos pues se van a una estación de esquí de Yuta con la intención de reflexionar sobre las mejores formas de desarrollar software y compartir sus experiencias y con esas reflexiones intentar ayudar a los demás a ayudar a la industria.
+
+[00:04:46.670] 
+De ahí nace el famoso Allâh El manifesto que no voy a leer porque lo tenéis disponible en la página web más fea del mundo hacia el manifiesto X.Org. Si os sangran los ojos no es mi culpa no lo voy a leer.
+
+[00:05:00.440] 
+Por eso y porque si ya muchos de vosotros me decís que los programas son largos y que los que acostumbrarse a escuchar podcast en el podcast en vuestras caminatas y entrenos de running me estás diciendo que me he reservado para las tiradas largas y que estoy favoreciendo y estoy ayudando a vuestra salud y a vuestro vuestro fitness pues ya si me meto con el manifesto ágil apaga y vámonos así que hoy voy a ser el primer episodio donde hable de él y voy a tratar de dar una visión lo más de alto nivel y menos metodológica que sea que sea capaz de acuerdo así que nada bueno para empezar yo yo creo que de arrancar hablando de ese problema el problema que introducían en la entradilla no estoy seguro que es muy común y que resultará familiar y que en mi opinión se debe a que básicamente hemos tomado métodos industriales para desarrollar software hemos intentado adaptar los métodos que funcionaban por ejemplo para construir un avión para desarrollar software.
+
+[00:06:10.880] 
+El problema de esto es que el software es complejo hay muchísima incertidumbre es muy poco predictivo a diferencia de montar un avión montar un avión es complicado montar un avión. Hombre pues yo no sé cuantos he montado un avión en mi vida y no sé cuantos millones de tuercas y tornillos tiene que tener eso pero seguro que el proceso industrial de montar un avión o de montar un coche de montar cualquier aparato tecnológico por muy avanzado que sea pues es que es complicado pero yo sé que tengo que administrar 300 Cascales en La Tuerka del sé qué del condensador de fluzo y es al final lo que hace que yo pueda utilizar metodologías predictivas en los procesos industriales pero no en el software en el software.
+
+[00:07:03.590] 
+ Vamos yo no sé cuál es vuestra experiencia pero en mi experiencia todos los Gant todos los diagramas de Gantt que yo he visto no se ha cumplido ni uno y os puedo asegurar que 15 años al frente de una consultora de negocio digital dan para ver muchos gadgets muchos Gans y de verdad que ninguno de ellos ha cumplido. Y la razón es muy sencilla las razones porque el software es complejo y no es predecible porque hay muchísima incertidumbre no sólo en la propia tecnología sino también en el alcance en la definición del producto en sí mismo.
+
+[00:07:41.000] 
+ Qué significa un buscador que quiere decir hacer un buscador buscador puede ser predictivo puede ser un buscador sencillo puede ser un buscador que en cada pulsación de una tecla me arroje resultados. Y eso implica que hay mucha incertidumbre también en el acuerdo en cuanto a cómo tiene que ser la funcionalidad. El tema es que la necesidad de control de tener controlados los proyectos los productos de tener controladas las inversiones que hacemos en software pues nos han llevado a en mi opinión equivocarnos en la forma en la que intentamos controlar esos proyectos de software.
+
+[00:08:20.240] 
+ No intentamos cerrarlo todo.
+
+[00:08:22.760] 
+Habréis oído hablar del famoso triángulo de hierro de los proyectos. Si no habéis oído hablar pues básicamente del triángulo de hierro consiste en tener cerrado tiempo alcance y recursos.
+
+[00:08:38.970] 
+Y así es muy difícil es muy difícil porque el alcance como os decía es tan difícil tener una falsa sensación de acuerdo cuando describimos una funcionalidad en el software. Es muy fácil tener una falsa sensación de acuerdo y tener cada uno una idea distinta. Y podemos invertir muchísimo tiempo en describir esa funcionalidad pero al final hasta que no esté hecha hasta que no esté creada no estará completamente definida.
+
+[00:09:10.130] 
+Y luego está la incertidumbre respecto a la tecnología como decía yo siempre.
+
+[00:09:14.480] 
+A mí me gusta decir que el software desarrollar software se parece mucho más al trabajo de un cirujano que de un si de una cadena de producción o de un arquitecto o vete tú a saber de cualquier otro o otro proceso industrial. El software se parece mucho más a eso a abrir de repente abres en canal un cuerpo separas las costillas de las vísceras y dices madre mía lo que me encontraba aquí y desarrollar software se parece mucho a eso. En fin nos equivocamos en la forma en la que intentamos controlar decía los proyectos de software porque intentamos tenerlo todo cerrado y es muy difícil tenerlo todo cerrado y es muy difícil predecir exactamente lo que va a pasar al inicio del proyecto.
+
+[00:10:04.640] 
+ El software funciona mucho mejor ir controlando el alcance los recursos a medida que va pasando el tiempo. En otro episodio Ya profundizaremos un poquito más en el concepto de desarrollo iterativo incremental de software que yo creo que es un concepto que merece mucho la pena entender bien porque para mí es una de las claves de esa capacidad de adaptación al cambio capacidad de responder al cambio a esa necesidad que tienen las compañías y que decíamos al principio. Entonces lo que voy a hacer hoy es intentar sintetizar que es allá él y para qué sirve allá él en cuatro conceptos.
+
+[00:10:52.190] 
+ Sí el primero de ellos voy a hablar de entrega temprana y frecuente de software entrenã de entrega temprana y frecuenté de valor.
+
+[00:11:05.420] 
+Luego vamos a hablar de funcionalidad en el segundo concepto que me parece un concepto muy importante también para entender que es sayal.
+
+[00:11:13.550] 
+Luego hablaremos de equipos motivados personas motivadas y por último hablaremos de Kaizen es decir hablaremos de mejora continua para mí desde mi perspectiva estos cuatro grandes conceptos da para un podcast en sí mismo pero sí que para mí son los pilares fundamentales de Alloy empecemos a hablar entonces de entrega temprana y frecuente cuando cuando arranca un proyecto estoy seguro de que todos los que escucháis este podcast si estáis interesados en negocio digital querrá decir que en algún momento habéis pasado por algún tipo de experiencia similar seguro a la hora de arrancar un proyecto digital un producto digital.
+
+[00:12:06.640] 
+ Normalmente lo que sucede es que arranca primero toda una primera fase de análisis la fase de análisis una fase tediosa donde intentamos aterrizar un funcional o funcional que suele pesar entre medio kilo y un kilo de folios con todas las funcionalidades descritas.
+
+[00:12:29.560] 
+Imaginemos que el proyecto por ejemplo es único. Pues ahí en ese funcional describimos todas y cada una de las funcionalidades que tiene que tener ese comer y que necesitamos desarrollar digamos ese análisis funcional digamos que ya ocupa unos cuantos meses al menos unas semanas en el mejor de los casos pero cualquier proyecto seguramente se va a extender más de un mes.
+
+[00:12:53.230] 
+Definir esa funcional y definir qué es lo que necesitamos porque hay que definir un montón de cosas mucha literatura y tan sólo cuando el cliente o los llamemos los stakeholders que qué tienen que opinar sobre el proyecto que tienen que validar que ese proyecto es lo que necesitamos.
+
+[00:13:14.230] 
+Sólo cuando ellos dan el visto bueno y aceptan ese funcional entonces pasamos a la siguiente fase que a lo mejor típicamente en un proyecto como único Hummers pues a lo mejor sería agarrar ese funcional y transformarlo en una serie de una colección de With Friends no una colección de bocetos página página. En qué consiste cada una de esas páginas. Vamos a traducir ese funcional en algo más visual en algo más digerible pero ese algo más visual y ese algo más digerible también va a servir para que esos Astájov este cliente acepte que eso es lo que queremos que se desarrolle.
+
+[00:13:57.860] 
+Entre tanto va pasando el tiempo. Obviamente van pasando las semanas van pasando los meses cuando ya el cliente cuando los moldes firman con sangre todos y cada uno de esos with friends de todos y cada una de esas páginas. Entonces a lo mejor ya estamos en disposición de pasar a la fase de diseño y en esa fase de diseño pues agarramos esos Warframe los dotamos de un aspecto visual acorde a un libro de una imagen corporativa o elegimos tipografías colores fotografías y lo vestimos lo maquillamos le damos un aspecto visual que funcione y cuando ya está todo diseñado pasamos a maquetar todo en HTML y cuando ya está todo maquetado pasamos a desarrollarlo en el back office etcétera etcétera etcétera etcétera hasta que al final llega el día en que desplegamos todo ese código y lo ponemos en producción.
+
+[00:14:57.690] 
+ Y ese es el primer día en el cual nuestro cliente el cliente real el cliente final utiliza la plataforma hasta ese momento el cliente no ha visto nada el cliente real es el cliente final los esté folders creían haber entendido lo que les íbamos a entregar y de repente se encuentran cosas como que oye pero este desplegable de aquí esto no tenía que ser interactivo y desplegar todo.
+
+[00:15:24.690] 
+No es que esto no me lo dijiste en el funcional. Lo que pone exactamente y ahí entra la negociación y ahí la negociación no perdona es que aquí yo Omella yo ya di por hecho que aquí se entendía esto se sobreentiende que si yo no no no perdona que no se entiende nada. Nosotros hemos desarrollado lo que ponía en el funcional lo que nos pasó el departamento de marketing o lo que nos pasó el departamento de diseño.
+
+[00:15:49.740] 
+Al final lo que sucede en los proyectos en este tipo de proyectos son proyectos en cascada es que se da una delegación de la responsabilidad del proyecto del producto y por tanto de la entrega de valor al final se diluye se diluye y se pierde la perspectiva de la entrega de valor porque lo único que nos importa es cumplir con el papel de nuestro departamento. El departamento de análisis el departamento de marketing el departamento de VX el departamento de diseño el Departamento de Desarrollo y cualquiera cualquier departamento el foco su foco con respecto a ese comercio va a ser pasarle su trabajo al siguiente departamento dentro de esa cadena en cascada.
+
+[00:16:38.040] 
+ Y ahí queridos amigos dónde está el valor. Cómo sabemos que lo que estamos haciendo cómo sabemos que lo que estamos desarrollando tiene valor para el cliente final para nuestro gasto. Cómo lo sabemos. No tenemos ni idea se supone que los VX con mucha suerte.
+
+[00:16:56.830] 
+Si el proyecto parte de un y la compañía tiene un departamento que le da importancia al X que normalmente no suele ser así pues es posible que el Departamento de VX haya hecho un montón de test de usuario al principio y C y todo el mundo piense que ya está todo validado.
+
+[00:17:13.930] 
+Error error. Está todo validado al principio pero hasta que eso no sale y se testea. Ahí es donde vamos a empezar a aprender de verdad en ese momento con el software real funcionando.
+
+[00:17:27.100] 
+Ahí es donde vamos a empezar a aprender de verdad. Si que es verdad que podemos minimizar el impacto antes de producirlo podemos minimizar el riesgo y podemos hacer mucho estudio. Yo no estoy diciendo que la web no sea importante la wiki es muy importante y lo veíamos la semana pasada con Daniel Torres Gurriel verdad pero yo creo que uno de los problemas que tenemos con la forma en la que estamos integrando la experiencia de usuario dentro de esos ciclos en cascada es precisamente en que la wikis está aislada y está localizada en un momento muy concreto del ciclo de vida del proyecto del producto.
+
+[00:18:08.440] 
+ Por lo tanto él apuesta por este primer concepto que quería llevar que quería poner de manifiesto la entrega temprana y frecuente de valor entendiendo valor como software funcionando. Si repito hablaremos de proyectos y de desarrollo iterativo incremental. En otro episodio porque lo requiere el siguiente concepto que quería destacar va muy en relación con el primero y es la funcionalidad. No sé como se dice bien multifuncionalidad pueden ser yo siempre hablamos de funcionalidad porque en inglés la palabra es funcional TIMSS equipos funcionales o multifuncionales y esto lo hemos comentado ya no es nuevo esto lo hemos comentado en otros episodios la funcionalidad la necesidad de la necesidad de romper esos silos funcionales los silos funcionales en realidad son el porqué de las metodologías en cascada de esos Gantz de esas metodologías predictivas porque es la única forma cuando tú tienes un cuando el desarrollo de tu proyecto digital el desarrollo de tu producto digital tiene que pasar forzosamente por silos funcionales de conocimiento como por ejemplo los analistas del Departamento de wikis el departamento de diseño bubi el departamento de frontend el departamento de Bakken etcétera etcétera etc. La única forma que tienes de llevar a cabo un proyecto es en cascada.
+
+[00:19:44.340] 
+ Pero claro si no colaboramos si no colaboramos si no cómo podemos llevar a cabo un proyecto de forma cómo podemos entregar de forma temprana y frecuente software funcionando si no tenemos a un equipo funcional es decir con todos esos silos rotos y juntados en un solo equipo que sea capaz de entregar valor y trabajar conjuntamente en una entrega de valor frecuente. Cada noche cada dos semanas cada semana cada cuatro semanas está entregando software funcionando con todos sus esquives con todas esas habilidades orquestadas de forma que tanto el diseño como la VX como el frontend como el back end etcétera están colaborando para crear ese valor y entregarlo colaborando también con negocio por supuesto negocio tiene que estar durante toda la vida durante toda la creación del proyecto.
+
+[00:20:50.850] 
+ Eso nos va a permitir la entrega temprana pero funcional nos va a permitir ir entregando ese software de forma iterativo incremental y por lo tanto incorporar feedback del cliente final y nos va a permitir que estemos abiertos al cambio a ese cambio que tanto necesitamos hemos visto el concepto de entrega temprana y frecuente hemos visto hemos hablado del concepto de funcionalidad y de la colaboración de los distintos roles.
+
+[00:21:20.560] 
+El tercer concepto que quería introducir era el de los equipos motivados y esto es una cosa que yo creo que esto es como el elefante en la habitación muchas compañías la gran mayoría de las compañías que yo veo que intentan trabajar de forma ágil que intentan que allá él sea su cultura objetivo. Fallan aquí fallan no solo no sólo en los silos sino que fallan en motivar en que no es posible. Desde mi perspectiva como yo lo entiendo no es posible ser Alloy sin que la gente sin tener un equipo realmente motivado y aquí podemos hablar de Employee Experience y y es muy importante.
+
+[00:22:15.110] 
+Desde luego la experiencia del empleado pero a mí me gusta mucho cuando hablamos de motivación. Hay un libro que es muy famoso de Daniel Pink que por cierto también hay algunos TEDx y colgaré un video que sintetiza bastante su obra. Las notas del episodio de hoy en Carlos Iglesias punto info barra cero. 11. Su libro se llama la sorprendente verdad sobre lo que nos motiva. Me parece que lo digo bien.
+
+[00:22:54.830] 
+En cualquier caso lo buscaré bien porque lo digo de memoria y os lo apuntaré también las notas del episodio. Me gusta mucho el concepto que utiliza dan pinga él habla de tres grandes razones o tres grandes. Los tres grandes pilares de lo que nos motiva.
+
+[00:23:10.960] 
+El habla de maestría autonomía y propósito vamos con ello vamos que con cada uno de ellos maestría. Por qué por qué aprendemos un instrumento en nuestro tiempo libre. Por qué dedicamos tiempo a aprender un instrumento a tocar mejor el piano a tocar el violín a aprender a tener un huerto urbano. No sé por qué invertimos tiempo en este tipo de cosas invertimos. Por qué hay taps profesionales after hours. Por qué invertimos tiempo en esto porque la medida de progreso la medida de progreso y de desarrollo personal y profesional es lo que nos hace felices sentir que estamos avanzando en algo que nos estamos desarrollando que estamos ganando habilidades.
+
+[00:24:12.020] 
+Eso nos llena nos colma por eso es muy importante poner foco como compañía y como la cultura de la empresa poner foco en la calidad en el aprendizaje en la maestría en el crecimiento personal y profesional en tener espacio para ello y tener espacio para que para que las personas puedan desarrollar su profesión puedan aprender puedan profundizar la maestría de maestrías superimportante autonomía otro de los problemas que ya hemos comentado en algún otro episodio y que yo soy muy pesado y hablo de estos problemas porque porque de verdad pienso que son totalmente reales el otro día discutía con un amigo con Toni Hassani que es un gran amigo y no estaba de acuerdo en una charla que vi yo hablaba de la jerarquía en sí mismo como un problema y él me decía la jerarquía en sí mismo no es un problema.
+
+[00:25:23.970] 
+Puede que tenga razón de amigo tasan desde mi visión de la jerarquía en sí mismo es posible que no sea un problema pero la jerarquía tal y como hoy entendemos la jerarquía organizacional en una compañía esa visión Tailor lista esa visión de los que piensan y los que hacen y los que planifican. Para mí sí que es un problema y una de las razones por las que por ejemplo alguna metodología ya como es Cram prescriben equipos auto organizados autogestionados y ya hablaremos de ello. Cómo y cómo es posible llevarlo a cabo porque esto se está haciendo.
+
+[00:26:06.550] 
+ Señores no estoy hablando de ciencia ficción. No enrumbó los equipos son auto organizados organizados no tienen ningún jefe que a cada uno de ellos a cada una de las personas del equipo les vaya diciendo Tú tienes que hacer esto tú tienes que hacer esto mañana. Esto lo quiero para no sé cuándo las jerarquías organizativas estas pirámides que se dan en nuestras organizaciones están diseñadas para hacer push. No se habla del MIT del management ni del management que son esas capas intermedias entre el comité de dirección lo más alto de arriba que son los que deciden la estrategia y qué es lo que hay que hacer y hacia dónde va la compañía etcétera etcétera.
+
+[00:26:52.370] 
+ Y los curritos los que hacen los que están en la capa en el estrato inferior que paradójicamente son los que saben cómo hay que hacer las cosas y son los que en el siglo XXI en casi todos los trabajos hoy en día son trabajadores cognitivos. No al menos los que nos afectan respecto al negocio digital somos trabajadores cognitivos somos trabajadores que trabajamos con el conocimiento.
+
+[00:27:19.130] 
+Nadie mejor que un programador nadie mejor que un diseñador nadie mejor que un X para saber cómo hay que llevar a cabo una aplicación comercial. Entonces este mide el management estos jefes intermedios. Su rol es hacer push hacia abajo de lo que hay que hacer y eso le viene de arriba y hacer reporting hacia arriba es decir cómo estamos avanzando dentro de esos diagramas de Gantt cómo lo estamos haciendo y eso resta autonomía. Si yo tengo a alguien cómo voy a pretender yo que mi equipo tenga iniciativa si no le cedo el espacio para tenerla.
+
+[00:28:08.020] 
+ Si yo cada día voy allí a explicarles lo que tienen que hacer hoy y para cuando lo necesito para cuando necesito esta nueva funcionalidad. Y tú te vas a ocupar de esto tú te vas a ocupar de cómo voy a cómo voy a pedir que un equipo esté sea capaz de adaptarse al cambio. Cómo voy a pedir que un equipo tenga visión de negocio cómo voy a pedir a un equipo ser que se auto gestione si yo no lo permito y eso es un poco lo que bueno entre otras cosas. Allá él viene a poner encima de la mesa es necesario.
+
+[00:28:47.200] 
+ Es necesaria la autogestión. No sólo es necesaria. Es más que posible y está demostrado que es posible y lo iremos viendo en sucesivos episodios dentro de lo que mantiene a un equipo dentro de lo que nos motiva.
+
+[00:29:08.000] 
+No hablábamos de la motivación hablamos de Daniel Pink maestria autonomía y por último Daniel habla de propósito verdad. Aprovecho para meter la cuña y recordar que en el episodio 6 hablamos con Antonio López de Decathlon hablamos de la Castorena Experience en Decathlon y hacíamos referencia a la importancia del propósito en Decathlon.
+
+[00:29:33.950] 
+Si una empresa una compañía no puede tener un único foco que sea ganar dinero vamos si que puede. Tradicionalmente ha sido así pero esto cada vez cada vez está cambiando más y más necesitamos para estar motivados necesitamos estar alineados con un propósito estimulante con un propósito que nos ayude y creo que aquí Castorena Experience es clave tener esa visión Gastón centric entender cómo hay que servir al cliente entender cómo mi trabajo impacta en la experiencia de mi cliente cómo puedo aportarle más valor eso es fundamental y es fundamental que haya una alineación transversal a toda la compañía respecto a ese propósito.
+
+[00:30:32.140] 
+ Si entonces hablábamos de el concepto equipo motivado hemos visto entrega temprana y frecuente estoy haciendo un poquito de rica para que no nos perdamos la entrega temprana y frecuente Cross funcionalidad equipos motivados y esto es realmente clave en mi opinión. Y por último otro concepto que para mí es muy importante que es Kaizen kaizen es una palabra japonesa que significa mejora continua digámoslo así ejemplifica un Estado una cultura de siempre buscar la mejora del proceso siempre buscar siempre hacer reflexión sobre cómo podemos mejorar lo que estamos haciendo cómo podemos mejorar el cómo lo estamos haciendo y esto para mí tiene muchísimo que ver con todo lo anterior tiene que ver con la funcionalidad con la colaboración.
+
+[00:31:31.750] 
+ No podemos mejorar de forma sesgada tenemos que tener tenemos que romper esos silos tenemos que tener gente motivada para que quiera mejorar la mejora en sí mismo es una motivación intrínseca mejorar es una motivación intrínseca en sí misma no pero ojo a mí también me gusta alertar acerca del Kaizen porque lo he vivido y a pesar de los años que llevamos en RAM ROM trabajando de forma ágil y sintiéndonos allá él a pesar de ello lo sigo viviendo y lo sigo viendo muy a menudo. Kaizen es un arma de doble filo kaizen es una navaja con dos filos y hay que tener cuidado porque cuando tu enfocas tu cultura en la mejora continua enfocas tu cultura en mejorar cada nueva mejora que haces te sirve para subir un escalón cito si es escaloncito te sirve para ganar perspectiva y ver todo lo que te queda por mejorar y eso es peligroso porque a veces se te olvida mirar para atrás y repasar todos los escaloncito que ya ha subido.
+
+[00:32:39.120] 
+Muchas veces nos centramos solo en los escalones que nos quedan.
+
+[00:32:42.180] 
+Cuidado con esto es importante es importante saber reconocer lo que hemos mejorado y la cultura Kaizen a veces si no está bien gestionada puede generar frustración puede generar frustración sencillamente quería compartir esta experiencia personal con vosotros de manera que entre la temprana y frecuente funcionalidad de equipo motivado y Kaizen yo no soy capaz de sintetizar Jail de una forma más austera y más más abreviada para vosotros. Si al final allá él es una es una cultura objetivo como decían Bea y José Enrique Rodríguez Huerta en una casa no me gustó mucho aquella charla y he hecho referencia en alguna ocasión a aquella charla no es una cultura objetivo.
+
+[00:33:31.730] 
+ Para mí esto es lo que significa es que Ayales un camino hacia él es un camino no es un lugar a donde llegar nosotros nos llevamos diez años y digo intentándolo porque no dejamos de intentarlo nosotros trabajamos allá y trabajamos de forma llevamos los productos de forma iterativo incremental y entregamos valor cada dos semanas y aun así sientes siempre que es un camino es un camino y en el camino está la agilidad no en el no en el fin digamos no es una cultura objetivo que por eso cuando se habla de transformación digital también se habla de esa transformación cultural y por eso es tan importante saber llevar bien la gestión del cambio porque al ser una cultura una cultura lo que nos va a permitir ganar precisamente esa competitividad respecto al mercado y abrazar el cambio y ser capaces de adaptarnos a esa disrupción es esa cultura y hay que estar muy atento porque no se puede ser ágil en culturas tóxicas como la del palo y la zanahoria como la cultura del héroe hoy no puede ser ágil.
+
+[00:34:44.000] 
+ Allá él es una cultura muy determinada y ahí es donde falla la mayor parte de implementaciones y lo voy a decir entrecomillado implementaciones de Alloy en las grandes corporaciones es muy difícil mucho más difícil que implementar las herramientas los frameworks es transformar esa cultura hacia una cultura donde la gente esté motivada donde haya esa pasión por la maestría donde los equipos sean autónomos autogestionados donde no haya silos donde el foco sea la entrega de valor y no nuestro bono individual o pasarles por encima de la puerta al siguiente departamento.
+
+[00:35:28.040] 
+El trabajo que tienen que hacer ellos no se puede hablar de transformación digital si no somos capaces de adaptar el software que nos va a dar ventaja competitiva en el mercado de forma constante. Iterativa incremental incorporando feedback aprendiendo siendo soporte para eficiencia pero también para la Innovación para la disrupción sin tecnología no hay disrupción sin Ajay no hay tecnología capaz de adaptarse a los cambios constantes y cada vez más virulentos y exigentes del mercado. Aún así ojo Alley es una condición necesaria pero no suficiente. Esto no va a funcionar de verdad si limitamos a jail al departamento de sistemas de turno al departamento digital de turno.
+
+[00:36:23.230] 
+ Si sólo ponemos el foco ahí lo que tendremos en el mejor de los casos es un silo capaz de entregar producto digital con menos defectos y con suerte de forma temprana y frecuente. Pero y esto lo digo desde mi propia perspectiva. Necesitamos elevar la visión tener una estrategia que abrace a toda la compañía que nos ayude a alinear a todos los engranajes que hacen que el barco navegue de forma coordinada y efectiva y a eso queridos oyentes yo lo llamo Castorena Experience y hasta aquí amigos. Este episodio de mi podcast en el mundo real el polkas sobre experiencia de cliente y negocio digital.
+
+[00:37:14.230] 
+ Muchísimas gracias por escuchar.
+
+[00:37:16.480] 
+Ya sabéis que para mí es súper importante saber qué pensáis que os ha parecido os ha aportado algo o tenéis alguna experiencia relacionada. Así que me encantaría que sigáis dejándome esos feedbacks ya sea con un comentario en la página del episodio. Carlos Iglesias punto de barra 0 11 donde por cierto vais a encontrar un montón de recursos de utilidad y de documentación de referencia del episodio. O mejor aún a través de una reseña Noitebús Books explíquelo o la plataforma que utilizais acompañado de unas estrellitas unos links. Lo digo siempre perdonadme que sea pesado pero es que de verdad para mí es súper importante.
+
+[00:37:52.330] 
+ Por qué. Porque estas plataformas utilizan estos sistemas para dar visibilidad a los podcast y para mí eso es lo que eso es lo que ganar visibilidad es lo que va a hacer que se pueda ampliar aún más esta gran conversación que espero mantener con todos vosotros oyentes. Un fuerte abrazo y os espero en el mundo real.
+

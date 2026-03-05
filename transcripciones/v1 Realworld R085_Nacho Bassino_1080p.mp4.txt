@@ -1,0 +1,264 @@
+[00:00:00.21] - Carlos Iglesias
+La IA está en todas partes, en cómo escribimos, en cómo investigamos, en cómo prototipamos y también en cómo tomamos decisiones de producto. Pero que podamos usarla no significa que debamos hacerlo siempre ni que el resultado sea automáticamente mejor. Hoy me siento con Nacho Basino, autor y divulgador en la intersección entre estrategia, producto e inteligencia artificial y con una trayectoria muy larga liderando equipos de producto. En esta conversación vamos a aterrizar qué usos de la IA tienen sentido hoy para product management y cuáles son puro ruido, cómo integrarla desde el research a la creación, pasando por el prototipado y qué cambia cuando empezamos a confiar en insights generados por modelos. Realvol. Porque en RANRUM la usamos intensivamente en el proceso de creación de producto, pero precisamente por eso me interesa mirar el tema con calma, hablar de límites, de riesgos, de sesgos y sobre todo de responsabilidad. Si te dedicas a este producto estás intentando separar lo útil de lo seductor, este episodio es para ti. Nacho Basino, bienvenida a Real World.
+
+[00:01:12.05] - Nacho Bassino
+Ricardo, muchas gracias.
+
+[00:01:13.07] - Carlos Iglesias
+Un placer y un honor que estés aquí, de verdad, muchísimas gracias.
+
+[00:01:15.21] - Nacho Bassino
+Un placer mío.
+
+[00:01:16.21] - Carlos Iglesias
+Nos conocemos de hace tiempo, pero es verdad que presencialmente nos ha costado encontrar este espacio.
+
+[00:01:22.11] - Nacho Bassino
+Nos ha costado una conversación y aquí le tenemos el euro que al menos...
+
+[00:01:25.09] - Carlos Iglesias
+Que quede registrada para los oyentes del podcast. Nacho, ¿qué quieres que sepamos de ti?
+
+[00:01:33.13] - Nacho Bassino
+Bueno, decías que hice varias cosas distintas, por ahí para... Yo así me digo, mi carrera... Estoy en la cuarta fase de mi carrera. Cuarta fase. La primera fue de desarrollador de software. Esa fue la más... Bueno, estuve varios años, hice bastantes cosas, pero después ya pasé al mundo del product management, en el cual estudié hace más de 15, casi 18 años. Pero bueno, tuve una tercera fase en la cual también fui consultor, ayudando a compañías en su práctica de producto. Y la cuarta, que es la que por ahí más me llenó profesionalmente, es esta de poder compartir todo lo que aprendí de producto, todo lo que aprendo del producto, porque aprendemos todos los días, después de 18 años seguimos aprendiendo. Y poder compartirlo en muchos formatos, también dar clases, poder acompañar a gente en coaching, hacer un montón de cosas de eso, que la verdad que me llena mucho profesionalmente y siento que aportan un montón de valor a la comunidad.
+
+[00:02:22.12] - Carlos Iglesias
+Lo entiendo, me identifico un montón. Oye, déjame preguntarte, ¿cuánta responsabilidad o qué... ¿Cómo de bien te ha ido haber empezado como desarrollador para ser lo que eres hoy?
+
+[00:02:34.18] - Nacho Bassino
+Es una excelente pregunta. Yo, la verdad que habiendo hecho coaching a muchas personas de productos, siempre digo que la verdad que los product managers pueden venir de cualquier disciplina y eso da ciertas fortalezas y ciertas debilidades. Yo, por ejemplo, en el área de diseño nunca fui bueno y al día de hoy sigo apoyándome mucho en buenos product designers, sabiendo que ese no es mi punto fuerte. Entonces, si tú al revés, vienes del área de diseño, por ahí tienes que apoyarte más en formar una buena relación con tu equipo técnico para que te puedas suplir en eso. Entonces, la verdad que siento que me ayudó mucho porque supe detectar esa fortaleza y cómo apalancar esas debilidades o cómo suplirlas para poder ser más completo.
+
+[00:03:12.02] - Carlos Iglesias
+Pero estás en DLocal, en un puesto que me parece apasionante, me parece superinteresante. Me gustaría que les cuentes a las personas que nos siguen. ¿A qué te dedicas? Porque estás como con la inteligencia artificial a tope. ¿Cómo lo hacéis? ¿Qué hacéis?
+
+[00:03:28.20] - Nacho Bassino
+La verdad que es un desafío superinteresante. Yo creo que DLocal está bastante en la vanguardia. Podemos jugar mucho con las herramientas nuevas, así que ahora estoy muy agradecido por eso. Pero en resumen, el puesto que tengo es VP de Producto, de AI, Product Ops y el servicios CORE. Y en la parte de AI en particular, lo dividía en dos grandes grupos. Tenemos una parte que es los servicios que damos para conectar la AI y facilitar el uso por el resto de los equipos de desarrollo de DLocal de las herramientas de AI. Entonces, si alguien quiere hacer un reconocedor de textos, si alguien quiere hacer un generador de texto con LLM, si alguien quiere hacer creación de imágenes, nosotros tenemos un gateway para que eso sea fácil de consumir. Entonces, es un gran grupo. Y el segundo gran grupo es cómo hacemos para que las personas en de e-Local, no importa cuál sea su puesto, puedan usar herramientas de inteligencia artificial, crear sus propios agentes. Ahí hay mucho del equipo de producto en sí, hay mucho del equipo de desarrollo, hacemos mucho de agentic development. Y obviamente, para el resto de las personas de DLocal, tenemos herramientas que son bastante para que puedan usar toda esa potencia y que al final del día buscamos ser una empresa muy lean, como todos ahora en la inteligencia artificial y estamos tratando desde el equipo de AI, dar mucho de ese soporte.
+
+[00:04:40.05] - Carlos Iglesias
+Es fantástico, suena divertido, suena muy bien. ¿En qué partes del trabajo de producto dirías que realmente tiene sentido usar inteligencia artificial y en qué partes no? Me interesa también.
+
+[00:04:56.03] - Nacho Bassino
+Es una buena pregunta, es una buena verdad. Yo soy muy bullish de de la inteligencia artificial, como dicen los americanos, o sea, me gusta, la verdad que tengo una fuerte mirada en cómo, sobre todo, cómo va a transformar el rol de producto. Entonces, creo que si tuviese la respuesta corta de lo que me dices, es siento que en prácticamente todo el ciclo de desarrollo de producto, end to end, hay que utilizar estas herramientas, no solo se puede, sino que hay que usarlas. Y alguna de las partes en las cuales, no voy a decir no conviene, pero es más difícil que tener un valor potente, es cuando necesitamos hacer empatía con otros seres humanos. Yo sé desde la entrevista de customers, pero también este holder management y ese tipo de cosas en las cuales nos pueden dar mucho apoyo en la preparación. Y si después esa última milla la podemos cubrir nosotros con nuestros cerebros de carne, como se me hace.
+
+[00:05:40.11] - Carlos Iglesias
+Cerebros de carne, me gusta. Me gusta el concepto, me gusta bastante la idea. ¿Por qué crees que hay lagards? O sea, no lagards, más que lagards, ¿por qué hay personas que están en contra del uso de la IA o que no la utilizan? Personas de producto, que crean software y desarrolladoras, personas que desarrollan software. ¿Por qué?
+
+[00:06:00.14] - Nacho Bassino
+Yo diría que tengo dos vertientes. Una es lagards porque no tienen el contexto, porque la compañía... Estoy ahora haciendo clases y demás, y la gente no tiene herramientas. La compañía que con el procurement y es todo muy difícil y no podemos adoptar nada y puedo usar o no puedo usar, inclusive la duda de si lo puedo usar, creo que eso los hacen muchas personas muy reticentes. El otro track, creo que es más el lagar real, si podríamos decirlo.
+
+[00:06:27.16] - Carlos Iglesias
+Y ese me interesa. ¿Qué piensas tú?
+
+[00:06:29.09] - Nacho Bassino
+Para mí es el que no logró todavía entender el impacto profundo que esto va a tener. Voy a ir con un ejemplo extremo de entrada. Por muchísimos años estuvimos planteando tanto el discovery como la agilidad en hacer ciclos cortos, en entender bien lo que estábamos haciendo, porque el costo de desarrollo era muy alto. Ahora, dentro de muy poquito, el costo de desarrollo va a ser prácticamente cero. Entonces, hay que repensar completamente como hacemos las cosas. Entonces, hay gente que se resiste a eso. No, yo tengo que hablar con el desarrollador y tengo que tener otras daily. No sé si tienes que tenerlo.
+
+[00:06:59.11] - Carlos Iglesias
+Cien por de acuerdo. Y me siento superidentificado con eso. Y tuvimos hace ya más de un año esta discusión. Llevamos toda la vida. Claro, y piensen, nosotros hemos hecho desarrollo ágil para clientes durante mucho tiempo y trabajando por sprints y entregando por sprints y cobrando por sprints. Y de alguna forma educando también, haciendo una labor didáctica de la importancia de... Y nos ha cambiado por completo la forma en la que desarrollamos, precisamente por esa capacidad que tenemos hoy Y de toda esa incertidumbre que intentábamos evitar sprint a sprint, o que no evitar, sino modular y entender e incorporar y gestionar y navegar, hoy la podemos adelantar. Exactamente. Y es que no tiene sentido seguir desarrollando de la misma forma o creando producto de la misma manera.
+
+[00:07:46.07] - Nacho Bassino
+Exactamente, sí. Yo te lo puedo resumir con un ejemplo de eLocal. Nosotros estamos trabajando en un sitio mucho en Agentic Development, que es básicamente un agente. Ni siquiera le damos instrucción: Mira el ticket de Jira que se ha cargado. Sí, hace un pull request. Dice que hay que hacer y dice: Okey, listo, lo hago, va, lo hace y hace un pull request. Y hoy estamos en un 42% de pull request aceptados. Que no tocó ningún humano ese... No miramos ni el ticket, el ticket lo tomó la emergencia artificial, lo codificó y lo hizo. Espectacular. Sigue creciendo. Entonces, volviendo a lo que decías, yo digo: Cuán necesario es que partamos todo en integraciones chicas, si yo puedo decir: Mira, aquí está todo lo que tienes que hacer y lo puedes hacer y mañana puedo ver el resultado. Entonces, como que cambia mucho la concepción de cómo tenemos que atacar los problemas y Y nada, es importante que abracemos ese mindset y al revés, estemos en... Yo la recomendación que le di a todo el mundo es: Tienes que estar pensando que la inteligencia artificial, las capacidades que tenemos hoy, son las peores que vamos a tener en el resto de nuestras vidas.
+
+[00:08:42.23] - Nacho Bassino
+Entonces, como el no tiene sentido. Es decir, el modelo todavía no puede hacer X, no es una buena excusa para no estar adaptándolo.
+
+[00:08:50.23] - Carlos Iglesias
+100% de acuerdo, no puedo estar mal acuerdo. ¿Y tú cómo usas tú la IA? O bueno, tú en DLocal, ¿cómo la usáis actualmente en vuestros equipos? En research, por ejemplo, dentro de todo el ciclo de producto, decías, en la parte de research me interesa un poco, porque has comentado un par de temas que me parecen interesantísimos. Sí, es interesante.
+
+[00:09:09.01] - Nacho Bassino
+Dlocal es una compañía muy enterprise, así que es muy distinto la lógica de discovery, vamos a poner así el título genérico. Una compañía de enterprise es una compañía B2C, como lo hace Spotify, va a ser muy distinto como lo hace DeLocal. Tenemos un puñado de compañías muy grandes a las cuales servimos. Entonces, en la fase de research, desde ese punto de vista, es un poco distinta. Entonces, hay mucho de entender qué necesita el cliente por conversaciones profundas, de las cuales podemos extraer insights. Y hay mucho después de cómo hacemos para que acelere la investigación regulatoria, la investigación de lo que se puede hacer, la investigación de cómo lo conectamos a los APIs. Es un trabajo más Así que es más de descubrimiento interno que el descubrimiento de patrones en grupos de usuarios. Entonces, en Diloca lo que hacemos es mucho eso, es decir, cómo hacemos para codificar nuestra base de conocimiento para que cuando tengo una necesidad de un cliente, pueda rápidamente entender requisitos de compliance, entender cómo hacer ese servicio dentro de DLocal, cómo modificar lo que tenemos que hacer. Pero también me toca cobuciar mucho a equipos que lo están usando más de cara a usuarios.
+
+[00:10:11.10] - Nacho Bassino
+Y ahí lo que me parece más maravilloso es la capacidad de detección de patrones, que justo hace poquito estuve escribiendo artículos ahí en LinkedIn de esto, pero antes nos costaba un montón de esfuerzo, de horas, de cerebro, de energía al fin del día, hacer este reconocimiento de patrones entre... Bueno, hice entrevistas de usuario, hice un survey por acá, tengo respuesta de NPS, tengo calificaciones en el store. Y juntar toda esa información y sacar... Al fin del día, no la juntamos esa información. Era simplemente decir: Okey, algún día analicé los NPS, algún día fui y miré las calificaciones en el store. Y al fin del día nos perdíamos un montón de información porque no teníamos esa capacidad de hacerlo. Hoy, puedes tener ese robot que está 24 24/7 mirando eso por vos, encontrando patrones entre fuentes dispersas. Y eso para mí cambia el juego radicalmente. O sea, el nivel de insight que podés tener, porque al final del día no se trata de reemplazar el juicio de la persona. Pero si yo, en vez de pastar Entonces, 10 horas navegando esa información y una hora pensando que hago con eso, puedo una hora navegando la información porque la IA trabajó las otras 10 horas y dedicar 9 horas a profundizar ese patrón, a entender la implicancia, etcétera, me pongo en un rol mucho más estratégico, mucho más de el problema que hay que solucionar, mucho más de generar un producto que tenga impacto, que tenga calidad.
+
+[00:11:34.05] - Nacho Bassino
+Y ahí es donde creo que está el diferencial supervarioso.
+
+[00:11:36.18] - Carlos Iglesias
+Totalmente. ¿Y dónde no confías en ella?
+
+[00:11:40.12] - Nacho Bassino
+Ya te decía un poquito antes esta parte de no No confío todavía, vamos a hacer ese asterisco, en esta parte de la interacción que requiere un poquito más de empatía con otros humanos. De hecho, por ejemplo, decía antes, la parte de entrevistas, ese double check, ese generar empatía, esa parte, todavía creo que nos queda un tiempo de eso todavía. Si bien hay muchos avances en esos avatares virtuales, pero creo que ahí es una parte que se podría mencionar. Y la otra después también es: hay mucha parte que la IA no puede resolver todavía porque no le estamos dando el contexto adecuado. Y puedo hablar tres horas de eso. Pero básicamente, cuando, por ejemplo, necesitamos hacer estrategia, si yo tengo que darle el historial de los últimos cinco años de la compañía, de resultados, de competidores, del mercado, de industria, de partnership, es muy difícil que yo tenga esa información disponible fácilmente para que una IAE pueda hacer ese trabajo, cuando si yo estoy hace cinco años en la compañía, por ese conocimiento lo tengo en mi cabeza de alguna forma. Entonces, hay ese gap todavía, creo que nos cuesta llenarlo ahí.
+
+[00:12:46.07] - Carlos Iglesias
+Esto es interesante, este último punto. Respecto a los avatares o usuarios sintéticos y este tipo de... Me interesa esto, porque nosotros... Le hemos dedicado mucho esfuerzo a eso también y hemos probado muchas cosas. Y yo he visto, ahí fuera, sin entrar en demasiados detalles, he visto cosas que me ha parecido un poco una aberración, en el sentido de crearte un GPT o algo con cuatro, una descripción de un buyer persona o algo así, y tomar eso como la verdad, como un usuario real y hacerle preguntas como si le estuviese haciendo una entrevista a un usuario y creer que esas respuestas son validas. Yo lo he visto eso, y es algo que veo que pasa, que está pasando?
+
+[00:13:31.03] - Carlos Iglesias
+Interrumpo un momentito la entrevista para recordarte que Real World es el podcast de Run Room. En Run Room llevamos algo más de un par de décadas ayudando a nuestros clientes en la creación de sus productos digitales, en el diseño y ejecución de estrategias de growth marketing y en la transformación de su customer experience. Recientemente hemos lanzado la Run Room Academy, un nuevo servicio donde llevamos a cabo programas de transformación y formaciones creadas desde nuestra experiencia y práctica real para impulsar tu negocio y elevar a tu equipo al siguiente nivel.
+
+[00:14:03.01] - Carlos Iglesias
+Pese a que en cualquier momento podemos crear para ti una formación in company, te quiero hablar de un par de formaciones en abierto que arrancan muy prontito. Lean Product OKR, una guía práctica para OKR centrados en el cliente, el sábado 28 de febrero en presencial en nuestras office, y Lean Product Discovery, en formato online, todos los jueves de marzo, de 5: 00 a 7: 00 de la tarde. Te dejo con la entrevista.
+
+[00:14:26.19] - Carlos Iglesias
+
+
+[00:14:27.01] - Carlos Iglesias
+Nosotros hemos creado para una empresa de seguros bastante importante, pudiendo hacer, integrando distintos sistemas de captación de feedback en tiempo real de ingentes cantidades de... Claro, es que cambia. Claro, es increíble realmente lo que es capaz de integrar todas esas capacidades de feedback y crear unos buyer persona, unos usuarios sintéticos. Realmente, es sorprendente realmente lo que se puede llegar a hacer. Pero igualmente, me interesa Es algo que tengo pendiente, estoy escribiendo un artículo sobre ello porque me interesa otras experiencias en cuanto a cómo usar bien eso. Aunque tú tengas un agente, algo que está muy conectado con data real, con insights, o sea, que sea capaz de extraer insights reales y esté hecho con decenas de miles de usuarios y con cantidades ingentes de datos, cómo usarlo bien es algo que todavía creo que tenemos que aprender, no sé.
+
+[00:15:28.09] - Nacho Bassino
+Sí, yo creo que la respuesta corta es: yo no recomiendo usar usuarios sintéticos para validación de nuevas ideas, porque al final del día lo que estás haciendo es reducir a... Puedes tener todos los maquillajes que quieras darle, pero al final del día es un patrón que va a tener los sesgos de la información que tengas capturada, los sesgos del comportamiento que tiene entre tus usuarios, que no va a ser el mismo que tengas cuando tengas un fichu nuevo o algún producto nuevo en el mercado. Eso es. Entonces, para validación en particular, no creo que sea potente. ¿Para qué es potente? Para la preparación para esa validación. Si yo digo: Quiero ver si esta entrevista tiene sentido, quiero ver puntos flojos, quiero ver si hago esta pregunta que probablemente puedo perseguir el hilo o la hipótesis que tengo, la voy a poder perseguir con esta pregunta o tengo que mejorarla. Hacer una entrevista virtual es muy poderoso. Y para el otro que lo he usado, que es un caso de uso un poco más diferente, vamos a poner así, es para stakeholders. Si yo tengo un CFO que es complicado y que sé que voy a ir con mi roadmap y me lo va a cuestionar, ¿qué pasa si puedo codificar esa persona en un custom GPT, en una gemma en Gemini, y llevarla a mi píder de antes y que me dé qué preguntas este CFO exéptico va a tener de este roadmap?
+
+[00:16:44.09] - Nacho Bassino
+Entonces, yo como PM me puedo preparar mucho mejor para cuando vaya a esa conversación real, que como te decía antes, vas a seguir teniendo la conversación real, vas a entrar en ese momento de empatía con las personas, pero puedes prepararte mucho mejor porque puedes anticipar cosas que por ahí desde tu modelo mensal o inclusive desde la vorágine del día a día no te sientas a pensar, te tomas cinco minutos para hablar con esta charla virtual con tu agente creado que tiene esa información, esas preocupaciones que tienen stakeholders y te puede dar feedback muy valioso para prepararte para esas reuniones. Entonces, ese caso de uso creo que es interesante.
+
+[00:17:16.04] - Carlos Iglesias
+Interesante, sí. ¿Y para idear, ideación?
+
+[00:17:19.09] - Nacho Bassino
+Para ideación me parece que es muy potente, sobre todo para generar volumen de ideación. Creo que lo mismo que decíamos antes, antes la ideación estaba muy sujeta a la energía que tenías, con quién te podías juntar, el tiempo que tenías, inclusive. Ahora le puedes decir en cinco minutos... Es un recurso infinito ahora. Quedanme 100 ideas o 20 o 5, la que vos quieras, y ahí vos puedes aplicar tu juicio, tu evaluación y demás, pero creo que te resuelve un... No sé si es un pain, porque no es necesariamente un pain, pero da este extra que antes no teníamos.
+
+[00:17:53.07] - Carlos Iglesias
+Un bonus extra de power. Yo sé que tú tienes de una comunidad... Bueno, tienes, digamos que tú estás dentro de una comunidad y formas parte importante de una comunidad de Product Managers. ¿Qué les dices cuando les haces recomendaciones de qué habilidades tienes que tener, qué herramientas deberías conocer, qué skills, qué recomiendas?
+
+[00:18:17.15] - Nacho Bassino
+Empezando muy genérico y siendo yo formador, con lo cual yo doy cursos, pero la primera recomendación que da es: no te obsesiones con qué curso vas a hacer, porque todo el mundo viene y pregunta: ¿Qué curso tengo que hacer?. La verdad es que lo más importante es... Tenerle mano. Hacer. Hacer. Y fuera de ese hacer, un poco lo que decíamos recién, es: Piensa en tu ciclo de trabajo. ¿Qué empiezas? Empiezas haciendo discovery. ¿Qué haces en el discovery? Haces la preparación de entrevistas. ¿Cómo uso AI para presentar entrevistas? ¿Cómo uso AI para sintetizar los resultados? ¿Cómo uso AI para explorar los datos? Para cualquiera de esas tareas que tienes que hacer, te preguntas: ¿Cómo hago esto con AI? Y te pones a trabajar. Porque seguro que si le preguntas al AI: ¿Cómo hago esto con AI?, te va a dar una muy buena respuesta. Claro. Es un poco meta. Y ahí empiezan a surgir ciertos patrones. Obviamente, tenemos que dominar toda la parte de utilizar la interfaz de chat en sí, o sea, GPT, M&I, Cloud, lo que quieras. Pero empiezan a surgir: Tengo que construir estos agentes custom para poder interactuar y hacer esto de forma repetida.
+
+[00:19:22.01] - Nacho Bassino
+Entonces, ahí ganas una habilidad. Tengo que poder hacerme un coach que me ayude a prepararme cuando tengo que justificar una prioridad. Listo, esta es una una nueva habilidad, coach. Tengo que hacerme estas personas sintéticas, okey, crean una nueva habilidad. Entonces, a medida que vas respondiendo esas preguntas y trabajando en ello, vas generando esas nuevas habilidades y podemos llegar después al vibe coding y algunas más que son las más interesantes, las más vistosas, las más interesantes. Sí, vistosas, sorprendentes. Tal cual. Pero creo que ese es el truco, es decir, ese mindset de cómo puedo hacer esto que estoy haciendo ahora con AI, creo que es la mejor forma de empezar y que destraba todas las puertas.
+
+[00:19:56.24] - Carlos Iglesias
+Claro, es una de las... Ahora hablas del vibe coding. La pregunta es, ¿en qué momento del prototipado o del diseño de un producto la IA aporta valor real? ¿Tú cómo te imaginas? ¿Te imaginas un prototipado sin IA hoy o un.?
+
+[00:20:21.11] - Nacho Bassino
+No, es tremendo. Ahora, no quiero ser trillado, pero lo más interesante es cómo cambia, lo que hablamos antes del ciclo, hablamos del ciclo de desarrollo. Pero si empezamos el ciclo de validación, era: Okey, yo tengo que hacer entrevistas con usuario, después entrevistas vuelvo, después tengo que hacer una definición, ideación, tengo que pasar eso a mi diseñador, el diseñador hace un prototipo, para hacerlo funcional tengo que mandárselo a un developer que hace algo funcional para que el usuario pueda hacer una prueba. Llevaba semanas. Y hoy termino de hablar con el usuario, le digo: Esperame cinco minutos, me doy vuelta, le pido a Gemini algunas ideas, agarro las ideas, las pongo en lovable, me hacen un prototipo automático, vuelvo con el usuario y digo: Esto es lo que me estabas tratando de decir, esto es lo que te imaginabas, esto es lo que sea, la formulación que quieras. Pero cambia absurdamente la forma de... Es absurdo.
+
+[00:21:11.01] - Carlos Iglesias
+Es buena decir, me gusta ese adjetivo. Ayer tenía una discusión con Saura, que es un compañero ahí. Lo conoces. Lo conoces, claro, José. Y estamos desarrollando un producto que vamos a liberar pronto y que va a estar accesible, que nos emociona mucho. Estamos emocionalísimos con el producto y me doy cuenta que una de las cosas que a mí, personalmente, más dificultades me está costando, es precisamente lo que decíamos antes. Yo llevo toda la vida educándome para decir: No, no tenemos que pasar por una serie de fases y una fase de program solution fit y entonces tal. Entonces, entender bien cómo antes de pensar en revenue model, de por qué. ¿Por qué? Porque definir un revenue model antes era carísimo. Claro, definir un ¿Cómo sé? ¿Cómo hago un freemium? ¿Cómo hago qué? ¿Cómo encuentro? Pero si es que es gratis hoy, claro. Entonces, eso es algo que creo que... Supongo que tenemos que dejar incorporar todo ese conocimiento y probar 20 millones de cosas distintas, pero es algo que es como que ya ha cambiado por completo la forma de hacer producto, la forma en la que salen los productos, el go-to-market, lo cambia todo por completo, no sé.
+
+[00:22:29.09] - Carlos Iglesias
+Sí, es absoluto. No es ninguna pregunta y perdona, pero es que es como que, hostia, realmente es sobrecogedor, realmente. Es un poco mi sensación esa.
+
+[00:22:37.24] - Nacho Bassino
+El año pasado, que justamente con el ingresos de iLogal, con meterme más y con tratar de compartir con los coachees en los cuales estaba hablando, un poco más, empecé a escribir sobre AI y el primer artículo que hice es: La AI acaba de hacer mis 15 años de experiencia obsoletos. Porque literalmente es eso, va a ser completamente distinta la forma de trabajar en el futuro. Entonces, muy bien que seas un un experto en X, Y, Z, pero ahora eso ya no vale nada, porque ahí al lado hasta la AI que tiene la experiencia combinada de todos los product managers que tienen 15 años de experiencia y lo puede hacer mucho mejor que cualquiera de nosotros, ni hablar de alguien que está empezando. Entonces, ya Usar esa herramienta ya te pone 10 niveles arriba sin que tengas que preparar tanto.
+
+[00:23:19.10] - Carlos Iglesias
+Yo también supongo que, hablábamos antes de lagards y de esa resistencia, supongo que también hay mucho miedo a ese sentido, pero es que yo creo que es muy evidente que cada Eso, de momento, hasta que no haya una IA general, necesitas ese conocimiento. Te lo compro, entiendo el espíritu de lo que dices, te lo compro a medias, porque de Evidentemente, no utilizas tú una IA igual que cualquiera que no tenga esos 15 años de experiencia.
+
+[00:23:50.17] - Nacho Bassino
+Sí, la pregunta que yo me hago es: ¿Hasta cuándo? ¿Cuánto falta para que mi hijo de 11 años pueda hacer product management como lo hago yo? Porque la inteligencia artificial lo voy a guiar. Al fin del día, si tú le vas preguntando, va haciendo su proceso de pensamiento en el cual la verdad que es bastante buena, y va a ser cada vez mejor. Con esto que decíamos los lagards, una cosa más. La filosofía que planteo es: si tú no estás trabajando en reemplazar tu trabajo con AI, el de al lado lo va a ser y te va a reemplazar completamente. Entonces, mejor que seas tú el que está un paso adelante absorbiendo esas herramientas y buscando cómo reemplazar el product management con AI, porque a través de eso vas a ganar un nuevo skill que va a ser empleable mañana cuando el trabajo de product management ya no sea tan empleable.
+
+[00:24:40.07] - Carlos Iglesias
+Y es que además es guapísimo, tío. Es muy divertido. Además, es muy divertido.
+
+[00:24:44.11] - Nacho Bassino
+¿a quién escribir historias de usuario en China. Yo le tengo un salario para que lo ve y listo.
+
+[00:24:48.07] - Carlos Iglesias
+Exacto. Yo creo que eso también... A mí me gusta tener esa visión positiva también de que es que es muy guay. O sea, yo estoy, de verdad que estoy viviendo cosas que Y son superestimulantes y creando producto basado con IA. Y es como... A veces lo hablamos con Saúl: Hostia, qué suerte tenemos. Acabamos jornadas de trabajo, que acabas en Chopolo cansadísimo. Y dices: Hostia, qué suerte. Poder hacer esto, poder estar viviendo esto en este momento, yo creo que hay que aprovecharlo este momento. Creo que es historia de la humanidad. No sé, perdón, igual me eleva un poco, pero de verdad lo pienso. Creo que es...
+
+[00:25:29.08] - Nacho Bassino
+100% de acuerdo. Yo, como decía, todos los que empezamos nuestras carreras hace unas décadas, yo te decía, empecé como programador. Como yo. Y todo lo que automatizó la AI ahora es el trabajo aburrido de programar. No es que te gusta ir a picar y así, tiene un poquito de sabor resolver problemas. Pero si puedes resolver 10 veces más rápido porque tienes una persona, un agente al lado que está escribiendo por ti, es maravilloso.
+
+[00:25:53.02] - Carlos Iglesias
+100%, de acuerdo. ¿Has cambiado alguna decisión de producto con algún gracias a un insight generado con IA?
+
+[00:26:03.24] - Nacho Bassino
+Es una buena pregunta. Más que cambiar una decisión, nos ayudó mucho a formar decisiones. Otro ejemplo que nos hablamos también en la fase de research es, qué pasa que puedes ahora, tiraron estos deep research, que en 10 minutos te investigaron 500 sitios o publicaciones de papers y demás, y te los sintetizaron todo muy rápidamente. Ese poder de descubrimiento de qué es posible, hasta cómo está el mercado, las tendencias, etcétera. Antes por ahí no era viable. Entonces, ahora estamos usándolo mucho para formar estas decisiones, lo cual hace que no te puedas decir: Cambemos la decisión, porque ya la utilizamos desde el vamos.
+
+[00:26:43.20] - Carlos Iglesias
+¿y algún Bueno, es que la pregunta, sé que es un poco estúpida, porque es que es para eso, para lo que la utilizamos, pero ¿algún proceso que puedas compartir donde la IA haya mejorado clarísimamente ese proceso? ¿Un proceso de producto, en vuestro caso, desde el desarrollo hasta.? No sé, desde el desarrollo hasta...
+
+[00:27:02.19] - Nacho Bassino
+No sé, que lo hayáis... No, esto te decía, te hablaba recién de research, research para estrategia crypto, de local compañía de payments, algo interesante, está evolucionando, está creciendo. Todo eso es algo que nos hubiese llevado literalmente semanas hacerlo. Entonces, ahí ya te da un puntapié mucho más fuerte. Después, la parte de prototipado, ya lo hablamos, es algo que aceleró tremendamente cómo lo hacíamos y eso permite que Y todo lo que viene después sea mucho más rápido también. Con mucha más seguridad, con validación, en vez de: No, tengo esta idea o ya voy con esta imagen. Entonces, como que robustece mucho el resto del proceso. Y la última parte que no tocamos todavía es el análisis de datos. El análisis de datos, que antes por ahí era mirar un dashboard y ahí sí, es una que la experiencia, no quiero decir se vuelve obsoleta, pero una persona, un humano, un cerebro de carne, mirando datos y por más que tenga diez años de experiencia y sepa qué buscar y demás, no va a poder nunca sacar patrones como saca la IAI. Entonces, yo le digo: Mira, acá está mi big table de toda la data de información histórica y va a poder hacer un análisis de patrones mucho más fuerte.
+
+[00:28:12.18] - Nacho Bassino
+Entonces, es otro que también estamos utilizando mucho y que creo que va a seguir evolucionando.
+
+[00:28:17.07] - Carlos Iglesias
+Y algún caso difícil, igual no se te ocurre, pero algún caso contrario, donde usar la IA no solo no haya funcionado, sino que te ha generado más problemas que te ha pasado ¿Eso te lo contaste?
+
+[00:28:30.16] - Nacho Bassino
+Sí, no sé más... Te lo cuento. Hay algunos procesos en los que estamos tratando de automatizar, en los cuales aplicar IA nos traía la bendición de esto va a ser mucho más rápido. Entonces, vamos a Empezamos a pensar qué resto de capacidades de negocio vamos a poder hacer por tener estas cosas más rápidas, por ejemplo, hacer una reconciliación y mandar un reporte en menos tiempo a nuestros clientes, empezar a hacer promesas de ese estilo, y que después no se pudo y que entonces te quedaste en un problema. Porque generalmente cuando pasan estos problemas, no se puede, es lo que te decía antes del contexto. Nos dimos cuenta que el pipeline de datos para llegar a esa parte que la AI tenía que resolver, no estaba resuelto y que hoy los humanos que lo estaban haciendo, lo hacían con el tiempo que tardaban, pero copy paste, agarro esto de aquí, esto de allá, lo junto, etcétera, y aplicaban mucho proceso artesanal. Y entonces, no pudimos cumplir con esa promesa. Entonces, eso sí nos metió en problemas, porque A lo que esperábamos, que en tres meses tenés esa nueva capacidad lista y salir a comernos la cancha, comernos al mercado, no lo pudimos hacer.
+
+[00:29:36.02] - Nacho Bassino
+Y estamos aquí, meses después, todavía trabajando en eso.
+
+[00:29:40.08] - Carlos Iglesias
+¿y qué nuevas responsabilidades crees que.? Un poco redundancia, lo que te estoy preguntando, pero en el sentido... Al poner IA en el producto, digamos, hacer productos basados en IA, ¿qué nuevas responsabilidades debemos asumir como product manager, crees No sé si de nuevas responsabilidades hay, creo que hay dos cosas grandes a tener en cuenta que están muy relacionadas.
+
+[00:30:06.12] - Nacho Bassino
+La primera es que la respuesta, sobre todo estamos hablando de Gen AI, porque machine learning hacemos de toda la vida, así que eso no cambia tanto. Pero si pensamos en Gen AI, la respuesta no es como era antes, que es uno más uno igual a dos, es una respuesta que puede variar. Entonces, lo que tenemos que pensar es cómo generamos interfaces que estén preparadas para esa variación. Entonces, lo estoy usando con la gente con la cual he escuchado, hacemos un proyecto piloto en el cual hacemos una aplicación para cargar tu menú familiar, cualquier comidita y demás, y jugar un poquito con la idea con eso. Entonces, claro, un primer paso es, voy a cargar un platillo y la guía trata de adivinar qué es ese platillo para poder hacer un análisis de componentes, de nutrientes que tiene. Y claro, la interfaz no va a ser determinística, no es que yo pongo un valor y me va a decir siempre lo mismo, va a poder cambiar. Entonces, tengo que pensar una interfaz que pueda adaptarse a muchas respuestas o a una habilidad de respuesta. Y eso es algo que, no sé si es una habilidad nueva, pero es algo que es una necesidad nueva en el diseño de producto.
+
+[00:31:06.21] - Carlos Iglesias
+Totalmente.
+
+[00:31:07.23] - Nacho Bassino
+Y la segunda que está muy relacionada es la evaluación, las famosas evals, que es cómo evalúo. Si yo tengo un prompt al cual le doy un input, tengo que tener ciertas capacidades para hacer lo que hacíamos antes, el cua que hacíamos antes, ahora es distinto, es evaluación de...
+
+[00:31:21.18] - Carlos Iglesias
+Judgment, ¿no?
+
+[00:31:22.16] - Nacho Bassino
+Exactamente, el famoso judge, que tenemos que ver el criterio de si fue relevante o no la respuesta que dio, si estaban dentro de los patrones que tenía que dar o no. Entonces, ese es un nuevo... El PM generalmente está muy involucrado en ese proceso y es algo nuevo que es como antes escribimos los criterios de aceptación, ahora tenemos que escribir esto que es ligeramente distinto, pero que hay que pensarlo de una perspectiva distinta. Es un esquina nuevo.
+
+[00:31:44.15] - Carlos Iglesias
+Para mí, esto es también bastante nuevo, es algo que estamos, que al menos para mí, está siendo bastante nuevo. Estamos empezando a trabajar con Lansfuse y precisamente esa idea de hacer un producto basado en IA, tiras una serie de prompts y tienes un juez que le pide a distintos modelos con ese prompt como tal, y esa respuesta acabas decidiendo en economics también, o sea, en tokenomics, en economics de los tokens, cuánta pasta está consumiendo cada uno de ellos? ¿Cuál es más eficiente? ¿Para qué parte de cada producto? Hostia, creo que ahí hay como un campo brutal que me parece interesantísimo, me parece apasionante.
+
+[00:32:27.17] - Nacho Bassino
+Sí, lo que te contaba antes que teníamos este equipo de ND Local que hace como la plataforma core de AI de servicios y uno de los grandes pilares que ofrece, primero es esto, la economía, es decir, cómo optimizo las llamadas para ver qué model usar y cómo derivarlo. Pero también la otra es la observabilidad, que en AI es completamente distinto. Qué prompt recibió, qué prompt respondió, qué parámetros se involucraron. Entonces, es un ligero cambio de lo que hacíamos antes.
+
+[00:32:55.12] - Carlos Iglesias
+Interesante, sí, es interesantísimo. A mí me parece superguay porque son cambios sistémicos, o sea, hacer un pequeño cambio o cambiar un pequeño... A veces, cambiar un modelo, lo mismo, pero cambiar este modelo, no, me pongo el 5. 2 mini con respecto, igual ganas un 80% de eficiencia o te hace las... No estoy exagerando, o sea que realmente es posible que tengas grandes ganancias sistémicas, eso es lo que me interesa mucho a mí de esta parte.
+
+[00:33:23.13] - Nacho Bassino
+No, absolutamente, y lo mismo con la precisión, como decíamos antes, la parte económica, pero también la parte de cuán relevante es la respuesta, cuán útil es la respuesta. Y ahí está desde el tweak del modelo, hasta el tweak del prompt, hasta por ahí inclusive la velocidad que necesitas que responda, puedo tomar más tiempo, no puedo tomar más tiempo, según qué parte del flujo de tu producto sea. Entonces, hay un montón de parámetros ahí a jugar. Y de vuelta, creo que podríamos pensar: Eso es trabajo de ingeniería, trabajo de producto. Y no sé, es una disciplina, es un campo nuevo.
+
+[00:33:56.07] - Carlos Iglesias
+Es un campo nuevo, sí. Van apareciendo campos nuevos.
+
+[00:33:59.17] - Nacho Bassino
+Exactamente. Mi recomendación es tírate la pilita y abrázalo, porque va a ser una habilidad nueva que en el futuro seguro va a ser necesario.
+
+[00:34:04.19] - Carlos Iglesias
+Y va a ser muy necesario, desde luego. Sí, me parece superinteresante esa parte. Has dicho: Eres bullish. Me ha gustado esa forma de decirlo. No soy bullish. ¿Te preocupa el impacto social de los productos de inteligencia artificial que estamos construyendo hoy?
+
+[00:34:27.06] - Nacho Bassino
+No se me preocupa tanto el impacto social de los productos en sí. Yo creo que el impacto social va a tener que ser beneficioso, porque de vuelta voy con mi bullish acá, pero yo creo que hay tantas personas tomando decisiones sobre productos que no tienen ni idea de lo que están decidiendo, que que el AI se meta ahí a decir un poco más, va a ser que los productos en promedio sean mejores. Te la compro. Perfecto. Lo que me preocupa ligeramente más es el periodo que vamos a pasar, porque a largo plazo, va a ser beneficioso, pero el periodo que vamos a pasar de: Okey, si el 50% de trabajos se automatizan mañana, ¿qué pasa con la sociedad?. Esa me preocupa un poco más, que ojo, no es el impacto social de los productos en sí, sino es el impacto social de cómo cambia la economía cuando no necesito un buen opción esa tarea.
+
+[00:35:14.22] - Carlos Iglesias
+Sí, entiendo. Y por eso, mi pregunta era también relacionada con los productos que estamos pudiendo crear también.
+
+[00:35:22.06] - Nacho Bassino
+Claro, sí, ahora lo entiendo más. Si yo me imaginaba, si le agrego más capacidad a los productos que tenemos hoy, seguro van a ser para Creo que esa parte de automatismo es la que va a ser más interesante, insisto, en los próximos 5, 7, 10 años, nadie lo sabe, no quiero ser futuroología. Que bueno, nada, voy a ir en los ejemplos clásicos, pero imagino que va a ser más como la Revolución Industrial. Hay gente que la va a pasar muy mal en el medio, salvo que encontremos una fórmula distinta para transitar.
+
+[00:35:51.09] - Carlos Iglesias
+Sí, lo hemos hablado bastante esto también aquí internamente. Yo debo de reconocer que yo estoy muy preocupado con eso también. Y lo hablábamos, no recuerdo con quién, no sé si era también con Saura, que decíamos: Es que si el desarrollo de la IA para hoy, se detiene hoy, tú antes decías, me ha gustado mucho, hoy La IA es mucho peor de 24 horas. Es verdad, y tienes toda la razón, es que es así. Si la IA se para hoy, creo que ese impacto que nos preocupa, aún parándose hoy la IA, va a ser tan bestia ese impacto. O sea, creo que no sé cuál es el gap, digamos, entre lo que hay hoy y el impacto que va a llegar a tener en la automatización o en la desaparición de algunos puestos y cómo tiene que ser esa transformación. A mí lo que me preocupa es precisamente cómo la sociedad y la industria va a ser capaz de adaptarse al cambio a esa velocidad, porque joder, es muy rápido, es vertiginoso y eso me preocupa bastante, no sé.
+
+[00:37:07.09] - Nacho Bassino
+Sí, de vuelta va a dar movimiento.
+
+[00:37:08.24] - Carlos Iglesias
+Perdona, Nacho. Si paramos hoy y dejamos de desarrollar, igualmente Exacto. Esa hostia va a ser como un piano y no va a parar, es que es todo lo contrario, es que no va a dejar de evolucionar entonces.
+
+[00:37:22.17] - Nacho Bassino
+Sí, yo creo que mucho de lo que no hemos podido todavía... Bueno, hay distintos reportes de cuánto está penetrando las corporaciones, cuánto se puede y cuanto no, yo creo que todo lo que no hemos podido todavía aprovechar, no es porque la inteligencia artificial no sea inteligente. Es por esto que hablamos antes, que el contexto, las organizaciones, todavía no tienen el contexto escrito y las aplicaciones disponibles de una forma que la IA y la pueda consumir. Eso va a tardar cinco minutos en resolverse, no es un problema enorme, es un problema que hay que meterle cabeza, hay que meterle como ingeniería, si quieres, pero no es un problema superdifícil. Entonces, creo que, como dices tú, no es un problema de inteligencia artificial, es un problema de contexto que vamos a trabajar los próximos años en resolver y ya va a bastar. Mucho de la fuerza de trabajo que hoy necesitamos manualidad, no va a ser necesario.
+
+[00:38:11.24] - Carlos Iglesias
+No sé, es algo que es verdad, que yo, por una parte, siempre tengo No sé, tengo el cerebro dividido. Por una parte, me parece que estoy entusiasmado y veo todo lo que puede aportar y el valor, el increíble valor que puede aportar a muchísimas cosas y por otra, un poco Me ha gustado en ese sentido, por el impacto. Y hablando de impacto, te quería preguntar, ¿cómo creas impacto tú?
+
+[00:38:35.10] - Nacho Bassino
+Ya hablamos mucho del impacto con la IAI, así que... Sí, yo creo, a ver, si lo separamos, lo voy a separar en dos. Por un lado, di local Voy a empezar hablando primero del impacto de DLocal. Dlocal es una compañía que procesa pagos en mercados emergentes. Entonces, podemos pensar que la persona que está en Brasil, voy a usar como ejemplo, que quiere contratar Netflix y que no tiene una tarjeta de crédito para hacerlo, puede utilizar los medios de pagos locales para tener ese servicio. Entonces, creo que ya de por sí, uno de los motivos por los cuales me suma la compañía es porque tiene un impacto social muy interesante, por más que sea una compañía muy, como te decía, al final el que servimos está Netflix, pero la huella que puede dejar eso es muy interesante. Y como VP de producto, la forma que más me gusta de generar impacto es habilitar a los equipos a que desarrollen mejores productos, más rápido, etcétera. Entonces, aparte de darles el voice of working, el contexto estratégico. Esa es la parte que yo más siento que mi impacto, desde mi rol como individuo, más se ve marcado. Y la segunda pata que decías, o sea, lo separan dos, es el de d-local.
+
+[00:39:43.00] - Nacho Bassino
+La otra pata es lo que hablábamos antes, yo tenía Vengo a desarrollar esa carrera que me es muy gratificante personalmente, que es esto de poder transmitir todo lo que aprendí, todo lo que aprendo hoy en día de producto, y entonces, encontrar distintas formas de hacerlo. Ahora tengo una comunidad de aprendizaje en Product Direction, la cual me gusta mucho. También hago videos, artículos, libros, etcétera. Y creo que eso es algo que genera mucho impacto, porque la forma de verlo para mí es, si esas personas se van pudiendo hacer mejores productos, mañana el usuario, va a tener un mejor producto, O sea, que esa persona la puede ayudar a que lo haga. Entonces, es una vertiente que me gustó bastante.
+
+[00:40:19.21] - Carlos Iglesias
+Qué guay, coincide mucho. Y aprovecho para agradecerte por hacerlo, porque me parece que es muy guay. Yo no sé cómo lo vives tú, yo lo vivo como Es un privilegio poder hacerlo y poder dedicarme a eso. Y el retorno es brutal, el retorno es superbonito. O sea que... Qué guay.
+
+[00:40:37.23] - Nacho Bassino
+Además, estamos en este mundo de producto en español que no está tan desarrollado, pobre, así que tenemos que darle más cariño.
+
+[00:40:45.07] - Carlos Iglesias
+Sí, yo por mi parte hay una apuesta fuerte en ese sentido también. Dentro de 10 años, dentro de 10 años, Nacho, ¿qué te gustaría que se dijera del papel de los product managers en la adopción de la IA?
+
+[00:40:58.06] - Nacho Bassino
+Excelente pregunta. La realidad es que, como dijimos antes, la IA está borrando mucho los roles. Yo creo que vamos a dejar de pensar en el product manager, en el developer, en el product designer, y vamos a ir, estamos haciendo fotología, 10 años, AI builders, que tengan un set de skills para aprovechar la AI para poder hacer estos pipelines que construyan productos. En ese sentido, a mí me gustaría que que los product managers sean los pioneros. Y por qué siento que es un lugar que podemos y debemos adoptar, es porque estamos en esa intersección. Históricamente, el rol de product manager, o si lo pensamos cinco años para atrás, era como esa intersección de intentar el negocio, intentar el usuario, en la tecnología. Creo que la AI, que puede como ir la extramilla en la parte como de codificar, de hacer un prototipo, nos permite adoptar ese rol de AI builders y ser como los, no quiero decir los pioneros, pero los que realmente pongamos el en esa dirección.
+
+[00:42:03.03] - Carlos Iglesias
+Tiene mucho sentido, te lo compro. Nacho, superagradecido. No sé si te quedas con ganas de decir algo o hay alguna pregunta que te hubiese gustado que te hiciese aparte de esto.
+
+[00:42:15.10] - Nacho Bassino
+No, yo creo que estamos en esta etapa. Me gustó porque recorrimos como un roller coaster, como nos fuimos muy arriba de emoción y después bajamos a: ¿Qué va a pasar con el impacto social?. Así que me gustaría terminar con una otra positiva, creo que, como decías tú antes, estamos viviendo una etapa de cualquier rol de tecnología una, que va a ser increíblemente divertido, que nos va a sacar todo ese trabajo aburrido, repetitivo que teníamos. Y creo que lo mejor que podemos hacer es como marcar esa tendencia. Si por algún motivo estás preguntándote si lo tendrías que adoptar o no, es una pregunta que es absoluta, porque si tú no lo adoptas, el del lado lo va a adoptar y te vas a quedar afuera del juego. Entonces, la verdad que creo que hay argumentos muy fuertes para pensar de una manera distinta. Y nada, los que quieran ahí aprovecharlo, que se empiecen a meter en tema practicando.
+
+[00:43:00.00] - Carlos Iglesias
+Muchísimas gracias, Nacho. Un placer. Igualmente. Gracias. La conversación con Nacho deja una idea clara. La IA puede ser un acelerador brutal. El producto aporta velocidad, alternativas y síntesis, pero no puede sustituir el juicio, el contexto y la responsabilidad de decidir qué problema merece ser resuelto y a qué coste. También nos llamamos un recordatorio importante. Cuando usamos IA para entender a usuarios, el riesgo no es solo equivocarnos, es empobrecer la mirada, perder matices, a quién no encaja en los datos y confundir una respuesta bien escrita con una verdad humana. Y cuando metemos IA dentro del producto, el rol de product manager se vuelve más exigente. Yo diría que no basta con entregar valor, sino que hay que responder por los efectos secundarios, los incentivos que creamos y el impacto social de lo que ponemos en el mundo. Un fuerte abrazo y os espero en el mundo real.
+

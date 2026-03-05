@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "realworld-rag"
+version = "0.1.0"
+description = "RAG pipeline for Realworld podcast transcripts with Supabase pgvector"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "psycopg[binary]>=3.2.0",
+]
+
+[project.scripts]
+realworld-rag = "src.cli:main"
+
+[tool.setuptools]
+packages = ["src", "src.pipeline", "src.matching"]

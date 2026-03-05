@@ -1,0 +1,303 @@
+[00:00:00.240] 
+No se puede pretender que un cliente nos recomiende si nosotros como empleados no encontramos la suficiente confianza para hacerlo. No se puede pretender que un cliente se identifique emocionalmente con nuestra marca si ni siquiera somos capaces de que las personas de la empresa desarrollen un sentimiento de pertenencia no se puede pretender ser una organización Kastner centric sin la complicidad y la alineación de todas y cada una de las personas que forman la compañía desde el primero hasta el último. Es que eso que explicas en tu caso es súper fácil porque sois una empresa pequeña y podéis hacer lo que os dé la gana pero en el mundo real hacer eso en organizaciones matriciales con miles de empleados es imposible.
+
+[00:00:55.290] 
+ Pero en el mundo real cuando al mundo real le precede un pero deja de ser un lugar se convierte en una excusa si de una forma u otra eres responsable de la transformación de la compañía donde trabajas aquí encontrarás la manera de desactivar esos pretextos ese portazo al cambio. Ese aquí no se puede Este podcast es para todos aquellos que estáis convencidos de que las empresas deben poner al cliente en el centro de la estrategia y a las personas de la organización en el corazón de la misma aquí adquiere iréis una visión estratégica y a la vez practica a través de ejemplos y experiencias que os dotarán de argumentos en el idioma favorito de la alta dirección.
+
+[00:01:43.090] 
+ El lenguaje de negocio no sólo hablaremos del qué sino también del cómo hoy hablamos con Marcelo López responsable de Política y metodología Castorena Experience en Gas Natural Fenosa una empresa que no es precisamente pequeña Bienvenidos al octavo episodio de en el mundo real el podcast sobre Castromán Experience y negocio digital. Estoy feliz estoy feliz porque apenas tres meses después de haber arrancado este podcast ya siento que me está empezando a pasar lo que quería conectar con gente súper interesante y entender un poquito mejor qué sé y qué no sé yo de mí mismo.
+
+[00:02:52.280] 
+A través de conversaciones. Siento que exponerme de esta manera que siempre da cierto vértigo me está transformando me está ayudando a crecer y en esto vosotros tenéis prácticamente toda la culpa vuestros feedbacks en forma de comentarios de tuits de palabras de apoyo. Dejadme leeros solo solo este comentario en mi página en el arte. En el episodio de arquetipos de cliente en el episodio cuarto arquetipos de cliente en el mundo real un comentario que me dejó hace cuatro días el 8 de marzo Ana Corrales Heras y dice Hola Carlos quiero darte las gracias nuevamente por aquí porque de verdad es una maravilla escucharte cada podcast que escucho me ayuda mucho a afianzar conceptos que había trabajado anteriormente en un máster en Innovación que he terminado hace muy poquito.
+
+[00:03:52.450] 
+ También quiero agradecerte la dedicación y el trabajo que le pones al dejar en cada uno de ellos recursos y bibliografía para acompañar a cada tema. Muchas gracias saludos. Gracias a ti. Gracias a ti verdad.
+
+[00:04:06.730] 
+Me emocionó un montón recibir este comentario y bueno pero es que gracias también a todos a todos aquellos que estáis dando visibilidad a este podcast a través de las redes muy rápido dejadme nombrar algunos por favor porque si no gente como Javier Rosel Dani Latorre Maica Trinidad José Manuel Bea Chus Naharro Guillermo Latorre Pablo Gimeno Paco Plaza aceitosa Toño de la Torre David Martín Alicia Vázquez y a Eva Albors Vicente Arregui Fernando de verdad Leo Díaz es que lo siento pero no puedo nombrar a todo el mundo porque me tiraría todo el programa mencionando personas.
+
+[00:04:52.280] 
+Muchos de vosotros muchos de estas personas gente a la que admiro y respeto profundamente y otros todavía no tengo el placer pero espero que se dé pronto la ocasión.
+
+[00:05:03.710] 
+Incluso estoy empezando a conectar con gente al otro lado del charco como Paolo Díaz Bardales especialista en caso en un expediente en el Banco Financiero del Perú Erika Andrade que es gerente coordinador nacional de experiencia relación con el cliente en Zenet Ecuador Julissa Bayona. Ahora muy enfocado en transformación digital en su momento en Telefónica Perú. En fin. De verdad abrumado y superado por las muestras de cariño por los feedbacks de mejora también que tanto agradezco de verdad os lo digo por todos los votos como likes reseñas que estais dejando en iTunes iBooks y el resto de plataformas de verdad amigos oyentes.
+
+[00:05:50.000] 
+Gracias. Gracias. En fin sigo porque si no este episodio sería solo un episodio de agradecimiento y tampoco es plan. El episodio de hoy he de decir que para mí ha sido realmente una sorpresa. A ver había leído algunas cosas que se estaban haciendo desde Gas Natural en cuanto a la experiencia de cliente. Pero entre nosotros todos sabemos lo fácil que es decir que hacemos algo. Escribir sobre ello y otra cosa bien distinta es hacerlo de verdad.
+
+[00:06:22.110] 
+A ver yo tampoco es que llegase a esta entrevista con ningún prejuicio particularmente definido con gas natural al menos de forma consciente al menos de forma consciente que se habla de esto también en la entrevista con Commerce. Cómo nos influyen también los medios y tal pero sí que he de reconocer que la charla con ella con Marsé me dejó claro que ésta es una organización que están a un nivel increíble. En cuanto a la experiencia me sorprendió y quiero quiero aprovechar en este sentido antes de dejaros con ella quiero aprovechar este momento para felicitar y agradecer a Marsé por su generosidad y su profesionalidad a su equipo de CEX a lo que estoy deseando conocer en persona.
+
+[00:07:10.700] 
+Por cierto a su muerte ejecutivo porque realmente demuestran que creen en esta visión Kastner centric y ya toda la organización por por por implicarse tanto en ello sin más. Os dejo con la entrevista.
+
+[00:07:26.750] 
+Ya veréis que a media entrevista yo me siento tan abrumado que tengo que felicitarles directamente pero os lo digo de verdad a mí me sorprendió un montón.
+
+[00:07:35.810] 
+Deseo que os sorprenda también a vosotros y que saquéis muchos aprendizajes de la conversación con Marsé tanto al menos como los que yo he sacado. Os dejo con ella bueno pues aquí estamos otra vez de nuevo.
+
+[00:07:53.390] 
+Hoy tengo la suerte de estar con Marcel López. Muchísimas gracias por estar aquí. A ti Marsé es responsable de Política y metodología de tomar experiencia en Gas Natural Fenosa y bueno para mí es un privilegio poder hablar con alguien que está tan involucrado en experiencia de cliente en una empresa tan grande y tan importante como gas natural así que de verdad te agradezco muchísimo que hayas hecho muy con tu agenda. Muchas gracias.
+
+[00:08:27.080] 
+Para empezar nada bueno para invitarme perfecto. Me gustaría que te presentes tú a los oyentes cuál es tu. Qué significa eso de responsable de Política y metodología del caso del expediente. Cuál es tu rol actual.
+
+[00:08:43.600] 
+Bueno es el título La función es un poco rimbombante la política y metodología que será Garces politóloga.
+
+[00:08:54.290] 
+Bueno pues mi principal función es impulsar la estrategia Customer Experience en Gas Natural Fenosa asegurando una única y misma metodología para todos los empleados es decir al final trabajar de una misma manera para que el concepto Customer Experience cale en toda la organización y por ende al cliente final. Porque estamos hablando de una burrada empleados si 7500 sólo en España y a nivel de grupo somos 17000.
+
+[00:09:24.020] 
+Tu impacto a nivel nacional o a nivel de grupo a nivel de grupo madreña. Nuestra estrategia es totalmente internacional es decir no nos hemos centrado sólo en España aunque es cierto que en España es el país que está más avanzado en la implantación de la estrategia.
+
+[00:09:43.850] 
+Vale vale vale vale. Cómo has llegado a este rol como estuvo este viernes. Has acabado aquí.
+
+[00:09:54.770] 
+Bueno pues toda mi mi vida profesional ha ido dando vueltas en torno al eje cliente. La verdad es que todo me ha llevado como hasta aquí. Empecé hace muchos años como operadora de concentrar sí mientras estudiaba y ahí aprendí el plano operativa no hace nada atendía a clientes y tengo la experiencia operativa de lo que es tener al cliente enfrente. Luego me fichó Gas Natural Fenosa y fui la responsable de los procesos de formación de los sistemas de contact center en atención al cliente y en otros canales de atención al cliente y allí aprendí el plano de planificación al final pues me dedicaba a diseñar los protocolos de atención al cliente que luego los Korzeniak debían aplicar los contenidos a la formación o las tecnologías del diseño de las centralitas de los TTI desterremos etcétera con lo cual ya tenía la visión de la planificación del otro lado del espejo.
+
+[00:10:56.780] 
+ También fui bisnes partner de servicio al cliente para los negocios regulados y ahí aprendí el plano de estrategia la estrategia de cliente con lo cual al final casi uso en 360 grados la vista al cliente desde muchos puntos de vista y finalmente a principios de 2015 pues ocupó esta función. Responsable política de metodología Cex en el grupo y donde impulsamos ya la estrategia customer experience a nivel global están las trincheras más que desde atender a un cliente hasta ahora pensar a nivel global. Cómo podemos mejorar la experiencia de este cliente.
+
+[00:11:42.660] 
+Entonces a nivel de imaginar lo que es impactar racconto ya dicho 17000 personas a nivel de organización de quién es la responsabilidad de la experiencia de cliente.
+
+[00:11:57.800] 
+Nosotros tenemos una unidad definida diferenciada en la estructura del Customer Experience esto es importante porque no todas las organizaciones existe y esta unidad depende de una dirección corporativa del grupo. No está dentro de atención al cliente que eso también lo veo en muchas organizaciones sino que estamos en una dirección corporativa de personas y recursos. Luego en Gas Natural Fenosa aparte de nuestra organización que es matricial y vertical etcétera una organización más clásica. También tenemos toda una red de proyectos transversales que lo que pretenden es que justamente muchas direcciones que tienen sus organizaciones en vertical trabajen de manera horizontal en este sentido nosotros formamos parte de este grupo de proyectos transversales en Gas Natural Fenosa y el esponsor de este proyecto es el director general de los negocios minoristas con lo cual tenemos una organización con una estructura que dependemos de una dirección general corporativa pero nuestro máximo sponsor en la implantación es el director general de negocios minoristas de clientes.
+
+[00:13:22.660] 
+Vale entonces si entiendo vosotros tenéis seis como tenéis un departamento que cuelga directamente de la parte más corporativa. Sí y ese departamento trabaja de forma funcional con las distintas áreas. De alguna manera. Claro claro. Y esos proyectos de alguna forma nos sirven de excusa para impactar supongo que a distintos niveles de la experiencia en sí mismos. Exacto. Muchas veces nos encontramos con organizaciones como tú decías también las organizaciones tradicionales con esos temas matriciales o con silos funcionales. Esta es una forma de ir más allá de esto exactamente y más allá de intentar romper estos silos y de buscar colaboración entre los silos.
+
+[00:14:07.990] 
+Eso es porque de esta manera nosotros podemos decir que la responsabilidad final de estas experiencias compartidas.
+
+[00:14:14.710] 
+Exacto.
+
+[00:14:15.250] 
+Para ello el truco de la pregunta no dejar claro claro es que es compartida con lo cual al final para ofrecer la mejor experiencia de cliente no solamente las direcciones que están más cerca del cliente son o tienen responsabilidad sino también las que están más alejadas del cliente que tradicionalmente son las llamadas corporativas.
+
+[00:14:44.080] 
+No sólo el frontline sino también toda la parte de la KOffice y muy bien perfecto. Entonces por contextualizar un poquito y acabamos de entender qué significa el caso de una experiencia en Gas Natural Fenosa cuándo cuando arranca el proyecto Castor me expidiendo en vuestra organización. Y cuáles han sido los principales hitos hasta el momento. Alguna vez echa la vista atrás qué es lo que ha pasado hasta hoy. Dónde estáis.
+
+[00:15:14.860] 
+El proyecto arranca a finales de 2014 con formato piloto. Hacemos un par de pilotos pequeñitos y locales en una plataforma en concreto y en la prestación de nuestros servicios de mantenimiento de servirás y los buenos resultados hacen que sea necesario ordenar y elevar el concepto de Customer Experience. Más hacia arriba es decir no que se queden en algo muy local o muy operativo con lo cual se crea la Unidad de Customer Experience.
+
+[00:15:52.820] 
+Dependiendo de esta Dirección Corporativa de los recursos transversal exactamente y a partir de aquí empezamos a construir a partir de los buenos resultados empezamos a construir y esto nuestro primer paso fue pues fijarnos un objetivo un objetivo que en ese momento nos parecía muy ambicioso pero la realidad nos ha hecho ver que es concebible porque lo hemos conseguido que era ser el referente de la experiencia cliente en el sector energético y en cuanto a los hitos que me comentabas. Bueno pues yo los veo conseguidos en tres planos el plano interno sería bueno pues hemos conseguido que el Customer Experience esté en un plan estratégico en un punto importante y visible este plan estratégico del grupo.
+
+[00:16:46.760] 
+ Conseguimos también que nuestra estrategia fuera premiada como la mejor estrategia Cex en 2016 que esto nos dio mucho impulso internamente premiada por la Asociación del desarrollo por la experiencia de cliente resumenes una asociación referente en Customer Experience en España masitas tenemos el proyecto lanzado en todos los países que operan clientes en el grupo. Hemos hemos formado sólo en España a más de 10000 personas las 7000 personas que somos empleados y casi 3000 colaboradores externos. Hemos lanzado el programa embajadores de marca que es un programa que implica a todos los empleados para que podamos recomendar nosotros mismos a nuestra empresa y en realidad hemos tocado todas las dimensiones de clientes.
+
+[00:17:45.890] 
+ No tocamos el cliente la dimensión de cliente final la dimensión de cliente empresa también porque nosotros una de nuestras direcciones generales que es la distribuidora ofrece servicio a más de 300 comercializadoras no solo a la comercializadora de nuestro grupo y también tenemos un proyecto para mejorar la experiencia de las comercializadoras que es una comercializadora suelta.
+
+[00:18:14.450] 
+En España existe una ley de separación de funciones en las empresas energéticas donde la distribución de la energía y la comercialización de esta energía debe estar diferenciada es decir nosotros suministramos gas y electricidad pero no tiene el cliente que tener el contrato con la comercializadora de nuestro grupo sino que puede ser con cualquiera de las que existen ya te digo más de trescientas entiendo con ellos habéis hecho otro proyecto con estas comercializadoras.
+
+[00:18:45.950] 
+Exactamente Urtubi al final ellos también son clientes nuestro claro y que hay que mejorar su experiencia bueno esto es muy innovador porque somos los primeros en el sector lo que lo estamos realizando.
+
+[00:18:56.780] 
+El otro día hablaba con David Arconada lo conoces de la Asociación de responsables de Iberia. También hablaba con él precisamente yo lo decía se habla poco de su experiencia en el sentido de que habla mucho de plan de bien se habla de productos de empleo y experiencia en el exterior. Pero qué pasa con esto.
+
+[00:19:17.600] 
+Me parece súper interesante si estás comentando CICESE lo cual tenemos todos los planos de clientes. Me falta uno que sería el colaborador como cliente que también lo estamos trabajando con lo cual tendríamos todas las dimensiones de cliente que sería al final el cliente empresa el cliente empleado y el cliente colaborador en proyectos os lo tomáis en serio. Si nos lo tomamos muy en serio.
+
+[00:19:45.260] 
+Y hablamos de los citosina estos serían los sitos a nivel nuestro internos. Pero a nivel de cliente que hemos conseguido no. Bueno pues hemos conseguido mejorar muchísimo su experiencia y lo bueno es que no lo decimos nosotros lo dicen ellos. Cómo puede ser que los resultados de las métricas de NPS que hemos mejorado desde el 2014 sean más de 52 puntos esta recomendación. Y bueno podríamos decir que somos la empresa que más ha mejorado en este aspecto.
+
+[00:20:20.990] 
+Supongo que perdona que te interrumpa porque no lo podrás decir pero entiendo que esto tendrá un impacto en negocio evidente y esa es la razón por la cual nuestro gasto de experiencia está en el Plan Estratégico de este año exactamente eso es lo que me explicas cómo medir cuáles son esos KPI que os guían hablaba NPS del sector.
+
+[00:20:39.770] 
+Si nosotros medimos la experiencia de cliente en dos planos en el plano más de opinión sobre la compañía que es una opinión general aquí nosotros buscamos proactivamente la respuesta del cliente es decir hacemos encuestas telefónicas asegurando una muestra representativa y en esta encuesta buscamos esta visión de la visión que tienen clientes de nuestra marca está más influenciada por el entorno mediático o lo que la imagen de nuestra marca impacta en el cliente. Luego tenemos las encuestas de interacción que realizamos cuando el cliente interactúa de manera directa con nosotros para cubrir cualquier necesidad que tenga ya sea de atención o una necesidad comercial o una necesidad técnica.
+
+[00:21:33.320] 
+ Siempre medimos en estos tres ejes y esta encuesta ya es una búsqueda de respuesta más reactiva por parte del cliente es decir nosotros asumíamos por email las encuestas y el cliente le contesta o no contesta.
+
+[00:21:48.920] 
+Tenemos la suerte de que nos contestan bastante tenemos un ratio de respuesta bastante bueno muy aceptable y manejamos un volumen de 700000 encuestas anuales es decir nuestra nuestra métrica no está sustentada por un volumen pequeñito que pueda ser volátil sino que está sustentado sobre un gran volumen de encuestas está cuantificada sobre su cualitativa con lo cual podemos decir que el resultado de este NPS es muy robusto y muy consolidado y muy positivo muy positivo es decir cuando hay mucha diferencia entre la opinión que tiene el cliente en general que cuando un cliente interactúa con nosotros la diferencia es muy grandísima y nosotros estamos que se debe a que cuando el cliente opina sobre una marca en general ya está influenciado por muchísimas muchísimas muchísimas variables.
+
+[00:22:57.980] 
+Cuando el cliente opina sobre algo que ha vivido él de manera personal con alguien de la compañía tanto sea un empleado externo como interno esta percepción cambia radicalmente porque lo hacemos bien que lo hacemos bien y vendemos bien comercializamos muy bien atendemos a cliente y cuando el cliente tiene un problema técnico con su caldera con frustración vamos muy rápido y el cliente queda muy satisfecho con lo cual nosotros intentamos siempre medir esos dos aspectos porque el primero tiene un punto más global es decir si los clientes opinan bastante igual de de todas las comercializadoras es decir de todo lo que es el sector energético exactamente y el punto de interacción verdaderamente es una valoración.
+
+[00:23:56.720] 
+Si siguen siendo más más individualizada más Masaccio más otros más diferenciadores más de nuestra casa pero creemos que no podemos medir un plano sin medida del otro.
+
+[00:24:08.480] 
+Nosotros hacemos seguimiento siempre de los dos porque para estar al tanto de todo de todo lo que el cliente pueda opinar sobre sobre nosotros qué bueno yo entiendo que con tanta métrica cualitativa cuantitativa habéis desarrollado vuestras Journeys entiendo que tendréis varios Castromán Journeys cuántos tenéis cómo de creación de estos Yordanis.
+
+[00:24:33.350] 
+Bueno nosotros estamos muy centrados en mejorar la experiencia de cliente en el punto de contacto y también tenemos iniciativas de Customer Experience perdón de customer Charlone. Cómo fue este proceso. Bueno al principio tuvimos la colaboración de un consultor externo que nos enseñó a cómo caminar y cómo cómo hacer un costo mejor y a partir de ahí hicimos nuestra propia metodología que a mí me gusta decir que es nuestra. Es decir no es una metodología que hayamos copiado al pie de la letra de una consultoría o de o consultando bibliografía sino que al final hemos hecho nuestra y la exportamos a todo el grupo pero es nuestra metodología y esto yo.
+
+[00:25:25.240] 
+ Pues déjame decirte que estoy orgullosa sobre todo siendo la responsable de política exactamente porque muchas veces las bibliografías o las consultorías se quedan en el plano de muy elevado pero no te explican cómo. Cómo se aterriza esto pasa exactamente al plano.
+
+[00:25:48.250] 
+Pero yo estoy en mi día a día como lo hago no sabes como entiendo lo que dices. No nos conocemos en el plano profesional. Todavía no colabora con Jajah no hemos colaborado con gas natural una de las cosas que nosotros como consultora de negocio digital decimos y que para mí una estrategia no es una estrategia si no te la puedo aterrizar en acompañarte porque entonces sí sí mi consultoría es una estrategia que te voy a dejar encima de la mesa un tocho de papeles de trescientas páginas y te lo voy a poner ahí y me piro no te dejo una estrategia te dejo un problema.
+
+[00:26:23.100] 
+Ahora tienen que tener para comer y lo qué haces con eso y eso nos lo hemos encontrado constantemente con las empresas que colaboramos. O sea que me entiendo muy bien el dolor y entiende muy bien el cómo os habéis aprovechado apropiado vosotros de esa metodología y habéis aprendido a aterrizar de alguna forma a acciones concretas tácticas y operaciones.
+
+[00:26:44.530] 
+El primer paso evidentemente fue hacer un primer diagnóstico diagnóstico que hicimos muy grande donde estamos a muchísimos clientes identificamos los Customer chones y de éstos los que eran más relevantes o que tenían más impacto con el cliente y el segundo paso fue hacer un mapa de estos viajes nosotros el mapa lo tenemos en Envision Rosco y renombrar lo que parece una tontería pero para nosotros fue muy importante porque los ciclos de vida tradicionales de facturación cobro alta baja y nosotros creíamos ya desde un primer momento que debíamos identificar estos mapas desde el punto de vista del cliente no desde nuestro punto de vista interno con lo cual los viajes los tenemos nombrados como si los dijera cliente es decir para nosotros no hay un viaje que sea el alta sino que es un viaje que se llama necesito o necesito luz tenemos un yo pago yo reclamo necesita atención necesita atención técnica etcétera pero siempre el nombre es desde el punto de vista del cliente porque ya te sitúa con el gorro de cliente claro claro claro.
+
+[00:28:01.540] 
+Chambliss no me acordaré como lo llama ella Genghis que es un crack internacional a nivel mundial consultor la experiencia de cliente siempre insiste muchísimo precisamente en esto. Ojo con trasladar a las fases del Journey nuestros silos eso es algo que constantemente cometemos. Ella habla de nombrar las estrellas los estrechos del Castromán Johnny Hatzair. Es decir desde la visión del cliente hacia nuestro propio proceso.
+
+[00:28:33.040] 
+Finalmente eso es porque rompe estos silos exactamente porque el cliente no sabe ni conoce ni tiene por qué ni le importa saber nuestra organización interna y que si en un viaje de cliente intervienen tres áreas de tres direcciones distintas pues el cliente no da igual si nosotros nos nombramos con estas tres partes no rompemos este ciclo. En cambio si el viaje de cliente tiene un nombre que ya sin globa toda esta cadena de valor que puede estar organizativamente en direcciones muy distintas ya nos pone en plan transversal que esto es lo interesante de este mapa de viajes.
+
+[00:29:15.920] 
+Tengo que dar la enhorabuena de verdad te lo digo de forma súper sincera. Quien me conoce sabe que yo no te doy la enhorabuena porque hablando contigo me doy cuenta de que realmente lo estáis haciendo. O sea que realmente en Gas Natural Fenosa significa Experiencia de Cliente de verdad porque muchas veces me encuentro con pósters en la pared y con posters con post-its y al final entenderia vez que no pasan del poder de salida porque al final la dificultad de vencer esos esas paredes de cristal que suponen esos silos y conseguir que toda la organización se mueva en torno.
+
+[00:30:00.370] 
+ Acaso no es verdad. Me parece me parece una heroicidad la sensación no creo que sea motivos para felicitar y en este sentido me gustaría. Me gustaría saber qué crees que habéis hecho muy muy bien vosotros extraordinariamente bien extraordinariamente bien por la dificultad que conlleva el hacer este programa transversal.
+
+[00:30:22.780] 
+Esto para mí es lo más importante. Creo que donde podemos estar más orgullosos no hacer que este proyecto sea transversal que hayamos implicado a toda la organización pero para ello ha sido necesario que nuestra estrategia que la sustentamos en cinco pilares involucre a toda la organización. Es decir sólo uno de estos cinco pilares es donde se encuentra las iniciativas de mejora los costumes llorás etcétera etcétera los demás los cuatro que quedan son pilares que atacan a la identidad. El impulso organizativo a las personas o la implicación de las personas o a la voz del cliente es decir al final toda la organización encuentra que pueda aportar su granito de arena a cualquiera de los pilares.
+
+[00:31:12.490] 
+ Y para nosotros esto creo que lo hemos hecho muy bien. También hay otro aspecto que lo hemos hecho realmente bien que ha sido la comunicación interna que hemos hecho del proyecto. Esta labor de evangelización de vender un proyecto que es muy emocional y que y que cuesta de comprar para las personas que son más resistentes o que no tienen este puntito de fe sino que son más de ver para creer.
+
+[00:31:48.360] 
+Y esto también lo vemos en los escépticos que son muy importantes los escépticos y los escépticos dentro de la aviación que requieren a veces un esfuerzo energético extra para intentar convencerles. En mi experiencia son muy importantes los escépticos dentro de una operación porque siempre tienen un punto de vista crítico que te pueda federalmente.
+
+[00:32:08.580] 
+Yo creo que una organización al final es como una persona tiene que tener espíritu que son estas personas innovadoras creativas que se lanzan y no tienen miedo al cambio aunque son los voluntarios de siempre. No se si luego tienen que tener cabeza que son estos escépticos esos que te aterrizan estos que te dicen oye los costes hay que te ponen un poquito el plano real y luego de que tiene que tener manos y piernas es decir las personas que al final hacen cosas sin los tres una organización no camina o despedidos en cabezas y manos y piernas pero todos tenemos corazón que es lo importante pero si si al final esta comunicación tiene que darle a estas tres a estos tres perfiles lo que quiere y en el momento adecuado y creo que nosotros lo hemos hecho bien hemos hecho una comunicación muy emocional con un punto de humor con un punto irreverente que nos ha diferenciado mucho dentro de nuestra empresa y hemos conseguido que la organización todo completamente no sólo en España sino en todo el mundo conozca el proyecto.
+
+[00:33:20.940] 
+Todo el mundo sabe lo que es TEDx y hemos conseguido tener un Mindset que es generamos confianza que lo hemos aterrizado en unos comportamientos que son nuestros 14 principios Customer Experience que al final marcan una pauta de comportamiento en el día a día y si se aplican tanto al cliente interno como al cliente externo.
+
+[00:33:48.060] 
+Cuál crees que ha sido la clave en ese sentido. Porque precisamente el otro día con David Arconada lo hablábamos también en términos de comunicación desde cómo tú comunicas o vendes una idea hasta como haces partícipe a las personas que has hecho. En este sentido para hacer partícipes ha sido como comunicación bidireccional mucho impacto. Todo lo contrario. Entiendo cocreación cómo así de sencillo.
+
+[00:34:12.190] 
+Bueno nos ha ayudado mucho internamente el programa embajadores que antes no de pasada. El programa embajadores está dentro de nuestra estrategia en el pilar personas empleados y colaboradores y lo que pretende el objetivo que tiene es aumentar la seguridad personal que tengamos nosotros recomendó a nuestra compañía y aquí no solamente ha sido una comunicación unidireccional sino que aquí se articula es decir hacemos cosas hagamos cosas. Cómo podemos hacer que nuestros empleados vean que los canales de atención al cliente lo hacen muy bien pues llevándolos con lo cual tenemos una iniciativa que se llama las inmersiones donde los empleados nos apuntamos.
+
+[00:34:58.610] 
+ Tenemos un catálogo amplísimo para poder visitar plataformas telefónicas para poder visitar back office para poder acompañar a técnicos a arreglar calderas para poder acompañar a comerciales a ver cómo vienen.
+
+[00:35:15.420] 
+También tenemos misiones que son de coches vehiculares con gas vehicular o ir a conocer plantas de generación eléctrica es decir al final es conocer un poco la empresa por dentro y qué es lo que hacemos para el cliente. Cuando tú lo ves pones en valor esa acción es decir lo sientes en la piel. Claro cuando cuando un compañero va a una plataforma telefónica y está a un par de horitas junto con un operador y ve cómo el operador se mueve por los sistemas contesta AK cuando sale de allí valora mucho más este trabajo lo pone mucho más en valor y esto le ayuda a recomendar a nuestra compañía porque si nosotros no somos capaces de recomendarla no podemos pretender que nuestros clientes lo hagan totalmente.
+
+[00:36:06.340] 
+Y bueno el programa tiene muchísimas iniciativas estas una hay muchísimas más y tienen un éxito brutal una una satisfacción impresionante y y medimos muchas métricas también de este programa pero una de las que estamos más orgullosos es que siempre les preguntamos a los compañeros si han aumentado su sentimiento de orgullo de pertenencia de la empresa y el 85 por ciento de nuestros compañeros dicen que sí que lo han aumentado con lo cual todo rema a favor de hacerlo todos mejor y que al final el cliente lo perciba.
+
+[00:36:51.510] 
+Qué importante es la empatía ponerse en los zapatos los zapatos de la otra persona y sentir los dolores. Muchas veces precisamente esos silos lo que provocan esa distancia y esa incomprensión de los problemas de unos respecto a los del otro.
+
+[00:37:06.000] 
+Me parece una iniciativa excelente si el valioso resultado lo mira fíjate te voy a explicar otro ejemplo que va muy a colación con lo que estás diciendo tenemos otra inmersión que se trata de que en un mismo negocio las personas que se dedican más a los Front y las personas que se dedican más a los bats se visitan entre ellos para que unos conozcan la realidad de los otros y en lugar de criticarse lo que hacen es comprenderse y esto es una.
+
+[00:37:37.170] 
+Esto es un gesto novedoso en nuestra empresa porque bueno en nuestra empresa y en muchas casi todas y hace que esta empatía entre nosotros revierta en que trabajemos todos mejor más a gusto con un mejor clima y al final todo todo de que el cliente se siente mejor entendido y la experiencia es mucho mejor para él.
+
+[00:38:00.770] 
+Yo soy muy pesado mis oyentes me van me van a escuchar siempre pero es que lo creo profundamente. Yo vengo de las metodologías ágiles que nosotros tenemos la consultora de negocios Ital que desarrollamos pronto digital también vengo de las metodologías ágiles y de ayudar a las empresas también a agilizarse en algunos casos y siempre siempre siempre en la comunidad ágil siempre nos hemos quejado del mismo dolor. Eso silos del que no se comprende la funcionalidad y yo no me canso ahora últimamente de repetir es que allá el problema que encuentra muchas veces es el para qué.
+
+[00:38:40.950] 
+Para qué. Y creo que la respuesta está en la experiencia de cliente.
+
+[00:38:45.930] 
+Yo lo creo fervientemente creo que la experiencia cliente responde otro plano a todos los niveles desde el nivel más alto si quieres más o más del liderazgo de la propia organización de los que se habla en los despachos hasta lo operativo realmente hasta se Frontline. Entonces yo creo que yo veo claramente y no paro de gritarlo a los cuatro vientos que Castorena Experience es una oportunidad de oro precisamente para eso para conseguir organizaciones más felices también más felices más satisfechas con la entrega de valor que hacemos más enfocadas a esa entrega de valor al flujo y la entrega de valor.
+
+[00:39:25.950] 
+Me gusta mucho que se afinales poner un objetivo común exacto es decir cuando no lo tenemos. Tradicionalmente siempre las unidades internas están como en competencia entre ellas no unos sino sí si tú no tienes éxito o tienes dificultades en algo siempre porque la otra unidad no te sirve o no te da la Yaiba de la estación de además Morales fue claro Ahora nosotros tenemos un objetivo como un objetivo común con una responsabilidad compartida como te he comentado antes que también están nuestras valiã variables y esto es muy importante.
+
+[00:40:04.840] 
+Los bonos. Claro y esto es muy importante porque al final todos remamos hacia un mismo objetivo absolutamente todo lo que pueda ayudar.
+
+[00:40:16.490] 
+Me parece muy bueno. Me estás explicando muchas cosas que habéis hecho muy bien. Me gustaría saber que habéis hecho bien que habríais hecho diferente o diferente.
+
+[00:40:28.070] 
+Así a bote pronto y en general te diría que más que nada no porque porque con la vista histórica ves que ha ido bien cualquier camino que hubiéramos cogido al final hubiera tenido pros y contras y hemos aprendido otras cosas pero al final llegaríamos al mismo punto.
+
+[00:40:45.230] 
+Lo que sí que una cosa en concreto si quería hubiera hecho diferente o haría diferente que sería la formación. Vale que es muy importante y en una empresa como la nuestra que tiene tantísimos empleados es un tema que logísticamente cuesta cuesta de realizar y lo hubiera hecho en otro orden. Le hicimos un poquito como pudimos decirlo así un poco como las circunstancias federa pudimos y lo hubiera ordenada de distinta manera porque empezamos con una formación al colaborador externo antes de que el empleado interno supiera del proyecto empleado y le hemos hecho un poco desordenada porque hemos hecho de abajo a arriba y me hubiera gustado ahora plantear el listing pero al final hemos hecho formación.
+
+[00:41:39.740] 
+ Todo el mundo está formado no solamente una formación presencial sino que hay un curso en nuestra universidad on line. Tenemos un catálogo amplísimo de cursos y uno es el de Customer Experience donde explicamos la estrategia pero no nos hemos quedado ahí tenemos una labor de comunicación que también es formativa que estamos continuamente explicando a nuestros compañeros qué hacemos para el cliente. Las novedades en productos en servicios etcétera y esto al final nos da un conocimiento de la compañía que es continuo pero sí que si ahora retrocediera cuatro años hiciera un plan de formación diría vamos a hacerlo de otra manera pero lo importante es que está hecho.
+
+[00:42:30.810] 
+Si yo entiendo que muchas veces también sobre todo cuando más falta en la formación normalmente es al inicio cuando todo el mundo está un poco descontextualizado. Claro es que al inicio entiendo que tampoco es tan prioridad estratégica tampoco hay tantos recursos puestos ahí no todo el mundo conoce el proyecto y claro por eso lo hicimos como las circunstancias nos vinieron y al final el resultado el resultado ha sido ese sería el mismo.
+
+[00:43:02.750] 
+Todo el mundo está formado todo el mundo conoce la importancia del proyecto no solo en su plan estratégico sino sino también en su plano operativo. Las iniciativas que se hacen en no solamente customer journey sino también comunicación e identidad de marca el lenguaje claro en todas las iniciativas que tenemos repartidas por todos los pilares de la estrategia.
+
+[00:43:23.960] 
+Cuántos años lleva el personal en este rol tuyo responsable de tres años desde 2015. Lo mismo vale si te cruzase es desde un plano más personal quizá te pregunto si te cruzas con la Mercè de 2015 por el pasillo la máquina de café qué consejo le dirías al oído. Qué pedirías a ti misma.
+
+[00:43:45.710] 
+Hoy me diría Sé perseverante porque al final se consigue. No no desfallezca nunca. Muy bien.
+
+[00:44:03.620] 
+Sí porque hay momentos en los que sí hay momentos cuando tú tienes un proyecto que es muy emocional. A ti también te impacta mucho emocionalmente.
+
+[00:44:12.210] 
+Claro y sí que ha habido momentos en que desfallece son pocos días y momentos duros pero pero la verdad es que la suerte que tenemos es que todo el equipo de personas que formamos parte de la unidad Cex cuando seis personas somos seis personas seis personas somos tenemos.
+
+[00:44:35.540] 
+Venimos de mundos muy distintos de planos muy distintos de estudios muy distintos pero todos tenemos un punto en común que es que somos muy pasionales. Entonces entre nosotros nos ayudamos también mucho. La verdad es que nos aplicamos mucho el cuento que predicamos nos lo aplicamos mucho internamente y cuando uno desfallece el otro le levanta y la semana siguiente a lo mejor es al revés. Pero también crea un sentimiento muy unido de equipo que es muy importante es muy importante para para poder tirar de este carro que es enorme.
+
+[00:45:13.170] 
+Es el personaje sintiendo el peso.
+
+[00:45:18.590] 
+Supongo que también hay momentos de catarsis de equipo.
+
+[00:45:21.550] 
+Sí bueno también hay momentos de máxima felicidad de euforia felicidad de máxima felicidad de lo que hemos conseguido. Cuando lo ves sobre todo con perspectiva histórica por eso es muy importante es como cuando lees un libro que parece un tostón y dices tienes que pasar de las primeras 100 y a partir de las primeras cien páginas. Luego ya todo es perfecto. Esta trabajo es un poco lo mismo el primer año costó mucho costó mucho. Luego ya hemos empezado a recoger muchos frutos y muchos éxitos y esto también es motivo de orgullo para nosotros.
+
+[00:45:55.940] 
+Estaría toda toda la mañana hablando contigo y aprendiendo de ti.
+
+[00:46:02.560] 
+No te quiero robar mucho más tiempo. Me gustaría saber un poco proyectar hacia adelante a qué retos se enfrenta en los próximos años.
+
+[00:46:10.370] 
+Gas Natural Fenosa la perspectiva de Cliente Bueno un reto muy general sería avanzar hacia la vinculación emocional del cliente con nosotros es decir ahora mismo todos nuestros puntos de contacto están muy analizados.
+
+[00:46:29.240] 
+Tenemos muchas iniciativas Cetra pero debemos dar este paso porque el programa El proyecto Customer Experience el concepto o el mundo Customer Experience. Siempre se dice que es un mundo un concepto muy emocional pero luego esto cuesta mucho de ver cómo se aterriza y cómo se hace porque nosotros somos una empresa que el producto que vendemos es emocional.
+
+[00:46:54.150] 
+No es verdad pero hay que buscar ese lado emocional y emocionalmente así entonces al final nosotros podríamos decir que somos un proveedor de energía y queremos avanzar hacia un acompañar al cliente en su vida y una vida que hoy en día no se puede vivir sin energía. Entonces este paso de te de proveedor de una energía que tú necesitas a yo te voy a acompañar y no te preocupes que todas estas necesidades energéticas porque al final tú para qué quieres luz tú tienes luz para otra.
+
+[00:47:35.340] 
+Para eso es una necesidad derivada tú no quieres gas por tener gas tú quieres tener gas para cocinar con gas tienes algo calentito en invierno tener agua caliente no tener que ir a por leña. Al final nosotros es lo que vendemos no tenemos que identificar muy bien nuestro producto emocional el producto nacional que vendemos es una energía es una electricidad y es un servicio de mantenimiento pero al final tenemos que avanzar hacia tenemos que ir más allá. Nosotros no vendemos esto vendemos seguridad vendemos comodidad vendemos al final lo que queremos es vender una confianza que el cliente confía plenamente en nosotros para acompañarle en todos todas sus necesidades que tenga estoy entendiendo entonces que para poder lograr ese impacto emocional para nosotros es fundamental buscar esas anclas con vuestro propósito exactamente con el propósito de la organización de cara a su cliente que todas las organizaciones.
+
+[00:48:37.790] 
+Me gusta mucho este ejemplo porque en muchas ocasiones este programa se llama en el mundo real porque en muchas ocasiones cuando yo explico esto la gente me dice de todo esto que explicar está muy bien pero en el mundo real mi organización es que el propósito es que cada vez que yo vendo y vendo máquinas para hacer sándwiches es casi igual que vosotros vendéis un producto emocional tampoco pero sí que es verdad que todas las buenas acciones tienen un propósito y por eso existen y por eso existe exactamente.
+
+[00:49:09.900] 
+Es muy importante emocionalmente anclarse a ese propósito para poder impactar de forma emocional al cliente pues para mí es nuestro principal reto es decir ahora sí ya sabemos que esto es importante que el proyecto Customer Experience no es para nosotros no es un proyecto aunque utilicemos mucho esta palabra sino que es una filosofía al final de trabajo que se ha instalado en nuestra empresa y tenemos que ir avanzando siempre en continuo es decir nosotros.
+
+[00:49:45.720] 
+Una de las cosas que nos caracteriza es que no nos paramos nunca nunca vamos a llegar a la meta siempre estamos pensando en algo más en algo más.
+
+[00:49:55.250] 
+Y para nosotros el reto va a ser esa vinculación emocional buscarla muy bien.
+
+[00:50:02.770] 
+Si Basset te agradezco de corazón el tiempo que me has dedicado me lo he pasado superbien yo también tengo de qué tengo que reconocer que estaba nerviosa pero bueno también me ha dado mucha confianza y me has hecho sentir muy cómoda y también te lo agradezco mucho.
+
+[00:50:22.710] 
+Muchísimas gracias de verdad por tu tiempo por tu generosidad por compartir estas vivencias y sobre todo Felicidades felicidades a ti. Por favor traslada mis felicitaciones a todo el equipo de todos especialmente al equipo Cex empatizo mucho con vosotros sois y a toda la organización por supuesto pero me declaro fan de vuestro equipo y de nuestro equipo Fex. Me gustaría mucho conocerlos algún día si es posible. Muchísimas gracias. Muchas felicidades a seguir y a seguir trabajando.
+
+[00:50:55.200] 
+Muchas gracias.
+
+[00:50:57.920] 
+Y hasta aquí amigos. Este episodio de mi podcast en el mundo real el podcast sobre experiencia de cliente y negocio digital.
+
+[00:51:07.490] 
+Muchísimas gracias por escuchar. Ya sabéis que para mí es súper importante saber qué pensáis que os aparecidos ha aportado algo o tenéis alguna experiencia relacionada. Así que me encantaría que sigáis por favor seguid dejándome esos feedbacks que comentaba al principio del episodio ya sea con un comentario en la página del episodio. En este caso Carlos Iglesias punto info barra cero cero ocho donde por cierto vais a encontrar un montón de recursos de utilidad y de documentación de referencia del episodio además yo estos la surreales del episodio sí si voy encontrando información relacionada voy enriqueciendo con el tiempo Okkhoy esas temáticas o sea que sugiero que de vez en cuando vaya ir revisitando decía un comentario en la página del episodio o en la página de Facebook que como sabéis es @facebook.com barra en el mundo real.
+
+[00:51:56.210] 
+Punto podcast o mejor aún a través de una reseña Noitebús iVoox explica YouTube por la plataforma que utilizais acompañado de unas estrellitas unos la ex ya sabes que esto funciona así. Cuanto más links estrellitas y reseñas más visibilidad va a tener este podcast y por lo tanto eso me va a permitir ampliar aún más esta gran conversación que espero mantener con todos vosotros queridos oyentes. Un fuerte abrazo. Y os espero. En el mundo real.
+

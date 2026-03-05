@@ -1,0 +1,213 @@
+[00:00:01.310] - Carlos Iglesias
+¿Cómo era el mundo hace 20 años? Si os digo la verdad, a estas alturas de la película, me resulta difícil ya recordar cómo era mi vida sin banda ancha, sin WhatsApp ni Google Maps, sin estar conectado al mundo en tiempo real 24 7. Hace 20 años, cuatro amigos decidimos crear Runroom. Desde entonces, nos hemos reinventado mil veces. Quizá quienes nos conocéis desde hace tiempo me habréis oído decir en alguna ocasión que de lo que más orgulloso me siento es de que hemos sido capaces de desarrollar un modelo de negocio alrededor de un estilo de vida. Nuestra esencia sigue siendo la misma. Y si bien es cierto que en todos estos años hemos aprendido mucho sobre cultura y liderazgo, he de decir que a nuestros valores y principios les ha pasado lo mismo que a Meryl Streep o Julianne Moore: han envejecido bastante bien. Esta es la primera vez desde la creación de este humilde podcast que alguien de Runroom ocupa la silla de la persona invitada. Confío a estas alturas haberme ganado al menos esa licencia entre los seguidores de Realworld. Os invito a conocer a algunas personas de esta compañía tan especial, sus aprendizajes, sus anécdotas, sus recuerdos y su esencia.
+
+[00:01:20.140] - Carlos Iglesias
+Todas ellas son personas increíbles. A todas les debo mi cariño y mi lealtad. Jordi Hernández. Jordi, eres uno de los socios fundadores de Runroom. Hace 20 años arrancamos esta aventura juntos. Actualmente ocupas el rol de Chief Information Officer en esta empresa. Y mi pregunta para ti es, ¿si no hubieras estudiado ingeniería, ¿qué habrías elegido ser?
+
+[00:01:55.050] - Jordi Hernández
+Pues siendo sincero seguramente estaría trabajando, porque es lo que me planteé al salir de mis estudios de FP de Telecomunicaciones, donde lo que quería principalmente era empezar a ganar dinero. Ese era mi primer objetivo al salir de los estudios. Lo que pasa es que tuve la suerte que en su día, pues uno de mis tíos me dijo "De trabajar siempre vas a tener tiempo y ponte a estudiar algo que te motive, algo que te apasione". En ese momento lo que me apasionaba era algo técnico. por lo tanto, esa ingeniería, que en su día fue la primera de Europa en multimedia, pues fue lo que más me motivó. Estuve barajando  seguir con ingenierías técnicas; seguramente si no hubiera escogido la programación, estaría trabajando en el mundo de las instalaciones, la telemática, algo relacionado con ese tema.
+
+[00:03:22.290] - Carlos Iglesias
+ ¿Cómo es tu rol en Runroom?
+
+[00:03:32.940] - Jordi Hernández
+Bueno, el rol es un poco mixto. Yo hago parte de consultoría de negocio, donde ayudo a las empresas, sobre todo en la parte técnica. Creo que sé valorar o poner en la balanza la parte técnica que ayude a los objetivos de negocio de las empresas. Y soy bueno en valorar esas plataformas. Creo que les ayudo en mejorar su transformación digital, su adaptación de nuevas tecnologías para ayudar con objetivos de negocio. Y luego internamente, en procesos internos, en toda la parte de herramientas dentro de la organización y también esas herramientas para las empresas con las que colaboramos. La ciberseguridad, que aunque es algo que nos duele es algo muy importante porque lo estamos viendo constantemente, esos riesgos que supone. Y es uno de mis principales focos también dentro de Runroom.
+
+[00:04:56.620] - Carlos Iglesias
+¿Y qué es lo que más te divierte?
+
+[00:04:59.880] - Jordi Hernández
+Pues mira, me divierte dos cosas. Una parte más personal, que es venir cada día a la oficina. Y aunque ahora hay poca gente, está todo el mundo en sus casas, pero cada vez más estamos cogiendo ese hábito de volver un poquito a la rutina de salir de casa, del paseo hasta la oficina, en bici o andando, paseando con Rayo.
+
+[00:05:31.260] - Jordi Hernández
+Y me divierte también el enfrentarme a retos constantemente nuevos en los que me tengo que formar, porque yo creo que es algo que en nuestro sector es imprescindible, constantemente nos tenemos que formar en cosas o que no somos tan expertos o nuevos retos que nos proponen los clientes y que los abrazamos con muchas ganas y energía.
+
+[00:05:55.890] - Carlos Iglesias
+Muchas gracias, Jordi.
+
+[00:05:59.920] - Carlos Iglesias
+Montse Pachón, llevas casi ocho años en Runtroom. Eres una de las personas más veteranas de la compañía y tu rol actualmente es el de head de operaciones. Yo te veo bregando batalla en todo tipo de contextos y de dominios de altísima complejidad. ¿Cuál crees que es la clave para que un equipo adquiera mentalidad de producto?
+
+[00:06:29.290] - Montse Pachón
+Si solo me puedo quedar con una variable, yo diría que lo más transformador es que todos los roles que se involucran en la construcción del producto, en resolver una necesidad de ese producto, trabajen mano a mano.
+
+[00:06:41.730] - Montse Pachón
+Esto quiere decir definir la solución juntos, construir la solución juntos y ver los resultados que se están consiguiendo con las hipótesis que nos habíamos planteado juntos. En realidad la mayoría de los principios ágiles requieren de esa colaboración entre los diferentes roles. Hay uno de los principios del manifiesto que habla directamente de que los desarrolladores y las personas de negocio colaboran fluidamente en el día a día del desarrollo de productos, pero hay muchos otros principios que aplican. Veinte años después, hay muchos más roles involucrados en producto y no siempre les dejamos trabajar de forma síncrona. Nos encontramos muchas veces con equipos que no pueden actuar como tal, porque sus prioridades son diferentes. La prioridad no está compartida y si tu prioridad y la mía no es la misma y no tenemos el mismo objetivo, es muy difícil que trabajemos como equipo.
+
+[00:07:37.790] - Montse Pachón
+Para cada una de las necesidades, ese equipo cross funcional va a tener que ser diferente. Pero para mí es importante que desde el principio, desde la propia definición, hasta medir los resultados, el impacto en el producto que estamos teniendo, estemos todos involucrados de la misma manera, en la conversación para encontrar la mejor solución y poder comunicarnos de forma ágil para poder optimizar también los tiempos de entrega y conseguir resultados.
+
+[00:08:09.040] - Carlos Iglesias
+Esto es algo que dice toda la literatura. Y sin embargo, lo que yo me encuentro ahí afuera es, de alguna manera, siempre es todo lo contrario. Organizaciones separadas por silos, equipos que se llaman squads, pero que tienen una responsabilidad funcional, que además les llega todo definido y se dedican a crear, a fabricar funcionalidades. ¿Dónde está la magia en las organizaciones? ¿Por qué hay organizaciones que sí lo hacen y por qué hay organizaciones que no?
+
+[00:08:51.630] - Montse Pachón
+Es difícil responder a esto. Yo creo que cada uno tenemos una teoría. A mí siempre me sale decir que organizarnos realmente de forma ágil es antiintuitivo. Cuando tú lo explicas, a la gente le suena mal; no le suena bien. A mí me pasó. Yo soy convertida, totalmente. Me acerqué al agilismo para demostrar que esa forma de trabajar no era la mejor y descubrir la que es la mejor forma de trabajar que conozco, a día de hoy. Entonces, es una forma muy empírica de trabajar, porque al final puedes medir end-to-end ... O sea, toda la literatura, todo lo que te he explicado, hay un montón de gente que ya lo ha dicho antes, pero dar el paso es difícil por esta sensación de que no puede funcionar, que hemos tenido todos al principio. Y yo creo que es una forma un poco frustrante para muchos equipos en los que se dice que se quiere hacer una transformación ágil, pero que en el fondo no alinean la prioridad, no es única. Si tú y yo decimos que somos un equipo, pero tu prioridad y la mía no es la misma en el mismo momento, ni somos un equipo ni vamos a tener un gran impacto en el producto.
+
+[00:09:59.880] - Carlos Iglesias
+César Ubeda, socio cofundador de Runroom. Por tanto, llevas 20 años, casualmente como yo, al mismo tiempo que yo en esta empresa. Y actualmente tu rol en la compañía es el de Chief Experience Officer. ¿La creatividad se puede aprender?
+
+[00:10:23.740] - César Úbeda
+Yo creo que sí. Yo creo que sí. Y bueno, nosotros lo hemos visto, lo vemos constantemente en Runroom. Vemos que en los ámbitos en los que trabajamos, el ámbito del negocio, el ámbito de la tecnología, el ámbito de la transformación social, incluso, aplicamos soluciones creativas, impulsadas fundamentalmente por método.
+
+[00:10:54.350] - César Úbeda
+Es decir, herramientas que utilizamos de design thinking u otro tipo de herramientas que nos ayudan a llegar a soluciones que salen de la caja, que no son las soluciones obvias que encontrarías si no siguieras un proceso. Ahora bien, depende del tipo de creatividad. Hay creatividades del ámbito más artístico, con disciplinas como la poesía, la danza, el teatro, el cine, que no tengo claro si son ejercicios que se aprenden. Igual sí, también, pero creo que ahí ya estamos hablando del talento natural de las personas, innato probablemente, o en función de lo que han aprendido, su cultura, etcétera. Pero en el ámbito en el que nosotros trabajamos, en el que nosotros nos movemos, de hecho, es una de las cosas por las que estamos más orgullosos en Runroom y el equipo. Porque no solo el equipo creativo, el equipo de diseño hace creatividad, el equipo de tecnología también es creativo o el equipo de negocio también es creativo. Utilizamos herramientas que nos hacen tomar caminos, que nos llevan a lugares desconocidos y en muchas ocasiones muy válidos.
+
+[00:12:33.320] - Carlos Iglesias
+Es interesante tu acercamiento, porque en realidad también me parece un poco antiintuitivo. Lo que escucho es: puedes llegar a soluciones creativas con metodologías y herramientas que te ayuden a hacerlo. ¿Se puede ser más creativo en equipo que de forma individual? 
+
+[00:12:57.210] - César Úbeda
+Una de las herramientas prescritas en el ámbito de los procesos creativos es la cocreación. Y absolutamente. Yo creo que el equipo enriquece los procesos creativos y hace que se intercambien ideas que sean potenciadores de soluciones. O sea que totalmente.
+
+[00:13:21.370] - Carlos Iglesias
+¿El diseño es arte?
+
+[00:13:22.760] - César Úbeda
+No. Con esto ya nos hemos peleado muchas veces, tanto presencialmente como en Twitter. El diseño, evidentemente, no es arte. El diseño responde a una necesidad, responde a unos objetivos, responde a una intención y el arte no tiene por qué responder a nada de eso. El arte, digamos que trasciende en todos esos valores.
+
+[00:13:52.610] - Carlos Iglesias
+Muchas gracias, César.
+
+[00:13:55.240] - Carlos Iglesias
+Jorge Valencia, Jota, llevas ocho años en Runroom y te doy la bienvenida a Realworld. Gracias por estar aquí. Tu rol es de head de diseño. Además, fuiste alumno de una de las primeras promociones de nuestro máster de diseño y experiencias digitales en BAU, del cual hoy eres profesor. ¿Cómo fue tu adaptación a la forma de trabajar en Runroom? ¿Te costó? ¿Fue difícil?
+
+[00:14:33.930] - Jorge Valencia
+Me costó y no me costó. Te explico por qué. Yo en Colombia había trabajado en agencias de diseño tradicionales, donde estaba el típico Don Draper, esa figura del diseñador rock star, creativo, que se encierra y sale con la gran idea. Y el diseño era exclusivamente de diseñadores. Y para mí fue un choque cultural el llegar aquí a Runroom y ver que el diseño era de todo el equipo, de todos los roles. Y para mí fue un "tú, developer, ¿qué me vas a decir a mi diseño? ¿Qué feedback me vas a dar a mí?" Ese choque fue como "wow, no me lo creo aún, pero vamos a darle un poco más". Y cuando digo que no me costó fue porque se hace muy fácil trabajar en Runroom. Ese tipo de diseño colaborativo, donde todos aportan es muy inclusivo. Y así fue la adaptación relativamente rápida.
+
+[00:15:54.700] - Carlos Iglesias
+Oye, y la idea de diseñar un producto de forma iterativa incremental, ¿cuál es el reto desde el punto de vista de diseñador?
+
+[00:16:02.720] - Jorge Valencia
+Eso sí fue una locura y eso me partió la cabeza. Nuevamente, como venía de este modelo más tradicional, yo estaba acostumbrado a diseñarlo todo, pixel perfect, y hasta que no lo tengo, completamente terminado y reluciente, no lo comparto. Entonces, esto de iterativo incremental, de diseñar un pedacito, en abstracto además, no lo veía. Y si le sumamos lo que te decía de que había desarrolladores dándome feedback, una persona de negocio dándome feedback... "Hey, yo soy el diseñador, yo soy el que sabe". Nuevamente, ese choque cultural que te decía. Al inicio fue duro. Además que cuando me lo explicaban, no lo entendía. Pero son esas cosas que hasta que no las haces, no las entiendes. Las tienes que vivir. Entonces, recuerdo la primera vez, cuando trabajamos en el creativo incremental, en lugar de hacerlo todo, hagamos algo que tenga sentido, que aporte valor ¡y funcionó! Y fue un wow, de pronto fue suerte. Luego lo vuelves a hacer y te das cuenta que funciona. Que no es solamente una idea, sino que es algo que sirve. Así que fue duro, pero nuevamente. Justamente este diseño colaborativo, esta metodología, me funcionó.
+
+[00:17:33.110] - Carlos Iglesias
+Qué bueno, Jota, muchas gracias.
+
+[00:17:35.450] - Carlos Iglesias
+Beatriz Cardona, bienvenida a Realworld. Llevas cuatro años en Runroom y actualmente tu rol es el de directora de desarrollo de negocio y consultoría de estrategia digital. Piensa en el concepto estrategia de negocio. ¿Qué ha cambiado en los últimos 20 años?
+
+[00:17:57.790] - Bea Cardona
+20 años son muchos, pero desde mi experiencia, sobre todo en el ámbito digital, destacaría tres ámbitos que han cambiado principalmente. El primero sería la digitalización y cómo la digitalización ha venido a cambiar muchos procesos, automatización, búsqueda de nuevos mercados, incluso el propio modelo de negocio. Gracias a las tecnologías, muchos modelos de negocio han cambiado, pues debido a la digitalización de las nuevas tecnologías. El segundo punto sería el de el foco en el cliente. Y también hemos ido viendo cómo esta transformación, cómo las empresas han ido pasando de empresas muy centradas en el producto a centradas más en el cliente, poniendo al cliente en el centro de la estrategia. Y trabajando mucho en la personalización, el ya no vendemos servicios o productos, ahora vendemos experiencias. Y este también ha sido otro cambio importante. Y el último que destacaría sería quizás la parte de análisis de datos y BigData.
+
+[00:18:59.010] - Bea Cardona
+Cómo tenemos ahora muchísima más información, muchísimos datos, y podemos analizarlos para la toma de decisiones. Y cómo toda esta información nos ayuda en la toma de decisiones a la hora de definir o ejecutar nuestras estrategias digitales. Pero, te diría, creo que el cambio fuerte está por venir en los próximos años. Estamos viendo muchas tecnologías disruptivas que están entrando y con esto, creo que es muy importante que las empresas tengan estrategias ágiles, o sea, que sean capaces de adaptarse a los cambios que cada vez suceden a mucha mayor velocidad.
+
+[00:19:36.480] - Carlos Iglesias
+Interesantísimo esto, porque yo recuerdo que antes veíamos estrategias a cinco años. ¿Eso existe todavía?
+
+[00:19:44.000] - Bea Cardona
+Eso en algunas empresas existe, pero te diría que no sirve para nada. La velocidad a la que están sucediendo los cambios hacen que puedas planificar a lo mejor a un año o dos años vista. Sí que es importante tener una visión y saber a dónde queremos ir. Pero más allá de esta visión, tener esta capacidad de cintura y de poder adaptarnos a los cambios constantes que estamos viviendo en el entorno. Y lo hemos visto con la pandemia. Quién se iba a esperar que de repente llegara una pandemia, nos encerrara a todo el mundo en casa, y cómo las empresas con la suficiente agilidad para adaptarse a estos cambios de forma rápida, han podido sobrevivir de mejor forma que las que no han sabido adaptarse tan rápidamente.
+
+[00:20:27.860] - Carlos Iglesias
+¿Se han adaptado bien las empresas grandes?
+
+[00:20:32.680] - Bea Cardona
+Yo creo que hay de todo. No me atrevería a decir sí o no. Y yo creo que ha habido mucha intención de adaptación. Sí que el cambio, la aceleración de la digitalización, se ha acelerado, ha ido mucho más rápido, pero creo que todavía hay mucho margen de mejora en la mayoría de empresas.
+
+[00:20:53.270] - Carlos Iglesias
+Muchísimas gracias, Bea.
+
+[00:20:56.160] - Carlos Iglesias
+Aurelio Moreno, mi tercer socio, socio cofundador de Runroom y actualmente director de operaciones. ¿Cuál fue el principal desafío que enfrentaste al arrancar Runroom y cómo lo superaste?
+
+[00:21:25.950] - Aurelio Moreno
+A ver, el primer desafío fueron muchos, pero yo creo que el principal fue establecer una relación de confianza entre los socios, conseguir una cohesión que pudiese durar mucho tiempo. De hecho, en particular para mí, porque para mí trabajar con vosotros era casi intimidatorio. Primero porque soy más joven que vosotros, pero también porque yo estaba muy verde. Yo salía de la universidad, ya me conocíais. Vosotros llevábais tiempo trabajando, compaginando estudios y trabajo. Para mí, trabajar con vosotros era "a ver si doy la talla". Y bueno, fue un reto fuerte en el que tuve que trabajar mucho. ¿Cómo lo solucioné? Trabajando mucho, básicamente. Creo que era bastante mal programador y me tocó programar. Se me daba bien vender. Pude vender un proyecto grande para el Ministerio de Andorra de Educación, montar un sistema educativo, un sistema de e-learning con una tecnología que no conocía. Y por lo tanto, yo creo que nunca he trabajado tanto, ni los fines de semana, que no lo recomiendo, por cierto, pero bueno, lo tuve que hacer y valió la pena. Y bueno, creo que me gané vuestra confianza y que en general creamos una cohesión para 20 años.
+
+[00:22:58.480] - Carlos Iglesias
+Ser cuatro socios, Aure, ¿en qué crees que ha determinado eso la cultura de esta empresa?
+
+[00:23:05.950] - Aurelio Moreno
+Bueno, a ver, yo recuerdo que cuando explicaba que éramos cuatro socios me decía; "olvídate, demasiada gente. Eso no tiene futuro". Yo creo que ha sido una de las claves de Runroom. Eso nos ha permitido tener una diversidad de visiones, que en nuestro caso tenemos la suerte de que son complementarias, lo cual enriquece. Porque yo creo que si tuviésemos todos a la misma visión o los mismos intereses o fuésemos muy parecidos, seguramente habría más conflicto. Funciona mejor la combinación de los opuestos y lo complementario, creo yo. Y en ese sentido creo que la clave ha sido que ha enriquecido claramente la visión y ha permitido también que nos fuésemos amoldando, gracias a las diferentes visiones, a la realidad que nos hemos ido encontrando.
+
+[00:23:51.940] - Carlos Iglesias
+¿Qué es lo más difícil de dirigir las operaciones en Runroom?
+
+[00:23:58.110] - Aurelio Moreno
+Lo más difícil seguramente es casar las necesidades de una empresa que se rige por las reglas del mercado con las necesidades de las personas. La dirección de operaciones se encuentra arbitrando dentro de esta tensión. Cuando se consigue alinear las necesidades de las personas y de la empresa, la verdad es que es muy bonito, pero cuando no, se pueden generar situaciones duras.
+
+[00:24:28.170] - Carlos Iglesias
+Muchas gracias, Aurelio.
+
+[00:24:29.530] - Carlos Iglesias
+Judith Font, bienvenida a Realworld. Tu rol en Runroom es un rol que no siempre existió. Para mí fue realmente importante tomar la decisión de tener una directora financiera, como es tu caso en Runroom. Y además, junto con Montse y Bea, formáis parte de este board estratégico que hemos formado para definir el camino y la visión hacia donde estamos yendo. Tú has fundado varias empresas, has estado en el board de dirección en unas cuantas. ¿Qué es diferente en Runroom?
+
+[00:25:16.740] - Judith Font
+Si me permites, primero, te voy a decir algo que ya es distinto en Runroom, y es que me has llamado directora financiera. Y yo creo que una de las cosas que yo veo distintas en Runroom es que la palabra dirección chirría aquí. El estilo de liderazgo que yo veo es más un estilo de consenso, de acuerdo, de escuchar, de hablar. Sí que hay dirección en el sentido de hacia dónde vamos, pero no como lo que se entiende con ser un directivo. Tú mismo muchas veces dices que no te gusta que te llamen jefe.
+
+[00:26:16.640] - Judith Font
+Yo creo que lo que hace especial a Runroom, porque yo considero que Runroom es una empresa especial y soy muy fan de Runroom, quizá gracias a haber trabajado para muchísimas empresas y ver que en Runroom confluyen, varias cosas que la hacen para mí especial. Por ejemplo, una cosa que a mí me sorprende cada día: la relación y el estilo de liderazgo de los cuatro socios. Yo creo que eso es un valor buenísimo y la forma cómo cuidáis la relación creo que es súper positivo. También me gusta mucho cómo os habéis repartido los roles, como de forma bastante orgánica hay alguien que está velando por la cultura, alguien que está velando por la tecnología, alguien que está velando por la creatividad de las ventas, alguien que está velando porque todas las cosas funcionen, las operaciones.
+
+[00:27:37.330] - Judith Font
+Y que haya surgido así de esta forma natural, pues creo que es algo muy especial. Otra cosa que creo que hace a Runroom especial es la mejora continua. Esta actitud, siempre delante de todo, sin obsesionarse, sin volver complejas las cosas que no lo son, pero sí que hay esta vocación de crecer, de aprender, de hacerlo cada día mejor. Y esto también creo que es algo a destacar.
+
+[00:28:11.350] - Judith Font
+Otra cosa que destacaría es que sois cuadros socios y sois feministas. Y feministas no de palabra, de hechos. Aquí no se habla de feminismo directamente, ya está como empapado en la cultura. A mí también me sorprende, quizá porque hace más de 30 años que no estoy en el mundo de las empresas y ver esta evolución a mí me gusta. Otra cosa que también destacaría es la autenticidad del Human Centricity. Yo veo que aquí de verdad, de verdad, las personas están en el centro y son importantes.
+
+[00:29:03.410] - Carlos Iglesias
+No me queda nada más por preguntarte. Muchísimas gracias, de verdad.
+
+[00:29:10.170] - Carlos Iglesias
+María Massagué, bienvenida a Realworld. Llevas casi ocho años en Runroom y tu rol actualmente es el de Head of Growth. Te doy la bienvenida a ti y le doy la bienvenida a Julia, que yo creo que es la entrevistada más joven, que va a pasar por este podcast.
+
+[00:29:30.820] - Carlos Iglesias
+¿Qué podemos hacer hoy en los clientes que no podíamos hacer hace ocho años, cuando tú te incorporaste a Runroom?
+
+[00:29:50.230] - Maria Massagué
+Pues la verdad es que los proyectos han cambiado radicalmente. De lo que hacíamos cuando entré a lo que estamos haciendo actualmente, no tiene nada que ver. Ahora mismo, alineado con lo que decía Bea, los cambios están sucediendo cada vez más y más rápido. Y en los últimos años nos estamos centrando mucho en ayudar a las empresas a poder dialogar con sus clientes finales, a desencadenar conversaciones en el momento adecuado y poder escuchar realmente lo que opinan sus clientes. Y cuando hablamos de escuchar realmente es escuchar, es entender qué está sucediendo y poder desencadenar acciones.
+
+[00:30:34.850] - Maria Massagué
+Ahora los proyectos que estamos haciendo principalmente en el área de Growth son de escucha de la voz del cliente y es muy potente el entender cuál es el recorrido del cliente, el poder desencadenar una pregunta en un momento que sabemos que puede ser de dolor o un momento que sabemos que es crítico o simplemente dejarles una pregunta abierta para que nos puedan decir. Con este tipo de herramientas también es donde está realmente el poder, te permiten obtener, a través de inteligencia artificial, a través de análisis de datos, de generación de alertas, el poder entender cuál es a la persona a la que tenemos que atender antes. Porque al final vamos a contactar a muchísimas personas, aunque la comunicación pueda parecer como muy cercana, personalizada, realmente es una conversación masiva. Entonces, a quién tenemos que atender antes es lo que ahora mismo estas herramientas nos permiten hacer. A la persona, cliente que por su manera de su manera de ser es más relevante para la empresa o para aquellas situaciones que se están reiterando, ya sean online, offline, siempre tenemos el mismo problema, pues vamos a atacar esto.
+
+[00:31:58.070] - Maria Massagué
+Y al final esto es muy potente para la empresa, porque al final no tenemos recursos ilimitados, ojalá, pero no los tenemos, entonces tenemos que priorizar. ¿En qué nos centramos? Porque puedes mejorar cualquier punto de la experiencia del cliente, pero lo que quieres centrarte es en aquello que va a mover la aguja, lo que le va a hacer realmente cambiar de una experiencia normal a una experiencia muy buena, o en momentos de frustración, reducir costes, mejorar la rentabilidad. Bueno, podemos centrarnos en diferentes cosas. Entonces, darle una herramienta para que pueda priorizar lo que realmente va a ser más importante es muy potente. Y para mí, este es el cambio más grande que hemos tenido en los últimos años.
+
+[00:32:55.130] - Carlos Iglesias
+Que al final responde a un avance tecnológico. Lo que me llama la atención de esto es la implicación cultural que puede llegar a tener esto dentro de la compañía. ¿Las compañías necesitan prepararse culturalmente para escuchar a la voz de cliente? ¿O escuchar la voz de cliente va a transformar la cultura?
+
+[00:33:15.010] - Maria Massagué
+Yo creo que ambas. Es decir, tienes que estar preparado a escuchar porque puede ser bueno y puede no ser bueno. Lo que te puede llegar puede ser buenísimo o puede hacer daño. Yo creo que este tipo de estrategias, para que entren bien en la empresa, se tienen que vender como algo que no solo se va a centrar en qué podemos mejorar, sino qué es lo que estamos haciendo bien. Y utilizarlas también para animar a todos los trabajadores a "qué bien lo estás haciendo". Creo que es muy importante. Y una vez entras en la rueda, claro, esto ya te lleva a ver que realmente tiene un impacto lo que estás haciendo. Creo que vienen ambas.
+
+[00:34:04.480] - Maria Massagué
+Muchas gracias, María.
+
+[00:34:05.440] - Carlos Iglesias
+Annachiara Sechi, bienvenida a Realworld. Llevas 12 añitos solo en Runroom. Actualmente tu rol es el de Head de Comunicaciones, así que eres muy responsable también de este podcast. Debes saber que es como una parte fundamental de Realworld. Y además, junto a Montse, sois las únicas personas que primero fuisteis cliente y luego runroomers, que normalmente es en sentido inverso. ¿Qué aprendiste de esa experiencia?
+
+[00:34:45.230] - Annachiara Sechi
+Recuerdo la experiencia con mucho cariño. Trabajaba muy a gusto, muy cómoda con vosotros. Y aprendí muchas cosas. Por ejemplo, aprendí de vosotros que un proveedor no es un ejecutor, no es alguien al que entregas un brief y dejas que las cosas se cumplan como tú las has definido. Si tienes la suerte de caer en manos de un buen proveedor, este se implicará y traerá una visión a tu brief, a tu planteamiento, a tu idea, que normalmente enriquece. Y ahí es un poco un reto, porque a veces esta visión, esto de cuestionarse las cosas como las has planteado, se pueden recibir como una interferencia. Yo lo tengo clarísimo, conozco mi marca, conozco mi producto, y veis que en cambio esta visión te cuestiona cosas y te ayuda a entender mejor cómo puedes encontrar una solución óptima o mejor. Aprendí a romper el brief también, al "Sí, sí, esi está bien, pero ¿para qué? ¿Para quién? Grandes preguntas.
+
+[00:36:10.230] - Annachiara Sechi
+Y luego también aprendí que incorporar al proveedor en tu equipo hace que juntos se pueda ir mucho más lejos. Y es una suerte. Cuando caes en manos de profesionales que te saben aportar esta visión y saben cuestionar todas las soluciones, pues el camino es mucho más llano.
+
+[00:36:36.310] - Carlos Iglesias
+Yo siempre digo que nosotros somos muy malos proveedores y muy buenos partners, siempre se lo digo a los clientes cuando nos conocen de primeras: no esperes que no te preguntemos por qué a todo, porque realmente no lo vamos a poder evitar. Preguntar el para qué, el por qué. Y eso es algo que además no todo el mundo acepta de buen grado, incluso diría que no todo el mundo necesita. O sea, que me alegra mucho que de hace 12 años a ahora lo que recuerdes sea eso. La verdad es que me parece muy guay. Muchas gracias. Oye, como responsable de comunicación, dirigiendo la comunicación de una compañía como la nuestra, tú vienes de una formación humanista, no vienes de una formación en tecnología, no vienes del mundo del software. Me gustaría preguntarte cuáles son los retos para una persona con tu bagaje, con tu background. ¿Cuáles son los retos a la hora de diseñar una estrategia de comunicación y de explicar lo que nosotros hacemos, nuestros servicios?
+
+[00:37:40.500] - Annachiara Sechi
+Hay varios retos, pero desde luego el de de explicar todo lo que hacemos y todos los servicios que abarcamos en Runroom, y que se van ampliando. Hace 12 años el core era claramente tecnológico y marketing. Luego hemos virado y incorporado otras vertientes, otros servicios. Y claro, el reto es empaparte de todos y poderlos trasladar de una manera comprensible. Por suerte, tengo unos muy buenos traductores internos que me prestan ayuda, de palabras raras a palabras que podamos comprender los que no venimos de un mundo de una ingeniería o del mundo tecnológico. Y ese es el reto que quizás me gusta más también, porque precisamente te acercas a sectores o a tecnologías o a ciencias con las que no estás familiarizada, pero eres capaz de trasladarlas a un contenido que pueda ser consumido por clientes que están en mi mismo nivel de interlocución. Así que gracias al equipo que me acompaña y que me hace de traductor.
+
+[00:39:10.470] - Carlos Iglesias
+Gracias a ti, Annachiara.
+
+[00:39:13.490] - Carlos Iglesias
+Araceli Iglesias, llevas 12 años también en Runroom, responsable de Performance Media. Desde entonces, prácticamente, porque ni existía performance media, era un concepto que no existía cuando tú entraste. Y además da la casualidad de que eres mi hermana. ¿Qué ha cambiado en la publicidad de pago desde entonces, desde que tú entraste a Runroom?
+
+[00:39:54.520] - Araceli Iglesias
+Bueno, ya me he hecho más mayor. Eso es un hecho. Creo que el principal cambio, precisamente, ha estado en nosotros. Nosotros entendido un poco como consultores, traders o anunciantes en general. Creo que el sector nos ha llevado a cambiar las funciones que hacíamos entonces con las funciones que hacemos ahora. No solo porque hemos tenido un montón de cambios tecnológicos, va mucho más allá. Nos hemos visto inmersos en un montón de cambios en el que nos hemos embarcado desde la irrupción de la publicidad móvil o las apariciones de la publicidad nativa en plataforma. La inteligencia artificial que llevamos ahora es muy hype, pero llevamos un montón de años trabajando con ella, y lo que nos queda. O incluso apareciendo en nuevas plataformas. Cuando entré en Runroom, Instagram acababa de nacer y ni siquiera hacía publicidad hasta hace muy pocos años. O TikTok, que es de hace relativamente muy poco. Ya son herramientas muy consolidadas. Y creo que parte del cambio que hemos realizado también en los profesionales del sector tiene que ver con conocer mejor a nuestras audiencias, profundizar en ellas para intentar comunicarnos mejor con nuestros usuarios. Y ya no compramos a granel como se solía hacer por aquel entonces, sino que intentamos generar conexiones significativas dentro de las interacciones que realizamos con nuestros usuarios. Y creo que eso es muy importante porque estamos viviendo ahora mismo un momento de cambio de paradigma muy precedido que tiene que ver con un cambio ético, que viene con los cambios que están habiendo a nivel gubernamental en la legislación de la data. Creo que los usuarios somos muchísimo más conscientes de nuestra información personal y hemos adquirido una conciencia en la privacidad de nuestros datos, que ha hecho que nosotros, como responsables del marketing también adquiramos nuevas responsabilidades de alguna manera en el manejo de los datos y cómo va a enfocarse el sector en los próximos años.
+
+[00:42:13.490] - Araceli Iglesias
+Todo eso ha hecho que al final generemos unas conexiones mucho más significativas y aprendamos a contar mejores historias, pero en un entorno muchísimo más seguro. Creo que esos han sido como los cambios más fuertes que ha tenido la industria en los últimos diez años.
+
+[00:42:31.560] - Carlos Iglesias
+Desde que se inventó el concepto SEO, por ejemplo, llevo escuchando que el SEO ha muerto constantemente cada año. A cada cambio de Google, cada cambio del algoritmo, el SEO ha muerto. Y últimamente también estoy escuchando que el SEM ha muerto, o que el SEM va a morir. Que de alguna forma esa narrativa que existe de que Google va a conseguir automatizar y enriquecer con inteligencia artificial hasta límites que no necesite de agencias o de consultoras que arranquen las campañas. Esto mezclado con este movimiento cookieless que van a desaparecer, esta protección de la privacidad que tú comentabas. ¿Va a morir el SEM?
+
+[00:43:20.170] - Araceli Iglesias
+Bueno, igual algunos stakeholders quieren que eso suceda, pero probablemente no. No tengo la varita mágica. Vamos a tener seguro experiencias conversacionales mucho más avanzadas y vamos a tener publicidad que se va a considerar menos publicidad en su momento, probablemente, o va a ser percibida de otra manera, pero está claro que alguien va a tener que interpretar los datos, alguien va a tener que entender bien en profundidad el negocio, alguien va a tener que poder rascar la superficie de lo que nos presenta y no hay nadie mejor que trabajar con un cliente o con un partner para entender cómo podemos sacarle todo el provecho a las herramientas que tenemos.
+
+[00:44:10.370] - Araceli Iglesias
+Yo creo que no, en definitiva, difícilmente va a desaparecer el SEM. Difícilmente.
+
+[00:44:17.270] - Carlos Iglesias
+En cualquier caso, lo veremos juntos. Exacto. Muchísimas gracias por tu tiempo. Me refiero a los 12 años en Runroom y nada, espero que sigamos aprendiendo.
+
+[00:44:32.030] - Carlos Iglesias
+Que haya personas que hayan decidido pasar una parte de su vida a bordo de este proyecto vital y profesional que es Runroom, en una empresa que de origen les era ajena, es algo que me resulta mágico y emocionante. Lo vivo como un acto de generosidad por su parte y como un privilegio por la mía. De manera que quiero aprovechar esta oportunidad para agradecérselo. Gracias a quienes habéis adaptado vuestras vidas para navegar un ratito a nuestro lado. Gracias a quienes habéis confiado vuestro negocio a este puñado de idealistas y nos habéis abrazado como partners. Y gracias, cómo no, a quienes nos seguís y nos apoyáis. Espero que os haya gustado este episodio de hoy tan diferente, tan especial. No te olvides de compartirlo y si aún no lo has hecho, de suscribirte, de darle a la campanita, al like o dejar un comentario. Un fuerte abrazo y os espero en el mundo real.
+

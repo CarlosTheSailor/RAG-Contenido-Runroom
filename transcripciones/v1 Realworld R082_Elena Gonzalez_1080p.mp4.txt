@@ -1,0 +1,288 @@
+[00:00:01.01] - Hablante 2
+Crear impacto. Cuando tomamos la decisión de continuar una temporada más con Real World, nos sentamos, echamos la vista atrás y nos dimos cuenta de varias cosas. La primera es que pronto va a hacer ocho años del nacimiento del podcast. ¡Guau! Y la segunda es que, como no podía ser de otra manera, también nos dimos cuenta de que nunca ha parado de cambiar. Poco se parece hoy este video podcast a esos soliloquios que os enviaba en los primeros episodios y que, aunque cueste de creer, aún siguen teniendo escuchas y sigo recibiendo comentarios de aquellas reflexiones. Empezamos hablando de customer experience, pero hemos explorado un sinfín de temas como agile, lean, liderazgo, innovación, nuevas formas de gobierno de las organizaciones. Y últimamente, dada nuestra experiencia en Run Room, nos apetecía mucho hablar de producto digital. De manera que nos preguntamos: ¿Y cuál es el nexo de unión de todos estos temas? ¿Por qué hablamos de esto? ¿Qué tienen en común? Y nos dimos cuenta de que la respuesta es idéntica al mismo propósito de Run Room: crear impacto. Crear impacto. Todo lo que hacemos en Run Room comparte su objetivo. Impacto en el negocio de nuestros clientes, impacto en la forma en la que entendemos el propio concepto de empresa y cómo debe ser la relación de las personas con el trabajo, impacto de la innovación tecnológica en la sociedad, impacto en la sostenibilidad del planeta, en el bienestar de todas las personas, en el compromiso con el respeto y la tolerancia.
+
+[00:01:33.01] - Hablante 2
+Crear impacto es el eje vertebral de este podcast. Hace pocas semanas nos escribió Alain: Hola, soy un chico de 23 años y he descubierto hace muy poco el diseño de producto y todo el mundo que lo engloba y ha sido gracias a vuestros podcasts. Conecto mucho con las cosas que comentáis y me parece un mundo apasionante. Ahora mismo solo quiero ponerme a aprender acerca de este mundo porque me parece fascinante. Gracias a ti, Alain, por inspirarnos. Hoy vamos a continuar la conversación acerca de producto, pero lo vamos a hacer desde una perspectiva realmente interesante y creo que no lo suficientemente explorada, al menos en público. Hoy hablamos de la psicología en el rol de product manager con Helena González, Senior Product Manager en Everbride. Bueno, pues aquí estamos, una nueva temporada de Real World y yo superagradecido, Helena, de verdad, es un placer tenerte aquí. Muchas Muchas gracias por dedicarnos tu tiempo y bienvenida a Real World.
+
+[00:02:34.07] - Hablante 1
+A vosotros por invitarme y muchas gracias por la experiencia.
+
+[00:02:37.23] - Hablante 2
+De verdad que es un placer tenerte. Estoy supercontento. Ya nos conocíamos, además, estás colaboras en el máster de diseño de producto que llevamos en Bau. César me ha hablado de ti, por cierto, y sé lo que haces dentro del máster. Pero en vez de explicar yo quién eres, me gustaría que Que nos digas qué te gustaría que sepamos de ti.
+
+[00:03:05.09] - Hablante 1
+Empiezas con una facilita.
+
+[00:03:07.24] - Hablante 2
+Lo sabes todo de ti, tú. Me lo sabes mejor que tú para...
+
+[00:03:12.21] - Hablante 1
+A ver, ¿qué me gustaría que supiesais de mí? Bueno, cosas importantes, como que me encanta comer, es algo que es importante que sepáis. Bueno, soy de Barcelona, nací aquí, pero toda mi familia es de Galicia.
+
+[00:03:28.10] - Hablante 2
+Claro, entonces te gusta comer, claro.
+
+[00:03:30.00] - Hablante 1
+Efectivamente, todo está relacionado. Y me llevo dedicando al producto prácticamente diez años, pero siempre he pensado que esto no es algo que me defina como persona. Al menos, si bien profesionalmente se puede decir que me dedico a ello, creo que el valor que reside y que conecta a lo que me dedico profesionalmente con lo que soy, siempre lo defino como curiosidad. Soy una persona muy curiosa, me gusta muchísimo aprender y creo que eso es al final lo que de alguna manera orgánica y natural me ha traído a lo que me dedico profesionalmente.
+
+[00:04:04.10] - Hablante 2
+¿y cómo ha sido eso? ¿Cómo has llegado a hacer lo que haces hoy?
+
+[00:04:09.08] - Hablante 1
+La verdad es que han sido una serie de circunstancias que se fueron ligando y que si ahora he hecho la vista atrás, me parece increíble porque en el momento en el que yo me planté que quería ser de mayor, lo cierto es que esto ni siquiera existía y si existía, definitivamente no era en Barcelona. Pero bueno, estudié Publicidad y Relaciones Públicas y a partir de ahí la curiosidad me llevó a tratar de hacer el mayor número de prácticas posibles. Cualquier oportunidad que salía para conectarme con el mundo profesional era algo que a mí me llamaba muchísimo la atención. Y a partir de ahí, fui conociendo a gente, fui involucrándome en proyectos y salió la oportunidad de entrar como super senior en una consultora suiza que estaba abriendo oficinas aquí en Barcelona y que llevaban proyectos digitales. Y estaban buscando una especie de becario que ayudara a los project managers con toda la gestión, la parte más de delivery de las de las iniciativas que estaban llevando a cabo. Tenían diferentes clientes, trabajábamos para Daimler, para BMW. Y empecé con ellos y lo cierto es que aún a día de hoy me sorprende, porque en el momento en el que yo puse un pie dentro de aquella oficina, yo no tenía absolutamente ni idea de prácticamente cómo encender un ordenador.
+
+[00:05:22.05] - Hablante 1
+De hecho, honestamente, la primera vez que me dieron un Mac, tuve que buscar las instrucciones porque no sabía cómo funcionaba. Y Y la verdad es que aquella fue mi primera experiencia dentro del mundo digital. Estuve prácticamente tres años y ahí fue donde entendí y me profesionalicé más en la parte de delivery, qué implica el desarrollo digital, qué es un back-end, qué es un front-end, cómo cómo se conecta, cómo trabajan los equipos de desarrollo, todo lo que tiene que ver con agile. Y esa parte me pareció muy interesante, pero realmente lo que más me llamaba la atención era el contacto con el cliente, o sea, entender qué era lo que los clientes buscaban, lo que necesitaban y cómo eso formaba una solución. Y algo que me frustraba muchísimo es que realmente desde mi posición, que en aquel momento era la de un project manager, no podía entrar a definir esas soluciones y cómo eso se ligaba con las necesidades. Y ahí, de repente, salió el insight de: Esto es lo que hace un product owner, que era la gente con la que yo trabajaba del otro lado del cliente. Durante esos años estuve fuera de Barcelona y una vez regresé a Barcelona, empecé a buscar lo más similar que hubiese en cuanto a roles de productos en la ciudad.
+
+[00:06:33.17] - Hablante 1
+Y ahí fue cuando Badi apareció en mi camino, que siempre digo que fue un regalo, porque cuando me uní al equipo de Badi, eran prácticamente 20 personas. Y durante esos tres años que estuve en Badi, vi crecer y desarrollarse no solo un producto, sino una empresa. Entonces, aprendí muchísimo del rol de producto. Me relacioné con gente que tenía muchas ganas, tenía mucha energía, era gente muy joven, con muchas ganas de que aquello saliese hacia adelante. Quizás no teníamos tanta experiencia, pero con las ganas y con la capacidad de hacer, suplíamos quizás parte de esta experiencia. Y ese fue mi primer rol de producto y de ahí salté a Wallapop, y en Wallapop estuve también prácticamente dos, tres años. Y finalmente aterricé en Everbride hace ya cuatro años.
+
+[00:07:24.11] - Hablante 2
+Qué guay, qué trayectoria. Y además, cada vez que le pregunto esto a alguien cuyo rol es product manager, siempre es un poco... La respuesta es: Yo no sabía que haría esto. Claro, es que nadie lo sabía porque no existía el rol y a la vez es como: Bueno, hemos ido caminando y un paso te ha llevado al otro, y es una serie de fortuitas casualidades que te llevan a ser lo que eres. ¿Y cómo es ser product manager hoy en Even Bright? Explícanos un día normal, ¿tú qué haces en tu día a día?
+
+[00:07:56.14] - Hablante 1
+Si lo tuviera que definir con una palabra, yo diría que ser product manager es una una especie de ensalada. Porque es todo y todo a la vez. No sé, si te explico qué he hecho hoy desde esta mañana, que me parece como lo más representativo de cómo es un día de un product manager en Even Bright, he estado una hora reunida con el equipo, refinando las tareas para el próximo sprint. Luego, he estado una hora reunida con la IEM, la engineering manager, porque estamos tratando de definir una iniciativa muy grande que tiene una envigüedad altísima y no sabemos cómo empezar a traccionar y cómo empezar a definir qué queremos hacer ahí. Entonces, hay muchísimas dudas, hay un montón de documentos. Entonces, hemos tratado de alinearnos, porque al final entre las dos tenemos que poder transmitirle eso al equipo. Luego, me he reunido con mi jefe, que la semana pasada estuvo en un workshop con el resto de stakeholders para que me transmitiese un poco la información de lo que habían estado discutiendo y hacia dónde va la estrategia. Después de eso, me he reunido con un creator durante una hora para que me explicase cuál era su experiencia con la parte del producto que manejamos dentro de mi equipo y tratar de entender cómo piensa para ver si lo que estamos planteando realmente encaja con las necesidades que tienen.
+
+[00:09:11.02] - Hablante 2
+Perdón, paréntesis creator, te refieres a un cliente que crea eventos, en nuestro caso.
+
+[00:09:14.24] - Hablante 1
+Sí, Sí, exacto.
+
+[00:09:15.24] - Hablante 2
+Everbride es una plataforma. Lenguaje Everbride Creators, el usuario que crea el evento.
+
+[00:09:20.07] - Hablante 1
+Exacto, sí, el usuario que... O sea, se estaba hablando con.? Sí, estaba hablando con una chica de Estados Unidos que genera eventos gratuitos y webinars de formación de a lo que ella se dedica y necesitaba tratar de entender cómo piensa ella a la hora de poner los eventos y de ofrecerlos, y de ofrecer los tickets de estos eventos. Y después de esto, he estado en una formación haciendo un training y aclarando una iniciativa que la semana pasada lanzamos una nueva funcionalidad. Y estamos empezando a analizar las métricas de cómo lo están utilizando y de repente nos hemos dado cuenta de que hay algo concreto de esa funcionalidad que no se debe estar entendiendo porque lo que están haciendo no era lo que nosotros tratábamos de habilitar. Entonces, claro, ahora hay que entender...
+
+[00:10:06.18] - Hablante 2
+Se comportan de otra manera a la que nosotras esperábamos.
+
+[00:10:09.06] - Hablante 1
+Ahora hay que entender qué es lo que está pasando ahí, cómo tenemos que adaptarlo para poderle dar respuesta a lo que necesitan.
+
+[00:10:15.10] - Hablante 2
+O sea, me suena a ambigüedad, a incertidumbre, a complejidad, a muchas personas interconectando su trabajo para intentar entender por dónde empezamos. O sea, me suena a algo complejo, difícil y a la vez apasionante. Y te de decir que si necesitas otra entrevista con un usuario, estoy a tu disposición.
+
+[00:10:35.14] - Hablante 1
+Pues mira, siempre nos falta.
+
+[00:10:38.02] - Hablante 2
+Yo creo que soy un arquetipo, estoy en tu buyer persona, claramente. O sea que, vale, pues... Okey. ¿Y cómo creas impacto. ¿Cómo creas tú impacto?
+
+[00:10:52.01] - Hablante 1
+¿cómo creo yo impacto? ¿Cómo crea Helena González impacto? Pues, a ver, te diría que quizás como a tres niveles. O sea, si pienso puramente en Helena, Product Manager, dentro de una compañía, pues obviamente tratando de entender qué es lo que el usuario necesita y adaptando aquella área que yo puedo controlar a cubrir esas necesidades. Entonces, trato de pensar en darles algo que realmente les resulte útil, que yo luego vea qué están utilizando y que al final les resuelve una necesidad. Eso en cuanto a la Helena Product Manager. En cuanto a la Helena, que forma parte de un equipo de producto dentro de una compañía, creo que lo que intento es con la gente con la que colaboro todos los días, tratar de generar un ambiente en el que todos estemos a gusto, en el que nos podamos divertir, en el que crezcamos. Y creo que eso también forma parte del impacto. Y te diría que dentro de la empresa, quizás más a nivel cultural, tengo como una filosofía propia de cómo me gusta trabajar, de cómo me gustaría que las empresas fuesen y creasen impacto. Entonces, dentro de mi pequeña área de impacto dentro de la compañía, trato de generar un cambio cultural o al menos de desarrollar cierta cultura más humana donde se ponga a la gente por delante, tanto a los usuarios como a las personas de las compañías, y respetar un poco dentro de esta era de altísimo impacto centrado en números, entender que el impacto no solo son números, OQRs, KPIs, Revenue, GTF y todas estas cosas que interesan a las compañías, sino que hay otro impacto que también es importante, que es el que generamos las personas.
+
+[00:12:47.12] - Hablante 2
+Muy bien, porque de la forma que has expresado cómo generas impacto, que le has dicho tres cosas, al final de todo, has hablado de negocio de alguna forma y me gusta mucho, porque has empezado hablando como del usuario y Y de alguna manera te veo un poco como abanderada de eso. Me da la sensación de que tienes muy claro que tu rol tiene que ver con entender esas necesidades y las necesidades de negocio, las necesidades de usuario, los outcomes que esperamos y cómo hacemos encajar las piezas. Qué fácil, ¿no? Parece fácil.
+
+[00:13:24.04] - Hablante 1
+Me gustaría decirte que sí, pero yo al menos en carne propia, no lo vivo como si fuera fácil.
+
+[00:13:30.00] - Hablante 2
+Cómo de duro es ser product manager? Vamos a empezar a hablar de lo que hemos venido a hablar.
+
+[00:13:35.06] - Hablante 1
+Esta es una pregunta que normalmente siempre hablo con la gente que se dedica a lo mismo que yo, con diseñadores, con desarrolladores. Y para mí, cuando contesto esto, para mí tiene como una doble moral, porque por un lado pienso: Si amplió la perspectiva de todo aquello a lo que me podría dedicar en esta vida, evidentemente ser product manager está lejos de ser algo que genere sufrimiento, por decirlo así. No obstante, si realmente me centro en el día a día y en la sensación que esto deja a mí, sí que te diría que ser product manager no es fácil y no es para todos, y tampoco creo que sea para todas las etapas de la vida, siendo totalmente honesta y transparente.
+
+[00:14:21.04] - Hablante 2
+El sufrimiento es real, quiero decir, independientemente del privilegio que podamos tener, el sufrimiento es el que es y existe ese sufrimiento.
+
+[00:14:32.05] - Hablante 1
+Sí, o sea, no sé si lo apodaría como sufrimiento, pero sí que es verdad que el día a día de un product manager, hay veces que resulta, francamente, agotador. Por muchas cosas, quizás no tanto por la carga de trabajo, que es altísima, sino por el cambio de contexto constante. O sea, al final estás hablando con personas todo el día que tienen perspectivas completamente diferentes, que hablan idiomas totalmente diferentes y te tienes que hacer entender con todos y tienes que entender un poco el idioma de cada uno de ellos. Y no estamos hablando de que tienes una hora cerrada y tú esto te lo has preparado ya en tu casa y vas mentalmente organizado para ello, sino que eso va surgiendo a lo largo del día. Entonces, ese switch constante de ahora esto, ahora lo otro, al final, cognitivamente, es algo que cansa.
+
+[00:15:26.19] - Hablante 2
+Mucha carga cognitiva.
+
+[00:15:28.02] - Hablante 1
+Sí. Y luego, por otro lado, O sea, el rol de product manager al final, es muy ambiguo a todos los niveles. O sea, un product manager, ¿qué hace en una empresa? Pues depende de la empresa. ¿Qué hace dentro de un equipo? Pues depende del equipo. Entonces, tienes que saber hacerte ese sitio, pero es verdad que no está definido sobre papel. Estas son todas mis tareas. Entonces, depende también de tu personalidad, puedes caer fácilmente en el todo recae sobre mi responsabilidad, tengo que llegar a todo, tengo que pasar por todo, todo tiene que pasar por mis manos y al final eres una persona. Independientemente de que trabajes ocho o diez horas, no llegas a todo. Luego también está el tema de las expectativas que el resto depositan en ti, que es un product manager tiene que tener todas las respuestas que necesitamos. Y la verdad es que en la mayoría del tiempo esas respuestas las construyes con la gente con la que trabajas y colaboras, pero no es que tú tengas el decálogo de cómo construir productos digitales y en todas las aciertes. Entonces, para mí eso, por ejemplo, también va acompañado de mucha incertidumbre, falta de control sobre las decisiones que se toman en la compañía.
+
+[00:16:42.03] - Hablante 1
+Al final, a mí algo que en su momento me hacía sufrir, si lo podemos decir así mucho, es al final tú vendes una idea a tu equipo. Sobre todo yo esto lo he sufrido mucho con los equipos. Y tratas de convencerlos y tratas de motivarlos y de subirlos tu barco y de que realmente crean que estáis trabajando en una dirección a lograr un objetivo. Y de repente, a lo mejor, llevas tres meses trabajando en eso y la estrategia de la compañía cambia y eso se va a tirar a la basura. Y plantarte delante de 10 personas a las que ayer le estabas diciendo que vamos allá con esto a por todas, esto ya no sirve para nada, no es fácil.
+
+[00:17:27.17] - Hablante 2
+Es muy interesante este punto que dices, porque creo Yo creo que también pasa, y es un tema que hemos hablado recurrentemente, desde que estamos hablando de producto de una forma más explícita en el podcast, yo al menos no paro de hablar de la importancia de... O sea, outputs versus outcomes y el foco que personalmente veo de una forma absolutamente generalizada en la industria, no solo en un producto digital, en la industria general. Foco en output, orientación entregable, a justificar mi trabajo con entregables, a medir mi trabajo en la cantidad de output que estoy generando, en lugar de en cuánto impacto está generando el output que creo. Y creo que tenemos un problema con los roadmaps. O sea, mi feeling es: Tenemos un problema con los roadmaps. Los roadmaps son máquinas de intentar ordenar. O sea, intentamos esta complejidad y esta incertidumbre que estás expresando tan bien todo el en el tiempo, es inevitable, porque estamos buscando respuestas y creo que en muchas ocasiones intentamos ordenar esa complejidad teniendo la falsa sensación de seguridad, de: Vamos a tener un mapa, vamos a planificar los entregables que tenemos que entregar. Y eso acaba convirtiendo ese roadmap al lugar donde vivimos.
+
+[00:18:52.17] - Hablante 2
+Nuestro objetivo no es impactar en esa necesidad del usuario, sino en entregar lo que habíamos dicho, se había dicho que se tenía que entregar en el primer quarter del año o en el tal. Y vivimos con una obsesión de entrega que no sé por qué, igual porque hay otras formas de hacerlo.
+
+[00:19:17.24] - Hablante 1
+Yo creo que hay otras formas, pero es una tensión que viene dada, yo creo, por el hecho de que las empresas necesitan generar revenue. Para generar revenue, Vamos a justificar que esos números se van a mover. Entonces, ¿cómo reducimos la incertidumbre de que vamos a mover esos números? Diciendo: Vamos a hacer esto para conseguir todo esto, porque realmente la compañía es lo que necesita. O sea, necesita doblar esos números y poder justificar que actualmente en bolsa está siendo rentable y al final... Entonces, eso se traduce de una manera muy directa a los equipos a: Necesito que me digáis exactamente qué vais a hacer, para cuándo lo vais a hacer y qué impacto va a generar. Y se deja muy poco más o al menos esto, yo también lo he visto en muchísimos proyectos, en muchísimas compañías, para la iteración. O sea, no acabamos de entender, yo creo que necesitamos aprender y que para aprender se necesita tiempo. Y la industria no quiere tiempo. Claro. Quien impactó y lo quiere rápido. Entonces, en este contexto de cada vez más rápido, cada vez más crecimiento, suele haber menos tiempo para el aprendizaje, para la iteración. Y yo creo que ahí es donde está la tensión entre...
+
+[00:20:28.23] - Hablante 2
+100%, pero es que quiere impacto, la industria quiere impacto, pero qué impacto quiere, porque si en realidad tú pierdes el foco en el impacto de verdad, que es: Oye, ¿qué cambios queremos provocar en nuestros usuarios? ¿Cuál es el outcome de esto que estamos creando ahora? ¿Qué queremos que pase, que no está pasando ahora? ¿Y cuánto queremos que pase eso? ¿Cuál es la métrica que nos va a decir que estamos consiguiendo eso? Si ese es el objetivo, tenemos un montón de outputs posibles que desarrollar, pero parece que como hemos planificado el año y tenemos un roadmap de los cuatro quarters y tenemos claro lo que vamos a entregar en cada quarter, porque ya hemos dicho que iba a ser eso, de repente estamos sumidos en el mundo de los outputs y en el mundo de las features y los entregables y los equipos produciendo.
+
+[00:21:11.14] - Hablante 1
+Y parar esa rueda es complejísimo. Es duro eso. Porque a nosotros nos pasa después de prácticamente cada lanzamiento. O sea, hace poco lanzamos un experimento. Hicimos una primera iteración del experimento que dio muy buenos resultados, pero tenía ciertas limitaciones porque lo hicimos muy rápido, construimos una especie de MVP chaputeando un poco para que aquello saliese. Generó muy buen impacto como MVP, pero sabíamos que teníamos que seguir iterando en aquello.
+
+[00:21:38.24] - Hablante 2
+Era un experimento para aprender.
+
+[00:21:40.05] - Hablante 1
+La segunda iteración, la quisimos hacer superrápido para generar impacto en un mes, porque era el margen que teníamos para invertir en aquella funcionalidad, no lo validamos, lo diseñamos así como: Esto lo ponemos por aquí y por aquí, y esto va a funcionar porque esto es muy evidente. ¿Qué ha pasado? Hemos lanzado el experimento, no ha funcionado. Parece que no. Y ahora, ganar el espacio y el buy-in de todos los stakeholders para que nos dejen dar un paso atrás, volver a plantear cómo mejorarlo, validarlo y hacerlo bien, nos va a costar muchísimo más que si lo Y se hemos hecho correctamente desde el principio.
+
+[00:22:16.22] - Hablante 2
+Sí, porque puedes perder confianzas y pagar confianza para volver a recuperar confianza es bastante caro.
+
+[00:22:27.06] - Hablante 1
+Totalmente.
+
+[00:22:28.06] - Hablante 2
+Es un mundo... O sea, a mí me Me parece apasionante, es un mundo guapísimo. Yo estoy superenamorado de la idea de crear producto en sí mismo y de la mentalidad de producto. Pero es que cada vez tengo menos claro qué significa esto, porque yo hablo de mentalidad de producto y lo que muchas veces veo ahí fuera es que la mentalidad de producto no existe en empresas de producto, hay en muchas ocasiones. Y eso hace que la cultura sea estresante en muchas ocasiones, hace que tengas mucha presión. Me ha gustado mucho. Otra cosa que has dicho interesante, que a veces el rol de product manager es la cara a la que todo el mundo mira para decir: Bueno, y esto ¿Y esto qué hacemos ahora?. Es que no lo sé, es que estamos trabajando con hipótesis, no estamos trabajando con certezas.
+
+[00:23:21.12] - Hablante 1
+Totalmente.
+
+[00:23:22.04] - Hablante 2
+¿y cómo gestionas eso psicológicamente? Desde un punto de vista cognitivo, desde un punto de vista de tu propio estrés, ¿eso te genera estrés?
+
+[00:23:33.06] - Hablante 1
+Sí, abiertamente a mí la ambigüedad, porque además soy una persona que tiende a la rigidez y a querer tener las cosas controladas, la ambigüedad es algo que siempre he llevado muy mal, que evidentemente aprendes con el tiempo a primero saber identificar qué es lo que te está incomodando, entonces ya sabes que lo que te incomoda es esa ambigüedad. Y a mí, personalmente, lo que me ayuda mucho es poner esa ambigüedad encima de la mesa y decir: Bueno, pues de todo esto, yo lo que sé, o sea, mis certezas, son esta y esta. Lo que necesitamos saber para poder construir la pintura completa es esto, esto y esto. ¿Cómo nos repartimos lo que falta para que entre todos podamos escribir esta historia? Porque yo no lo sé todo. Y para mí es muy importante estar en equipos o construir una confianza, un clima dentro del equipo, que por un lado acepte que esto es así y que tenga como el espacio para poder... O sea, no para que vayamos todos allí a contestar, sino que vayamos todos a hacernos las preguntas concretas. O sea, las preguntas, y a partir de ahí ya buscaremos las respuestas.
+
+[00:24:44.22] - Hablante 2
+¿y cómo has estado en burn out?
+
+[00:24:50.13] - Hablante 1
+Intento huir de este tipo de etiquetas, porque siempre he pensado como que el mundo del product management está como muy decorado con todo este hype de producto burn out y tal. Y todos estos términos a mí me dan como un poco de repelús. Pero sí que es verdad que he tenido épocas en las que he acabado de trabajar a las ocho de la tarde. Me he puesto a hacer la cena, estaba cenando y pensando: Y mañana me levanto otra vez en esta misma habitación para volver a tratar de solucionar lo mismo que no sé cómo hacer y de repente ponerme a llorar. Entonces, cuando eso te pasa durante dos semanas, es como: Aquí quizás hay algo que no está yendo bien. Y entonces, pues, preguntas. Yo lo que hice fue empezar a preguntarme qué es lo que me pasa. Y empiezas a buscar por internet y empiezas a hablar con gente. Y la verdad es que en aquel momento, precisamente, fui a dar como con una especie de inventario del burn out, que escribió una psicóloga de Berklee, que decía que básicamente el burn out estaba como centrado en tres dimensiones diferentes. La primera era como la fatiga emocional, o sea, el pensar: Realmente no puedo con esto, o sea, no sé por dónde cogerlo porque me está superando.
+
+[00:26:18.07] - Hablante 1
+La segunda, que a mí me llamó muchísimo la atención, era algo así como la frialdad en las relaciones o la desconexión personal. Y justo en aquel momento, yo recuerdo...
+
+[00:26:30.18] - Hablante 2
+Perdón, no lo he entendido esto. O sea, que la frialdad, o sea, no conectar con otras personas, te lleva al burn out.
+
+[00:26:37.22] - Hablante 1
+No, no, no. O al revés, te protege contra el burn out. Cuando tú tienes burn out, eso te lleva a distanciarte y a generar esa frialdad con la gente que te rodea. Y en este caso, de hecho, para mí fue muy característico, porque con toda esta idea, o sea, realmente yo intento conectar con la gente con la que trabajo. Y es verdad que en aquel momento, pues había gente del equipo que no estaba pasando por un buen momento. Y yo recuerdo que yo ponía o anticipaba el trabajo y los resultados y lo que teníamos que sacar a cómo estuvieran esas personas. Y a mí aquello no me representaba, o sea, yo no era así. Y luego estaba como la tercera dimensión era la ineficiencia a nivel cognitivo. O sea, que te ponías a hacer una cosa y al cabo de cinco minutos da igual para qué estoy haciendo esto, si total esto no va a salir, si me lo van a volver a cambiar. Me pongo a mirar datos, pero estos datos no me cuadran, esto es una porquería porque los dashboard no están actualizados. Esto en realidad no hay por dónde cogerlo. Y claro, uno, check, free all that, check.
+
+[00:27:45.00] - Hablante 1
+Fatiga con check. Y ahí, la verdad es que sí que me di cuenta que no quería ponerle el nombre de burn out, pero era efectivamente lo que estaba pasando.
+
+[00:27:55.01] - Hablante 2
+¿y cómo lo gestionas?
+
+[00:27:57.09] - Hablante 1
+Claro, luego ahí viene el segundo paso, que es: Esto es lo que me está pasando, ¿por qué me está pasando esto?. Y sigues leyendo, sigues hablando con la gente. Y yo en ese momento, lo que pensé fue algo así como: burn out es desmotivación. O sea, realmente estoy muy desmotivada. ¿Qué es lo que a mí me motiva? ¿Y qué es lo que a mí me desmotiva. Y en la psicología en general, se sabe que aquello que motiva a la gente no son los premios que le puedas ofrecer. O sea, no es un salario. Tú no te levantas por la mañana porque te vayan a pagar A, B o C, estrictamente. No te levantas por la mañana porque te vayan a dar 23 días de vacaciones o porque tengas unas oficinas preciosas a tu alrededor. Tú te levantas por la mañana porque quieres generar impacto, porque quieres aprender y porque quieres conectar más allá, o sea, trascender más allá de el movimiento de una métrica.
+
+[00:29:01.04] - Hablante 2
+Daniel Pink tiene un libro que se llama Drive, maestría, autonomía y propósito.
+
+[00:29:06.01] - Hablante 1
+Exacto. Y ahí fue cuando me di cuenta de que precisamente esas tres cosas eran las que en ese momento a mí me estaban fallando en mi día a día. No tenía autonomía, porque el roadmap en el que estábamos trabajando en aquel año había sido un roadmap totalmente top down en el que nos teníamos que limitar a desarrollar una funcionalidad que nos venía dada. Con además muchísima presión para entregar en fechas concretas, sabiendo que no teníamos capacidad para seguir esos deadlines. Me di cuenta de que eso me estaba afectando a nivel de aprendizaje, porque yo sentía que lo que estaba haciendo era producir, no estaba aprendiendo, no estaba haciendo cosas diferentes, estaba simplemente empujando una piedra para llegar al final del camino. Y a nivel de conexión más allá del día a día, no veía ninguna. O sea, para mí es importante ver una persona detrás, o ver a un miembro del equipo detrás de lo que estoy haciendo, o ver a un usuario detrás de lo que estoy haciendo. Y en aquel momento lo único que veía es: Queremos aumentar el número de tal en X de aquí a seis meses. Y a mí aquello no me llevaba a levantarme por las mañanas.
+
+[00:30:19.03] - Hablante 2
+Ya, y es muy jodido que te pidan accountability cuando no tienes agencia, ¿no? O cuando no puedes, ¿no?
+
+[00:30:26.09] - Hablante 1
+Sí, es que al final es una especie de trampa. O sea, yo lo que siento en En esos momentos es: me estás pidiendo que cruce el océano, pero no me estás dejando decidir cómo lo tengo que cruzar. Entonces, si luego no llego o no llego en las circunstancias en las que se ha solicitado que llegue, no me puedes pedir tampoco explicaciones, porque no me has dejado que yo te diga cómo considero que es la mejor manera de llegar ahí.
+
+[00:30:52.21] - Hablante 2
+Claro.
+
+[00:30:54.04] - Hablante 1
+Entonces, es una especie de trampa y de tensión que en ocasiones es difícil manejar, y cuando no lo puedas hablar abiertamente.
+
+[00:31:03.12] - Hablante 2
+Muy guay este enfoque, porque yo siempre hablo de autonomía en los equipos y de mucha autogestión y de provocar la autogestión, y que para ello necesitan precisamente visión de propósito, de por qué hacemos lo que hacemos, alinearnos en prioridades, que todo el mundo tenga claves las prioridades, que se gestionen de una forma coral, conjunta, que todo el mundo... O sea, abogo mucho por eso y creo que tú has puesto en palabra un poco por qué es tan necesario. Desde un punto de vista de carga cognitiva. O sea, es que no puedo tener accountability si no tengo agencia, si no puedo tomar decisiones de cómo, si no puedo decidir el cómo, que cómo voy a apuntar hacia un objetivo, quién ha marcado?
+
+[00:31:47.03] - Hablante 1
+Y además, eso yo creo que los equipos funcionan un poco en cascada. O sea, al final, quizás el PM es como la cara más visible de esa tensión, pero cuando hablas con desarrollo, cuando hablas con diseño, O sea, si tú a un diseñador no le das el espacio para que genere la mejor experiencia posible, al final esa persona realmente no se va a sentir realizada. Y llegará un momento en el que te dirá: Bueno, pues dime qué quieres que ponga, y yo te lo pongo. Pero esto no es lo que yo quiero hacer. Y en desarrollo pasa lo mismo. Si no me das el espacio para que yo pueda construir la mejor solución con las herramientas con las que me he informado, de las que dispongo, luego no me pidas que esté todos los días aquí dando mi 100% ¿Por qué?
+
+[00:32:31.15] - Hablante 2
+100%. O sea, a mí hay muchas veces que... En clase a veces me preguntan: ¿Qué podemos hacer para motivar a los equipos? Y mi respuesta siempre es: No los desmotives, básicamente. Porque yo creo que esto es, o sea, Esto es profundamente desmotivador.
+
+[00:32:47.09] - Hablante 1
+Y de hecho fue muy curioso, porque justo esta etapa de la que te hablo, no solo me ocurrió a mí. O sea, el problema es que teníamos en el equipo en el que estaba trabajando, estábamos todos iguales. Entonces, al final se genera como un caldo de cultivo en el que salir de ahí es muchísimo, muchísimo más complejo que no llegar a entrar o saber identificar cuando estás entrando y diciendo: Vale, vamos a parar y vamos a plantearnos si estamos haciendo las cosas como realmente las queremos hacer.
+
+[00:33:16.23] - Hablante 2
+¿esto es un escenario común para los product managers del mundo?
+
+[00:33:22.18] - Hablante 1
+Por mi experiencia y por las conversaciones y comidas que hago con el resto de PMs con los mantengo el contacto, sí, definitivamente sí.
+
+[00:33:32.10] - Hablante 2
+¿y qué podemos hacer para protegernos?
+
+[00:33:38.02] - Hablante 1
+Si tuviera la solución, seguramente hubiera escrito ya un par de libros. No sé. Creo que podemos controlarlo a pequeña escala. O sea, esto va un poco relacionado con el hecho de saber cuál es tu área de influencia, tenerla bien identificada y al menos que en de ese área de influencia tú puedas proteger de alguna manera lo que para ti es importante. Y yo, por ejemplo, tengo la suerte ahora mismo de tener la suficiente confianza con el entorno de stakeholders como para poder tener conversaciones abiertas del estilo: Necesito que confíéis en mí. Estamos haciendo lo mejor que sabemos y lo mejor que podemos. Darnos espacio para que os demostremos que esto puede llegar a funcionar Y si no, aprendamos de ello, porque al final muchas veces también damos mucho valor al impacto directo en las métricas. Pero oye, que te fallen dos experimentos y saber por qué esto está fallando y saber qué es lo que no quieren, también aporta otro tipo de valor que dentro del marco correcto hay que saber poder vender y entender.
+
+[00:34:50.09] - Hablante 2
+No puedo estar más de acuerdo. Es que no puedo estar más de acuerdo. Claro, haces un experimento, el feedback de los usuarios es distinto al que esperabas. ¿Cómo haces para que no duela eso?
+
+[00:35:05.15] - Hablante 1
+Duele. De la misma manera que antes te decía que huyo un poco de las etiquetas más tal, estas listas de las 10 herramientas para que el feedback no te moleste. O sea, lo siento, pero el feedback te molesta porque eres humano y porque muchas veces al final, te acabas tomando como personal algo que no tiene absolutamente nada que ver con tu persona, sino con el resultado específico de un trabajo. No obstante, ¿qué hago yo para tratar de que no me duela tanto. Te diría que lo que trato es... O sea, por un lado, siempre trato de diferenciar el contenido de la forma. Entiendo y trato de tener en cuenta que no todo el mundo tiene la misma habilidad y la misma formación a la hora de transmitir las ideas. Y que alguien haya dicho algo hiriente, no necesariamente viene de la voluntad de herir, sino de no tener la capacidad de haberlo dicho de otra manera. Entonces, una cosa es que alguien te diga: Esta solución es una porquería o este experimento ha sido un desastre, con lo que realmente te quieren decir, que es: Oye, a lo mejor estoy preocupado porque a mí me están metiendo muchísima presión y esto no está saliendo como como debería.
+
+[00:36:31.22] - Hablante 1
+Eso, por un lado. Luego, también trato de coger el feedback con pinzas. Y con esto, o sea, esto creo que lo he ido como poniendo en práctica últimamente, Porque es verdad que al principio yo, por ejemplo, sufría muchísimo de inseguridad, o sea, el síndrome del impostor este de... Vamos a hablar de esto. Madre mía, ¿yo cómo he llegado aquí? Yo esto no lo sé hacer. Y trato de poner en perspectiva un poco el feedback en el sentido de lo analizo como si fueran métricas de producto. O sea, si una persona me dice A, ha sido una persona dentro del storytelling de un año de trabajo. Si en lugar de decírmelo una persona me lo dice en 10, me resulta mucho más representativo. Entonces, lo que trato es de coger esa pieza de feedback, analizo, intento conversarla con otras personas, ver si están más o menos alineados y entonces de ahí saco como mis propias conclusiones. O sea, no lo dijeron tal cual llega, porque también hay que dejar ahí como un margen para entender el contexto. Y algo que, esto lo hago mucho porque también esto depende de qué tan cansado estés el día que te lo dicen, qué tan sensible estés porque el experimento te ha salido mal.
+
+[00:37:45.10] - Hablante 1
+Pero siempre trato de repetirme el: Esto no es un ataque. Aquí detrás hay algo de lo que puedes aprender. Entonces, cuando yo noto esa punzada aquí de: Esto me ha dolido, trato de repetirme un: Vale, esto no es un ataque a tu persona, no están hablando con Helena. Eso. Detrás de esto hay algo que tú podrías aprender. Y no es fácil llegar a ese punto de... O sea, seguramente esto pase mientras estás haciendo la cena el día siguiente y estés pensando en esto que me dijeron el otro día, bueno, claro, pero en realidad de aquí, de lo que me puedo dar cuenta, es de que en esta reunión esto lo debería haber presentado diferente o debería haberme la preparado más. Siempre hay algo que realmente, si quieres, puedes extraer a modo de aprendizaje del feedback que te dan.
+
+[00:38:39.16] - Hablante 2
+Igual va a sonar un poco romántico y tal, pero me da igual. Pero creo que esto que dices, o sea que también es algo que nos hace crecer como personas y que cuesta mucho, ya no solo cuando estamos hablando de producto, estamos hablando de producto y, joder, cuesta mucho recibir un feedback, pero cuesta mucho escuchar qué cosas de boca de tus amigos o de O ya no, escuchar, simplemente cómo se ha comportado una persona o no me ha tenido en cuenta o no. A veces nos dolemos por cosas y yo trato, también intento tener esa mentalidad de decir: ¿Por qué me duele esto y qué puedo aprender? ¿Qué puedo aprender de todo esto? ¿Por qué me está doliendo y qué puedo aprender de todo esto? Creo que es como un... Es muy sano ese acercamiento.
+
+[00:39:22.19] - Hablante 1
+Sí, de hecho, yo creo que al final lo que eres como persona no se diferencia tanto de lo que eres como profesional. 100%. De hecho, se retroalimenta muchísimo y aquellas, digamos, aquellas mejoras personales que te planteas en tu vida privada con tus amigos, con tu pareja, van muy relacionadas con aquellos triggers que tú vives en la vida profesional. Y a mí me pasa muchísimas veces que me doy cuenta que mi manera de reaccionar en el mundo profesional con respecto a estas cosas es mucho más meditada que en mi vida personal, donde a lo mejor no le pongo tanto raciocinio a cómo reacciono, porque evidentemente te sale de manera muy natural. Entonces, intento muchas veces en lo personal traerme esa parte de raciocinio profesional de: Vale, pues no voy a saltar a la primera cuando me han dicho que esto está mal o que esto no gusta, porque seguramente hay algo de lo que me está resonando y me está incomodando de lo que pueda aprender.
+
+[00:40:17.09] - Hablante 2
+Hace unos cuantos episodios le pregunté a Xavier Marset, que se sentó en esa misma silla, le pregunté: ¿Se puede ser buena persona y buen profesional?. Perdón, ¿Se puede no ser buena persona y ser un buen profesional?. Y me gustó su respuesta porque me dijo: Se puede, pero el camino es muy corto. O sea, la distancia que recorres no es muy larga. Y creo que tiene mucho sentido eso, precisamente por lo que tú comentabas. ¿Cómo aprendemos a ser mejores personas? ¿Cómo aprendemos a ser mejores product managers? ¿Cómo se aprende a ser product manager? Hablabas del síndrome del impostor y es un síndrome que... Bueno, probablemente en ocasiones hemos sido... Yo probablemente me reconozco como: En ocasiones he sido un impostor. El rollo este de fake it, to make it. Y no, probablemente a veces me he atrevido demasiado a hacer cosas para las que probablemente no estaba muy preparado. Y en cierta manera he sido un impostor, en el sentido de decir: Bueno, ¿pero quién está preparado para la incertidumbre? ¿Quién está preparado? O sea, ¿quién puede hacer mejor algo que no sabemos cómo hay que hacer? A eso me refiero. Mi punto es: ¿qué significa la incertidumbre?
+
+[00:41:29.14] - Hablante 2
+Tenemos que hacer algo que no sabemos cómo hay que hacer. Tenemos que encontrar la forma. Entonces, vale, quizá yo no esté preparado para esto, pero ¿quién lo está? Si no lo sabemos, tenemos que encontrarlo. Entonces, ¿cómo se aprende a ser product manager y cómo superas esa Ese síndrome del impostor.
+
+[00:41:48.02] - Hablante 1
+Me parece una pregunta supergrandilocuente. Honestamente, te diría, no tengo ni idea, pero vamos. Que has venido, Helena. Con mi síndrome del impostor te digo que no tengo ni idea de cómo se aprende a ser de un manager. Pero justo ahora te estaba escuchando y estaba pensando: Qué curioso que le demos un aspecto tan negativo al hecho de atreverse. O sea, nos consideramos impostores porque tratamos de dar un paso más fuera del área de lo que tenemos controlado. Cuando realmente eso, si lo piensas en perspectiva, es lo que hace avanzar en general, a todo el mundo. O sea, lo que te hace avanzar a ti como persona, lo que hace avanzar al mundo hacia adelante. Claro, claro, sí, sí.
+
+[00:42:25.01] - Hablante 2
+La valentía de hacerlo, de intentar.
+
+[00:42:26.22] - Hablante 1
+Entonces, creo que, o sea, en ese sentido específico, creo que tendríamos que darle una vuelta a lo que consideramos impostor. Porque al final ninguno de los que estamos aquí, yo creo que estamos diciendo: Lo tenemos todo controlado, lo sabemos todo. Estamos diciendo: No lo sabemos, vamos a tratar de encontrar la mejor manera de seguir avanzando. Que luego está la otra perspectiva, que es como: Bueno, no lo sé, me quedo sentado en esta silla y que alguien me traiga las respuestas. Y yo creo que por personalidad, eso no funciona. Pero yendo más al grano de lo que me has preguntado, ¿cómo se aprende a ser product manager? Lo cierto es que no lo sé, pero si tuviera que decirte algo, te diría que es algo tan sencillo como siendo product manager. O sea, de las cosas, de las experiencias de las que yo más he aprendido, han sido precisamente de esos pasos en falso, de hacer cosas que no sabía hacer, de entender por qué el resultado daba o bien positivo o bien negativo. Evidentemente, aprendes mucho más de las negativas que de las positivas, seguramente porque la reflexionas también más. Y así es como se aprende.
+
+[00:43:31.22] - Hablante 1
+O sea, tiras en una dirección, sacas conclusiones, al final se aprende experimentando, que es algo que en producto tenemos que hacer todos los días. Lanzas una hipótesis, consideras que esto va a ir por este camino, te da resultado positivo o negativo y en base a eso aprendes. Es por ahí, no, es por el otro lado. Bueno, pues tratemos de encontrar o de construir otro camino que nos lleve un poco más cerca de a dónde queremos llegar.
+
+[00:43:57.00] - Hablante 2
+Sí, con humildad y curiosidad. Me ha gustado que decías que te has definido, sobre todo, como una persona curiosa. Yo creo que eso es algo que aún más vale que lo seas, porque si no, está complicado. Déjame meter una cuña publicitaria. Lo hice, creo que fue con Guido, la vez que vino y aprovecho para decir que el 23 y 24 de octubre hacemos un curso presencial de dos días que se llama Lean Product Management, que es un curso conceptualizado y creado por Jeff Gothelf y Joshua Seiden, autores de Lean UX y de un montón de libros más. Somos partners certificados de ellos y hacemos un curso aquí en nuestras oficinas de run room para product managers, mentalidad lean, precisamente eso, cómo hacemos para llevar las conversaciones estratégicas, cómo ¿Cómo hacemos para cambiar ese roadmap de outputs a un roadmap de outcomes? ¿Cómo hacemos para involucrar a los equipos y remarcar las conversaciones para poder tomar decisiones? Yo realmente he aprendido un montón con ellos y me considero un afortunado poder dar esta formación de su mano, la verdad es que es un superhonor y realmente creo que puede ayudar. Creo que al final tenemos que entender cuál es la complejidad del marco en el que trabajamos, que hay personas que tienen una visión muy concreta y que no se trata de que hay buenos o malos, sino que tú lo estás diciendo todo el tiempo.
+
+[00:45:27.04] - Hablante 2
+Quizá que me digan esto a mí me tiene que hacer entender que a lo mejor hay algo que no soy capaz de ver. Y para mí tiene mucho que ver con eso, tiene mucho que ver con entender toda la complejidad, todas las cosas e intentar remarcar la conversación para que todo el mundo entienda qué es lo que necesitamos hacer. No puedo hacer lo que tú quieres que haga, si no puedo hacer lo que yo tengo que hacer. Y eso es un poco de lo que va esta formación y también otra formación que empieza el 6 de noviembre, que se llama Lean Product Discovery, y esta es online. Y ya está, y hasta aquí la publicidad, perdóname, pero lo cuelo aquí, pero creo que es interesante. Se aprende caminando. Hemos hablado del síndrome del impostor, hemos hablado del feedback. Crecimiento, ¿cuáles son tus retos?
+
+[00:46:20.10] - Hablante 1
+Te diría que mi reto principal es seguir encontrando ambientes o contextos en los que pueda seguir aprendiendo y saliendo de mi zona de confort. Creo que Y es algo que de manera natural me pide el cuerpo, por así decirlo, y creo que profesionalmente es algo que me mantiene viva, me mantiene despierta. Esa incomodidad me genera... Es lo que me lleva a moverme hacia adelante. Entonces, encontrar contextos, proyectos, iniciativas que me permitan eso, es mi reto principal.
+
+[00:46:55.01] - Hablante 2
+Es que esto... Hace poco discutía con alguien, porque yo me meto en muchos problemas. Me meto en problemas, de repente: Venga, vamos para otro reto. Y hace poco discutía con alguien esta idea de: Oye, ¿y es necesario siempre pasar ¿Qué voy a hacer? ¿Voy a hacerlo mal para crecer? O sea, meterme en problemas que sean dificultades, que no sé hacer esto y que me sienta un impostor absoluto y que lo... O sea, yo realmente lo paso muy mal en algunos contextos, pero lo hago y me meto porque soy un adicto, de alguna forma, a ese crecimiento. Es decir, hostia, sé que haciendo esto voy a subir un escalón. Y cada escalón que he subido en mi vida me ha servido para ganar perspectiva y decir: Hostia, ojo, que aquí hay todo un mundo que desconocía. Pero es tan doloroso, ¿es necesario sufrir para crecer, para aprender tú qué piensas?
+
+[00:47:52.08] - Hablante 1
+Me encantaría escuchar tu respuesta, así que yo te voy a dar la mía. Me gustaría creer que no, pero creo que tenemos... Creo que es un rasgo de la personalidad del cual es muy difícil prescindir. O sea, de hecho, últimamente esto lo he hablado con mucha gente, Porque al final es una manera de estar en el mundo. Hay gente que está en el mundo constantemente haciéndose preguntas y para poder responder esas preguntas es lo que tú dices. O sea, al final tienes que ir como abriendo puertecitas que te vayan dando perspectivas diferentes. Y hay gente que a lo mejor no necesita encontrar esas respuestas y está bien. Pero si tu personalidad te lleva a necesitar abrir esas puertas, va a haber algunas que te van a poner incómodo. Y ya Creo que al final el error no es tanto tratar de que eso no pase, sino centrarnos en asumir que va a ser así. Nos vamos a tener que poner incómodos, probablemente.
+
+[00:48:57.07] - Hablante 2
+A mí hay una Me incomoda mucho la expresión salir de la zona de confort. Es algo que me da mucha rabia esa expresión. O sea, no me gusta porque creo que no tiene en cuenta, normalmente, el privilegio. De nuevo, volvemos a hablar de privilegios. Que creo que para poder tomar la decisión de salir de tu zona de confort, tienes que tener una red de seguridad. Tienes que tener una serie de privilegios que satisfacen tus necesidades. No todo el mundo puede salir de su zona de confort. Totalmente. No todo el mundo puede tomar decisiones de asumo este riesgo porque no tengo una red debajo. Entonces, no es lo mismo saltar con agua que sin agua. Y por eso no me gusta mucho hablar de eso, pero sí que me reconozco todo el tiempo y buscándome problemas. Hace poco di una clase en Arabia Saudi que para mí era como: Hostia, pero ¿yo qué? O sea, ¿yo qué coño tengo que ir allí a explicar?. Lo pasé muy mal. Estuve todo un año esperando que alguien levantase el teléfono y me dijese: Se ha cancelado, esto no lo sabes. No pasó, fui y, hostia, crecí un montón, pero para mí fue...
+
+[00:50:07.17] - Hablante 2
+Realmente, lo pasé mal, o sea, para mí fue duro. Y esa experiencia, una más, me hizo pensar: Yo al menos cuando de verdad siento que crezco, es ahí.
+
+[00:50:21.09] - Hablante 1
+Totalmente. Y de hecho, me atrevería a... Te devuelvo la pregunta. No sé si te ha pasado que quizás has estado un tiempo en el que has obviado o has querido dejar un poco más de lado esas incomodidades y al final sientes que te falta algo. No sé si tú lo vives así.
+
+[00:50:42.06] - Hablante 2
+Sí, lo vivo así y lo vivo con una cierta sensación de adicción. O sea, a mí mismo a veces me considero una... Y no estoy muy seguro de si eso es bueno o no. Tampoco me juzgo demasiado. O sea, sé que soy así, soy muy curioso, soy una persona curiosa también. Me pasa eso, no puedo evitar estar constantemente buscando. No lo puedo evitar. Pero ya hace poco un amigo me decía: Me rascabas. Revísate eso, no vaya a ser que tengas algún tipo de adicción. ¿Qué estás buscando todo el rato?. No sé, pero sí, me pasa, me pasa constantemente, me pasa muchísimo.
+
+[00:51:17.08] - Hablante 1
+Y bueno, supongo que también hay épocas en la vida en las que tienes más energía o menos energía, o esa curiosidad la enfocas en ámbitos diferentes, que también puede pasar. Pero creo que apagar ese switch, no sé, si encuentras De una manera, por favor, acuérdate de mí.
+
+[00:51:32.07] - Hablante 2
+Llevo unos cuantos años buscando en otra vez, yo he dejado de buscar ya, te lo reconozco. Helena, yo creo que hemos tocado muchos temas, ¿te quedas con ganas de decir algo?
+
+[00:51:43.07] - Hablante 1
+No, me quedo con ganas de quedarme charlando un rato más, la verdad. Es como al final era.
+
+[00:51:47.12] - Hablante 2
+Al final era agradable. Oye, muchísimas gracias, ha sido un placer.
+
+[00:51:51.18] - Hablante 1
+A vosotros, igualmente.
+
+[00:51:53.17] - Hablante 2
+Hoy, Helena, nos ha mostrado la otra cara del product management, la más humana. Más allá de métricas, roadmaps y estrategias, ser PM implica navegar ambigüedad, lidiar con cambios constantes de contexto y sostener una fuerte carga psicológica. Hemos hablado de burn out, de cómo reinterpretar la presión externa para que no nos hunda, de la paradoja entre autonomía y accountability, del síndrome del impostor y de la importancia de liderar desde la vulnerabilidad. El gran aprendizaje es que no estamos solas en estas dificultades. Abrir la conversación y compartir experiencias hace que el rol sea más sostenible, más humano y en última instancia, más valioso para los equipos y las organizaciones. Si te ha gustado el episodio, compártelo, invierte un segundito en darle al like, en dejar un comentario, porque nos ayudas un montón. Un fuerte abrazo y os espero en el mundo real.
+

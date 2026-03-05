@@ -1,0 +1,129 @@
+[00:00:00.430] 
+En el episodio de hoy no voy a entrevistar a nadie. Tampoco voy a grabar uno de esos soliloquios de 50 minutos donde explico un concepto en profundidad por primera vez en la corta pero intensa historia de este humilde podcast. Voy a responder a las preguntas de tres oyentes que me han dejado un mensaje a través de la web en el episodio de hoy tú eres protagonista soy Carlos Iglesias CEO en RAM ROM y profesor en varias universidades y escuelas de negocio como Esade que discute o bought os doy la bienvenida al vigésimo quinto episodio de en el mundo real el podcast sobre experiencia de cliente y negocio digital.
+
+[00:01:04.260] 
+Hace un par de meses añadí una funcionalidad a mi web a través de la cual puedes dejarme un mensaje de voz preguntándome lo que quieras.
+
+[00:01:13.440] 
+Obviamente no soy experto en todos los temas del mundo mundial ni de lejos y es más que probable que no tenga experiencia en muchos de ellos pero a lo que sí me comprometo como mínimo si no la tengo es a formarme una opinión al respecto y compartirla contigo y que ha costado un poquito porque me he dado cuenta de que os está pudiendo la timidez pero por fin he podido juntar las tres primeras preguntas y puedo darle forma a este episodio de hoy que espero que sea el primero de muchos. A mi personalmente me ayuda un montón entender qué tipo de preguntas os hacéis aquellos que seguís el podcast con asiduidad empezais a ser ya unos cuantos pensar que yo voy definiendo y decidiendo los temas que voy tratando pues es un poco a ciegas basándome en mis propios intereses e intuición de forma un poco random.
+
+[00:02:18.080] 
+ Pero que como os decía en el episodio cero del podcast yo estoy haciendo esto para tener referencias de mí mismo y para ello necesito el feedback de los demás. Ser capaz de mirarme con los ojos del otro me ayuda muchísimo a entender que es que no sé y que puedo aportar de valor a los demás. Así que espero que a partir de ahora os animais a publicar vuestras preguntas. Ya veis que no duele y que es super fácil yo prometo que ninguna caerá en saco roto vamos allá con la primera que es de Cristina Cañas.
+
+[00:02:57.200] 
+Hola Carlos lo primero de todo me gustaría darte las gracias porque aportas mucho valor a los que estamos interesados tanto en el cliente externo como el cliente interno de las empresas y me gustaría saber cómo y qué herramientas existen para poder transformar la información que extraemos los datos cualitativos cuantitativos las métricas para la interpretación de la experiencia de cliente en la rentabilidad de la empresa y así poder demostrar tanto a los departamentos de finanzas como a los CEO la importancia de la experiencia de cliente y la experiencia de empleado.
+
+[00:03:34.190] 
+Muchas gracias ante todo Cristina muchísimas gracias por la pregunta súper interesante y de difícil respuesta así que bueno gracias por el reto bien ya que me preguntas directamente por por herramientas. Pues comentar que los últimos años hemos pasado de un Lansky en digamos un contexto con unas 150 herramientas en el año 2011 a más de 8000 en 2018 y es el dato que tengo de abril de 2018.
+
+[00:04:11.900] 
+Realmente elegir una herramienta hoy es una completa locura solo sólo hace falta darse una vuelta por comparadores como GitHub Dotcom G2 puntocom y navegar entre sus distintas categorías para darse cuenta cada año prácticamente se duplican desde desde herramientas genéricas de gestión de datos pero muy potentes en cuanto a visualización o modelado como el ya clásico tablon que es líder que es capaz de agregar un montón de fuentes de información e integración de APIs de todo tipo a específicas de Kastner experientes que integran desde envíos de surveys promotoras con la integración de cualquier feedback de cliente con métricas incluso a nivel de operaciones de la compañía.
+
+[00:05:18.940] 
+Dentro de esta categoría conocidas popularmente como Experience Management Platform podemos encontrar soluciones tanto para negocios pequeños como medianos o grandes quizá por destacar algunos yo diría que ahora mismo los líderes del mercado para negocios pequeños estarían entre hoy o sea pãjaro ojo Vertiz asignársele o Utrech. Lo pondré en las notas del episodio por si queréis echarle un vistazo y en negocios medianos o grandes pues están los clásicos cual Trix me Dalia o Adobe Experience Manager. En mi opinión cual Trix sería la referencia maxima.
+
+[00:06:07.730] 
+No tienen una plataforma en cuanto a Funke en cuanto a funcionalidades un verdadero monstruo permiten captar la voz del cliente confeccionar enviar y medir encuestas métricas de experiencia de cliente como el CeSAC del Caxton Satisfaction score el gasto más lactea en Bali. Soluciones específicas para habitúe y tomar servis modelos predictivos etcétera hasta incluso la parte de employee experience con métricas de engagement recolección de firmas de empleados creación de programas de Benefits etcétera.
+
+[00:06:51.720] 
+A incluso testing de producto e investigación de pricing o panel lado de consumidores es una monstruito.
+
+[00:07:02.280] 
+Es un monstruo realmente no pero yo quiero subrayar un tema que tiene que ver con la segunda parte de tu pregunta Cristina. Y es que en realidad lo que yo entiendo que me estás preguntando es cómo convencer a la suit a la capa ejecutiva de la necesidad de trabajar la experiencia de cliente a través de métricas y en este sentido en mi humilde opinión antes de gastar dinero en cualquiera de estas mega herramientas super molonas que lo son pero que por cierto no acaban de ser baratas.
+
+[00:07:36.200] 
+Hay varias preguntas que yo pienso que deberíamos hacernos. La primera lleva me lleva al último episodio con Pablo Domingo donde en un momento dado Pablo explica que todo absolutamente todo incluido el amor dice se puede medir.
+
+[00:07:50.950] 
+La clave está en hacernos la pregunta que nos importa quizá parece una tontería pero yo creo que es una pregunta muy relevante dónde tiene el foco puesto la compañía rentabilidad nuevo negocio posicionamiento de marca alianzas estratégicas. Yo sé que muchos oyentes estáis en una situación donde veis claramente que mejorar la experiencia de cliente podría ser totalmente transformador para el negocio muchos estáis convencidos de que mi experiencia es el nuevo marketing y yo estoy de acuerdo. Por supuesto soy yo el primero en decirlo esto. Pero las transformaciones no pueden ser bottom up al menos únicamente votos.
+
+[00:08:39.660] 
+ Para que una transformación gane adherencia tracción para que tenga el impulso que se requiere debe ser top down y esto inevitablemente va a hacer que debamos entender qué le importa a quien está al frente de la estrategia de la compañía en cada momento. Por supuesto todas las empresas tienen el foco puesto en los ingresos los negocios van de eso pero es necesario profundizar un poquito más. Debemos ser capaces de escuchar e identificar cuál es la métrica realmente clave en la organización y una vez sepamos responder a esa pregunta entonces podremos hacernos la siguiente que para mí sería cuál es la mínima acción que podemos llevar a cabo para impactar en esa métrica de forma demostrable y tangible.
+
+[00:09:31.200] 
+ Si de lo que se trata es de demostrar busquemos quick wins acumulemos hechos pequeñas acciones que den visibilidad a nuestro porqué que ayuden a generar el sentido de urgencia. Pequeños proyectos que nos ayuden a eso a generar sentido de urgencia en el Episodio III del vodka sobre gestión del cambio. Hablamos de ello en mayor profundidad con José José Cristina que tú los has escuchado a todos.
+
+[00:09:56.270] 
+Así que en fin espero haberte aportado algo de valor con ésta. Con esta respuesta porque realmente es un tema inacabable.
+
+[00:10:07.670] 
+Hola Carlos soy Mariano Mariano llana de Alicante nos conocimos durante tu visita a nuestro master. Qué tal estás. Bueno tal como te comenté a mí me gustaría encontrar algún debate en el que se pusieran los pros y los contras y se intentara dilucidar acerca de la tendencia correcta en el mundo de las apps. A dónde vamos a que todas las aplicaciones utilidades. Todos los servicios. Todas las cosas que se conectan a internet tengan su app. O deberíamos inducir a los usuarios finales a que existieran. A es. De uso horizontal es decir todos se dirigieran hacia los canales más comunes hacia las apps de mayor uso.
+
+[00:11:02.260] 
+ Cuál sería lo correcto. Cómo podríamos interesarnos en orientar a los desarrolladores de apps que quizás no se trate de llenar nuestros dispositivos móviles de todo tipo de bebés para encontrar los diferentes servicios. Las diferentes propuestas como siempre. Muchísimas gracias. Y te sigo. Te sigo apasionadamente. Un abrazo fuerte. No pares.
+
+[00:11:30.830] 
+No paro o no paro Mariano no paro. Esto es algo que me repetís un montón. No pares. Muchísimas gracias por la pregunta Mariano. Para empezar algunos datos usamos cuatro veces más webs que apps móviles y otro otro otro pequeño dato no el típico imaginemos al típico fan el de Paraná.
+
+[00:11:57.240] 
+El primer paso sería cargar la AppStore. El segundo paso sería encontrar la app en la Store. El tercero sería instalar esa app. El cuarto aceptar los permisos el quinto la descarga de la instalación y el sexto finalmente el uso en cada paso del fan el perdemos de media el 20 por ciento de usuarios respecto al paso anterior de manera que si la pregunta tiene sentido y no sólo desde el punto de vista del usuario estoy dispuesto como usuario añadir una nueva app a mi smartphone.
+
+[00:12:31.490] 
+Vale la pena el esfuerzo sino también y especialmente desde el punto de vista del negocio no necesito realmente una app para qué la necesito. Qué objetivos de negocio persigo respecto a los objetivos de negocio a no ser que nos interese claramente vender a través de la app con INAP sabes que puedes comprar a través de la app es decir vender al usuario descargas de producto que paga directamente a través de la store y recordad que ésta se lleva un 30 por ciento de comisión. Digo no a no ser que nos interese eso lo que realmente deberíamos tener en cuenta es cómo impacta al ecosistema Johnny añadir ese nuevo canal es decir ese nuevo punto de contacto no va a servir para fidelizar va a servir para viralizar.
+
+[00:13:24.540] 
+ Qué experiencia del Johnny queremos mejorar. En qué fase se encuentra. Con toda probabilidad todas. Todas estas preguntas se pueden responder sin necesidad de crear una app y sin necesidad de luchar contra la ficción inherente que supone para el usuario adoptar un nuevo cacharro que no ha pedido. Yo lo primero que deberíamos considerar es si por alguna razón necesitamos explotar las prestaciones del dispositivo del usuario como por ejemplo las notificaciones el acelerómetro la cámara de fotos o de video la agenda de contactos el GPS el calendario interactuar con otras apps instaladas.
+
+[00:14:10.490] 
+La necesidad de uso sin conexión.
+
+[00:14:13.790] 
+Si la respuesta es no. Claramente no es la mejor opción. Incluso si la respuesta es sí puede haber otras opciones como por ejemplo las Progressive Web Apps una progresiva Web App es una aplicación web con apariencia de aplicación tradicional que es capaz de utilizar algunas de estas capacidades como por ejemplo el uso sin conexión o la expulsión tickets sin necesidad de hacer pasar al usuario por ese afán de instalación. Si no quiere ya que no deja de ser una web o sea el usuario entra en una web rel en una web normal y corriente.
+
+[00:14:53.210] 
+ Por lo tanto también se puede indexar se puede rastrear se puede enlazar etcétera. La diferencia con una web normal y corriente es que el usuario si así lo desea puede instalarse como si de una aplicación tradicional se tratase.
+
+[00:15:09.290] 
+De hecho hasta hace poco la única forma instalarte la era digamos con un botoncito del sistema operativo del navegador que le decía hoy añade esta aplicación al escritorio. Pero ahora desde hace no recuerdo exactamente pero poquito poquito tiempo Google Play permite que aparezca las apps en su Store y en Windows 10 está previsto también un soporte en su tienda de Microsoft.
+
+[00:15:42.620] 
+Al ser un proyecto de Google seguramente Apple será quien más lento avance en la dirección de estandarización en este sentido. Pero también hay previsto que Safari incorpore próximamente las push notifications para ellos. En mi opinión las ventajas son enormes no sólo por este tema de fricción del usuario sino también porque desarrollar apps nativas supone muchas veces tener que mantener bases de código distintas para cada sistema operativo para Android y para ello es. Es verdad que hay frameworks como Riek TIFF que solucionan un poco ya que con un único código JavaScript podemos tener dos apps nativas pero siempre vamos a encontrar limitaciones respecto al modo formal de desarrollar de forma nativa en cada sistema operativo.
+
+[00:16:34.510] 
+ Y desde luego no nos vamos a librar de enviar cada nueva versión de la aplicación a las Stores para su publicación ellos tienen que pasar por un proceso de validación donde tú envías la estor ellos valida la aceptan se publica y esto es especialmente en los de la manzanita puede ser un verdadero coñazo realmente en una progresiva web app podemos actualizar en el momento que queramos sin más validación que la nuestra propia podemos actualizar la aplicación con lo que ganamos velocidad de play y capacidad de automatización. Podemos hacer continuos Deployment etcétera. En fin espero no haberme puesto demasiado técnico como síntesis.
+
+[00:17:21.730] 
+ Yo diría que en muy pocas ocasiones se necesita una app y que muchas veces se hacen aplicaciones nativas por los motivos equivocados. Espero haber aclarado algo tu pregunta Mariana. Un fuerte abrazo. Hola Carlos soy palo soy de Chile y estoy acá en Madrid estudiando un máster de Dirección de Marketing Comercial y la verdad que te escribo porque estoy muy interesada en profundizar sobre la metodología de Lyceum thinking.
+
+[00:17:54.330] 
+Considerando además que el foco que tiene uno de los focos que tiene tu podcast tiene que ver con la experiencia del usuario me parece que hay en fin que no sube relevante para esta materia. No solo hoy sino que pensando en el futuro los nuevos desafíos del futuro tanto para las personas como para las organizaciones. Si puedo seguir pidiendo cosas me gustaría sobre todo ver caso de vista Thinking casos prácticos que alguien se vaya ya sea tu experiencia o algún experto que vaya a contarnos algunos casos puntuales y de cómo esta metodología ha ayudado a mejorar la calidad de vida de las personas.
+
+[00:18:28.170] 
+ Como te digo tanto los clientes tanto de los usuarios como de los propios trabajadores de una empresa eso. Un abrazo. Saludos. Espero que esto ponga en contacto.
+
+[00:18:37.330] 
+Pues Pablo no sabes de verdad no sabes la ilusión que me hace leer y escuchar oyentes con acentos chilenos argentinos peruanos mexicanos con total sinceridad de decir que cuando arranque el podcast es lo último que pensé fue en cómo me iba a permitir conectar con personas del otro lado del charco y desde luego ha sido una de las consecuencias más bonitas del proyecto así que nada un saludo especialmente afectuoso y muchísimas gracias por la pregunta que me haces yo. Yo también espero que sigamos en contacto y totalmente de acuerdo contigo.
+
+[00:19:18.050] 
+De hecho en mi backlog de próximos episodios hace bastante tiempo que tengo ahí una tarjetita que dice misa en linking así que me alegra un montón el interés y prometo que hablaremos de ello. De hecho te invito a seguir atento porque espero poder traer a alguien a que comparta su dilatada experiencia en este área de conocimiento. Ojalá que en un par o tres de episodios ya lo he dicho sea que aquí ya hay un poquito de compromiso por mi parte. Venga próximamente en sus auriculares de momento y por contextualizar un poquito al resto de oyentes igual no voy a hacer ese episodio donde expliquemos experiencias pero sí que para aquellos que nunca han oído hablar de él dicen cinco o que no saben exactamente que es.
+
+[00:20:02.030] 
+Yo lo definiría como una metodología de innovación de diseño de innovación que es especialmente potente a la hora de comprender y dar solución a las necesidades reales de los usuarios.
+
+[00:20:16.490] 
+Yo diría que lo que ha aportado más valor a infringían ha sido su forma de idear empatizando con los usuarios fomentando el trabajo en equipo y potenciando la creatividad a través del diseño visual y del prototipado. Entonces el proceso de diseño thinking se compone de cinco etapas pero no son etapas cómo decirlo exactamente lineales es decir podemos ir hacia atrás o hacia adelante según convenga incluso saltándonos etapas que etapas no consecutivas digamos no pudo avanzar dos hacia atrás o hacia adelante etc. arranca recolectando la mayor cantidad de información posible generando una gran cantidad de contenido al principio que crecerá o disminuirá dependiendo de la fase en la que estemos y que iremos refinando hasta llegar a una solución que cumpla con los objetivos.
+
+[00:21:23.420] 
+Las cinco etapas son empatizar definir idear prototipar y testear empatizar definir idear prototipar y testear.
+
+[00:21:34.820] 
+Se suele representar con un doble rombo en horizontal imaginaos dos rombos como cuando éramos pequeños y las películas de adultos ponían dos rombos pero juntos. Vale pues la idea es que empezamos divergiendo y ahí es donde el primer rombo se abre convergemos en la definición. El primero se cierra volvemos a Divergent en la ideación para finalmente converger en el prototipo y testeo. Entonces en cuanto a las fases pues empatizar tiene que ver con la comprensión de las necesidades de los usuarios implicados en la solución que estemos desarrollando. La fase de definir consiste en ir equilibrando la información recopilada durante la fase de empatía.
+
+[00:22:23.570] 
+ Esa primera fase aquí debemos quedarnos con lo que realmente aporte valor e identificar problemas cuyas soluciones serán clave para la obtención de un resultado innovador. De hecho en mi modesta opinión lo que lo que mejor hace risa en fin quien es precisamente eso la identificación del problema la definición. La siguiente fase la desviación debemos favorecer el pensamiento expansivo y estar muy en guardia contra contra los sesgos contra nuestros propios sesgos y juicios de valor. Muchas veces la semilla de las soluciones más revolucionarias son las ideas más estrambóticas y debemos velar por por por no secuestrar el brainstorming con un exceso de racionalidad.
+
+[00:23:14.090] 
+ Ya sabéis que los Ventormenta deben ser deben incentivar precisamente el no cortarnos es decir aunque sean aunque nos puedan parecer tonterías o salvajadas. Ponerlas encima de la mesa porque eso nos puede llevar a otras ideas interesantes y factibles. Hemos visto la fase de enfatizar la fase de definir la fase de ideas y finalmente en las respectivas fases de prototipado y testeo. Al final construimos esos prototipos que nos ayuden a visualizar las posibles soluciones y si esos prototipos al final lo que haremos con ellos será probarlos con los usuarios implicados en la propia solución que estemos desarrollando.
+
+[00:24:00.210] 
+ Esta fase es crucial y nos ayudará a identificar mejoras mejoras significativas fallos a resolver posibles carencias y tal. Durante esta fase evolución haremos nuestra idea hasta convertirla en la solución que estábamos buscando y haber dicho así en plan las cinco fases del no se que tampoco es que parezca una súper innovación pero para mí lo realmente innovador de la metodología es precisamente que busca un Mindset muy concreto basado en la cocreación en la diversidad y en incorporar constantemente al usuario en la definición tanto del problema como de la solución a través del prototipado y testeo continuos.
+
+[00:24:44.160] 
+ Algunas de las técnicas más conocidas ya las hemos visto aquí como por ejemplo el gasto Mayumi Map o la metodología a personas las entrevistas con usuarios. La etnografía. Focus Groups etcétera. Pero en cada fase hay un montón de técnicas que suelen utilizarse que además de ser divertidas y huir del mundo gris de los documentos aburridos de los Excel son realmente potentes porque tienen la capacidad de mapear lo que el equipo tiene en la cabeza y dar forma a las divergencias y a las ideas. Y de nuevo la palabra mapear me doy cuenta de que si hay una palabra que ha aparecido en todos los episodios del podcast esa tiene que ser mapear creo que tendría que hacer algún día el experimento de escucharme y subrayara a ver si aparecen todos ellos.
+
+[00:25:41.400] 
+En fin Pablo que te agradezco que me haya llevado a introducir el tema de esta forma y prometo profundizar en ejemplos y experiencias concretas. De momento espero que sirva un poco como introducción al tema y hasta aquí amigos y amigas.
+
+[00:26:00.330] 
+Este episodio de mi podcast en el mundo real el podcast sobre experiencia de cliente y negocio digital agradeceros una vez más vuestra fidelidad por escuchar por compartir por darle al link y por dejar vuestra reseña en la plataforma de podcasting que sois. Recordad que encontraréis las notas del episodio. Carlos Iglesias punto info barra 025. Un fuerte abrazo y os espero en el mundo real.
+

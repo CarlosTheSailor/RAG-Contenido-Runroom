@@ -1,0 +1,390 @@
+[00:00:02.230] - Speaker 1
+Pues muy buenos días Pedro, y muchísimas gracias por estar aquí en Real World en este humilde podcast. Para mí es un honor. Bienvenido.
+
+[00:00:11.640] - Speaker 2
+Muchas gracias por invitarme a tu podcast, por fin, por fin, por fin!
+
+[00:00:18.720] - Speaker 1
+En fin. Pedro y yo por fin. Es verdad. Yo te conocí cuando yo te conocí, cuando eras director general en Pepephone en 2014 concretamente. Y me acuerdo que era 2014 y me acuerdo que era aquel año porque. Porque yo estuve en la organización de la conferencia Agile Spain en Barcelona. Y bueno, pues tuve el placer de vivir desde muy cerquita de aquella mesa redonda junto a Cristóbal Colón, el fundador de la Fageda. No sé si la recordarás.
+
+[00:00:45.120] - Speaker 1
+Tú te acuerdas de aquel joven?
+
+[00:00:46.200] - Speaker 2
+Me acuerdo perfectamente de esa desatarle de ese día que fue alucinante. Los dos estábamos perdidos y había una charla genial, imposible de modelar, imposible de modelar. Yo estoy súper, súper orgullosa. Aquella de aquella última sesión de cierre. Y yo recuerdo gente. Suena un poco como a poco, como sensacionalista, lo que te voy a decir, pero yo recuerdo gente con lágrimas en los ojos. O sea, sabes porque aquel evento fue un evento muy especial, la moderaba Jorge Uriarte.
+
+[00:01:17.430] - Speaker 2
+Aquel evento fue muy, muy especial. El momento en el que la comunidad allá atrás estábamos intentando empujar a que Management llegase a llegar algunos mensajes a, digamos, a las capas más altas de las organizaciones. Era muy difícil y fue la primera vez que se hizo una apuesta decidida. Pero vamos a hacer este evento y lo vamos a hacer para managers y cerrar después de todas las de los días que estuvimos allí. Cerrar aquello, aquel, aquel con aquella mesa redonda donde se dijeron cosas tan increíbles.
+
+[00:01:46.270] - Speaker 2
+Yo lo recuerdo que para mí y de hecho la gente todavía me lo recuerda. La gente. Yo no sé si a ti te dicen algo de vez en si. Sí, sí te lo ha dicho. Si la gente me lo recuerda todavía. Así que bueno, tampoco estoy haciendo aquí un hippy sobre expectativas de la leche, pero voy a poner en las notas del podcast, pondré el enlace al vídeo porque está en YouTube y para que lo disfruten.
+
+[00:02:06.390] - Speaker 2
+El resto es nada más. Perdona que te interrumpa. Fue una cosa graciosa. Primero, yo creo que nunca he estado hablando con tanta gente en una sala porque eso estaba lleno de gente y reventaría muchísimas personas. Sí. Y luego en la conferencia sobre la Jail y el cierre de la conferencia nos invitaron a hablar a Cristóbal Colón y a mí. Tenemos dos personas que no tenían ni idea de qué era eso de La Yoik, que se estaba haciendo la conferencia exacta y fue muy divertido, muy divertido.
+
+[00:02:32.940] - Speaker 1
+Recuerdo que esta gran fiesta, pero oye, vaya. Qué es esto? Pero explícame un poco, o al menos de qué va esto allá. No me lo cuentas a alguien también en 10 minutos? De qué va esto de allá? Y yo muy, muy, muy orgullosa, que yo creo que fue una cosa que yo al menos me la mira, me la llevo y la llevo conmigo siempre y super contenta. Y de nuevo también súper agradecido por aquello.
+
+[00:02:53.520] - Speaker 1
+Oye, pero qué aprendiste en Pepephone?
+
+[00:02:57.510] - Speaker 2
+Que aprendió Pepe? Pues y más que aprender. Lo que hice fue, eh, dos cosas. Por un lado, desaprender, aprender que se puede desaprender. Y por otro lado contrastar que que la gente es normal. Yo creo que veníamos de un mundo del marketing y de la evolución de los sistemas, de las gestiones, de las métricas y todas las empresas que nos habían enseñado que cada vez había. Entiendo que el comercio hace muchos años empezó con, con, oye, pues yo, yo y resulta que cultivó cebollas y tú tienes ganado.
+
+[00:03:27.870] - Speaker 2
+Yo cojo mis cebollas, cebollas, tú me has ganado. Y se hacía para para poder subsistir y para poder hacer otras cosas y evolucionar. Era lícito callar? Oye, pues oye, voy a cultivar más cebollas y voy a poder tener más cosas en el comercio. Y eso fue evolucionando con la invención del famoso y maravilloso marketing. Fue evolucionando en cada vez. Ahora ya no es lo importante lo que te vendo, sino lo importante. Es lo que tú pienses que te vendo.
+
+[00:03:49.470] - Speaker 2
+No es lo importante cómo te sientes con lo que vendo, sino cómo te tienes que creer que te vas a sentir con lo que vendo. Y se convirtió una especie de manipulación que yo creo que alejó la realidad de dos personas trabajando, entregando su trabajo al otro para para sacar rendimiento y poder obtener otras cosas y otros intercambios. Otras personas evolucionó a una distancia salvaje entre lo que era la empresa y lo que es un consumidor. La empresa es un sistema de manipulación de personas que no son unas cifras a las que se les sugestiona, se les condiciona, se les emociona.
+
+[00:04:18.720] - Speaker 2
+Empezó a ser más importante en una marca que qué es lo que sugiere el color, qué es lo que sugiere el mensaje y el momento en que lo dices como sugestiones para ver que tú vas a hacer como yo, cree como tú crees que te quieres, que vas a hacer. Te voy a dar mensajes vacíos que son de libro barato de aeropuerto para que tú te creas que vas a llegar a hacer todo eso. Y si hice una distancia brutal, el planteamiento de Pepephone era precisamente volver marcha atrás a eso y que las personas que trabajan en una empresa son las mismas personas que son tus vecinos, que son las personas que van, las que tú juegas un partidillo los fines de semana, con las que sales a pasear o todo.
+
+[00:04:51.900] - Speaker 2
+Y el diálogo era normal y aprendimos que en que ummmmmm que nos podíamos lavar la boca. Sabéis de todas esas cosas que nos habían enseñado y que hace que cuando tú sales de tu casa y te pones tu chaqueta y te metes en una empresa, te cambia el lenguaje, te cambia la forma de ver al resto de las personas, de los seres humanos. Y digamos que conseguimos esa, esa igualdad entre personas que trabajan en una empresa para ofrecer algo a otra persona de forma anónima y honrada, y personas que reciben ese servicio y que entienden perfectamente que los mensajes son normales y da más.
+
+[00:05:19.110] - Speaker 2
+Contrastamos que fue lo más bonito de todo, que existía ese cliente normal y que todos en el fondo somos normales. Que fue una alegría enorme desaprender.
+
+[00:05:28.170] - Speaker 1
+Dices yo es que realmente tú tienes uno, o sea, yo. Yo aluciné contigo en aquel momento, sobre todo porque por qué no? Quiero decirte vale, yo soy CEO de mi propia compañía. Nosotros somos 60 personas en aquel momento. Cuántos erais en Pepephone? Erais muy poquitos.
+
+[00:05:44.330] - Speaker 2
+El jueves fuimos cuando lanzamos siete, luego doce y cuando vendimos éramos 21.
+
+[00:05:50.970] - Speaker 1
+Veintiuna personas. Estáis facturando?
+
+[00:05:52.810] - Speaker 2
+Sí, sesenta y cuatro mil través de 21.
+
+[00:05:58.530] - Speaker 2
+Perdona. Es importante decirlo. No teníamos ni un solo consultor. 0 consultores.
+
+[00:06:03.780] - Speaker 1
+En un momento, claro. Y en un sector. En un entorno que en aquel momento. A ver, yo qué sé. Hoy estamos bastante más acostumbrados, digamos a a pequeños, a pequeños, digamos pequeñas telecos que están dando servicios como una perspectiva mucho más alternativa. Pero en aquel momento. O sea, yo. Yo te percibía como algo absolutamente radical. No me podía. Yo me he podido permitir ser radical, digamos, en mi contexto radical, entre comillas.
+
+[00:06:29.580] - Speaker 1
+Pero. Pero sí que hacer las cosas de una forma diferente y con convencimiento de hacer las cosas de una determinada manera. Pero yo alucinaba con qué? Con que? Con tus planteamientos, vuestros planteamientos? No entiendo que también es una cosa de equipo, no? Pero yo sé que tú a mí. Yo siempre tengo la sensación de que tú tenías las cosas súper claras y. Y rotundamente claras. Y siempre me he preguntado ahora qué dices? Desaprender?
+
+[00:06:54.540] - Speaker 1
+Quiero aprovechar para preguntártelo. Tú dónde? Dónde aprendiste? Dónde te formaste para poder tener esas opiniones tan radicales y decir no y llevarlas hasta la última consecuencia? Quiénes fueron tus referentes o dónde? Dónde, dónde te hiciste así?
+
+[00:07:09.510] - Speaker 2
+Pedro Es que pueda hacer resultar un poco raro, pero la pregunta es al revés. La pregunta que yo me sigo haciendo es dónde se han hecho así todas las personas que llegan a este extremo de olvidar que un cliente es una persona como tú sabes que entiende lo mismo que tú y llegará a gestionarlo. O sea, yo entiendo que esto lo dé. Yo lo he vivido igual que lo has vivido tú de que lo hemos vivido todos. En nuestras familias tenemos unos padres y si tenemos unos amigos y unos compañeros y hemos tenido unas vivencias en las que nos ha basado todo el estar engañando al vecino, está mintiendo, están mintiendo.
+
+[00:07:41.400] - Speaker 2
+O sea, yo he aprendido que cuando tú, cuando tú llegas tarde a un sitio porque te has quedado dormido, puedes decir que te has quedado dormido, porque todo, porque hasta el que te escucha se ha quedado dormido. No hace falta el postureo de decir que me he llegado tarde porque creía que era mejor que tú, no que tú estuvieras de otra forma, lo que lo que yo he tenido la suerte, pero no yo. Todos los que estábamos en Pepephone y miles de personas que que conozco es que eso no se nos arrancarÃ.
+
+[00:08:05.280] - Speaker 2
+O no se nos consiguiera lo mejor. Igual que somos más zoquetes y más cabezones y eso no se nos ha conseguido mantener la cabeza cuando es cuando hemos estado trabajando. Es algo que además, al principio, como todo el mundo sabe, fue muy mal porque. Porque, porque era no era ir a contracorriente edad simplemente deja perder la corriente, tener o no activar un montón de cosas que nos habían enseñado y fue muy mal. Y eso te desanima, pero afortunadamente da igual porque no sabemos hacerlo de otra forma.
+
+[00:08:28.970] - Speaker 2
+Bueno, teníamos experiencias o no teníamos el conocimiento. A veces cuando no sabes qué puede pasar, que puede salir mal, lo haces sin querer. Pues igual no teníamos esa inocencia. Aguantamos y luego empezó a ir bien y ya todo va bien. Ya es fácil porque ya parece que es toda una estrategia pensada y que todo lo has hecho ahí como muy calibrado, pero no es así. Es fruto de la suerte y de la extrema normalidad de todos los que estuvimos allí en aquella conferencia.
+
+[00:08:52.860] - Speaker 2
+Antes decías. Yo recuerdo, yo te escuché allí decir que tú no creías en la publicidad y bueno, al menos yo recuerdo aquello. Vale, igual es un sesgo mío y no dijiste exactamente la frase si no, no es eso, pero la traumatizó. Sí, vale, vale, vale, vale. Y yo siempre he pensado porque de hecho, bueno, yo, yo, yo, yo siempre he tenido y siempre he sido cliente de Telefónica, porque entre otras cosas, porque en mi empresa, de mi compañía, puestos todo lo tenemos con Movistar, con Telefónica y yo en aquella muy te lo he de decir, que estaba bastante jodido porque yo quería ser cliente de Pepephone.
+
+[00:09:30.780] - Speaker 2
+Esto es completamente verídico. Lo que te estoy diciendo es porque yo quería, yo quería ser Pepephone. Lo que pasa es que claro, Pepephone en aquel momento sólo ofrecía unas cosas muy, muy concretas. Pero me encantaba la filosofía, me encantaba y yo anhelaba tener una experiencia de cliente como aquella, porque yo en ese sentido yo entendía y ahora matiza me lo vale, porque cuando tú me decías, tú decías, yo entendí que decías que no creías en la publicidad.
+
+[00:09:56.670] - Speaker 2
+Yo entendía que lo decías en el sentido de que para ti la experiencia de cliente es la verdadera razón por la cual la gente quiere consumir un producto o quiere no, a mí me gusta decir no sé de quién es la frase, pero que que la Gastone, la experiencia es el nuevo marketing y esto ya desde hace unos cuantos años. O sea, esa es la nueva estrategia en matizÃ menos. Entonces si no es mi, te lo voy a matizar y de hecho me vas a ayudar, me acabas de ayudar en parte de la explicación.
+
+[00:10:26.280] - Speaker 2
+Pues eso que has dicho de často me despiden. Un despiértense es una forma de ponerle marketing a experiencia de cliente, que es simplemente decirlo en inglés. En inglés vale, pero suena más, no más. Además del libro y es más. Y de hecho hasta lo entendemos mejor que fíjate, Pedro, pero se interrumpa. Fíjate que yo cuando arranqué este podcast en España, al menos en o yo, no oí hablar de experiencia de cliente. Yo no sabía, no estaba seguro si se decía experiencia del cliente, experiencia cliente.
+
+[00:10:53.630] - Speaker 2
+O sea, hoy está bastante más normalizado, creo. Pero por aquel entonces se hablaba de Často Experience. No, no era. No lo tenía muy claro. Tal y como experiencia de usuario sí que ya se había normalizado bastante. Una tontería, pero. Pero de verdad, yo recuerdo discutir con mi entorno, decir oye, cómo lo llamo? Experiencia del cliente, expriencia de cliente y no tener ni siquiera muy definido el neologismo. Así que nada, nada.
+
+[00:11:18.800] - Speaker 2
+Perdonad que haya interrumpido, las haya evolucionado, se llamara como se llamara la evolución del Customer Experience. Y ahora a CX vale. Y luego a otra cosa. Cuando tengamos un término más chulo, aplicaremos un término más chulo, porque seguimos confiando en que los términos chulos funcionan más allá de lo que tienen dentro, hasta que consigas olvidarte de lo que hay detrás. Me ha pasado algunas veces. Yo no he dicho, o sea, yo no dije que no creía en la policía.
+
+[00:11:41.390] - Speaker 2
+Igual dije con esas palabras puede ser porque soy muy despistado, pero no es la policía. Yo entiendo que tú haces un trabajo, vale? Lo que creo que te tienes que centrar es que el producto de lo que tú haces, el cliente lo entienda, te paga dinero por ello y tú ganes dinero con lo que con lo que tú estás haciendo. Pero que el cliente lo entienda perfectamente qué dinero te ha dado, por qué te lo ha dado y estás satisfecho con el dinero que ha dado y que pueda elegirlo libremente y que tú le entregues a su cliente algo que tú haces?
+
+[00:12:06.560] - Speaker 2
+No, aunque sé que esto va a ser más, va a resultar un poco satánico. Yo creo que una empresa no tiene que hacer lo que el cliente le pide en todo momento. Vale, una empresa tiene que hacer lo que sabe hacer bien, mejor que otras empresas. Vale. Y dentro de eso, escuchar eso es cierto al cliente. Pero no hacer lo que el cliente le pide, sino que tú sabes hacer bien, porque hacer hace que el cliente te pida, aunque no lo sepas.
+
+[00:12:28.550] - Speaker 2
+Vuelva a pasar por tener que engañar al cliente para que él crea que luego que lo está haciendo y dentro de eso de lo que tú estás haciendo, te viene fantásticamente bien. La publicidad a la publicidad, entendida en el sentido de que. De que. De que otras personas conozcan lo que tú estás haciendo. La mejor forma de hacer esa publicidad es vía la experiencia de cliente. Es cierto que un cliente que tiene una experiencia simplemente normal, que lo que recibe es lo que espera, está contento con ello.
+
+[00:12:52.160] - Speaker 2
+Quiere repetir porque quiere repetir y no porque está obligado. Se puede ir cuando quiera porque no está obligado. Tampoco entiende lo que tiene y se da cuenta de que no hace falta. No hace falta parecerse a James Dean o Angelina Jolie, sino que siendo él, disfruta ese producto y lo hace de forma normal. Esa publicidad para mí es la natural y es y es la mejor. No veo mal, eh. Pepephone Lo hemos hecho siempre. Lo hemos hecho casi, apenas, pero lo hemos hecho hacer publicidad en la que tú expliques, siempre y cuando la publicidad no pase de la raya de explicar o decir algo que pueda hacer qué es lo que yo no creo?
+
+[00:13:22.760] - Speaker 2
+O una frase vacía que pueda decir cualquiera o algo que vaya más allá de lo que tú. De lo que tú. Tú le tienes que hacer al cliente. Lo que tú le estás dando, lo que esperas que tenga con lo que está dando. Es decir, lo que va a hacer. Y una frase de cosas de estas. Ni por supuesto, engañarle ni ocultarle cosas. Entonces, digamos que no creo en el marketing entendido como creo en el marketing, lo que significa originalmente el marketing.
+
+[00:13:43.580] - Speaker 2
+No creo en el marketing entendido como es ahora mismo, en lo que en el 80 por ciento de un anuncio, lo que se preocupa uno es que más agendadas como manipulas, cómo gestionas y todo lo que la publicidad muy buena. La ideal es la que no te hace falta porque tienes clientes que lo hacen, pero siempre necesitas un empujón para eso. Sí, el empujón es honrado y tú crees en el producto que tienes y crees en cómo lo estás haciendo y en cómo puedes solucionarlo.
+
+[00:14:03.800] - Speaker 2
+Es fantástico que tú hagas que tú hagas publicidad. Simplemente es cuál es la publicidad que hace esto? Es una opinión que es que sé que es que es minoritaria, pero las empresas que funcionan al final alarga y además para funcionar no tienes que ser muy grande. Las empresas que funcionan son las que viven de lo que hacen y no tienen nada que ocultar y duermen tranquilas por las noches y están felices esas empresas. Todas se basan en que el cliente les quiere comprar.
+
+[00:14:29.750] - Speaker 2
+Antiguamente el cliente tenía que comprar de forma obligatoria. No podía, no podía salir. Los cambios han hecho que ahora mismo en la empresa seguimos olvidándolo las empresas e tomamos las decisiones basadas en nuestros haugen. Estas en nuestros comités de dirección, en nuestros resultados de negocio, en nuestros planes de negocio, en todo. Y al cliente, a un cliente de verdad le importa un carajo lo que diga un presidente a lo que diga un accionista. Un consejo, cuales sean tus resultados o cuál sea tu bonus, simplemente te va a mirar por el producto y las empresas.
+
+[00:14:56.510] - Speaker 2
+Seguimos pensando en el resto de las de las cosas y. Y antiguamente la gente no se preocupaba de esta experiencia de cliente, luego se preocupaba. Va a decir para quedar bien de buenísmo, vale. Y ahora se preocupan porque se dan cuenta de que ese es el driver. Ya estamos mucho más allá de solo el precio o de los engaños que haga. Sobre todo ya es el driver, es lo que el cliente sienta con ellos. Te va a comprar de forma libre, pues tiene una capacidad ya con un click, tiene una capacidad enorme de cambiarte de producto, de cambiarte de empresa y de y de amortizar inmediatamente, sino si no cree en lo que le estás diciendo, entonces la publicidad para mi bienvenida si es limpia, lo ideal es no llegar a tener que tenerla.
+
+[00:15:35.060] - Speaker 2
+Pero. Pero creo que. También talcomo al mercado. No es difícil empezar rápido, pero insisto, para mí el éxito de la empresa no está en el tamaño que tenga la empresa, sino en lo fácil que duerman los empleados por las noches y que vivan de ello.
+
+[00:15:48.690] - Speaker 1
+Total, totalmente. Ahora entraremos en la parte más de tu de tu experiencia actual de Telefónica Bred antes de soltar Pepephone, que ves que yo le tengo un cariño especial. No me da un poco la sensación de que sí vosotros. Yo creo que si hicisteis algo bien fue precisamente cuidar mucho la experiencia de cliente, pero como tú decías, desde una forma muy, muy naif, muy inocente, muy muy simplemente no! Seguramente no hicisteis, no mapea. Este es un casto mejor ni bueno, corrígeme si me equivoco, pero me gustaría saberlo si existía un casta mayor y si hicisteis.
+
+[00:16:25.530] - Speaker 1
+O sea, simplemente hacíais las cosas normales, que era un poco vuestro, vuestro, vuestra. Vuestra bandera.
+
+[00:16:32.940] - Speaker 2
+Sinceramente, es el caso. Mejor me lo he aprendido aquí en Telefónica y como no lo entiendo del todo vale como a termina en inglés, claro, no entiendo del todo. En Pepephone no nos preocupábamos de las piezas de cliente, nos preocupamos de la normalidad de la relación. Incluso muchas veces tomamos decisiones cuando cuando nos venían los expertos decían que la página web del botón tenía que estar en un sitio porque tenías más CTR Rikishi en otro sitio y no sé cuánto es un color tal, rehuimos a eso.
+
+[00:16:58.860] - Speaker 2
+Es decir, si el cliente quiere esto, lo tiene que saber encontrar. Si yo manipulo y consigo un cero con uno más moviendo el botón arriba o cambiando de color al botón, y no puede ser por eso, porque soy un cliente que viene despistado o despistado, que le he tenido que estar ayudando yo con esa, con esa, con esa gestión. Ahora está entendiendo más o menos lo que es el caso millones, pero no entenderlo del todo, del todo, nunca.
+
+[00:17:19.650] - Speaker 2
+Pero insisto, o sea, concentrÃ transferencia de clientes es concentrarte en qué es lo que haces, cómo lo haces y en entender si eso lo harías para ti. Sabe que es una persona normal y entender que lo puedes hacer con mensajes normales y eso vendrá a la experiencia de cliente. No busca con mayorías, negocios y esto lo he dicho mil veces con las telecomunicaciones, que es el caso en que en el que estoy ahora mismo, pero ni con un seguro ni con la banca en los cuartos.
+
+[00:17:39.210] - Speaker 2
+Esto esto es que odio tanto y que y que vivo tanto los seguros, la banca de electricidad, las telecomunicaciones. El cliente no necesita ninguna experiencia. La mejor experiencia de un cliente en estos cuatro sectores es la que existe al cliente. Busca experiencias en otro tipo de negocios que te ofrecen experiencia, que es un negocio ofrecer experiencia, pero no en este caso. En este caso deberían ni existir estar cuando cuando los quieres y no existir el resto de tu vida.
+
+[00:18:03.340] - Speaker 1
+Pero hablando contigo, me doy cuenta de que realmente sea lo que nosotros, nosotros ayudamos a veces no a transformar la pericia de cliente en algunas compañías. Y lo que lo que me doy cuenta hablando contigo, es que precisamente cuando hablamos de Cástor, el expediente y sobre todo de la gestión de la experiencia de cliente, qué hacemos para mejorar la experiencia de cliente? En realidad todo lo que estamos haciendo es intentar volver a ponerle una pátina de normalidad, de decir oye, es exacto.
+
+[00:18:31.230] - Speaker 1
+Quita todo esto, quita todo esto. Y cómo y cómo lo logras? Claro, cuando ya tienes una estructura brutal con los silos establecidos, con silos en cada silo, con sus objetivos de negocio, compitiendo por los mismos presupuestos entre cada silo donde con sus propios objetivos, que no hay una visión centrada en el qué quiere el cliente, qué necesita el cliente, que qué valor le podemos ofrecer al cliente.
+
+[00:18:55.260] - Speaker 2
+O sea que en este cliente que nosotros hagamos, que nosotros hagamos, qué le podemos ofrecer? Qué propuesta de valor tenemos para ese cliente que podemos darle o que le satisfaga? Que al final es que es quitar, quitar todo lo innecesario. O sea, es un poco. A mi me gusta mucho el término desperdicio en Lin. En la mentalidad lím quitar todo el desperdicio en cuanto a la relación con el cliente, a la gestión con el cliente. Así que me ayuda a entender que en realidad, en tu caso o en el caso de Pepephone en aquel momento concreto, que me digas que empezamos 7 hicimos las cosas de forma absolutamente inocente.
+
+[00:19:33.560] - Speaker 2
+Bueno, es que probablemente hiciste las cosas con sentido común y al final, desgraciadamente, el sentido común es el menos común de todos los sentidos, seguramente. Pero bueno, impero impera el sentido común. Así que, oye, y cuál es el rol de un director de experiencia de cliente? Publicidad y multimarca en Telefónica.
+
+[00:19:56.870] - Speaker 2
+Y el rol, como cualquier persona en Telefónica, es conseguir tener una empresa e que sea querida por el cliente, en el que lo que te ocurra es lo que tú esperas que te ocurra. Y eso en mi caso, pues digamos que que cubre diferentes áreas. Por un lado es multimarca, que es la que es la marca, o dos, que es un operador con otro, con otro modelo. Por otro lado es también llevar. Telefónica es la empresa que demostrado tiene más, digamos, más capacidad técnica.
+
+[00:20:23.840] - Speaker 2
+O sea, técnicamente es la empresa más fiable de España. Perdona que lo diga yo, pero es así. Lo decía también cuando estaba, cuando competía con Telefónica, así que no tengo ninguna duda respecto a la sinceridad de mis palabras. Pero tiene un montón de clientes y tiene un montón de historia. Y puede haber muchos clientes. De hecho, los hay clientes que no están satisfechos con con cosas que a veces son puntuales, porque tú porque tienes una complejidad enorme de mapa de clientes.
+
+[00:20:47.210] - Speaker 2
+El objetivo es ir poco a poco e alineando esa experiencia de cliente en el sentido de lo que tienes, cómo lo tienes, cómo estás contento, cómo te trato y cómo evito los problemas. Porque el problema sea cómo consigo resolver, resolver problemas cuando ocurrió, porque problemas siempre ocurren. Digamos llevarlo a la empresa más grande de España. Y por otro lado, en publicidad, por el mismo hecho de lo que hemos hecho, habla de lo que me está hablando ahora mismo, de intentar que esa comunicación sea una comunicación e e sincera, más tendente a a lo que tú quieres, cómo lo quieres y a apelar a una inteligencia de cliente que existe.
+
+[00:21:22.310] - Speaker 2
+Vale que a un cambio de mensaje en la la la la arriesgada apuesta de Telefónica teniéndome a mí en este en este puesto es por un lado es un paso importantísimo porque es una decisión de ir hacia ese camino. En los tres frentes en los que lo haces, es decir, a través de las diferentes propuestas que tiene Telefónica, a través de la experiencia de cliente y a través de la publicidad. Darme a mí la publicidad es bueno, hay un director de publicidad, pero meter dentro de mi área esta publicidad es un paso adelante muy fuerte de la compañía.
+
+[00:21:53.870] - Speaker 2
+Es un paso que cualquiera, yo yo podría juzgar que es un error gordo, pero creo que es creo que es una que puede llegar a ser un acierto porque es un paso en ese sentido y en el camino de que yo creo que deben llevar las compañías equilibradas así. Un negocio que funciona mucho tiempo con, con, con. con los cambios que tú quieras hacer, que siempre tienen que ser hechas despacio. Una gran compañía es un tren enorme. Si tú lo giras en línea en un ángulo recto, descarriadas el tren, tienes que hacer una curva suave.
+
+[00:22:25.320] - Speaker 1
+Yo creo que es muy valiente. Desde luego, yo creo que es una decisión súper, súper valiente. Y no porque no, porque fíjate. O sea, no al principio. Recuerdo cuando, cuando, cuando se supone que he pasado a Telefónica y que hacía el cambio vital, hubo cierta suspicacia, cierta suspicacia. Recuerdo que no estuviese Telefónica intentando blanquear un poco. O sea, yo recuerdo aquellas conversaciones. Pero quienes conocíamos a Pedro Serrahima decíamos es que no, es que es imposible.
+
+[00:22:58.810] - Speaker 1
+O sea, es que es imposible porque por lo que decía antes, porque tú tienes las cosas súper claras y para ti. Yo sé que hay líneas rojas y hay cosas que no son negociables y que. Y que y que tú vas muy muy de cara y que llegar a me parece valiente en el sentido de decir oye, somos telefónica con la herencia que eso significa no a todos los niveles, con la responsabilidad que eso significa. Y tomar esta decisión.
+
+[00:23:27.400] - Speaker 1
+O sea, me parece como un. Creo que es algo súper importante y quizá es una pregunta que no sé si debería hacerte latí. Pero hasta qué punto crees que cambiando el liderazgo de una compañía se puede transformar esa compañía?
+
+[00:23:44.950] - Speaker 2
+Y. Hasta mucho punto y hasta poco punto. Las compañías cambian si los líderes deciden que cambio. Lo siento mucho de esto, es muy duro decirlo, vale? Pero las compañías sólo cambian cuando el líder de la compañía decide que cambian y cambian en un sentido en el que lidera la compañía crezca. No existe una compañía con un líder sin que no sea una sinvergüenza. Y no existe una compañía con un líder honrado que no sea honrada porque al final es el líder.
+
+[00:24:10.450] - Speaker 2
+Es el que en los siguientes niveles están, están, están, digamos, confortables con su líder. Cuando, cuando admiten esa línea o entienden esa línea, pues si no se genera un conflicto, ese conflicto acabará haciendo una producción de la selección natural en el que hacia abajo todo barre a tener ese, ese, ese modelo. Y eso pasa así, vale. Entonces. Pero no es un cambio de liderazgo. O sea, yo me incorporé a Telefónica dentro de una decisión de Telefónica arriesgada por su parte de.
+
+[00:24:35.650] - Speaker 2
+De de de. De hacer cambios que ellos están viendo. Pero ni líderes de Telefónica ni muy muy lejos de liderar o tienen un papel. Es cierto que me dieron un papel relevante porque me metieron en el comité de dirección, lo cual es una auténtica barbaridad. Vale, pero fue un paso valiente y yo creo de momento, eh? Yo no he hecho daño en Telefonica. Creo que han salido las cosas muy bien en algunas cosas, pero el el es una decisión valiente.
+
+[00:25:00.880] - Speaker 2
+Y tengo que reconocer una cosa y hubo mucho. Abordó una discusión con Javier García Recuenco, que puso un artículo diciendo que a eso iba a ser imposible, que no era lo mismo Pepephone en en fuera y por libre que dentro de una Telefónica y luego hable con él. Sí, no hablé con él porque ahí he estado. 2 que es una compañía enorme, de las que más, sino la que más rápido crece en España con el NPS más alto para los que le gustan las cosas de esas chungas en inglés de delmercado.
+
+[00:25:28.660] - Speaker 2
+Y he de reconocer que son decisiones que son, que muchas de las decisiones pueden ser opuestas a lo que es una telefónica tradicional y que se me han podido discutir varias decisiones, pero siempre se ha respetado mi decisión, simplemente se me da, se me ha intentado y en algunas se me ha convencido de otros caminos. Porque es que Telefónica y también esto lo puedo decir ahora porque también lo decía y ya está grabado. Antes de cuando yo competía contra Telefónica, tienen los mejores técnicos e ingenieros y expertos en telecomunicaciones de España y es cierto que haya estado alguna visión de algunas cosas que te das cuenta que puede ser diferente, pero siempre he de reconocer que me han dejado tomar la decisión y la decisión que yo he querido en en esta parte de lo que respeta o dos.
+
+[00:26:05.560] - Speaker 2
+Y después de eso me han dado más responsabilidades en otras áreas que son más peligrosas, como la experiencia cliente o como podría ser la publicidad, que ya es rizar el rizo, lo cual demuestra un voto de confianza de un camino que es oye, hazlo poco a poco, pero vamos a intentar en este camino. Y eso se hace porque el líder del líder de la compañía quiere hacer ese camino, porque si no, no se haría y no puede funcionar si el líder no está convencido de hacerlo, aunque sea de forma prudente.
+
+[00:26:29.110] - Speaker 2
+Pero es que es es una decisión tan arriesgada y tan peligrosa y tan incoherente, pues resultaba ser a posteriori. De momento yo creo que no ha salido mal. Yo estoy muy contento. Telefónica pues tiene un poco más de fiesta dentro de sí, entiendo, pero están más entretenidos y yo creo que es acertada y es el camino correcto de una compañía que siempre ha demostrado que es capaz de cambiar desde desde los inicios de ahora hasta la de los anuncios estos con el cambio de marca de Telefónica.
+
+[00:26:56.210] - Speaker 2
+Es cierto que Telefónica sí que empezó con el teléfono, luego con el móvil, la fibra, la televisión telefónica siempre ha estado dispuesta a cambiar, no se le puede decir otra cosa por mucho que sea y viceversa. Históricamente, en todo el mundo hay muy pocas compañías en el mundo que siendo tan potentes en épocas diferentes en las que hay monopolio, todo haya sabido adaptarse a la competencia y compitiendo en condiciones. Porque Telefónica compite con una mano atada a la espalda por limitaciones que hay, porque hay que frenarla, para que?
+
+[00:27:21.760] - Speaker 2
+Para que pueda competir en igualdad, lo cual vale, puede ser correcto. Pero ocurre así. Entonces es una telefónica, demuestra que siempre va a cambiar y yo creo que eso le da una larga vida. Pero el cambio de modelo de cliente es cierto y supongo que en unos años también será otra Telefónica diferente.
+
+[00:27:38.470] - Speaker 1
+En qué forma? En qué forma se está ayudando a la tecnología en esto? En esta nueva dirección digamos que estáis usando la tecnología para, para. Para mejorar también eso y para poner al cliente más en el centro, o para cambiar ese nuevo a ese nuevo modelo de cliente?
+
+[00:27:55.540] - Speaker 2
+Pues sí. Y afortunadamente Telefónica es una empresa ultra tecnológica, sabes? La gente la ve como una teleco, pero es una empresa que tiene unas capacidades tecnológicas tremendas. Es un. Es un mundo entero de. Dentro de todo esto e igual que antiguamente, en etapas anteriores, tu puedes ver lo que estás haciendo mal, de lo que estás haciendo bien, simplemente entrando en redes sociales. Ya sabes que siempre he sido contrario a preguntarle directamente al cliente, hacerle cosas como estas o como no estas y mucho menos los focus group, pero antes.
+
+[00:28:27.580] - Speaker 2
+O sea, es más fácil ver lo que para nosotros será más útil. Ver lo que pensaba en abierto cuando hablaba con sus amigos, cuando hablaba con el resto de gente de un público, porque era más sincero. Cuando tú pasas a una escala de Telefónica con tantos millones de clientes, eso es muy difícil ver. Tu puedes hacer monitorización, es tu puedes ver lo que estás a lo que estás haciendo, pero es imposible. Entonces sí que hemos recurrido.
+
+[00:28:45.800] - Speaker 2
+Ahora a tecnología y estamos haciéndolo y próximamente habrá bastantes cambios que te permitan hacer una multiplicidad automática de inteligencia artificial en la que te permite ver qué es lo que está ocurriendo, qué es lo que estamos haciendo mal en cada sitio donde el cliente está viendo más puntos de roce, no para manipular la experiencia de cliente, sino para entender donde nosotros, que somos un equipo gigantesco, podemos mejorar y verlo. Y eso es algo que no lo puedes hacer manualmente, manualmente, haciendo monitorización.
+
+[00:29:12.260] - Speaker 2
+Pero no puedes, no puedes tenerlo todo. Estamos incorporando tecnología propia y de terceras empresas precisamente para poder tener el control de todo esto y el conocimiento de todo esto sin manipulación, simplemente verlo cómo está pasando.
+
+[00:29:26.900] - Speaker 1
+Algunas dificultades que veo y enlazo también con lo que decías antes que estoy. O es que no sabes cuán de acuerdo estoy con lo que estabas diciendo? O es el liderazgo o quien quiere que suceda un cambio. Es que. Mira, lo digo en los programas que dirijo en ESADE. Lo digo en este podcast constantemente. Mucha gente con toda la buena voluntad. Yo he visto un montón de veces islas de cambio dentro de una compañía, dentro de la organización, del organigrama de una compañía.
+
+[00:29:55.450] - Speaker 1
+Hay gente empujando por transformar a gente. Y todo el mundo me pregunta Oye, cómo lo hacemos? Y yo también. O sea, es que me resonaba un montón lo que decía. Lo siento muchísimo, pero es que lo que te digo que te voy a decir no es lo que quieres oír y lo que te voy a decir es que o hay una alineación de arriba abajo y de abajo arriba, aunque no me gusta mucho la definición de lo que es arriba, es abajo.
+
+[00:30:19.480] - Speaker 1
+Pero entendedme, saber en una jerarquía o hay desde el liderazgo, desde la visión más estratégica, desde aquellos que están pendientes de hacia dónde vamos en los próximos años, hasta aquellos que están en la tecnología o la producción, o en aquellos en operaciones, en aquello que somos buenos haciendo o hay una alineación superior, sobretodo esa visión de liderazgo que quiere cambiar y sabe hacia dónde quiere cambiar o esto no lo mueven y ni el motor más grande.
+
+[00:30:53.200] - Speaker 2
+Y eso nunca va a funcionar si no es el líder el que el que lo mueve o lo puede parar o lo puede acelerar. Y puede ser que el líder crea una cosa y no consiga cambiarlo. Vale, lo que no puede ser eso puede ocurrir. Lo que seguro nunca va a ocurrir es que el líder no quiera cambiarlo y la empresa desde abajo, con muchas islas que tenga, lo consiga cambiar. Y tienes ejemplos. Puedes ver ahí los cambios de liderazgo en Microsoft, lo que han significado claro cómo funciona.
+
+[00:31:16.270] - Speaker 2
+El problema está en que el beneficio en muchas modelos de empresas es a corto plazo y el rendimiento de la rentabilidad de un cliente es siempre a medio y largo plazo. No existe cuando cuando las ventas del cliente a corto plazo tienen algo escondido detrás, sabes? Entonces, si siempre estás enfrentando decisiones de beneficio a corto plazo para conseguir un largo plazo que a veces no te. No te lo perdonará la empresa, entonces tú puedes convencer a un líder que no piensa eso de hacerlo de otra forma cuando le demuestras que es rentable.
+
+[00:31:41.660] - Speaker 2
+La única forma de conseguirlo y demostrar que es rentable se es un líder cortoplacista, se lo tienes que demostrar a corto y eso no sale jamás. Sale buenísimo y sale la oportunidad de una acción honrada. Te sustituye por un mensaje chulo, honrado. No veo por qué no? Porque no cuidamos al cliente. Pues mira, pues en vez de cuidarlo vamos a poner un cartel que ponga te queremos mucho. Y es que es gratis. En el cartel de este Zeus no se te ocurren carteles?
+
+[00:32:05.170] - Speaker 2
+Pues como he dicho antes, te vas a la librería de un aeropuerto, a la sección de autoayuda y tienes 200 carteles que puedes poner sea cual sea tu negocio es ni canalizarlo total y además esto. Yo creo que lo que hablábamos no tanto el tema de la tecnología como la tecnología nos puede ayudar a conseguir estos objetivos, a conocer al cliente, a entender mejor y sobre todo en una compañía tan tan, tan grande. Y ahora lo relaciono con el tema de liderazgo y a veces lo que veo también lo que sucede en muchas ocasiones, es que está tan separado una cosa de otra, es decir, la gente que que produce, digamos, tecnología o la gente que sabe utilizar la tecnología, que la comprende la gente que está más cerca del hacer.
+
+[00:32:46.420] - Speaker 2
+A veces están muy lejos de la gente que está más cerca del pensar o proyectar o ver. Y creo que eso en muchas ocasiones es un gravísimo problema. Y eso es un súper reto para, para, para la mayoría de las organizaciones. Yo creo que muchas veces hablamos también de transformación digital y cosas así. Y también hay otro término absolutamente vaciado de significado, pero que muchas veces lo que me encuentro es que no sólo hace falta que el liderazgo de las organizaciones vea, sea capaz, tenga visión, tenga apertura de mente, tenga visión para entender hacia dónde quiere ir, sino que también necesita entender a nivel de tecnología, que es lo que lo que nos va a dar esa ventaja competitiva hoy en día en un mundo tan tecnificado como en el que estamos hoy.
+
+[00:33:35.320] - Speaker 2
+Que además entienda un poco cómo podemos sacar ventaja de eso. Y hasta ese punto no sé cómo lo ves esto.
+
+[00:33:43.940] - Speaker 2
+Si he hecho lo mismo. Esto que dices es muy importante porque, y antiguamente sólo cuando tenías una gran empresa y tenías un gran presupuesto y una gran capacidad de recurso, podías funcionar. Hacías publicidad hacia lo que te daba la gana y el resto da igual como funcionara. Eras el rey y funcionaba así. Y qué ha pasado con el tiempo? Con el tiempo ha pasado que el cliente se ha ido despertando. Porque? Simplemente porque. Porque la inteligencia colectiva de redes sociales ha superado a la de la empresa, ante la de la empresa, siempre la superior.
+
+[00:34:14.480] - Speaker 2
+Podías engañar, manipular, mentir, cambiar lo que dijeras y la verdad se quedaba la que tú dijeras o la pagaras en la publicidad. Ahora eso ha cambiado porque las redes sociales tienen mucha más potencia y mucha más capacidad de manejar información de forma colectiva que que que las empresas. Y eso ha hecho que las empresas pequeñitas con menos tamaño, con decon, con departamentos de marketing de mucha menos gente que las otras y con mucho menos proceso y más agilidad de proceso, pudieran empezar a cogerle la cuerda a empresas grandes.
+
+[00:34:43.220] - Speaker 2
+El siguiente gran cambio ha venido por la vía tecnológica. Una empresa pequeñita en la que tienes la relación mucho más cercana entre la parte técnica y la parte de liderazgo. Incluso la parte de liderazgo es la propia. La parte técnica. Recordamos que el video ese de Steve Jobs, donde se quejaba de que en todas las empresas siempre acaban dirigiendo, acaban siendo dirigidas por financieros y no por la gente que entendía el producto y la tecnología de lo que estabas, de lo que estabas viniendo, que eso era como una especie de descomposición.
+
+[00:35:10.940] - Speaker 2
+Pero bueno, qué es lo que ha pasado? Tú aligeran la empresa. Antes con una empresa de 1000 empleados no te podía competir una empresa de de 40 ahora. Entonces, de repente, cuando empiezas a lijera de marketing y empiezas a simplificar los modelos de relación con el cliente, resulta que con una empresa de mil empleados te puede competir una de 100. Pero es que avanza todo más. Y ahora tecnología, tecnología. Hay empresas jóvenes que están dispuestas a aprenderla, adaptarla, a incorporarla y que además es más sencillo para ellas incorporarla.
+
+[00:35:37.070] - Speaker 2
+Y lo que haces es que ya esa diferencia que necesitabas para competir con 1000 ya te bastaba con 100. Ahora resulta que gracias a la tecnología para competir te basta con 10 tíos y hace que empresas en todos los sectores y en sectores que son intocables, tengas empresas canijos que están acelerando a lo bestia, que te ofrecen un servicio al mismo nivel ya comparable y ya no es para un nicho de clientes, sino al mismo nivel que una grande e comparable, simplemente porque a ligeras históricamente se ha aligerado con la experiencia de cliente.
+
+[00:36:01.730] - Speaker 2
+La parte del marketing es que los que la han aligerado los siguen pensando que las pienza y clientes. Meter a 200 tíos más en marketing y seguir ahí al cliente. Más cablecito es en la cabeza y en su jaulita como un rato analizando y sacar miles de índice, miles de colores, mientras los demás están diciendo simplemente oye, qué te pasa? Te va a pasar esto? Te lo resuelvo, ya está. Sabéis? Mientras unos están analizando a índices y métricas y KPIs, otros están tratando con el cliente con mucha más agilidad, le metes luego la tecnologia y una empresa pequeñita te puede coger y eso es un peligro para las empresas grandes, las empresas grandes.
+
+[00:36:29.870] - Speaker 2
+Y ahí creo que por ejemplo, Telefónica sí que tiene un paso adelante para Telefónica hace muchos años y además se ven en su en su presidente de máximos, un tío que está tremendamente metido a pesar de que es un financiero, está tremendamente metido en la tecnología. Todo el día se ha ido a Estados Unidos a estudiar tecnología con la que trabaja Telefónica. Es increíble cómo está metido. Ya lleva muchos años entrando en esa parte porque sabes que te acaban comiendo.
+
+[00:36:51.830] - Speaker 2
+Yo creo que te acaban comiendo por esa normalidad con el cliente y por esa capacidad tecnológica que está ahora mismo un reconocimiento facial. Antes te lo podía hacer una empresa americana gigante. Hay un millón de 400 facial. Te lo hago yo con tres amigos para una aplicación de entrega de bocadillos en tu casa. Porque lo tengo todo y entonces eso cambia y o agua o asumes que tienes que seguir. Cuando, cuándo? Tienes la ventaja de que puedes estar avanzando.
+
+[00:37:14.540] - Speaker 2
+Vale que puedes estar avanzando respecto a esa respecto a esa tecnología, pero tienes que estar en ese camino del cambio. El mundo es constante cambio. Y hay una cosa que es clarísima las empresas grandes, lo que deberían tener clarísimo es una decisión que no entienden ni cómo la llegan a discutir, porque todos siguen tomando esa decisión en sentido contrario al que tú eres el líder de un negocio y te empieza a parecer otro pequeño negocio, otro pequeño cambio en el en el mundo.
+
+[00:37:38.510] - Speaker 2
+Si hay, si hay alguien que tiene que entrar en ese pequeño negocio y en ese pequeño cambio, sabes? Eres tú. RS Y después hay otro pequeñito que quiere entrar o que alguien de cero decía que se mete en ese negocio. Si alguien tiene que entrar es tu decisión. Ya se ha llevado por delante a un montonazo de empresas como Blackberry, como Nokia, como a punto estuvo llevarse a Microsoft, en cambio sí, porque si es en el pequeño negocio funciona.
+
+[00:37:59.660] - Speaker 2
+Te conviertes en el rey del antiguo y del nuevo. Y ya pasado el comercio electrónico, con un montón de empresas que no han querido entrar en el comercio técnico porque pensaban que eso les dañaba, hoy están medio medio fuera. En cambio, si ese negocio no funciona, a ti te da igual porque has perdido un poquito tus recursos y has machacado a los demás. Si ese negocio funciona, eres el rey. Tenemos un ejemplo que muy poca gente conoce, que de las angulas vale dos señores de angulas Aguinaga, que eran los reyes del angula, empezó el negocio de la angula esta falsa de su limitase y sacaron la gula del norte y dijeron vamos a ser los reyes, si esto va, no estaremos allí no estaba ninguno.
+
+[00:38:31.010] - Speaker 2
+O sea, somos los reyes en los dos lados. Si esto funciona, somos capaces de crear el negocio principal desde de angulas Aguinaga son las medidas angulas y eso es invitado en tecnología, sacando de esa mejor angula, compitiendo contra ti mismo y que Tommo. Decisión, me imagino, no sé cómo es esa empresa. Me imagino un hijo en ese momento, siendo el padre que llevaba 80 años viniendo, angulas mi papá, que es mierda, eso lo sé.
+
+[00:38:50.840] - Speaker 2
+Sabes? Pues lo hicieron, lo hicieron. Por qué? Porque son los únicos que no tienen, son los únicos que no tienen nada que perder y los que más podían perder con eso. Y eso pasa ya con la tecnología. Ni te cuento. Entonces cada cada nuevo campo, nueva cosa, aunque sea un experimento, las empresas tienen que tienen que entender que tú como empresa tienes 5 minutos de vida, que a los 5 minutos siguientes tienes que estar intentando hacer otra cosa, explorando otro camino y más y más grande.
+
+[00:39:14.240] - Speaker 2
+Me he reido mucho con esto.
+
+[00:39:15.060] - Speaker 1
+No, no, no, me encanta, me encanta lo que estás diciendo y lo relaciono con el, con el, con el concepto de innovación disruptiva de Clayton Christensen, que habla precisamente de eso como el dilema del innovador y de cuándo es el momento en el que una compañía, como una compañía tradicional que está vendiendo angulas tiene que plantearse si invertir, invertir o no en una nueva, en un nuevo concepto, en un nuevo modelo, el nuevo modelo, negocio o lo que sea.
+
+[00:39:38.990] - Speaker 1
+Y esto me lleva a hacerte una pregunta que quería hacerte. Por qué? Porque yo sé, porque ya te he escuchado mucho ya, pero quiero que nos lo cuentes tú, no de primera mano. Es que tú dices que la innovación hay que esconderla y quiero que nos hables de eso. Qué significa esto?
+
+[00:39:55.040] - Speaker 2
+El colibrí. Vengo a hablaros de que iba a hablar muchas veces el juego, la innovación, o sea el cliente, la tecnología te tiene que ayudar. Es esencial para lo que sea el negocio que estás haciendo. Pienses lo clásico que sea, la tecnología es esencial para hacerla, pero existe una confusión respecto a a a inundar o empapar al cliente de tecnología. Cliente no tiene por qué entender tu puñetera tecnología para para disfrutarla. No tiene por qué estar.
+
+[00:40:22.220] - Speaker 2
+Y esto me lo ha sido. O sea, es como un microondas, tiene que estar y tengo que decir peso no sé cuánto porque tengo un botoncito. Además, un táctil grande. Quién cojones le da a un botón táctil de microondas? Dónde está la rueda, el botón, el antologia que tienes que sea el ejemplo que explicaba? Soy muy liante hablando de esto. Es el del colibrí y el colibrí que que para los que no lo hayan oído ya sabes que lo vuelvo a contar.
+
+[00:40:44.690] - Speaker 2
+Es el único pájaro del mundo, ave del mundo que es capaz de volar hacia delante, hacia atrás, hacia arriba, hacia abajo e incluso unos cuantos segundos invertido cuando además es este no es la única, pero es de las poquitas. Sabes que tienes un piquito como un escalpelo olivan de una flor puede hacer viento, lluvia y experimentos. Universidades alemanas con viento metiendo el agua colibri. El tío, si tú miras el escalpelo, está milimétricamente clava, altiva, compensando con el cuerpo.
+
+[00:41:11.090] - Speaker 2
+Entonces esto es una maravilla, es una cosa que tú ves, un colibrí volando y flipas. Y si, y si no flipas? Y te digo lo que te estoy diciendo, te digo que es el único ave que es capaz de volar en los cuatro sentidos y boca abajo ya flipas más. No hace falta que te explique lo que lo que tiene detrás. Entonces existen universidades, necesitas biología molecular, ingeniería civil, aeronáutica, todo para entender, estar muchos años, entender por qué ocurre eso de Colibri.
+
+[00:41:35.480] - Speaker 2
+Entonces hay dos caminos de que un colibrí te enamore. Uno es coger a un tío, sentarlo en un cuarto, encerrarlo 16 años con 200 trabajos de doctorado y todo para death aerodinámicamente o ovio mecanicamente. Cómo coño funciona eso? Vale que vas a perder un montón de tiempo o simplemente que hay que explicarle lo que hace y ya está, pero no tiene porqué saber lo que hace. El colibrí es así de maravilloso solamente porque tiene esa tecnología. Sea tecnología le habilita para para ser así, pero no hace falta entenderlo.
+
+[00:42:02.540] - Speaker 2
+Y las empresas nos hemos empeñado, muchas empresas nos hemos empeñado en cuando ellos hagan una cosa tecnológica desacople cibe free fifty 6 y no hace falta. Tenemos un ejemplo de una marca famosísima de ordenadores que se gasta un montón de pasta. Ir detrás un producto durante muchos meses lanzamiento porque no arrancaba en 11 segundos. El director de empresa, que es el señor Jobs, dijo esta etapa cuando la ves tienen que arrancar 12 segundos y su equipo le decía No ves que estamos en 20:20?
+
+[00:42:24.230] - Speaker 2
+No son suficientes, son 11. Y qué hicieron? Te entregaron un ornar que tú lo abres. Cuando todos tardan un minuto y pico, lo abrías y en 11 segundos lo tenías ya encendido. Le tienes que explicar a un cliente esto es que son fijarlos con un bus tri carrier de no sé qué nosecuantos. No se lo tienes que explicar, simplemente es algo que como no lo tienes que explicar le vale a cualquier cliente del mundo, ni que se inventarlos, ni análisis ni nada.
+
+[00:42:44.000] - Speaker 2
+11 segundos 15. Qué hacía el tornado que tenían? Que estos son tantos gigas, tantos años? O sea, un cliente de Apple no tiene ni puñetera idea de qué tiene esa cosa dentro, pero sabe que funciona. Lo hizo con el iPhone y hay muchas más empresas que lo hacen eso. Es decir, sólo con la tecnología consigues obtener eso que obtienes. Pero de verdad no lo expliqué ya saquemos fuera, llenemos las cosas de botones ni explicaciones técnicas, porque eso es lo que me pasa con los microondas.
+
+[00:43:07.370] - Speaker 2
+Hoy es imposible encontrar un microondas manejable. Necesitas mi ayuda, tienes que decir si vas a hacer pollos, se va a hacer pato. Abuela, si tu abuela ha venido descalzas y está saliendo con el cuñado de enfrente, cuánto tiempo, cuánto peso? Es imposible. Yo tengo microondas, tengo una casa en Málaga con un microondas que la compré con la con el microondas y no soy capaz de manejarlo. Es imposible, sólo me vale un botón que le pone un minuto.
+
+[00:43:27.590] - Speaker 2
+He aprendido el de tiene 7 botones, tiene dibujos, pollos, gril, no sé qué, no sé cuántos. Te prometo que no te miento, que sólo se da el botón de minuto y sé que si le doy otra vez se ponen dos minutos cuando quiero que al entrar a un café de 30 segundos tengo que pararlo yo porque no sea bajarlo ya tiene un. Montón de votos, eso sí, podría hacer un pollo al horno en rosbif cuando venga mi abuela, que está saliendo con la vecina de arriba sin que nadie lo sepa.
+
+[00:43:48.260] - Speaker 2
+Si se lo explico. Increíble. Increíble. Te lleva la tecnología a la cara por el alardeo de que puedes hacer un montón de cosas y llenarla de botones y llenar de configuraciones. Tu como no, elige a tu a tu medida. Todo esto selecciona quieras y al final se mezcla con la seaton bastantes decisiones. Tienes tanta capacidad tecnológica tomar tantas decisiones que dices me he equivocado, me he equivocado veces es mejor. Oye, este es mi producto, este es el que tú quieres.
+
+[00:44:11.750] - Speaker 2
+Si no lo quieres, yo puedo llegar a cambiarte. Pero lo que tienes en tus 16. Así que por dentro no te explico cómo te va a funcionar.
+
+[00:44:17.480] - Speaker 1
+Bueno Pedro, que bueno yo aquí. Mira un diría más si es que ahora he escuchado que decías mi abuela descalzarme me has llevado ahí. Y hablando antes también lo que hablamos de la publicidad, fíjate, se me ha ocurrido ahora no escuchandote que vale. Y no sólo esto, para mí ya es un error de usabilidad, no un mal diseño, además. Vale, esfuérzate por eso, por tener esa mentalidad. Pero es que fíjate, ahora se me está ocurriendo.
+
+[00:44:39.360] - Speaker 1
+Yo soy corredor minimalista, yo a mi me gusta correr y corro, o sea, yo corro con unas sandalias, huaraches, o sea, yo corro con unas sandalias que están hechas normalmente las originales están hechas de ruedas, son de los indios tarahumaras de México, están hechas con un trozo de neumático, cuatro cuerdas para fijar el tobillo a la suela y ya el pie. Tú hablabas del colibrí. El pie es, es. O sea, el pie no lo hubiera soñado ni Leonardo da Vinci.
+
+[00:45:05.330] - Speaker 1
+O sea, el arco del pie está formado por no sé cuántas decenas de huesecillos, de músculos, de tendones que no hemos logrado construir nada parecido a lo que es la maravilla biométrica del pie y del arco del pie que soporta el peso del cuerpo, amortigua los golpes, es capaz de. Y fíjate que han empezado a aparecer marcas. Y esto empezó a pasar en los años 80. Y no sé si tú te acuerdas cuando nosotros éramos jóvenes más, más jóvenes.
+
+[00:45:32.540] - Speaker 1
+Pedro Cuando nosotros éramos mucho más jóvenes en la NBA jugaban con las colas convers Hole Star que no tenían amortiguación, tíos de dos metros y pico que pesaban ciento y pico kilos, jugaban con las convers Star. Bueno, hoy, hoy nos hemos tragado Blasa. Precisamente eso que tú comentabas al inicio de la publicidad y de esos mensajes de que nos hemos tragado que no nos íres corredor, pero es corredor probador, porque entonces necesitas un arco compilada. Olimos opinador con cámara de aire porque nos han hecho creer que no somos.
+
+[00:46:03.760] - Speaker 1
+O osea que nuestra naturaleza no nos ha hecho bien? O sea que no somos capaces de correr bien? Entonces necesitas ayuda de grandes marcas de fabricación de zapatillas para tal. Y esto es como a mí me rompe la cabeza. Joder, igual lo que tendríamos que hacer es fortalecer un poquito el arco del pie, porque es lo que nos pasa en el pie. Es que si tú te pones cuando te ponen un yeso en el brazo, que te rompes un hueso en el brazo cuando te sacas el yeso, qué es lo que pasa?
+
+[00:46:26.870] - Speaker 1
+Que tienes el brazo débil? Pues llevamos todo el día los zapatos apretándolos los pies. Lo que nos pasa es que están débiles. Coño. Igual tendríamos que pensar desde un punto de vista con el sentido común, es decir, con lo que tengo que hacer es fortalecer mis pies. Yo soy muy. Soy un catalán, decimos un Kuroko con esto soy. Soy muy pesado con esto porque joder, veo a gente super obsesionada gastándose 200 pavos en unas zapatillas con el gel nimbus que además te elevan el puente.
+
+[00:46:53.510] - Speaker 1
+Coño, pero si lo tienes ya. Pero si es que lo tienes, porque en el marketing no se ha llevado a que lo que estás comprando es tu sugestion hexano. Estás comprando ese producto, estás comprando a su gestión y eso es caro, requiere muchísima gente, pero en cuanto la gente empiece a entender las cosas, si no empresa pequeñita empieza a ofrecer las cosas normales tienen un problema, pues mientras funciona las sugestiones y lo más rentable ahora mismo y tanto, es que después del atraco, después del atraco es lo más rentable que existe.
+
+[00:47:18.710] - Speaker 1
+Absolutamente, absolutamente. Porque el atraco en un atraco con una palanqueta y una media que te cuesta 50 céntimos te pueden sacar 12 mil euros. Es lo tener la sobreestimando. Otra cosa es a largo plazo. Cómo se sostiene eso?
+
+[00:47:31.220] - Speaker 1
+Oye Pedro, para para cerrar, no te quiero robar más tiempo, aunque me lo estoy pasando de puta madre. Me gustaría estar aquí hablando todo el rato, pero te voy a hacer una pregunta que es difícil porque no te la he tirado ninguna pregunta previamente y no la tienes preparada. Pero me gustaría que pienses en en. En alguien que te ha inspirado, en alguien que tú creas, que te ha influido, que te ha inspirado desde un punto de vista de ser mejor líder o a ser mejor manager o o persona.
+
+[00:48:02.540] - Speaker 1
+No, porque me vas a decir mi padre o mi madre y tal y eso no me vale. Me gustaría que me digas alguien que realmente te haya, te haya inspirado y te haya enseñado.
+
+[00:48:13.630] - Speaker 2
+Es que no sé que responderte, porque no es, no es, no es ser alguien en concreto, es el comportamiento de las personas. Cada día, cada persona que te encuentras por la calle, que tienes que que es capaz de que te desnuda esa. Esa realidad de que puedes hablar una persona normal y volver a dejar hablar con esa persona normal. Yo creo que son las miles de personas con las que he hablado en mi vida que las que he tenido que aceptar que me digan las cosas de forma real y he tenido que aceptar entenderlas.
+
+[00:48:36.940] - Speaker 2
+Las formas de las cosas de forma real y las miles de personas con las que yo he hablado y hablando las cosas de forma real y normal. Has visto que te que te han respondido de forma normal cuando a ti te han enseñado siempre, sobre todo cuando empiezas a las compañías a trabajar, que tienes que manipular y gestionar todo ese discurso? Eso creo que es lo que te hace aprender lo que te fijas, porque te hace ver que puedes recibir las cosas de forma normal y que las puedes hacer.
+
+[00:48:57.880] - Speaker 2
+No veo muchas empresas que admiro. Siempre, siempre, todas las empresas que admiro. Si te fijas, todas tienen identificadas a su líder claramente y eso no lo hemos hablado muchas veces. Pero no es que seamos así, porque entiendo que cada uno tiene su forma, de su forma de ser, que mi modelo a seguir es el de las personas que están en la calle, que todos de forma común son normales. La suma de todas las dicen que una bandada de pájaros tiene una capacidad igual que los Bandit y las banderitas de las ardillitas pequeñas que se mueven hacia lo bestia.
+
+[00:49:24.700] - Speaker 2
+O sea, una una suelta no es capaz de razonar la mitad de las cosas, pero una bandada de pájaros es capaz de transmitir una señal delante atrás en milésimas de segundo. Y estos peces lo mismo. O sea, la gente en conjunto consumando el comportamiento de todos te puede una super inteligencia y eso si que es un liderazgo. Y eso que si que se puede aprender entonces. No sé, yo no tengo eso en mi cabeza. Entiendo. Hay muchas empresas que admiro, hay mucho líder del camino, pero eh, yo creo que es el la gran dosis de normalidad o de leches que me lleva en la vida.
+
+[00:49:54.820] - Speaker 2
+La que más. La que más creo que se puede aprender. Que bonito.
+
+[00:49:59.050] - Speaker 1
+Pero Serrahima, iconoclasta, pragmático, transparente, sincero, normal. Un tío normal. Muchísimas gracias por tu tiempo y espero que nos veamos pronto y nos podamos dar un abrazo cuando cuando nos podamos quedar las máscaras.
+
+[00:50:17.140] - Speaker 2
+Muchas gracias a ti. Hasta luego.
+

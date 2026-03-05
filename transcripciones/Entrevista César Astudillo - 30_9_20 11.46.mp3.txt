@@ -1,0 +1,339 @@
+[00:00:00.270] 
+Bueno, pues aquí estamos con. con César Astudillo para mí. Se lo he comentado ahora fuera de micro, para mí de verdad que es un honor y me hace muchísima ilusión porque le sigo de hace un montón de tiempo. Csar Muy bienvenido a este humilde podcast.
+
+[00:00:15.090] 
+Muchas gracias, Carlos. Que te presento así brevemente, someramente, porque bueno, yo he estado ya te conocía prestado, rascando un poquito, un poquito, pero me gusta. A mí me gusta que se presenten los invitados, pero bueno, me parece también cortés hacerlo yo de entrada, Cesares es asesor independiente de innovación y diseño estratégico. Yo te conozco, la verdad, sobre todo de tu paso por Designed. Estuviste allí un montón de tiempo, 18 años, si no me equivoco, también compartimos esa, esa doble vida que para algunos significa la docencia.
+
+[00:00:50.430] 
+Tú has dado clases en la escuela de negocio, ahora estás también en el Instituto Europeo de Jaén.
+
+[00:00:58.230] 
+Pero fíjate que rascando lo que más me ha llamado la atención ha sido que esto no lo sabía.
+
+[00:01:04.560] 
+Tus cuatro años en Piró Studios del 96 al 2000, porque tú sabes que en aquella época era programador de videojuegos.
+
+[00:01:12.450] 
+Claro. Para mí comandos era el juego de referencia no sólo en España, sino a nivel mundial. No nos pusisteis en el mapa. O sea, aquello fue la hostia, que fue un hito donde todo donde estaba yo estaba en gaélico.
+
+[00:01:25.470] 
+Era un estudio pequeñito que lo que nosotros hacíamos no hacíamos videojuegos comerciales, recreativas. Exacto, hacíamos recreativas. El famoso Carlos A. En un montón de juegos yo entré con un juego. Se llamaba Tibi track, que te subías en un quad y el cuarto se movía.
+
+[00:01:41.330] 
+Aquello era la leche, porque realmente estabas trabajando con los ingenieros mecánicos, los ingenieros electrónicos, programamos sobre hardware propio. Era guapísimo, me lo pasé muy bien pasado, muy chulo, muy chulo. Así que cuando he visto que tú formaste parte, de alguna manera pusiste tu granito de arena en el comando. Ah, vale, ahora lo entiendo todo.
+
+[00:02:05.220] - Carlos Iglesias
+César, ¿quién eres?
+
+[00:02:08.100] - César Astudillo
+Pues eso lleva toda una vida averiguarlo. Yo solo tengo 52 años, así que es un poquito pronto para darte una respuesta definitiva.
+
+[00:02:19.080] 
+Soy un consultor indie de diseño estratégico e innovación y mi misión es ayudar a los líderes a tener éxito de manera responsable.
+
+[00:02:30.220] 
+¿Por qué decidiste ser diseñador? Pues mira, yo siempre he querido hacer cosas que mucha gente pudiera disfrutar y a los 17 años estuve de trainee en el estudio de diseño gráfico de mi hermano Javier en Gijón y le cogí mucho amor a eso de la tinta china en letra C, del cuarto oscuro, el guash blanco para tapar los errores y tal, y todo eso por supuesto quedó atrás, pero también le cogí gusto a eso de que tienes una idea compleja y la pules hasta que has conseguido reducirla a algo lo más sencillo, lo más efectivo, lo más bello posible.
+
+[00:03:08.540] 
+Y eso es lo que no cambia, por mucho tiempo que pase y practiques la disciplina de diseño que practiques, yo creo que eso es lo que hace que yo me considere, entre otras cosas, un diseñador. 
+
+[00:03:21.990] - Carlos Iglesias
+¿Cuáles han sido los pasos que te han llevado a donde estás hoy?
+
+[00:03:45.910] - César Astudillo
+Yo creo que soy una especie de Forrest Gump de la historia del mundo digital. Académicamente soy el típico dropout múltiple que coge carreras y las deja: dejé teleco, dejé informática. Hice un máster en marketing, comunicación multimedia y ahora ando como al 65% de créditos de psicología. Laboralmente empecé a mediados finales de los '80 de freelancer, dibujando tiras cómicas en una revista de informática. Luego bajo el seudónimo de Gominolas, haciendo música para videojuegos en lo que luego se llamó la edad de oro del software español con los ordenadores de 8 bits.
+
+[00:04:32.520] - Carlos Iglesias
+España fue una referencia en el mundo de los videojuegos a nivel mundial realmente en esa época.
+
+[00:04:41.850] - César Astudillo
+Sí, sí, totalmente. No, época en la que equipos pequeños podían pudieron hacer producciones de calidad internacional porque eran juegos muy pequeñitos, con un programador y un racista hacía ya cosas de calidad internacional. Luego, ya cuando fue necesario tener más infraestructura y que hubiera detrás empresarios dispuestos a invertir, ya nos quedamos un poquitín más atrás.
+
+[00:05:06.730] 
+Sí, sí, porque la magnitud de las inversiones que hace falta ahora para hacer videojuegos no tienen nada que ver con lo que gastaba por entonces. Aunque bueno, ahora mismo el mundo del videojuego indie sí que ha sido un mundo que ha florecido en paralelo con el mundo de las grandes producciones y es un mundo donde España todavía está haciendo cosas muy chulas. 
+
+[00:05:51.810] 
+
+
+[00:05:58.910] - César Astudillo
+A partir del 88 estuve nueve años trabajando en una empresa de servicios informáticos, programando para entornos financieros. Durante este tiempo viví la burbuja del '92 y la crisis del '93. Luego me metí en una empresa donde me dediqué a dirigir producciones multimedia en CD-ROM como una enciclopedia de la Guerra Civil Española y cosas así, y juegos de bajo presupuesto, y esa empresa se transformó en un estudio de videojuegos que era Pyro Studios. Allí fui diseño tradicional en Commandos: Behind Enemy Lines, que fue durante bastantes años el videojuego español más vendido de la historia, con dos millones de copias vendidas en todo el mundo, aunque más tarde fue desbancado por "Quiero ser diseñadora de modas" para Nintendo DS.
+
+[00:06:56.760] 
+Los estrógenos han vencido a la testosterona en materia de videojuegos españoles.
+
+[00:07:02.970] 
+Luego, ya en 2000, me uní en Netjuice Consulting para hacer consultoría de experiencia de usuario. Allí viví en primera fila la burbuja de las puntocom en 2000 y el reventón correspondiente en 2001. Luego llevé el área de experiencia de usuario en Xfera Móviles, lo que luego fue Yoigo, y en una tecnológica llamada Vision y luego ya en 2006 ocurrió una cosa muy importante para mí, que es que me uní como socio a una compañía de User Experience llamada DNX.
+
+[00:07:34.410] 
+Allí desarrollé la práctica de diseño estratégico, vivimos la Gran Recesión de 2008 y luego DNX creció a pesar de la crisis y se fusionó con una compañía danesa que se llama Designit. Seguía allí como Senior Fellow, haciendo desarrollo de negocio, creando nuevos métodos de diseño. Allí conseguí luego dirigí proyectos como la interfaz de usuario de los cajeros de entonces Caja Madrid y ahora Bankia, que ahora cumple 12 años, RTVE a la carta que lleva 11 años siendo la mayor videoteca en castellano del mundo, la app y la web transaccional de Bankinter, los planes estratégicos de innovación para empresas como AEDAS Homes o Ferrovial Servicios.
+
+[00:08:16.320] 
+Muchos proyectos relacionados con el diseño estratégico y con la innovación. Y en 2018 decidí dejar Designit para buscar un camino propio y ahora reparto mi tiempo entre dar clases de diseño estratégico en sitios como La Nave Nodriza, IED, K-School, Uxer School, trabajo por equity en una fintech que se llama Verse, en la que nos dedicamos a la devolución de impuestos extranjeros. También ayudo como experto en diseño estratético en proyectos de innovación para compañías tecnológicas como Paradigma o iniciativas de innovación abierta con administraciones públicas, como una organización que se llama Data City Lab, que trabaja con el Ayuntamiento de Barcelona.
+
+[00:09:02.600] 
+También soy miembro del Grupo de Trabajo de Administraciones Públicas y Diseño del Ministerio de Ciencia e Innovación. Estamos ahí peleando e intentando contribuir a que se implante el diseño como palanca de innovación en las administraciones. Y por último, también estoy trabajando como storyteller o especialista en narrativa en Fundación por causa https://porcausa.org/, que es un grupo de gente imprescindible que trabaja casi sin medios para lograr que las políticas migratorias en España y en Europa sean más sensatas y más humanas. 
+
+[00:09:38.040] 
+Es un poco como ves y nada más.
+
+[00:09:41.480] 
+No haces nada más, no tienes nada más para aprovechar.
+
+[00:09:45.920] 
+Aprovecho para mandar un saludo a mis amigos que me dicen que hago, que hago muchas cosas.
+
+[00:10:12.240] 
+
+
+[00:10:16.860] - Carlos Iglesias
+¿Qué significa ser diseñador para ti? 
+
+[00:10:23.430] - César Astudillo
+Tendría que empezar por decir que yo soy un poco un outsider en todas partes. Tengo un pie en ser diseñador y otro pie siempre en otro sitio. Pero es una respuesta en disputa y va a depender mucho de qué disciplinas practiques, de qué habilidades sientas que son las que te convierten en diseñador o diseñadora también.
+
+[00:10:54.130] 
+También depende mucho de al servicio de qué fines pones esas habilidades. Yo creo que desde el punto de vista de habilidades, las personas que hacemos diseño tenemos una capacidad poco corriente para dar con soluciones válidas a problemas que están mal definidos. Yo creo que eso es lo más característico. Lo hacemos porque somos capaces de intervenir la percepción y la conducta de la gente y que podemos ayudar a cualquier organización, a una empresa, a una administración pública o a organizaciones del tercer sector a encontrar formas mejores de conseguir sus fines, gracias a eso.
+
+[00:11:30.630] 
+Puede parecer una definición un poco forzada de lo que es diseñador, porque la definición intuitiva es otra, como que ser diseñador significa ser capaz de crear objetos bellos y atractivos y al mismo tiempo funcionales. Pero desde hace poco tú sabes que hay estudios tanto del Design Management Institute como de la consultora McKinsey que apuntan a que las compañías que hacen del diseño una actividad central en su estrategia pueden llegar a duplicar el rendimiento de las que no y aquellas que lo consiguen, no es sólo porque hagan objetos bellos y atractivos, sino porque la gente que hace diseño puede ayudar a que una organización encuentre un camino al florecimiento en medio de contextos muy inciertos, especialmente si entre los focos de la incertidumbre está la conducta humana. 
+
+[00:12:23.550] 
+Al final te lo resumiría diciendo que si no sabes qué hacer porque es complicado y es complicado porque hay personas, entonces las diseñadoras y los diseñadores te podemos ayudar.
+
+[00:13:09.990] 
+
+
+[00:13:45.510] - Carlos Iglesias
+¿Tú qué opinas del diseño Human Centric? 
+
+[00:13:52.850] - César Astudillo
+Creo que somos gente a la que se nos ha adoctrinado para que pongamos a las personas en el centro, pero desde dentro de una especie de jaula de oro que es el mundo de los negocios digitales, y desde dentro de esa jaula de oro no podemos hacer gran cosa. Yo pertenezco, bueno y veo que tú también, a una generación de diseñadores que nos abrazamos con mucho entusiasmo al proyecto de digitalizar el mundo.
+
+[00:14:26.240] 
+A mediados finales de los '90 yo me compraba todos los números de la revista Wired, que era una maravilla. Era una época súper tecno optimista. El Cluetrain Manifesto, la declaración de independencia del ciberespacio, todo eso súper emocionante. Habíamos todos leído Cyberpunk y estábamos como flipando y estábamos convencidos de que íbamos a formar parte de una epopeya por la que una nueva hornada de empresas digitales iba a barrer al viejo poder económico y que aquello iba a ser algo que íbamos a poder contar con orgullo a nuestros nietos.
+
+[00:15:02.450] 
+Y el diseño centrado en las personas era un poco la doctrina que se usaba para movilizar nuestras energías emocionales hacia todo aquello. El diseño centrado a las personas es nuestro salario emocional de alguna manera. Y que estábamos en el proceso de hacer todo a una nueva generación de productos y servicios concebidos poniendo en el centro las necesidades, las expectativas, los sueños y las esperanzas de las personas. Muy bonito todo. Han pasado los años, ya está, ese cambio de guardia al que contribuimos ya ha pasado.
+
+[00:15:38.270] 
+Y ahora miramos hacia lo lejos y vemos que el mundo que hemos ayudado a crear no es precisamente mucho mejor que el anterior. Yo creo que colectivamente hemos ayudado a levantar sistemas que sí que ponen en el centro las necesidades de las personas, pero de forma no muy distinta a como Central Lechera Asturiana pone en el centro las necesidades a sus vacas.
+
+[00:16:02.000] 
+Quiero decir, no nos damos cuenta, pero el diseño centrado en las personas, tal como lo hemos venido practicando, especialmente dentro de esa jaula de oro que es el mundo digital, ni ha liberado, ni ha empoderado, ni ha servido realmente a las personas especialmente. Más bien ayudaba a buscar vulnerabilidades en las personas para encontrar maneras de hacer fracking en sus vidas. O sea, nosotros metemos tecnología digital a presión en la vida de las personas, entonces conseguimos que sus hábitos y sus formas de vida rompan por algún sitio y por las grietas meter nuevos productos y servicios. Ese es el gran proyecto para el que hemos estado utilizando el diseño centrado en las personas. Y yo creo que, si queremos que el diseño sea una herramienta que ayude a armar un futuro más sostenible y más incluyente, vamos a tener que hacer cambios muy profundos en el ideario y en la caja de herramientas del diseño centrado en las personas.
+
+[00:17:00.680] 
+Tenemos que usar métodos distintos y además tenemos que ser mucho, muchísimo más espabilados y menos ingenuos que hasta ahora, porque hay disciplinas emergentes, como el diseño de transiciones, que creo que apuntan a una dirección que a mí por lo menos me hace recuperar la ilusión en cierto modo. Ya veremos por cuánto tiempo, porque si he aprendido algo en estos años es que para no morirse tienes que saber reilusionar todo el rato, pero siempre reilusionarte de forma crítica y de forma vigilante. Porque si eres diseñadora o diseñador es prácticamente seguro de que estás siendo el tonto útil de alguien. O si te parece un poco ofensivo decir que eres el tonto útil de alguien, pues el listo útil de alguien. Pero lo que importa es que tenemos que estar siempre preguntándonos de quien, ¿no? 
+
+[00:17:59.820] 
+
+
+[00:18:09.760] 
+Y precisamente tú hablabas de los tecno optimistas, verdad?
+
+[00:18:14.110] 
+Y cómo?
+
+[00:18:14.670] 
+Como esa falta de análisis elemental de la situación, que al final, que es una situación mucho más compleja de lo que pueda parecer.
+
+[00:18:25.930] 
+Simplificando en exceso de la sociedad, al final tiene unas consecuencias que realmente no somos capaces de no hemos sido capaces de predecir.
+
+[00:18:35.860] 
+Y creo que bueno, no sé si he dicho muchas veces lo he pensado realmente. Si esto es esto de Gillman Sentry City, es cierto. Al final estamos hablando de Money Sentry City o el capitalismo más más feroz. Para mí eso es igual. Esto nos nos está quedando un poco así como inclinad a un lado, pero para mí. Yo miro Facebook, no realmente. Y para mi Facebook es la representación del capitalismo más avanzado. Entonces ahí no sé si si tenemos un problema con con.
+
+[00:19:10.030] 
+Entonces, si tenemos un problema con el diseño, no sé si si el problema de base viene porque estamos intentando, disfrazando, poniéndole una pátina de satisfacer necesidades de las personas. Precisamente la necesidad de ganar dinero y chimpún.
+
+[00:19:25.390] 
+Pero de alguna forma también creo que eso tenemos una responsabilidad y creo que ahí ambos, ambos lo vemos.
+
+[00:19:34.740] 
+Muchas veces me sorprendo a mí mismo hablando en un plano cionista y divulgando tecnología en un plano y a veces soy Carlos.
+
+[00:19:44.230] 
+Cuidado con estos mensajes porque creo que es bueno al menos tener esa visión crítica de uno mismo.
+
+[00:19:51.190] - Carlos Iglesias
+¿A ti te ha decepcionado el Design Thinking? 
+
+[00:19:55.630] - César Astudillo
+Para nada, porque para decepcionarme tendría que haber creído en él alguna vez.
+
+[00:20:04.750] 
+Cada vez que me dicen que lo que yo hago es Design Thinking me ofende un poco. Que se me pueda ver a menudo facilitando sesiones con gente en la que ponemos post-its en las paredes. Eso no quiere decir que yo crea en el Design Thinking ni que yo lo practique. Yo hago diseño estratégico y cuando me preguntan la diferencia suelo decir que el Design Thinking se diferencia del diseño estratégico lo mismo que ir al karaoke se diferencia de ser músico.
+
+[00:20:35.690] 
+Yo tengo tres discrepancias muy profundas, muy de fondo con el Design Thinking. Una es que no es verdad que todo el mundo pueda ni deba diseñar. Diseñar es como tocar música, es una cosa que en principio es muy democrática, o sea, está al alcance de todo el mundo, pero siempre que le eches horas, o sea, tú no te vas a hacer músico en una tarde. O sea con el Guitar Hero puedo conseguir que tú te creas músico en media hora, sin entrenamiento previo, pero pero eso no va a ser hacer música va a ser otra cosa. Va a ser una experiencia que yo he plantado para que tú te sientas músico por media hora.
+
+[00:21:20.180] 
+A mí muchos clientes me preguntan ¿tú por qué eres tan generoso con todos tus métodos? Explicas cada piecita y todo eso. Y les contexto: James Rhodes no tiene absolutamente ningún problema en que tú entiendas como funciona un piano. Porque no se trata sólo del método, se trata de la habilidad y la habilidad se consigue con mucha, muchísima práctica y se refina constantemente con muchísimo estudio. 
+
+[00:21:50.950] 
+La segunda discrepancia que tengo con el Design Thinking es que yo nunca me he sentido a gusto con métodos en los que uno se supone que primero tiene que empatizar o investigar. Y es luego cuando tiene que diseñar o idear. Yo diseño métodos de proyecto que se apoyan más en las observaciones de investigadores del diseño, como Dark o Nigel Cross, que dicen que es un poco al revés. La mayoría de la gente que hacemos diseño, si algo nos caracteriza, es que somos capaces de responder a un problema mal definido, formulando soluciones candidatas. Eso es lo que hacemos de forma instintiva. Y si somos diseñadoras responsables lo que haremos es hacer fallar esas soluciones candidatas de formas interesantes, porque eso es lo que nos hace ser las mejores aliadas de la gente que hace investigación. A las buenas diseñadoras estratégicas, la gente de investigación por lo general nos adora porque les somos útiles en dos momentos. Primero, porque muy al principio somos capaces de definir las demandas de información de la investigación a partir de un brief absolutamente incompleto, absolutamente contradictorio, y también cuando ya se ha hecho trabajo de campo porque las ayudamos a interpretar y hacer accionables los hallazgos y les ayudamos a romper con la parálisis por análisis.
+
+[00:23:12.920] 
+Y eso somos capaces de hacerlo porque nuestra cabeza está constantemente, varias veces por segundo, vadeando el arroyo que hay entre la formulación de soluciones y la comprensión del problema. Para nosotros formular soluciones para un problema y comprender este problema mejor, son la misma actividad, son actividades que se confunden. Yo suelo decir a mis alumnos que las diseñadoras vadeamos el arroyo de la solución de la comprensión del problema a las soluciones y lo vadeamos de un salto, pero luego tenemos que indicar al resto del equipo qué piedrecitas deben pisar para vadearlo sin mojarse, porque nosotros lo hacemos mediante un salto en el vacío que es la creatividad y la abducción, pero luego tenemos que encontrar si hemos saltado a un sitio correcto y entonces utilizar la investigación para validar o refutar las hipótesis que subyacen a la ida de olla que se nos ha ocurrido.
+
+[00:24:15.650] 
+Y este método inverso, por así decirlo, lo de ir de la solución candidata a la comprensión del problema y no al revés, así es como hemos logrado hacer cosas como la web de tu Seguridad Social, por ejemplo, que permite calcular fácilmente tu jubilación o sacar un permiso de paternidad, y que tuvo tanto éxito en su puesta en marcha que la gente tumbó los servidores del Instituto Nacional de la Seguridad Social. Y nosotros lo primero que hicimos en el proyecto fue pensar en una solución basada en nuestra experiencia, la prototipamos en papel, la testamos con usuarios y entonces es cuando usamos lo que le pasaba a nuestro prototipo, lo que funcionaba y lo que no, para validar o falsar las muchas hipótesis que estaban implícitas detrás de ese primer prototipo. Y yo pensé el proyecto de esa manera, justo porque algunos años antes habíamos estado en otro proyecto con la administración y empezamos con una investigación un poco más convencional y lo único que recogimos de la investigación eran obviedades. Yo creo que si te tienes que atrever a proponer cosas que no necesariamente vienen de hallazgos de investigación y luego tener la humildad y el rigor de hacerlas fracasar de formas baratas y actuar de acuerdo con lo que aprendas, pues que esa es una forma mucho más potente de llegar a soluciones innovadoras.
+
+[00:25:33.660] - Carlos Iglesias
+
+
+[00:25:45.920] 
+Y queda una y es que yo creo que la ortodoxia del Design Thinking tiende a relegar a la profesional del diseño a un papel de mera facilitadora. Y una diseñadora tiene que presentarse en los equipos multidisciplinares como una parte implicada más. Sus legítimos intereses propios que si eres una diseñadora cabal van a ser los intereses legítimos de las personas que no están en la habitación: los clientes, los ciudadanos y muchas veces la gente que trabaja en la organización.
+
+[00:26:15.470] 
+Tienes que atreverte a ejercer un liderazgo creativo y que sea un liderazgo que al mismo tiempo rinda sumisión a la realidad exterior, a la de los clientes para los que trabajas, y para eso no puedes quedarte como una mosca en la pared, haciendo de facilitador de una discusión ajena. Tienes que pastorear la discusión y entrar en un diálogo con los equipos multidisciplinares en el que tú tienes unos intereses que defender también.
+
+[00:26:50.490] 
+Y ahí, ahí entraríamos en un tema muy de moda ahora que es el de la ética del diseño.
+
+[00:26:57.030] 
+Yo creo que si no nos tomamos en serio a nosotras mismas como agentes negociadores de la estrategia de la organización, como gente que tiene intereses que defender, toda la conversación sobre ética del diseño se va a quedar en cosas de flaneurs.
+
+[00:27:13.320] 
+Sobre si usas Dark Patterns o no. El libro de Ruined by Design, de Mike Monteiro, dice que las dos obligaciones éticas de la diseñadora son preguntar por qué y decir que no. Yo creo que eso es al mismo tiempo poco realista y poco ambicioso. Yo creo que las dos obligaciones éticas de la diseñadora no son preguntar por qué, sino colocarte allí donde vas a enterarte  tu mismo de porqué. 
+
+[00:27:48.480] 
+Tú tienes que estar seis meses antes en la conversación. Que tiene lugar seis meses antes de que tu recibas el brief. Ahí es donde tu puedes hacer el bien, no cuando el brief, no cuando el mal ya está inscrito en el brief. Al mal tu no lo tienes que dejar ni que llegue al brief. Es un un trabajo, un poco de nadar corriente arriba como los salmones y ganarte lo que yo llamo sentarte en la mesa de los mayores, que lo haces con un trabajo paciente, que primero lo haces con un buen contra brief. O sea, cuando todavía no tienes legitimado un puesto en la mesa de los mayores lo que haces es hacer buenos contra briefs, pero luego sobre todo decir hombre, si me hubieras dejado estar en la discusión hace seis meses, ahora mismo no estaríamos llorando. Por eso digo que no tienes que preguntar ¿por qué?, tienes que escalar hasta el punto donde te enteras tú solita de porque y luego no tienes que decir que no, que es una cosa que es muy heroica y al mismo tiempo muy autodestructiva, porque Mike Monteiro lo que está diciendo es que te encadenes al árbol para que no lo talen y la gente tiene que vivir. Lo que tienes que hacer es estar en el momento, luchar por estar en el momento donde en lugar de decir que no puedes decir mucho mejor esto otro, el que puedes plantear alternativas constructivas y y no decir me niego a ser cómplice de esto, echadme si queréis. Si no decir "esto no porque va a dañar el revenue o el valor de la compañía por esto y por esto y existe esta alternativa que es muchísimo mejor y si nos dejáis la pilotamos a ver qué tal va.
+
+[00:29:51.280] - Carlos Iglesias
+Me encanta lo que dices tío. Yo llevo años también diciéndolo esto. Esta es una parte, especialmente el rollo este de que ser senior también significa aprender a decir que no. Para mí es un mensaje totalmente equivocado. En ese sentido, no creo que se trate de aprender a decir que no, porque es que al final nos enfocamos más en el no y en tener la razón del no, que no precisamente en soluciones alternativas o en exponer.
+
+[00:30:18.390] 
+Pues bueno, con qué parámetros podemos decidir en mejores opciones? O sea que estoy totalmente alineado con lo que es que el papel.
+
+[00:30:27.220] - César Astudillo
+Cuando tú estás en los foros de estrategia, ser el Pepito Grillo, el enanito gruñón que habla de ética es un es un papel muy desagradecido y en el que no vas a tener verdadera influencia porque la gente va a decir "esto no es personal, son negocios. Tenemos un deber para con nuestros accionistas, ya lo sé, pero son lentejas". Entonces nosotros tenemos que aprender a camuflar la ética de la estrategia, ética y estrategia tienen que ser lo mismo.
+
+[00:30:59.440] 
+Tenemos que atrevernos a tener un papel en la conversación estratégica que sea de liderazgo o por lo menos de coliderazgo. Además es algo terrible porque si te pones en la postura de defensor de la ética, se va a producir una dinámica muy perversa, que es que cuando tú digas "esto está éticamente mal" casi, casi estás diciendo que eso es efectivo. Porque nuestra mente piensa así, ¿sabes?
+
+[00:31:33.810] 
+Pensamos una especie de falsa dicotomía entre las cosas éticas y las cosas que son negocio. O sea, si es moralmente malo, seguro que es buen negocio. 
+
+[00:31:45.420] 
+Entonces basta con que digas no, esto no, porque esto está muy mal moralmente. La gente se frota las manos, dice "hostias, nos vamos a hacer ricos".
+
+[00:31:55.530] 
+Es mucho mejor que utilices el lenguaje del negocio para decir no, esto desde el punto de vista de negocio es una mala idea, porque te debilita el revenue a medio plazo... Invéntate la manera en términos de negocio de decir porque eso es una mala idea. Utiliza el lenguaje de la estrategia, el lenguaje de la ambición, de la codicia, para defender tus opciones éticas.
+
+[00:32:20.010] - Carlos Iglesias
+¿Te consideras una activista, Csar?
+
+[00:32:25.160] - César Astudillo
+No. A ver, no en el sentido estricto. La libertad que tengo desde que dejé la gran consultoría me ha permitido pasar de estar pasivamente preocupado a estar activamente preocupado por el futuro del mundo. Cuando estás encerrado en determinados ámbitos de diseño, parece que te preocupas por el futuro del mundo como un ciudadano más, desde una posición de pasividad o desde una posición de impotencia.
+
+[00:32:57.820] 
+Y entonces es un poco lo que decía antes, que tú tienes que escalar a posiciones de liderazgo en las compañías para que se tomen mejores decisiones. Pues en el mundo lo mismo. O sea, tú tienes que colocarte en aquellos sitios donde por poco que sea, puedes hacer algo. No te limites al criticar la situación. Y por eso yo dedico bastante parte de mi tiempo a trabajar. No soy activista, pero sí que trabajo con activistas y les ayudo a que su trabajo sea más efectivo.
+
+[00:33:28.210] 
+O eso creo. Y de vez en cuando incluso lío a gente de la profesión para que ayuden. Ahora mismo estoy colaborando en una campaña de comunicación pública para ver si logramos de una vez una regularización de las más de 400000 personas migrantes que están en España en situación irregular y es una de las cosas que estoy haciendo. Es una actividad que es emocionalmente agotadora, porque los problemas del mundo son muchos, los recursos son poquísimos.
+
+[00:34:07.540] 
+Pero oye, si los irresponsables se están incendiando el mundo, pues que el fuego te pille con un cubo de agua en la mano. Os invito a que entréis en https://porcausa.org/, que veáis las maravillas que hace esta gente con cuatro perras, porque la mayoría están trabajando totalmente gratis y que os unáis aportando lo que podáis en dinero o en tiempo porque las políticas migratorias actuales son totalmente contrarias a la razón, provocan muchísimo sufrimiento inútil y hablar con realismo y con sensatez de movimientos migratorios y de cómo gobernarlos mejor y para beneficio de todos, es un tema que es terriblemente huérfano, es terriblemente radiactivo. Es un tema en el que todo el mundo de izquierda y derecha se pone de perfil y toda la ayuda que podamos conseguir es poca. Ahora mismo tenemos una campaña en goteo punto org https://twitter.com/SPECTRAMgroup/status/1311552904386490369 para conseguir fondos para continuar una investigación importantísima sobre la industria del control migratorio, que es el conglomerado de empresas que se lucran con la situación actual, con sus puertas giratorias, con sus lobbies.
+
+[00:35:19.720] 
+Es bastante escandaloso. Es un trabajo importantísimo que nos muestra que el miedo y el odio a los migrantes no sólo es algo provocado y construido por razones políticas, sino también por intereses de un entramado empresarial que saca beneficio económico de montar una guerra contra los inmigrantes, que es tan inhumana como inefectiva, que no mejora nuestra seguridad y hacerlo además a costa del dinero de todos. Tú sabes por donde han entrado en España el 73% de los extranjeros que están sin papeles ahora mismo aquí.
+
+[00:35:51.820] - Carlos Iglesias
+Bueno, yo sí que lo sé, porque estuve presente en esa acción de porcausa de verano y entonces me enteré. Pero sí, es sorprendente.
+
+[00:35:59.330] - César Astudillo
+El 73% por ciento de las personas que están en situación irregular en España han entrado por Barajas con un visado de turista. Vienen de países de Latinoamérica. ¿Sabes qué proporción de las personas que están residiendo en España de forma irregular han venido de África en patera o saltando la valla? El 5%! El 5% de las personas que están en situación irregular han venido por esas vías. Y ¿por qué crees tú que el tratamiento mediático de la inmigración irregular ha sido desproporcionado?
+
+[00:36:29.410] 
+¿Por qué hay que ensañarse con una proporción tan pequeña de la gente que entra en España sin permiso? Es un tema tremendo. Yo os invito a que visitéis la web de porcausa.org y que flipéis. 
+
+[00:36:47.690] - Carlos Iglesias
+Totalmente. Y también os invito, y de hecho os digo, no sé si tendréis por ahí disponible aquella acción que hicisteis a principios de agosto donde tú te vestías del hombre del traje negro y hacías una interpretación bastante. ¿Esto está grabado, está disponible por ahí? 
+
+[00:37:12.470] 
+Sí, pero por alguna razón no se han publicado todavía. Lo que sí que hay es una web que hicimos con la colaboración de gente del mundillo del diseño digital, totalmente desinteresado, https://porcausa.org/spectram/es/. Es una organización ficticia que hemos inventado, que se llama Spectram, porque son las siglas de securitización, privatización, externalización, criminalización y tráfico de migrantes y que un poco personaliza en forma de una sola organización una especie de teoría de la conspiración, todo esto que estamos averiguando sobre la industria del control migratorio. Una de las formas en las que hemos ayudado a un grupo de diseñadores y diseñadores a porcausa es que hemos creado el manual de nuevos directivos de esta organización está colgado ahí en https://porcausa.org/spectram/en/ en inglés y en español. Y leyendo ese manual, pues tienes una forma divertida y bastante satírica de entender cómo funciona.
+
+[00:38:26.620] 
+
+
+[00:38:35.480] - Carlos Iglesias
+Antes has nombrado el diseño de la transición. ¿Qué es Transition Design y por qué es importante?
+
+[00:38:45.680] - César Astudillo
+Es una especie de marco para entender en qué podemos ayudar la gente de diseño ahora. Es un marco que se ha concebido en la Universidad de Carnegie Mellon y que hay unas cuantas diseñadoras y diseñadores que están usándolo para intentar provocar cambios positivos en ámbitos que combinan empresas, administraciones y otras organizaciones. 
+
+[00:39:06.510] 
+Yo oí hablar de esta disciplina por primera vez a una compañera brillante de Designit que se llama Ana Palacios.
+
+[00:39:13.850] 
+Esta mujer en Colombia cooperó con el Ayuntamiento de Medellín y ahora trabaja en Estados Unidos. Y aquí en España hay un colectivo de diseño en Barcelona que se llama Holon http://www.holon.cat/en/. Con gente como Markel Cormenzana o Mercè Rua, que están haciendo cosas maravillosas desde ese marco de entender el diseño, yo mismo también estoy aplicándolo tanto en mis clases como en mi trabajo de consultoría para empresas, administraciones y tercer sector. Y es muy importante por otros aportes clave que hacen. 
+
+[00:39:49.220] 
+En primer lugar porque nos dice que la gente que hacemos diseño podemos contribuir a un mundo mejor de formas mucho más amplias que simplemente haciendo mejores productos y servicios. Saliéndonos de esa jaulita de oro. De que la forma que tenemos de intervenir en el mundo es ayudando a crear productos y servicios, que es una forma, si te distancias de ella, totalmente neoliberal de pensar en cómo puedes contribuir a un mundo mejor. Hay muchas más maneras. 
+
+[00:40:23.770] 
+En segundo lugar, porque nos ayuda a concebir futuros deseables y verosímiles y encontrar caminos posibles hacia ellos. Ayudar a concebir visiones, ayudar a aumentar y a mejorar la imaginación colectiva, que es una cosa que ahora mismo está muy empobrecida y que está estamos muy atenazados colectivamente por el miedo y que cuando pensamos en futuros posibles no nos sale más que o tecno-utopías que parecen sacadas de un video promocional de la ciudad de Dubai con robots y drones por todas partes o distopías terroríficas, muy en plan Black Mirror. 
+
+[00:41:08.520] 
+En tercer lugar, porque nos da herramientas para intentar comprender sistemas complejos y qué es lo que les hace cambiar. El pensamiento de sistemas y las teorías del cambio. O sea, intentar entender mejor lo complejo e intentar entender mejor cómo lo complejo que parece imposible de cambiar, no sólo es posible cambiarlo, sino que de hecho la historia te enseña que una y otra vez cambia, que experimentan metamorfosis y que por lo tanto, como puedes llegar a perturbar los sistemas de forma que puedas provocar un cambio positivo en ellos.
+
+[00:41:41.560] 
+Y luego en cuarto lugar porque nos ayuda a tener la postura y la mentalidad que necesitas para poder mejorar las cosas, que es ser abierto, ser colaborativo y luego la actitud que tienes que tener que yo lo traduzco al castellano como una actitud de optimista cascarrabias.
+
+[00:42:04.670] 
+Es un marco de entendimiento que nos invita a la gente de diseño a ser mucho más cautos y mucho más responsables con lo que hacemos, pero al mismo tiempo muchísimo más ambiciosos.
+
+[00:42:37.390] 
+
+
+[00:42:53.860] - Carlos Iglesias
+¿Debemos ayudar a las corporaciones a mejorar la experiencia de sus clientes o no? 
+
+[00:43:01.990] - César Astudillo
+¿Por qué no? Es una pregunta con trampa, es como si me pregunta si debemos jugar a videojuegos. Puedo decirte que no sonaría muy reaccionario. O sea, todos tenemos que llenar la nevera. Y si eso es lo que nos llena la nevera, pues nada que objetar. No me voy a poner aquí estupendo. Pero no es que jugar a videojuegos o mejorar la experiencia de cliente de las corporaciones sea un problema.
+
+[00:43:26.710] 
+El problema es el coste de oportunidad que eso supone. O sea, dicho de otra manera, las cosas más chulas y más responsables y con más consecuencias a largo plazo deseablemente benignas que podríamos estar haciendo en lugar de eso. Porque diseñar experiencias está muy bien, pero es un trabajo muy efímero. No es como una arquitecta que va a pasear con sus nietos y mira, esta experiencia la hice yo hace 40 años. Hay cosas que son mucho más gratificantes, más importantes, que rebanarnos los sesos para inventar maneras de que mientras otros quitan FTEs del servicio al cliente, aún así conseguir que no baje el NPS. Sentarnos en la mesa los mayores, crear nuevas fuentes de ingresos que sean más medioambientalmente y socialmente responsables, yo creo que es mucho más emocionante. Yo animaría a cualquiera que trabaja en diseño de experiencias a que se plantee aspirar a puestos de más responsabilidad donde pueda hacer la compañía mejor, de una forma un poquito menos epidérmica y bastante más profunda que diseñando experiencias. 
+
+[00:44:30.010] - Carlos Iglesias
+Gracias por elevarnos la mirada en esto, Cesar. ¿En qué te has equivocado tú?
+
+[00:44:37.750] - César Astudillo
+Joder, en muchas cosas. Me equivoqué en pensar que el ascensor social funcionaba con conocimiento y que por tanto, al democratizar el acceso al conocimiento, internet iba a traer una revolución de la igualdad. Me equivoqué al pensar que yo era más listo que la media y que por tanto podía ganar todas las peleas de la vida con una mano atada a la espalda y sin la ayuda de nadie. Y también me equivoqué en que íbamos a vivir tiempos muy aburridos, marcados por mayor progreso tecnológico y por tanto, mayor bienestar.
+
+[00:45:12.070] 
+O sea que estaba equivocadísimo.
+
+[00:45:13.440] - Carlos Iglesias
+Tengo una hija de diez años que yo creo que tiene madera de diseñadora, por sus intereses, sus habilidades. ¿Qué consejos me darías para orientarla? Entonces me gustaría ayudarle a dar pasos adelante con eso y sobretodo orientarla bien y no orientarla hacia lo cosmético sin orientarla bien. 
+
+[00:46:33.880] - César Astudillo
+Yo creo que si tienes ese impulso de inventar cosas, yo creo que tienes que animarla por una parte a que invente cosas no solo para ella si no para otros, para mejorar algo determinado de otra gente.
+
+[00:46:54.260] 
+Que que mejore el skatepark de su barrio con cartulina o que diseñe un skatepark mejor o un parque mejor o otra cosa sería que invitarla a aprender a defender sus diseños de manera persuasiva. Tienes 5 minutos para explicarme una maqueta de cómo redistribuir tu habitación y ahora véndeme, por qué tengo que gastar mi dinero en reformemos tu habitación así. Por qué va a ser mejor para mi, no sólo para ti. Por qué va a hacer mi vida más fácil?
+
+[00:47:39.610] 
+Y luego también que entienda las cosas en contexto. ¿Cómo cambiarías el packaging de tu cereal favorito para que más gente lo compre? Pero para eso la próxima vez que vayamos al supermercado, vas a tener que fijarte en el lineal de los cereales y entender la gente como mira el lineal de los cereales para entender cómo puedo hacer que mi cereal destaque como algo distinto dentro de ese batiburrillo de colores y de formas que es el lineal de los cereales de un supermercado.
+
+[00:48:17.890] 
+Porque ahí es donde ese paquete mejor del cereal se la va a jugar. No encima de la mesa de desayuno, porque ahí ya está comprado. 
+
+[00:48:27.550] - Carlos Iglesias
+Para cerrar, me gustaría que nos expliques qué proyectos de futuro tienes, qué vas a hacer con tu vida en los próximos meses/ años. 
+
+[00:48:54.410] - César Astudillo
+Pues yo, que he sido un poco un Forrest Gump del mundo digital y que estuve entre los pioneros del mundo digital, a mi me gustaría apuntarme a estar entre los pioneros de algo que podríamos llamar el mundo posdigital. Yo creo que 40 años ya son suficientes para que una sola tecnología mande sobretodo, especialmente si el resultado no es del todo bueno. Y yo creo que empieza una nueva era que podríamos llamar posdigital, que me gustaría ayudar a traerla, que fuera una era en la que hubiera un mejor encaje entre los problemas de la gente y las soluciones que ofrece la iniciativa privada, las administraciones públicas, las organizaciones sin ánimo de lucro.
+
+[00:49:37.100] 
+Y yo presiento que en esta era que viene el mundo digital, va a seguir estando presente, pero va a perder centralidad, un poco como ahora mismo la seguridad alimentaria o el mantenimiento de líneas eléctricas, que está ahí es imprescindible, pero no se habla tanto de ella. No tiene tantísimo protagonismo. Estoy intentando pasar de simple colección de notas a libro. Escribir un libro sobre el diseño estratégico.
+
+[00:50:09.950] 
+Me molaría unirme a gente que piense como yo en esto de traer el mundo posdigital, organizar algo más grande. Porque yo solo llego a donde llego. Y ahí fuera hay muchísima gente mejor que yo y gente con conocimientos de transición ecológica, de inclusión, por supuesto, de tecnología digital. Pero que no manden desarrollo de negocio e inversores. Yo creo que hay un ambiente muy propicio, hay por todas partes gente con ganas de esto.
+
+[00:50:44.830] 
+Yo creo que hay una Next Big Thing ahí fuera que todavía no tiene nombre y tiene forma del todo y a mí me gustaría estar en el fregao. 
+
+[00:51:18.970] 
+
+

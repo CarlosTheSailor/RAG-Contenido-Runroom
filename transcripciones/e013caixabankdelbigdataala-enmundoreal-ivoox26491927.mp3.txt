@@ -1,0 +1,327 @@
+[00:00:02.100] 
+En 2015 Big Data desapareció repentinamente del famoso ciclo de Jaitt de la consultora Gartner. Ya sabéis ese gráfico que sacan anualmente que representa el nivel de expectativas que despiertan las distintas tecnologías desde el momento en el que aparecen escalan el pico de máxima infracción de expectación se deslizan por el abismo de desilusión y de nuevo vuelven a subir paulatinamente hasta alcanzar lo que ellos llaman la meseta de productividad. Fue muy curioso y algunos nos llamó la atención ya que en los años anteriores había ido escalando el pico de expectativas y en 2014 se encontraba ya descendiendo y justo en el límite de entrar en el abismo de desilusión nunca entendí por qué desapareció la verdad.
+
+[00:00:58.360] 
+ Supongo que cuando tienes un framework y pretendes simplificar en la complejidad del mundo real pues te encuentras elementos que no encajan en ninguna parte de tu sistema y prefieres hacerlos desaparecer a que dé la sensación de que tu modelo no es tan infalible como lo quieres hacer ver. Fin no sé a lo mejor soy un malpensado Big Data en mi humilde opinión sigue vivito y coleando y si en algo estoy de acuerdo con Gartner es que ha pasado de ser un Jaitt a ser algo mucho más accesible de lo que la mayoría de mortales creemos sabes cuando al mundo real le precede un pero deja de ser un lugar se convierte en una excusa.
+
+[00:01:51.170] 
+ Si de una forma u otra eres responsable de la transformación de la compañía donde trabajas aquí encontrarás la manera de desactivar esos pretextos ese portazo al cambio ese aquí no se puede Este podcast es para quienes estáis convencidos de que las empresas deben poner al cliente en el centro de la estrategia y a las personas de la organización en el corazón de la misma. Aquí adquiriría una visión estratégica y a la vez practica a través de ejemplos y experiencias que os dotarán de argumentos en el idioma favorito de la alta dirección. El lenguaje de negocio no sólo hablaremos del qué sino también del cómo.
+
+[00:02:31.840] 
+ Hoy tenemos la suerte de contar con Carlos Grauwe que nos explicará entre otras cosas cómo sacan provecho del Big Data encalla Bank para transformar su experiencia de cliente. Soy Carlos Iglesias CEO en gran Rum y profesor en varias universidades y escuelas de negocio como Esade Scull o Bowe. Os doy la bienvenida al décimo tercer episodio de en el mundo real el podcast sobre Castorena Experience y negocio digital.
+
+[00:03:24.680] 
+Hoy 12 de junio de 2018 cumplo 42 años. Pero la verdad es que me conservo muy bien como mucho aparento 41 y 10 meses. Así hoy es uno de esos días en los que mi teléfono necesitaría un par de baterías extra desde primera hora de la mañana. Whatsapp Twitter Linkedin Facebook todo. Todos echan fuego. Muchas felicitaciones de familiares de amigos de toda la vida y otras muchísimas de nuevos amigos. Vosotros oyentes del podcast de nuevo cientos de muestras de cariño de muchos de vosotros agradeciendo la pasión que le pongo a este programa y qué os voy a decir de verdad que no sé por qué no se me ocurrió antes empezarlo.
+
+[00:04:22.430] 
+ Por qué. Porque el retorno que estoy teniendo en forma de feedback de aprendizaje de nuevas conexiones y en definitiva de amor es un subidón. Es imposible perder la motivación con vosotros así que nada como como es mi cumple pues quiero aprovechar para pediros de regalo de cumpleaños que os toméis dos minutitos de vuestro tiempo para escribir una reseña y darme unas estrellitas en Haití un Sibö explique o donde sea que me escuchais Arriate que es muy complejo. Qué morro tengo. Bueno ya sabéis en mi pueblo dicen que el que no llora no mama.
+
+[00:05:10.100] 
+ Y además hoy puedo hacer y decir lo que me dé la gana porque es muy compleja.
+
+[00:05:14.810] 
+En fin amigos amigas amigas oyentes os dejo con Carlos Grauwe quien por cierto tiene una voz más radiofónica y aterciopelada que la mía así que nos dejaréis disfrutadlo bueno pues estamos aquí en las oficinas de callaban en uno de sus muchos edificios con las Graw.
+
+[00:05:43.820] 
+Hola Carlos bienvenido al polcas. Qué tal cómo estás. Estoy muy agradecido por tu por tu tiempo sé que tienes una agenda complicada así que de verdad muy agradecido porque por este tiempo que me estás dedicando y porque te prestes a compartir tu experiencia y tu conocimiento que es mucho con todos los oyentes del podcast. Gracias a ti por por por darme esta oportunidad y por pensar en mí para participar contigo. Preséntate Carlos quién eres a explicarle a la gente un poquito de tu background.
+
+[00:06:20.090] 
+Quién soy. Pues soy Carlos GRAW formo parte del equipo de experiencia usuario en Kasabian digital bisnes somos la empresa que gestiona todas las los canales digitales cajeros móviles web portales y me consideraba desde desde la gestión y el control del laboratorio y por tanto podríamos decir que más de la parte de Research hace responsable de IVEX en distintos proyectos que hace a la empresa cada miembro del equipo se responsabiliza de la Ivic de ciertos equipos de negocio. En mi caso son los tipos de portales o los equipos de cajeros de banca de servicios y más en banca portales cajeros banca de servicios banca ok.
+
+[00:07:05.630] 
+Si no suena suena Shito es una trola completos solo unos cuantos PDM sí pero la verdad es que encantado cómo has acabado aquí. De dónde vienes cuál es tu formación.
+
+[00:07:18.230] 
+Pues mira yo estudié diseño de producto en ELISAVA hacía un montón de años la verdad es que demasiados y después de dedicarme durante una buena temporada al diseño de producto no serán tantos porque yo creo que tengo yo más canas en la barba que tú.
+
+[00:07:32.180] 
+Bueno pues hoy tengo más ganas ya que estamos empatados pues después dedicarme un tiempo al diseño de producto a la iluminación al mobiliario a los puntos de venta.
+
+[00:07:45.230] 
+Me dio el golpe en la cabeza. Consideré que no estaba suficientemente avanzado el mundo del diseño de producto en este país y le dio un cambio radical a mi vida. Me fui a estudiar un poquito más sobre tecnología sobre comercio electrónico sobre contenido digital y fue más allá donde además tenía muchísimos amigos y lo sigo teniendo y empecé a estudiar allí un poquito más sobre el entorno digital y en uno de estos cursos de posgrados. Había algo que se llamaba usabilidad claro hace 16 17 años hablar de usabilidad poca gente sabía lo que te dedicabas de hecho para mi suegra sigo trabajando en ordenadores punto.
+
+[00:08:23.090] 
+ Ahí se queda se queda el tema y nada me pareció que tenía muchísimo que ver con lo que había estudiado diseño para intentar comprender tendãn entender cuál era la necesidad del cliente en el momento de diseñar una solución. La verdad es que tuve muchísima suerte porque tenía unos jefes que con los que se podía hablar muy bien les expliqué. Les propuse esta unión entre diseño y tecnología y juntamente con Cristina Bustillo iniciamos el laboratorio de usabilidad y experiencia usuario en la Salle estuvimos poquito más de un año trabajando allí y montamos el laboratorio entero.
+
+[00:09:02.600] 
+ La verdad es que fue una experiencia increíble y chulísimo y un día Cristina me dijo Oye nos vamos a ir a la casa que vamos a hablar con la gente de usabilidad de ahí que sabe un montón porque nosotros tenemos un laboratorio magnífico así que fuimos a la casa y hablamos con el que fue mi compañero muchos años después y le explicamos cómo habíamos hecho el laboratorio y el tipo de análisis que hacíamos las dinámicas y todo muy bien y en un momento de la reunión. A ver si me vais porque justamente estoy buscando un compañero para usabilidad con un perfil tal y por qué estaba pensando soy yo.
+
+[00:09:37.820] 
+ Pero si me está hablando a mí. Así que cuando salimos obviamente llamé a David y oye David la persona que estás buscando soy yo. Bueno pues enviarme el currículum y nada. Llevo catorce años más de 14 años aquí decimos así soy yo.
+
+[00:09:52.500] 
+Es genial.
+
+[00:09:54.470] 
+De hecho nos remontamos a aquella época nuestra relación digamos que empieza por ahí mi socio Jordi estuvo trabajando contigo vamos trabajando juntos en la definitivamente sí y ahora bueno y ahora con Cristina Bustillo también estamos trabajando ellos son clientes del Hospital San Juan de Aragón ya sea ahora como responsable de experiencia de cliente en el centro andadera. Además tú y yo coincidimos en Eshkol en el máster de El año pasado estuviste en nuestro máster de experiencia y experiencias digitales en vou como tribunal o sea que de alguna forma tengo la sensación de que somos los que tenemos links de tenemos links que se van cruzando exactamente.
+
+[00:10:39.200] 
+Claro para mí es una gran oportunidad venir a hablar hoy del proyecto de experiencia de cliente de callaban que no es precisamente una empresa pequeña y que no da importancia a este tema.
+
+[00:10:52.520] 
+Entonces bueno para empezar un poquito a entender en qué forma el proyecto de Castromán Experience es estratégico dentro de casa banca para que te des cuenta de lo estratégico de la importancia que se le da al departamento de Customer Experience.
+
+[00:11:15.220] 
+Yo creo que con diferentes nombres pero la experiencia usuario en casa banca empezó cuando empezó en la casa cuando empezó a pensar en digital estamos hablando del año 99 con el director que teníamos entonces Antoni Masaveu ha llegado a vicepresidente de la entidad y ya empezó a formar este equipo y tenía mis que fueron mis compañeros que ya no están en el equipo David y Eduardo Manchón liderando la usabilidad en ese momento. Hemos pasado estos 17 18 años cambiando de nombre cambiando de departamento pero es tan importante la importa o es tan grande la importancia que le estamos dando que de hecho nuestro presidente actual que es buen chaval decidió hace unos años que no debíamos estar dentro del departamento así que colgamos directamente dirección genial.
+
+[00:12:03.730] 
+Entonces por qué iba a decir yo cuando escucho departamentode me suena un poco como a un nuevo silo establecido dentro de ETA. Absolutamente. Es algo que se ha sacado de este siglo y se ha hecho de forma como trasladar al transversalización.
+
+[00:12:18.470] 
+No dependemos de negocio ni de marketing ni de tecnología ni de nadie lo entendemos de nuestro presidente. Yo creo que muy acertadamente hizo esta apuesta de decir reportajes directamente a Presidencia. Obviamente tenemos un coordinador que es Marc que es nuestro gestor. Menos mal que lo tenemos. Es él el que da la cara por delante de Presidencia pero no dependemos de ningún director intermedio después por debajo estamos los especialistas nos dividimos en proyectos en proveedores y en equipos pero dependemos directamente de él.
+
+[00:12:50.840] 
+Yo lo que os conozco por las oportunidades que hemos tenido de acercarnos a vosotros yo sé que habéis hecho un proyecto muy chulo de arquetipal de persona habéis trabajado Journeys.
+
+[00:13:05.710] 
+Sí sí sí sí. Qué papel juegan esos Johnny sobre ese caso Johnny fingí dentro de esa de dentro de esa estrategia de Castromán experience.
+
+[00:13:17.840] 
+Hace unos añitos que consideramos que no había suficiente no era suficiente el hecho de que se utilizan más comúnmente dinámicas diseño libros de estilo sino que tenemos que entender cómo el cliente en qué momento se ponía en contacto con nosotros qué sensación tenía y cómo cómo era el camino de esta relación que tenemos con el cliente durante toda su vida. Además tenemos clientes de perfiles muy distintos con edades muy muy distintas es muy difícil el perfil de un banco.
+
+[00:13:54.230] 
+No es únicamente que tienes un perfil muy determinado por edad o situación económica. Nosotros tenemos clientes de 18 y tenemos clientes de 90 tenemos clientes con mucho dinero tenemos clientes con poco dinero tenemos cliente internacional tenemos una variedad de enorme entonces. Por eso consideramos que Customer surgio que elaborar customers de todos nuestros procesos y combinarla además con la creación muy seria además de varias personas era una oportunidad que no podíamos dejar escapar. Entonces yo creo que hace un par o tres de años hicimos un proyecto conjunto que duró un añito bien le metimos muchísima caña que significa conjunto que construimos conjuntamente varias personas en el mismo proyecto y customers una cosa además nos ayuda a la otra pareja perfecta.
+
+[00:14:40.540] 
+ Lo que sí que hicimos es implicar a toda la casa ya no solo fue un proyecto del Departamento de experiencia de usuario sino que primero nos basamos en el departamento de Big Data nuestro departamento de diseño inteligente e hizo un trabajo sensacional. Clustering el tipo de clientes que tenemos sacando estadísticas de todos nuestros procesos para poder definir las etapas en los Customer Younes y a partir de esa cristalización a partir de esa definición de cuáles son los elementos más característicos de cada perfil para poder medir el número de clientes de cada perfil y después descubrir un poquito más sobre ellos.
+
+[00:15:19.990] 
+ El Departamento de Big Data fue absolutamente esencial. Después hicimos un trabajo etnográfico también muy muy completo con el cual nos acompañaron varios proveedores para poder entrevistar in situ a las personas representantes de ese perfil tanto desde un punto de vista de construcción de perfiles como desde un punto de vista de cómo entendían ellos ese customer journey y en qué momento tenían esos que. En ese estado emocional se encontraban en cada uno de los procesos o en los puntos que habíamos determinado claves para construir ese Customer sublema. Y a partir de ahí es cuando validamos con nuestros pm. y con nuestros expertos en negocio.
+
+[00:16:02.020] 
+ Obviamente no les dejamos de lado es un trabajo absolutamente multidisciplinar.
+
+[00:16:06.880] 
+De alguna manera estoy entendiendo que es como una búsqueda interna y de alguna forma hicísteis como estar haciendo ensayos tanto de forma cualitativa como cuantitativa navegando o inmersión en los datos extracción de datos y luego complementarse de forma cualitativa con entrevistas absolutamente y cómo es que para mí esto es ciencia ficción. Poco menos es disponer de un departamento de big data como tener una corporación como ésta. La verdad es que es un lujo. Probablemente en qué medida descubriste es que realmente había mucha correlación entre eso que habíais descubierto a través de los datos y luego los insights que trajiste a nivel cualitativo de las entrevistas.
+
+[00:16:56.380] 
+Bueno los ejemplos los podemos ver en las personas por ejemplo que hemos construido a la manera de confirmar los datos que en Big Data nos había dado desde un punto de vista cuantitativo a través de esta etnografía de estar con el cliente casi en su casa tomando un café en el laboratorio que tenemos con entrevistas absolutamente personalizadas nos permitieron confirmar que justamente el número de personas que habíamos seleccionado era un número perfecto que obviamente se puede profundizar y a partir de ahí profundizamos después en cada uno de los nombres de las personas de los perfiles.
+
+[00:17:32.830] 
+ Pero es la herramienta perfecta la unión de la métrica cuantitativa y cualitativa a través de un dato big data y por el otro obviamente geografía.
+
+[00:17:42.670] 
+Cuántos Ballers desarrollaste hay personas 7 7 y Juanitos Yordanis uno por uno por tipo de proceso 1 por producto.
+
+[00:17:52.370] 
+Todos los productos de venta tienen su propio Customer y todos los productos y todos los procesos has dicho en un orden de magnitud cuántos son.
+
+[00:18:01.690] 
+Yo creo que a grandes rasgos después centramos en pequeños pero 10 15 seguro ya que también entiendo claro tenéis un Jonhy por producto y luego por proceso estoy entendiendo que de alguna forma a través del Jordy estáis buscando no sólo mejorar el propio proceso y la propia experiencia dentro de un producto sino también Journeys más enfocados en la innovación en sí.
+
+[00:18:28.150] 
+En cualquier momento en que vemos en qué podemos ver en ese customer journey que el cliente tiene un no puede tener un problema puede tener un momento emocional bajo porque se siente presionado necesitamos ayudarle de alguna manera y ahí entramos mejorando el proceso mejorando el producto descubriendo incluso si tiene nuevas necesidades que hasta ahora no habíamos detectado. O sea nuestro principal objetivo es el cliente que necesitas y de qué manera apoyo el arte.
+
+[00:18:57.390] 
+Clara y supongo que esto que decías no descubrir esas nuevas necesidades que no habíamos detectado.
+
+[00:19:02.250] 
+De ahí también la importancia de esas entrevistas porque si podemos hacer un qué tipo de inferencias o qué tipo de pronóstico podría hacer el Departamento de Big Data que es muchísimo más de lo que yo puedo llegar a imaginar. Entonces esa capacidad de inferir en base a modelos predictivos y tal pero entiendo que muchos Insights fueron también debieron venir de esas entrevistas 99 preguntando y descubriendo de forma más modesta si quieres y de hecho es más claro nosotros piensa que aquí hacemos un montón de dinámicas Presidential especiales en remoto dependiendo del proyecto que hacemos.
+
+[00:19:42.880] 
+Piensa que este año estamos alrededor de estamos analizando alrededor de 7000 usuarios solo INRIX desde el departamento de Yipsi vamos a hacer 600 600 y pico test distintos con unos 7000 usuarios. Entre Remote presencial de todo ello sacamos Insight ya no sólo desde un punto de vista cualitativo y cuantitativo sino también cualitativo y ya no sólo desde un punto de vista de producto o de proyecto sino también general de cómo navegamos de quienes tenemos de por qué hacemos las cosas de esa manera y después nos lo llevamos transportamos a nuestros PMC nuestros especialistas y como toda la compañía es consciente de esos ensayos esos descubrimientos acompañaste conoce los Journeys.
+
+[00:20:32.800] 
+Creo que una de las cosas que me parecen más difíciles la verdad y más meritorias o sea hacer un proyecto como éste que me estás describiendo tú me parece algo faraónico diría porque seguramente ahora entraremos un poquito más en detalle y tiraste un tiempo haciendo otro este resort implica a muchas personas.
+
+[00:20:52.030] 
+Todo esto me gustaría que nos cuentes también hay charlas pero luego recopilar toda esa información sintetizar toda esa información y compartirla y que llegue a la gente y que todo el mundo interiorice cómo mi trabajo va a influir cómo mi trabajo va a impactar. En qué momento del Journey ya que arquetipo Journey. Esto me parece ya magia valiente esto lo habéis conseguido.
+
+[00:21:19.850] 
+Y yo creo que además es una premisa dirección a la formación desde un punto de vista y experiencia de usuario a todos los componentes de esta casa es una premisa de dirección yo creo que una de las una de las cosas que hemos hecho mejor al menos desde mi punto de vista en esta casa es la evangelización y la formación en Experiencia Usuario no para un equipo de usuario para cualquier equipo. Nosotros mensualmente y mensualmente damos una sesión de formación a todos nuestros empleados con los descubrimientos que estamos obteniendo a través del laboratorio. Aparte de que bajan.
+
+[00:21:54.760] 
+ Aparte de que en el laboratorio bajan a ver cómo realmente un cliente está interactuando con su prototipo con su diseño tanto a nivel un proyecto muy grande como pequeños cambios que podemos establecer en un proyecto ellos bajan también y pueden tomar unas decisiones de manera muy muy rápida. Periódicamente nosotros les mostramos todos los insights que hemos obtenido y en el caso de las personas y en el caso de los cursos más jóvenes decimos lo mismo. De hecho hicimos impresiones a tamaño adobos de todos los jóvenes se los hemos enviado los teníen vamos por triplicado en cualquier carpeta de la red corporativa que puedan utilizar y los utilizan constantemente ya que hay una capilaridad de esta información que llega hasta el propio gestor de una oficina y de uno no de una oficina.
+
+[00:22:41.710] 
+Estamos hablando de la empresa digital bisnes por tanto de los ciento y pico que estamos aquí o que no vamos a oficinas. Nosotros gestionamos canales digital no presenciales ok digamos que eso sería otro reto. Todavía no entiendo no entender que todas las personas que forman parte de esa atención al cliente. Me parece súper relevante que ellos también entiendan ese Journey y esos insights de tal no llega vuestra información hasta hasta las personas que están en oficina. No piensa que nosotros somos una empresa dentro de otra empresa o tal vez no es un departamento de casa es una empresa vale.
+
+[00:23:20.900] 
+ Además gestionamos las cosas en lo digital gravitacionales porque esto es uno de los grandes retos.
+
+[00:23:26.710] 
+No me imagino yo desde mi humilde punto de vista de intentar transformar la experiencia de los clientes en base a todos estos sin sachet de tantísimo valor como los que estáis descubriendo vosotros que a mí es que me parece. O sea yo conozco algunas empresas que lo están haciendo algunas grandes empresas que lo están haciendo que todo el mundo es consciente toda la organización en su globalidad está alineada con estos descubrimientos.
+
+[00:23:51.700] 
+Pero entiendo que supongo que son también grados de madurez y poquito a poco ir impregnando a toda la compañía con esa mentalidad de Journey un ejemplo que me gustaría entender un poco más decía todo el mundo a quién habéis implicado aquí concretamente qué personas o sea con qué roles y en qué momento los habéis incorporado a esos descubrimientos.
+
+[00:24:19.080] 
+Journey pues como te comentaban en cualquier proyecto delimita fases el Estado para llegar al final del proyecto y en un principio contamos con la gente de Big Data que fue básico su colaboración. Además nos ayudaron un montón a entender qué tipo de datos necesitábamos cómo los necesitábamos y que nos iban a dar y a partir de ahí. Paralelamente fuimos jugando con con diversos proveedores y nosotros mismos en el propio equipo para empezar a planear cuáles eran los siguientes pasos las siguientes entrevistas que teníamos que hacer y a quién íbamos a implicar desde un punto de vista empresa todo el mundo.
+
+[00:25:03.480] 
+ Se implicó Big Data obviamente a todo el equipo de yeux se implicó a la gente de concentrar se implicó a la gente de negocio se implicó la gente de marketing a todo el mundo porque creíamos que todo el mundo tenía algo que decir. La ayuda de concentrar en un customers ha sido aplastante. Toda la información del Frontline claro están sufriendo. Exacto el sufrimiento que tienen cómo la gente te llama por qué te llama. En qué momento te llama qué dudas tienen. Es una información básica y después contrastarla con negocio. El negocio nos ayuda perfectamente entender todas las fases todas las etapas de ese customer journey.
+
+[00:25:42.450] 
+ En qué momento era más importante incidir el porqué de qué manera. Yo creo que ha sido un proyecto global de empresa. Sí que es verdad que se lidera desde el departamento que en principio crea estos cursos más jóvenes que sus equipos pero se implica todo el mundo absolutamente a todo el mundo. Cuánto tiempo llevo. Lo digo de memoria pero yo creo que Customer Yony personas nos llevo prácticamente un año no llegó al año pero prácticamente entre seis meses y siete meses seguro te estoy hablando desde el principio a validaciones finales casi casi entrega de todos los papelitos a cada uno de los de loschicos de toda la empresa diciendo esto es lo que hemos creado y lo hemos hecho de esta manera esa presentación final que hicimos a todo el mundo porque se lo presentamos oficialmente a todo el mundo.
+
+[00:26:27.720] 
+ De hecho le presentamos a papera a Fran María que son nuestros y nuestras personas. Supongo que sí alrededor de los 7 8 meses. Cuál es cuáles han sido las principales dificultades que os habéis encontrado.
+
+[00:26:45.030] 
+Durante todo este proceso de creación de Jorge. Encontrar el perfil ideal que nos definía quizá big data para poder establecer esas entrevistas más etnográficas y más cualitativas porque obviamente al final tienes que ir a buscar ese perfil que te ha definido Big Data. Dónde buscarlos. Que tengan tiempo para ti. La verdad es que es muchísimo tiempo poder entrevistar a una persona y decirle no me voy a quedar un rato contigo vamos a hablar claro como todos desde un punto de vista empresa ninguno. Todo el mundo se ha volcado y se ha centrado en este proyecto porque además lo explicamos de manera muy muy muy llana y todo el mundo entendió perfectamente comprendió desde lustrosas que tiene toda la lógica del mundo.
+
+[00:27:30.390] 
+ Es más yo creo que más que dificultad ha hecho todo lo contrario.
+
+[00:27:33.150] 
+Una vez presentado la gente le gustó tanto que no podemos profundizar podemos hacer más específico déjame sentarme y luego y luego volvemos otra vez a reiniciarlo porque ahora que dices esto nos volvemos otra vez a reiniciarlo.
+
+[00:27:48.660] 
+Supongo que esto es una cosa cíclica y constante revisión lo estoy revisando constantemente ante los usuarios y nosotros mismos que somos usuarios de empresas crecemos navegamos de manera distinta cada día tenemos nuevas expectativas con lo que al final la gente y las personas van cambiando.
+
+[00:28:10.050] 
+Hay mucha gente que es verdad que muchas empresas que utilizan las personas de una manera mucho más por proyecto rápido definen para ese proyecto que están trabajando un pequeño un pequeño mayor persona y después ya cuando emplean a otro y nosotros nos hemos querido centrar en hacer estos siete grandes arquetipos siete grandes modelos y después a profundizar si quitamos algo muy concreto para un proyecto concreto pero primero estos siete grandes. Cuál es el perfil Cazabán. En este momento nuestro sitio.
+
+[00:28:43.440] 
+De qué te sientes más orgulloso Carlos en este proyecto. De todo.
+
+[00:28:51.660] 
+Yo creo que para empezar de haber de estar constantemente formándonos de estar constantemente investigando donde estar constantemente evolucionando las metodologías o aquí no estamos un minuto y siempre estamos haciendo una mejora continua de proyectos pero también de metodologías y también de cómo cómo trabajar. Yo creo que han sido ejemplos primero las personas nunca habíamos trabajado de esta manera creo que fue una parte de innovación mucha lectura mucha formación de cómo hacen en otros países esta construcción y estas nuevas tendencias en la construcción de personas encuestamos SuperNes y después en la posibilidad de involucrar a todo el mundo toda la empresa.
+
+[00:29:42.900] 
+ Claro porque ya no es sólo ese trabajo del diseñador solo en su mensaje construye que se inventa como habíamos hecho muchas veces las personas en base a su experiencia en base a todas las entrevistas previas que ha hecho si no era algo completamente nuevo absolutamente nuevo y además muy científico no tan etnográfico decir era la mezcla perfecta creo yo entre entre entre la parte más científica y la parte más más personal y más etnográfica.
+
+[00:30:09.690] 
+Big Data sigue aportando Insights al proyecto a todos sus proyectos constantemente y constantemente les pedimos información y actualización etc. Qué bonito qué bonito que pueda venir.
+
+[00:30:29.340] 
+Tendremos que ver en qué os habéis equivocado.
+
+[00:30:37.000] 
+Yo creo que estamos en una empresa que siempre que hemos pedido se nos ha dado que siempre que hemos aportado se nos ha escuchado. Llevamos muchos años en esta casa y nunca. Yo nunca he tenido un no para algo entiéndeme hoy necesito irme a Londres a escuchar al señor Nilsen o escuchar a Don Norman como nos define sin problema en propuestas de metodología sin problema. Sí que es verdad que hemos estado muchos años hablando de usabilidad cuando teníamos que haber anticipado metodologías más de Wix completarlo mucho más porque al principio todo intentar ayudar a la gente desde un punto de vista usabilidad éramos policías teníamos que firmar los proyectos hablando de los primeros años pero firmamos proyectos si un proyecto no estaba firmado por usabilidad no salía y si no salía ni roncas eras el malo de la película no ayudaba al equipo eres un stopper.
+
+[00:31:46.590] 
+Yo creo que la evangelización que hicimos a posteriori la conversión más de usabilidad en algo mucho más grande como es experiencia usuario costume expidiendo. Todas las evoluciones que estamos teniendo nos están ayudando a integrarnos mucho más al equipo en hacer algo que siempre hemos reclamado y que creo que es básico que es participar desde el inicio en cualquier proyecto. No somos meros validadores no somos los policías que chequean un formulario para ver si lo has hecho bien o mal o si sigues un estilo concreto sino que lo que ayuda es ir donde aportas.
+
+[00:32:21.220] 
+ Es la construcción del propio proyecto en todo el proyecto desde un principio hasta una validación final con clientes pero nos ha costado nuestro trabajo hemos tenido creo que lo podíamos haber avanzado pero esto no son cosas que hasta que han pasado sí probablemente también reconozco muchas muchas de estas cosas que explicas yo creo que ha habido un grado de poco a poco ha ido madurando que son disciplinas nuevas.
+
+[00:32:48.830] 
+Esto no es expiren no es que sea nuevo son los primeros. Yo recuerdo un vídeo de Steve Jobs que en los 80 y ahora la experiencia de cliente. Pero también es cierto que lo que sí que son disciplinas nuevas es ellos experience. Estamos aprendiendo todavía yo todavía me encuentro en muchos lugares que ni siquiera saben qué significa un proyecto allá un proyecto un proyecto realizado de forma funcional de forma incrementarlos y esto lo discutiremos el otro día también con algunos colegas del mundo ãgil.
+
+[00:33:20.160] 
+Hemos arrasado ha arrasado realmente organizaciones. Por qué. Porque lo hemos aplicado mal y yo pienso que esto es desde mi punto de vista yo creo que esto es normal es que esto es muy reciente. Son disciplinas muy recientes tenemos que ir aprendiendo una evolución. Y para mí la buena noticia de esto es que yo creo que traemos mensajes muy potentes con estas disciplinas como es necesario romper los silos porque así no funciona. Yo creo que esto es a nivel organizacional es muy rompedor y eso es lo que realmente está transformando la industria.
+
+[00:34:00.360] 
+ Cuando hablamos de bisnes agility ser capaces de adaptarnos a constantemente al cambio las empresas se están transformando hacia romper esos silos que hace 15 años era como algo normal estaba normalizado y un Cúa era el policía que venía después. Hoy se tiende más a hacer eso más líquido más más transversal. Yo creo que es muy buena noticia que estos proyectos vengan desde arriba desde arriba. Y repito a mí me pasa siempre. No me gusta utilizar la palabra arriba y abajo porque yo no creo en este tipo de organización de los de arriba y los de abajo veo las organizaciones de una forma mucho más líquida pero sí que en el sentido de quienes tienen una visión y una perspectiva mucho más de negocio y no tanto de las trincheras o de la artesanía de lo que hay que hacer realmente que venga de ahí.
+
+[00:34:51.700] 
+ Desde esa perspectiva desde esa visión de hacia dónde va la empresa hacia dónde va el negocio hacia dónde va la estrategia cuál es nuestra visión cuál es nuestro propósito que venga de ahí los proyectos para mí es súper clave súper revelador. Precisamente por eso por qué. Porque es la única. Son esas esas visiones son las que son realmente transversales a toda organización y que pueden profundizar luego.
+
+[00:35:15.090] 
+O sea que me gusta mucho lo que escucho me gusta mucho lo que escucho y creo que hayáis aprendido de ello.
+
+[00:35:21.700] 
+Al final lo que te contaba antes antes obviamente era lo que decíamos es un trabajo de picar piedra y de ideas y de formar a la gente pero también nos basamos en muchas estrategias es decir dirección. Yo creo que además es una frase que hemos puesto en todas las presentaciones que hemos hecho siempre. El apoyo de dirección ha sido indispensable desde el minuto cero. Claro cero. Pero aparte de eso para la gente que tenía más reticencia que se pensaba que éramos más policías que simplemente era una opinión y no un estudio previo hecho con clientes.
+
+[00:35:59.200] 
+ Una de las cosas que hicimos es videos vídeos y vídeos de gente que tenían dificultades a la hora de trabajar delante de una intervención concreta. Y la verdad es que te enseñan muchísimo. Una persona que está diciendo no soy capaz de continuar algo. Entonces yo creo que desde ese momento en el que involucramos a todo el mundo a toda la empresa todos los managers y a todos los especialistas empezamos a ser parte de este equipo. Nos empezaron a considerar parte de y ahora es ese momento en el que alguien empezó un proyecto y lo primero que haces es llamarte Juan Carlos.
+
+[00:36:37.130] 
+ Vamos a empezar un proyecto que venga por dónde vamos qué hacemos por dónde empezamos.
+
+[00:36:41.900] 
+Cuántos años llevas aquí 14 años. Claro debes tener una perspectiva de lo que es callarán como organización y de lo que es dicho viernes en vuestro caso tienes conocimiento de si hay otros departamentos lo entrecomillo departamentos o equipos de experiencia de cliente en otras partes de la organización que no sean digitados. Si colaboramos con ellos.
+
+[00:37:09.230] 
+Sí hay departamentos de customer expidiendo y departamento de usabilidad ten desde un punto de vista mucho más de Intercity bancaria.
+
+[00:37:22.130] 
+La importancia del cliente en esta casa yo siempre la he visto como algo de primera línea el saber. De hecho nuestro antiguo presidente eso sí lo sé por primeras se reunía con clientes constantemente simplemente para charlar con ellos. Yo creo que la visión centrarse en el cliente tener el cliente presente en todas todas. En todo momento en esta casa yo siempre he tenido muy asumido. No lo he dudado nunca.
+
+[00:37:52.520] 
+Lo pregunto porque yo tengo un sesgo tengo un sesgo como sesgo pues seguramente estoy todo el rato intentando confirmarlo. Qué tiene que ver con precisamente con el mundo digital. Yo opino que el mundo digital ha puesto en primera línea una experiencia. En vuestro caso más claro el agua. Tenéis un departamento de Big Data que realmente aporta valor a los personada a los arquetipos a San Jerónimo. Todo eso era impensable hace diez años. Qué coño hace cinco años. No seguramente no. No era no era una realidad. Probablemente yo pienso que estamos en un momento donde la tecnología el mundo digital está realmente siendo el soporte perfecto y está de alguna manera elevando esa estrategia de transformación experiencia de cliente a un nivel donde no siempre ha estado.
+
+[00:38:46.850] 
+ Y en ese sentido me gusta escuchar que desde digitado desde la casa estáis como abanderando mucho y estáis liderando mucho este proyecto y eso también es lo que te contaba hace años.
+
+[00:38:58.730] 
+Nosotros nos basamos creo que como es lógico como la mayoría de compañeros de este entorno en un estudio mucho más cualitativo del cliente y llevamos cuatro añitos tranquilamente mínimo haciendo este balance entre cualitativo y cuantitativo.
+
+[00:39:18.290] 
+Antes el laboratorio y yo creo que Benjamí y hace 14 años cuando empezó a ser director general una de las primeras cosas que me dijo es cuando en mi laboratorio ya tuvimos carta blanca para empezar a montar la batería éramos cuatro laboratorios montados porque hemos ido cambiando de sede laboratorios que por cierto son una chulada.
+
+[00:39:39.260] 
+La verdad es que estoy muy orgulloso del Laboratorio de cajeros.
+
+[00:39:44.210] 
+Yo he tenido la fortuna no sé si puedo explicar lo que yo he visto o contar encima en cajeros automáticos salas de estar intentando buscar intentando poner en contexto al usuario que va a hacer el test reflejando un poco el ambiente de una oficina.
+
+[00:40:03.950] 
+A mí me parece alucinante lo de laboratorio que tenéis montado y es una cosa que siempre he admirado y siempre he dicho la suerte que tenemos de tener un espacio solo para experiencia de cliente solo para dinamicas un laboratorio exclusivo que no son salas de reuniones que ahora pillas ya no pillas si no el hecho de tener algo fijo para nosotros es una suerte increíble. Y eso que te decían nosotros hace cinco o seis años. Bueno obviamente llevamos haciendo muchos desde usuarios y estoy hablando de que estábamos 400 personas al año trescientas pero esto será un montón.
+
+[00:40:43.490] 
+ El hecho de este avance tecnológico como comentabas el hecho de poder hacer test cuantitativos masivos en remoto a nivel español ya no estamos hablando solo de Barcelona porque estamos aquí en la central no estamos a nivel español. Esta noche mandó una encuesta usando un test de tareas y mañana empieza a tener resultados en cualquier parte de España. Y esa es la parte más cuantitativa que también nos ha permitido las dos cosas. Por el lado por un lado crear hipótesis más cualitativas. El empezar a investigar en de cliente y por el otro lado validar de una manera cuantitativa bestial.
+
+[00:41:19.320] 
+Es apasionante. Comentabas a nivel español estos son estos siete personas están geolocalizados o llegan a más zonas geográficas o son más internacionales. En principio nuestro interés nacional y transnacional ok ok ok. Y qué igual es una pregunta difícil. Porque además te voy a exigir un ejemplo concreto. Qué habéis logrado transformar con ellos. Qué cosas habréis logrado transformar un detalle por pequeño que sea esta oficina descubrimos que no se está haciendo pensar mucho lo estoy haciendo ya lo voy a conseguir.
+
+[00:41:59.900] 
+No es que hay tantas cosas hay tantas es decir al final no sé si detalle o no. Pero pero el los primeros Customer nos nos enseñaron a darnos cuenta de que no teníamos la razón desde un punto de vista de mi trabajo. No puede ser que aquí yo lo veía como algo muy natural y me estás demostrando problemas demuestras que no lo es. Entonces han cambiado muchísimas cosas. Yo creo que el proceso los procesos de hipotecas préstamos cambian radicalmente desde un punto de vista digital cambiaron y el PMS dio. Es un tio cojonudo y entendió muchas cosas y empezamos.
+
+[00:42:42.590] 
+ Y hemos hecho muchos cambios pero eso no es un gran cambio que hicimos en el momento de hacer el customer journey cada iteración que hacemos con cliente va cambiando cosas vamos cambiando y vamos mejorando esa relación digital con el cliente que no es que sea una cosa solo única sí que es verdad que nos ha permitido que a través de estas iteraciones encontremos estos insectos muy generales de cómo tienen que hacer un formulario perfecto. Qué tipo de interacción podemos utilizar con un cliente con otro. Al final son cosas que una cosa lleva a la otra.
+
+[00:43:21.100] 
+ El estudio de este customer journey e implicación con los memes nos ha llevado a hacer diferentes iteraciones estas iteraciones nos dan diferente información. Esta información después la compartimos esta compartición después nos sirve para rediseñar los procesos porque el estudio constante de todo lo que tenemos es como proyecto. Nunca dejamos un proyecto en una línea recta que Mora es una constante evolución de todos la mejora continua ésta es diaria aquí y ha llegado a impregnar producto total transformado producto.
+
+[00:43:56.710] 
+Hemos hecho hipotecarios y se ha creado hemos creado productos desde aquí. A esto me parece un ejemplo brutal habéis creado un producto vosotros claro productos que pueden ser mucho más digitales.
+
+[00:44:07.300] 
+El hecho de ver una necesidad y que creemos productos como cómo sacar dinero sin tarjeta porque lo ordenó por línea abierta y automáticamente puedo decir a mi mujer oye me tengo que ir a un cajero con este código y sacar dinero de todo esto ha salido de aquí ha sido un mundo digital eso es completamente bueno.
+
+[00:44:30.760] 
+Y a nivel de la implicación donde todo el mundo vosotros cada día estoy cambiando un poco de tercio vale pero tenéis Journeys por empleado. Habéis llegado a desarrollar la parte de Employee experience. Cómo es la vida o cómo es la experiencia también desde un empleado cómo se cruza.
+
+[00:44:51.850] 
+Todavía no hemos llegado esta parte pero dando un poco más de esfuerzo para tener una idea. Llevamos 40 minutos charlando y no te queda robar mucho más tiempo te ha prometido que la entrevista duraría duraría más o menos esto.
+
+[00:45:08.050] 
+Para cerrar me gustaría proyectar la visión hacia adelante y que nos expliques un poquito cuáles son los siguientes retos que afronta en los próximos años en los próximos años. Visión muy futurista.
+
+[00:45:23.860] 
+Ya. Yo creo que desde un punto de vista más interno más mío más nuestro seguir aprendiendo y seguir aprendiendo mucho también de fuera. Constantemente estamos intentando aprender de temas metodológicos que se hacen en los Estados Unidos que hacen del norte de Europa. Cuáles son los grandes avances desde un punto de vista de descentrar al cliente en toda tu todo tu proceso de diseño. Cuáles son las nuevas tendencias que se están dando. Bueno pues lo que era antes un libro de estilo y ahora es un diseño insisten en cómo aplicar estos sistemas en nuestra vida en nuestro día a día en innovar en temas de investigación para poder aportar al máximo obviamente siempre en asegurarnos que lo que hacemos en el 100 por ciento para que salgan lo mejor posible y después estudiar esta nueva forma de cono.
+
+[00:46:23.060] 
+Desde este cambio de gente que ahora ya son absolutamente nativos digitales antes habíamos nacido con el VHS representantesde los nativos digitales a este aumento o superación del móvil frente a la web a temas como la sinte como los neo bancos o como la irrupción de los nuevos gadgets que están apareciendo en el mercado.
+
+[00:46:48.470] 
+En realidad no lo había pensado yo de venir a hablar aquí del tema blockchain porque es un tema que normalmente se de 40 minutos hoy me he dado cuenta al final si lo llego a saber antes qué sabes qué sabes hoy para cerrar.
+
+[00:47:02.890] 
+Qué sabes hoy que te hubiese gustado saber hace 14 años que sé hoy mira te voy a decir una frase que mi padre siempre me repetía.
+
+[00:47:17.390] 
+Y la verdad es que la acogió como casi casi como dogma. Mi padre siempre me decía sabe más el diablo por viejo que por diablo. Entonces sí que es verdad que yo cuando empecé no había ni universidades no había estudios reglados de usabilidad ni de usuario. De hecho ya te digo que no sonaba la palabra. Entonces te pasabas en vez de al señor Nilsen en libros en inglés todos obviamente empezando por el famoso stiff crack. No me hagas pensar es lo primero que se lee casi así en muchas charlas con mucha gente con gente del sector que al final nos vemos en todos los sitios.
+
+[00:47:52.490] 
+ Pero como os Atxondo como Ariel como mis ex compañeros Edu Edu Manchón avispones mi compañero Jorge Andrés que es un pedazo de crack impresionante quién más.
+
+[00:48:04.720] 
+Toni Granollers que me dejaría tantos que todos estos Simms y aprendiendo. Es verdad que yo creo que hay muchas cosas que no una escuela te da esa teoría pero podemos aprender mucha práctica sea tantos clientes al final te enseñan muchísimo como como la gente trabaja como quiera hacer las cosas qué es lo que hubiera hecho antes. Yo sí creo no lo sé pero creo que es lo mismo. Una vez hecho ya manifestarlas el tema metodológico sobre todo aplicar mucha metodología investigar muchísimo nuevas metodologías de diseño nuevas metodologías. O sea ya ha salido desde hace muy poquito este tipo de trabajos de cómo trabajar internamente con tu equipo el abandonarse a ese trabajo en cascada esa metodología en cascada para hacer un trabajo mucho más con la verdad toda la casa.
+
+[00:48:56.420] 
+ Y yo creo que lo hemos conseguido pero bueno no llevamos mucho tiempo haciéndolo.
+
+[00:49:01.910] 
+Estoy super agradecido a Carlos por todo esto que has compartido con tanta generosidad admirable lo que estáis haciendo en casa Bank.
+
+[00:49:10.100] 
+Ya me imaginaba que sería muy molón. Había tenido la oportunidad de verlo desde dentro. Hemos colaborado una vez pero te agradezco mucho todo todo el valor que has aportado espero que los oyentes disfruten de este episodio y nada más.
+
+[00:49:26.960] 
+Si quieres decir algo para despedirte solo solo. Muchísimas gracias por darme por darme esto propiedad por haber pensado en mí y nada. Yo creo que todo lo que nos sirva a todos los que estamos en este en este gran mundo de la experiencia de cliente en todos los que siempre hemos tenido esa pequeña sensibilidad para decir no vamos a cambiar las cosas. Al final quién tiene que decir cómo son la gente qué necesita tú tu producto tu servicio. Espero que sigamos en ello y gracias a. Las cosas como tú loka a este tipo de relación seguro que nos vamos a aprender todos muchísimo.
+
+[00:50:06.090] 
+Lo principal de todo es aprender aprender y aprender siempre. Muchas marcarlas la próxima. Gracias y hasta aquí.
+
+[00:50:14.650] 
+Amigos y amigas. Este episodio de mi podcast en el mundo real el podcast sobre experiencia de cliente y negocio digital. Muchísimas gracias por escuchar. Ya sabéis que para mí es súper importante saber qué pensáis que os ha aparecido os aportado algo o tenéis alguna experiencia relacionada. Así que me encantaría que sigáis dejándome esos feedbacks que siempre me dais. Ya sea en un comentario en la página del episodio el de hoy es Carlos Iglesias punto info barra 013 cuando ya sabéis que siempre intento dejar recursos de utilidad y documentación de referencia del episodio.
+
+[00:50:50.200] 
+ O mejor aún como os pedía al principio de programa a través de una reseña en iTunes iBooks Spyker o la plataforma que utilizais acompañado de unas estrellitas unos links que ni cumple. Para mí es súper importante porque es lo que me va a permitir ganar visibilidad para ampliar aún más esta gran conversación que espero mantener con todos los otros.
+
+[00:51:12.490] 
+Oyentes. Oye me acabo de dar cuenta de que mejorar mi lenguaje inclusivo. Así que a partir de ahora diré con todas vosotras oyentes. Un fuerte abrazo y os espero en el mundo real.
+

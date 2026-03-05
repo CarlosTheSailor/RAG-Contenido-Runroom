@@ -1,0 +1,372 @@
+[00:00:00.310] 
+Silos vueltas los silos una y otra vez las fronteras los límites departamentales las áreas de responsabilidad la propiedad de la información. Tengo la sensación de estar señalando una y otra vez desde diferentes perspectivas. Episodio y episodio el mismo problema pero en el mundo real parece que no hay otra forma de organizarse ni en organizaciones pequeñas ni especialmente en compañías de miles de trabajadores verdad pero en el mundo real cuando al mundo real le precede un pero deja de ser un lugar se convierte en una excusa. Si de una forma u otra eres responsable de la transformación de la compañía donde trabajas aquí encontrarás la manera de desactivar esos pretextos ese portazo al cambio ese aquí no se puede Este podcast es para quienes estáis convencidos de que las empresas deben poner al cliente en el centro de la estrategia y a las personas de la organización en el corazón de la misma aquí adquiriría una visión estratégica y a la vez practica a través de ejemplos y experiencias que nos dotarán de argumentos en el idioma favorito de la alta dirección en lenguaje de negocio.
+
+[00:01:12.860] 
+ No sólo hablaremos del qué sino también del cómo y en el episodio de hoy tengo el placer de presentaros a Pablo Domingo consultor y formador con una dilatada experiencia con quien charlaremos sobre Kanban y Systems thinking. Soy Carlos Iglesias CEO en rán rummy y profesor en varias universidades y escuelas de negocio como Esade que es cool o Bowe. Os doy la bienvenida al vigésimo cuarto episodio de en el mundo real el podcast sobre Castromán Experience y negocio digital.
+
+[00:02:00.890] 
+Bien pues ya estoy mucho mejor de la voz como podréis comprobar. Menos mal porque me he tirado algunas semanas mascadito este fin de semana en el Stata en Espais de Zaragoza un evento que por cierto es un evento anual que para mi es uno de los obligatorios y que procuro no perderme ninguno. Coincidí con bastantes oyentes del podcast y bueno de verdad lo digo siempre pero es verdad es que me encanta me encanta cuando se me acerca alguien conocido o no a darme feedback lo agradezco muchísimo tanto el feedback de refuerzo animándome a continuar o felicitándome o explicándome que como les estoy ayudando no le estoy ayudando al oyente en su propio contexto como especialmente el citaste mejora porque como explicaba en alguna ocasión al menos yo necesito referencias externas para saber dónde estoy cuánto estoy avanzando y hacia hacia dónde continuar.
+
+[00:03:03.320] 
+ Así que gracias a todos los que me escribís a los que os acercas en persona a saludar a los que dejáis una reseña. Gracias a todos y quiero aprovechar para pediros explícitamente opinión ya que uno de los feedbacks de mejora de este fin de semana me lo dio MEIC que desde hace poco ha empezado a escuchar el podcast desde los últimos episodios hacia hacia atrás Mike me hizo una crítica a la entradilla del podcast y le resulta un poco pesado escuchar siempre lo mismo que si que si de una forma u otra es el responsable de la transformación bla bla bla.
+
+[00:03:36.740] 
+ Que si este podcast es para quienes estáis convencidos de que las empresas deben bla bla bla bla bla. Que si la visión estratégica de la práctica y el lenguaje de negocio y etc no la verdad es que si a alguien le resulta raro decir una y otra vez lo mismo pues mira ese soy yo pero a la vez creo que es importante reforzar los mensajes principales a quien está dirigido etcétera. Para aquellos oyentes que acaban de llegar para situar al oyente que acaba de aterrizar. Así que bueno desde aquí os lanzó una pregunta que espero que me responda por por Twitter mar y aire que Qué opináis de la entradilla.
+
+[00:04:21.100] 
+ Os agradeceré de verdad muchas todas las respuestas que me queráis enviar. Serán muy bien recibidas analizadas procesadas y con todo ello me formaré una opinión y decidir. Vale recordad que podéis enviarme mensajes de voz a través de la web también Carlos Iglesias punto info y por cierto el próximo programa que publique será precisamente respondiendo a las dos preguntas que me han llegado a día de hoy. En fin pues volviendo al episodio de hoy da la casualidad que allí en el Open Espais de Zaragoza estaba Pablo domingo nuestro entrevistado así que una semana después de haber grabado la entrevista le pude dar un abrazo en su propia tierra.
+
+[00:05:03.280] 
+ Pablo es un tipo cultivado reflexivo respetuoso y en mi modesta opinión demasiado humilde aunque aunque curiosamente este es un rasgo que encuentro en común con varias de las personas más potentes que conozco y que unas cuantas de ellas ya han pasado por estos micros. Es un placer para mí presentar a Pablo Domingo que como os decía en esta ocasión nos comparte sus reflexiones y experiencias sobre Kanban Systems Thinking abróchense los cinturones que despegamos Pablo cómo estás.
+
+[00:05:41.500] 
+Gracias por venir.
+
+[00:05:42.370] 
+En el mundo real muchísimas gracias por invitarme y un verdadero placer estar aquí sabes que estoy súper contento de que estés aquí.
+
+[00:05:50.560] 
+Sabes que yo también un montón por todos los cada vez que he ido a una charla tuya cada vez que iba a un workshop tuyo me ha explotado la cabeza y entonces se me ha ocurrido la idea de decir oye yo quiero explotarle la cabeza también a los oyentes del podcast os pido disculpas por anticipado. Lo tienes difícil porque la verdad es que en 40 o cincuenta minutos es muy difícil condensar y sintetizar todo el conocimiento que tienes. Pero bueno vamos a por ello. Quién eres Pablo explicarle a la audiencia quién eres.
+
+[00:06:22.110] 
+Por favor.
+
+[00:06:22.780] 
+Bueno pues nada soy Pablo Domingo vengo de Zaragoza a practicante allá por el 2002 me fui a Madrid 10 años 10 11 años allí estuve trabajando en Busso y fabricante de aviones.
+
+[00:06:39.010] 
+Una experiencia espectacular aviones bueno aviones. También trabajé en un proyecto de un avión no tripulado.
+
+[00:06:47.430] 
+Hice cosas muy chulas por ahí sí pero qué hacías programadas. Bueno empecé empecé haciendo programación en Java madreña y poco a poco acabé trabajando mucho.
+
+[00:07:01.940] 
+Es una parte de gestión de proyectos lo formé parte muy activa de una transformación que llaman transformación de agilizar un poco la compañía intentar desarrollar software de forma más más ágil y ese fue un trampolín de partida para donde estoy ahora me vine a Barcelona hace cinco años a hacer ahora y llevo dos como freelance haciendo haciendo cositas en Barcelona yo te conocí que estabas en King. Sí sí sí estuve en quienen una empresa de desarrollo de videojuegos. Luego también estaba en una agencia online enorme en Idriss y luego desde la parte de han hecho muchas muchas cosas.
+
+[00:07:48.230] 
+No largoplazo excepto la web quizá la Universidad de Barcelona donde sí que donde he estado de forma mucho más activa ayudando ayudando acompañando a un equipo de cerca 60 personas que se dedican un poco a operar en la nube desde la plataforma desde la web explotación etc. Bueno un poco la web.
+
+[00:08:10.780] 
+Y ahora qué te dedicas concretamente. O sea que qué cosas haces. Cuál es tu día a día.
+
+[00:08:16.070] 
+Malloy mi día a día. Básicamente intento buscar un equilibrio perfecto entre formación y consultoría.
+
+[00:08:22.000] 
+Entonces ahí hay trabajo mucho con networking. Por ejemplo en BBVA también hay una parte muy importante una rama muy importante va hacia Everis y luego no hay mucho de colaborar con gente que me llama y se lo agradezco un montón.
+
+[00:08:41.170] 
+Recibí una llamada de de Teresa o de gente así te dice venga vamos a hacer vamos a hacer esto vamos a jamais Burnet que sabes que estuvo aquí.
+
+[00:08:50.320] 
+También a Teresa le tenemos que traerte algún día voy a hacer una llamadita esta semana muy bien. Pues bueno yo quería en relación con precisamente el tema que hablamos con llama vistos agility un paso más allá o una perspectiva un poco distinta es hablar de Kanban y sistemas thinking que yo creo que este es tu tema.
+
+[00:09:15.320] 
+Otro tema son muchos temas pero yo te he oído hablar de este tema y me interesa mucho qué es Kanban vale.
+
+[00:09:23.820] 
+A ver Kaman es un método de gestión del trabajo frase frase eslogan cómo como tu trabajo trabajar es algo parecido a visualizar tú tu trabajo convertir todo el trabajo que tienes en pósitos y de alguna forma estás representando o representando el colesterol que tienes en la organización ya está bueno.
+
+[00:09:48.620] 
+No hay doctor para darte una recomendación y solamente te expone una parte muy resumida expone cómo estas cambadesa Yael Kanban ya.
+
+[00:10:01.600] 
+Yo creo que no vale o tendremos Deyvis Anderson de hecho un poco los separa separa Anderson es el autor de un libro un poco la persona que cogió mucho de ese conocimiento del Lihn y luego lo reformuló lo reescribió para desarrollo software y él mismo lo separa del yo.
+
+[00:10:27.160] 
+La verdad es que para mí no es tan importante el debate como el hecho de decir compartimos muchísimas prácticas con otros métodos como por ejemplo y en el fondo son las bases son las mismas y por es potente Kanban a ver camales potente principalmente porque es de los métodos que articula el pensamiento sistémico que para mí es muy importante el hecho de decir vale tenemos tenemos programado este reduccionismo el decir vale yo tengo un producto y tengo unas personas que lo hacen.
+
+[00:11:04.680] 
+Entonces quiero que me mejores a esto quiero que seamos más productivos o quiero que seamos más y no nos damos cuenta de que en realidad ese grupo de personas está interactuando con otras con otras personas o se ve afectado por políticas como por ejemplo recursos humanos o Pippo lo marajá como lo quieras llamar ahora y de alguna forma Kanban te ayuda en alguna de las prácticas en observar un poco el sistema completo.
+
+[00:11:33.820] 
+Has dicho una palabra clave muy importante.
+
+[00:11:36.100] 
+Políticas políticas que son las políticas Balay las políticas es un poco cómodo como describía charnegos Bosco la cultura es algo implícito o explícito cómo hacemos las cosas aquí viene un poco a describir a describir el qué está permitido y qué no. Entonces esas son un poco las laspolíticas la mayoría de ellas lo que buscamos por ejemplo es que sean acordadas. No es un derecho es una de las premisas del pensamiento sistémico. Creemos que las relaciones son explícitas son más saludables que las relaciones implícitas en las que no tenemos un acuerdo explícito de cómo tenemos que colaborar.
+
+[00:12:17.140] 
+Entonces claro yo lo que siempre he escuchado en cambio lo que siempre hemos hablado Kaman no es precisamente la necesidad de hacer explícitas esas políticas y plasmarlas en algún lugar que todo el mundo las tiene claras dar visibilidad a las políticas que estén que estén acordadas que estén acordadas podríamos decir sino que estén habladas y que la gente sea consciente de ellas.
+
+[00:12:40.240] 
+Y después hay que revisarlas continuamente. De hecho es uno de los principios en el que habla de que no sólo tenemos que tener esas políticas sino que tenemos que hacer uso de evidencias de métricas de observaciones que nos ayudan a ver si estas políticas siguen teniendo sentido y si son efectivas para nosotros para entregar valor etc.. Claro.
+
+[00:13:04.840] 
+Que es una organización para ti.
+
+[00:13:08.210] 
+A ver una organización para mí una organización y la definición así más formal sería una agrupación de individuos que han acordado tanto el qué que van a hacer como también el cómo lo van a hacer. Entonces hay un propósito hay una razón por la que lo están haciendo.
+
+[00:13:29.140] 
+Por qué y por qué entonces está esa parte del qué y del por qué.
+
+[00:13:34.920] 
+Y todas las organizaciones son sistemas o si son sistemas sociales en este caso en ningún momento en el que tenemos un grupo de personas que interactúan que interactúan entre sí. Tenemos sistemas sociales. La definición ha sido organización sería una asociación voluntaria de individuos que han acordado tanto en el qué sino también en el cómo y cómo entra en juego la distribución del poder quién toma las decisiones qué se premia. Cuáles son los incentivos. Quién está dentro o fuera. Entran muchísimos parámetros hoy. Si estáis interesados el libro de Schein Leadership es brutal.
+
+[00:14:17.210] 
+Para hacer un diagnóstico de lo que es la cultura de la organización que creo que es un valiosísimo clásico lo pondremos en las notas Kanban prescribe todo esto que decidas Kaman prescribe una forma de gobierno prescribe una forma de toma de decisión. Es prescriptor.
+
+[00:14:33.830] 
+No va a haber una muy buena pregunta porque a nivel de práctica se implementa algo que denominamos cadencia sociedad clubs clubs. Una definición sencilla podría ser. Es un momento en el que las personas y la información se juntan para tomar decisiones. Entonces se implementa Filba clubs luego cuando tú exploras mucho más el método te vas a encontrar con que tienes cadencias que valúa ni cuestionan la estrategia de la organización. Tienes cadencias o Filba clubs que lo que hacen es evaluar la mejora continua de la organización tienes otros que lo que hacen es el Getting Things donde se dice no es el cómo hacemos el trabajo la parte operativa.
+
+[00:15:20.780] 
+ La parte más táctica quizá podríamos llamar entonces tienes distintos Filba clubs no tienes por qué implementarlos todos. Lo que sí es verdad es que tienes recomendaciones de cosas que se pueden ver en cada uno de ellos y cómo podemos saber si estamos viendo un sistema.
+
+[00:15:37.540] 
+Tú eres consciente de que estás en un sistema de alguna forma o analizando un sistema a ver siempre estás dentro de un sistema siempre excepto que sea bueno y de hecho ni siquiera tropero excepto que estuvieras completamente aislado en medio de una montaña y aún así formarían parte del ecosistema un ecosistema en el momento en el que hay varias personas trabajando juntas hacia un propósito. Estamos trabajando dentro de un sistema y ese sistema por ejemplo está en este caso podríamos estar hablando de que querrán Rohm puedes estar dentro del sistema más grande que puede ser Barcelona dentro de un sistema más grande como podría ser Europa dentro de un sistema más grande.
+
+[00:16:17.870] 
+Entonces hay sistemas de sistemas entonces siempre estaremos dentro de sí. Siempre estamos dentro de uno.
+
+[00:16:24.900] 
+Es guay porque creo que estamos elevando un poco la visión de Kanban porque creo que la mayoría de personas que conocen Kanban lo que conocen de Kanban pues es un panel en la pared con una serie de estados quizá e incluso han oído hablar del WIP Lemmy de contar en este tipo de datos pero de alguna forma yo creo que tú tienes una visión de Kanban mucho más cercana precisamente a ese análisis de sistemas. Cómo vamos a analizar el sistema vamos a tener una visión sistémica y vamos a hacer un análisis del sistema para encontrar qué es lo que buscas cuando atacas un problema o cómo cómo sabes que algo es un problema sistémico.
+
+[00:17:05.990] 
+ De hecho hay demasiadas preguntas.
+
+[00:17:07.400] 
+El intento describir el nirvana. Más vale más es que lo hago habitualmente cuando tengo oportunidad de poder hablar del método Kaman o mirar el nirvana para Kanban.
+
+[00:17:19.130] 
+Es desde que el cliente tiene una necesidad hasta que sale hasta que la respondemos no cuánto por qué Estados pasa cómo cogemos esa necesidad y la convertimos en el valor es mapear todo el proceso completo y tratar de reducir el tiempo. Ese es el nirvana. Lo que ocurre especialmente en grandes organizaciones es precisamente que el trabajo no lo puede realizar un pequeño grupo de personas sino que tienen que pasar por decenas o incluso cientos de personas. Claro entonces necesitamos esta visión sistémica por qué.
+
+[00:17:57.470] 
+Porque como decíamos una agrupación de individuos interactuamos tenemos políticas implícitas y explícitas que hacen que nos coordinemos que nos gestionemos cama lo único que hace es hacerse visible y ayudarte o darte pautas sobre cómo podemos mejorarlo mejorar el tiempo de respuesta.
+
+[00:18:18.080] 
+Ya tengo me gusta mucho utilizar esa metáfora del doctor es decir es como te da un diagnóstico pero no te dice que tienes que hacer.
+
+[00:18:26.360] 
+Hay un problema que me parece súper interesante y me gustaría entender cómo lo enfocas tú desde una perspectiva de sistemas timan que es el tema de la optimización. Es una utilización de un Estado respecto a la optimización global. Cómo le das visibilidad a esto desde una perspectiva sistémica.
+
+[00:18:44.150] 
+Lo primero que tenemos es un feedback loop que es el de mejora continua valés y en ese feedback de mejora continua no se hace a nivel de equipo lo que entendemos en un equipo por ejemplo el equipo de desarrollo software no trabaja a ese nivel de equipo sino que lo hace precisamente con vamos a llamarlo portavoces con portavoces de los distintos departamentos o sea por ejemplo voy a intentar reescribirlo en Scream. Se trabaja mucho una estructura mínima. Tenemos un dueño de producto es una persona que representa un poco a los clientes y a los mejores.
+
+[00:19:20.150] 
+Tenemos un equipo de desarrollo y entonces ellos están a cargo de hacer un producto en el momento en el que tenemos una estructura organizacional que choca con con él que choca o que no es capaz de ajustarse a eso tiene mucho más lo que ocurre es que necesitamos varios departamentos varias personas de distintos sitios necesitan interactuar entre ellas.
+
+[00:19:44.990] 
+Y entonces en ese momento ya no tiene tanto sentido el concepto de retrospectiva que utilizamos en escanee mejor agonia sino que hacemos algo parecido parecido pero teniendo siendo más inclusivos trabajando con representantes de todos los lados de la organización.
+
+[00:20:00.900] 
+Sí creo que te entiendo yo creo que es decir trabajar a nivel de equipo es una optimización en el sentido de que si no tienes en cuenta el flujo global y por dónde pasa el flujo de valor desde desde que un cliente como decías te pide el valor que tú estás dando hasta que finalmente se lo das.
+
+[00:20:18.530] 
+Y claro si no tienes en cuenta todo ese flujo de valor y todos los digamos departamentos roles o políticas que intervienen durante todo ese flujo y sólo tienes en cuenta cómo se produce el producto incluso con una frecuencia de entrega una cadencia lo que estás optimizando sin tener en cuenta todo lo demás. Entiendo que tu tu tu tu forma de atacar el problema es haciendo visible esa visión esa visión transversal de flujo de valor visualizamos la primera idea desde luego visualizar el flujo completo que es muy difícil en muchas organizaciones pero no es ese un poco por eso lo describo como Nirvana.
+
+[00:20:59.600] 
+Ahí es donde queremos ir y luego hay otra pregunta fundamental que es la de qué es importante para ti porque vale nosotros utilizamos métricas como por ejemplo el listening que es el tiempo que tardaría una petición desde que entra hasta que sales siendo poco purista o la eficiencia de flujo que es un ratio tiempo que realmente estoy trabajando sobre el tiempo total. Esas son algunos indicadores que nos ayudan a observar el sistema nos dan evidencias de cuánto colesterol tenemos pero hay otras muchas cosas. Hay muchas cosas que son muy importantes y relevantes para la hora de determinar cómo nos organizamos y sobre todo lo que queremos ver son las tendencias a lo largo del tiempo.
+
+[00:21:42.320] 
+ Es decir imaginamos que en este proceso de mejora continua nos sentamos una vez cada 15 o 20 días para ver cómo va progresando la calidad de nuestro servicio. No estamos tanto en oye hemos tenido un problema hoy aquí si nos vamos un poco a esa tendencia trabajamos mucho con ese leáse con los acuerdos de calidad desarrollo cero servidores lagrimales y entonces eso es una especie de marca. Esa es nuestra marca de calidad pero bueno observar a lo largo del tiempo es cómo te antes te interrumpo.
+
+[00:22:14.810] 
+Disculpa cómo cómo cómo trabajamos con Ilias cómo trabajamos cómo los utilizas como los rivales.
+
+[00:22:21.170] 
+Lo primero que necesitamos es observar el trabajo. Imaginamos que somos capaces de visualizar un tablero vemos el trabajo como fluye de izquierda a derecha y lo que hacemos es medir igual que tenemos el entrenador personal o nuestro reloj todos los días que con los 10 mil puñeteros pasos y cómo estás al respecto de eso. Esas son algunas de las evidencias que tenemos entonces las recogemos a lo largo del tiempo y vemos cuál es nuestra tendencia.
+
+[00:22:49.130] 
+Esa es una de las maneras es la forma habitual en la que trabajamos con la organización pero es un subconjunto de métricas hay muchísimas más hay más métricas que podemos usar. Por eso se utiliza la pregunta qué es importante para ti.
+
+[00:23:04.760] 
+Porque si tú en tu organización para ti es muy importante que todas las personas estén ocupadas pues seguramente necesitarás una métrica de eficiencia de recursos de personas de cuánto tiempo está esta máquina trabajando con respecto al tiempo total. Necesitas ver una tendencia a lo largo del tiempo y el pensamiento sistémico que conecto ahí nos ayuda un poco a entender qué dinámicas están sucediendo hoy pero esto es un poco y ahora que ponías este ejemplo yo creo que entiendo por qué lo pones.
+
+[00:23:36.500] 
+Yo creo que es totalmente contrario a lo que propone Lino Kanban en el sentido de no no vamos a priorizar la eficiencia del recurso entendido de recurso como máquinas como máquinas o como si el mal llamado recurso de las personas si no aquí de lo que se trata es de optimizar el flujo.
+
+[00:23:57.470] 
+Nosotros le damos más importancia a hecho mucha más importancia a la eficiencia flujo desde luego que es que el trabajo no pare pero creo que en cualquier caso eso no quiere decir no me gustan las falsas dicotomías no decir esto es bueno y esto es malo lo que hay que hacer es buscar lo primero cómo conseguir esa eficiencia de flujo para posteriormente decir vale con las personas y los recursos de los que dispongo.
+
+[00:24:24.650] 
+Cómo podemos hacer para para para que ellos se encuentren el uso del mejor uso. Entonces lo que sí es cierto que ahora lo que se busca lo primero que inicialmente buscamos es precisamente primero visualiza y después busca mejorar esta eficiencia de flujo.
+
+[00:24:42.570] 
+Entendido entonces a qué llamamos pensamiento sistémico.
+
+[00:24:48.780] 
+El pensamiento sistémico podrían ser un conjunto de. Se dice que es un lenguaje. Lo primero es una forma de observar el de observar el mundo hay una serie de patrones que utilizamos para poder representar cómo funciona el cómo funciona el mundo pero también son unas gafas es una forma de observar el observar el sistema de entender que no es.
+
+[00:25:12.470] 
+No hay una relación lineal sí entonces sí o sí si tengo hambre entonces cómo sino que hay muchas dimensiones por detrás de algo tan sencillo como entonces es pensamiento sistémico.
+
+[00:25:31.910] 
+Son unas gafas con la que la que vemos el mundo también es un lenguaje y es un conjunto de herramientas y este conjunto herramientas un poco conectando con lo que hablábamos antes. Ser capaces de observar qué dinámicas están sucediendo dentro de una organización precisamente para encontrar puntos de palancas que se llaman puntos de palanca son ya sean políticas explícitas o cambios en determinados elementos o en agentes personas que nos ayuden con poco esfuerzo a tener un cambio en la dinámica de cómo funciona una organización.
+
+[00:26:10.570] 
+Vale para mí lo más potente de sistemas Thinking corrígeme si me equivoco pero yo como yo lo entiendo es esa forma de mirar el sistema de mapear el sistema de hacer explícito el sistema realmente pues encontrando cuáles son las partes que no hace falta entrar al nivel de que es un evento porque ese capítulo solamente definiendo qué es el pensar que es en qué consiste. No pero sí que yo veo que un poco se trata de encontrar cuáles son los componentes de ese sistema y qué patrones o bucles de refuerzo que qué dinámicas se dan entre sí y que llevan a hacer las cosas de una determinada manera y a poder transformar esas cosas entendiendo cuál es el patrón.
+
+[00:27:00.640] 
+Sí haber intentado si queréis aterrizarlo es como plantear un problema de decir mira la organización tiene un problema en una agrupación de personas vale y un grupo de personas que no están por la razón que sea no están alcanzando el rendimiento que esperamos o ellos mismos se sienten que no están siendo capaces de operar a su máximo nivel.
+
+[00:27:24.670] 
+Y el pensamiento sistémico lo único que lo único que te ayuda es precisamente a ser capaz de visualizar de observar y de modelar todo lo que está sucediendo ahí dentro hay un montón de cosas que son observables vale entonces todas estas cosas observables interactúan entre ellas. Podemos hablar de la motivación de las personas podemos hablar de la carga de trabajo. Podemos hablar de las horas extras podemos hablar de todo eso en realidad está conectado desde Kaman por ejemplo nos gusta mucho me gusta mucho uno de los principios que dice Somos una red de servicios interdependientes.
+
+[00:28:06.970] 
+El pensamiento sistémico se observa que es o se basa en que hay interdependencia. Entonces lo que buscamos es precisamente ver una situación ver qué variables son las que se pueden observar y tratar de entender cómo están relacionadas entre ellas.
+
+[00:28:28.640] 
+Entonces hoy depende mucho del modelo mental de las personas y esto me voy a meter en un pequeño jardín porque tú y yo podemos estar en la misma sala observando distintas cosas porque hay mucho que depende de nuestra propia experiencia.
+
+[00:28:41.880] 
+Exacto eso es lo que hace el pensamiento sistémico es precisamente hacer que aflore tu modelo mental lo que tú estás observando las cosas que son tangibles para ti y las mías es intentar ver cómo se mueven las divergencias entre tu realidad y la mía.
+
+[00:29:02.330] 
+Estamos viendo desde distintas perspectivas una misma realidad las interpretamos de una forma las intentamos plasmar las ponemos en común y ahí nos damos cuenta de dónde están también las diferencias que al final. Yo también veo esto un poco como un juego de surfear el de la objetividad a la subjetividad y de una forma además que puede ser muy peligrosa porque puedes entrar en cámaras de cono y cosas así en el sentido de que si los dos estamos de acuerdo en algo porque tenemos unos sesgos muy parecidos y tal puedes entrar no sé si fácilmente pero bueno puedes estar analizando mal el sistema.
+
+[00:29:42.230] 
+Bueno es que siempre lo vas a analizar mal.
+
+[00:29:43.950] 
+Vale vale porque realmente la complejidad del mundo es mucho mucho mucho más difícil. Todo está conectado con todo con lo cual nunca vas a poder modelar un sistema real claro como es eso simplificación si siempre una simplificación. Y ahí viene también la verdadera del verdadero valor que es decir bueno las personas que están modelando este sistema tienen que determinar dónde está la frontera qué quieren modelar y qué no está dentro y que está fuera.
+
+[00:30:17.890] 
+Y ahí pone mucho y pone en evidencia un poco quién eres y lo que piensas algún día qué tengo que hacer un programa sobre el mapeo en sí mismo el concepto de mapeo me parece de las cosas más poderosas que existen como herramienta visualizar precisamente la realidad o la percepción de la realidad.
+
+[00:30:39.630] 
+Sí fíjate que cada vez lo pienso más dime qué quieres medir y te diré cómo eres y lo que quieres medir qué es importante para ti y te diré cómo eres. No sé es muy arrogante pero es una forma de decir la frase contraria no era como si yo te diré cómo me comporto. Bueno tiene sentido dime cuáles son mis incentivos y yo me comportara de acuerdo a esto pero ya no voy tanto ahí sino al hecho de decir que eres el que escribía la escalera de la inferencia.
+
+[00:31:07.870] 
+Parte parte mucho de lo que tú quieras observar. Entonces dime qué es lo que es importante para ti y yo no puedo decírtelo pero lo que sí es curioso es que estas sesiones de pensamiento sistémico de tratar de modelar en realidad lo que hacen es poner arrojan el foco de luz en la propia persona que es la que está modelando el sistema.
+
+[00:31:29.960] 
+Y entonces hemos empezado hablando de Kanban nos vamos al pensamiento sistémico. Cómo articula Kanban cómo aplicar Kanban junto al pensamiento sistémico cómo cómo articula el pensamiento sistémico.
+
+[00:31:43.490] 
+Hay tres cadencias tres cadencias que se llaman hay tres Filba glups dentro de Kanban vale que buscan la mejora continua. Vale entonces está mejor como entendemos que la organización es una red de servicios interdependientes lo vamos a coger son las personas más relevantes de esta interdependencia vamos a crear un espacio en el que las personas y la información se van a juntar para tomar decisiones. Por ejemplo hablemos de Kaizen de ese espíritu de la mejora entonces cómo hacemos esto. Este pensamiento sistémico en realidad entendemos que hoy hay una serie de dinámicas que están funcionando por dentro una serie de bucles de refuerzo y de equilibrio y los representamos a lo largo del tiempo.
+
+[00:32:28.190] 
+ Entonces en todas estas carencias lo que hacen es recoger toda esta información dibujarla a lo largo del tiempo y te brinda la posibilidad de decir qué quieres hacer qué quieres cambiar dónde están tus puntos de palanca. Vale entonces tenemos el review que se focaliza básicamente en lo que nos pone en riesgo nuestra calidad de servicio. Tenemos el Service Delivery que sirve para un tipo de organización pequeña pequeña en la que ofreces un determinados servicio o servicios y el Operations review es un nivel más abstracto en el cual hay un montón de un conjunto de servicios vale 1 previsoras review es en realidad cómo varios servicios se llaman entre ellos para ofrecer algo mucho más grande.
+
+[00:33:16.000] 
+Y cuando la organización no tiene un tamaño muy grande ofreciendo un Service Delivery review es suficiente. Entonces en cualquier caso la idea es siempre la misma. Dime qué observas qué es lo que quieres medir evaluarlo a lo largo del tiempo y observa cuáles son las variables que está afectando precisamente a esto que quieres observar.
+
+[00:33:37.670] 
+Vale estoy entendiendo entonces que tú dentro de la reunión específica del opresion review por ejemplo utilizas haces un workshop de pensamiento sistémico mapeando los bucles de refuerzo los bucles de equilibrio mapeando los eventos y de ahí extraemos iniciativas de cambio o acciones que queremos hacer romper.
+
+[00:34:00.290] 
+Un ejemplo es si os sirve queremos tener queremos ser capaces de liberar nuestro producto en un día.
+
+[00:34:08.890] 
+Vale la tendencia a día de hoy y después de varios meses de trabajo es que en lugar de un día hemos pasado de siete a cuatro. Entonces nuestra tendencia de los últimos meses ha pasado si está evolucionando sí pero estamos lejos del objetivo. Observemos qué está sucediendo. Cuáles son las cuáles son las variables que interactúan. Porque seguramente habrá un departamento de organismos estoy contando un escenario real de hace relativamente poco estoy contando con que cuando nosotros hacemos un pull rico resulta que no hay políticas explícitas asociadas y hay algunos de ellos que tienen que volver atrás.
+
+[00:34:45.740] 
+ Resulta que hay un problema de calidad. Todo eso es observable que se puede ver lo que tenemos que ver cómo interactúa y cómo conecta. Entonces eso es lo que el pensamiento sistémico de alguna forma te ayuda a representar qué es lo que está sucediendo no me quiero quedar con este momento estático.
+
+[00:35:03.870] 
+Entiendo y a partir de decir vale y ahora que todo lo que hay que tocamos y te ayuda a encontrar lo no observable yo estoy muy influenciado muy influenciado por un libro de inversores que dicen vale. Cómo encontrar el valor de lo intangible. Y ahora mismo ahora mismo te puedo decir que mi creencia a día de hoy es que todo se puede observar todos observarle todo se puede medir.
+
+[00:35:36.740] 
+Otra cosa es que seas capaz de verlo o que desde tu perspectiva te lo puedes observar.
+
+[00:35:42.120] 
+Hay una mirada de hecho lógico algunas veces no es decir el libro sale dice.
+
+[00:35:47.880] 
+Vamos a tratar de evaluar el amor es bueno pero cómo es posible el amor no se puede no se puede observar o si y entonces la pregunta es qué es importante para ti. El amor es son los whatsapps que te ha enviado tu chico tu chica porque realmente lo que está haciendo la pregunta es pone el foco de la persona y se vale Qué es para ti qué es lo importante qué es lo que tú quieres qué es lo que quieres observar de algo que realmente son cientos de miles de millones de variables distintas.
+
+[00:36:21.110] 
+Claro entonces lo único que te dices es modela lo tú dime qué es lo que crees que es para ti y a lo explícito.
+
+[00:36:28.440] 
+Entonces eso examinara en mí ese libro lo que me provocó un Plaka me rompió el cerebro y de momento es verdad que he hablado con con varios clientes en el que hemos intentado decir bueno no se trata tanto de ponerlo en duda que también a decir bueno vamos a ver las cosas más difíciles y de momento y hablo de momento todas las veces que hemos hecho esa pregunta hemos encontrado observaciones me dices ay eso no es el amor y es que posiblemente no haya una única medida habrá muchas.
+
+[00:37:01.890] 
+La cuestión es cuál de todas ellas son las que tú tú quieres observar.
+
+[00:37:07.320] 
+Sí sí sí me ayuda bastante. Estamos pasando por encima del tema de por ejemplo de las carencias de Kanban yo creo que para la gente que no sepa qué es Kanban probablemente está. Este diálogo va a ser complejo de entender. No sé si merece la pena intentar aterrizar las distintas cadencias de Kanban y cómo se aplican y por qué intentarlo rápidamente.
+
+[00:37:34.530] 
+Bueno yo diría que hay tres focos el primer foco es el de cómo hacemos el trabajo de qué hace el coordinarnos todos los días. Hay una cadencia que se llama Ripple misma en que lo que hace es preguntar qué es lo próximo que hay que hacer qué es lo próximo que vamos a hacer y entonces cogemos ese trabajo. Hay otra cadencia muy relacionada con eso que es en el día a día cómo nos organizamos y una siguiente es cómo somos una red de servicios interdependientes el trabajo. Una vez que terminó quién va.
+
+[00:38:07.160] 
+ Cómo se llaman esos delivery y planimetría y en esa cadencia lo que hacemos es coordinarnos con el siguiente paso de la cadena de valor esa es la parte más de coordinación. Luego vamos a otras tres que son de mejora continua. Qué es lo que es el raid Review que se focaliza en cuáles son los riesgos que tenemos que amenazan nuestro servicio o nuestros servicios.
+
+[00:38:33.370] 
+Vale una reflexión para tratar de hacer tanto mitica mitigación de riesgos como también prevención etcétera y luego tenemos otras dos que son si la organización es pequeña Service Delivery Review y si es muy grande y hay una secuencia de o sea un conjunto de servicios que interactúan entre ellos llamamos Operations Review eso está focalizado o articula el pensamiento sistémico y es mejora busca la mejora y hay una tercera que tiene un papel espectacular que es el de la estrategia que es el que cuestiona exactamente qué estamos haciendo por qué nuestros clientes nos eligen y sobre todo para darnos cuenta de si el mercado se está mirando hacia algún sitio.
+
+[00:39:19.640] 
+Ser conscientes de ser conscientes de ello o simplemente replantearnos el qué hacemos y cómo lo hacemos vale no tanto como mucho más.
+
+[00:39:27.500] 
+Pero también el cómo entra dentro un poco si de hecho esta carencia de estrategia y review me resuena.
+
+[00:39:37.160] 
+Me pasó un montón un poco a esa oportunidad de seguir una estrategia de gasto expidiendo una estrategia de gasto más centric donde pongamos al cliente en el foco en el centro de todo esto lo has vivido en alguna compañía de esa manera.
+
+[00:39:57.270] 
+Sí sin duda. También te digo que la estrategia previo es uno de los grandes grandes retos que tiene que tiene que porque es muy difícil de implantar. Es verdad que se hace quiere decir Kanban no viene a sustituir ninguna de las cosas que se hagan ahora. Lo que sí es cierto es que tanto el lenguaje como lo que se intenta observar en la reunión de estrategia es ciertamente distinto a lo que se suele hacer habitualmente.
+
+[00:40:24.170] 
+Por ejemplo en la estrategia Review la primera pregunta que nos hacemos como mencionábamos antes no es por qué el cliente nos elige qué servicios estamos ofreciendo a día de hoy qué servicios son necesarios que no vemos. Hay una recomendación por parte de Anderson que es la de traer a la gente que está en contacto directo con el cliente. Claro me llama muchísimo la atención que haya muchas empresas que hayan decido subcontratar una de las partes más valiosas que el servicio de atención con el cliente esta vez tuvo el valor ahí entiendes vos puedes entender el porqué los clientes te eligen y aunque a día de hoy no les estás ofreciendo hay muchas más cosas se habla de que se habla de Fit for Purpose que es precisamente eso tratar de observar qué es por qué el cliente nos elige.
+
+[00:41:17.310] 
+ También tenemos métricas de mejora métricas de operación del día a día y se cuestionan o se cuestionan mercados en qué mercados estamos de cuáles queremos salir a siempre bajo esa perspectiva.
+
+[00:41:32.250] 
+Un libro que recomiendo a todo el mundo que esté interesado en esta parte de estrategias fit for proposed divisando.
+
+[00:41:39.060] 
+Este libro lo recomendamos en el podcast en el episodio de llama si no me equivoco diría que sí merece la pena.
+
+[00:41:46.190] 
+Hablábamos de visceras agility irrealmente por la última pregunta que te tengo que hacer porque te la tengo que hacer por qué dices que es difícil de implementar de implantar.
+
+[00:41:57.330] 
+Bueno a ver no me gusta la palabra madurez pero la voz ya la voy a usar porque al día de hoy no encuentro otra mejor.
+
+[00:42:04.740] 
+De verdad es que he visto difícil el implantar fit for Purpose lo que sería dime por qué los clientes nos eligen. Y después reflexiona periódicamente sobre por qué los clientes nos eligen. Estamos hablando de un nivel directivo un nivel CEO y dependiendo de qué clientes pues es muy difícil poder acceder a ellos. Imagínate el BBVA.
+
+[00:42:35.810] 
+Hay otros clientes muy grandes a los que es difícil hacer esto yo estoy entendiendo que la dificultad es acceder al borde lugar de ejecutivo. Sí vale porque no hay una implicación no por un poco por lo que tú decías antes del mismo auto organiza autoorganizarse a esta gente.
+
+[00:42:52.630] 
+Autoorganizarse los verdad sí es difícil yo por lo menos ya te digo que desde mi experiencia no he tenido la oportunidad de trabajar mucho a ese nivel con organizaciones más pequeñas sí donde sí vemos es como todo es más fácil. También porque hablabas de las personas que están en contacto directo con el servicio las tienes prácticamente en el despacho de al lado de empresas pequeñas es mucho más sencillo pero yo de que estoy aquí estoy deseando poder poner una estrategia rápido en marcha en una empresa de algo más de tamaño no en tamaño.
+
+[00:43:30.570] 
+También un poco más relevante de hacer una review del management que al final no son los decisores sino son los allí trabajados es maquillaje claro sin maquillaje de hecho es lo que hacemos es precisamente lo que hay feedback glups que hay carencias que son de mejora donde sí que tiene mucho sentido que puedan donde ellos tienen mucha más capacidad.
+
+[00:43:54.930] 
+Claro claro toman decisiones.
+
+[00:43:57.930] 
+Bueno Pablo Pues yo creo que hemos hecho un recorrido bastante bastante intenso bastante pero que yo creo que este podcast hay algunos episodios que la gente me escribe me tuitea en mi sitio. Este episodio me lo lo he escuchado tres veces y con un bloc de notas. Yo creo que este es uno de ellos. Yo creo que es uno de ellos porque hemos empezado desde la sensación viendo analizando un poco la conversación con una mirada sistémica.
+
+[00:44:24.750] 
+Creo que hemos empezado hablando un poco de sistemas hablando de Kanban desde una cosa más genérica aterrizando un poco un poco más hacia el final.
+
+[00:44:34.320] 
+Y bueno no tengo la sensación de que yo lo escucharé un par de veces también me da miedo escucharlo pero bueno así mis paseítos mañaneros con el perro es verdad porque además esto lo has explicado tú no eres tú el podcast lo escuchas paseando por la playa deusuarios bucólicos.
+
+[00:45:00.360] 
+La verdad es que la verdad es que estoy disfrutando un poco del mar que nunca había tenido oportunidad de vivir tan cerca y la verdad es que además del surfero es un surfero bueno el surfero de palo.
+
+[00:45:12.860] 
+Lo intento.
+
+[00:45:13.650] 
+Lo que pasa el trabajo a veces es difícil encontrar ese equilibrio entre la familia el trabajo y el tiempo para hacer algo de deporte y luego que el mar Mediterráneo es bastante caprichoso.
+
+[00:45:27.490] 
+Claro que para el surf puede ser bueno siempre que hay intentamos aprovechar y coger alguna ola te quedas con ganas de decir algo. Lo que viene gracias que espero que hayan llegado hasta aquí y me diga que no ha sido muy aburrido así que nada agradeceros un montón matizarlo especialmente el que me haya dado la oportunidad de venir ya muchísimas ganas.
+
+[00:45:49.150] 
+El que está agradecido soy yo. Oye diles a los oyentes cómo te pueden contactar si necesitan ayuda.
+
+[00:45:56.980] 
+Pues yo creo que lo primero por Twitter es que la gente me conoce como Pablo Heras pero con Rubén banderas con un y si no en domingo punto de Guarromán domingo punto es pues ahí también.
+
+[00:46:11.400] 
+Y si no en el Barcelona o yo que sé seguro que hay que buscar la manera Pablo.
+
+[00:46:20.430] 
+Muchísimas gracias de verdad a ti por agradecido.
+
+[00:46:22.740] 
+Un placer un abrazo y hasta aquí amigos y amigas. Este episodio de mi podcast en el mundo real el podcast sobre experiencia de cliente y ocio digital agradeceros una vez más vuestra fidelidad.
+
+[00:46:37.650] 
+Muchísimas gracias por escuchar gracias por compartir por darle al equipo y por dejar vuestras reseñas en la plataforma de podcasting que sois. Recordad que encontraréis las notas del episodio en Carlos Iglesias punto info barra 00:24 en minúscula 00:24 del episodio 24. Un fuerte abrazo y os espero en el mundo real.
+

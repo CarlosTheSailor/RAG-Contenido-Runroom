@@ -1,0 +1,390 @@
+[00:00:01.790] 
+En el episodio anterior donde hablábamos sobre la importancia de trabajar y conocer y desarrollar los arquetipos de cliente explicábamos que si bien es importante extraer la información y el conocimiento interno de la compañía de las personas de la organización que mejor conocen el negocio el mercado al consumidor todavía lo es más validar esa información contrastarla con la realidad tanto cuantitativa como cualitativamente. Y apuntábamos a las entrevistas con usuarios como una herramienta potentísima para extraer insights de valor que nos permitan no solo mejorar la experiencia de cliente sino también innovar buscar la disrupción Vale Vale Vale Vale Vale todo eso que explicas está muy bien pero en el mundo real aquí de aquí eso no se puede hacer.
+
+[00:00:54.310] 
+ Cómo le voy a preguntar yo a un cliente. Pero en el mundo real cuando al mundo real le precede un pero deja de ser un lugar se convierte en una excusa. Si de una forma u otra eres responsable de la transformación de la compañía donde trabajas aquí encontrarás la manera de desactivar esos pretextos ese portazo al cambio ese aquí no se puede. Este podcast es para todos aquellos que estáis convencidos de que las empresas deben poner al cliente en el centro de la estrategia y a las personas de la organización en el corazón de la misma.
+
+[00:01:29.290] 
+ Aquí adquirirás una visión estratégica y a la vez práctica a través de ejemplos y experiencias que os dotarán de argumentos en el idioma favorito de la alta dirección. El lenguaje de negocio no sólo hablaremos del qué sino también del cómo. Esto es en el mundo real el podcast sobre Castorena Experience y negocio digital y hoy tenemos la suerte de compartir el conocimiento de Zada Rick en este episodio cinco entrevistas con usuarios en el mundo real.
+
+[00:02:21.670] 
+Bueno pues aquí estamos. Bienvenida Sara. Muchísimas gracias por prestarte por prestarnos tu tiempo estoy seguro que la entrevista va a ser muy interesante y muy reveladora para muchos para muchos oyentes.
+
+[00:02:38.040] 
+Sabes he pensado que igual preséntate tú cuéntanos un poquito de ti que haces. Cuál es tu rol.
+
+[00:02:44.110] 
+Cuál es tu background. Cómo has llegado a donde estás. Qué vales. Son muchas preguntas que te voy a dar algún tipo de.
+
+[00:02:53.290] 
+Gracias gracias por la invitación. La verdad es que eso me gusta. Quién soy yo eso.
+
+[00:03:00.730] 
+Soy parte y tengo un estudio de IVEX estamos en Madrid en Barcelona se llama Project y sus tres socios dos AINEs y yo que soy yo y como he llegado hasta aquí.
+
+[00:03:16.210] 
+Bueno vaya esto es esto es una pregunta del millón.
+
+[00:03:19.990] 
+Yo también me pregunta mi pequeña.
+
+[00:03:23.920] 
+Creo que relacionado a lo que hemos hablado al hablar hoy te diría que he empezado siendo periodista y yo hice en su tiempo una cosa que me parecía muy interesante que era política internacional.
+
+[00:03:37.270] 
+Me he decantado por la comunicación todavía la universidad y tuve la suerte y mi madre y una suerte que lo he ido a buscar pero de ir a trabajar en agencia Reuters en Brasilia la capital de mi país.
+
+[00:03:53.030] 
+Y ahí en la agencia es donde empecé con este mundo que creo que me ha traído hasta aquí.
+
+[00:03:57.820] 
+Cuántos años hace esto.
+
+[00:03:59.460] 
+Hoy no te voy a contar mi vida tiempo.
+
+[00:04:02.320] 
+Bueno esto fue Mira este fue el año 2000 1 2011 2001. Entonces sí. Bueno yo he empezado he aprendido muchísimo en la agencia pero muchísimo ser periodismo de verdad me ha hecho quién soy yo era de entrada de prácticas y he tenido jefes maravillosos allí y es allí donde aprendió de hacer entrevistas muy distintas pero entrevistas tan solo eran eran es mi base ok ok ok.
+
+[00:04:36.250] 
+Ahora que tu experiencia es muy distinta en qué sentido cuando dices distintas respecto a tu experiencia haciendo entrevistas.
+
+[00:04:44.510] 
+Bueno esta semana incluso hemos promediada tenemos tuiteado sobre esto y entrevistaba personas para escribir sobre sus vidas.
+
+[00:04:54.550] 
+Entrevisté a futboleras a presidentes ministros principalmente los aburridos.
+
+[00:05:03.350] 
+Eran entrevistas distintas por eso yo estaba intentando encontrar la noticia que es muy distinto porque las entrevistas que hago hoy en mi profesión no son para descubrir noticias son para entender y son distintas pero la base está ahí.
+
+[00:05:22.340] 
+Viene de esto porque hay muchos tipos de entrevista. Conoces distintos tipos de entrevista formalmente hablando.
+
+[00:05:31.830] 
+Buff sí bueno hay que pensar en lo que es decir la extrema en lo que es una entrevista de guerrilla de usabilidad de la calle. Si son distintas hay muchas. No sé que quieres que te expone. Ejemplos hay.
+
+[00:05:45.580] 
+Bueno hay entrevistas pues hay entrevistas que puedes decir que son estructuradas entrevistas que no son estructuradas puedes decir que hay entrevistas que se hacen en contexto donde tú estás. Donde las cosas están pasando que es mucho de la entrevista periodística de calle o entrevistas que son fuera de contexto que son las entrevistas que tú invitas a alguien a un sitio como tú estás haciendo conmigo ahora para hablar de un tema específico. No sé puedes pensar entrevistas individuales entrevistas en grupo entrevistas en persona entrevistas remoto. Pues sí o sí. Cada uno tiene sus secretitos entiendo sus sus aguas Fermoso sí más que sus aguas Ofer yo creo que lo importante de la entrevista es supongo que quizás es algo que también estaría bien hablar que es lo más importante más que elegir tipos de entrevistas.
+
+[00:06:47.570] 
+Tienes que entender el porqué las estás haciendo para qué sirven para qué sirve. Exacto. Mucha gente dice oye tengo un proyecto tal que qué tipos de entrevistas tengo. Qué tipo de entrevista qué tipo de investigación. En general tengo que hacer y digo no sé qué quieres descubrir. La pregunta siempre es para qué estoy haciendo esto. Entonces cuando yo estaba ahí entrevistando.
+
+[00:07:14.730] 
+A Ronaldo que estaba a punto de ganar su balón primer Balón de Oro mi objetivo era descubrir cómo se sentía. En este periodo de su vida. O sea que aspiraba a qué cosas le gustaban hacer donde se veía dentro de diez años.
+
+[00:07:31.340] 
+Si yo tenía un tiro yo tenía un plan pero también claro la noticia en este momento no salió nada. Según lo que yo me esperaba porque él me contó cosas completamente distintas a las que yo esperaba escuchar. Entonces lo más importante de todo más que el tipo es el objetivo que quiere saber para qué sueles utilizarlas tú cómo las utilizas para qué. Con qué objetivo.
+
+[00:08:05.400] 
+Yo por todos los que puedas imaginar vale en general.
+
+[00:08:12.090] 
+Mis clientes quieren entender un porqué normalmente o sea al día de hoy en el estudio con nosotros lo que mayoritariamente lo que hacemos es diseño de productos digitales y de servicios. En general son empresas que ya existen.
+
+[00:08:29.400] 
+Llegan a nosotros con quizás no es un problema pero saben que está pasando algo. Algo pasa. Miramos los datos entendemos que esto está pasando y además sabemos dónde pero no tenemos ni idea del porqué y entonces normalmente vamos a hablar con gente de verdad para entender por qué es mala.
+
+[00:08:52.980] 
+Porque hacen algo por qué no hacen algo porque tienen esta motivación u otra quizás es algo escuchado tu podcast de la semana pasada y eso es un poco esto no sea intentar validar un poco quiénes son estas personas que las empresas piensan que se están a quién están destinan sus productos.
+
+[00:09:15.900] 
+A veces creemos que conocemos nuestros clientes y siempre es bueno tener esa esa forma de validarlos te hacía la pregunta de para qué la sueles usar y igual hay una pregunta que no sé si tiene sentido e incluso te diría pero también para qué no ya cuando no tiene interés esto se cuando no has utilizado alguna vez la técnica de la entrevista y luego has visto que esto no tiene ningún sentido resolverlo con entrevistas puede ser nunca.
+
+[00:09:45.450] 
+No he aprendido algo nuevo. No sé si esto no es una respuesta a tu pregunta pero bueno sí también estoy aquí no estoy aquí para decir que nunca me equivoco no es escogiendo las metodologías ideales en algún caso inquietado que hubiera resuelto algo con otro tipo quizás de metodología seguro. Pero en general no. Sea en general mi impresión es de que aunque sean pocas rápidas y quizás incluso que el tiempo de decisión no vamos a hacer unas entrevistas y que rebélate pongás y Lassad en las hagas vale más la pena que incluso hacer un país por tener esta tener el contacto con con una persona que tú crees que es la que tiene las respuestas que estás buscando.
+
+[00:10:39.990] 
+ Y en este contacto directo es mucho más enriquecedor.
+
+[00:10:44.370] 
+Claro siempre como las planificas tu cómo planificar una entrevista. Yo creo que la respuesta es mucho siempre mucho trabajo por detrás de una entrevista más que tu trabajo sea entrevistar y creo que cómodo y creo que como muchas cosas en esta vida es como.
+
+[00:11:06.330] 
+Es como coser no mides dos veces y cortas sola porque especialmente en lo que hacemos específicamente en general no dispones de recursos infinitos para aparecer estas entrevistas ansiedad tu tiempo o el tiempo de la persona o de persona o entonces tienes estos no sé. Media hora 50 60 minutos con una persona que estás intentando entender algo o sea no lo desperdicies entonces planificar siempre y mucho ahora cómo yo en general. Empiezo con con esta pregunta para qué entonces o con mi equipo que está diseñando o con el cliente que está interesado en entender el porqué este problema no se se escribe en una serie de hipótesis o sea nosotros creamos para la pregunta que estamos buscando nosotros creemos que es esto esto esto esto va a partir de estas hipótesis yo hago lo que se llama Topic Map que es una cosa que he aprendido de un colega con un ex colega cuando trabajaba en Londres y que es una de las cosas más útiles que he aprendido jamás.
+
+[00:12:26.620] 
+ Cuéntanos un poquito el topic Mapes. Básicamente una hoja de papel con tus hipótesis y dices vale. Cuáles son los grandes temas de los que queremos hablar en esta en esta entrevista no te voy a poner un ejemplo. Imagino que estamos hablando de un servicio que es te permite reservar hoteles boutique o kerigma. Entonces imagínate que el cliente lo que quiere saber es por qué la gente reservó hoteles boutique y no hoteles de cadenas porque su servicio ofrece. Entonces tú tienes ahí una serie de hipótesis. Porque claro si tú trabajas con esto cada día más o menos vas atinado por qué no vas a ser el capitán para esto.
+
+[00:13:11.430] 
+ Quizás las cosas que te gustaría saber van a pasar por pues de dónde viene la idea de viajar destinos medios de transporte con quien viaja la gente.
+
+[00:13:23.130] 
+Son grandes temas de los que te gustaría cubrir como reserva medios de pago inseguridades miedos malas experiencias buenas experiencias recientes. O sea son los sucesos son estos temazos que tu dices vale. A mí me gusta hablar de todo esto porque creo que aquí de aquí va a salir la respuesta para nuestra pregunta de qué es la A qué se dedica la entrevista. Entonces una vez tienes todo esto en una hoja de una hoja 4 yo pongo esto en Consalvi porque entonces es más grande no puedes ya ser muy pequeño. Entonces a partir de cada uno de estos temas salen las preguntas específicas.
+
+[00:14:11.660] 
+ Entonces transporte qué transporte utilizas. Cuál es el último que has utilizado por qué no te gusta el avión si te gusta el tren. Entonces de ahí salen las preguntas pequeñas y esto te ayuda. Te ayuda en que a la hora de planificar la entrevista. 1. Tienes un poco de idea de dónde está tu foco o sea dónde voy a hacer más preguntas. Me interesa de verdad saber el medio de transporte porque yo lo que tengo es una habitación de hotel pero está guay saberlo. Bueno voy a tocar en esto pero el pago sí me interesa muchísimo.
+
+[00:14:42.220] 
+ Entonces vamos a investigar mejor cómo hacen el pack te permite priorizar digamos lo bueno también si sirve para muchas cosas la primera de estas dos te sirve también para medir el tiempo o sea sabes más o menos. Aquí voy a hablar de esto diez minutos por valor de 20. Claro porque una de las cosas que suele pasar con la gente que no tiene mucha experiencia es quién es que hace una entrevista en el mundo de las ideas dura una hora y en el mundo real. Al final dura tres y lo real en el mundo real entonces es como tú tienes que empezar a tener esta idea de tiempo también claro y creo que la tercera ventaja que tiene este está en este gran secreto que me ha contado excolega es si lo lleva si esto lo llevas a la entrevista y hay miles de entrevistas con nada más que este.
+
+[00:15:36.880] 
+ 4 vale en la mano es que te permite escanear la página tú haces unas canas y a cubierto esto esto está aquí no tal aquí no hemos hablado mucho y te permite conducir la entrevista de una manera muy fluida más flexible más orgánica. Exacto porque tú no con las personas al hablar de transporte empieza a hablar de medios de pago que permite saltar a otro tema sin estar mirando la secuencia de tus preguntas. 4. Si es un formato cuestionario que es cómo la gente suele hacer planificación la entrevista que me parece súper útil lo voy a empezar a utilizar con permiso al revés cuanto más gente lo tenéis es mejor.
+
+[00:16:28.300] 
+En cuanto a la planificación supongo que también tienes en cuenta pues local de material de grabación llevas observadores o si este tipo de cosas depende.
+
+[00:16:42.080] 
+Yo he cuando me dijiste que quería hacer un podcast que te iba a contestar todo depende.
+
+[00:16:46.570] 
+Yo siempre digo que la respuesta del consultor consultor siempre es depende depende pues depende depende depende de qué entrevista estás haciendo.
+
+[00:16:57.580] 
+Entonces si es una entrevista a ver vamos a volver.
+
+[00:17:04.250] 
+Yo creo que la respuesta es sí puedes tener a alguien contigo es un lujo que yo digo siempre es un lujo casi innecesario. Vale tener un note que una persona que se dedica a estar tomando notas te permite estar con el entrevistado y esto es fundamental porque la persona lo percibe de cara y también porque yo encuentro que puedes absorber más de ella te puedes pedir más de lo entrevistado.
+
+[00:17:38.820] 
+Entonces siempre que puedas. Por mucha experiencia que tengas siempre es verdad.
+
+[00:17:44.300] 
+Es como si. Sí es un lujo. La verdad es que no te permite esta semana incluso el miércoles hacer unas entrevistas largas de una hora cada una. Fueron muchas y tenía una persona que estaba justo. Bueno de hecho era una sesión al otro lado tenía otra sala que la gente estaba tomando notas y la verdad es que es un gusto es liberador no es mucho es demasiado es demasiado dependiente. Sí más que nada te permite que sea bastante más fluida pero tampoco es verdad que con el tiempo y la experiencia sí tienes que tomar nota tú no pasa absolutamente nada y yo tengo una manía de tomar notas que también es muy eficiente se puede hacer cuentanos contra los más cerca de estás haciendo topic más vamos a tener volvemos.
+
+[00:18:38.510] 
+Vale te cuento bueno yo yo cuando hago estas entrevistas con el topic más algún Excel y éste Excel refleja el topic. Y entonces también me permite que esto sea así estamos hablando de una cosa. Además. Ahora me vas a creer la ner del universo pero es Scott Coded. Entonces tengo el topic MAP que este tópico es amarillo en el Excel es amarillo vale porque durante la entrevista esto me permite. Si estamos hablando de transporte vamos a poner nuestro ejemplo y sé que transportes amarillo en mi Excel la columna de amarillo yo puedo apuntar donde sea.
+
+[00:19:16.150] 
+ Y lo hago por participante y esto es lo que te permite al final es mirar todo lo que se ha hablado de este tema para todos los participantes.
+
+[00:19:24.110] 
+Interesante claro esto es una forma de ahorrar ahorrar mucho tiempo en cuanto a extraer la información de determinados topics y cuando tienes muchas entrevistas cuantas entrevistas crees que es necesario hacer para validar hipótesis en un proyecto medio. Es imposible esta respuesta depende.
+
+[00:19:52.500] 
+De la pregunta Taño es un poco imposible pero típicamente en un proyecto en los que trabajas con cuántos usuarios trabajas cuantos clientes a cuántos usuarios entrevistas pues depende. Pero mira. Yo crecí con las entrevistas.
+
+[00:20:13.500] 
+De alguna manera y esto te digo de filling totales es casi como es casi como lo de los test de usabilidad en concepto entrevistas encuentro 80 por ciento de las cosas que quieres encontrar. Vale pero de esto depende una cosa muy importante que es con quién estás hablando. Es muy distinto ser cinco entrevistas y que cada uno sea de su padre y de su madre con un perfil de persona que hace cosas distintas con motivaciones distintas y hablar con cinco personas que tú piensas que son.
+
+[00:20:44.920] 
+No es igual este perfil de esta persona para el producto para el cliente. Entonces en otro ejemplo que te puedo dar si un proyecto con un banco era rediseño de un portal de empleo entonces sí muy bueno hacemos cinco entrevistas con trabajadores y entrevistas con trabajadores actuales y al llegar a después de hacer la primera fase del proyecto que ha sido definirlos nos dimos cuenta que no eran 10 entrevistas que tenemos que hacer eran 50 porque no íbamos a sacar todo el conocimiento necesario de esta división tan simplista.
+
+[00:21:24.400] 
+No sé si te contesto eso sí sí yo creo que sí. Entiendo que sí para mí al final también es verdad que siempre hay un traidos en esto.
+
+[00:21:33.550] 
+Yo me encontraba proyectos en los que te quedas con la sensación de que incluso probablemente no haya sido suficiente el número de usuarios entrevistados pero al final el límite lo marca la pasta muchas veces también. Pero esto no es algo especialmente barato en el sentido de que hay que invertir tiempo hay que invertir tiempo además con un nivel de especialización y unos perfiles con un cierto grado de especialistas.
+
+[00:22:05.080] 
+Yo siempre digo que prefiero hacer una entrevista que ninguna siempre. Absolutamente sí sí sí puedes hacer 50. Es muy posible que no necesitas hacer 50. Claro depende para qué pero vamos que yo prefiero hacer poquitas entrevistas pero extraer el máximo número de posibles que no hacer ninguna.
+
+[00:22:27.980] 
+Pero totalmente. Por eso volvemos yo creo que la planificación es lo más importante. Si tú sabes que todo proyecto te van a caber un día de entrevistas cinco ocho pues entonces ten muy claro lo que es lo que estás intentando entender. Claro porque entonces sí que vas a sacar la información. Es como una reunión te vas a una reunión que no sabes backers sale sin ningún ninguna acción es lo mismo o sea planificar planificar planificar siempre tener claro para que antes siempre siempre totalmente.
+
+[00:23:01.420] 
+Sueles sueles grabar las entrevistas en vídeo en audio cómo lo haces esto tienes siempre un sí. Si vas con observador también las grabas.
+
+[00:23:12.430] 
+Sí es casi un ticket. Esto es un defecto de la profesión de periodista creo yo tengo tengo grabadores de todos los tipos tamaños en cinta con baterías con SD. Sí sí porque y también me pasó recién.
+
+[00:23:32.060] 
+Y es muy duro cuando cuando tienes esta hora y has hablado con mucha gente y quieres saber buah pero esto que ha dicho en este momento ha dicho así o así o así y puedes sabes que puedes volver a consultarlo es muy bueno.
+
+[00:23:46.100] 
+Ahora lo miro miro videos de sesiones casi nunca casi nunca pero si está está bien.
+
+[00:23:55.520] 
+Está bien tenerlo espesar a la otra pregunta que quería hacer. Si realmente los utilizas los vídeos luego si transcribe no lo he hecho.
+
+[00:24:05.840] 
+Otra vez depende para que sea he tenido he tenido varias varias experiencias distintas por ejemplo en experiencias como entrevistas en otras en otras en otros idiomas. Entonces yo claro tengo yo soy brasileña y vivo en Inglaterra entonces mucho del trabajo que hice fue entrevistar para clientes que tenían querían tener una falta de conocimiento sobre la cultura local clientes ingleses que quieren saber cosas sobre España y pienso español sobre Brasil. Y entonces cómo lo ha dicho. Interpretación de esto luego es bastante importante la finura. Exacto.
+
+[00:24:54.890] 
+Entonces cuando alguien se refiere o te cuando especialmente en la parte de la entrevista que tú que es algo que casi siempre pide a la persona que me explique lo que ella entiende de lo que estamos intentando tal pero con sus palabras estas palabras son muy importantes y tener una grabación de esto para poder mirarla en detalle después también es importante.
+
+[00:25:16.670] 
+Muy bien porque cuál es. Cuáles son los típicos errores que cometemos en las entrevistas.
+
+[00:25:24.350] 
+Quieres decir aparte no planificarla. Aparte de no planificarlas.
+
+[00:25:30.380] 
+Yo creo que esta es una de las cosas que enseño porque una de las cosas que hacemos en íbais fue Project es enseñar a nuestros clientes hacer entrevistas con sus usuarios o sea nosotros podemos hacerlas y eso es uno de los principales servicios que tenemos de investigación. Pero también te enseñamos cómo hacerlo y una de las partes del curso es justo el coaching. Entonces yo me siento al otro lado de la grabación o de la pantalla de son remotas y escucho cómo la persona está entrevistando y para mí siempre el principal error es que la persona entrevistada se sienta más nerviosa que la persona.
+
+[00:26:13.910] 
+ Si la persona que está entrevistando se sienta más nerviosa que la entrevistada vale tu rol principal. Es que esta persona se sienta cómoda porque o por dinero o porque estás haciendo un favor esta persona está dedicando su tiempo a ti que también es verdad que el ser humano es muy raro y le encanta hablar de su vida y de cómo hace las cosas hablar de su libro.
+
+[00:26:38.850] 
+A todos nos gusta hablar de nuestro libro todos cantan.
+
+[00:26:42.240] 
+Si la gente te cuenta cosas de su intimidad que tú no has tenido y que dices vaya. Y es lo que creo que es lo que me hace gustar tanto esta profesión pero creo que esto sea que tú tú tienes que estar muy bien en tu piel para poder hacer una entrevista buena. Por qué no te Ovide de las cosas estás muy consciente de tus propios de ti mismo y te olvidas de la persona que está delante tuyo que es lo más importante entonces es saca saca todo esto antes asegura ejerciese respiracion hace no sé a las cosas.
+
+[00:27:19.730] 
+ No tomes demasiado café para no hablar demasiado y esto te permite no cometer el segundo error que es el sesgo que hace famoso si no que todo el mundo tiene y es lo más difícil. Y mira llevo yo que se ha hecho cargo de los años como actriz pero mucho tiempo haciendo y si me escuchen en entrevistas miro otra vez.
+
+[00:27:45.860] 
+Le he puesto la palabra en la boca tal cual me reconozco también me reconozco y también es muy difícil realmente sacarte de sus uso. Supongo que eso es lo que lo hace un sesgo no lo convierte en un ser. Lo tenemos tan interiorizado que a veces no te das cuenta lo pasas por el plano subconsciente.
+
+[00:28:04.670] 
+Así es y estos son los más daños. Si esto es sólo más daño pero hay maneras y maneras de auto vigilarse y pequeños trucos que es una de las cosas que enseñan en las clases de entrevistas que no de cómo hacer preguntas de manera que te ayude o incluso cuando son éstos que te pasan las que te ayudan a no cometer un truquito no así el más interesante los puntos suspensivos o no completar la frase.
+
+[00:28:40.490] 
+Exacto. O sea siempre que estás a punto de decir algo deja que la persona rellene la línea en blanco y lo hacen. Y esto me encanta hacer porque siempre hacerlo de una manera distinta.
+
+[00:28:55.110] 
+Esto es lo más bueno y el silencio. Esto también me enseñó un jefe de un estudio de diseño también estoy diciendo editorial que he trabajado hace mucho tiempo y era un jefe que decía. Quiero verte audiencias vale y entonces entrabas sentabas y él te miraba y antes de decir cualquier cosa te miraba no sé igual creo que te Bence como.
+
+[00:29:24.130] 
+Unos 15 segundos y silencio y era impresionante el efecto que tenía en uno porque el silencio es muy incómodo para el ser humano en general. Entonces si tú estás entrevistando a alguien esta persona está esperando que te preguntes cosas si te quedas en silencio te dice cosas que no ibas a preguntar y entonces esto es muy bueno.
+
+[00:29:47.150] 
+Qué grande.
+
+[00:29:49.300] 
+Recuerdo cuando empecé a hacer entrevistas para seleccionar gente hacer entrevistas de selección de gente en las primeras entrevistas no hablaban la gente era yo quien explicaba lo que hacíamos lo que necesitábamos.
+
+[00:30:05.220] 
+Y me sorprendí a mí misma al final de la entrevista diciendo no ha explicado nada a esta persona.
+
+[00:30:13.240] 
+Sin embargo yo le he contado muy bien todo era y era un poco eso. Primero la planificación desde luego. Segundo están yo casi más nervioso que esa persona. Y tercero de esto del silencio el silencio incómodo. Es verdad que nos incomoda el silencio con lo bonito que es.
+
+[00:30:32.190] 
+Sí y Sí y eso es como es un poco el Guestalt donde la entrevista es como la gente del espacio en blanco y lo quiere quiere llenar llenarlo y te va a contar algo. Es verdad que incluso me ha salido mal no quedarte en silencio. Entonces empiezan a contar sus vidas apareja sus gatos no sus cosas que no tiene nada que ver. Tú estás mirando el reloj del reloj diciendo poniéndote nervioso ya que se te está acabando el tiempo de la entrevista así.
+
+[00:31:01.210] 
+Vamos vamos a por mí ya no me interesa.
+
+[00:31:05.380] 
+Hay que tener mano izquierda y también para poder para saber encauzar de nuevo mano izquierda y no sé como decirlo no dureza pero si no me sale la palabra. No le voy a poner puntos suspensivos.
+
+[00:31:20.950] 
+No no no yo creo que es una pregunta muy válida porque muchas veces sea YouTube y que la gente siempre dice no cuando siempre cada vez que hago día de sesiones incluso cuando mirando clientes. Pero como has tenido paciencia con entrevistar a éste. Digo bueno porque yo están buscando respuestas. No quiero ser su amigo pero es un poco también el otro lado también he escuchado muchas veces que es vayás que has puesto en su lugar. Hombre sí porque muchas veces es necesario decir mira muy bonito lo que me estás explicando pero podemos volver a hablar de volverle al tema puntual sacarle de sus viajes porque si no es esto o sea tienes un tiempo y ahí estás.
+
+[00:32:04.380] 
+A mí hay una parte de las entrevistas más que de la entrevista en sí de los proyectos donde hacemos entrevistas que me parece especialmente relevante que es luego la síntesis y extracción de insights del usuario y hasta hay algún truquito en cuanto a o no desde ese topic hasta Pekín por por columnas de color y me parece muy muy inteligente porque vas a ganar mucho tiempo ahí.
+
+[00:32:30.820] 
+Pero me parece difícil realmente hacer eso y yo creo que seguramente no sé si tú coincides pero seguramente la experiencia puede hacer ganar mucho tiempo en esa parte de nuestra ronda de extracción de ensayo.
+
+[00:32:49.000] 
+Estás de acuerdo.
+
+[00:32:50.180] 
+Si no no te voy a negar experiencia y Crick también cómo trabajas. O sea yo hice muchísimas entrevistas que el entregable de estas entrevistas era un informe. Entonces cómo extraer la información. Pues mira para poner en un informe es muy distinto de extraer información para poner en un prototipo que voy a testear mañana otra vez. Vale entonces ahí está también creo que es el para qué el para qué de esta extracción sí. Si estas entrevistas son para entender una persona y mejorar personas como como fantasies en el podcast entonces cuáles son las cosas que estoy mirando y qué es lo que voy a hacer con esta información.
+
+[00:33:38.540] 
+ Texto tengo que transformarlo en coach para poner en boca de estas personas. Voy a buscar las cosas que han dicho la gente tengo que hacer síntesis de estas cosas que han dicho o lo que estoy buscando son comportamientos que me van a llevar a entender cómo tengo que rediseñar o diseñar algo. Quizás estoy hablando estoy hablando mucho desde el punto de vista de la entrevista para ayudar para Yuuki claro pero te doy otro ejemplo que es algo que no hemos hablado y me parece que es tengo que hablar porque es lo que más me gusta hacer que son las entrevistas que hicimos en el mundo real las entrevistas en contexto.
+
+[00:34:25.160] 
+ Entonces igual poniendo un ejemplo más fácil por ejemplo si lo que estás diseñando es un bar privado utilizar dentro del autobús todo bien pero lo que estás enseñando es una pantalla de unas máquinas de lavar ropa industriales. Si tú dices Bueno vamos a hablar con la gente que opera estas máquinas a ver cómo lo hace y estudiar sus no estudiar qué es lo que hacen al día de hoy para poder rediseñar. Una cosa es que si tú coges esta persona va por el centro de una sala te va a contar que hace como lo acepta está bien pero lo que vas a perder es el ver como lo haces mientras lo hace se te explica las cosas si vas te va contestando tus preguntas mientras vas haciendo lo que normalmente hace.
+
+[00:35:12.500] 
+ Ahí está otra parte quien no es entrevista entonces es observación que es muy importante cómo se pone esta persona en qué posición está. Lleva guantes tienen que sacar los guantes para parar la máquina se enfada con alguna cosa se tensa es. Hay una parte de contexto que es lo más importante. En muchos casos hice entrevistas en contexto cuando. Justo antes del lanzamiento del primer iPad estamos haciendo una era una plataforma para leer en estos aparatos que todavía no existían que tenían mi nombre no tenía un nombre y estamos haciendo claro lectores de noticias.
+
+[00:36:00.420] 
+ Entonces la gente es claro le va a pensar que tienes 50 años o jovencísima Sara está estupenda y es jovencísima pero no hay se vaya.
+
+[00:36:08.650] 
+Si no estoy hablando de hace ocho años me parece mucho parece que nunca hemos tenido ocho años ya pero no ha sido ayer esto es ayer.
+
+[00:36:20.320] 
+Y esto sea y es que era como cómo la gente le notices que no sea en el papel. Entonces esto era muy importante porque lo que hemos observado en situaciones como la gente te hablaba entonces te enseñaba con el cuerpo. Si le InfoWorld linda. No todo esto era muy nuevo entonces claro y esto es muy importante que bueno es genial.
+
+[00:36:46.650] 
+Hay una pregunta que todo el mundo se hace cuando tiene que empezar a hacer entrevistas.
+
+[00:36:55.830] 
+A mí me ha pasado también es de donde sacamos los usuarios cómo conseguir cómo conseguir usuarios para entrevistar cómo respondería a esta pregunta.
+
+[00:37:05.470] 
+Vale decir desde siempre que la complemente es igual de bien que hasta ahora donde conseguir.
+
+[00:37:13.130] 
+Mira si tienes presupuesto y lo bueno no te voy a decir esto no depende del presupuesto creo que depende de quién de qué producto es y de con quién tienes que hablar. Muchas veces vale con hablar con gente en la calle saberse literalmente bajar al café y hablar con estar de acuerdo.
+
+[00:37:37.920] 
+Y vale que hay mucha gente que dice no pero son usuarios soltar y no pasa nada porque depende de lo que estás intentando encontrar lo que esta gente debe entender es un ser humano puede utilizar esto o un ser humano como se comporta o si estás haciendo una primera toma de conocimiento sobre lo que puede ser algo malo y luego la segunda parte de ti sacado esto de bajón bajo a bajar a las barbas.
+
+[00:38:02.670] 
+La segunda es cuán bien conoces a los usuarios o a las personas que tienes que entrevistar y si conoces muy bien tendrás muchas herramientas para dónde encontrarles. Entonces cuanto más detallada sea tu persona más fácil y más difícil será encontrar las porqué.
+
+[00:38:21.940] 
+Porque sólo tienes que ir donde están. Entonces si tú dices mi producto es para madres que les gusta la comida natural y no importan con las emisiones de los vehículos porque sus padres han tenido cáncer.
+
+[00:38:41.460] 
+Seguramente si te plantas en un Véritas encuentras de este perfil sabes lo que te digo totalmente. Entonces si la respuesta es vete a donde están. O a donde están haciendo el comportamiento que estás intentando estudiar.
+
+[00:38:55.200] 
+Genial si empezabas diciendo y luego has cambiado un poco que si tienes presupuesto por qué lo decías esto por supuesto.
+
+[00:39:06.040] 
+Porque mira yo he tenido el lujo como dije de trabajar en distintos países y la verdad es que es muy difícil hacer este tipo de investigación cuando tienes que encontrar estas personas en otros países. Si bien es verdad que también hago muchas entrevistas en remoto si las tienes que hacer en vivo y esto está en otro sitio es complicado pero utilizar agencias de captación. Qué es una agencia de captación son agencias que se dedican en general. Al estudio a los estudios de mercado pero algunas pocas recomendadas y escogidas a dedo. También saben empiezan a saber más lo que hacemos nosotros que hacemos.
+
+[00:39:47.070] 
+ Y si se empiezan a dedicar más a captar gente para este tipo de entrevista no es para mirar el embalaje de jabón. Entonces sí sin desmerecer las entrevistas que son mirar el malaje de jabón pero entonces aquí depende de la calidad del profesional con quien estás trabajando tienes que conocer y dos depende también de lo bien que te informas sobre las personas con quien estás intentando hablar. Pero si tienes presupuesto y puedes dedicar este presupuesto a que alguien te las encuentre es fantástico.
+
+[00:40:27.270] 
+Cuánto sueles pagar por un perfil más o menos cercano si califico cualificado o no en el sentido de bien segmentado.
+
+[00:40:37.090] 
+Yo te paso una segmentación y quiero un público objetivo que entre 55 y 60 años pensando en prejubilarse no sé bien definido bien definido.
+
+[00:40:49.440] 
+Mira el último Screener de captación que escrito tenía 27 páginas. No sé si es madre mía pero claro porque cuando empiezas empecé a pensar en todo lo que no puede ser esta persona que suelo pagar si es un sí es un producto como si es para hablar con gente consumidora de productos. Si es un fruto si entre 25 y 40 euros por hora de entrevista vale. Si estamos hablando de gente que tiene muy poca disponibilidad si está trabajando para marcas de lujo o con profesionales extremamente especializados o que cobran por hora como son los abogados médicos esto entonces sube de precio claro.
+
+[00:41:37.470] 
+Al final te hacía esta pregunta porque también mi intención siempre es transmitir desactivar esa excusa de que no hacemos entrevistas porque es muy caro no hacemos entrevistas porque hay excusas puedes encontrar muchas y muy variadas pero desde luego el precio no es una de ellas. Yo creo que es un sentido de encontrar a ese usuario es algo que realmente es asequible totalmente.
+
+[00:42:02.600] 
+Y mira no te voy a decir o se ha trabajado mucho con startups aquí en Barcelona y puedes conseguir perfectamente hacer entrevistas sin pagar con bases de datos de los propios usuarios. Entonces es más difícil es más difícil. Tienen mucho riesgo tienes que tener mucha disponibilidad de días pero hemos hecho mil veces con las startups de las aceleradoras con quien han trabajado quien tras un e-mail dices mira estamos buscando gente que nos ayude a mejorar y si es verdad que puedes enviar yo digo para ser cinco entrevistas tienes que enviar 500 correos y no casi siempre funciona.
+
+[00:42:45.680] 
+ O sea este ratio no es mentira pero sí puedes enviar mil correos mejor y mil correos tienen que ser del perfil con quien quieres hablar pero es posible que ahora la pasta. Si tú dices Quiero hablar contigo y además te voy a dar un cheque regalo de Amazon de 100 euros mañana tendrás estos usuarios claro claro. Para ir cerrando un poquito me gustaría ya dejar la pregunta más abierta qué le recomendarías a alguien que quiere empezar a hacer entrevistas y más allá de estas cosas que hemos comentado alguna recomendación especial para alguien que quiera empezar a hazlas.
+
+[00:43:25.340] 
+Es que no hay otra. Hasta aquí la entrevista con la gente es que no hay otra.
+
+[00:43:30.280] 
+O sea esto es como todo en esta vida si a la gente que dice que no puede dibujar es porque no dibuja porque si te pones te pones. Pero pero lee mira videos o sea la gente que las entrevistas los profesionales o los entrevistadores profesionales.
+
+[00:43:50.060] 
+Puedes aprender mucho de la manera como lo hacen y de lo bien que lo hace por la tele.
+
+[00:43:54.950] 
+Te refieres a un entrevistador del programa Esto es mira la tele mira escucha la radio también que la radio te da también pistas stiff porticado que es un autor que es incluso para mí mi maestro. También tiene excelentes excelentes tips en su web de cómo hacer entrevistas vídeos e incluso entonces pero por mucho que leas es mejor empezar con algo de bajo riesgo que te sientes cómodo y hacerlas y mojarte para ir cerrando a Sara tarascos super muchísimo el tiempo que nos dedicas ya un poquito más centrándonos en ti un par de preguntitas.
+
+[00:44:36.690] 
+La primera es con qué aventuras estás ahora si las puedes contar si puedes contar algo de aventuras. Con qué proyectos. Cuáles son tus retos en el medio plazo a unos retos.
+
+[00:44:49.380] 
+Tengo que abrir la sucursal de mi empresa en Barcelona. Qué te parece. No está mal si estamos solos en Madrid estamos en Madrid y al ladito de Atocha con mis socios y este día en el AVE a la semana no es posible.
+
+[00:45:04.170] 
+Entonces sí estoy.
+
+[00:45:07.350] 
+Mi reto ahora es conocer a los mejores y a Barcelona y que vengan a trabajar con nosotros. Y mientras tanto levantar proyectos estamos haciendo estamos haciendo más proyectos aquí ahora que antes. Entonces esta parte también es interesante tanto con startups como también con algún banco y alguna empresa grande.
+
+[00:45:28.190] 
+Sí sí sí sí sí muchas cosas a la vez que es como se gusta donde te pueden encontrar si quieren localizarte tuitera.
+
+[00:45:41.010] 
+No mucho pero sí en mi Twitter Sarita Rik. Y también por quizás bueno la wáter estuvieron a punto de cambiarla incluso de nombre. Sí Twitter es la mejor manera si arroba Sarita Ringling también.
+
+[00:45:57.190] 
+No es fácil de localizarte o el INTI también.
+
+[00:45:59.980] 
+Sí exacto. Sí es la mejor manera y de momento estoy en atajados no se sabe dónde está sí o sí. Pues en gracia cerquita sí. Exacto. Hay halado.
+
+[00:46:11.410] 
+Sí pues nada más hará nada más que agradecerte de nuevo toda tu sabiduría tu conocimiento y que lo compartas de esta forma tan generosa con todos los oyentes.
+
+[00:46:22.040] 
+Al revés. Gracias por qué voy a estar en el otro lado.
+
+[00:46:26.910] 
+Qué guay.
+
+[00:46:29.730] 
+Muchísimas gracias. Gracias a todos los oyentes por seguir escuchando el programa. Solo una cosita más. Como ya sabéis los habituales del podcast si tras escuchar este episodio quieres proponer a alguien como entrevistado porque creas que es afín al espíritu del podcast y que puede aportar valor. Pues por favor escriba en el mundo real arroba Carlos Iglesias punto info o tirarme un DM en Twitter a robacarros dáselo. La única condición como sabes es que la persona propuesta no seas tú mismo pillín. Y hasta aquí y ahora sí amigos este episodio de mi podcast en el mundo real el podcast sobre experiencia de cliente y negocio digital.
+
+[00:47:13.050] 
+ No olvidéis entrar en Carlos Iglesias punto info barra cero cero cinco episodio cinco cero cero cinco porque vais a encontrar un montón de recursos interesantes sobre los temas que hemos comentado en este episodio. Los tienes todos ahí recogidos para ti como siempre. Muchísimas gracias por escuchar de verdad quiero saber qué piensas que te ha parecido así que me encantaría que me dejes tu feedback que lo valoro un montón.
+
+[00:47:37.470] 
+Tus dudas vienen a través de comentarios en mi página web en la página de Facebook @facebook.com barra en el mundo real cunto podcast o mejor aún a través de un comentario Noitebús iVoox YouTube o la placeta la plataforma que utilices acompañado de unas estrellitas de unos likes. Para mí ya sabes es súper importante porque es lo que me va a permitir ganar visibilidad para ampliar aún más esta gran conversación que espero mantener con todos vosotros oyentes. Un fuerte abrazo y os espero en el mundo real.
+

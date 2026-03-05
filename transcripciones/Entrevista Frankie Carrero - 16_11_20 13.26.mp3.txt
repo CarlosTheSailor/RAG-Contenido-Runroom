@@ -1,0 +1,330 @@
+[00:00:02.040] 
+Blade Runner, Matrix, Terminator. Black Mirror, Hal 9000 o el mismísimo Asimov, no es de extrañar que con esta herencia cultural, al escuchar las palabras inteligencia artificial, se nos enciendan todas las alarmas. La singularidad tecnológica es y leo de Wikipedia, el advenimiento hipotético de inteligencia artificial general, también conocida como inteligencia artificial fuerte. La singularidad tecnológica implica que un equipo de cómputo, red informática o un robot podrían ser capaces de auto mejorarse recursivamente.
+
+[00:00:51.500] 
+Se dice que las repeticiones de este ciclo probablemente darían lugar a un efecto fuera de control, donde las máquinas inteligentes podrían diseñar generaciones de máquinas sucesivamente más potentes. La creación de inteligencia sería muy superior al control y la capacidad intelectual humana: robots que nos quitan el trabajo, futuros distópicos, con la humanidad sometida al control y la voluntad de una inteligencia superior. O para otros, como Ray Kurzweil, una explosión de música, arte, cultura, ciencia, ingeniería.
+
+[00:01:35.270] 
+Una explosión, en definitiva, de conocimiento humano. Kurzweil es un inventor estadounidense, además de músico, empresario, escritor y científico especializado en ciencias de la computación e inteligencia artificial. Desde 2012 es director de ingeniería en Google. Y él sitúa la fecha de la inevitable llegada de la singularidad en 2045. Para bien o para mal, estamos aún muy lejos. Hoy la inteligencia artificial se conforma con hacer muy bien, mejor que los humanos en muchas ocasiones, tareas muy verticalizadas, muy específicas, y de esta forma está resultando realmente disruptiva cuando se aplica, por ejemplo, a tareas repetitivas con un alto coste y poca aportación de valor.
+
+[00:02:29.130] 
+Automatizaciones a escala. Personalización basada en comportamientos predecibles. Tenemos la suerte de charlar con Frankie Carrero https://www.linkedin.com/in/franciscocarrero/ Head of Product en Doofinder , conductor del podcast Pensamiento Digital, profesor, inversor y muchas cosas más que os invito a descubrir en la entrevista de hoy. 
+
+[00:04:12.040] 
+
+
+[00:04:33.640] - Carlos Iglesias
+Cómo podemos mejorar la experiencia de cliente gracias a la inteligencia artificial. 
+
+[00:04:56.070] 
+El podcast de Frankie para quien no lo conozca, se llama Pensamiento Digital y a mí me encanta. Es un podcast donde donde Frankie habla de la inteligencia artificial en el mundo real. Me gustó mucho porque realmente me siento muy alineado con esa forma de plantear las cosas de una forma muy pragmática, muy orientada a ¿qué es lo que pasa? Cómo esto tiene una aplicación directa en los negocios hoy en día. Frankie sé que estudiaste telecos en la universidad, tienes un grado en computer Science de la Universidad Europea de Madrid, tienes estudios de inteligencia artificial, yo te conocí también cuando estabas en BrainSINS, donde eras CEO y cofundador. Lo último que sabía de ti hasta hace muy, muy, muy poquito, es que eras Senior IT Manager en Zara.com. Estabas ahí con personajes como David Pombar y compañía y ahora, yo creo que es casi una exclusiva del podcast, Director de producto en Doofinder, si no voy equivocado.
+
+[00:06:42.870] - Frankie Carrero
+Efectivamente, vamos, acaba, acaba de producirse. Realmente estoy justo ahora gestionando el cambio perfecto.
+
+[00:07:06.810] 
+Además al equipo de Doofinder les conozco desde hace ya unos cuantos años, de hecho desde que empezamos BrainSINS aproximadamente, y con Ivan Navas, el CEO, sobre todo es con quien tenía más relación.
+
+[00:07:20.220] 
+Y tengo que reconocer que siempre, tanto Corti como yo, les hemos admirado mucho. Ellos hicieron muchas cosas muy bien de las que nosotros no supimos terminar de hacer bien en el caso de BrainSINS y bueno, si puedo ir con ellos y aprender y ayudarles en lo que esté en mi mano, pues yo encantado.
+
+[00:08:11.270] - Carlos Iglesias
+Estás tocando las entrañas de la tecnología, estás en las trincheras y a la vez estás también en la parte docente. ¿Cómo has llegado a hasta aquí y por donde has pasado? 
+
+[00:08:32.580] - Frankie Carrero
+Pues la verdad es que seguramente si alguien se pone a ver con detalle lo que ha hecho, puede pensar que he estado dando tumbos de alguna manera, porque comentabas que estudié teleco y luego hice también informática, y durante esa época estuve trabajando con mis padres, que tenían una empresa que hacía importación de artículos de regalo y juguetes de China y yo viajaba a China tres o cuatro veces al año para ayudarles con las compras y me convertí un poco en agente de compras de la empresa.
+
+[00:09:03.030] 
+Hice teleco y luego informática, porque con Teleco me equivoqué.
+
+[00:09:44.900] 
+Al final sí que mi vocación es más informático y, una vez terminé la carrera, me puse a trabajar en Telefónica I+D y vi que la gran empresa no era para mí, no era lo que yo quería, y monté una startup con mis dos compañeros del trabajo de fin de carrera de informática. Se llamaba Notice Press y era una especie de press clipping automatizado y lo que hacía era servir cada día un conjunto, un listado de noticias a cada uno de los usuarios.
+
+[00:10:16.800] 
+El sistema aprendía de lo que los usuarios leían y entonces cada día iba personalizando las noticias que más le interesaban. Estoy hablando del año 2000 aproximadamente.
+
+[00:10:27.100] 
+La empresa fue bien durante un año y pico que llegó la burbuja de Internet. Intentamos seguir, no tenía mucho sentido y me fui a la universidad a trabajar en temas de investigación y todo eso. En la universidad tuve unos años muy buenos.
+
+[00:11:13.410] 
+La verdad es que me gusta mucho enseñar y es algo que creo que no se me daba mal del todo y me gustaba investigar, o eso pensaba yo, hasta que me di cuenta de que no me gustaba tanto investigar en proyectos de base como al final desarrollar proyectos innovadores que luego se pudieran aplicar. Que era una de las cosas que ocurría en la universidad, terminabas un proyecto investigación, un consorcio con empresas, universidades, y luego eso se quedaba en el limbo, más allá de papers, publicaciones y tal.
+
+[00:11:45.750] 
+Y a mí eso me frustraba igual que a Corti* que también había sido alumno mío en la universidad.
+
+[00:11:55.230] 
+Para los oyentes que no lo conozcan, Corti es José Carlos Cortizo, que también tiene un podcast que se llama En.Digital https://en.digital/. Quien no lo haya escuchado está invitado a escuchar no solo el podcast, sino la entrevista que le hicimos a Corti https://www.runroom.com/realworld/e033-customer-experience-game-canvas-con-jose-carlos-cortizo en este mismo podcast hace unos cuantos episodios .
+
+[00:12:25.740] 
+Realmente montamos una red social para jugadores de videojuegos en el que empezamos a aplicar un montón de las tecnologías en las que habíamos estado investigando los dos, juntos y por separado, en la universidad. Vimos que no lo podíamos monetizar porque en su momento empezaron a salir un montón de redes sociales y luego casi ninguna terminó yendo bien. Y ya montamos BrainSINS.
+
+[00:12:53.130] 
+BrainSINS empezó siendo simplemente como una plataforma que recomendaba productos, algo similar a lo que veis en Amazon cuando vais allí a comprar y os muestran productos que están relacionados con el que estáis viendo en este momento, pero terminó convirtiéndose en una herramienta de marketing automation inteligente, con mucha inteligencia artificial por detrás y tratando de ayudar a que los e-commerce vendieran más, mejoraran su ratio de conversión, consiguieran fidelizar más a sus clientes...
+
+[00:13:26.000] 
+Eso estuvimos durante diez años.
+
+[00:13:29.400] 
+Corti ya contó aquí en el programa https://www.runroom.com/realworld/e033-customer-experience-game-canvas-con-jose-carlos-cortizo todo lo que pasó así que remito a que vayan a escucharle a él con todo detalle. Y el año pasado le ofrecieron a mi mujer un trabajo en Inditex, en A Coruña, y dijimos ¿por qué no? Yo encontré trabajo en Zara.com también y la verdad es que ha sido un año muy interesante. He conocido gente muy interesante, he aprendido mucho. Es la primera vez que he estado tanto tiempo en una empresa grande, por lo menos de e-commerce, que me resultaba algo muy cercano. Y ha sido una experiencia que me ha enriquecido mucho.
+
+[00:14:54.610] - Carlos Iglesias
+La inteligencia artificial está teniendo ya un impacto en todos los sectores, en todos los modelos de negocio, también en la experiencia de cliente, pero cuando hablamos de inteligencia artificial, de Big Data, de Data Science, de Machine Learning, Deep Learning, creo que no todo el mundo está en la misma página y que no todo el mundo entiende exactamente cuáles son las diferencias entre una disciplina y otra. ¿Cuáles dirías que son las diferencias entre entre una cosa y otra y qué tipo de aplicaciones podemos sacar de cada una de ellas? 
+
+[00:16:17.170] - Frankie Carrero
+Lo primero que tengo que decir es que cuando hablamos de inteligencia artificial, seguramente muchos tengamos ideas distintas en la cabeza, porque considero que no se trata muy bien, sobre todo en medios generalistas, pero incluso a nivel de expertos en inteligencia artificial o científicos especializados en inteligencia artificial, nunca he visto una definición que podamos considerar única. Hay siempre esos matices, porque estamos hablando de algo que, por darle una primera definición, lo que intenta hacer es realizar tareas de forma similar a como las harían los humanos aplicando su inteligencia. Cuando hablamos de forma similar quiero decir que no tienen por qué seguir exactamente los mismos mecanismos que nosotros.
+
+[00:17:13.990] 
+Eso es lo que hace que sea un contexto tan amplio, tan rico y tan, tan variado.
+
+[00:17:20.110] 
+Cuando hablamos de inteligencia, ya en muchos casos hasta podríamos poner en duda qué es la inteligencia, a diferentes niveles. No es lo mismo para un humano que para un animal. Diferentes tipos de animales, incluso. 
+
+[00:17:37.270] 
+Cuando se planteó la definición de inteligencia artificial, originalmente allá por los años 50, realmente se hablaba justo de eso, de tareas que podían realizar ordenadores y que un humano podría realizar también con su cerebro y el ordenador, el programa, intentaría replicar esa tarea.
+
+[00:17:56.440] 
+La realidad es que se ha convertido en algo mucho menos amplio si quieres, y básicamente lo que permite la inteligencia artificial es automatizar una serie de tareas que normalmente pueden realizar los los humanos, que pueden ser más complejas o menos complejas, pero en este caso, que las puede realizar el ordenador y eso puede ir desde tareas complicadas, como puede ser planificación, por ejemplo. Tareas de planificación son las más difíciles, razonamiento, resolución de problemas e incluso representación del conocimiento, que es una parte de la inteligencia artificial necesaria para luego otras aplicaciones de la inteligencia artificial e incluso la visión por computador o reconocimiento del habla.
+
+[00:18:41.440] 
+Siento no dar una definición que pueda ser muy concluyente, pero la idea principalmente va por ahí. Ahora, ya yendo más al grano, qué es el machine learning?
+
+[00:19:11.170] 
+Bueno, pues Machine Learning es una de las categorías de algoritmos dentro de la inteligencia artificial. No son cosas distintas, sino simplemente que debajo del paraguas de la inteligencia artificial hay diferentes tipos de algoritmos. Por poner dos ejemplos diferentes, pero para que veamos que los dos caen debajo de la inteligencia artificial, de sistemas expertos, que fueron unos de los primeros algoritmos que se utilizaban y que lo voy a simplificar. Básicamente lo que haces en un sistema experto es que una serie de expertos definen unas reglas para que en función de lo que esté ocurriendo en un momento determinado, el sistema pueda tomar una decisión.
+
+[00:19:56.040] 
+imagínate una serie de médicos que se reúnen y dicen "sí, tenemos estos valores en estos análisis, resulta que la enfermedad es estar de aquí o tienes un 90% de probabilidades de que la enfermedad sea ésta de aquí. Si son otros valores, el resultado es este otro."
+
+[00:20:09.930] 
+Es un sistema que parece muy sencillo y la complejidad en este caso está en cómo organizar la información primero para luego poder generar esas reglas.
+
+[00:20:19.500] 
+Machine Learning lo que hace es tomar un camino muy distinto y que permite la automatización que hablábamos antes. Y en este caso no tiene que haber una serie de expertos que determinen cuáles van a ser las reglas, sino que hay un algoritmo que, a partir de una serie de datos, es capaz de aprender de forma automática esas reglas y aplicarlas a un montón de aplicaciones. Ahora comentaré también un poquito sobre aplicaciones.
+
+[00:20:45.660] 
+Y ya muy rápidamente como me preguntabas por Deep Learning.
+
+[00:20:48.750] 
+Cuando hablamos de Deep Learning, hablamos de también un subconjunto del Machine Learning y hablamos en este caso de redes neuronales que permiten manejar cantidades de información muy grandes y además redes de profundidad muy grandes. 
+
+[00:21:08.490] - Carlos Iglesias
+Lo que yo entiendo es que Machine Learning no es que tú programes la lógica, sino que tú al algoritmo le das una un montón de datos de entrada y unas salidas esperadas y el propio sistema aprende e identifica patrones. 
+
+[00:21:40.260] 
+Y esto ¿para qué sirve? ¿Quién está utilizando esto hoy en día y para qué? ¿Cómo esto puede ayudarnos a mejorar la experiencia del cliente?
+
+[00:21:59.470] 
+Vale, pues en la primera parte ¿para qué se utiliza? Yo creo que es donde est parte del desconocimiento que hay con la inteligencia artificial.
+
+[00:22:08.530] 
+Heredado de estas definiciones iniciales tan difusas que comentábamos antes, quizá en el subconsciente colectivo ha quedado la idea de que la inteligencia artificial es como un cerebro como el nuestro, que va a ser capaz de entender todo, de razonar como nosotros y que en el futuro va a eliminar a la raza humana.
+
+[00:22:29.410] 
+Efectivamente, la realidad es que en el fondo lo que podemos hacer ahora mismo son un montón de tareas muchísimo más pequeñitas, muchísimo más sencillas, pero que en esencia dan mucho valor. Porque, por ejemplo, nos permiten lidiar con grandes cantidades de datos de manera que nosotros los humanos no podemos hacer.
+
+[00:22:55.600] 
+Si cualquiera de nosotros tuviera que leerse cientos de miles de textos legales para poder tener una idea en la cabeza de algo que luego puedas aplicar, un abogado por ejemplo, seguramente es algo que en toda tu vida no podrás llegar a hacer, una máquina, sin embargo, con uno de estos algoritmos sí que es capaz de analizar cientos de miles, incluso de millones de documentos y de desarrollar diferentes tareas. Podría clasificarlas, como bien decías, podría generar resúmenes, podría encontrar términos que los identifican, podría incluso encontrar también documentos similares a otros o ayudarte a buscar dentro de esos documentos.
+
+[00:23:33.690] 
+Primero quería hablar un poco de este hype que ha habido con la inteligencia artificial y bajarlo un poco más al al terreno real.
+
+[00:23:43.320] 
+La otra tarea también para la que se utiliza mucho  es para temas relacionados con prediccion. Es decir, tenemos un histórico de datos, de acciones que han tenido lugar hasta ahora, en función de lo que está ocurriendo hoy y con ese histórico, qué pensamos que puede ocurrir mañana, pasado o dentro de un mes. Cuando digo que puede ocurrir, pues podemos tratar de predecir cómo va a modificarse los valores en bolsa, por ejemplo, algo que es muy difícil o cómo se va a modificar, si tenemos un e-commerce, la demanda de nuestros productos, o hay un montón de situaciones en las que esto funciona. Pero claro, luego te encuentras un momento como el que hemos tenido en los últimos meses, con la pandemia a la que las cosas se comportan de una forma completamente distinta. Y esta predicción ya deja de ser tan efectiva de alguna manera.
+
+[00:24:31.800] - Carlos Iglesias
+Claro, por la volatilidad entiendo. Algo que es sumamente volátil y que por definición es poco predictivo, pues ahí poco podemos hacer.
+
+[00:24:45.810] - Frankie Carrero
+Efectivamente. En circunstancias normales ya es difícil acertar al 100%, pero sí que puedes acertar bastante, claro cuando se produce una de estas situaciones que llaman cisne negro o algo así, ya no cuentas con ese histórico, no cuentas con esos datos y además tampoco sabes si una vez que pase esta situación vamos a volver a la que teníamos antes, y todo el histórico anterior nos va a valer, o va a cambiar absolutamente todo.
+
+[00:25:11.480] - Carlos Iglesias
+En un plano todavía más terrenal. ¿Qué puedo hacer con mi empresa? ¿Cómo lo hago?
+
+[00:26:01.450] 
+A nivel de experiencia de cliente la verdad es que ya lleva tiempo aplicándose de muchas maneras, a lo mejor no somos conscientes. Y aquí lo que sí voy a diferenciar es entre los casos en los que puedes utilizar herramientas existentes en el mercado que ya utilizan por detrás inteligencia artificial y que ya nos están solucionando problemas, y otros casos en los que o bien no existen esas herramientas o bien no se adaptan a nuestras necesidades y nosotros quizá tengamos que desarrollar nuestros propios algoritmos.
+
+[00:26:27.130] 
+Eso lo dejamos para la parte final. Si lo quieres ver así y nos centramos primero en los problemas.
+
+[00:26:32.830] 
+Por ejemplo voy a empezar con algo que fue el centro de BrainSINS durante muchos años y que es esas recomendaciones o la personalización de la experiencia de cliente. Y evidentemente el hecho de que cuando tú estás en un e-commerce y ves un producto y te recomiendan otros productos similares, es bueno para la tienda, porque le permite por ejemplo, mejorar su up-selling o cross-selling, pero también es bueno para ti, porque a veces no sabes muy bien lo que estás buscando y te guía en ese proceso de búsqueda.
+
+[00:27:03.250] 
+En Netflix todo lo que nos muestran está personalizado. Bueno, casi todo lo que nos muestran está personalizado, pero llegan hasta el punto, y esto lo hace también Booking.com, en el que a lo mejor dos personas distintas, con dos perfiles distintos, para una misma película van a ver imágenes distintas porque el sistema ha determinado qué tipo de imágenes son más receptivas para un cierto tipo de personas y qué tipo de imágenes tienen más impacto en otro tipo de personas.
+
+[00:27:42.490] - Carlos Iglesias
+Justo esta semana se ha llevado algunas críticas Netflix, precisamente por el documental The Social Dilemma (producido por Netflix), donde están denunciando cómo Facebook y las redes sociales están utilizando la inteligencia artificial para cambiar el comportamiento de las personas gracias precisamente al análisis de patrones y de un montón de datos que hay por detrás, pero eso es exactamente lo que está haciendo Netflix.
+
+[00:28:20.320] - Frankie Carrero
+Totalmente. Lo saben por su propia experiencia. Creo que es un ejemplo muy bueno y es verdad que hay gente a la que este tipo de personalización le asusta. Yo no sé si porque lo conozco, porque me he dedicado mucho tiempo a ello y no le veo un peligro, pero bueno, también entiendo que el hecho de que tengan tus datos y jueguen con tus datos, pues a mucha gente no les resulta agradable.
+
+[00:28:55.090] 
+Y además estamos viendo una situación en la que esta personalización se está convirtiendo más en una hiperpersonalización. Es un paso más allá donde, si hablamos de e-commerce y hablamos de retail, por ejemplo, en una misma tienda que venda online y offline, si tú compras en la web pero luego accedes a través del móvil y mañana luego vas a la tienda física, son capaces de enlazar tus tres perfiles y saber en cada uno de los puntos lo que has hecho y poder personalizar todavía mucho más esas recomendaciones o esos popups o lo que quiera que te vayan a enseñar.
+
+[00:29:30.640] 
+Entonces esto es quizá de las aplicaciones más antiguas que hay en Customer Experience, pero también es una de las que está más maduras ya.
+
+[00:29:42.150] 
+También he mencionado hace un momento el tema de las búsquedas. Una de las ventajas que nos permitía el machine learning era precisamente poder buscar en un montón de documentos. Esto también se puede hacer en e-commerce, por ejemplo. Amazon o sitios que vendan libros en general, por no mencionar solamente Amazon o cualquier marketplace grande como Alibaba o alguno del estilo que cuentan con millones de artículos, si tú vas allí a comprar algo y utilizas un buscador que no te devuelve una búsqueda lo más afinada posible, te frustras. No encuentras lo que quieres y al final de tanto navegar terminas yéndote a otro sitio donde sí te den esta facilidad. Y detrás de estos buscadores, igual que lo hay detrás de Google o de Bing, pues hay también inteligencia artificial, la inteligencia artificial que tú no tienes porque replicar o crear de nuevas en tu empresa, porque ya hay muchas herramientas que te la proporcionan con muy buenos resultados.
+
+[00:30:36.450] 
+
+
+[00:30:38.370] - Frankie Carrero
+También hablamos de chatbots que también utilizan inteligencia artificial por detrás y están como muy de moda últimamente. Como herramienta para contactar con el cliente, para tener como ese primer nivel de atención al cliente.
+
+[00:30:59.660] 
+Y que pueda hacer cosas tan tontas como mantener una conversación básica si quieres. Pero también un chatbot te puede recomendar productos o puede llegar a determinar que el chatbot no es suficiente para ti, que te tiene que redirigir a una persona para que siga la conversación. Pues otro elemento más que se está utilizando a día de hoy en experiencia de usuario y que tiene mucha inteligencia artificial por detrás.
+
+[00:31:29.990] 
+O incluso determinación automática de precios.
+
+[00:31:33.210] 
+Nuestro sistema podría determinar en un momento determinado que tal y como están evolucionando las compras y a lo mejor ahora que va a llegar el Black Friday y que después van a llegar las rebajas de Navidad, pues en un momento determinado este precio tiene que subir y dos días después tiene que bajar.
+
+[00:32:00.720] - Carlos Iglesias
+En el mundo de la inteligencia artificial veo que hay muchas verticales de conocimiento. ¿Cómo se está utilizando la tecnología para jugar con la oportunidad de hacer el pricing variable, dinámico y que cambie en función del comportamiento del usuario? Me parece en cierto modo manipulativo. De alguna una forma es aprovechar la información y el rastro que está dejando el usuario para adaptar el preicing. 
+
+[00:33:24.040] - Frankie Carrero
+Quizá aquí podríamos partir de si tuviéramos la capacidad como humanos de estar modificando los precios de nuestros artículos en una tienda online en tiempo real, cada momento ¿lo haríamos? ¿Tendría sentido? Si no lo hacemos, simplemente es porque no tiene sentido.
+
+[00:33:44.710] 
+Creo que es la primera pregunta que nos debemos plantear. Desde el punto de vista del marketing, y la parte que le toca de establecimiento de precios, hay gente que piensa que sí, que tiene sentido ir cambiándolos y adaptándolos a las circunstancias, y hay gente que piensa que no.
+
+[00:33:56.920] 
+Y volvemos a esas dos aplicaciones que he dicho al principio que más tienen ahora mismo: automatización y predicción. Pues justo estamos prediciendo cuál puede ser el comportamiento de la gente si variamos el precio y automatizando esa variación del precio.
+
+[00:34:12.820] 
+El problema que tiene aquí, igual que ocurre en otras muchas aplicaciones, es que juguemos con los datos adecuados. Voy a recapitular un momento, porque es algo que no he mencionado, y voy a decir que cuando hablamos de machine learning, si no tienes unos datos adecuados, se te cae el chiringuito. Si no tienes todos los datos que necesitas o están sesgados o no se actualizan adecuadamente... hay muchas variables que lo determinan, el resultado no va a ser bueno. Entonces si para determinar el precio de un artículo solamente tienes en cuenta el comportamiento de tus clientes en la tienda y no tienes en cuenta, por ejemplo, cómo está jugando la competencia con ellos o cómo se encuentra la economía ahora mismo, si estamos cerca de Navidades, si estamos en verano, y esto puede ser variable en función del producto, a lo mejor las predicciones de los precios que va a hacer el sistema no son las adecuadas. Y yo me huelo que ahí es donde está el fallo ahora mismo y por lo que todavía no funciona bien del todo.
+
+[00:35:16.530] - Carlos Iglesias
+Comentabas que el acercamiento al uso, a la utilización y a cómo empoderar mi propuesta de valor como empresa a través de la inteligencia artificial, puede ser a través de herramientas ya existentes o de hacer algo más ad hoc.
+
+[00:35:36.260] 
+Déjame hacer un pequeño teaser del próximo episodio que voy a publicar en Realworld, donde voy a entrevistar a Rosa Peña de Medallia. Medallia es una herramienta de captación de voz de cliente que utiliza también machine learning, utiliza inteligencia artificial para analizar masivamente el feedback, tanto feedback solicitado como no solicitado, y extraer qué cosas tienen en común los feedbacks de los clientes. Extraer no sólo el sentimiento de ese feedback solicitado y no solicitado, sino también hacer análisis de texto, o el Text Analytics que llaman ellos, hacer análisis de vídeos que nos puedan enviar los clientes con un feedback, audios, llamadas, lo que se habla en el call center. Todo eso, pasarlo por Machine Learning por sistemas de aprendizaje que son capaces de identificar insights de mejora, que son capaces de darte recomendaciones del estilo: "estamos identificando que vuestra fuerza de ventas son unos bordes, porque muchos de los clientes están utilizando palabras que tienen que ver con la apatía o la no simpatía, etcétera".
+
+[00:37:00.740] 
+Y eso te permite incidir de forma directa en la propia experiencia del cliente, con tanto feedbacks solicitados como no solicitados. Es un ejemplo y no quiero hacer demasiado spoiler de Medallia, pero yo creo que desde luego, antes de liarse la manta a la cabeza en montarnos nuestro propio departamento de Data Science, creo que merece mucho la pena hacer esa reflexión que tú has hecho. Existen herramientas que me permitan multiplicar mi propuesta de valor y mejorar la experiencia de cliente.
+
+[00:37:39.640] 
+Y si es así, utilizarlas e incorporarlas a mi flujo, a mi workflow.
+
+[00:37:44.980] - Frankie Carrero
+Claro para la mayor parte de las empresas, además, las funcionalidades que te dan este tipo de herramientas van a ser más que suficientes. De hecho, casi nadie las va a utilizar todas, y si echas alguna de menos. Normalmente va a ser muy pocas veces. Si nos ponemos a hablar de empresas muy grandes, de multinacionales donde tienen sus propios requerimientos, en estos casos muchas veces una barrera que suele haber es la integración de tus datos. Si eres una empresa muy grande donde tus datos están muy desperdigados, también hay muchos temas de seguridad que hay que tener en cuenta, pues quizás estas herramientas no sean suficientes. Pero yo recomendaría en la mayoría de los casos que se opte por ellas e incluso muchas veces para una misma aplicación hay diferentes herramientas.
+
+[00:38:34.600] 
+Si no te funciona una, prueba otra. La inteligencia artificial sin un producto por encima, tampoco es absolutamente nada, que es otro tema también importante. Inteligencia artificial porque sí, no tiene sentido, y hay veces que el problema se puede solucionar con un algoritmo mucho más sencillo.
+
+[00:38:50.440] - Carlos Iglesias
+¿Cómo se afronta el reto de montar un equipo que sea capaz de aportar valor a la compañía de forma transversal, que no se convierta en un silo más dentro de la compañía, sino que sea capaz de inyectar valor al resto de la compañía?
+
+[00:39:23.490] 
+
+
+[00:39:27.030] - Frankie Carrero
+Hay que empezar por identificar si tienes datos y si los tienes en qué caso están.
+
+[00:39:36.750] 
+O incluso vamos a dar otro paso previo, si los problemas que tienes que resolver son problemas que necesitan machine learning o no. 
+
+[00:39:52.760] 
+¿Son problemas que no puedo resolver de otra manera? Y en tal caso ¿tengo datos suficientes como para poder entrenar algoritmos que me permitan solucionar ese problema? Normalmente de primeras no vamos a saberlo, porque además en las empresas es muy raro que haya un perfil que entienda de machine learning. Para esos primeros proyectos puedes contratar, pero lo normal es que se recurra a terceras empresas, a consultoras que te hagan un análisis, te ayuden a realizar ese análisis, te ayuden a determinar cuál es tu situación y te ayuden a dar esos esos primeros pasos.
+
+[00:40:27.710] 
+Si tienes claro que la inteligencia artificial te puede ayudar, te puede aportar valor al negocio y que tienes datos, pues entonces otra vez necesitas alguien con experiencia que te ayude a identificar qué batallas debes librar. Porque no tiene sentido meterse en cualquier proyecto que se vaya a extender mucho en el tiempo, que sea muy complejo, que a lo mejor los algoritmos que existen a día de hoy todavía no se puedan aplicar bien. O que necesites un tiempo de entrenamiento para esos algoritmos tan alto que te va a salir muy caro.
+
+[00:40:58.550] 
+Hay casos donde los tiempos de entrenamiento para problemas complejos pueden ser de meses, perfectamente, y claro, no cualquier empresa puede afrontarlo.
+
+[00:41:10.760] 
+Teniendo ya esta parte más o menos clara, queda determinar qué vas a hacer con el equipo. ¿Vas a contratar un equipo interno, vas a derivar los desarrollos a una consultora, a la misma con la que has trabajado esa parte inicial de estrategia o va a ser otra consultora distinta? Hay un montón de decisiones por el camino que hay que tomar y para lo que yo honestamente, en los casos en los que no haya una persona que entienda de ello dentro de la empresa, recomiendo buscar una consultoría estratégica (que suena mucho a humo, lo entiendo perfectamente) que ayude a centrar y que te ayude a entender cuál es la problemática y a determinar estos primeros pasos.
+
+[00:41:55.670] 
+Esta persona o esta empresa te puede dar a identificar esos quick wins, esos proyectos facilitos que vas a afrontar con inteligencia artificial, que van a salir bien o que deberían salir bien y que te ayuden también a decirle a negocio: "esto de la inteligencia artificial, ni es humo, ni tampoco nos va a llevar a esa singularidad que comentábamos antes, pero nos puede ayudar mucho a resolver algunas de las situaciones que tenemos dentro de la empresa". Por ejemplo a reducir cierto tipo de costes, a mejorar algunos tipos de procesos, a entender mejor a los clientes, como tú estabas diciendo antes.
+
+[00:42:31.850] 
+Yo considero que en cierto tipo de empresas todo el proceso de venta es proceso también de la experiencia del cliente y ayudar en ese proceso de venta, dando insights por ejemplo a los comerciales, o ayudándoles a identificar qué empresas tienen una mayor probabilidad de compra, por ejemplo, es algo que también la inteligencia artificial puede llegar a hacer y son proyectos que se pueden abordar o con herramientas externas o también de forma interna con cierto éxito, con mayor facilidad que otro tipo de proyectos.
+
+[00:43:02.590] 
+Y luego, como siempre lo digo, en todos los casos, lo que hay que hacer en cualquier situación como ésta, cuando desarrollas estos proyectos y cuando desarrollas una estrategia es medir, analizar y volver a empezar desde cero, teniendo en cuenta toda esta información. Idealmente, habiendo mejorado la situación de esos datos, que normalmente no va a ser buena al principio, idealmente teniendo más gente con experiencia que te ayude. 
+
+[00:43:28.120] - Carlos Iglesias
+Iterar y volver a empezar. Es interesante esto que dices, porque realmente no solo necesitamos capacidades científicas, sino también analíticas y ser capaces de interpretar. ¿Qué tipos de perfiles te sueles encontrar en aquellas compañías donde tienen su departamento o su equipo de datos?
+
+[00:44:08.780] - Frankie Carrero
+Este también es otro punto muy de discusión. Si metemos todo dentro del saco de Data Science, si hablamos de Data Scientist, son perfiles que en principio son capaces de desarrollar todo el proyecto. Es como el típico jugador de fútbol que es capaz de cogerte la pelota en tu portería, ir hasta la otra y meter gol. Son capaces de hacer todo, pero también es verdad que no se puede abarcar todo en una buena organización. Y es verdad que dentro de todo este proceso un mismo data scientist lo que va a estar haciendo es adoptar diferentes roles. Por ejemplo, tenemos gente que efectivamente tiene que encargarse de los datos, ver que los datos estén disponibles y no hablo ya de analizarlos. Un Data Engineer tiene que procurar la infraestructura necesaria para que los datos estén accesibles, para poder analizarlos y luego crear el modelo. Un data scientist, idealmente a lo que se debería dedicar solo es analizar estos datos, a revisarlos, a limpiarlos, a formatearlos.
+
+[00:45:12.620] 
+Hay un montón de procesos hasta que tenemos nuestros conjuntos de datos con la calidad suficiente como para que podamos utilizarlos para entrenar un modelo. Luego hay que elegir qué algoritmo se puede utilizar, porque en función del problema hay diferentes algoritmos que tienen sentido y además hay que probar estos algoritmos, ver qué resultados dan, tunearlos un poquito, cambiar ciertos valores hasta que identificas cuál de todos ellos es el que te va a dar un mejor resultado.
+
+[00:45:43.280] 
+Entonces lo entrenas, haces unas pruebas, las pruebas te dicen que todo está genial. La persona que se encarga de esto sería un Machine Learning Engineer.
+
+[00:45:53.920] 
+Y luego algo que tradicionalmente se nos ha olvidado mucho es que esto hay que ponerlo en producción. Durante muchísimos años la mayoría de estos proyectos que se desarrollaban dentro de las empresas se quedaban en el limbo. Se empezaban a desarrollar, se llevaba hasta a tener un modelo, pero este modelo no se podía poner en producción por razones diferentes.
+
+[00:46:13.620] 
+Y leí hace poco que ya estamos en el punto en el que aproximadamente el 50% de estos proyectos se prueba en producción. Lo puedes ver desde dos puntos de vista: o bien es mucho porque antes solamente era un 20% o bien es poco porque que solamente la mitad de los proyectos se pongan en producción, suena un poco a tirar el dinero, ¿verdad?
+
+[00:46:32.500] 
+.
+
+[00:46:34.490] 
+Luego tiene que haber esta persona que se encargue de garantizar que este modelo funcione bien en producción. Y esto muchas veces implica hacer un desarrollo desde cero en un lenguaje que esté más adecuado para el entorno en el que se quiere llevar a producción y simplemente tienen que replicar todo el proceso previo. Pero en otros lenguajes, en otro entorno.
+
+[00:46:58.050] - Carlos Iglesias
+¿Tú dónde dirías que se equivocan las compañías normalmente?
+
+[00:47:02.940] - Frankie Carrero
+Aquí va a haber más de uno, seguramente que escuche el programa que no le va a terminar de gustar mucho, pero creo que muchas veces se comete el error de dejar buena parte de las decisiones a negocio.
+
+[00:47:22.400] 
+Negocio tiene que estar presente en el proceso, totalmente, porque tiene que validar un montón de las hipótesis que hace la gente más técnica en este caso, y también que lo que se vaya a desarrollar tenga un valor para el propio negocio, pero no puede ser el que tome la decisión de qué proyectos se tienen que abordar, que es algo muy típico. Alguien de negocio entiende que es el momento de utilizar inteligencia artificial, ha escuchado en un programa como éste, por ejemplo, que se puede aplicar para tal y cree que en su empresa se puede aplicar. Bueno, esto es un proceso, si quieres de doble dirección, que tiene que ir de negocio hacia la parte técnica, de la parte técnica hacia negocio, buscando un punto intermedio, siguiendo ese doble camino hasta un punto en el que las dos partes tengan claro qué se puede abordar técnicamente y qué es necesario abordar desde el punto de vista de negocio que vaya a entregar valor a la empresa.
+
+[00:48:10.220] 
+Hablabas un poco de mi perfil al principio, te he contado antes mi historia y en el fondo no sé cómo he llegado hasta aquí, pero creo que de lo que estoy un poquito más orgulloso es de la posibilidad que tengo, la capacidad que tengo a veces de saber hablar con la gente de negocio, he sido CEO de mi empresa y he tenido que hacer de todo, hablar con la gente técnica porque mi background es técnico y luego también tener en la cabeza esta parte que me viene desde la Universidad, de la enseñanza.
+
+[00:48:45.350] 
+Y creo que ese enfoque integrador es muchas veces el que se necesita en las empresas y son perfiles que, desde mi punto de vista, no siempre están presentes, que habría que buscar más. Entonces quizá el principal error que te diría es vamos a buscar a alguien que sea capaz de hacer todo ese doble proceso que te he comentado antes.
+
+[00:49:02.390] - Carlos Iglesias
+Me haces pensar precisamente en que tengo también que dedicar algún episodio a DevOps. Hay mucho ahí detrás, como negocio y la parte de tecnología y la parte más técnica pueden estar colaborando y haciendo ese loop infinito que describías y que yo creo que es tan imprescindible hoy en día.
+
+[00:49:31.610] 
+Cuando hablaba del equipo he dejado fuera a un personaje crucial también como es el Product Owner o Product Manager, pero que también tiene que ser un poquito peculiar en este tipo de proyectos, porque al final cuando empiezas un proyecto que utiliza machine learning, que tiene tantos datos, que hay un montón de algoritmos, hay mucha incertidumbre y lidiar con esa incertidumbre, ser capaz de entender que un equipo a lo mejor no necesita solamente dos semanas, sino que igual necesita dos meses porque hace un montón de pruebas de modelos hasta que tiene algo que tiene sentido, o bien has pasado por ahí y eres capaz de entender cómo funciona este tipo de proyectos o normalmente te va a frustrar. Y lo que es peor, no vas a ser capaz de transmitírselo luego al resto de stakeholders, al resto de la gente de negocio en el proyecto.
+
+[00:50:19.190] - Carlos Iglesias
+Súper interesante eso. También es verdad que la figura del Product Owner como rol ágil debe ser estar enfocado a la entrega de valor. Y si hay que hacer un pequeño experimento para reducir incertidumbre, esto es deuda que estamos pagando para reducir la incertidumbre para el resto del proyecto. En este caso creo que la dificultad añadida es muy importante.
+
+[00:50:49.160] 
+En ese sentido, ¿tú crees que funciona la transferencia entre universidad y empresa? ¿Se puede desde la empresa colaborar con las universidades para esa parte más exploratoria, de investigación, y combinar los dos mundos, el mundo más académico, de investigación, de research con el mundo de orientación a resultados y tangibilidad?
+
+[00:51:28.790] 
+¿Conoces experiencias que hayan funcionado?
+
+[00:51:32.060] - Frankie Carrero
+Conozco experiencias, hablamos de España. Si quieres nos centramos un poco aquí porque en los EE.UU. es un problema que está bastante resuelto.
+
+[00:51:41.100] 
+Aquí conozco muy pocos casos de éxito y te hablo de un éxito relativo.
+
+[00:51:48.600] 
+Cuando te hablaba de por qué me fui de la universidad, en el fondo esa era una de las razones. Hay muy pocos casos en los que empresas y universidades colaboren de forma estrecha y colaboren además de manera que cuando se termina un proyecto, ese proyecto se pueda aprovechar en la empresa.
+
+[00:52:05.790] 
+Y yo creo que culpa de los dos lados. Es culpa de que hay muchísima separación y no he visto nunca o casi nunca un interés real en acercamiento. Desde la empresa creo que ha habido mucha desconfianza hacia la universidad, salvo por el hecho de conseguir becarios, y desde la universidad se va la empresa como un peaje que hay que pagar para poder hacer mi investigación, en muchos casos también. Estoy generalizando, lo cual es injusto, que nadie se me ofenda, por favor.
+
+[00:52:30.890] 
+Pero sí qué es lo que más he visto como mi experiencia como profesor y luego como CEO de una empresa.
+
+[00:52:36.260] - Carlos Iglesias
+Por eso yo te decía al inicio que tienes un perfil que es muy valioso en ese sentido. Has explorado océanos muy distintos unos de otros y eso tiene mucho valor, el haberte adentrado dentro de distintas realidades y distinta problemáticas.
+
+[00:53:32.450] 
+Estoy de acuerdo contigo que es necesario que haya perfiles de estas características. De hecho, hace escasos meses el Gobierno creó una comisión de inteligencia artificial, que además es la tercera en dos años o una cosa así, porque cada gobierno que ha ido viniendo lo ha ido cambiando, y precisamente había mucha gente de universidad y de lo que no había, solamente había una persona o dos, era gente de empresa.
+
+[00:54:07.220] 
+Si vas a crear una comisión para aplicar la inteligencia artificial en un país y lo sesgas tanto hacia un lado, me da igual que hubiera sido al revés, lo que está claro es que no se está entendiendo muy bien de qué va esto.
+
+[00:57:21.790] 
+
+

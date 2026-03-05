@@ -1,0 +1,228 @@
+[00:00:01.410] - Carlos Iglesias
+Bueno, pues aquí estamos en San Sebastián de los Reyes, en el parque empresarial donde se encuentra Schneider Electric desde hace un añito. Marta es Global Program Manager de Customer Experience a nivel mundial de Schneider Electric que se dice pronto unos cuantos países.
+
+[00:00:41.650] 
+Lo que me llama mucho la atención echando un repaso a tu currículum es tu trayectoria.
+
+[00:01:02.850] 
+Cuéntanos de dónde vienes y cómo has llegado a donde estás.
+
+[00:01:08.430] - Marta Bazaco
+Bueno, yo soy de backround ingeniero industrial en la escuela de Valladolid, creo que las primeras generaciones, hace ya casi 30 años, imagínate. Desde entonces tenía también mucho interés por moverme. Creo que ese espíritu lo he llevado tanto a nivel geográfico, como también a nivel de las actividades. He tenido siempre una motivación para aprender más, incluso transferir temas de unos sitios a otros. Mi primera experiencia fue en Ecuador, fui cooperante con el ministro de Asuntos Exteriores haciendo proyectos de infraestructuras en Sudamérica. Fue una experiencia magnífica. Lo que quería era marcharme fuera de Valladolid. De hecho la entrada en Schneider Electric fue porque querían alguien que fuera a Francia, primero a formarse y después ya tener una carrera a nivel de la compañía en España. Ese primer año estuve en el área industrial. Parte de mi background viene viene de las fábricas, de haber llevado temas de gestión industrial, de producción, he sido también directora de la fábrica de equipos de media tensión, siempre con la gestión de equipos y al mismo tiempo también bastante multidisciplinar. 
+
+[00:03:05.110] 
+He estado también en el área comercial, llevando un tipo de clientela que luego podremos hablar también al cliente de la importancia de los diferentes tipos de clientela. Entonces, yo estuve llevando el departamento de ingenierías en España y también llevé un departamento de soluciones, lo que es la gestión de grandes proyectos de clientes, todo lo que son las funciones soporte. En otra época fui también directora de Calidad de España a nivel ibérico, incluso con las diferentes actividades que tenemos en España. Y ya después di también otro paso internacional y dentro de una unidad de negocio que llamamos industria, estuve viviendo en Francia tres años, llevando también en una de las fábricas equipos a nivel global de la línea de negocio.
+
+[00:03:52.290] - Carlos Iglesias
+Qué pasada esta visión desde tantas perspectivas de la misma compañía es muy inusual y además tiene que dar una ventaja brutal.
+
+[00:04:01.450] 
+A ver, yo lo veo como algo súper positivo, aunque muchas veces sí que es cierto que tantos cambios te pueden crear cierta incertidumbre, pero yo creo que eso es siempre súper positivo, además por el tamaño de Schneider Electric, una empresa multinacional líder en lo que son soluciones de energía, automatización. Trabajamos en más de 100 países con más de 130.000 empleados a nivel mundial en diferentes áreas, desde desarrollo de nuevas ofertas hasta toda la parte de fabricación, logística, marketing. Os podéis imaginar para desplegar la oferta que tenemos.
+
+[00:04:38.210] 
+Muchas veces cuando se habla de la complejidad de estas grandes empresas es que la propia oferta es muy compleja. Ya no solo los diferentes tipos de clientes y mercados. Nosotros estamos en mercado de edificio, mercado de data centers o grandes centros de procesos de datos, industria, infraestructuras... Ya el mercado al que accedemos y la forma en la que hacemos ese mercado es muy compleja, muy variada, porque cubrimos muchas de las necesidades que acaban teniendo todos nuestros clientes sólo con nuestro portfolio. 
+
+[00:05:15.100] - Carlos Iglesias
+Para mí es otra dimensión. Tenéis una cultura realmente de innovación, claro, porque vuestra propuesta de valor tiene mucho que ver con la innovación. 
+
+[00:05:38.480] 
+¿Cómo puede tener una propuesta de valor tan innovadora una empresa bicentenaria? 
+
+[00:05:45.710] - Marta Bazaco
+Lo que ha pasado es que Schneider Electric ha nacido ha crecido sobre todo con adquisiciones. Entonces, el origen que eran dos hermanos en Francia, era muy tradicional y podemos pensar en un tipo de producción, de venta, de comercialización muy tradicional. 
+
+[00:06:06.820] 
+Entonces, yo si en algo creo que podemos estar orgullosos es que toda esa transformación a nivel del tiempo, adquiriendo nuevas empresas, integrando nuevas ofertas, nuevos porfolio, nuevas formas también de acceder al mercado y ahora fundamentalmente, toda la digitalización. Es decir, estamos ahí, en el punto de poder suministrar a nuestros clientes soluciones muy globales que engloban, de productos a soluciones, no solo productos que se puedan vender en una estantería, en un distribuidor, sino también el poder darle un sistema global con una programación, con un software, con una manera de controlar, incluso a distancia, desde cualquier lugar del mundo...
+
+[00:06:50.900] 
+Hemos ido evolucionando también conforme a que esa tecnología iba también avanzando. Y desde luego, a nivel de R&D, de inversiónen en desarrollo, estamos hablando de un 5% de la facturación, de una facturación de más de 26.000 millones. Entonces creo que sí, que hay una inversión fuerte y una manera de querer también innovar. Es parte de la cultura querer ir evolucionando, innovar e ir mejorando también lo que podemos ofrecer a nuestros clientes.
+
+[00:07:21.290] - Carlos Iglesias
+Desde luego, no me parece en absoluto fácil, especialmente una compañía de tantos miles de trabajadores que suelen ser compañías muy pesadas, donde la toma de decisiones es muy lenta, los proyectos se despliegan años. Sin embargo estar compitiendo en un entorno de innovación tan puntero, transformando la industria en sí mismo. La transformación digital de la industria más pesada y más dura me parece que tiene un mérito extraordinario.
+
+[00:07:51.260] 
+Me gustaría entender qué relación o qué importancia crees tú que tiene la gestión de la experiencia de cliente en Schneider Electric.
+
+[00:08:02.500] 
+Y desde luego, ¿cómo nace ese interés? Ha estado siempre en el ADN de la compañía?
+
+[00:08:08.690] - Marta Bazaco
+Primero por el tema de cómo poder llegar a eso.
+
+[00:08:13.790] 
+Yo creo que evidentemente los trabajadores y el valor de los trabajadores es fundamental. Es decir, quien hace todo al final acabamos siendo las personas, los empleados. Como todo ese volumen de empleados puede también ir avanzando, sobre todo con esa visión del cliente. De hecho, uno de los valores fundamentales es el cliente lo primero. Resolver un problema en un cliente tiene que ser la prioridad ante cualquier otra cosa, solo excepto ante la seguridad. Entre los rituales que tenemos, el punto primero es la seguridad, la seguridad de los trabajadores, la seguridad de los clientes y la seguridad a nivel de la información y las instalaciones. Realmente ahí estamos con esa visión de que de verdad el cliente es lo primero. Al final es la razón por la que estamos. Si no tienes clientes  es imposible. Entonces, realmente responder a las expectativas del cliente, mejorar su experiencia día a día en un mercado que es competitivo, evidentemente, es fundamental y es la razón al final de todo nuestro trabajo. 
+
+[00:09:30.600] - Carlos Iglesias
+Esta es la razón de la existencia de todas las compañías. Y sin embargo, no todas tienen esa orientación customer centric. ¿Por qué pasa esto, Marta? ¿Por qué estamos tan lejos todavía en tantas y tantas compañías. Si es tan obvio que gestionar una buena experiencia en nuestros clientes repercute en negocio, ¿por qué no todo el mundo se ha subido al carro?
+
+[00:10:02.260] - Marta Bazaco
+Hay  en todas las organizaciones un tema de corto plazo de cumplir objetivos de ventas, más en el corto plazo, sin pensar realmente que evidentemente cualquier experiencia mejor del cliente va a darnos un retorno con futuros pedidos, futuras facturaciones. Al mismo tiempo te diría que muchos de los trabajadores que están en las fábricas tienen al cliente en la mente. Por ejemplo, siempre tengo en mente una anécdota de cuando estaba en nuestra fábrica de Puente La Reina, la persona que llevaba el tema de almacén en logística no se iba a casa hasta que estaban todos los pedidos. Esa visión de la importancia de verdad que tiene el trabajo que yo hago, esa experiencia de cliente, para que le llegue el material a tiempo y demás, para mi lo tengo siempre ahí como un referente. Deberíamos estar todos los días viendo qué valor puedes tener. Evidentemente eso es también cultural, como somos capaces de en cualquier función, en cualquier rol que tengamos en la empresa, poder ver qué impacto tiene nuestro trabajo diario en esa experiencia del cliente y el futuro negocio añadido.
+
+[00:11:33.740] - Carlos Iglesias
+Esto del cortoplacismo lo entiendo muy bien en una startup que está en un Product Market Fit, está buscando validar una hipótesis está buscando lanzar rápido para poder escalar. En una empresa me cuesta de verdad entenderlo. Yo siempre digo que para mí ese es el eje del mal, es el principal vector de problemas de todas las compañías. Y creo que cambiar esa orientación y al final la cultura hacia una perspectiva orientada en el cliente es una muy buena oportunidad para romper eso, al menos para romper esos silos y esa orientación al proceso. 
+
+[00:12:39.570] 
+¿Cuáles son los proyectos que estáis liderando desde aquí, a nivel global, a nivel experiencia de cliente?
+
+[00:12:48.660] - Marta Bazaco
+Pues ahora mismo con este programa de transformación de experiencia de cliente, llevo especialmente lo que es el despliegue de Customer Journey Map. Normalmente lo que tenemos son programas a 3- 5 años a nivel global en los que se hace una visión de dónde queremos llegar y qué queremos hacer en todos los diferentes departamentos. Entonces, dentro de esta transformación de experiencia cliente, hace dos años que llevo yo con este despliegue de Customer Journey Mapping y sobre todo es desplegar en parte la metodología a nivel mundial.
+
+[00:13:27.980] 
+Entonces tenemos también animar una comunidad, pues ahora mismo creo que tenemos como 150 personas a nivel global, cada uno en su país, haciendo proyectos de mejora de experiencia de cliente y evidentemente liderando a su vez equipos que deben ser también multidisciplinares. El objetivo es identificar primero cuáles son las mayores necesidades que tenemos a nivel de prioridades y en eso pues yo personalmente trabajo con las diferentes unidades de negocio, los diferentes responsables de los países, para identificar en cada etapa, cada ola de proyectos cuáles son las verdaderas necesidades. Tampoco se trata de hacer todo para todos, sino que la priorización para ser más eficaz, para poder realmente dar resultados donde se necesita más es fundamental. 
+
+[00:14:23.600] - Carlos Iglesias
+Mapear el Journey es una herramienta que te da visión de por dónde empiezo, que es lo más importante y ayuda a priorizar.
+
+[00:14:32.390] 
+¿Compartís Insights de un país al otro?
+
+[00:15:01.800] - Marta Bazaco
+Totalmente. De hecho una de mis primeras funciones también es permitir compartir las mejores prácticas. Una de las grandes ventajas que tenemos las grandes empresas es que nos podemos permitir el lujo de estar sentada con gente de Asia, Europa y África (Middle East) compartiendo proyectos reales, con resultados reales y con prácticas que son totalmente reproducibles en otras áreas, pero siempre adaptándolos. Una de las filosofías que tenemos que creo que es parte del éxito. Yo creo que el éxito es que también permitimos bastante esa adaptación local, que no es que las cosas vengan de París o de Hong Kong o de Boston, esto se hace así solo de esta manera, sino que realmente creo que sí, que hay mucha colaboración, mucha aceptación de todas las casuísticas locales y culturales, y los países acaban teniendo también una cierta flexibilidad para aplicar lo que podamos estar diciendo a nivel corporativo. Customer Journey Mapping es ponerse en la piel del cliente, pues también cuando estás en interno sabes qué dificultades va a tener la persona a nivel local e intentamos justamente trabajarlas juntos para facilitar el trabajo. 
+
+[00:16:43.630] - Carlos Iglesias
+Entiendo muy bien la importancia de también tener una metodología estandarizada, flexible. ¿En qué consiste esta metodología? ¿Cómo mapeáis journeys?
+
+[00:17:38.230] - Marta Bazaco
+Todo se inicia por el tipo de cliente o la persona. Hemos identificado a nivel global 16 tipos de clientes y a todos les hemos puesto nombre: los cuadristas, grandes instaladores, distribuidores, electricistas o usuarios finales de diferentes mercados en los que trabajamos. Éstos tienen un nombre en inglés y luego a nivel local se han traducido en muchos casos.
+
+[00:18:16.820] 
+Todo empieza por el tipo de cliente. Todos los journeys que hagamos son específicos para un tipo de cliente. Según ese análisis de los resultados de toda la información que tenemos de clientes, de satisfacción, encuestas observacionales, encuestas transaccionales, unidas a las prioridades de negocio en los diferentes países, identificamos por país. Tampoco tenemos más de 2 al año, porque son proyectos que llevan muchos recursos, con mucha gente dedicada y sobre todo, una vez lanzado ese proyecto, tenemos una serie de metodologías o de pasos. 
+
+[00:19:04.630] 
+Lo primero que hacemos es hacer la visión interna de lo que puede ser ese journey mapping. Hacemos una visión interna, luego vamos a entrevistar a los clientes identificados de ese tipo de clientela, vamos a ver el journey ya con lo que nos ha dicho el cliente y a partir de ahí priorizamos los planes de acción, las mejoras para poder lanzarlas.
+
+[00:19:27.720] 
+La razón fundamental por la que hacemos Customer Journey Mapping es para identificar en qué puntos podemos priorizar esos planes de acción o de mejora, pero siempre priorizando desde el punto de vista del cliente.
+
+[00:19:40.680] - Carlos Iglesias
+Estoy leyendo entre líneas que tiene mucha importancia lo cualitativo. ¿Cuánto peso dirías que tienen lo cualitativo frente a lo cuantitativo?
+
+[00:20:22.420] - Marta Bazaco
+Diría que cada vez más. Más que ver un numerito, es leer los comentarios de los clientes. Ahora ya hemos cambiado mucho desde los datos en Excel y tenemos herramientas más sofisticadas, como Medallia como plataforma en la que recopilamos las encuestas de clientes y ahí analizamos mucho cuantitativamente para ver tendencias, comparaciones... 
+
+[00:21:06.060] 
+Cuando comparamos para un mismo tipo de cliente en diferentes países, no queremos comparar países, los resultados son siempre muy culturales. No tiene nada que ver Brasil con Japón. Las diferencias culturales son muy grandes. Incluso en España, en el norte y sur, hay diferencias culturales también. Por eso lo que es el número, comparar unos países con otros, evitamos al máximo. Lo que queremos sobre todo es comparar un tipo de clientes en un mismo país con la idiosincrasia particular, comparar ahí diferentes tipos de clientes y entonces detectar también prioridades, pero no comparar diferentes países. 
+
+[00:22:02.620] 
+Entonces, a la hora de empezar a lanzar y ver qué personas vamos a elegir, a lo mejor hacemos un análisis cuantitativo, de tendencias, de ver quién pueda estar peor situado, pero luego en el análisis, cuando vamos dentro del customer journey mapping, desde una visión interna, vamos a recopilar toda la información que tenemos ya disponible.
+
+[00:22:27.270] 
+Uno de los comentarios típicos es "¿por qué vamos a ir a preguntar al cliente si ya lo sabemos todo?". Pues, vamos a ver si de verdad lo sabemos o no lo sabemos, vamos a comprobarlo.
+
+[00:22:36.540] 
+Y entonces sí que a lo largo de un Journey que hemos estandarizado a un alto nivel, que luego puede ser también adaptable a los diferentes tipos de clientes y demás, pero tenemos como una especie de estándar que nos ayuda mucho a comunicar. Nos ayuda mucho a centrar a la gente en qué es lo que queremos y identificar las diferentes interacciones, los  más o menos estandarizados. Y luego, ya cuando vayamos a un tipo de cliente específico, ya iremos al detalle. 
+
+[00:23:12.250] 
+En esa parte de visión interna, de empezar a recopilar todo lo que ya sabemos, sentamos a todas las diferentes funciones a ventas, marketing, logística, soporte cliente, asistencia técnica, logística... todas las funciones, se sientan, intentamos mapear con la información que tenemos todo lo que son las acciones del cliente, los objetivos, el esfuerzo, que me parece fundamental. Porque lo que pasa con Customer Journey Mapping es que parece que lo único que se está buscando son los problemas. Y no, o sea, estamos buscando todo, estamos buscando qué acciones está realizando el cliente en cada etapa, cómo son esas interacciones, evidentemente su emoción, su sentimiento, pero también cosas que no ha expresado, qué necesidades tiene en cada punto... intentamos hacer un barrido de todos los diferentes ítems que puede tener el journey, desde que empieza a conocer nuestra oferta hasta incluso el de fin de vida de una instalación. Y luego, ya con todo eso, sí que identificamos la primera etapa. La segunda etapa seleccionamos junto con ventas a quienes son los clientes que dentro del scope del proyecto, del perímetro del proyecto, son interesantes para recopilar más información y entonces, a partir de ahí, hacemos entrevistas y analizamos toda esa información; eso sí tengo que reconocer que es laborioso. 
+
+[00:24:48.150] - Carlos Iglesias
+Ese segundo paso lo hacéis con ventas, con los que están hablando con el cliente, con los que reciben siempre las mismas preguntas en una primera visita.
+
+[00:25:08.590] - Marta Bazaco
+Sí pero conjuntamente. Estamos con ventas para identificar las cuentas, saber qué está pasando en esa relación con el cliente, hacer unas reuniones preparatorias recopilando qué pasa con este cliente, con esta persona determinada, y ellos nos abren la puerta, pero intentamos de todos modos tener el contacto directo, tenemos gente de marketing apoyando, gente de las funciones de calidad, satisfacción de clientes. Al final es un trabajo en equipo y yo creo que es una experiencia fantástica visitar clientes, estar delante un cliente, preguntar, recibir, escuchar al cliente. La clave del Customer Journey Mapping diría que son dos cosas: nos ayuda a priorizar y, sobre todo, escuchar al cliente.
+
+[00:26:23.400] - Carlos Iglesias
+Hay muchas áreas de la compañía que tienen muchísima información muy valiosa, sintetizada a lo largo de los años, como puede ser ventas. Puede ser un contact center, como el Frontline, que está en contacto directo con cliente. Son minas de oro y trabajar esa parte me parece fundamental.
+
+[00:26:46.360] - Marta Bazaco
+Exactamente. Por eso, el grupo que hacemos como workshop previo a ir a hablar con los clientes, es justo ese equipo de gente. Y para seleccionar esa gente intentamos que sea quien está justamente más cerca. Tenemos muchísima información que a lo mejor la persona en ese momento no lo reconoce porque se está fijando sólo en lo suyo, pero que poniéndolo junto y entendiendo también por qué pasan las cosas, como pasa el Journey de una etapa a otra, que casuística hay, poniendo todo el equipo trabajando en la misma sala e super valioso.
+
+[00:27:23.550] - Carlos Iglesias
+¿Cómo habéis elegido esos buyer persona?
+
+[00:27:39.930] - Marta Bazaco
+Nosotros ya teníamos una clasificación de clientela, sobre todo en cuanto al tipo de acceso al mercado o el tipo de relación que tenemos con ellos.
+
+[00:27:52.800] 
+Nosotros tenemos fundamentalmente dos grandes que son partners. Vamos a decir gente a través de la cual accedemos a un mercado de usuarios finales y los usuarios finales trabajando en diferentes mercados. Los mercados estamos hablando de datacenters, de minería, tenemos ofertas en industria pesada, instalaciones en muchísimos tipos de industria, muchísimos tipos de sectores. Entonces, ya por el acceso, por el tipo de clientela, se han priorizado sobre los que teníamos más volumen o más relación, o que ya había equipos trabajando con esos tipos de clientes. 
+
+[00:28:37.250] - Carlos Iglesias
+¿Cómo le dais visibilidad a ese Journey?
+
+[00:29:02.860] - Marta Bazaco
+La primera etapa que ha sido definir esos tipos de clientes, esas personas y personalizarlas, ya sabéis que ahora mismo las tendencias de experiencia de cliente es que todo el mundo quiere una experiencia personalizada, se hizo todo un programa a nivel global y de comunicación en el que todas las entidades conocen a esas personas y según en qué área trabajen, pueden focalizarse en esas personas.
+
+[00:29:45.430] 
+Sí que hubo todo un trabajo de comunicación global. Hay muchas formaciones, tenemos muchas iniciativas. También tenemos incluso un día que se llama el día de cliente, en el que a nivel global hay muchísimas actividades, tanto remoto como en los diferentes sitios, en los que se trata de dar visibilidad a todo eso, compartir todo eso y estamos empezando evidentemente con las personas y creo que está más rodado. 
+
+[00:30:10.320] 
+Ahora el gran reto es incorporar esos journeys, es el gran reto que tenemos este año, trasladarlos mucho más al día a día de cada persona. No solo que se queden en esta fase en la que estamos, que puede ser de mejora, de utilizar el Journey Mapping para mejorar esas interacciones, lo llevamos sobre todo los equipos de mejora, si no que todo eso ya trasladado a las operaciones, pasa por integrar en los procesos operacionales esa visión.
+
+[00:30:45.390] - Carlos Iglesias
+¿Qué medís? ¿Qué métricas os guían? 
+
+[00:30:48.140] 
+La básica digamos que es el NPS pero llevamos más de 15 años. Lo que ha sido la medida de NPS con encuestas que empezaron siendo anuales, luego trimestrales, encuestas relacionales, esas métricas siguen siendo útiles y necesarias.
+
+[00:31:28.030] 
+Por supuesto, a nivel de experiencia de cliente, cada interacción tiene también sus métricas, es decir, de todos los diferentes touch points que hemos visto como momentos de la verdad, vamos a decir, hemos identificado de primeras seis momentos de la verdad en los que ya hacemos también encuestas transaccionales. Y esas encuestas transaccionales nos están dando la temperatura en directo. El directo y el feedback más cercano es el que nos puede dar más información sobre qué es lo que falta, qué es lo que no funciona o si funciona.
+
+[00:32:05.140] - Carlos Iglesias
+Más cercano en el tiempo y a la interacción. Vale, para eso Medallia realmente lo hace muy bien. Una de las fortalezas que tiene es esa capacidad de comunicar esas métricas a distintos niveles. Antes decías que te gustaba mucho leer los insights directamente de cliente, que antes lo hacíamos en Excel, hoy tenemos otro tipo de herramientas. 
+
+[00:32:43.150] - Marta Bazaco
+Sí, sí. Por eso el tema de las interacciones es importante, porque al final hay alguien ahí responsable de esa interacción. Y cuando estamos hablando de un touch point y de un momento de la verdad, por ejemplo, ya hay alguien que está encargado de ese touch point. Todo su trabajo va a estar mucho más ligado. Sí que es cierto que con las herramientas que tenemos ahora podemos dar esa visibilidad a los diferentes niveles de organización de la compañía. De hecho, tenemos hasta varios roles y según el rol que tengas, así te aparece la información. Entonces intentamos que se adapte a cada uno la información de lo que necesita, a su perímetro, a su función, con lo cual cada uno va a tener muy a mano a mano la información de qué es lo que los clientes están pensando ahora mismo, de esas interacciones, por ejemplo.
+
+[00:33:55.100] - Carlos Iglesias
+Esa mentalidad Lean ¿es común, la ves en la compañía a nivel transversal?¿Cuánto hay de Lean en Schneider Electric?
+
+[00:34:11.440] - Marta Bazaco
+A nivel de lo que llamamos Global Supply Chain, que es toda la cadena de fábricas, logística y demás, absolutamente. En eso sí que es verdad que ya desde hace años iniciativas globales en todas las fábricas, tenemos unos sistemas de evaluación, unos sistemas de mejora, ahora además ligado con todo el tema de smart factories... te encantaría! 
+
+[00:34:38.940] 
+Estamos haciendo llegar incluso a los empleados de las fábricas la información real de lo que está pasando con las reclamaciones, por ejemplo, de clientes a su nivel, en su perímetro y demás. En toda la parte más manufacturing, logística yo creo que el nivel que tenemos es bastante alto.
+
+[00:35:04.170] - Carlos Iglesias
+Esa orientación al flujo de entrega de valor, la orientación al cliente en el centro me destilan una serie de valores, me evoca a una cultura Agile, una cultura Lean ¿Cuánto de eso hay en vuestro caso? Ya no sólo a nivel de fábrica y de entrega.
+
+[00:35:38.190] - Marta Bazaco
+Agile en todo lo que es la creación de la oferta es una metodología usada absolutamente, igual que Design Thinking en todo lo que es la creación de la oferta y de los diferentes proyectos y servicios. 
+
+[00:35:57.770] 
+Yo diría que a veces a lo mejor sí que el Lean en la parte más Office que llamamos, sí que hay experiencias también pero más ligadas a proyectos puntuales, no tan integrado como puede estar en otros procesos.
+
+[00:36:13.930] 
+Hablamos de trabajos más o administrativos o de oficina y demás, y eso que ahora, con toda la digitalización, se está revisando los procesos, revisando tareas sin valor añadido en el que podamos gastar el tiempo en lo que sea verde y que sea de cara al valor al cliente.
+
+[00:36:35.850] - Carlos Iglesias
+Y ¿qué has hecho mal?
+
+[00:36:41.330] - Marta Bazaco
+¿Empiezo con la lista? (risas)
+
+[00:36:57.150] 
+A ver, siempre tienes un poco la cosa de que a lo mejor en muchos momentos no hemos hecho todo lo que te hubiera gustado hacer.
+
+[00:37:04.170] 
+Una cosa que me digo que hay que hacer cada vez más es comunicar más, influir más, escalar más. Todo el tema de comunicación me parece clave. Yo creo que eso lo he aprendido demasiado tarde. Siempre pienso que en las escuelas de ingenieros, espero que ahora haya cambiado, pero antiguamente jamás nos enseñaron eso, jamás nos enseñaron ya no sólo a gestionar equipos, que es fundamental, sino también a comunicar. De hecho esa parte yo creo que empecé a aprenderla cuando estaba en marketing, un par de años llevando las redes sociales.
+
+[00:37:41.820] 
+Y ahí te das de verdad cuenta de la importancia de la comunicación, ¿cómo vendemos? Y yo creo que es fundamental. Y cuando estamos hablando siempre de que tenemos que para todos estos proyectos de experiencia de cliente mostrar el retorno de la inversión, el gran reto de mostrar el impacto, la comunicación es fundamental! 
+
+[00:38:04.100] 
+Creo que la comunicación pasa también por poner encima de la mesa datos cuantitativos, pero también cualitativos. Para mí es tan potente un comentario de un cliente y a mí me encanta también leer estos. Hace poco también vi a uno que justo le habíamos entrevistado para uno de los proyectos que teníamos de Customer Journey Mapping, y en la siguiente encuesta de satisfacción dijo que qué bien que después de ese proyecto esas entrevistas había notado cambios. 
+
+[00:38:31.520] 
+A mí eso me hace mucho más potente y podemos venderlo. Entonces la historia es cómo somos capaces de identificar esa información y ponerla a disposición, comunicarla y venderlo. Yo creo que el tema de venderse más puede que también sea cultural. Creo que cuando se trabaja en un entorno internacional te das cuenta las diferentes culturas cómo tienen diferente enfoque en eso y yo creo que eso sí que me hubiera gustado haberlo tenido antes y ahora intento, aunque no siempre lo consigo.
+
+[00:39:03.740] - Carlos Iglesias
+Esta respuesta que me has dado tú es una respuesta común que me ha llegado varias veces a gente con experiencia tan importante como la tuya. Muchas veces es eso: comunicarlo mejor, que realmente es normal porque es un esfuerzo extra. Pero es verdad que es muy importante, me ha gustado mucho que hayas hablado de la influencia, de persuasión... Aprovecho para recomendar a los oyentes que revisiten el episodio 23, donde entrevisto a Javier Alonso, y hablamos de influencia y persuasión, de lo importante que es la diferencia de la influencia con la manipulación y de lo importante que es saber comunicar para poder explicar de forma directa cuáles son los objetivos.
+
+[00:39:46.130] - Carlos Iglesias
+De cara a futuro ¿cuáles son vuestros retos? ¿Dónde os vais a estar enfocando en esta próxima temporada?
+
+[00:40:08.590] - Marta Bazaco
+Yo creo que el futuro también con todo el mundo de la digitalización es realmente apasionante y las posibilidades que ahora la tecnología nos brinda, es para aprovecharlas. Ahora sí que estamos trabajando bastante en todo lo que es text Analytics, análisis de todos los comentarios, entre comillas, vengan de donde vengan. 
+
+[00:40:28.630] 
+Uno de los proyectos que estoy muy ilusionada este año es como parte de todas las entrevistas que tenemos de los clientes en proyectos de Customer Journey Mapping podemos transcribirlas, hacer un análisis de texto, ponerlas a disposición, es decir, poner a disposición la información ya trillada, ya analizada, para mí sí que es el gran reto relativamente a corto plazo.
+
+[00:40:55.640] 
+Evidentemente que toda la organización esté más enfocada en cómo impacta en la experiencia de cliente su propio trabajo, cómo conectamos el mapping del cliente con nuestros propios procesos, creo que es también otro reto que podemos tener en estos próximos meses o años.
+
+[00:41:17.530] 
+Y luego yo diría que el reto de futuro en el fondo es dejar de hacer encuestas. Ser capaces de poder tener toda esa información de una manera espontánea. Muchas veces en el B2C parece que es más fácil conseguir a través de las redes sociales, foros, mucha información con nuestro tipo de clientes, todavía no hay un volumen de información que nos pudiera permitir sustituir.
+
+[00:41:52.790] 
+Para mi el gran reto final es poder tener toda esa información de una manera más espontánea, más real, menos "filtrada" hasta por los propios filtros de la persona cuando contesta una encuesta. Ahí hay mucho filtro personal, la neurociencia está trabajando mucho, y poder tener una información más espontánea de clientes creo que sí, que es un reto que nos ayudará sobre todo a poder analizar mejor y mejorar y detectar cuáles son las prioridades para ponernos a trabajar y mejorar esa experiencia.
+

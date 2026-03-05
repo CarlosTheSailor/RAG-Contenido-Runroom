@@ -1,0 +1,171 @@
+[00:00:00.920] - Carlos Iglesias
+Los líderes políticos y económicos de la vieja Europa alzan la voz. La idea de Europa, tal y como la entendemos hoy, está en peligro. Se habla ya de una gigantesca ola de destrucción creativa. El mundo no está nivelado. Las economías más avanzadas producen tecnología, mientras que los países menos desarrollados dependen de ellas para consumirla. Acumulación de recursos e investigación en las grandes potencias, con China y Estados Unidos a la cabeza, con corporaciones que cada vez concentran más poder económico y que, por tanto, impiden una más que necesaria redistribución de la riqueza. ¿Han caducado nuestros procesos de toma de decisión en Europa? Y a todo esto, ¿qué papel juega el ciberespacio? Hoy tenemos la inmensa fortuna de charlar de ello con Manuela Bataglini, abogada y consultora experta en ética digital e investigadora en inteligencia artificial y su impacto en la democracia y en la sociedad. Cofundadora y CEO de Transparent Internet, una consultora con la que ayuda a gobiernos, administraciones públicas y organizaciones a diseñar sus sistemas de IA para que sean fiables, es decir, que funcionen según lo previsto, que los riesgos que se plantean se gestionen adecuadamente y que los beneficios que producen estén disponibles democráticamente. Actualmente está cursando el doctorado en la UPC sobre Inteligencia Artificial.
+
+[00:01:54.860] - Carlos Iglesias
+ ¿Qué es para ti el mundo real?
+
+[00:02:07.140] - Manuela Battaglini
+Para mí, el mundo real es un mundo con mucha desigualdad, cada vez más desigualdad. Es un mundo que está gritando de dolor, pero también es un mundo que cada vez está siendo más consciente del neoliberalismo, capitalismo salvaje que lo está castigando.
+
+[00:02:27.120] - Manuela Battaglini
+Y esa toma de conciencia es el inicio para el cambio de conciencia que también ya se está produciendo. Con lo cual, a pesar de que estamos viviendo en un momento muy duro, veo al final del túnel el optimismo claramente.
+
+[00:02:40.710] - Manuela Battaglini
+Lo veo en este cambio de conciencia, en este cambio de mentalidad que está en altas instituciones, en algunos miembros claves y cañeros de altas instituciones que ya han hecho un cambio de paradigma bastante claro. Y yo creo, estimo que al neoliberalismo como lo conocemos ahora le quedan cuatro años de sufrimiento todavía, pero las cosas ya están cambiando, porque ya el neoliberalismo se ha quitado la careta. Antes era la empresa cool, antes todos queríamos ser Zuckerberg, todos queríamos ser Steve Jobs. Hoy día están todos en tela de juicio. Y eso ya es un cambio de manera de pensar, porque están las cartas encima de la mesa. Había un plan B, un plan maquiavélico desde hace mucho tiempo, muchos no lo sabíamos, y ahora ya el neoliberalismo y las personas que están encabezándolo hablan sin tapujo, de que la población tiene que sufrir para ellos ganar más dinero, de que tiene que haber más paro para volver a castigar al trabajador que está muy subido pidiendo muchos derechos, que cierta clase política tiene muchos privilegios y la clase media hay que eliminarla para que haya mucha desigualdad y el poder siga concentrándose en unos pocos. Ya se dice sin ningún tipo de tapujo.
+
+[00:04:51.940] - Manuela Battaglini
+Nos quedan cuatro años de neoliberalismo rabioso.
+
+[00:05:31.840] - Carlos Iglesias
+Espero que con esto traigamos ciertas soluciones también urgentes en términos de sostenibilidad y de conservación del planeta y de dinámicas de redistribución.
+
+[00:05:47.290] - Manuela Battaglini
+Dependiendo de dónde. Por ejemplo Escandinavia en Europa del Sur la consideramos un referente. Pero cuando vives allí, como todo, te das cuenta que no es tan referente. Por ejemplo, son países muy neoliberales, muy capitalistas. Intentan disimularlo centrando muchos esfuerzos en el bien común, pero, por otro lado, por ejemplo, no quieren invertir interacción humana en aquellas personas que están en riesgo de exclusión social, sino que ChatGPT les va a solucionar todas las dudas que ellos tengan de cara a cualquier pregunta a la administración pública. Y esto lo he hablado yo en eventos que he participado como ponente con algún político danés, que se me han puesto los pelos como escarpia. Por otro lado es verdad que tienen una idea del bien común que es todavía mejor que la nuestra, pero simplemente para también tapar ese gran hermano que tienen, porque es una vigilancia extrema al ciudadano, que está disfrazada de buenrollismo. Que somos el país más feliz del mundo, que tampoco es verdad. Es el país más tranquilo, pero esa tranquilidad tampoco lleva a la felicidad. Por otras razones que si quieres ya después otro día hablamos, que se sale un poco de esta conversación. Y es un país que me gusta, en el que me gusta vivir, es un país civilizado, pero no es un país humano. Porque el neoliberalismo es muy individualista. Si te caes, es que eres un torpe. Te levantas tú solo, es tu culpa. Si estás triste, pues decide ponerte contento. Eso es puro neoliberalismo. Si estoy triste, es porque el contexto en el que estoy me provoca esta tristeza. El people first, famoso, es puro neoliberalismo, porque yo te estoy dando todas las herramientas para que tú seas feliz, si no lo eres, culpa tuya. Y entonces yo, que soy la que te estoy provocando realmente los males, me los quito de encima.
+
+[00:08:29.640] - Carlos Iglesias
+¿De qué hablamos cuando hablamos del ciberespacio?
+
+[00:08:45.740] - Manuela Battaglini
+Si somos absolutamente prácticos, pragmáticos, puede ser la red de servidores y cableado. Esto es muy importante decirlo, porque cuando se compara con el espectro radioeléctrico, algunos catedráticos administrativos se han enfadado conmigo y me han dicho que el espectro radioeléctrico es un bien finito y que el ciberespacio es infinito, nada más lejos de la realidad.
+
+[00:09:22.590] - Manuela Battaglini
+Es un espacio absolutamente finito. De un punto de vista más filosófico ¿por qué tiene que haber una gobernanza democrática? Porque nuestra vida es nuestra vida analógica y nuestra vida digital, ya hay un paralelismo extremo. Es decir, ya no es que vivamos un 75% de manera analógica al 25% en el ciberespacio. Ya nuestra vida está volcada, lo hacemos absolutamente todo en el mundo digital. Lo que pasa que nuestros recursos y nuestras infraestructuras críticas están gobernadas de manera democrática. Por ejemplo, el acceso a la luz, al agua, a las carreteras, al transporte público, son infraestructuras críticas a la comunicación, al propio espectro radioeléctrico, etcétera. Es un acceso democrático. Todos tenemos derecho a recibir y acceder a estos suministros y a estas infraestructuras críticas que están gestionadas por el Gobierno, por el Estado.
+
+[00:10:39.540] - Manuela Battaglini
+El ciberespacio es la columna vertebral de todas las infraestructuras críticas, porque todo lo que acaba de nombrar se gestiona a través de internet. Pero el ciberespacio es el único que no está gobernado, que no está regulado per se, como un todo. Y que además no pende de ningún ministerio y que no está regulado de manera que podemos acceder de manera democrática.
+
+[00:11:03.210] - Manuela Battaglini
+El artículo 128 de la Constitución Española, como ejemplo de derecho constitucional, establece que la riqueza que se genera en nuestro país le pertenece al Estado y que el Estado lo puede gestionar a través de diferentes maneras, como a través del dominio público, un servicio público, etcétera. De ahí viene, ¿qué es el ciberespacio? Definición legal, ¿es un bien de dominio público, como lo es el espectro radioeléctrico o es un servicio público? El espectro radioeléctrico, que está considerado un bien de dominio público por los derechos fundamentales que hay en juego, porque es un bien finito, hay que considerar qué parte de la naturaleza está presente en el espectro radioeléctrico, precisamente para considerarle un bien de dominio público, como las costas... Entonces, el aire en el cual se propagan todas las ondas es de dominio público. Pero eso se ha puesto en tela de juicio, porque el aire que respiramos se supone que es el aire por donde también se propagan las ondas. Entonces, ¿qué pasa con el aire que respiramos? ¿Qué pasa con nuestros movimientos que se realizan en ese aire?
+
+[00:12:29.000] - Manuela Battaglini
+Con lo cual está un poco en tela de juicio esta nebulosa que rodea el espectro radioeléctrico que no tiene las características de un bien demanial, como que se puede expropiar, etcétera. Entonces, si lo consideramos un bien de dominio público, entra una figura muy problemática que es la expropiación. ¿Tiene el Estado dinero para comprar los servidores y el cableado de las grandes tecnológicas? Absolutamente no. Entonces, si lo consideramos un servicio público, es una figura mucho menos problemática y que se puede gestionar mucho mejor, sería un servicio público porque las grandes tecnológicas gestionan el agora pública, no hay nada más público la gran gran conversación que se está dando y la gestión de la gran conversación y, por tanto, de las personas y, por tanto, de las comunidades y de las vidas de las personas.
+
+[00:13:27.530] - Manuela Battaglini
+Estamos hablando de miles de millones de usuarios, con lo cual no hay nada más público que esto, por mucho que lo queramos considerar un negocio privado. Una vez llegado aquí, tenemos que pensar en cómo lo vamos a regular. Yo creo que la mejor manera de regularlo es como una infraestructura crítica, y es básicamente en que estén gobernados de manera democrática para poder tener un acceso democrático, es decir, todos tengamos el mismo acceso, para que los actores con poder no dañen a los actores con menos poder, que es lo que está pasando ahora, en todos los sentidos, además, el monopolio y oligopolio también y además, desregulado, dependiendo de en qué capa estemos hablando. Y por otro lado, para que sean regulados con confiabilidad. Es decir, que los propios ciudadanos confíen en la regulación de esa infraestructura crítica que es el ciberespacio.
+
+[00:14:55.800] - Manuela Battaglini
+Y después ya el marco regulatorio, o sea, el marco legal global, eso ya te lo contaré en la tesis.
+
+[00:15:04.460] - Carlos Iglesias
+El problema que estás explicando es un problema global, sin embargo, la regulación es más bien local. En Estados Unidos, hay algunas iniciativas localizadas en algunos estados. En Europa tenemos algunas leyes, la nueva ley para la inteligencia artificial, la ley de mercados digitales, la ley de servicios digitales. ¿En qué se enfocan estas leyes? ¿Es suficiente? ¿Se están enfocando desde una perspectiva de infraestructura crítica o se están enfocando en lo que producen estas infraestructuras?
+
+[00:16:20.510] - Manuela Battaglini
+No es suficiente, pero porque creo que se han estructurado bajo un desconocimiento de modelos de negocio. Porque el modelo de negocio no es la extracción brutal de datos para publicidad.
+
+[00:16:57.410] - Manuela Battaglini
+Eso es una parte. Los gigantes tecnológicos tienen muchos modelos de negocio. El no conocer todos estos modelos de negocio, dependiendo en qué contexto estamos hablando, hace también que estas regulaciones no contemplen el espectro total. Entonces, la historia es que también en Europa tenemos una visión más estrecha que la que tienen en Estados Unidos, que es más amplia.
+
+[00:17:29.800] - Manuela Battaglini
+Esta idea de la ley de inteligencia artificial, lo que hace es regular el riesgo, pero no regular el impacto social. Está dividida en diferentes riesgos, clasifica unas tecnologías prohibidas que ya no se pueden cambiar. Hay unas de alto riesgo, que realmente la ley lo que hace es regular las tecnologías de alto riesgo, de riesgo medio y prácticamente sin riesgo.
+
+[00:18:38.940] - Manuela Battaglini
+Es una ley que tiene muchísima burocracia, va a ser muy difícil de implementar y hay que seguir muchos pasos. Una de las cosas que me resultó muy problemáticas fue con la llegada de la inteligencia artificial generativa, de los modelos fundacionales. Me generó mucha preocupación por la concentración de poder y el poder que tienen a la hora de negociar con la Comisión Europea, en este caso. Porque el 75% de las negociaciones de la Comisión Europea previas a la negociación, fueron con industria. Y el 11% solamente fueron con sociedad civil, es decir, con sociedades que representan a la población civil. Estábamos muy poco representados y demasiado representadas las grandes corporaciones. Eso, por un lado. Por otro, cuando llegaron los modelos fundacionales, no podíamos quedarnos con la ley tal y como estaba, porque entonces las empresas de los modelos fundacionales iban a ir de rositas. Y los que iban a pagar el pato iban a ser las pymes, las medianas empresas en Europa, que iban a implementar esta herramienta en sus negocios, porque todo el peso de la ley iba a caer sobre ellos, burocrático y económico.
+
+[00:20:22.230] - Manuela Battaglini
+El gran peligro era que podían acabar prácticamente con el tejido empresarial europeo. No solamente eso, sino que además Francia, Italia y Alemania querían boicotear la ley y decían que o se adaptaban a sus circunstancias o no iban a aprobar la ley, porque Francia y Alemania están desarrollando su propio modelo fundacional y decían que esta ley iba a acabar con su innovación tecnológica. Lo más bonito de Francia es que uno de los fundadores de Mistral (el modelo fundacional desarrollado en Francia) el año anterior era secretario de estado (para el Sector Digital en Francia), y defendía la legislación de los gigantes tecnológicos.
+
+[00:21:41.210] - Manuela Battaglini
+Y entonces resulta que Cédric O, cuando estaba en la empresa privada, decidió boicotear a los que eran sus aliados el año anterior, porque quería sacar adelante su modelo fundacional. Entonces se metió un bloque para regular los modelos fundacionales, pero fue una regulación a la carta de estos señores. Se hicieron varias cosas, los modelos o la general purpose AI (la inteligencia artificial de propósito general) se dividen en estándar, en open source y también de licencia abierta y en riesgo sistémico, que son los realmente peligrosos.
+
+[00:22:48.690] - Manuela Battaglini
+La manera o el mecanismo para poder definir que su modelo fundacional conlleva un riesgo sistémico es los flops, que sería la potencia de cálculo a la hora de entrenar el modelo fundacional, que es un disparate, porque eso no te dice absolutamente nada. Y además, es 10 elevado al 25. ¿Qué ocurre? Que Mistral está por debajo de su umbral y muchas de las grandes modelos fundacionales están por debajo de su umbral, solamente ChatGPT-4 y unos cuantos más están igual o por encima de ese umbral.
+
+[00:23:37.600] - Manuela Battaglini
+Entonces, resulta que se sacan la ley y a las dos semanas de haber terminado las negociaciones, Microsoft anuncia que quiere invertir 10 mil millones de dólares en Mistral. Y bueno, fue un gol por todas las cuadras de Microsoft a Europa y utilizó a Mistral para que le hiciese todo el trabajo sucio, mientras ellos con pie encima de la mesa se fumaban un puro a gusto.
+
+[00:24:54.240] - Manuela Battaglini
+Y ahora, además, la tendencia es precisamente el umbral, bajarlo, pero mantener la potencia. Con lo cual, se van a ir de rositas muchos de ellos.
+
+[00:25:44.100] - Carlos Iglesias
+Los derechos de autor tiene mucho que ver con Mistral también y con lo que está haciendo Microsoft con esta adquisición de Mistral.
+
+[00:25:52.350] - Manuela Battaglini
+Resulta que los derechos de autor, el copyright, uno de los grandes problemas que hay es que están extrayendo toda la información de obras de autores sin haberles pagado un canon previamente. Es decir, le están robando las obras a los artistas.
+
+[00:26:22.880] - Manuela Battaglini
+Pero estos no tienen ningún tipo de base legal, no utilizan ni un ni una sola jurisprudencia, ni una sola referencia que es jurisprudencia al fin y al cabo judicial anterior, ni una ley, absolutamente nada, sino por mi cara bonita.
+
+[00:27:40.490] - Manuela Battaglini
+Eso es por el articulado, pero después estamos hablando de los modelos generadores de imágenes, que lo que hacen es extraer todas las imágenes y las obras de muchos artistas sin haberles pagado un canon previamente. Se quieren saltar esta responsabilidad de muchas maneras. Ahora están intentando, es que esto ya empezó con OpenAI y sus abogados, de decirles: No, mira, yo lo que hice fue entrenar el modelo, pero realmente quién va a utilizar tu artículo es el usuario final. O sea que yo, en realidad, no lo estoy utilizando. Quién lo va a utilizar para tal, es el quien lo lee y dice: A ver, a ver, a ver, a ver, espérate que aquí realmente la infracción está en el entrenamiento el input, no el output, o sea, que tampoco me vengas de listo. Entonces, para aquellos modelos, generadores de imágenes y de vídeo, también están con las mismas. En realidad, quienes van a cometer aquí la infracción son los ingenieros o aquellas personas que utilicen todas estas imágenes para crear su publicidad, su historia. Esto le estás diciendo que no, que realmente la infracción está en la recolección de toda esa información sin pagar un canon al artista.
+
+[00:29:08.370] - Manuela Battaglini
+Entonces, ¿qué hace Mistral? Mistral lo que ha hecho ha sido saltarse a la torera también todo esto y ha recopilado toda esta información para generar una base de datos, Cosmopedia, que son datos sintéticos, no son reales, sino generados generados oficialmente por el modelo Mistral, 
+
+[00:29:32.930] - Manuela Battaglini
+pero que sirven para entrenar otros modelos fundacionales, generadores de imágenes, de vídeos, etcétera, que ya no estarían infringiendo los derechos de autor.
+
+[00:30:20.690] - Manuela Battaglini
+Lo que pasa es que hay gente, sobre todo, vamos a ver la diferencia y seguimos hablando de comportamientos. Es decir, O sea, recuerdo hablar con Steen (Dr. Steen Rasmussen), que es muy americano, porque él vivió 20 años en Estados Unidos y dice: Si alguien la va a armar aquí, estos van a ser los americanos, el europeo es más flojito. Pues la están armando, efectivamente, la FTC, que sería el organismo antimonopolio, con su líder a la cabeza, Lina Khan, que ahora mismo es mi heroína, están armándola porque efectivamente están crujiendo los monopolios en Estados Unidos, pero no solamente los tecnológicos, sino también en el mundo de los groceries, los supermercados, están rompiendo muchísimas barreras. Por ejemplo, había en Estados Unidos un acuerdo legal per se, en el cual un trabajador que trabajaba en un sector, si era despedido o se iba, no podía trabajar en ese mismo sector para que no le hiciera competencia durante tanto tiempo, con lo cual estaba fuera del mercado durante X tiempo. Pues eso también se ha eliminado. Claro, las empresas están que trinan con esta mujer y con la FTC. Están haciendo un trabajo impresionante. Por otro lado, el Departamento de Justicia de Estados Unidos denunció a Apple por prácticas monopolísticas y anti-competitivas. Y Apple está sudando la gota gorda, porque esto también le está crujiendo por la raíz. Y después tenemos una ley de mercados digitales en Europa, que es una ley que se supone que es de autocumplimiento, tipo: yo publico la ley y ahora tú... cúmplela.
+
+[00:32:25.480] - Manuela Battaglini
+Entonces, claro, no va a pasar, porque a estos tipos, las leyes, les importa tres pitos. Las sentencias les importa tres pitos. Entonces, cuando salió esta denuncia, Tim Cook no estaba en su despacho rodeado de abogados, diciendo: Señores, ¿qué hacemos? Estaba en China, porque en China es realmente donde él quiere ganar cuota de mercado, por las super apps y por otras las circunstancias que hay en China, entonces no tiene tanta cuota de mercado como tiene en Estados Unidos o en el mundo occidental, y es ahí realmente donde le preocupa subir. Le importó 3 pitos la denuncia, pero lo que pasa es que le están dando también por la raíz. En cambio, en Europa nos preocupamos por la burbujita azul y la burbujita verde. Es decir, cuando un Apple y un Android se comunican, o sea, si Apple manda un mensaje o un Android manda un mensaje a un Apple, ¿qué ocurre? Que el mensaje no está cifrado, que los vídeos no se pueden ver, que a lo mejor no puedes ni leer el mensaje. Y eso es la famosa privacidad falsa que tiene Apple, que promete Apple.
+
+[00:33:50.040] - Manuela Battaglini
+Y es que o es entre iPhone o aquí la privacidad, según mis términos. Entonces, eso es para que todo el mundo se compre un Apple y entonces ya estemos en terreno protegido. O, por ejemplo, la famosa opción de: Permites o no quieres que Facebook o Meta te rastree. No, no lo permito. De golpe, con ese clic, hizo perder mil millones de dólares a Meta, que tampoco es que me importe mucho. Pero lo que hizo realmente ahí Apple fue encerrar a todos sus usuarios en un espacio totalmente amurallado, donde ahora esta privacidad bajo mis términos. Ahora soy yo quien te vigilo y voy a utilizar tu información para publicidad también. Al igual que la práctica monopolística de, por ejemplo, las automóviles, esto más en Estados Unidos, las empresas automovilísticas donde todo tiene que ser compatible al iPhone, porque si no lo es, directamente no puedes sacar un nuevo modelo de vehículo. Estas son prácticas absolutamente anti-competitivas. Entonces, están crujiendo las empresas por la raíz, realmente por donde importa. Pero en Europa no nos podemos preocupar por la burbujita verde y la burbujita azul, porque esto es fijarnos, ya no en el árbol, sino en la hoja de un árbol de un bosque inmenso. Entonces, perdemos la perspectiva del contexto, de la situación y de todo. Y todas estas denuncias que hay por derechos de autor, todas estas denuncias por monopolio y por prácticas anticompetitivas, etcétera, las realmente que valen la pena están pasando ahora mismo en Estados Unidos. Y es muy interesante leerlas, porque cuando uno las lee, entiende mucho mejor los modelos de negocio. Y para poder entender cómo funcionan estos gigantes y sus peleas y cómo están controlándonos a través de sus tentáculos, pues entonces lo podemos entender mucho mejor leyendo ese tipo de denuncias, que son además muy interesantes.
+
+[00:36:01.540] - Carlos Iglesias
+Ponnos un ejemplo de un modelo de negocio que no sea el de la venta de los datos recopilados para publicidad.
+
+[00:36:09.400] - Manuela Battaglini
+Podríamos hablar de la estructura de mercado que existe en el mundo de ciberespacio. De todo el iceberg, no solamente la punta, que es donde realmente nos hemos quedado. Sí. De hecho, cuando has definido quién soy en la entradilla, ya eso bórralo, porque la tesis me ha hecho replantear mi profesión por completo. De hecho, la ética digital, no sé hasta qué punto sirve, porque uno, es voluntaria y dos, sirven más para limpiar la fechada que para otra cosa. En cualquier lugar tenemos el hardware. Es decir, estamos ya yendo a aguas profundas donde están los tiburones de aguas profundas.
+
+[00:37:14.140] - Manuela Battaglini
+Esto es pura geopolítica porque están metidos muchos países. Ya solamente en el mundo de la hardware está la empresa NVIDIA, que tiene una cuota de mercado del 80 al 95%. En investigación y desarrollo de estos chips que a su vez están fabricados en Taiwán por la empresa TSMC. NVIDIA ya es monopolio por el poder que tiene de mercado. TSMC también en cuanto a fabricación. Por otro lado, para hacer ciertos microchips, se necesita fabricar, se necesita equipo de fotolitografía, que están desarrollados en una empresa holandesa que se llama ASHL, y cada equipo vendido a TSMC cuesta entre 150 y 200 millones de dólares. Pero es una sola empresa en el mundo que fabrica este tipo de equipo. Estamos hablando de monopolios en aguas profundas, donde estos tiburones de aguas profundas están campando a sus anchas. No regulado. Esto es un modelo de negocio.
+
+[00:39:05.920] - Manuela Battaglini
+Después está el mundo de la infraestructura en la nube. Eso es otro modelo de negocio completamente distinto. Donde se da alojamiento, donde se ofrecen datos, donde se ofrece infraestructura, se ofrecen modelos, se ofrece el acceso a todo esto, el alojamiento de toda la información. Donde Amazon tiene entre un 30 y 40% de cuota de mercado, Microsoft tiene un 20% de mercado, es que hablamos de un oligopolio. Google tiene bastante menos, después ya está el Alí y todos estos que ya tienen bastante menos también. Y prácticamente no regulado. Y después ya nos pasamos a la capa...
+
+[00:39:54.460] - Carlos Iglesias
+Esos sí son infraestructuras críticas.
+
+[00:39:58.620] - Manuela Battaglini
+Tienen el acceso a la infraestructura crítica digital. Quien tenga el gobierno total de estas infraestructuras críticas, nos gobierna a todos. Por eso es tan importante esta gobernanza democrática del ciberespacio, porque es todo esto ciberespacio. 
+
+[00:40:20.100] - Manuela Battaglini
+Después tenemos el modelo de inteligencia artificial, donde aquí es donde se desarrolla la inteligencia realmente, que ya es el desarrollo de los propios modelos. Y por último, tenemos el acceso a estos modelos, que se puede hacer a través de los hubs o a través de API, pero tanto uno como otro es puro control. Entonces, estos son diferentes modelos de negocio donde realmente nos estamos solamente fijando en la punta de iceberg. Y están muy cómodo los gobiernos y los gigantes tecnológicos. Mal asunto si están cómodos. Yo ya no quiero gastar más tiempo de mi vida discutiendo qué es transparencia algorítmica y qué es un algoritmo confiable, porque yo creo que no hay conversación más estéril que esa, porque no se soluciona ningún problema.
+
+[00:43:20.630] - Manuela Battaglini
+Lo que necesitamos es regulación que estructure el mercado. Necesitamos que nos permite el acceso democrático. Necesitamos regulación ex ante y no ex post. La regulación que tenemos ahora es una regulación ex post, es decir, que regula comportamiento. Te has portado mal. Como te has portado mal, pues entonces, enforcement, el refuerzo. Y el refuerzo es ex post. Y el ex post no te creas que resuelve tanto. Ya. Las medidas ex ante son las medidas que realmente son mucho más beneficiosas, que esto realmente ha pasado desde principio de siglo, porque si nos acordamos de cuando empezó el ferrocarril eran monopolios. Y esos monopolios se fueron regulando y esa regulación era una estructuración de mercado, donde había una serie de normas, por ejemplo, se prohibía lo que se denomina la self-preferencing, que te prefieras a ti mismo, se prohíbe por completo.
+
+[00:44:48.810] - Manuela Battaglini
+Aquí lo vemos claramente en estos modos de negocio: si yo tengo la nube, que la nube me pertenece a mí como empresa, pues entonces voy a favorecer a toda nuestra estructura de mis empresas, porque me voy a preferir a mí mismo que a mi competencia. Eso crea una estructura monopolística brutal y aparte, o oligopolística en este caso, casi inamovible. Necesitamos por lo tanto, ex ante. Ex ante es ya de por sí no te puedes auto-preferir. Ya no puedes dar privilegios a tus propias empresas. Ya de por sí, el mercado tiene que estar estructurado.
+
+[00:45:32.620] - Manuela Battaglini
+Cuando dicen que la innovación va demasiado deprisa y que la regulación va demasiado lenta, yo digo... ¿qué quieres regular? ¿Quieres regular ChatGPT? Yo creo que no es muy inteligente regular ChatGPT. Vamos a regular el hardware, vamos a regular el oligopolio de la nube. Porque de ese monopolio y este oligopolio nacen todas las discriminaciones, todos los sesgos, todos los monopolios, toda la desigualdad social, todo lo que está ocurriendo realmente en la punta del iceberg. Y esta infraestructura de la nube y del hardware es muy estable. No cambia tan rápido como la innovación tecnológica, pero es que toda la innovación tecnológica está basada en estas aguas profundas.
+
+[00:46:45.740] - Manuela Battaglini
+Ahora háblame de la ley de inteligencia artificial. Ahora háblame de la ley de servicios digitales, que prácticamente es una ley que lo que hace es gestionar la conversación. Y después, háblame ahora de la ley de mercados digitales, que se supone que es la ley y la ley antitrust, antimonopolio, pero que realmente no... Entonces, yo creo que estamos regulando la parte equivocada del iceberg, completamente equivocada.
+
+[00:47:27.380] - Manuela Battaglini
+Sí, por ahí va a los tiros. Tengo mucho más desarrollado, pero vamos a dejarlo aquí. Vamos a hacer un tícer.
+
+[00:47:34.400] - Carlos Iglesias
+¿Qué opinas de lo que dice el CEO de Ericsson? Esta narrativa de que las normas competitivas de la Unión Europea están repeliendo a las empresas, están matando la innovación.
+
+[00:48:00.440] - Manuela Battaglini
+Que realmente cuando no hay una estructura de mercado, cuando el poder está en pocas personas, está concentrado en pocos actores, es realmente cuando no se da la innovación. Te pongo el ejemplo de Apple. Apple ya no invierte en innovación prácticamente, invierte mucho más en stocks y es porque no tiene el incentivo, porque es un monopolio. El monopolio y el oligopolio, lo que fomenta es realmente la no innovación. Y la regulación de lo que acabamos de hablar, es realmente lo que fomenta la innovación. Así que esto solamente lo hacen porque lo que no quieren es que le crujan sus propios monopolios, que no están nada interesados sus oligopolios.
+
+[00:49:09.450] - Carlos Iglesias
+La gran necesidad de regular esto ya no es solo por redistribuir un poco ese valor capturado y por justicia en sí mismo, sino también estamos viendo cómo influye todo esto incluso en las derivas autoritarias.
+
+[00:49:30.650] - Carlos Iglesias
+Tiene una consecuencia social muy bestia.
+
+[00:49:34.850] - Manuela Battaglini
+Los problemas de privacidad también vienen ahí y de protección de datos.
+
+[00:49:59.890] - Manuela Battaglini
+Yo estoy derivando más a competencia y antimonopolio y a copyright que a protección de datos y a privacidad para resolver la problemática. Porque a fin y al cabo, en Europa creo que tenemos un problema de falta de conocimiento de modelo de negocio.
+
+[00:50:39.570] - Manuela Battaglini
+Y después, la academia discutiendo tres años qué es fiabilidad, confiabilidad, transparencia. Y después, también resuelve problemas individuales, no problemas colectivos.
+
+[00:51:00.140] - Manuela Battaglini
+Por ejemplo, la Autoridad de Protección de Datos de tal país europeo, ha puesto una multa de tantos miles de euros porque el responsable del tratamiento de los datos no pidió consentimiento o whatever. Estamos hablando de casos prácticamente individuales, pero con competencia haces boom, entonces, vas a la raíz. Y realmente, cuando nosotros hablamos de: No, pero lo que pasó a principio de siglo con el ferrocarril y con todos estos monopolios, no es otra cosa que problemas de competencia y monopolio. Entonces, Incluso cuando hablamos de las tecnologías físicas, que son las tecnologías, y las tecnologías sociales, como son las leyes, instituciones, universidades, educación, cultura, narrativas, modelos de negocio, son tecnologías sociales van por caminos distintos y a direcciones distintas. Y que la solución está en las tecnologías sociales, donde la tecnología social es la regulación, pero la regulación de las capas más bajas o más altas, como lo quieras mirar, de la capa de la estructura de mercado, de lo que denominamos inteligencia artificial o la tecnología que envuelve a la inteligencia artificial.
+
+[00:52:30.200] - Manuela Battaglini
+Y además, si lo miramos o lo explicamos desde el pasado, todo ha sido o casi todo ha sido un problema de competencia. Un problema de antimonopolio, de evitar los monopolios para precisamente que haya competencia y que, por lo tanto, fomentar la innovación.
+
+[00:54:09.410] - Carlos Iglesias
+Y hasta aquí esta increíble charla con Manuela Bataglini. Espero que os haya parecido tan increíble como a mí. Personalmente, creo que el hecho de que Manuela sea abogada es lo que le permite ver la realidad global con esa claridad. Hace unos episodios, hablábamos con Simona Levi sobre la importancia de conocer las leyes y las estructuras legislativas como herramienta para transformar, modelar y garantizar la calidad democrática y las libertades conquistadas con siglos de esfuerzo y lucha. Ojalá más conversaciones públicas como esta. Ojalá más Manuelas ayudándonos a leer la realidad. Ojalá más líderes escuchando y guiando a nuestras sociedades hacia un lugar más justo. Un fuerte abrazo y os espero en el mundo real.
+

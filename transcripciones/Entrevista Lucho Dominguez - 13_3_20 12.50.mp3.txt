@@ -1,0 +1,321 @@
+[00:00:00.480] 
+Vamos, allá estamos con Lucho Domínguez. Gracias Lucho por estar en este podcast y para acercarte a las oficinas de Runroom. Muchísimas gracias por estar aquí. Gracias Carlos por la invitación y muy contento e ilusionado por compartir algo con vosotros. Espero que sea de utilidad.
+
+[00:00:18.630] 
+La alegría es mía. Yo quería introducirte a los oyentes que no te conozcan. Lucho Actualmente trabajas como Design Research Lead para la estrategia de producto en Telefónica I+D y tienes una parte docente también muy importante.
+
+[00:00:41.090] 
+De hecho varios runroomers han hecho alguna formación contigo.
+
+[00:00:50.160] - Carlos Iglesias
+Tú llevas prácticamente nueve años trabajando en Telefónica I+D. ¿Cuál es tu background? Cómo has llegado a ser Design thinker o diseñador?
+
+[00:01:24.880] - Lucho Domínguez
+Tengo un background en publicidad, una carrera que nunca ejercí y  acabando la universidad me llamó mucho la atención el tema digital, Internet aún no había despegado y trabajé en Perú básicamente como emprendedor. Empecé a cerrar proyectos multimedia, proyectos vinculados a la educación. ¿Cómo podía aproximar la educación a los jóvenes a través de la tecnología?
+
+[00:01:53.370] 
+Sacamos un primer CD de culturas preíncas en Perú. La novedad era que Internet era muy caro aquellas épocas. Una familia tendría que pagar 150 euros para tener una conexión a Internet y no podían acceder a esto. Entonces, poniendo un CD y navegando a través de un navegador web, la gente podía navegar por este CD y por sus culturas. Entonces empezamos haciendo esto y esto nos llevó a otros tipos de proyectos. A partir de allí yo encontraba una carencia entre los diversos procesos que había aprendido en la universidad y hubo un máster que hice allí, que era muy industriales y que no me cubrían ciertas áreas de cómo llevar los productos digitales hacia adelante.
+
+[00:02:32.370] 
+Entonces vinimos con mi mujer a Barcelona a hacer un máster en Comunicación Digital, porque pensaba que esa era la orientación que tenía que coger, y descubrir el Human Computer Interaction. Esto me cambió la vida desde el punto de entender cosas que no había entendido antes, el foco que tenía que hacer el usuario en el cliente y entenderlo. A partir de ahí hubo un salto y empecé a trabajar en una consultora que hoy no existe, que es Netjuice Consulting.
+
+[00:03:03.960] 
+Entonces fue un punto de transición, de entender que había todo un foco centrado en las personas donde deberíamos empezar los proyectos. Estaba más focalizado en proyectos web, es decir, en proyectos de Internet donde las grandes compañías necesitaban tener presencia en Internet, pero necesitaban tener un sistema de gestión de contenidos por detrás. Las famosas web dinámicas en su momento.
+
+[00:03:44.270] 
+Y ahí empezamos a trabajar mucho en esto, definiendo como tenía que ser su interfaz de cara al usuario. Pero digamos, había un punto de aproximación que era desde el experto y con las pruebas de usuario. Diseñamos las interfaces, los wireframes desde el punto de vista de experto y luego con test de usuario. No teníamos este primer contacto inicial con el consumidor final, la visión del cliente sobre lo que tendríamos que hacer. Luego, trabajé en una startup y sobre el 2010 es cuando descubrí el tema de Design Thinking. No descubro IDEO, con la metodología que estaba siguiendo y para mí el punto de inflexión fue entender que había una visión antropológica etnográfica al inicio de los procesos. Entonces esto fue como la pieza que me faltaba y decidí realmente entrar en esto en profundidad. Y ahí es donde empecé realmente a colaborar con una agencia de diseño que era Cactus Design.
+
+[00:04:47.640] 
+Empecé a hacer lo que era realmente la etnografía, a poder ver al usuario por primera vez en su contexto, algo que no había hecho antes. Mi visión como experto y luego validarla y a partir de ahí me especialicé en esa parte más de investigación etnográfica, la captura de estos insights, ayudar a los equipos a idear y generar soluciones y conceptualizarlas. Esta ha sido mi trayectoria los últimos casi nueve años. En Telefónica desde 2011 y si no me equivoco desde 2016 con una labor de divulgación, de compartir estos conocimientos que cuando yo tuve la suerte de profundizarlos en Telefónica porque se montó un equipo bastante grande con una directora que vino desde Intuit, que antes estaba en YouTube, que vino con toda esta filosofía de proceso de diseño que tuvimos que introducir y tuvimos la suerte de trabajar en empresas como Fjord en su momento, con Designit, que nos iban acompañando en los proyectos y nosotros también íbamos formándonos de como teníamos que hacerlo paralelamente.
+
+[00:05:50.280] 
+Pero también me di cuenta que no había realmente oferta formativa de esto, o trabajabas en una gran compañía y tenías la suerte de tener estos acompañamientos iniciales, pero dos libros tampoco bajaban a un siguiente nivel.
+
+[00:06:03.060] 
+Entonces decidí abrir una comunidad, Experience Lab, donde nuestra vocación fue básicamente divulgar o compartir lo que hemos aprendido hacia más personas, y esto lo llevamos haciendo ya cerca de tres años. Entonces esto empezó a compaginarlo también con centros universitarios que me empezaron a pedir que hiciera talleres o cursos. Pero sobre todo descubrí una pasión por compartir y por inspirar a que las personas cambien al mindset que ahora mismo es lo más importante.
+
+[00:06:38.960] - Carlos Iglesias
+¿Qué haces actualmente en Telefónica? ¿Cuál es tu rol? ¿Qué significa ser un Design Research Lead en Telefónica I+D?
+
+[00:07:02.390] - Lucho Domínguez
+Se maneja en diversos proyectos en diversas áreas donde trabajamos. He trabajado en diversas áreas, como el área de innovación.
+
+[00:07:08.930] 
+Hemos tocado temas de salud. He pasado también por los proyectos de Firefox cuando nos aliamos con Telefónica para crear un sistema operativo en web. También lo intentó hacer Amazon o lo intentó Microsoft, Facebook también... Luego no están en el mercado, no hemos continuado, se han quedado sólo dos grandes players. Y ahora estoy ya casi cerca de tres años y un poco más en el área de vídeo y entretenimiento para lo que son servicios de televisión de pago para Latinoamérica.
+
+[00:07:39.440] 
+Entonces ahí estoy dentro del equipo de xperiencia de usuario. Nosotros vamos diseñando la experiencia del usuario que tiene televisión de pago y que va a disfrutar de esos servicios también a través de los devices. Trabajamos básicamente para Brasil y para Latinoamérica. Mi rol allí básicamente es, por un lado, poder identificar espacios de oportunidad y hacia dónde tiene que evolucionar el producto. Hacemos mucha investigación etnográfica, viajamos mucho y tenemos que estar en la casa de los clientes en Brasil, en Argentina, en Perú, donde haga falta, traer esto a unos insights, que sean accionables y que puedan de alguna manera dirigir la visión del producto. Trabajar con los equipos para generar ideas y trabajarlas en un concepto que pudiéramos validar. Entonces hay una parte de nuestro trabajo que es específicamente explorar espacios de oportunidades, donde vamos a ir, y hay otra parte que es más válidativa, lo que ya estamos construyendo y hemos lanzado al mercado hay que validarlo, si no nos hemos desviado, o nos estamos desviando o no o tenemos que rectificar con las siguientes releases. Ese es mi rol y trabajo como una persona más que es Jesús Arquero https://www.linkedin.com/in/jesusarquero/.
+
+[00:08:53.450] 
+Tenemos un equipo pequeño pero muy sólido. Somos en total siete. Hay perfiles de diseño de interacción, perfiles de diseño visual, otros perfiles.
+
+[00:09:14.710] 
+En Latinoamérica tenemos cerca de seis millones de usuarios de televisión de pago y de nuestros servicios. 
+
+[00:09:23.430] 
+Oye, yo a ti te conozco, sobre todo en el ámbito del Design Thinking, donde te considero una voz protagonista en este país y se me ocurría que hablamos de muchas herramientas del Design Thinking y del propio Design Thinking dentro del Customer Experience y también en Agile. Es decir, tocamos un montón de conceptos que están interrelacionados entre sí y me cuesta un poquito poner orden. Entonces me gustaría que expliques tú ¿Qué es el Design Thinking para ti, cómo lo sueles explicar, en qué consiste?
+
+[00:10:02.280] 
+Para mí Design Thinking, básicamente viene a darnos una visión distinta para cambiar los ojos y tener una mirada fresca de algo que antes no nos era evidente.
+
+[00:10:14.170] 
+Me gusta la definición de déjà vu, es esta sensación de haber vivido algo antes, pero el Vuja De https://en.wikipedia.org/wiki/D%C3%A9j%C3%A0_vu#Jamais_vu, es esta sensación de haber visto algo constantemente pero de pronto se te da una revelación. Ves algo por primera vez a pesar de que cada día lo has visto. Para mi el Design Thinking, y en su parte inicial, que es la parte más etnográfica o empatía o inspiración, depende del método que quieras utilizar es precisamente encontrar este espacio de oportunidad que resuelva una necesidad de una persona, pero que le aporte sobre todo un valor relevante.
+
+[00:10:49.670] 
+Y a partir de ahí lo que hace es Design Thinking es combinar técnicas de la creatividad para ayudarnos a encontrar múltiples opciones, y esto lo recoge del diseño industrial, donde ha nacido, y luego se aplica a unas fases que tal vez son más conocidas como los temas más Agile o Lean que llevamos a tangibilizar esto es un prototipo y vamos a integrarlo de manera rápida. 
+
+[00:11:14.710] 
+Me gusta el concepto de IDEO, que es prototipo de mierda, es decir, debemos prototipar para aprender y para comunicarnos y sobre todo gastar lo menos posible antes de empezar a hacer cualquier desarrollo. Para resumir, para mi Design Thinking es encontrar una visión distinta de las cosas que antes no nos era evidente, y esto lo hacemos desde una visión más etnográfica, y poder construir un concepto que aporte para los usuarios, pero de manera rápida y debe estar focalizada en un front stage de un proyecto. 
+
+[00:11:44.340] 
+Para no confundir front stage con back stage de programación, me refiero a unas fases iniciales, cuando estamos desarrollando un concepto, donde deberíamos invertir entre 20 y 100 horas, más o menos. Más de eso ya es otra cosa. Entonces debemos hacerlo muy rápido, muy corto, encontrar una visión, y luego habrán fases de construcción de producto, con otros enfoques, con otras metodologías.
+
+[00:12:06.210] - Carlos Iglesias
+¿Has tenido oportunidad de facilitar o participar en Design Sprint? ¿Qué opinas? ¿Qué te parece?
+
+[00:12:19.980] - Lucho Domínguez
+Para mi el Design sprint es una evolución y una adaptación del Design Thinking. Design Thinking nace en 2004 con ese nombre (viene mucho antes). En 2008 aparece en Lean Startup como método y luego, cuatro años después, aparece Design Sprint. 
+
+[00:12:37.840] 
+Yo creo que resuelve una problemática muy concreta, que es que no podemos secuestrar a todo el equipo trabajando en un proceso de Design Thinking, intenta dar una respuesta en cuatro días (eran cinco, ahora se han reducido a cuatro) vamos a hacer un viaje de divergencia y convergencia para llegar a un prototipo consensuado, pero asumiendo que la investigación ya está hecha y conocemos cuáles son las necesidades de los clientes, o sea esto está fuera del proceso, que es la parte que puede tomar un poco más de tiempo. 
+
+[00:13:05.820] 
+Entonces yo creo que sí sirve para acelerar proyectos y sirve en general para construir esa visión en conjunto, que al final es lo mismo que Design Thinking. Los beneficios de Design Thinking, al igual que el design Sprint, es: vamos a crear una visión en conjunto de los diversos stakeholders de un proyecto y hasta donde queremos ir pero la han recortado en el tiempo. 
+
+[00:13:26.820] - Carlos Iglesias
+Hablamos de momentos de divergencia a aquellos momentos en el que estamos buscando distintas posibilidades a ideación y distintas ideas de solución de un problema, estamos ratificando posibilidades, estamos abriendo la mente a nuevas posibilidades y los periodos de convergencia son aquellos en los que estamos tomando decisiones para priorizar, acotar esas soluciones, acabarlas de definir, acabarlas, de aterrizar, bajar un poco a la tierra.
+
+[00:13:57.940] - Lucho Domínguez
+Y esto es característico de cómo un diseñador piensa, es decir el diseñador industrial siempre buscaba opciones. El modo en que se nos educó a nosotros, supongo que a los más jóvenes ya no, es: ante un problema, una solución.
+
+[00:14:12.210] 
+Me gusta una frase que dice que somos ayaculadores precoces de soluciones. y esto me ha pasado a mí cuando me enfrenté a este tipo de mentalidad. El pensamiento del diseño industrial es abstraerse al inicio del problema, intentar buscar múltiples opciones. Esa búsqueda de múltiples opciones es lo que llamamos la divergencia para luego, como dices tú, tomar decisiones. Entonces ya tomamos decisiones en la convergencia.
+
+[00:14:48.720] - Carlos Iglesias
+Esto me lleva un poco a pensar en las seis famosas fases que son, para quien no conozca, la fase de comprender, la fase de observar, de definir que aquí ya empezamos a converger, idear y de nuevo divergemos, prototipar y testear.
+
+[00:15:09.610] 
+Entonces, al final, efectivamente, como tú dices, se trata de buscar distintas perspectivas y hay varios momentos de divergencia y convergencia. ¿Cuándo crees que funciona bien esta metodología? ¿Para qué sirve de verdad? ¿Cuándo es realmente útil?
+
+[00:15:30.130] 
+Es una pregunta compleja. En primer lugar, yo creo que más que una metodología, es un mindset, una manera de pensar. Es decir, si yo creo que ésta es una caja negra y que voy a seguir un proceso paso A B o C, no voy a llegar a un resultado adecuado ni esperado y hay mucha frustración. Por lo tanto, si realmente yo estoy dispuesto a tomar riesgos y asumir puntos de vista distinto, voy a subir este mindset y voy a seguir este camino.
+
+[00:16:01.600] 
+Ese es un punto. Ahora este mindset tiene unas etapas que es un proceso que hemos hablado. ¿Cuándo sirve?, para responder a tu pregunta. Cuando tú estás realmente con la vocación y lo voy a hablar más del lado de innovación, que es donde estoy más involucrado, es decir quiero encontrar realmente un espacio de oportunidad y además lo quiero hacer poniendo al cliente en el centro de verdad. Entonces ahí lo que voy a hacer es salir y entender en ese contexto real y observar los comportamientos actuales de los usuarios para ver dónde hay comportamientos y actitudes que están intentando buscar una solución y dentro de ese ámbito tengamos una oportunidad.
+
+[00:16:49.360] 
+En ese aspecto me va a servir porque yo como organización, como pequeña startup o organización, estoy intentando encontrar un espacio de oportunidad y que me va a guiar a ese punto. 
+
+[00:17:00.070] 
+No sirve si yo, por ejemplo, tengo claro como organización el camino que quiero seguir. Claro, no voy a dedicar un espacio para explorar; lo que voy a querer es ejecutar.
+
+[00:17:12.100] 
+Tampoco va a servir si eres un emprendedor que te despertaste el día siguiente y se te ocurre una idea, no vas a querer hacer un espacio de reflexión respecto a la búsqueda, la oportunidad. Lo que vas a querer es ejecutar tu solución. Entonces ahí ¿qué encaja mejor? Pues por ejemplo, te encaja mejor un Lean startup como modelo. 
+
+[00:17:29.450] 
+En una organización ¿qué le va a encajar mejor? Pues seguramente un Design Sprint para acelerar una parte del proceso, seguramente un proceso más Agile para ejecutarlo, etc. 
+
+[00:17:39.530] 
+Yo creo que las grandes frustraciones vienen cuando la empresa tiene claro lo que quiere hacer y quiere hacer un proceso Design Thinking y entonces dice no quiero invertir en investigación, lo que quiero solamente es una fase de ideación. Entonces, eso no es un proceso de Design Thinking para mi correcto, porque para mí el punto clave es encontrar un punto de vista distinto y a partir de ahí intentar buscar una opción distinta.
+
+[00:18:06.040] - Carlos Iglesias
+Antes hablabas de la empatía. En los últimos cinco episodios que he grabado aparece como una palabra muy poderosa. ¿Qué importancia tiene la empatía en este mindset de Design Thinking? 
+
+[00:18:24.350] 
+Sí, es una palabra muy usada que está perdiendo realmente su valor inicial, creo. La empatía precisamente nos va a permitir y es clave en poder cambiar la mirada. Lo decía Proust: "No se trata de mirar nuevos paisajes, sino de mirar con nuevos ojos."
+
+[00:18:41.230] 
+Ese es el punto de inflexión que tenemos que hacer. Siempre pongo un ejemplo a mis alumnos les digo que nos dan un reto de investigar las personas que viajan con una maleta de mano. Entonces, ¿qué vamos a hacer? Iremos al aeropuerto, hablaremos con gente que viaja con maletas de mano, y entonces lo que vamos a hacer es quedarnos con lo que la gente nos dice: se acaba la batería del móvil cuando estoy esperando; no me gusta tener que estar tirando en la maleta tanto rato en aeropuerto... Y entonces te ocurren soluciones como ¡ya tenemos Insights! Vamos a poner un cargador de batería en la maleta, vamos a hacer que la maleta sea inteligente, la vamos a llamar una maleta inteligente, que te siga en aeropuerto. 
+
+[00:19:23.180] 
+Claro, eso no es una mirada fresca del problema. Nos estamos quedando en un punto muy superficial y no empático. Cuando entramos en un punto empático y entender a esa persona que viaja desde el momento que hace sus maletas, el momento que llega, el momento que está en el aeropuerto, etcétera, y nos ponemos en sus zapatos, lo que vamos a entender, y si realmente hiciéramos un análisis profundo y empático, sería que esa persona lo que quiere en el fondo es tener parte de su ropa disponible en el lugar de destino. Entonces, si entendemos esto, entendemos una mirada fresca que antes no nos era evidente y que nos va a conducir a esas soluciones que no son hacer inteligente una maleta, sino a nuevos servicios que permitan que esas personas tengan disponibles su ropa en el lugar de destino. 
+
+[00:20:03.940] 
+¿Hasta qué punto la empatía limita el espacio de soluciones y no nos hace caer en posturas más adaptativas que revolucionarias?
+
+[00:20:21.040] 
+Todo lo contrario. Con este ejemplo creo que nos lleva a posiciones revolucionarias, porque no lo hemos pensado antes, porque no lo hemos visto. Esta es la parte poderosa que aporta realmente el Design Thinking. Pero llegar a la empatía es complicado porque no es inevitable como seres humanos aproximarnos con nuestros sesgos a los procesos de investigación. Entonces, ¿qué pasa? Yo tengo que investigar el tema de la maleta, como soy inevitablemente un eyaculador precoz de soluciones, voy a tener ciertas hipótesis en la cabeza que ya me van a sesgar. Voy a estar pensando "bueno, yo lo que quiero es que me pongan una batería. Yo lo que quiero es que en la maleta sea inteligente..." y voy a salir al campo con estos sesgos y solo voy a querer oír y escuchar todo aquello que confirme estas hipótesis mías, que la llevo como ser humano y que no me puedo dejar atrás. Y esta es la trampa en la que caemos la mayoría de los que nos iniciamos en el proceso de investigación de usuario, porque nos es difícil.
+
+[00:21:23.820] 
+Entonces esto requiere práctica, ir libre, despojado de esto y hacer una guía de campo en la que explorar y aprender sobre los comportamientos de las personas para encontrar esa mirada fresca que nos lleve por caminos distintos.
+
+[00:21:38.600] - Carlos Iglesias
+Te quería preguntar también por el rol del facilitador y la importancia del rol del facilitador. A través de Amalio Rey llegué a un artículo de Harvard Business Review de Natacha Iskander, que es profesora de la Universidad de Nueva York, y en ese artículo ella critica al Design Thinking, que creo que es un poco injusto, asumiendo que una mala praxis es el Design Thinking, esto nos pasa un poco en Agile y en otros contextos.
+
+[00:22:08.600] 
+"Como esta gente lo hace mal, Agile no funciona" y lo mismo con Design Thinking. Yo creo que hay un poco de injusticia ahí, pero ella critica que el Design Thinking privilegia al diseñador por encima de las personas a las que sirve y limitando su participación en el proceso de diseño. Y ahí mi pregunta ¿Cuál crees que es la importancia de la figura del facilitador en Design Thinking?
+
+[00:22:42.290] 
+Y ya puestos, ¿qué hace bueno a un buen diseñador?
+
+[00:22:47.630] - Lucho Domínguez
+Lo que va a pasar es que el facilitador va a tener un background y va a tener sus sesgos respecto a su background, es inevitable porque somos seres humanos. Entonces, el facilitador no debería ser experto en principio, en las materias en las que él va a liderar la sesión porque va a venir con sus propios sesgos. Entonces, el facilitador debería ser experto en ayudar a los equipos, en facilitar las conversaciones en las diversas partes del proceso y que las diversas partes del proceso se lleven de la manera más correcta posible.
+
+[00:23:35.990] 
+Yo creo que no es sencilla la labor de facilitador, porque no es un examen que tú te estudias, no es una fórmula secreta. Llega de tiempo de hacerlo, de haber cometido errores, etcétera. Por lo tanto, es una labor compleja equilibrar a la gente cuando está trabajando, que todos puedan participar y tal. Esto es difícil, hay que tener un determinado talento. No porque seas un diseñador vas a ser un buen facilitador. Por lo tanto ese es un punto que para mí es complicado.
+
+[00:24:15.570] 
+Es inevitable que un facilitador introduzca sesgo en un proceso. Mucha gente me dice "Oye, pero tú vas a hablar con las personas a sus casas y ya los estás sesgando porque vas con alguien que toma notas y tal". Sí, porque no es una observación no participativa en la que ellos no se dan cuenta. Pero la información que recojo con diversas técnicas allí me ayudan a entender una realidad mejor que si yo no estuviera allí.
+
+[00:24:44.290] 
+Te pongo un ejemplo: tenemos que hacer un proyecto, tenemos una tecnología disponible, hay un segmento de mercado muy grande en Brasil y tenemos además unos call centers que dan servicios de atención de médicos a estos pacientes. ¿Qué servicios podemos contar para estas personas con bajos recursos y los servicios que tenemos disponible ahora son sobre todo ginecólogos? Claro, se nos pueden generar muchas ideas desde aquí, pero cuando estuvimos en Sao Pablo, en una favela, conociendo esta gente en concreto, es muy distinta a la nuestra.
+
+[00:25:20.180] 
+Nosotros desde la oficina no nos podemos imaginar eso.
+
+[00:25:22.390] 
+No nos podemos imaginar que son gente muy joven, que su frecuencia de atención con los ginecólogos es muy distinta a la de Europa. Tienen otro tipo de miedos, otro tipo de preguntas...
+
+[00:25:40.140] - Carlos Iglesias
+Es imposible no introducir un sesgo como diseñador, pero estar ahí y hacer observación etnográfica te va a permitir entender mucho mejor el proyecto. 
+
+[00:26:01.900] 
+Y la otra pregunta que me hiciste, ¿Qué hace bueno un diseñador? Porque yo no me considero diseñador.
+
+[00:26:09.250] - Carlos Iglesias
+Ya lo discutíamos con Javier Cañada también y hubo un debate interesante sobre la diferencia entre el diseño de autor y grandes diseñadores reputados en todo el mundo y la historia del diseño, que han tenido un impacto formidable en la historia del diseño, que se considera un diseño de autor, ¿dónde está el peso? ¿Diseño de autor o un diseño casi invisible, diría, orientado a satisfacer la necesidad real de un usuario?
+
+[00:26:45.700] - Lucho Domínguez
+Sí, sí, correcto. Es que yo estoy más por esta línea. Es decir, claro, el diseño, como decía, Javier Cañada, tiene que satisfacer necesidades de las personas. Este es el rol.
+
+[00:26:59.200] 
+Es decir, el diseñador es como un medio para construir algo, y que el ser humano consiga esos objetivos.
+
+[00:27:09.450] 
+Y un buen diseñador es aquella persona, desde mi punto de vista, que es capaz de observar, es capaz de cuestionarse las cosas, es capaz de proponer soluciones sin enamorarse de ellas, es capaz de renunciar a ellas para modificarlas cuando no ha encajado lo que él se imaginaba. Uno de los grandes problemas es que un diseñador de escuela también tiene un ego, son educados como rockstar. Entonces, cuando ya estás en una fase prototipado estás poniendo en juego su ego.
+
+[00:27:46.140] 
+Cuando los usuarios no entienden o simplemente nos hemos equivocado, hay que entender que en este proceso nos podemos equivocar. Muchas veces hay un sesgo de coste del diseñador: "he invertido tiempo, he propuesto aquí mis diseños con mucho amor... ¿porque voy a dar un paso atrás? Voy a hacer pequeñas modificaciones, tal vez es el copy el que está fallando..." y vamos por ese sentido, porque hemos invertido esfuerzo y este sesgo nos está invitando a ir hacia atrás.
+
+[00:28:20.130] 
+Entonces, es una de las cosas que hay que desprenderse. Por tanto, resumiendo, para mi un buen diseñador es aquella persona que es capaz de dejar sus sesgos atrás, dejar su ego atrás, es una persona que es capaz de ponerse en la perspectiva del otro, es capaz de proponer soluciones, es capaz de abandonar sus soluciones, de no enamorarse de ellas, porque siempre está buscando la mejor solución para esa persona o para ese usuario, para que resuelva mejor su necesidad. Para mí esa sería la vocación del buen diseñador.
+
+[00:28:46.620] - Carlos Iglesias
+Me gusta mucho la definición, así como está salido, así como medio improvisado y me encanta, ¡te lo compro! 
+
+[00:28:53.200] 
+En Design Thinking el poder de esto es la inteligencia colectiva. La solución más que probablemente no va a venir del experto como tal o si, claro que va a venir también del experto, pero la solución va a ser cocreada con distintos perfiles, distintos roles, incluso, incluyendo al usuario en la propia solución.
+
+[00:29:23.090] 
+Muchas veces, y nos reconozco ese error, facilitamos un proceso, hacemos entrevistas con clientes procurando no sesgar, con una técnica muy determinada, pero al final la extracción de insights de esas entrevistas recae en el propio experto o facilitador del proceso. Y eso considero, y es algo que me preocupa y que me viene muchas veces a la cabeza, que el potencial de esas conexiones muchas veces se ve limitado por lo que el diseñador considera que es significativo.
+
+[00:30:25.440] 
+Entonces estamos perdiendo quizá oportunidades o puntos de vista y no sé muy bien cómo es la solución, la verdad, porque incorporar a los propios usuarios, extraer insights de usuario no tiene mucho sentido.
+
+[00:30:37.680] - Lucho Domínguez
+No tiene sentido y no es tampoco su rol. Es muy difícil despegarte tu de usuario de un análisis. Nosotros tenemos ciertos comportamientos y estos comportamientos de alguna manera no son racionales.
+
+[00:30:53.590] 
+Las típicas contradicciones, lo que la gente entre lo que dice y así lo observas. O a veces incluso idealizas tu comportamiento y te proyectas, por lo tanto el usuario no puede participar en esta fase de análisis.
+
+[00:31:16.200] 
+En la fase de análisis tenemos que ser conscientes que el Design Thinking es una parte intuitiva, es decir, hay una parte intuitiva y depende del background de quien está haciendo el análisis. ¿Cómo de alguna manera rebajamos esta posible sesgo? Yo creo que el equipo de análisis sea un pluridisciplinar, es decir, que si hay una persona de background de research, de ingeniería, de marketing, estos pueden ayudar también con sus backgrounds a hacer la interpretación. Es una manera de poder rebajarlo.
+
+[00:31:47.310] 
+Pero no vamos a rebajar el riesgo de que nos podemos equivocar en una interpretación. A esto hay que tenerlo claro. Design Thinking no te va a salvar la vida. Hay cierto riesgo al utilizarlo porque una parte muy intuitiva y es inherente a los proyectos de innovación, es decir, nueve de cada 10 fracasan. El 40 por ciento de los proyectos de innovación que fracasan es porque no satisfacen una necesidad real. Puede ser que haya habido un proceso y no hemos detectado la necesidad correcta y nos hemos ido por otro lado. ¿Como lo rebajamos? Haciendo participar a más personas con otros backgounds, con otros puntos de vista para ver si están observando lo mismo que estamos observando nosotros. Si hay una visión compartida de lo mismo. 
+
+[00:32:31.160] - Carlos Iglesias
+Antes hablabas también de la frustración, de concebir Design Thinking como una metodología que te puede llevar a ese tipo de frustraciones. Y yo identifico muchas veces también en el proceso de ideación, en la etapa de la ideación, creo que es una etapa crítica dentro de todo el proceso de definición de la solución.
+
+[00:32:58.270] 
+Escuchaba hace un tiempo a Ferran Adrià hablando en una entrevista, que es toda una institución en todo lo que tenga que ver con creatividad, que realmente ha tenido ideas disruptivas en el mundo gastronómico, me llamaba mucho la atención porque él decía que nunca ha visto salir una idea brillante e innovadora de un brainstorming. Un tipo realmente súper brillante y muy creativo y muy innovador y defiende que la innovación no llega de este tipo de procesos, no cree en esto. ¿Qué opinas de esto? ¿Qué te parece?
+
+[00:33:49.990] 
+Bueno, yo creo que hay determinadas personalidades con determinado talento, que es el genius, y entonces se les ocurren ideas que a los demás no se nos han ocurrido. Esto existe, tenemos un Steve Jobs, un Elon Musk, que de pronto ven esa oportunidad que los demás no han visto. Existe. Entonces, seguramente cuando ellos se enfrentan a una sesión de brainstorming, obviamente salgan frustrados, de que ha estado una hora, dos horas y no hay nada y las ideas son las mismas.
+
+[00:34:32.360] 
+Entonces, sí es verdad que en el mundo anglosajón la gente participa de una manera más democrática y incluso aquellas personas que son más retraídas, también participan, todo el mundo respeta las ideas. 
+
+[00:34:48.900] 
+Yo creo que en el mundo más latino es bastante difícil seguir un brainstorming, como lo definió Bono en su momento. Porque cuando se da una idea el otro "ya no creo que va a funcionar", nos ponemos a conversar y al final terminas con cuatro o cinco ideas, pero pasó una hora y todos se ponen a discutir. 
+
+[00:35:07.900] 
+En ese aspecto sí he visto que funciona cuando somos un poco más rígidos en los métodos en que lo estamos aplicando. Entonces, a mí me gusta mucho el método en el cual las personas puedan trabajar de manera individual, puedan crear, generar ideas de manera individual y luego hacer un momento en el que estas personas puedan crear a partir las ideas de los otros.
+
+[00:35:28.300] 
+Y esto me gusta porque los ponemos en igualdad de condiciones e incluso las personas más tímidas son capaces de generar ideas. Tenemos diversas técnicas como el brainwriting, lo que yo llamo giro de prismáticos, mirar otras industrias y a partir de ahí mirar qué podemos hacer en la nuestra. Es una generación muy individual, y luego hay una técnica que Juan Prego, que me gusta mucho, que funciona mucho el mundo latino, que es el team storming: una vez que hemos tenido ya la pared llena de algunas ideas es coger una idea de otra persona y a partir de esta creas dos nuevas, pero añadiendo algo, modificando algo, quitando algo que te está obligando a crear una idea a partir de la otra, pero todos están trabajando de manera silenciosa, pero de manera colectiva, y estamos generando muchas ideas. Y lo que he visto que funciona bastante bien es cuando le introduces tecnologías exponenciales en este proceso. Hemos hecho giros prismáticos, hemos mirado otras industrias porque nunca se te hubiera ocurrido mirar a la industria y pensar en como Glovo trabajaría en un tema, por ejemplo, de televisión de pago. No hay relación, ¿cómo voy a pensar en Glovo para televisión de pago? 
+
+[00:36:53.710] 
+Ahí está el punto, en buscar esa conexión de cosas que no tienen conexión. Y luego mirar cosas que no tienen que ver con tu industria, entonces te saco un poco de juego y empiezas a ver otras posibilidades y el otro punto que me gusta es cuando introducimos las tecnologías exponenciales. Esta idea que es televisión de pago, ¿y si le metemos sensores? Cómo sensores, si no tiene sentido! Sí, pero piensa: ¿y si hubieran sensores? Empiezas a decir cosas que tampoco te hubieras planteado. "Y ahora utiliza la inteligencia artificial" o "ahora imagínate los drones", ¿pero qué tienen que ver los drones? Allí es cuando empiezan a salir ideas. Allí es donde realmente ayudamos a que los equipos salgan de esa zona de confort y nos salgan ideas locas. 
+
+[00:37:44.760] 
+Para mí los objetivos de la ideación serían: primero generar la mayor cantidad de ideas, no la calidad, y que estas ideas sean radicales y sean lo más alocadas posibles, porque es más fácil domesticar una idea loca y traerla a la realidad que hacer que una idea pobre avance.
+
+[00:38:02.520] 
+Depende de la técnica que utilices, sí es posible que de una sesión de una hora no consigamos la idea, pero consigamos habernos salido en unos extremos que no nos imaginábamos porque de ahí no sale la idea buena.
+
+[00:38:24.480] 
+Ojo, estamos en la divergencia. Es en la convergencia cuando seleccionamos algunas ideas y las seguimos haciendo pasar por otros pasos hasta que vaya cobrando fuerza y se puede materializar en una propuesta de valor. Por lo tanto, mucha gente se frustra cuando va a una sesión de ideación y cree que de ahí ha de salir la idea buena. ¡No! Es solo la mitad de la parte del proceso. ¡Te falta la convergencia!
+
+[00:38:45.090] - Carlos Iglesias
+Absolutamente de acuerdo. Siento esto que estás diciendo porque yo me he equivocado muchas veces, facilitando este tipo de procesos, incluso explicando a un cliente "de aquí vamos a idear y de aquí van a salir las ideas" y, efectivamente, no es así. Por muy buenas que sean esas ideas van a requerir una bajada, una síntesis a otro nivel, y ahí vamos a tener que pasar un proceso más racional e identificar quiénes son los players del mercado, vamos a tener que pasarlo a una visión mucho más estratégica y mucho más terrenal de esa idea. Estoy totalmente de acuerdo contigo que la ideación hay que enfocarla ideas locas y a crear ese clima. Y de nuevo aquí vamos otra vez a la importancia del facilitador. Un facilitador es capaz de hacer que la liberación sea una mierda, porque nadie se atreve a proponer ideas o, de repente, con una serie de técnicas muy concretas... me gusta mucho esta idea de utilizar barajas, o este tipo de cosas que te sacan, te fuerzan a pensar. 
+
+[00:39:49.200] - Lucho Domínguez
+También hay que tener en cuenta otra cosa, que tampoco hay que ser tan duros con los equipos que idean. Los equipos que idean tienen que tener entrenamiento de ideación. Lo veo mucho con los alumnos. Cuando hacemos la matriz de la convergencia, todos han llenado ideas innovadoras posibles. Todo lo que son ideas innovadoras, imposibles, ha quedado vacío, porque a pesar que hemos hecho esto, les ha costado salirse con ellos.
+
+[00:40:15.840] 
+Si repites al día siguiente la misma sesión, se retan a sí mismos a poder, a poder ser más y más disruptivos y realmente llenan el otro panel. Por lo tanto, los equipos también tienen que tener este entrenamiento. No podemos esperar sacar a una persona de una reunión que de pronto está mirando retención al cliente y vas a creer que tenga una idea loca en una sesión de una hora. Tiene que tener un pequeño proceso de entrenamiento dos, tres o cuatro sesiones, y eso tampoco hay que olvidarlo, porque es muy injusto con el equipo que se ha metido allí.
+
+[00:40:43.470] - Carlos Iglesias
+Estamos hablando de ese equilibrio entre metodología y talento y experiencia. Yo creo que la parte del talento es un poco la que tradicionalmente es un problema común. No nos consideramos creativos muchas veces. Todo el mundo cree que no es creativo, que el otro sí es creativo. ¿El Design Thinking es para todo el mundo? ¿La ideación es para todo el mundo, todo el mundo puede aportar? 
+
+[00:41:30.500] - Lucho Domínguez
+Yo creo que todo el mundo puede aportar cuando lo hemos entrenado. Es decir, tenemos que pasar por una pequeña fase de entrenamiento de los equipos, porque todos somos creativos. Lo que pasa es que nos ha ido matando la educación nuestro proceso de creatividad y de resolución de problemas, y estamos muy focalizados en el día a día. 
+
+[00:41:47.630] 
+La mayoría de las organizaciones, el 98% de las organizaciones están enfocadas a la eficiencia, a mejorar costes, a obtener más beneficios de nuestro cliente. No se nos está pidiendo salir de la caja ni pensar de manera radical. No nos pagan por eso. Entonces no le puedes pedir a una persona que 8 horas al día está orientada a la eficiencia, que se ponga creativo un viernes en la mañana porque le has puesto un poco de dulces y hay unos post-its. Entendamos esto: se necesitará un proceso. Hay que entrenarlos, hay que hacer algunas sesiones previas con ellos y entonces llegarán mucho más sueltos. Y todos tenemos la capacidad de ser creativos y aportar cosas y sobre todo, importantisimo, cuanto más diverso es el grupo que está en la sala, porque si todos son diseñadores y todos son ingenieros y todos son de marketing, no vamos a conseguir ideas distintas. Cuanto más diversa es la gente, sí.
+
+[00:42:39.510] 
+Y quiero relacionarme con otra pregunta que me hiciste sobre la cocreación con el usuario.  Te dije que en la fase de análisis no, sí puede participar el usuario en la fase de prototipado para co-crear, pero el usuario es un sujeto de observación también en esa fase. No, lo que cree es lo que va a tener que suceder, sino la interpretación que nosotros hagamos de lo que ha creado para poder intentar entender qué quería conseguir. Quería hacer esta acotación porque también hay como una sobrevaloración de cocrear con el usuario y lo que salió se hace a misa. Aún en esa fase es sujeto de observación y eso hay que tenerlo claro.
+
+[00:43:17.530] - Carlos Iglesias
+El cliente no tiene que definir la solución, tiene que ayudarnos a entender la necesidad.
+
+[00:43:24.070] - Lucho Domínguez
+Ese es el tema en la concreción, es involucrarlo.
+
+[00:43:28.930] - Carlos Iglesias
+¿Se necesita un buen cliente para entregar un buen diseño? 
+
+[00:43:32.260] - Lucho Domínguez
+Claro que sí. Hay una frase de una persona que trabajó en Frog Design que tenía en el libro de Innovation X, si no me equivoco, y decía: llegan a Frog y el cliente dicen: "quiero que me creéis el siguiente iPad para mi empresa". Y les decía: "¡Perfecto, pues tráeme alguien de tu empresa que sea el siguiente Steve Jobs!"
+
+[00:43:56.470] 
+Es decir, yo creo que es un tema de mindset. Yo descubrí el Design Thinking sobre el 2010, ahora está mucho más de moda y tal. Hay mucha sobreexpectativa. Si yo como cliente no he cambiado mi mindset, no es una caja negra el Design Thinking. Si a mi equipo le estoy pidiendo que se pongan creativos y los tengo ocho horas sentado frente al ordenador, no puedo esperar resultados distintos. Entonces creo que tiene que ser en un momento en el que también el cliente tiene está buscando cosas distintas y está creando un espacio y haciendo que el equipo tenga una ayuda, que el equipo piense de manera distinta y actúe de una manera distinta para llegar a resultados distintos.
+
+[00:44:32.090] - Carlos Iglesias
+¿Cómo dirías que es el impacto en la cultura de la organización?
+
+[00:44:45.250] - Lucho Domínguez
+Yo creo que si aplicamos esto, el impacto es alto para determinados tipos de organizaciones. No todas lo necesitan. Es decir, vuelvo a lo mismo, el 80% o 90% de las organizaciones están enfocadas a buscar la eficiencia, a mejorar costes y tener un mejor margen de ganancia. Claro, es difícil que le metas un proceso de Design Thinking porque son expertos en lo que hacen y tal vez un tema de growth hacking y tal podría tener sentido como modelo.
+
+[00:45:15.280] 
+Tenemos que hablar de aquellas organizaciones que por un lado están intentando explorar espacios nuevos, en Telefónica tenemos Telefónica Alfa y están enfocados a esto, startups donde el fundador es capaz de despegarse de su idea inicial y tiene un ámbito de exploración amplio, "yo quiero irrumpir en la industria del calzado, en la industria de la salud". Entonces ahí este tipo de enfoque sí que le va a ayudar a buscar cosas.
+
+[00:45:44.080] 
+No podemos intentar meter con calzador en una compañía cuando su objetivo es distinto, por ejemplo de rentabilidad y no de exploración.
+
+[00:45:52.300] - Carlos Iglesias
+Creo que vivimos en una era en la que no te puedes permitir no estar orientado a la innovación en cierta forma, porque es cierto que las industrias, las compañías establecidas, el foco es totalmente distinto de aquellas compañías que están buscando. Pero esta corriente del corporate innovation donde necesitamos que nuestras organizaciones sean compañías ambidiestras, que ejecuten por una parte, y eso significa orientación a KPIs, orientación a retorno de la inversión, orientación a rentabilidad, que es imposible mantener ese mismo foco en rentabilidad y a la vez estár intentando buscar un nuevo modelo de negocio que nos vaya a disrumpir.
+
+[00:46:45.040] 
+Yo creo que cuando se habla de la transformación digital creo que estamos hablando también de esto.
+
+[00:46:54.710] 
+Estamos hablando de o te sumas al carro de la innovación y te diferencias y estás apostando por ser tú el que vaya a disrumpir o te van a pasar por encima tarde o temprano, porque esto es una cuestión de tiempo. Es una cuestión de que alguien ocupe tu sector, lo transforme por completo, y de repente te das cuenta cuando ya ha pasado el tsunami y te preguntas ¿dónde estoy? 
+
+[00:47:15.160] - Lucho Domínguez
+El famoso dilema del innovador (de Clayton M. Christensen) que desgraciadamente no nos ha dejado esta semana así.
+
+[00:47:24.490] 
+Yo lo que veo es que donde sí estamos más o menos funcionando ahora es cuando una organización tiene una unidad específica dedicada a eso. Tiene una unidad de innovación que está con este método trabajando para hackear su propio sistema y luego transfiere el conocimiento a la unidad central. Algunos tienen el modelo más de oye y vamos a trabajar como las startups. Vamos a crear un ecosistema como lo ha hecho Telefónica con Wayra y otros puedan tener su evento el Builders.
+
+[00:47:51.430] 
+Pero esa unidad que está explorando, que pertenece a la compañía, así que tiene que tener esa cultura y sobre todo lo más importante para que esto tenga sentido, porque aquí realmente saber mucho dinero. Vamos hablando de 9 de cada 10 proyectos que van a fracasar. Pero el aprendizaje que tenga esa unidad tiene que ser transferido a la unidad central y el gran reto está en que esas do unidades sepan hablar el mismo lenguaje, porque claro, a este señor que le estamos diciendo móntate las startups y estas unidades de exploración, te estoy pagando para que tomes riesgos.
+
+[00:48:23.760] 
+Al que está en la otra unidad no le están pagando para tomar riesgos, le están pagando para que tome decisiones acertadas. Entonces cuando le traigo un proyecto innovador le va a decir bueno, pero demuestra que ha funcionado. Pero claro, puede salir al mercado y fallar. Nos ha pasado. Muchos proyectos que han salido al mercado no han funcionado. Entonces ahí está el punto de conexión, donde esta persona que está llevando la corporate diga vale, pues vamos a asumir un porcentaje de nuestro negocio que puede fracasar cuando introduzcamos está.
+
+[00:48:57.860] 
+Yo creo que tenemos mucho talento en las organizaciones y estamos adoptando filosofías de trabajo en equipo, más Agile y todo esto pero si la cultura corporativa de arriba no cambia, es muy difícil que las cosas, desde mi punto de vista, se muevan más ágilmente. 
+

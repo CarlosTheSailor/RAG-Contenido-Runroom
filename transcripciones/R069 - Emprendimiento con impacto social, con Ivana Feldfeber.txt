@@ -1,0 +1,183 @@
+[00:00:00.870] - Carlos Iglesias
+Emprender suele relacionarse con negocio y con riesgo. ¿Quién te viene a la cabeza si te pregunto por ejemplos de emprendimiento? ¿Y si ahora te pregunto por el impacto social de esas empresas? La mayoría de negocios que han triunfado lo han hecho construyendo sobre una oportunidad identificada de captura de valor. Pero hay otras formas de emprender. En el emprendimiento social, el problema que se enfrenta no se resuelve con una solución de consumo. De hecho, en algunas ocasiones los problemas son precisamente derivados de un consumismo sin mesura. Soluciones innovadoras para resolver problemas sociales, desde la deforestación del Amazonas a la detección precoz de la dislexia, pasando por múltiples desigualdades sistémicas. Y en ese terreno es donde juega Ivana Feldfeber. Ivana, nos conocimos hace un poquito en la Cumbre Tech4humanity, organizada por Ashoka, rodeados de personas increíbles que dedican su vida al emprendimiento social. En tu caso, eres cofundadora y directora ejecutiva de DataGénero https://datagenero.org/, el primer observatorio de datos de género de América Latina y trabajas hace varios años en la intersección entre las políticas digitales, el trabajo con inteligencia artificial responsable desde una perspectiva de género. Fuiste investigadora en el Centro de Inteligencia Artificial y Políticas Digitales para el Análisis de Políticas Públicas de IA en América Latina.
+
+[00:01:36.540] - Carlos Iglesias
+Tienes un posgrado en Ciencia de datos, aprendizaje automático y sus aplicaciones por la Universidad de Córdoba, Argentina. Y es un honor contar con tu presencia en este podcast dos días antes de tomar un avión con destino a la sede de la ONU en Nueva York. 
+
+[00:02:00.780] - Carlos Iglesias
+¿Qué es para ti el mundo real?
+
+[00:02:14.780] - Ivana Feldfeber
+Yo todo el tiempo hablo del mundo real y del mundo virtual, como si fuesen dos mundos diferentes y distintos. Hay algo que sucede cuando hablamos entre dos personas, nos miramos a los ojos. Para mí, el mundo real es cuando nos encontramos con otra persona y salimos de esta lógica, a la cual nos tienen bastante acostumbradas las redes sociales, de otros tiempos y de poder pensar mucho más lo que vamos a decir. Es más genuino el mundo real.
+
+[00:02:51.770] - Carlos Iglesias
+¿De dónde surge DataGénero?
+
+[00:02:57.920] - Ivana Feldfeber
+Venía dándole vueltas a lo que quería hacer y dije: un observatorio, porque DataGénero es un observatorio de datos con perspectiva de género, pero para llegar a ese punto, yo comencé en el mundo de la programación, enseñándole programación a niños y adolescentes en escuelas. Aprendí a programar para enseñar los fundamentos de la programación; me empezó a gustar y quería cada vez aprender más. Y ahí empecé a hacer un curso de ciencia de datos, becada por Facebook, empecé a buscar dónde estaba la intersección con lo social y con el género, porque no la encontraba. Encontraba que todo era mucho para marketing y para hacer mucho dinero y todas las métricas y predecir el churn y todas las cosas que tenían que ver con los clientes.
+
+[00:04:26.910] - Ivana Feldfeber
+Y a mí eso mucho no me interesaba. Yo estudié Ciencias de la Educación, por eso me metí en el tema de enseñar programación, y trabajé muchos años con violencia de género en barrios muy humildes de Buenos Aires, enseñando en talleres sobre la violencia de género, cómo prevenirla, cómo darse cuenta cuando estaban en una relación violenta. Esto antes de que sea un tema tan candente, en 2011, 2012 empecé con esos temas y con ciencia de datos comencé en 2017. Empecé a ir a congresos, empecé a buscar, a leer dónde había esta intersección entre datos y género y encontré algo en inglés, pero en español no había tanto. Había algunas iniciativas muy pequeñas, pero no había algo concreto que mezcle estos dos mundos. Fui a un congreso de inteligencia artificial latinoamericana en Montevideo en 2019, buscando estas aplicaciones, no encontré nada, ni se hablaba de ética en ese momento. Claramente, lo ético empezó a surgir en 2022 con más fuerza y hubo como un pico de papers y de investigaciones con lo ético en machine learning, pero no había nada en ese momento.
+
+[00:05:49.350] - Ivana Feldfeber
+Y ahí es donde empecé a pensar: ¿Qué armó? Y cuando vino esto de observatorio me pareció interesante porque observando también estamos incidiendo y modificando. No es lo mismo que los gobiernos, por ejemplo, no estén siendo observados en estos temas, a que sí haya gente que esté mirando. Y la mirada también modifica algunas de las lógicas que hay adentro y empiezan a pasar otras cosas.
+
+[00:06:39.360] - Ivana Feldfeber
+Y ahí justo me habían invitado a un data camp de datos y género que había organizado Mailén García, que es otra de las cofundadoras, y ahí todo se fue alineando, porque yo venía con esta idea, venía invitando a algunas personas que sabía que eran feministas, que trabajaban con ciencia de datos, pero no trabajando con ciencia de datos en género. Conocí a Mailén, conocí a Yasmín, que es otra de las fundadoras, y ahí es donde empezamos a pensar en este espacio. Tuvimos una reunión presencial y después estuvo la pandemia con todo el lockdown. Era pandemia y estaba el Gobierno haciendo lo que podía con una crisis de salud, y no queríamos hacer pedidos de acceso a la información pública sobre temas de género, por ejemplo, porque todos los recursos estaban destinados a otros lados. Y cuando se fue calmando eso, sí empezamos a hinchar un poquito para que nos puedan dar los datos que queríamos y nos dimos cuenta de que no estaban los datos que queríamos también.
+
+[00:07:47.750] - Ivana Feldfeber
+Estábamos 10 casilleros atrás de lo que queríamos. Pensábamos que podíamos tener un montón de datos para analizar y para generar reportes y visualizaciones, pero no teníamos esos datos. Entonces teíamos que empezar a capacitar a la gente del Gobierno para que empiece a recolectarlos o que si hay algo parecido y que podamos cruzar y armar una base de datos cruzada, hacer eso. Entonces, fue un trabajo un poco más detectivesco y de capacitación.
+
+[00:08:20.830] - Carlos Iglesias
+¿Cuántas personas trabajan en DataGénero?
+
+[00:08:40.920] - Ivana Feldfeber
+Somos cuatro que estamos en las operaciones constantes, no full time, porque todas tenemos otros trabajos, y después tenemos equipos de analistas que trabajan por proyecto. Un equipo de 12 personas, todas mujeres cis, que están trabajando en diferentes proyectos en función del área que estamos: el área legislativa, judicial, ejecutiva... En capacitaciones tenemos otro equipo también.
+
+[00:09:11.790] - Carlos Iglesias
+Entiendo que uno de ellos es AymurAI. ¿Qué es AymurAI? 
+
+[00:09:18.700] - Ivana Feldfeber
+AymurAI https://datagenero.medium.com/aymurai-inteligencia-artificial-responsable-para-una-justicia-abierta-y-con-perspectiva-de-g%C3%A9nero-7d473e438951 es como nuestra joyita.
+
+[00:09:22.270] - Ivana Feldfeber
+Nosotras veníamos hablando mucho sobre los riesgos de la IA, los sesgos, las desigualdades de poder en la sociedad y cómo eso hacía que las soluciones de IA también reflejen esas desigualdades y haya problemas. Pero en 2021, Paola Ricaurte, que es una investigadora ecuatoriana, que es maravillosa, ella trabaja mucho con temas de IA y feminismos y activismos y también de colonialismo, me escribe y me dice: Hay una convocatoria abierta para generar inteligencia artificial para los feminismos, que ellas le dicen inteligencia artificial feminista.
+
+[00:10:09.290] - Carlos Iglesias
+Me sorprendió leer en vuestras páginas "feminismo de datos", que es algo que no había leído nunca. Me pareció un concepto interesante.
+
+[00:10:20.090] - Ivana Feldfeber
+Es un concepto muy interesante acuñado por Catherine D'Ignazio y Lauren F. Klein, del MIT. Ellas escribieron un libro buenísimo que se llama Data Feminism y le tradujimos al español. Fue una traducción colectiva de muchas personas con esta mirada también transfeminista, interseccional, de cómo traducir del inglés al español, que tiene todo una lógica distinta. Y escribimos un capítulo de todas las decisiones que tomamos para esa traducción de feminismo de datos.
+
+[00:10:56.610] - Ivana Feldfeber
+Volviendo a feminista, la inteligencia artificial en sí no puede ser feminista, como no puede ser feminista esta taza. Hay algo de lo que las personas le ponen y hacen con esa herramienta, qué acciones se pueden tomar, etcétera, que hacen que sea IA para los feminismos o IA con metodologías feministas, etcétera.
+
+[00:11:18.650] - Ivana Feldfeber
+Pero bueno, me llama Paola y me dice: "preséntense a esta convocatoria para armar inteligencia artificial". Yo ya había entrenado varios algoritmos, había programado en la diplomatura, en diferentes espacios, pero esto era una tarea un poco más grande. Y Yasmín, una de las cofundadoras, trabaja en el juzgado número 10 de la Ciudad Buenos Aires, que es un juzgado muy moderno y muy innovador en sus políticas de transparencia y de datos.
+
+[00:11:45.790] - Ivana Feldfeber
+Ellos vienen recolectando datos de manera manual hace muchísimos años. Tienen una base de datos enorme de todas las sentencias del juez. Esta es una iniciativa del juez Pablo Casas. Y querían hacer algo para automatizar ese proceso de carga de datos, porque lleva mucho tiempo, hay que entrenar mucho a las personas para que lo puedan hacer y tiene muchas inconsistencias la carga de datos manual. Y claramente es un problema que sí se puede resolver con IA. No vamos a resolver la violencia de género con IA, pero sí podemos resolver que un juzgado que quiere cargar sus datos de manera semiautomática, lo pueda hacer. Entonces, la IA para temas administrativos nos parece que es algo muy interesante para implementar, por ejemplo, en los poderes judiciales. Nuestra IA es un name and title recognition muy sencillo que lee la sentencia judicial y detecta la información relevante de la marca y la podés ir llevando a un formulario, y ese formulario arma una fila del set de datos. Entonces, no predice nada nuestra IA en el sentido de predecir comportamiento o predecir la violencia de alguien.
+
+[00:13:01.860] - Ivana Feldfeber
+Toma las etiquetas y las pone en la base de datos.
+
+[00:13:04.920] - Ivana Feldfeber
+Para eso hubo que entrenarlo y el personal del juzgado estuvo etiquetando y haciendo toda la parte de preprocesamiento de los datos, que obviamente les pagamos muy bien porque es un trabajo muy tedioso el de etiquetado de datos, que siempre está invisibilizado, está muy precarizado e intentamos que esta vez no sea así. Así que el personal de juzgado estuvo trabajando dentro del juzgado, con esos datos para generar datos falsos primero, para que esos datos falsos sí puedan salir del juzgado sin poner en riesgo la vida de nadie, porque estamos hablando de datos muy sensibles. Entonces, todos los nombres, direcciones, DNI, todo fueron anonimizados, pero con nombres falsos para que igual se pueda entender. Lo que queremos es justamente detectar, por ejemplo, los datos del agresor y los datos de la víctima. Y queremos saber si la víctima es mujer cis, si es mujer trans, si es varón... Y para eso hacía falta que esté en los nombres y que esté la información.
+
+[00:14:15.580] - Ivana Feldfeber
+Es un trabajo muy tedioso, pero lo hicieron para que eso pueda servir de ese entrenamiento. No lo podíamos hacer con los datos reales, por un tema de privacidad y de seguridad. Pero tenemos una base de datos sintética que funciona muy bien, y esa base de datos sintética fue a otro grupo de etiquetadores que etiquetaron lo que sí queríamos detectar, que eran todos los datos del set de datos.
+
+[00:14:47.430] - Ivana Feldfeber
+O sea, fue una tarea compleja con muchos pasos que si hubiésemos tenido los datos así crudos, hubiese sido más fácil. Pero estamos hablando de sentencias judiciales, uno de los datos más sensibles, como las historias clínicas que puede haber en la sociedad. Y esa fue como la primera iteración del proyecto en la cual igual tenemos esta feature de armar bases de datos a partir de sentencias judiciales que funcionan superbien.
+
+[00:15:21.000] - Ivana Feldfeber
+Y después tenemos otra feature nueva que es de anonimizar los documentos, que es algo que los juzgados piden muchísimo porque están obligados a subir las sentencias judiciales anonimizadas a internet, pero tienen que tacharlo con un marcador, porque no tienen la tecnología para hacerlo. Entonces, generamos este feature de anonimización, donde subir la sentencia, aparece detectada toda la información sensible y cuál sería la etiqueta que va a aparecer arriba. Entonces, dice el día y fecha, (en vez de decir la fecha), persona, denunció a persona, DNI. Y como que no aparece nada de la información sensible, eso hace que sea mucho más sencillo. Se sube en formato ODT, que es software libre también, y esa es nuestra pequeña IA, pero que hace bastante para problemas de los juzgados con respecto a generar bases de datos y a generar documentos anonimizados para poder subirlos.
+
+[00:16:21.330] - Carlos Iglesias
+Al final el objetivo es recolectar toda esa información, porque los jueces no están subiendo únicamente casos de violencia de género, sino que están subiendo archivos en general. Y es la IA quién está identificando qué tipo de archivos corresponden con posibles casos de violencia de género.
+
+[00:16:42.470] - Ivana Feldfeber
+La IA lee todos los archivos. Lee archivos de narcotráfico, de un accidente vehicular, alguien que se metió en un estadio de fútbol sin entrada, o sea, de todo. Cualquier cosa que te imagines, lo lee la IA, lo detecta y puede detectar qué artículo infligió y cuál era la conducta y todo. También detecta si es violencia de género, sí o no. Y si dice sí, tenemos un pipeline distinto, con más campos específicos sobre la violencia de género. Entonces, si es violencia de género, tenemos qué tipo de violencia de género es: si es física, sexual, económica, patrimonial, psicológica. Tenemos muchos tipos de violencia de género. Entonces, en general el juez redacta en la sentencia qué tipo de violencia de género es y nuestra guía lo reconoce. Después hay mucha información, por ejemplo, si tenían o no hijos en común, que eso también es fuente de extorsión en muchos casos, si fue en un ambiente laboral, si fue en un ambiente educativo, en transporte público, en el domicilio. Entonces, tenemos un montón de información más granular sobre estos casos de violencia de género, que tal vez para un caso de narcotráfico no lo tenemos, pero lo podríamos tener también.
+
+[00:17:59.500] - Ivana Feldfeber
+Podemos abrir ventanas para cada uno de los casos para tener mucha más información. Pero es infinito y no tenemos tanto dinero como para poder hacer ese mega desarrollo. Este financiamiento que nos bancó este desarrollo era en particular para entender temas de feminismos y de género. Entonces, apuntamos a la violencia de género antes de llegar al femicidio. No se sabe mucho de eso, porque hay mucha de la violencia género que queda puertas adentro y se calla y no se dice y no se quiere ir a la policía a denunciar. Hay muchos problemas. Con eso no tenemos datos. Tenemos muy pocos datos o tenemos datos activistas de personas que van acompañando a las víctimas, pero tenemos muchos datos de las víctimas que sí deciden denunciar y entran al sistema judicial. ¿Qué pasa ahí? ¿Los jueces hacen lugar a los pedidos, por ejemplo, de perimetral o de prisión preventiva? ¿O no? Este juez con el que venimos trabajando es muy sensible al género. Entonces, tenemos un sesgo con respecto a nuestras sentencias, que la mayoría hacen lugar a los pedidos de las mujeres y de las personas trans y no binarias de protección.
+
+[00:19:15.780] - Ivana Feldfeber
+Pero no es el caso en general de la Argentina ni de América Latina. Sabemos que tenemos ahí un desbalance, pero no es tan importante, porque lo que hace la guía no es decidir qué va a resolver el juez, sino nada más contarlo. Entonces, podemos subir un montón de sentencias de jueces que no hacen lugar a los pedidos y también va a aparecer en la base de datos.
+
+[00:19:36.020] - Carlos Iglesias
+Vosotras ahora mismo estáis trabajando con el juzgado número 10 y con el 14. ¿Hasta qué punto crees que esto se puede expandir al resto de juzgados y qué fricciones ves?
+
+[00:20:09.050] - Ivana Feldfeber
+Creo que tenemos un público limitado que quiera voluntariamente adoptar estas herramientas, porque más transparencia implica observar y que no valga hacer cualquier cosa. Entonces, vamos a ir a contar con un set de juzgados muy interesante, con mucha voluntad, y un montón de juzgados que no van a querer saber nada con todo esto. Y nuestro siguiente paso es ir a la legislatura para que esto sea algo obligatorio. No queda otra. Que haya un sistema, que tal vez no dependa de nosotras si ya lo toma, no sé, la Corte Suprema de Justicia, en el cual centralicen todos los datos de todos los juzgados y todos los juzgados estén obligados a generar estos datos y anonimizar todas las sentencias y subirlas para que todo el mundo las pueda ver. No todas las sentencias, hay algunas sentencias en particular que ni siquiera se publican porque son muy fáciles de trazar a individuos, hay que tener como ciertas cautelas con respecto a los datos y la trazabilidad de individuos, pero la mayoría de las sentencias se suben dentro de estos juzgados que deciden hacerlo.
+
+[00:21:26.160] - Ivana Feldfeber
+Lo ideal sería que sea algo obligatorio, que tengan que sí o sí hacerlo, como lo es reportar datos de un montón de otros sistemas en nuestro país, que también funciona más o menos, pero queremos impulsar que haya una ley de apertura de datos de los poderes judiciales.Va a ser muy difícil Un poco nos sentimos Quijote contra los molinos, porque el poder judicial es uno de los poderes más fuertes y pesados de la Argentina y también poco transparentes, opacos.
+
+[00:21:55.460] - Carlos Iglesias
+En América Latina era un 25% de desconfianza en el sistema judicial y en Argentina, un 16% Esto puede ayudar a que mejore la confianza en el sistema judicial, básicamente por la propia observabilidad, que al final observas un sistema, ese sistema lo modificas y le estás dotando de transparencia y, por lo tanto, evitas malas prácticas.
+
+[00:22:36.140] - Ivana Feldfeber
+Es una parte pequeña, porque también tenemos todo lo que es las denuncias policiales y las comisarías, que ya es otra parte, que es el aparato represivo del Estado, en el cual también tenemos muy poca información de qué es lo que sucede allí y es muy complejo obtenerla, porque hay mucha impunidad.
+
+[00:23:02.180] - Ivana Feldfeber
+Hace unos años hubo un caso de una chica que fue asesinada por su ex novio, fue a denunciar 16 veces. Pasó por muchas comisarías, nadie le hizo caso. Es muy complejo. Entonces, hay una parte que puede ser observar el poder judicial que deciden los jueces, porque aparte no podemos tener datos de los casos, porque cuando no están cerrados los casos, todavía no se pueden publicar. Tienen que publicar una vez que hay una sentencia firme. Entonces, todo lo que pasa antes, hasta que se llega a esa sentencia, tampoco lo tenemos. Tenemos un pedacito del rompecabezas, lamentablemente.
+
+[00:23:42.470] - Carlos Iglesias
+Me gusta mucho esto de esta postura interseccional, feminista y anti solucionista.
+
+[00:24:32.140] - Ivana Feldfeber
+Argentina es un país profundamente racista y dice que no es racista porque no tiene personas negras, lo cual es mentira. Simplemente, el argentino es muy bueno invisibilizando a las personas marrones y negras dentro del país, a las personas indígenas. No aparecen en las películas, no aparecen en las publicidades, no están en cargos de poder y eso es racista. Entonces, intentamos también, desde esta mirada interseccional, visibilizar muchas opresiones y muchas desigualdades de poder dentro de la sociedad. No nos interesa solamente los temas de género, sino que nos parece como un buen móvil para visibilizar un montón de cosas que andan mal en este mundo. Y hemos trabajado en particular con Eugenia Figueroa, de Identidad Marrón, que ella tiene un Instagram que es Soy Mujer Colla https://www.instagram.com/soymujercolla/, donde trabaja mucho sobre estos temas de racismo en Argentina. Hay pocas personas que hablan y que son visibilizadas por las redes sociales, ni siquiera los medios.
+
+[00:25:35.000] - Ivana Feldfeber
+Y también está otro muchacho, David, de Identidad Marrón, que vienen denunciando que hay un racismo y una invisibilización completa en Argentina. Yo creo que hay algo dentro de la sociedad que prejuzga mucho, porque hay mucha persona blanca que se cree europea en Argentina, sobre todo en Buenos Aires. Y cuando vas a diferentes ciudades o áreas rurales del resto de país, pasan otras cosas. Todo pasa en Buenos Aires, entonces, hay muchísima gente blanca, también hay mucha gente marrón y negra, pero lo que se ve y los que gobiernan y los que están en todos lados son personas blancas. También pensamos en temas de discapacidad; nos interesa visibilizar a través de los datos lo que no anda, lo que no funciona, y la gente que queda invisibilizada.
+
+[00:26:51.580] - Ivana Feldfeber
+Y con respecto al antisolucionismo, nos interesa entender que la tecnología no va a solucionar los problemas sociales. Por ejemplo, un algoritmo no va a solucionar la pobreza o el hambre o la violencia. No funciona así y yo creo que hay mucha gente que tiene esa ilusión, ese optimismo, esa esperanza de que la tecnología nos va a salvar y nos va a solucionar los problemas. Y nosotras tenemos una postura opuesta por completo, que creemos que los problemas sociales se tienen que resolver con la sociedad, con personas humanas detrás, con dinero.
+
+[00:27:39.070] - Ivana Feldfeber
+Hay mucho financiamiento para investigar temas de inteligencia artificial para temas sociales. Okey, pero si queremos solucionar violencia de género, hacen falta millones y millones de la moneda que sea, para trabajar en territorio, para trabajar capacitando, para acompañar, para que haya casas de contención para las mujeres que huyen de sus hogares, dispositivos territoriales, y para eso nunca hay dinero.Y hay un problema de distribución de la riqueza.
+
+[00:28:13.850] - Ivana Feldfeber
+Las grandes empresas tienen este fetiche de la IA y tal fondo da 5 millones de dólares para los 10 proyectos que tengan iniciativas para reducir el hambre con IA. Esas empresas que tienen billones y billones de dólares, podrían hacer muchísimo más realmente poniendo el dinero donde hace falta. Yo creo que estas son algunas distracciones. Las soluciones no van por acá. Esto es interesante porque podemos pensar en que la inteligencia artificial puede servir para algunas cosas, sí, buenísimo, pero no estamos resolviendo ningún problema. Eso quiero que quede claro. ¿Están resolviendo la violencia de género con inteligencia artificial?. No, de ninguna manera no queremos quedar asociadas a eso porque es superpeligroso ese discurso.
+
+[00:29:09.860] - Carlos Iglesias
+¿Cómo ha afectado el cambio de gobierno en Argentina a todos estos temas? Sí que ha habido un decreto detrás de otro prohibiendo políticas relacionadas con género.
+
+[00:30:13.680] - Ivana Feldfeber
+Pasó que el gobierno anterior también, en vez de solucionar problemas de base, se tomó estos temas más progresistas de agenda, como es el feminismo, y armó dispositivos de lenguaje inclusivo y de políticas de género, tal vez descuidando otras áreas. Y hay una gran parte de la sociedad que está cansada del feminismo. Y también porque hay una parte reaccionaria de la sociedad argentina. A mí, voy a decir algo muy polémico, no me importa tanto que prohíban el lenguaje inclusivo o la perspectiva de género en el Gobierno. Sí nos nos prejudica al observatorio directamente, pero me preocupan más las cosas que son más difíciles de desandar, de deshacer. Si venden un glaciar a un extranjero, si Elon Musk viene por todo el litio de la Argentina, eso es mucho más difícil de desarmar que volver a instalar el lenguaje inclusivo o la perspectiva de género en el Gobierno. Hay como niveles de desastre que son muy distintos. El 8M, el Gobierno de mi ley, cerró un salón de la Casa Rosada, que era el Salón de las Mujeres del Bicentenario, y le puso de nombre el Salón de los Próceres, simbólico hasta la médula.
+
+[00:31:37.900] - Ivana Feldfeber
+En vez de preocuparse por todo el desastre económico que está pasando, eligieron poner mucho enfoque, énfasis en este salón. Eso simbólicamente es muy fuerte, pero nos tiene hablando de eso, en vez de hablar de todo lo demás. Y sacar el póster de Menem y dejar el de Juana Azurduy, es algo que se hace en un día. Pero recuperar el litio, no sé cuándo lo podemos llegar a hacer. Entonces, no quiero que el debate sobre feminismo desvíe la atención de lo que realmente importa, que es que hay gente que no tiene para comer, que hay gente que le está pasando muy mal, que está cayendo en la pobreza vendiendo todos sus bienes para poder sobrevivir y nos quieren mantener con esto de la perspectiva de género. Me importan otras cosas, en ese sentido me preocupan muchas otras cosas. Que prohiban la perspectiva de género del Gobierno, nos corta nuestro proyecto de acompañar a los gobiernos para que tengan mejores datos y mejores políticas públicas de género, sí. Pero bueno, veremos por donde vamos, no importa. Cuando la gente no tiene para comer y empiezas el malestar social y un estallido social, ya hay como algo que se termina de romper y no es tan fácil de arreglar con eso fácilmente.
+
+[00:33:13.580] - Carlos Iglesias
+¿Qué habéis podido aprender hasta ahora de toda la información que habéis recolectado? ¿Tenéis evidencias?
+
+[00:33:22.050] - Ivana Feldfeber
+Está muy difícil. En Argentina tenemos muy poco. Esa es la gran pregunta que nos hacen, porque a todos los fondos, volviendo a estos de los financiamientos, les gusta que muestres tu impacto y que muestres qué podés aprender. Y si no hay datos, tenemos que empezar por recolectarlos y por tener datos sustanciales para poder sacar conclusiones. No queremos sacar conclusiones de una base de datos de mil filas porque sería un poco irresponsable de nuestra parte. Por ejemplo, armamos la base de datos de las últimas elecciones de la paridad en las listas y en el Congreso. Nunca hay paridad, por ejemplo, lo aprendemos. Pero si no lo tenemos en datos, no lo podríamos saber, es algo que intuimos, que sabemos, pero no sabemos. Tenemos algunas bases de datos, pero también tenemos muchos emails rechazados de pedidos de acceso a la información para completar algunos rompecabezas. Tenemos la ley de matrimonio igualitario, donde la gente se puede casar del mismo sexo desde 2012 y no sabemos cuánta gente efectivamente se casó. Porque hay muchas provincias que no tienen esa información o no la quieren dar. Otras dicen que no están recolectándola porque asumen que todas las parejas son heterosexuales, entonces no registran el sexo de las personas. Eso nos dicen. Entonces, de las 24 provincias de la Argentina, obtuvimos ocho provincias con datos que servían para sacar conclusiones. Entonces, no podemos hablar de un país, podemos hablar de ocho provincias. Podemos ver algunas tendencias. Por ejemplo, que el primer año que se sancionó la ley, mucha gente de 50 para arriba se casó y después se fue equilibrando, pero que había mucha gente esperando para casarse, para que salga la ley para casarse y poder gestionar mejor sus bienes y declarar su amor también, pero hay una parte pragmática del matrimonio que no la estaban pudiendo tener estas personas. Lo podemos ver, pero no lo podemos ver para todo el país. Y no podemos saber qué pasa, por ejemplo, en las provincias más conservadoras, más católicas. Esos datos no los tenemos. Entonces, es muy difícil decir: "Tenemos este impacto porque los datos que reclectamos cambiaron la vida de tantas personas", porque estamos en una etapa mucho más inicial y van a llevar muchos años y aún más con un gobierno que desestima todo esto y está borrando datos.
+
+[00:36:05.630] - Ivana Feldfeber
+Lo que hicimos con un grupo de activistas fue scrapear todos los datos que había antes de que empiece la nueva gestión y tenemos 2 TB o más de información de datos oficiales que estaban subidos y que de a poco se están dando de baja y no aparecen más o no se actualizan más. Entonces, estamos resguardando la información. Nos van a quedar batches de cuatro años cuando haya gobiernos que no les interesa la apertura de datos. Pero bueno, por lo menos estamos guardando algo de eso.
+
+[00:36:45.790] - Carlos Iglesias
+Me interesa mucho también el acercamiento científico científico-social hacia el producto, con el foco en impacto social. Al final, este tipo de proyectos sobreviven gracias a financiación. El mundo startup hablamos de problem solution fit, product market fit. Estamos encarando problemas que merecen la pena ser resueltos desde una perspectiva de mercado, porque es un problema lo suficientemente grande y con un segmento de mercado lo suficientemente jugoso como para acometer ese problema. Y en vuestro caso, estáis yendo a un problema social, independientemente de cuál es el modelo de revenue y esto me parece fascinante por desconocido por mi parte.
+
+[00:38:33.840] - Ivana Feldfeber
+Sí, yo te digo que tenemos que aprender un poco de los dos mundos, tal vez podríamos tener la vida un poco más fácil si tuviésemos esta mirada de tenemos un producto que está bueno, ¿cómo podemos hacer para que llegue a más gente, pero a la vez que sea autosustentable? No queremos crecer y tener una empresa con 200 empleados, no es el objetivo, ni tampoco queremos tener programadores inhouse en este momento porque es supercaro, pero sí tener un modelo de negocios, que es algo que en este momento no estamos teniendo, nos encantaría que suceda, para pensarlo en un punto sustentable, no queremos ser millonario, no va por ahí, pero sí que pueda llegar a muchos lugares sin que nos cueste la vida a nosotras. Porque hay algo de ser emprendedor social, que es dejo vida entera por el emprendimiento, que yo ya aprendí que eso no more. Tuve burn out el año pasado y la verdad que hay que balancear vida y trabajo, y que el trabajo pague bien para poder vivir bien sin estar pensando todo el tiempo cómo hacemos para llegar a fin de mes.
+
+[00:39:49.270] - Ivana Feldfeber
+Hay que pensar estas cosas y también poder priorizar la familia, los afectos, el ejercicio, la parte cultural, que no todo sea trabajo, porque es muy fácil quedar en eso. Es muy fácil vivir de viaje, también. Yo ahora estoy de viaje y poner a 80 reuniones y seguir trabajando virtual y al mismo tiempo también presencial. Hay que poner límites. Y esos límites también implican cuidar lo que uno construyó para que sea sostenible y sustentable en el tiempo y que los equipos no se quemen, no se vayan a otros lugares. Es difícil porque trabajamos con inteligencia artificial, ciencia de datos, y los sueldos son muy competitivos en la industria. Por más de que ahora está un poco pinchada y cuesta un poco más, es más atractivo irse a otro lugar y desconectar el cerebro cuando trabajo y que no me importe tanto. Entonces, estaría bueno pensar un poco más en algún modelo de negocios en algún momento para que esto sea algo sostenible en el tiempo.
+
+[00:40:49.080] - Carlos Iglesias
+Entiendo que parte de vuestra estrategia es open source en ese sentido también. Estamos apelando a la contribución de la comunidad para que ayuden. ¿Cuál ha sido el impacto de esto?
+
+[00:41:04.070] - Ivana Feldfeber
+Nada, no hubo mucha crítica todavía. Si alguien tiene ganas escuchando, que venga y que mire un poco el código en github.com/Aymurai https://github.com/aymurai y ahí está todo: el front y el backend. La idea de que sea open source tuvo que ver con este financiamiento que nos facilitó este desarrollo de la herramienta, que era uno de los requisitos. Pero yo siempre fui usuaria de Linux y siempre fui del software libre y me parece que es superalineado con nuestro espíritu, digamos, dentro de DataGénero.
+
+[00:41:46.540] - Carlos Iglesias
+¿Qué estrategia veis a largo plazo?
+
+[00:41:56.930] - Ivana Feldfeber
+Una de que estamos intentando llevar es llevar a Aymurai y este proyecto a otros países, porque en Argentina en este momento no estamos pudiendo. Y con apoyo de los gobiernos, y tal vez con algunos sponsors también, no es algo que descartemos, poder implementar algunos de estos dispositivos en el territorio para tener estos datos un poquito más representativos, una muestra poblacional un poco mejor. No hace falta que estén todos los juzgados de todos lados, sino tomar una buena muestra y ver eso. Está difícil, estamos pensándola.
+
+[00:42:48.770] - Carlos Iglesias
+¿Cuáles son las dificultades de ser emprendedora social?
+
+[00:43:15.640] - Ivana Feldfeber
+Es superimportante desconectar. Dejar el celular, leer libros que no sean de este tema, porque tengo una pila de libros de trabajo también que hacen que una no pueda desconectar. Me parece que es clave y lo vengo hablando con muchos emprendedores sociales que llegan al burn out. Todo el mundo puede llegar al burn out, en una empresa también trabajando, porque sistemas de trabajo opresivos y muy precarios. Pero siendo emprendedor social, tiene ese costado de: "Doy mi vida por esto".
+
+[00:45:07.980] - Carlos Iglesias
+¿Cómo es tu visión de la situación actual de la inteligencia artificial?
+
+[00:45:21.030] - Ivana Feldfeber
+Humo sobre el agua.
+
+[00:45:27.070] - Ivana Feldfeber
+Hay mucho humo, no hay nada detrás, mucho cascarón vacío y mucha gente queriendo hacer IA por hacer IA, y lo que quiere hacer es con datos, no con IA o con estadística. Me parece interesante pensar en la tecnología más amplia que la IA solamente. Hay un montón de tecnología superinteresante y superpotente, no solucionista, pero que puede hacer un montón de cosas interesantes. Muchas de las consultas que nos vienen por el lado de la IA, al final son consultas de datos. Sin buenos datos, no hay una buena IA. A la vez, hay algo un poco peligroso de cómo se está pensando la IA, de esto de predecir los comportamientos, de predecir el delito, de predecir quién puede tener un crédito bancario, o quién puede tener la libertad condicional. Es muy complejo que un algoritmo pueda decir sobre la vida de las personas. Me parece problemático mínimo.
+
+[00:46:43.510] - Ivana Feldfeber
+Y que no haya nadie detrás revisando eso. Se dice human in the loop, como un humano que esté metido en todo ese sistema de toma de decisiones. Pero debería ser al revés, debería ser el centro deberían ser las personas y la IA es una parte más, que nos rodea a todos, que está ahí y que puede ayudar en algunas cosas. Pero me parece muy problemático pensar en que nos va a salvar o que va a tomar toda nuestra vida por completo.
+
+[00:47:25.100] - Carlos Iglesias
+No hay mejor receta para la inacción que la desesperanza. Si bien es cierto que son tendencias observables en nuestros tiempos todo tipo de negacionismos, manipulaciones en masa y tecnologías al servicio de la propaganda y la desinformación, también lo es que hay motivos para tener esperanza. Creo que es importante recordar siempre la célebre frase de Margaret Mead: Nunca dudes que un pequeño grupo de personas comprometidas pueda cambiar el mundo. De hecho, es lo único que lo ha logrado.
+

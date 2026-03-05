@@ -1,0 +1,315 @@
+[00:00:00.330] - Carlos Iglesias
+Al arrancar la segunda temporada del podcast os comenté dos cosas una que quería empezar a explorar territorios en los que no tuviese tanto expertise y dos que me hacía ilusión dar voz a amigos y amigas míos que merecen la pena conocer como ya está siendo lo que está pasando los últimos episodios. Pues bien yo creo que el programa de hoy es un ejemplo de ambas cosas. Hace poquito que hemos empezado a cacharrear con interfaces conversacionales en RAM ROM y éste era uno de los temas que más me apetecía explorar blockchain interfaces no gráficos.
+
+[00:00:41.190] 
+ Son temas que en realidad acaban de nacer y muy pocas personas pueden opinar desde la experiencia no ser una de las primeras compañías que estampan sus logos en el marketplace de Alexa es actualmente una oportunidad de posicionamiento de las marcas. Todas quieren proyectar valores de innovación y modernidad. Pero claro en el mundo real quién puede permitirse un skin de Alexa no está solo al alcance de unos poquitos verdad pero en el mundo real cuando al mundo real le precede pero deja de ser un lugar se convierte en una excusa.
+
+[00:01:22.700] 
+Si de una forma u otra eres responsable de la transformación de la compañía donde trabajas aquí encontrarás la manera de desactivar esos pretextos ese portazo al cambio ese aquí no se puede. Este podcast es para quienes estáis convencidos de que las empresas deben poner al cliente en el centro de la estrategia y a las personas de la organización en el corazón de la misma. Aquí adquirirá una visión estratégica y a la vez practica a través de ejemplos y experiencias que os dotarán de argumentos en el idioma favorito de la alta dirección. El lenguaje de negocio no sólo hablaremos del qué sino también del cómo y en el episodio de hoy os presento a Cristina Santamarina. Ella es fundadora de Neon Project y atesora una experiencia brutal como podréis comprobar a continuación. 
+
+[00:02:14.580] 
+Soy Carlos Iglesias CEO de Runroom y profesor en varias universidades y escuelas de negocio como Esade que exculpaba. Os doy la bienvenida al vigésimo segundo episodio de en el mundo real el podcast sobre Castorena Experience y negocio digital. 
+
+[00:02:29.900] 
+Bueno pues aquí estamos con Cristina Cristina muchísimas gracias por estar en mi casa. 
+
+[00:02:53.160] - Cristina Santamarina
+Muchas gracias a ti por invitarme. Tú sabes que yo creo que has escuchado algún episodio. Me gusta mucho que la gente que los invitados los presentáis me gustaría que le expliques a la gente de Sortu cuál es tu background de dónde vienes porque yo creo que tienes un background muy interesante.
+
+[00:03:10.510] - Cristina Santamarina
+Bueno pues yo tengo un background un poco extraño. Yo dejé la carrera Estudié ciencias puras en bachillerato me metí a Ciencias Políticas y al año lo dejé para ser recepcionista y un año después de empezar a ser recepcionista me ofrecieron irme a República Checa a la oficina de servicios compartidos para Europa del Este áfrica y allí estuve tres años salí de allí volví a Valencia duré muy poquito tiempo me metí en el mundo del coworking y acabé en Berlín y cuando llegué a Berlín fue como el despertar tecnológico. Yo ya había trabajado en la empresa donde estuve en Praga entre tecnología de negocio pero Berlín fue como reforzar que era mi sitio que se me daba bien era traducir de una parte del negocio tecnológico a la otra tecnología.
+
+[00:03:54.660] 
+Berlín.
+
+[00:03:56.820] 
+Berlín tenía mucha energía de muchos tipos muy diferentes pero una de ellas es que hay muchísimo emprendimiento y mucha tecnología en la parte tecnológica era un sitio en el que antes de que yo lo viera aquí en España ya había muchos grupos de usuarios muchos talleres de programación gratis y súper diversos y sí tiene muchas posibilidades.
+
+[00:04:17.460] 
+Siempre me ha interesado la tecnología siempre me ha interesado la tecnología sí pero siempre desde el punto de vista de usuario. Yo tengo un portátil desde que tengo seis o siete años porque en mi casa había máquinas y nos dejaban jugar con ellas y siempre las he visto como una cosa que estaba ahí y luego ya después sí que empezó a interesarme más el qué hay detrás cómo funciona cómo se hace hasta hoy y bueno había una parte que yo sé que estoy jugando un tiempo haciendo explica un poquito más. Bueno estuve en esto en donde más estados en línea.
+
+[00:04:53.730] 
+Cuando estuve en Berlín y salí del mundo del coworking entré a una agencia de desarrollo de aplicaciones web para problemas de salud en áfrica que se llamaba áfrica y coincidió justo con la crisis del ébola con la epidemia de ébola de 2014 2015. Pidieron una voluntaria para ir un mes a Liberia y fui y la verdad es que eso el viaje llegar a áfrica a un sitio completamente diferente al sitio donde estás acostumbrada a trabajar con usuarios muy diferentes y con problemas muy diferentes. Me atrapó y repetí repetir en Guinea repetir en Sierra Leona como Uganda y de hecho seguimos trabajando uno de nuestros clientes es Médicos Sin Fronteras y en dos semanas voy otra vez a áfrica.
+
+[00:05:40.320] - Carlos Iglesias
+Cuánta intensidad súper intenso magnificar me lo imagino así. No he estado nunca la verdad nunca hay que reconocer que siempre me ha dado cierto respeto que es algo por lo que fantaseo con mi mujer constantemente incluso con los niños. Nos gustaría mucho pero también nos da cierto respeto la verdad y yo creo que es un respeto a lo desconocido.
+
+[00:05:59.020] - Cristina Santamarina
+Probablemente es muy diferente. Hoy África, es muy grande hay muchos sitios de muchas culturas diferentes. Claro puedes viajar con la familia a algunos sitios, a otros te recomendaría que esperarás un poco. Es muy intenso y es verdad que todo se magnifica y sobre todo mi experiencia, esa primera experiencia con Ébola con la restricción de que además no podías tocar a la gente, no te puedes dar la mano, no puedes dar un abrazo cuando lo necesitas y la intensidad la necesidad de que todo tiene que salir ya, son jornadas muy largas de trabajo, se magnifica todo, es muy intenso porque ahí la necesidad no es un training en un Excel, la estás viendo de verdad eso sí que es necesidad. Realmente sí. Cuando tus métricas son en base a gente que se muere y no en gente que compra algo, cambia bastante la película.
+
+[00:06:59.250] - Carlos Iglesias
+Eso me pone la piel de gallina. En qué estás ahora con tu proyecto actual.
+
+[00:07:06.930] - Cristina Santamarina
+Mi proyecto actual se llama The Neon Project y es un poquito más frívolo que irte a salvar a gente del ébola a Liberia aunque surge precisamente de allí cuando yo creo que todos todo se queda frívolo comparándolo con eso.
+
+[00:07:23.430] - Carlos Iglesias
+Vivimos en un mundo frívolo de primer mundo es un poco frívolo.
+
+[00:07:26.020] - Cristina Santamarina
+Si el primer mundo es un poco frívolo de hecho está el meme de problemas desde el primer mundo a la vuelta de áfrica una cosa que a mí me preocupaba mucho era que toda la tecnología que llevábamos allí estaba basada en nuestra experiencia nuestra percepción de la tecnología y de nuestra usabilidad y algo como utilizar botones drop down. Hacer scroll hacia abajo izquierda derecha no es tan natural como para nosotros. Si te vas a aplicaciones de escritorio a utilizar un portátil explicar que la barra el indicador de cursor lo pones detrás de la letra para borrar la letra que está adelante a la gente le explota la cabeza y justo cuando volví de áfrica fue un poco el boom de los chatbots.
+
+[00:08:14.170] 
+Facebook Messenger había abierto su API. Nosotros habíamos hecho un pequeño proyecto con SMS chatbots SMS ella cuando estuvo en Liberia y decidí que era una tecnología interesante en la que quería invertir mi tiempo. Empecé como bots con la idea de hacer chatbots para problemas de salud. Empecé un chatbot en que ahora podemos hablar si quieres que tuvo un poco de tracción. Mucha gente interesada y al final al cabo de los meses acabó convirtiéndose en un proyecto que es una agencia de servicios de desarrollo. Hacemos sobre todo interfaces conversacionales chatbots porque vienen de esta herencia y proyectos de blockchain.
+
+[00:08:55.420] 
+ Los dos socios que tengo ahora y eso hacemos somos nueve y en eso estoy completamente.
+
+[00:09:01.630] 
+El otro día hablábamos de este tipo de proyectos que tú hacías o sacas pero nunca 6Mb un proyecto y me llama la atención. No sé si ahí sí está ligado o es casual y es así. Pero en qué manera cómo relacionas blockchain con el resto de cosas que está contextualizado. Todo tiene una relación o son cosas muy diferentes.
+
+[00:09:30.100] 
+Técnicamente son cosas muy muy muy diferentes porque en chatbots lo que yo estoy diciéndole al cliente es la parte del Bakken. No pensemos tanto en ella porque está resuelta vamos a invertir en una interfaz que se acerque cuanto más al usuario mejor y Blockchain es al revés. Le estoy diciendo toda la parte del frontend está resuelta lo que tenemos aquí es un faut Protocol. Lo que tenemos que centrarnos en alianzas confianza como son muy diferentes lo que tienen en común y lo que ha hecho que nos podamos enfocar en estas dos tecnologías sin que sea un dolor es que al ser las dos nuevas hay muchísimo trabajo de metodología y hay muchos aprendizajes que se pueden compartir.
+
+[00:10:16.090] 
+ Qué bueno reivindicar un mundo sin interfaces gráficas reivindicó un mundo con muchas menos interfaces gráficas. Preparándote épocas habíamos hablado del libro de interfaces no interfaces y una cosa que me interesa mucho de la voz sobre todo en diseño conversacional es que puedes interactuar con una máquina sin tener necesariamente que estar mirando una pantalla. Estamos viendo todo el rato que estamos enganchados las pantallas problemas de retina ya me salen anuncios en Instagram de problemas de retina con filtros y cosas así claro filtros las gafas vienen ahora preparadas para poder para poder utilizar muchas pantallas de ordenador muchas horas.
+
+[00:11:02.200] 
+Creo que no hace falta que todo tenga una aplicación preciosa con colores y con béticas sino que hay muchas cosas que se pueden hacer con voz un poco de chatbot me decías que pidió cierta atracción en qué consistía el proyecto este chatbot contexto.
+
+[00:11:21.070] 
+Yo estuve un mes en Uruguay intentando encontrarme a mí misma y justo allí fue cuando empecé a jugar.
+
+[00:11:30.490] 
+En aquella época con chatbots y uno de los problemas bueno yo lo que hice fue buscar problemas de salud pública acabé en Uruguay y uno de ellos era el embarazo adolescente en este primer chatbot. Su primer trabajo era recordar a las adolescentes que tenían que utilizar métodos anticonceptivos o si iban a tener relaciones sexuales dar información sobre los diferentes métodos anticonceptivos y llevaba un calendario menstrual muy mal llevado. Por qué. Bueno porque en realidad los cálculos no tenía no tenía lógica algorítmica detrás yo lo que hacía era coger y sumar 28 restar 28 y te mandaba una alerta y en realidad el ciclo no es exactamente así.
+
+[00:12:12.370] 
+ Un poquito más personal. Claro que esto fue 28 días me da igual que el tuyo esté en dos semanas. Llegué a presentarlo al Ministerio de Salud de allí me dijeron que básicamente no entendían qué era y lo que hice fue decir bueno al mercado hispanohablante quizás no está maduro voy a traducirlo a inglés y voy a hacer pruebas con esto a ver qué pasa. Y en poco más de dos meses teníamos 2500 usuarios y muchas ofertas de gente que fuéramos a programas de aceleración que yo decía pero si no somos soy yo esto lo he hecho yo llevo un mes.
+
+[00:12:52.770] 
+Sí tuvo bastante tracción salimos en varios artículos nombrados de entre los 10 mejores chatbots de salud y cosas así. Y dónde está esto ahora. Sigue activo sigue activo se llama Waterford for Gears 4 es un chatbot de Facebook Messenger con lo cual solamente puedes interactuar con Eva que es el nombre de la persona a través de Facebook Messenger y bueno de hecho esta semana sale un artículo explicando cómo está montado por detrás un chat fue el conde Aeroflot es el juguete de chatbot.
+
+[00:13:27.160] 
+Se habla mucho de la personalidad de los robots en general cómo de importante es eso en un chat. Respecto por ejemplo un interfaz conversacional de voz.
+
+[00:13:37.580] 
+Hay diferencias.
+
+[00:13:40.070] 
+Yo creo que sí que hay diferencias en la voz el único elemento de personalidad que tienes es la voz en sí y la manera que tengas de hablar mientras que en un chat en el que hay texto puedes meter imágenes. Cada persona manda diferentes tipos de imágenes o diferentes tipos de gifs puedes mandar emojis cada persona envía diferentes tipos de Moye y de hecho nosotros tenemos un concepto en la fase de VX de chatbots que es la emoji Paulet hacemos como un pantone de emojis que utilizaría ese personal de emojis.
+
+[00:14:13.370] 
+Exacto. Porque tú si lo piensas siempre utilizar los mismos 5 10 15 emojis y no son los mismos que utilizaría otro tipo de personas.
+
+[00:14:23.570] 
+Qué bueno es buenísimo me encanta y desde un punto de vista de aplicación a lo que es la industria por llamarlo de alguna forma. Cuando cuando tiene sentido incorporar chatbots a nuestro gasto me Gurney cuando es posible automatizar la interacción con nuestros clientes.
+
+[00:14:50.960] 
+Hay diferentes puntos del caso más donde es interesante meter chapos y de hecho si nos vamos al principio del caso Melloni hubo muchísimos chatbots de marketing. Al principio entrabas en una página de Facebook por ejemplo tienen una adquisición muy buena a partir de comentarios te da un poquito de información calificación de leads te puede empezar a hacer preguntas. Además tiene una cosa muy positiva es que en un formulario tu tienes que empezar y terminar el formulario en ese momento mientras que un chatbot 1 hay campos de ti que ya sabes por tu perfil.
+
+[00:15:22.970] 
+ 2 Puedes contestarlo poco a poco. Entonces es interesante para esa parte en el orden.
+
+[00:15:30.290] 
+También son interesantes para preguntas y ya entras en la parte de gasto del servicio aunque la verdad es que es uno de los grandes casos de uso para chatbots ya llevamos varios años ofreciendo soporte a través de chats. Hoy casi todas las empresas que lo han hecho lo han hecho bien en una base de datos etiquetada y con tantas preguntas hechas de diferentes maneras como respuestas a diferentes niveles y automatizar esto es relativamente sencillo. Hay que hacer una reescritura porque la mejor la manera de escribir tiene que ser menos personal etcétera pero es otro caso de uso muy interesante y luego no es exactamente Castorf Johnny pero sí que es auxiliar al caso Yonny.
+
+[00:16:16.370] 
+ Y es que en los casos en los que ese soporte lo haga una persona o una gestión de cuentas por ejemplo se leen o algo así normalmente los comerciales tienen que tirar de documentación que está en PDF en hojas de Excel y demás. Y cómo sería si tú le puedes preguntar entonces Lak oye cuál es el precio de este producto que le quiero vender a esta persona o cuál es la mejor manera de resolver esto.
+
+[00:16:40.780] 
+La parte de tomar del servicio de atención al cliente.
+
+[00:16:45.140] 
+Yo creo que yo diría vamos no se me ocurre ningún caso donde no aplique exactamente un chat. Yo creo que en cualquier industria cualquier compañía podría aplicar perfectamente un chatbot en la parte de captación. La parte de marketing tiene sentido o tiene más sentido para un tipo de compañía estilosas o Software as a Service o compañías de gran consumo o más Whitby.
+
+[00:17:08.320] 
+Cómo ves esto.
+
+[00:17:09.980] 
+Yo en este caso no creo que dependa tanto de la empresa sino de donde esté su base de usuarios porque hay empresas de ropa deportiva aerolíneas SAS e instituciones que tienen audiencias enormes en Facebook y parece que me estoy centrando en Facebook no pero es que realmente a nivel de chat en nuestro mercado es el más popular todo el mundo está esperando WhatsApp todavía no está Facebook Messenger en Asia por ejemplo WeChat es mucho más popular pero si si tu base de usuarios está en mensajería es un canal a explotar. Por el contrario todo el mundo que me dice quiero hacer un chatbot pero no tienes no tienes una audiencia en mensajería hecha.
+
+[00:17:53.030] 
+No lo recomendaría porque hablabas también hablas del volumen de las audiencias es muy importante tener mucho volumen o con una base de preguntas respuestas pero yo estoy pensando en machine learning no sé si esto es más para hacer un chat siempre tenemos que pasar por algoritmos y por por por entrenar al sistema no es necesario.
+
+[00:18:18.470] 
+No es que chatbots de tipos muy diferentes.
+
+[00:18:22.550] 
+Hay chatbot que están basados en botones por ejemplo un modelo super sencillo de Charlotte uno que hicimos con el que ganamos un premio de una tarta Weekend que era para cuando tú vas a tirar cosas a la basura. En España no tenemos tanta costumbre pero en Alemania por ejemplo dejar las cosas que se pueden reutilizar en la puerta pones un papelito que pone que se puede coger y la gente lo coge y lo reutiliza. Nosotros propusimos una aplicación con la que podías marcar tu punto GPS o donde lo ibas a dejar hacer una foto al objeto y eso subía a una novela que cualquiera era un poco de recoger cosas en la puerta de los portales de la gente y esto simplemente tenía un mensaje de bienvenida un botón para captar tu GPS te pedía la fotografía y te daba las gracias.
+
+[00:19:07.250] 
+No tiene absolutamente nada de machine learning machine learning en casi todos los chatbot que tienen procesamiento del lenguaje natural. La parte que no la tocamos ninguno de nosotros o muy pocas de nuestras empresas tocan esa parte la parte de procesamiento del lenguaje natural se apoya en el epé.
+
+[00:19:25.880] 
+Hay una parte de tareas de manual y otra parte de aprendizaje automatizado en la lógica de los chatbots muy pocos chatbots tienen una unión con tensor flow por ejemplo para hablar de El chatbot Aprende a darte mejores respuestas.
+
+[00:19:42.800] 
+Normalmente hay un entrenamiento manual tampoco necesitas un mega gran volumen de datos. En ese sentido no estamos hablando de proyectos de big data ni nada parecido.
+
+[00:19:54.230] 
+No son proyectos de big data.
+
+[00:19:56.160] 
+Ok ok. Y también estamos comentando uno de los errores que cometiste con tu lucha de poder asumir que todos los ciclos de 28 días y tal la personalización son los padres.
+
+[00:20:13.250] 
+En parte sí hay personalización pero igual que hay personalización en las aplicaciones normales en las que tú puedes elegir a qué hora o cuántas notificaciones recibes o puedes dar lo mejor cambiar el color de fondo de tu en Twitter por ejemplo puedes cambiar el color de fondo del perfil tanto como que las aplicaciones estén aprendiendo a dar servicio cada vez más personalizado. Yo creo que es vender una moto. Uno de los chatbots que nosotros tenemos en la recámara por ejemplo es para turistas. Entonces es como en vez de tú coger una guía de una ciudad y leer la guía de la ciudad y adaptar lo que hay a lo que a ti te gusta.
+
+[00:20:57.950] 
+ Tú le dices al chatbot qué tipo de persona eres basado en si viajas con niños y eres mayor o joven si vas de despedida de soltero si es una familia musulmana etcétera como unas siete categorías cuánto tiempo vas a estar y te hace un recorrido un itinerario recomendado. Pero todo esto es manual luego qué pasa que yo pudiera haciéndote pagar una decisión. Exacto son árboles de decisión yo puedo hacerte preguntas que mejoren mis árboles de decisión pero no deja de ser manual.
+
+[00:21:29.280] 
+Y volviendo un poco a la idea de un mundo sin interfaces gráficas interfaces conversacionales bueno estamos estas navidades ha sido el boom de Alexa de Google a nivel nosotros también estamos empezando a experimentar y yo creo que ahí hay un universo que llega justo está empezando y me parece interesantísimo me parece apasionante.
+
+[00:22:01.160] 
+Todas las empresas tienen que tener un ojo puesto en esto es suena un poco pretencioso pero es como cuando llegó el ordenador personal o cuando llegó el teléfono móvil o cuando llegaron las apps.
+
+[00:22:20.640] 
+Hay que tener un ojo puesto hay que saber que está ahí porque está cambiando el mundo. No hace falta que todos hagamos aplicaciones de voz aplicaciones conversacionales igual que hay mucha gente que nos da aplicaciones móviles. Pero definitivamente es una cosa que hay que tener en cuenta.
+
+[00:22:37.860] 
+Una de las cosas que más me han sorprendido de este mundo desde que me metí hace como tres meses y tal ha sido el tema de los estilos de Alexa no he visto exactamente lo mismo en Google corrígeme pero yo tengo la sensación de que no hay un market place como en el anexados o lo hay si hay un marketplace y cómo funciona porque no está. Es evidente que al menos no está a nivel de usuario desde la app de Google.
+
+[00:23:02.690] 
+Yo no me puedo instalar skills entre comillas digamos o sí sí puedo decir pero lo tienen muy bien vale. Indicado tienes una parte donde puedes ver diferentes acciones e incluso lo puedes hacer desde tu ordenador y te dice todos los dispositivos donde podrías activarlo y están clasificadas por Pitti y demás categorías estándar de estos y con valoraciones también es exactamente lo mismo cualquiera puede programar un Akil se llaman Nesquik también en Google no en Google se llaman Action actions son Google de hecho es como el nombre del producto cualquiera puede programar una acción sobre la marca Playstation un proceso de revisión en sí mismo y exacto.
+
+[00:23:50.620] 
+ Alexa y Google las están funcionan igual que las apps tradicionales plataformas abiertas a developers. Hay unas Gaià unas directrices para que te la prueben pero lo revisan. Están tardando bastante pero se ponen disponibles.
+
+[00:24:06.000] 
+La verdad es que ha alucinado con el sistema que tienen montado súper pero una cosa muy muy muy orientada está claro. Se nota que está muy orientada al developer y a las buenas prácticas y me pareció alucinante al menos la parte de Amazon que es la que es la que más hemos entrado y la que más hemos conocido en una tarde hemos hecho unas Kil bastante guapo resulton y publicable.
+
+[00:24:30.480] 
+Realmente sí sí. A ver lo interesante de los esquilas es que al no tener interfaz gráfica hay un montón de la carga de trabajo que se elimina. Claro hacer cosas muy sencillas es muy fácil. Luego el reto está en darle más contenido darle más valor meterte en contextos y cosas así pero es verdad. Y bueno si te ha gustado el entorno de desarrollo de Amazon Google también te va a gustar mucho. Lo están orientando están orientando muy bien. Yo creo que han aprendido mucho de los entornos de desarrollo de apps.
+
+[00:25:01.860] 
+A mí me interesa mucho todo este tema pues precisamente con esa visión de Casto me expreso que al final volviendo otra vez a la pregunta de si revindica es un mundo sin interfaces gráficas parece que de alguna forma impactar en el Journey a través de los Touch points digitales. Eso sí te tienes que estar imaginando un interfaz en una app o en una web donde el usuario vaya haciendo vaya haciendo click cuando en realidad hay muchas más posibilidades realmente de interacción y incluso de provocar un boom o de sorprender. También creo que eso tiene esa sorpresa y ese aura de novedad que tienen hoy este tipo de interfaces lo mejor tiene una fecha de caducidad porque seguramente esto se irá normalizando y cada vez tendremos más integrado en nuestro día a día desde ir conduciendo y estar hablando Alexa como tú Google o lo que sea.
+
+[00:26:02.070] 
+Creo que hoy me da un poco la sensación que hay una parte oportunista del momento que puedes provocar de una forma muy fácil y con un impacto muy muy muy sencillo de una forma muy sencilla. Qué tipo de proyectos estáis trabajando ahora.
+
+[00:26:21.630] 
+Nosotros ahora tenemos mucho foco estamos trabajando con Vocento Valeska de Vocento Medialab tenemos mucho foco en noticias todo lo que haya alrededor del mundo de las noticias.
+
+[00:26:32.570] 
+Lanzamos les ayudamos a lanzar el podcast de News briefing. Estamos trabajando en esquilas ahora para Google Instant y para Amazon tenemos un proyecto en Estados Unidos conversacional también muy bonito. Además es curioso porque es un caso de uso que es muy poco de marketing muy poco de bisnes para la caravana de migrantes que está yendo de Honduras a Estados Unidos. Les falta muchísima información legal de muchas oenegés distribuyendo información pero no está unificada y no llega a la gente y hay un abogado de allí Jacquot que ha tenido una idea de hacer un chatbot que les ayude a la entrevista de miedo creíble es el proceso legal al que tienen que enfrentarse cuando llegan a la frontera de Estados Unidos.
+
+[00:27:14.480] 
+ Entonces te chatbot que se llama Lucía vot te acompaña durante el camino te da te manda mensajes de ánimo durante el camino. Por ejemplo te puede mandar mensajes con información de albergues donde puedes ir o de problemas pueblos donde hay problemas y te guía a través de esa entrevista. Cuando los inmigrantes llegan a Estados Unidos tienen que demostrar que están yendo por porque tienen miedo en su país porque han sufrido amenazas o violencia y no porque tengan una motivación económica. Pero la gente que hace estas entrevistas normalmente no tiene experiencia no hablan inglés no saben qué está pasando tienen muchísimo miedo y llegan hacen entrevistas muy malas pasan muchísimos meses internados y son finalmente devueltos a su país.
+
+[00:27:55.100] 
+ La premisa es que si tú sabes lo que te van a preguntar y hay alguien que te lo puede explicar y te puede decir mira la vas a hacer solamente una vez tienes derecho a tener un abogado tienes derecho a tener un traductor te van a hacer este tipo de preguntas. Esto es lo que están buscando tú mantente firme en lo que tú declaras ese tipo de ayuda que te podría hacer un abogado o en parte un proyecto precioso es súper bonito desde luego sí súper bonito. Luego por supuesto tiene esta parte de generación Velits porque ellos pueden saber quién ha hablado y los migrantes pueden pedir ayuda legal y esa solicitud llega a un grupo de abogados que pueden luego contactar con ellos.
+
+[00:28:32.150] 
+Qué bueno que tener un proyecto a mí me resulta súper inspirador de verdad porque además no sólo creo no sólo por este tipo de proyectos que haceis con tanto impacto y tan tan con una parte social tan fuerte sino también Fíjate que tontería porque estáis en Córdoba y yo estoy trabajando en el mundo o sea que es un nuevo tipo de compañía también un nuevo tipo de propuesta que yo creo que es muy y es muy muy de 2019. Realmente no es una cosa muy muy moderna soy bastante fan. Oye y con qué.
+
+[00:29:15.050] 
+ Con qué dificultades te encuentras en tu día a día con muchas.
+
+[00:29:19.660] 
+Bueno precisamente esto que dices de estar en Córdoba y de ser tan modernos. Yo viajo muchísimo. Vivo en la carretera esa es una de mis dificultades dificultades también explicando la tecnología y sobre todo en la parte de proyectos de blockchain la parte de quitar un poco el mito de que Block tiene su blockchain es Bitcoin. Esa parte es muy difícil. Una vez que la explicas la gente lo entiende.
+
+[00:29:44.380] 
+Pero romper esa barrera de desconfianza es difícil y luego diría que en la parte de conversaciones el reto es más bien conseguir que la gente invierta en la fase de definición de las cosas el que no lo vean como un win se ve demasiado como wow cómo voy a hacer algo rápido. Además lo que has dicho es muy fácil tener algo funcional rápidamente.
+
+[00:30:08.420] 
+Hace dos años cuando empezamos a vender este tipo de cosas y yo también soy culpable de ello uno de las grandes premisas era esto es rápido y barato. Si perdona nada. Y creo que ya para hacer cosas de calidad no es así y a veces romper esa barrera de hacer un proyecto de dos semanas o hacer un proyecto de tres meses es difícil.
+
+[00:30:30.290] 
+Hojeando el libro me llama la atención el segundo principio habla de los tan transado de los de los mantras de la computación y hace una reflexión que me parece súper interesante y dice y se pregunta si si la tecnología está a nuestro servicio o nosotros somos los que estamos al servicio de la tecnología tu que crees.
+
+[00:30:57.370] 
+Todavía estamos demasiado al servicio de la tecnología para lo que estamos sacando de ella pero esto viene de que la tecnología está hecha por empresas que tienen personas detrás y que las personas nos hemos dado cuenta de que cuando interactúas con tecnología mucha gente cree que tiene una privacidad ahí y que tú y la máquina. Eso no es verdad porque al otro lado del servidor hay una empresa que tiene un interés financiero que está sacando cosas de ti como datos. Todavía estamos por esa parte y luego los patrones de interacción. Hay mucha gente trabajando en cambiarlos para que sea la máquina a nuestro servicio.
+
+[00:31:33.220] 
+ Pero todavía hay demasiados patrones de interacción que lo que están llamando es a que estemos todo el rato mirando el móvil a que estemos enganchadísimo esas cosas.
+
+[00:31:41.610] 
+Creo que nos tenemos que liberar todavía un poco nos importa una mierda la privacidad somos ignorantes.
+
+[00:31:50.890] 
+Creo que la gente que lo conoce se preocupa o por lo menos asume su parte de responsabilidad o exposición. Yo digo que yo tomo riesgos calculados con mi privacidad. Utilizo Facebook que utilizo Twitter utilizó Instagram utilizó todas estas cosas pero sé lo que está pasando detrás hay por desgracia demasiada gente que no sabe a qué está expuesto. De hecho es que en mis clases una de las preguntas siempre es pero con Aleksei y con Google al Instante estamos metiendo un micrófono en casa y yo les invito a que miren el récord de sonidos grabados por su móvil que está disponible en tu información de Google y todo el mundo bueno ya se acaba la clase de asistentes y pasamos a hablar de privacidad espectacular verdad.
+
+[00:32:42.010] 
+Hola Cristina en tu carrera qué errores has cometido.
+
+[00:32:48.010] 
+De qué te arrepientes o qué has aprendido de sus errores. Pues creo que la mayoría de los errores han venido de no atreverme a hacer cosas y de.
+
+[00:33:05.530] 
+Creer que tenía que esperar o que todo el mundo sabía mucho más que yo o que yo no iba a poder hacerlo.
+
+[00:33:11.340] 
+Echarme para atrás el síndrome del impostor el síndrome del impostor Madre mía Cristina con el síndrome del impuesto Citio muy identificado todos somos ahora Lacarra.
+
+[00:33:23.340] 
+Sí creo que vendría de ahí y luego tengo otro siempre tengo un poco una espinita. Yo estuve cinco años en mi primera empresa y a veces me pregunto si si haberme ido antes no me habría cambiado a lo mejor a mejor algunas cosas.
+
+[00:33:46.220] 
+Y qué es lo que te llevas. Cuál es el aprendizaje principal que te llevas de tu de tu vivencia en áfrica.
+
+[00:33:55.900] 
+Me interesa especialmente de mi vivencia en áfrica me llevo los procesos y los planes y todas estas cosas son procesos y planes que muchas veces se te van a romper y que es tan importante tener un plan para cuando el plan no sale como ese plan inicial y luego otro también muy práctico es que tus asunciones de lo que es bonito y usable solamente valen en tu barrio como salgas a un sitio muy diferente tienes que volver a hacer una exploración entrevistas de usuario gasta Yonny es más preguntarles qué colores les gustan y hacer toda la parte de huequito.
+
+[00:34:43.780] 
+ Creo que no es como lleva ya varios años. Cada vez nos es más difícil vender esa fase de Richard porque se asume que ya tienes que saber las personas y que ya hay patrones Antípatro y a veces no es así.
+
+[00:34:59.460] 
+Es curioso que ahora estás diciendo esto estaba pensando claro es que tenemos una visión muy local del VX pero en realidad creo que lo correcto sería decir tenemos una visión muy local del UI es decir no tanto de lo X como del UI porque wichis al final es un poco la experiencia y la necesidad tíralo sin usar y tirar cosas como tener o no tener conexión a Internet en africada una de las premisas que tenía nuestro grupo era que todo lo que hacíamos era offline.
+
+[00:35:33.250] 
+Eso sí que es parte de la experiencia que lo damos completamente por hecho. Cuántas de las aplicaciones y de las páginas web que se hacen son offline o tienen algún tipo de capacidad offline.
+
+[00:35:47.020] 
+Para mí eso fue muy revelador claro hay cosas como que transforma tu forma de trabajar.
+
+[00:35:52.630] 
+Exacto condiciona absolutamente la arquitectura exalto las que los ciclos de carga de batería cosas como en áfrica te lo pueden decir otros grupos. La frase texting Andre The Mango Tree. El probar las aplicaciones debajo del árbol de mango porque nosotros cuando diseñamos diseñamos en interiores y probamos en interiores y el sol es completamente diferente.
+
+[00:36:17.110] 
+Los dispositivos se calientan los colores no se ven es espectacular alucinante ALUCINANTE.
+
+[00:36:27.160] 
+A qué retos nos enfrentamos en el futuro en cuanto al diseño de interfaces.
+
+[00:36:33.940] 
+Creo que este es uno de ellos hay una penetración cada vez mayor de dispositivos y tecnología con lo cual cada vez culturas más diferentes empiezan a utilizar aplicaciones hablabamos en una especie de run run de la diferencia entre el icónico mesh a la europea minimalista todo muy claro y único a la asiática lleno de emojis de colores con las que hacen flashes y cosas así explicaba Eduardo Moratinos en sucesion explicando su vivencia en el viaje a Japón que aprendió también en relación con lo que estábamos hablando. Exacto. Pues yo creo que esta es un mundo global.
+
+[00:37:12.040] 
+ Hacer un diseño de interfaces global a lo mejor aquí vendría muy bien la personalización de la que hablábamos antes y luego el cambio de modalidad. Hablamos de diseño conversacional estamos empezando ya a hablar de diseño multimodal que el usuario interactúa por voz. Pero hay muchas cosas que nunca vas a poder hacer por voz que necesitan una interfaz gráfica o hay temas de los que estás más cómodo hablando por voz y otros temas. Por ejemplo el tema del calendario menstrual era chat no quieres que te diga en voz alta en mitad de un autobús cuándo te va a venir la regla.
+
+[00:37:49.390] 
+ Entonces la modalidad y la multiculturalidad multimodal es lo mismo que omnicanalidad bueno está relacionado pero los modos de interacción más voz pantalla.
+
+[00:38:06.450] 
+Un botón analógico no dejar de lado y la multi la omnicanalidad se refiere más a estar en prints estar en Facebook que estar en Twitter estar en omnicanalidad llevaría multi modalidad la multi modalidad no tiene por qué ser omnicanal porque tú puedes tener una interacción multimodal dentro de Google así están por ejemplo que te manda le preguntas cómo llegar a la oficina de RAM ROM y me dice y me llega la tarjeta a mi teléfono móvil.
+
+[00:38:39.820] 
+Para mí también el tema de omnicanalidad es quizá un prisma muy de negocio un componente de negocio o de tener también controlados los KPI transversales a todos los canales Caprice negocio un KPI. Cuál es el que importa y tener toda esa visibilidad que yo también creo que la omnicanalidad son los padres que te emociona. Cristina me emocionan muchas cosas es una emocionada pero me emociona muchísimo aprender.
+
+[00:39:12.890] 
+Aprender y compartir lo que sé también me emociona mucho el conocimiento yo soy una niña rara desde pequeña me ha gustado siempre mucho leer. Creo que cuando te aprendes una cosa y la compartes con el mundo se hace más grande y que todo lo que leemos nos hace más también las ideas me emocionan los cambios tecnológicos me emociona me emocionan las comunidades.
+
+[00:39:40.110] 
+Hay muchas cosas que me emocionan no pensaba hacerlo pero tengo que hablar de los premios de este sábado y antes de ayer porque Cristina fue una de las asistentes.
+
+[00:39:48.150] 
+Qué te pareció cómo lo viviste.
+
+[00:39:51.150] 
+Emocionante. Sí sí me gustó mucho. Hacía muchísimo que no iba a un formato con el país desde los tiempos del co-working y allí eran como muy verticales un mundo co-working y me ha encantado porque era gente vuestra pero clientes y clientes exudan Rogues que a veces no me flipó la gente a los emocionados que nos hemos venido de fuera solamente para el país.
+
+[00:40:15.200] 
+Gracias y nombre gracias por la invitación han sido para mí ha sido como un fin el hemos hablado de un montón de temas diferentes. Entonces llenarte la cabeza en un día de tantas cosas diferentes además que imput de personas que no teníamos nada que ver.
+
+[00:40:32.000] 
+Ha sido emocionante para mí súper bonito desde luego yo estoy súper súper emocionado todavía estoy de subidón estoy flotando un poco arrastro un poco de afonía de la noche del sábado pero bueno espero que los oyentes sepan perdonar. Para cerrar Cristina porque llevamos 38 minutos de entrevista pero está yendo el tiempo. Cómo te pueden contactar como cuál es la mejor forma de encontrarte y de localizarte para proponerte un proyecto. Una charla te iba a decir no sé porque este año me parece que estás restringiendo un poquito.
+
+[00:41:07.200] 
+Este año me quedan una o dos por cerrar de cinco charlas.
+
+[00:41:13.570] 
+Sí lo más fácil es en Twitter Cris Santamarina. Con las dos que corresponden.
+
+[00:41:20.210] 
+Y si no en la web de un proyecto Puntagorda que mucha gente le cuesta escribió todavía.
+
+[00:41:25.410] 
+Pero bueno lo escribiremos en las notas del episodio para que a nadie le cueste encontrarte. Muchísimas gracias Cristina. Yo creo que ha sido una entrevista alucinante. Muchas gracias. Muchas gracias de verdad.
+
+[00:41:36.390] 
+Y hasta aquí amigos y amigas este episodio de mi podcast en el mundo real el podcast sobre experiencia de cliente y negocio digital que no se me olvide comentaros que Cristina tiene un podcast que se llama chat boche en español que acaba de publicar su cuarto episodio y al cual os recomiendo encarecidamente que os suscribes. Muchísimas gracias por escuchar recordar que encontraréis las notas del episodio en Carlos Iglesias punto info barra 022. Recordad que si os gusta este podcast podéis echarme una mano en su difusión dando algunas estrellitas y escribiendo una reseña en la plataforma de podcasting utilizais.
+
+[00:42:13.160] 
+ Sé que muchos de vosotros me recomendáis a vuestros amigos y familiares conocidos. Mil gracias también por esto y no dejéis de hacerlo. Un fuerte abrazo y os espero en el mundo real.
+

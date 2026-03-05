@@ -1,0 +1,201 @@
+[00:00:00.930] - Carlos Iglesias
+¿Qué pasaría si al llegar mañana al trabajo, te encontrases con que se han hecho públicos los salarios de toda la organización? Si lo que visualizas no son sillas volando contra las ventanas ni llamas hasta el techo, probablemente la cultura organizacional en tu empresa tiene un buen nivel de transparencia.
+
+[00:00:19.440] - Carlos Iglesias
+¿Qué hace que una cultura sea transparente? ¿Y qué ventajas tiene la transparencia como valor? ¿Qué impacto tiene en el producto? ¿Qué otros valores son deseables en una compañía de producto? Hoy recibimos con gran alegría a Mike San Román, director de Ingeniería, plataforma y tecnología en Buffer, una empresa de producto cuyo objetivo es ayudar a generar audiencias orgánicamente.
+
+[00:02:12.680] - Carlos Iglesias
+¿Qué es para ti el mundo real?
+
+[00:02:28.480] - Mike San Román
+No puedo evitar pensar que el mundo real como tal, y sobre todo en singular, no existe. El mundo real es una cosa exclusivamente muy individual y dependiente del contexto. He estado siempre en mi trayectoria profesional, rodeado de personas que han estado haciendo cosas que la mayoría de la gente decía: "Eso no puede ser cierto. Es imposible. No puede ser real." Entonces no puedo evitar reflexionar que es algo super-maleable, porque en el momento en el que mi mundo real se choca con el tuyo, ahí se transforman ambos mundos. Es una cosa que está en constante evolución.
+
+[00:03:49.760] - Carlos Iglesias
+Vamos a chocar mundos. Hablemos de Buffer. Me interesa mucho entender Buffer, una compañía de 75 personas, 18 millones de ARR (Annual Recurring Revenue), una compañía que está generando facturación. No hay rondas de financiación a la vista. Me gusta mucho eso de Buffer, es una compañía que tiene claro lo que quiere, lo que es y lo que quiere conseguir. ¿Cómo es Buffer?
+
+[00:04:44.140] - Mike San Román
+Buffer ha estado en estos 10 años que he estado yo, en constante evolución, Buffer no es el Buffer en el que yo entré. Siempre hemos estado experimentando con distintas cosas. Pero a la vez, lo único que puedo decir es que lo que ves en esa web es lo que hay. Como que no hay un Buffer interno. Los sueldos públicos, las métricas del negocio, el roadmap como producto lo tenemos también ahí publicado. La gente puede votar, puede comentar, puede ver qué estamos priorizando y qué no. Son cosas que están ahí. Incluso las actualizaciones a shareholders se publican cada mes en nuestra web, con lo cual se puede ver perfectamente lo que hay ahí dentro. Entonces, para mí es un testamento de la transparencia tan fuerte, pero en general de la cultura y de los valores que tenemos.
+
+[00:05:51.610] - Carlos Iglesias
+Cuando tú te fuiste de Runroom y te fuiste a Buffer, ya era una compañía 100% deslocalizada, donde estabais personas de muchísimos países distintos. ¿Cómo funciona? Descríbenos un poco cómo es la organización formal.
+
+[00:06:26.480] - Mike San Román
+La organización formal es una organización bastante tradicional en el sentido de la idea de equipos cross-funcionales, sobre todo centrándonos en la parte de producto de ingeniería y demás. Los equipos de producto son equipos formados por ingenieros, un product manager y un diseñador. Y a la vez una estructura bastante plana, en la que sí que hay una suite ejecutiva con cuatro figuras, unos pocos directivos y el resto son estos equipos de ingeniería, producto y diseño, un equipo de marketing y el equipo de customer support. La organización en sí ha pasado por muchos procesos de cambio, porque yo entré al fin y al cabo que creo que era la persona número 24, y es eso ahora, siendo 75. Nos hemos encontrado con muchas necesidades, tanto de organización, pero también de hacer experimentos a lo largo del tiempo, como una época que estuvimos que no teníamos ningún tipo de sistema de management.
+
+[00:07:44.630] - Carlos Iglesias
+Autogestión absoluta al máximo nivel. Hoy sí tenéis esa pequeña capa de management en la organización.
+
+[00:07:55.290] - Mike San Román
+En el proceso de toma de decisiones se busca mucho que los equipos tienen que ser capaces de dirigir un poco sus prioridades, sus áreas de foco y proponer áreas de mejora, pero a la vez sí, hay una capa de management, en el caso de ingeniería, unos pocos managers de ingeniería, ahora mismo dos, estamos a punto de abrir el proceso para contratar a un tercero y yo. Estamos tanto metidos en la parte de toma de decisiones y priorización de la estrategia técnica, como a la vez del crecimiento de las personas dentro de la organización.
+
+[00:08:43.740] - Carlos Iglesias
+Cuando tú hablas de managers, ¿te refieres a personas que están enfocadas en hacer crecer a las personas más que enfocadas en el propio delivery?
+
+[00:08:52.770] - Mike San Román
+Es un rol híbrido. Durante muchos años hemos tenido roles de management que estaban exclusivamente centrados en las personas y nos estábamos dando cuenta que es una cosa que no estaba del todo alineada justamente con el tipo de empresa que queríamos construir, que nos interesa mucho más que todo el mundo, y eso incluye desde la persona que acaba de entrar hace dos semanas hasta el CEO, esté metido en los detalles y esté trabajando activamente en proyectos, de distintas maneras pero siempre así. Entonces, tenemos managers de ingeniería que están programando, otros igual están dirigiéndo temas técnicos sin tener que entrar a más bajo nivel. Y es una cosa que yo activamente busco, en mi rol de director de ingeniería.
+
+[00:09:44.450] - Carlos Iglesias
+¿Qué retos tienes hoy como director de ingeniería?
+
+[00:09:51.440] - Mike San Román
+El reto que tenemos ahora mismo es que estamos en un proceso en el que estamos pasando por una fase de contratación bastante amplia. Tenemos un equipo reducido ahora mismo en algunas áreas o más reducido de lo que nos gustaría y tenemos un roadmap muy ambicioso. Entonces, es la gestión de la ejecución de ese roadmap y seguir empujando con ese nivel de calidad, a la vez estar dedicando una buena parte del tiempo a esa contratación. Y, por otro lado, a la vez la definición de los próximos seis meses de estrategia de roadmap y demás.
+
+[00:10:39.160] - Carlos Iglesias
+Me ha parecido entender que las decisiones a nivel de roadmap de un producto, se toman también a nivel colectivo.  ¿Cómo lo hacéis?
+
+[00:10:58.240] - Mike San Román
+Hay dos fases o dos temas a distinguir. Tenemos un roadmap de producto público, en el que los usuarios pueden votar activamente e incluso proponer cosas que les faltan. Esa parte que recopilamos y que reflejamos de manera transparente en qué estamos trabajando hoy y qué es lo siguiente en lo que vamos a empezar a trabajar. Y luego, internamente, es un proceso colaborativo a nivel de la estructura de ingeniería, producto y diseño. Cada equipo se sienta y prepara ese trabajo de cuáles son tanto las prioridades técnicas o de diseño y de mejora de la UX en general de Buffer, como funcionalidades puras de producto. Cada equipo propone su roadmap del próximo trimestre y se pone en común. Ahí es donde aparece un poco la parte más de priorización colectiva, de ver si es necesario ajustar algunos temas en función de lo que cada equipo esté trabajando, de las necesidades que puede haber.
+
+[00:12:20.270] - Carlos Iglesias
+¿A los equipos que les llega? ¿Les llegan ambiciones de impacto y los equipos traducen eso en outcomes y en outputs? ¿Cómo es eso?
+
+[00:12:42.510] - Mike San Román
+Los equipos están recibiendo, ya sea de manera activa, feedback por parte de los usuarios a través de este roadmap público que tenemos, como las sesiones activas de entrevistas con usuarios. Naturalmente una visión de hacia dónde queremos ir más a alto nivel, que puede estar definida por nuestra Chief Product Officer, el CEO, el Head de Diseño y yo, en cuanto a ciertos constraints en cuanto a qué dirección queremos tomar este año o estos próximos meses, que es un poco esa visión que informa qué funcionalidades qué mejoras son las que cada equipo luego puede estar tomando. Pero a la vez el equipo puede realmente decir: nosotros creemos que esta funcionalidad, que puede no estar alineada con esto, puede aportar mucho más valor respecto a estas métricas que nos importan realmente (usuarios activos, revenue...) Y podemos tener esta conversación totalmente abierta.
+
+[00:13:53.840] - Carlos Iglesias
+¿Cómo lográis mantener la cultura siendo una empresa absolutamente deslocalizada? 
+
+[00:15:01.510] - Mike San Román
+Creo que eso es una de las pruebas del algodón de una cultura fuerte. Si esa cultura se mantiene sin tener que estar todos en el mismo espacio continuamente, significa que realmente tenemos esos valores compartidos. No tenemos que estar controlando eso. Naturalmente, luego podemos hablar de cosas más tácticas, como por ejemplo hemos tenido hace poco una reunión toda la empresa. Es la primera vez que nos juntamos todos desde antes de la pandemia. 
+
+[00:15:46.380] - Mike San Román
+Cuando yo entré lo hacíamos cada cuatro o cinco meses. A medida que fuimos creciendo, lo fuimos aplazando en el tiempo y era una vez al año. Justo antes de la pandemia, los últimos años, 2018-2019, era una reunión toda la empresa y cada equipo también decidía cuándo y dónde se podía encontrar. Intentábamos que fuesen cada seis meses cada una de estas. Y ahora, después del COVID y demás, ya viendo un poco que era un momento más seguro para que todo el mundo pudiese acudir, en marzo nos hemos juntado todos por primera vez. Para mí ha sido una cosa muy llamativa, justamente, porque claro, hay gente que he visto, que conozco desde hace diez años, y han pasado cinco años y sigue siendo esa misma persona. Pero hay gente que es la primera vez que veo y con la que llevo trabajando tres o cuatro años. Y sentir el mismo nivel de conexión, porque existen esos valores compartidos. Creo que es una cosa que trabajando en remoto y trabajando con estos valores de mejora continua, de transparencia, de gratitud, de optimismo, los valores que tenemos, está muy claro si esta persona realmente está operando desde esos valores en el día a día, ya sea porque o bien destaca enseguida quién no opera así de una manera como decirlo, de de una manera por defecto, que una persona es realmente así, o si está realmente como intentando sostener una manera de operar que no resuena con ella, también acaba cayendo por su propio peso y se da cuenta que no es el sitio en el que se siente más cómodo.
+
+[00:17:46.330] - Carlos Iglesias
+Es que, o sea, yo veo que hay algo en esa pregunta, ¿no? ¿Cómo lográis mantener la cultura? Que está basado en una serie de supuestos básicos, de creencias de: No, no, es que la cultura solo es posible si nos encontramos de forma informal por el pasillo. Y creo que eso, no sé si estoy convencido de que os pasará el mismo, pero me gustaría escucharte. Claro, nosotros no toda la vida hemos sido así. De hecho, nosotros un poquito antes de la pandemia ya estábamos como muy en el mood de 100% remoto. Incluso se reían de nosotros, nos llamaban frikis, porque cuando venía la gente a run room y veían los equipos haciendo dailies, de repente todo el mundo estaba con los cascos, porque todo el mundo estaba preparado, si alguien se quería quedar en casa. Y de repente llegó la pandemia y a partir de ahí nunca más volvimos a la presencialidad total, es totalmente voluntario y hay personas que sí que vienen más o menos con cierta regularidad. Pero muchas veces me hacen esta pregunta y creo que se hace Desde un punto de vista de nostalgia, es nostálgico. Y yo echo de menos reírme contigo y reírme con Jay y reírme con Nahuel y con Jordi, con Fran y tal.
+
+[00:19:10.240] - Carlos Iglesias
+Echo de menos otras épocas en las que era diferente. La cultura era lo mismo, la cultura en cuanto a cómo operamos, cómo trabajamos, cómo hacemos delivery, cuál es nuestro approach, nuestro foco, dónde ponemos al cliente, cómo es nuestro compromiso con el nivel de cultura y de entrega de valor. Eso era exactamente igual. Lo que era diferente era esa risa improvisada en los pasillos, ese slack de encontrarse. Y eso es para mí, lo único que ha cambiado, eso lo tienes que provocar un poco, digamos, en la parte online. Pero la cultura no ha cambiado y quizá las personas que estábamos aquí antes de ese cambio, algunas personas que vivíamos aquí, hay gente aquí que lleva muchísimos años en Runroom, echamos de menos eso. Pero la gente que hay en Runroom no echa nada de menos eso. La cultura que tenemos hoy es la cultura. ¿Cómo la mantienes? La mantienes como en una compañía que es presencial 100%. La mantienes porque es tu cultura y es la forma en la que trabajas y haces delivery.
+
+[00:20:21.650] - Carlos Iglesias
+Entonces, creo que tiene mucho que ver con la creencia de que la cultura es el jiji-jaja en la máquina de café o en el... Y sí, también es eso, también puede formar parte de la cultura, los lazos de amistad que puedes formar, que pueden perdurar al cabo de los años, pero eso también se puede construir de otra forma. ¿Cómo lo ves tú esto?
+
+[00:20:44.480] - Mike San Román
+Yo tengo relaciones muy íntimas y muy cercanas con personas que no viven en Barcelona y que, naturalmente, hay muchos momentos en los que cuando nos encontramos, dices: Ostras, ojalá esta persona estuviese aquí y pudiésemos compartir más el día a día. Pero creo que eso, ese jiji, jaja, esa conexión y demás, aparece exactamente igual. Luego, es curioso porque a la vez Barcelona se está convirtiendo en un hub de gente que trabaja en Buffer, que creo que ahora somos cinco personas en total. No nos encontramos nunca, a no ser que venga otra persona de fuera, que entonces todos nos juntamos para estar trabajando esta semana, estar cenando, compartiendo esos momentos con esa persona. Pero a la vez, yo creo que ese permitir o priorizar que cada uno esté teniendo su vida más plena, es lo que también hace que la gente se muestre de manera más auténtica. No está siendo el trabajo una limitación para hacer las cosas como tú necesitas hacerlas o como tú deseas hacerlas.
+
+[00:21:56.450] - Carlos Iglesias
+100%. Entiendo muy bien lo que dices. Y de dónde se emana esa cultura, la cultura de Buffer? ¿Dónde nace esa cultura?
+
+[00:22:06.130] - Mike San Román
+Yo creo que de una manera muy marcada, Joel, cuando empezó Buffer, ya estaba operando así. Una cosa que a mí me alucinó mucho es saber que en el momento en el que empezó, en el momento en el que lanzó la landing, el MVP probando Buffer, Y en el momento en el que tuvo ya tres leads y consiguió la primera suscripción, publicó que Buffer había ganado 5 dólares. En cada uno de esos momentos estaba esa parte de transparencia Y yo creo que en cuanto a manera de operar, también de optimismo, estaba ahí en ese momento como super-iniciático. Luego, en la manera en la que Buffer fue creciendo como organización, fueron encontrando un poco y fue emergiendo esos otros valores, yo creo que en base a ver qué cosas nos unían como equipo y qué cosas hacía que no existiese ese match con algunas personas que podían haber formado parte de la organización en momentos más iniciáticos y demás. La parte de trabajar en remoto, por ejemplo, en 2010, 2011 siendo una cosa muy rara, al fin y al cabo, pasaba un poco por accidente cuando estaban los fundadores en Estados Unidos intentando levantar esa seed round, y al poco de conseguir entrar en la incubadora en la que, eso, consiguieron entrar, se les echó de Estados Unidos por un tema de visado. Vale, "no queremos volver al Reino Unido, no queremos volver a casa. Queremos seguir esta aventura." Y fue en plan un momento de película de coger el globo, darle una vuelta y donde caiga el dedo, y se fueron a Hong Kong.
+
+[00:24:13.810] - Mike San Román
+Y desde ahí estuvieron trabajando durante unos meses. En el momento en el que empezaron a contratar a gente, en el momento en el que empezó a crecer, aprovechando esa deslocalización y tomando la decisión de: ¿Queremos seguir por ahí o queremos volver todos? Y curiosamente, que es una cosa que me resona mucho con esto que comentas, esto que recuerdo yo de Runroom de los dailies, los stand-ups, haciéndolos todos delante del portátil, en el momento en el que este equipo iniciático decidió: All in, 100% remoto, todo el mundo decide por motivos individuales irse a Francisco a vivir. Y Buffer abrió una oficina ahí. Pero siempre desde la premisa de que no podía haber una ventaja de estar en la oficina como empleado a no estar en ella y trabajar como trabajáis vosotros.
+
+[00:25:15.810] - Carlos Iglesias
+Con la salvedad que probablemente vosotros estáis en distintos usos horarios, y eso debe ser un puntito de complejidad que nosotros no tenemos, la verdad, actualmente. Todos estamos en el mismo uso y yo creo que eso nos permite más fácil la sincronicidad, podernos sincronizar en una ventana más amplia a lo largo del día, digamos. Y eso, igual lo hace un poquito más fácil, probablemente.
+
+[00:25:49.780] - Carlos Iglesias
+¿Por qué es tan importante la transparencia en buffer? ¿Por qué se le da tanta importancia a la transparencia?
+
+[00:26:00.690] - Mike San Román
+Es difícil responderlo después de diez años trabajando así. En muchos momentos me planteo el shock que podría ser, de hecho, para mí, el de repente entrar en otro sitio. Incluso me ha pasado de tener algunos encuentros como más de advisor con otras empresas y demás, en la que doy por supuesto que existe ese flujo de información dentro de los equipos y demás. Y claro, darme cuenta por las caras que pone la gente, que no es así. Para mí, uno de los elementos principales, y más aún si lo casas con el tema de trabajar 100% en remoto, ni siquiera en el mismo uso horario y demás, es que la transparencia genera confianza. Y eso es una cosa que para mí es como algo inamovible, realmente, la confianza como un principio operativo o básico en un equipo. Si no tienes confianza, da igual que tengas el mejor roadmap, las mejores perks, lo que sea, no vas a tener el mismo éxito y, desde luego, no vas a disfrutar tanto ese camino.
+
+[00:27:17.350] - Carlos Iglesias
+¿Cómo influye eso en el producto? ¿En qué forma tú crees que eso impacta de forma directa la calidad del producto que entregáis?
+
+[00:27:29.580] - Mike San Román
+Para empezar, una de las cosas que me vienen a la mente respecto a la experiencia de usuario, que es una cosa que ocurría mucho en esos momentos iniciáticos en buffer, pero nos ha pasado en momentos recientes también, en los que puede haber un problema, de repente, buffer se ha caído, deja de funcionar y demás, una cosa muy curiosa es que buffer ganaba a fans en un momento de incidente.
+
+[00:28:10.580] - Mike San Román
+Y creo que tenía mucho que ver con eso, porque se estaba compartiendo esto. Antes de entrar yo, Buffer fue hackeado. Hubo un problema de seguridad muy severo un fin de semana. Y recuerdo yo estar viendo tanto en Twitter, el equipo de Buffer saltando y hablando con la gente que estaba escribiendo, todo el mundo, ver ingenieros, ver eso junto con personas de customer support, junto con los fundadores y demás. Pero también un blog actualizado en minuto a minuto con cómo estaba progresando esa mitigación.
+
+[00:28:55.760] - Mike San Román
+Y claro, es una cosa que, de nuevo, genera confianza. Y dices: Estas personas están compartiendo esto. Algo que tiene que ver con el producto, en parte, cuando yo entré en buffer, buffer era bufferapp.com, y al cabo de unos meses compramos el dominio buffer.com, que lo tenía una empresa diferente. 
+
+[00:29:23.780] - Mike San Román
+Una persona que no lo estaba utilizando realmente. Lo estaba usando. Una empresa en otra industria y demás que lo estaba utilizando. El proceso de negociación con esa persona, un detalle que a mí siempre me alucina, es que cuando fuimos a hablar, cuando esa persona mostró que estaba dispuesta a vender el dominio, hicimos una captura de pantalla del extracto del banco y es: Este es el dinero que tiene la empresa. Entonces, puedes entender que nuestra oferta es esta otra cantidad. Ya está. No hay ni trampa ni cartón, es esto. Si te estás esperando que somos una big tech y demás, no es eso lo que te vas a encontrar. Y me parece un nivel de franqueza, aunque pudieran haber otras personas, incluso que nos pudieran decir: No, pues igual, podíais haber justamente haberlo conseguido por una cantidad menor, si hubiéseis negociado de una manera más agresiva y demás. Pero no trabajamos así. Y es una cosa que recuerdo en aquel momento, como algo flipante.
+
+[00:30:37.960] - Carlos Iglesias
+Creo que como pasa en las culturas fuertes que yo conozco de primera mano, que sé de primera mano o que las veo de ese fuera, pero que tienen un nivel de transparencia que irradía hacia afuera, que es imposible no ver lo que sucede dentro. Creo que lo que lo que pasa con este tipo de culturas es que no se pueden evitar. No sabemos ser de otra forma. Y esto muchas veces se habla, cuando se habla de cultura y de valores y principios, y muchas veces se dice esa frase que por usada está manida, pero que no deja de ser cierto: si los principios no te cuestan dinero, si los principios y valores no te cuestan dinero, si no estás dispuesto a decir que no a cosas, es que igual es un poco marketing, más que cultura. Y pienso que una compañía con un compromiso tan increíblemente férreo, hasta la obsesión, con la transparencia, lo es porque no puede ser de otra forma. No es un valor cómodo la transparencia. Estoy convencido de que se dan muchas situaciones en las que dices: Exponer esto, debe ser duro, debe ser doloroso, porque al final tenéis shareholders, tenéis gente que ha puesto pasta ahí, tenéis clientes que os están pagando, tenéis una ARR de 18 millones.
+
+[00:32:18.180] - Carlos Iglesias
+Me has descrito superbien la transparencia en algunos comportamientos. ¿En qué ves optimismo? 
+
+[00:33:26.070] - Mike San Román
+Hay dos temas que me resuenan mucho con el optimismo. Primero, es un valor adyacente, que es la mejora continua, que creo que cuando lo estás aplicando a nivel tanto de organización como a nivel individual, que es casi como una expectativa que tenemos en Buffer, que estamos todos trabajando en ser mejores personas, existe un nivel de optimismo en creer que puedes realmente mejorar y que realmente lo que estás intentando, por muy radical que pueda ser, realmente te puede aportar algo positivo. Entonces, hay un punto de ese salto de fe o ese momento de vulnerabilidad que crees que realmente te va a llevar a ese siguiente nivel. Entonces, para mí son dos cosas que están como muy unidas, incluso pensándolo a nivel de ingeniería, el  trabajar con una tecnología, el haber construido un producto que tiene 13 años, 14 años, hay mucha deuda técnica, saber, tener la confianza de: No, es que realmente lo podemos llevar a un mejor punto. Ahí hay un optimismo, porque también hemos tenido en ese roadmap tecnológico muchos momentos de saltos de fe de vamos a hacer esto y nos va a reportar algo esta apuesta, dentro de un año, cuando hayamos transitado este desierto.
+
+[00:35:01.780] - Mike San Román
+Existe eso que tenemos que estar practicando cada día. Por otro lado, también, dentro del mundo de las startups, ser una startup así rara, que no estamos levantando rondas de capital y eso significa que dependemos del dinero que nos dan nuestros usuarios, hay momentos complicados, como ha podido ser el COVID, por ejemplo, en 2020. En la web, junto al ARR, se puede ver la métrica, porque s ahora es una ARR de 18 millones, pero yo creo que en ese momento podíamos haber llegado a un pico de 20, 21, que no es solamente relacionado con el COVID, también hay una parte de cambio de estrategia de producto y cambio de estrategia de empresa. Y existe ese optimismo de decir: este cambio, incluso a nivel de pricing. De hecho, el sistema de pricing que tenemos ahora a nivel unitario es mucho más barato que la anterior, pero creemos que realmente nos va a llevar a un mayor crecimiento, a una empresa mejor.
+
+[00:36:34.460] - Carlos Iglesias
+¿Tú crees que sería posible hacer exactamente el mismo producto que tenéis en una cultura distinta?
+
+[00:36:47.570] - Mike San Román
+Yo creo que no. Yo no creo que hubiese sobrevivido, seguramente, todo ese proceso de transformación por el que hemos ido pasando como empresa a nivel interno. Y, naturalmente, eso se refleja en el producto, el cómo nos hemos ido organizando cada momento, cada cambio de equipo, cada cambio de foco, se puede ver, si pudiésemos hacer capturas de cómo era el producto, qué funcionlidades había qué partes eran más fuertes y qué partes eran más débiles, se explican, yo creo, exclusivamente a través de la atención que teníamos como cultura cultura y como organización a nivel interno. Está totalmente unido.
+
+[00:37:34.940] - Carlos Iglesias
+Claro. Sí, es que se le atribuye a Dräcker esto de que la cultura se come a la estrategia para desayunar. A mí me gusta decir que la cultura y también la organización formal, cómo te organizas, cómo estás organizado, realmente tiene un impacto brutal en la calidad de lo que entregas, en la entrega de valor que estás haciendo. Hay formas de hacer, hay culturas tóxicas, hay culturas de ordeno y mando, culturas de altísima burocracia, que en sí mismo eso es lo que están impidiendo entregar mejor. Es imposible entregar bien algo a ese nivel, porque te topas con los silos y te topas con la delegación de responsabilidad...
+
+[00:38:50.950] - Mike San Román
+A hilo de eso, soy muy fan de la ley de Conway y cómo está organizado el equipo y cómo fluye la información es un reflejo de cómo está hecha la arquitectura del sistema. Y es que es literalmente así. Ese cambio no es solamente una cosa exclusivamente a nivel de ingeniería, es que literalmente lo puedes ver en la experiencia de usuario. Lo que tenían que hacer los usuarios hace cuatro años, que teníamos una empresa que eran varios productos, porque realmente cada equipo estaba centrado en unas métricas en concreto y estaban trabajando con un prisma de alta independencia, casi como startups dentro de una startup. Y el trabajo que generaba eso, nos dimos cuenta también que era algo que no estaba alineado ya no solamente con los valores de la empresa que estamos hablando, sino con la visión que tenemos de cómo tiene que ser Buffer como empresa, que buscamos ser una empresa pequeña, un negocio pequeño. No queremos crecer a nivel de plantilla de manera exponencial, como hacen otros. Queremos ser un negocio pequeño, un negocio a largo plazo. Y claro, eso no estaba alineado con cómo estábamos operando.
+
+[00:40:20.170] - Carlos Iglesias
+¿Cómo es hoy la estructura? ¿Cómo son los equipos? Porque de alguna forma tenéis distintas áreas funcionales o distintas partes del producto que atañen más a una propuesta de valor o a otra. ¿Cómo es hoy esa organización?
+
+[00:40:36.260] - Mike San Román
+Sí, está mucho más centrado en la parte, desde un prisma de la experiencia de usuario, de jobs to be done o grupos de funcionalidades que están relacionados entre sí. Entonces, tenemos un equipo que está mucho más centrado en la parte de la creación de contenido, la experiencia de crear un post, organizar eso, organizar las ideas, que es un concepto y una sección nueva que estamos trabajando mucho más ahora. Podemos tener otro equipo que está más centrado en la conexión de distintas redes sociales, lo que significa el proceso de analíticas, comentarios, esa conexión, la experiencia de todo esto, la publicación, la liability de todo eso. Entonces, está mucho más centrado en cómo el usuario puede vivir de servir cada parte del producto.
+
+[00:41:33.150] - Carlos Iglesias
+Sí, entiendo la idea de jobs to be done, de identificar cuáles son esas necesidades y entiendo que los equipos tienen responsabilidad end-to-end ahí. Ahí sí que habéis mantenido un poco esa necesidad de que tengan no independencia, pero sí autonomía, máxima autonomía, máxima autogestión, alineación con una estrategia en común, una estrategia de producto, una estrategia de negocio. Y a partir de ahí, entiendo que orientación a outcome.
+
+[00:42:18.090] - Carlos Iglesias
+Me estás hablando de cómo se toman las decisiones, incluso a nivel de roadmap de producto, a todos los niveles, incluso a nivel de contratación, a todos los niveles. Pero bueno, ya que habéis hecho público vuestro open salary system, explícalo un poquito. Porque yo recuerdo que cuando tú entraste, aquello nos voló la cabeza a todo el mundo. Yo siempre lo he entendido como una fórmula que depende de tu rol, del rol que desempeñas y, por tanto, la aportación de valor de qué haces a la organización y del coste de vida de la ciudad donde vives o de tu propio contexto.
+
+[00:43:11.940] - Mike San Román
+Sí, y al final no hay muchas más variables que esto y tu nivel dentro de ese rol que estás desarrollando.
+
+[00:43:20.170] - Carlos Iglesias
+Claro, lo que se espera de ti dentro de ese rol, digamos, el nivel de comprensión, o de satisfacción o de la organización con cómo estás desempeñando tu rol.
+
+[00:43:29.950] - Mike San Román
+Bueno, sí, la experiencia que tienes, son como varios pilares, el nivel de liderazgo, el nivel de impacto que tienes en la empresa y demás. Cada área tiene su framework que muestra esos distintos niveles o qué significa ser nivel cuatro en ingeniería y qué significa ser nivel cuatro en atención al cliente. Hay una definición común para todos en cada nivel para asegurarnos que realmente estamos teniendo las expectativas iguales a nivel de toda la empresa. Entonces, tenemos que estar alineados desde ese punto de vista. Pero sí, es una fórmula que hemos ido iterando con el paso de los años, sobre todo simplificando, buscando que sea mucho más fácil de entender y sea mucho más clara. E incluso con la parte del coste de vida, eliminando... Ahora solamente tenemos eso, el coste de vida global y el alto coste de vida, que es para unas ciudades determinadas y ya está. Pero es una cosa que siempre vamos buscando, qué podemos eliminar para aumentar más la claridad y que sea una cosa sobre todo justa para todo el mundo.
+
+[00:44:46.210] - Carlos Iglesias
+Es fantástico, la verdad es que es bastante inspirador. Además, no siempre fue así, que esto es algo que también me parece importante, porque de repente, Buffer llevaba tres años ya operando, cuando de repente dicen necesitamos esto y vamos a hacer la apuesta por tener nuestro propio marco de trabajo abierto, que todo el mundo sepa. Y eso, ¡wow! Debió ser un momento interesante.
+
+[00:45:14.500] - Mike San Román
+Creo que es una parte que siempre ha estado ahí en Buffer, de experimentar con lo que creemos que puede ser el futuro del trabajo, el futuro de las organizaciones. La transparencia siendo un pilar muy fuerte, pero eso, otras cosas como los experimentos que hemos hecho de management o ahora la semana laboral de cuatro días, que empezamos en 2020, siempre buscando qué es realmente el futuro del trabajo. Experimentando con ello, a veces equivocándonos y dando marcha atrás. Pero sí que es cierto que es una cosa que yo, a nivel personal, siempre he valorado mucho, que dieran ese paso. Y el trabajo, sobre todo, que no es nada desdeñable, aunque fuese un equipo más pequeño, de estandarizar los sueldos de esa manera. En ese momento, de centrarse en decir: ¿cómo podemos realmente definir esto? Porque claro, en el momento en el que es transparente, en el momento en el que es una fórmula, yo no puedo negociar 1.000 dólares más que tú.
+
+[00:46:35.130] - Mike San Román
+Si estamos haciendo el mismo rol, no hay valores intermedios, no hay negociación. Todo tiene que ser igual.
+
+[00:46:50.050] - Carlos Iglesias
+Tiene que ser muy interesante el marco de la "medición de desempeño". ¿Cómo encuentra Buffer el consenso de que tú estás haciendo bien tu trabajo?
+
+[00:47:08.100] - Mike San Román
+Buena pregunta. Cada seis meses, de hecho ahora mismo estamos en este proceso de hacer las reviews de performance. Aunque es el manager de cada persona el que está realmente redactando esta review, y es la persona que puede proponer si alguien merece un ascenso, un ajuste no está decidido de manera unilateral por esta persona. No solamente tiene que presentar un caso lo más objetivo posible, sino que a nivel de ingeniería, el grupo de managers se junta para revisar todos estos casos y otros ejecutivos también participan en ello para asegurarnos que realmente hay un consenso desde distintas áreas en la percepción de esto y se busca mucho más esa información por parte de todo el mundo. Entonces, se va expandiendo más y más eso. Hay una parte muy importante, además, en Buffer, que estos ascensos solamente ocurren cuando ya has estado desempeñando este rol de una manera muy clara. Mientras que en otras organizaciones existe más ese salto de fe de "Creemos que estás listo para empezar a trabajar de esta manera".
+
+[00:48:52.050] - Mike San Román
+Yo lo que espero de una persona que puede pasar a ser staff engineer, lo que sería un nivel seis en Buffer en ingeniería, no solamente ya un nivel de liderazgo técnico de varios equipos y demás, sino un nivel de aportación cultural dentro de la empresa. Entonces, una persona que igual no trabaja en el día a día con esta persona, tiene que saber de esta persona, tiene que haber visto que realmente está implicada y demás. Se busca mucho ese consenso.
+
+[00:49:32.420] - Carlos Iglesias
+¿Tenéis referentes? ¿Ponéis la mirada en compañías y en su forma de gestionar que os inspiren?
+
+[00:49:44.350] - Mike San Román
+Yo diría que sí y no.  No hay ninguna empresa que estemos siguiendo. Hay empresas con valores similares a los nuestros. Una empresa que me viene a la mente es Doist, la empresa que está detrás de Todoist y de Twist, que también es una empresa más o menos creada en el mismo momento, ese foco del trabajo en remoto, pero sí que es cierto que también tienen otros approaches diferentes a la hora de gestionar las cosas. Por ejemplo, son mucho más asíncronos que nosotros, a pesar de estar tan distribuidos, tenemos mucha sincronía igualmente. En el pasado, empresas que eran pioneros en el trabajo en remoto como Basecamp nos influenciaron mucho en su día. Siempre hemos sido como eso, de repente alguien ve algo muy inspirador de una empresa y lo comparte con todo el mundo, pero no hay una que...
+
+[00:50:56.570] - Carlos Iglesias
+El otro día dábamos una charla donde explicábamos un poco nuestra historia en Runroom, que sabes que vamos a hacer 21 años este año. Y mi sensación siempre ha sido esa de ir con el machete abriendo camino, pero al final es muy difícil encontrar a alguien que una compañía de servicio que haga consultoría, pero también haga desarrollo de producto y que haga growth y que haga lo que nosotros hacemos. La forma de gestionar Buffer no se aprende en escuelas de negocio. No se aprende en un MBA ni en las mejores universidades. 
+
+[00:52:21.100] - Carlos Iglesias
+Y creo que la confianza, precisamente, y ese optimismo, lo veo también en el sentido de decir: nos vamos a equivocar porque para que exista mejora continua, tiene que haber error, para yo poder identificar dónde está la mejora. El error forma parte de ese proceso de mejora y convivamos con ello. Confianza, optimismo, transparencia. Creo que esos valores y esa mentalidad y esa personalidad no son replicables.
+
+[00:53:11.030] - Carlos Iglesias
+Quiero acabar con una pregunta que es inevitable para mí, Mike, y perdona la presunción, sé que estamos a años luz, porque no tiene nada que ver lo que hacéis vosotros con lo que nosotros hacemos, pero me gustaría entender qué cosas ves en común en Runroom, la cultura que conociste en Runroom en su día, con la cultura que ves hoy en Buffer o la que veías en su momento cuando saltaste, que probablemente en aquel momento es donde ves las principales diferencias y llegas a un contexto totalmente distinto, pero igual también encuentras cosas en común.
+
+[00:53:48.080] - Carlos Iglesias
+Me interesa entender qué es lo que viste en común.
+
+[00:53:56.990] - Mike San Román
+Aparte del foco en la mejora continua, porque es una cosa que siempre me alucinó en Runroom, tanto desde fuera, antes de entrar, como estando dentro, el cómo se podía cuestionar todo y desde el foco de cómo podemos hacer esto mejor entre todos, esas retrospectivas de toda la empresa, todos juntos, discutiendo de todo. Incluso recuerdo el discutir temas salariales y demás, que eso ya me alucinaba y sentir mucha gratitud por todo el grupo de personas que estábamos ahí teniendo estas conversaciones tan directas. También la transparencia. Y una cosa que uno de mis primeros recuerdos tuyos y de César fue la primera vez en una reunión de Agile Barcelona con ese club de lectura. Creo que eran en las oficinas de Doble you en la Plaza de la Virreina, estaba Bea ahí, que recuerdo los que estaban ahí en la mesa, que era en plan: Esto cuando vengan los de Runroom, que nos cuenten cómo lo hacen. No me acuerdo ya ni del tema,  pero recuerdo esa pareja de cofundadores, llegando y compartiendo cómo trabajan ellos y además una cosa, algo de gestión con el cliente. Algo que, igual es una de sus ventajas competitivas, y lo están compartiendo con una comunidad.
+
+[00:55:54.400] - Mike San Román
+Hay un nivel de idealismo, de la necesidad de como negocios que operemos de una manera mucho más alineada con nuestros valores y de generosidad, que veo muy en común entre Buffer y Runroom. Y creo que esa creencia que con todos estos años está más que demostrada que se pueden hacer mejor las cosas y que realmente no es una utopía, sino que se pueden construir negocios sólidos con ello.
+
+[00:56:33.140] - Carlos Iglesias
+100% Mike. Me quedo con esto y no añadiría nada más a tu mensaje, la verdad. Yo creo que es un mensaje que comparto. Últimamente estoy en la reflexión de que me gustaría, voy a intentar hablar más de producto en este podcast, porque creo que hay ejemplos que son extraordinarios dentro del producto y del cual todas las empresas pueden aprender. No todas las empresas son empresas orientadas a producto, empresas tecnológicas y con el nivel de las capacidades que tiene Buffer, pero yo creo que tú has dado un poco las claves y me quedo con la idea de que esto al final es somos así porque no podemos ser de otra manera, porque somos así. Entonces la empresa es como somos nosotros. Y me siento muy identificado con eso y si ya le daba importancia, pues todavía lo voy a cuidar más, porque creo que puede parecer un poco, como decía, presuntuoso preguntarte en qué nos parecemos cuando estamos hablando también de Buffer. Pero para mí es importante entender lo que somos, porque cuesta mucho ver lo que tú eres y entender lo que eres cuando precisamente no tienes otras referencias.
+
+[00:58:17.400] - Carlos Iglesias
+Estoy convencido de que en algún momento de la entrevista te habrás dicho: Eso en mi empresa es imposible. Y te entiendo. Freud distinguía tres niveles de conciencia: consciente, inconsciente y el preconsciente. El preconsciente es todo aquello que forma parte del inconsciente, pero que se asoma al lado del consciente. Alberga las vivencias, los sentimientos, las ideas y las fantasías que se almacenan en la memoria, pero de las cuales no se tiene conciencia a cada momento. Yo creo que la cultura vive en el preconsciente. Es algo tan asentado sobre los supuestos básicos que muchas veces somos incapaces de imaginar otra realidad diferente a cómo se han hecho siempre aquí las cosas. Nos parece imposible que pueda ser de otra manera. Por eso es tan importante visitar desde la conciencia otras realidades. Si te ha gustado el episodio, danos un poquito de amor con un like, un comentario, o mejor, compártelo en tus propias redes. Un fuerte abrazo y os espero en el mundo real.
+

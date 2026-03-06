@@ -93,6 +93,38 @@ class SupabaseStorage:
             rows = cur.fetchall()
         return list(rows)
 
+    def list_episodes_for_title_sync(self, statuses: list[str], limit: int | None = None) -> list[dict[str, Any]]:
+        statuses = [s.strip() for s in statuses if s.strip()]
+        if not statuses:
+            statuses = ["auto_matched", "manual_matched"]
+
+        query = """
+        SELECT
+            id,
+            title,
+            runroom_article_url,
+            match_status
+        FROM episodes
+        WHERE runroom_article_url IS NOT NULL
+          AND match_status = ANY(%(statuses)s)
+        ORDER BY id
+        """
+        params: dict[str, Any] = {"statuses": statuses}
+        if limit is not None:
+            query += " LIMIT %(limit)s"
+            params["limit"] = int(limit)
+
+        with self._conn.cursor() as cur:
+            cur.execute(query, params)
+            rows = cur.fetchall()
+        return list(rows)
+
+    def episode_exists(self, episode_id: int) -> bool:
+        with self._conn.cursor() as cur:
+            cur.execute("SELECT 1 FROM episodes WHERE id = %s", (episode_id,))
+            row = cur.fetchone()
+        return row is not None
+
     def upsert_runroom_articles(self, articles: list[RunroomArticle]) -> int:
         if not articles:
             return 0
@@ -123,6 +155,37 @@ class SupabaseStorage:
                 )
         self._conn.commit()
         return len(articles)
+
+    def upsert_runroom_article(self, article: RunroomArticle) -> int:
+        query = """
+        INSERT INTO runroom_articles (url, slug, title, description, lang, episode_code_hint)
+        VALUES (%(url)s, %(slug)s, %(title)s, %(description)s, %(lang)s, %(episode_code_hint)s)
+        ON CONFLICT (url)
+        DO UPDATE SET
+            slug = EXCLUDED.slug,
+            title = EXCLUDED.title,
+            description = EXCLUDED.description,
+            lang = EXCLUDED.lang,
+            episode_code_hint = EXCLUDED.episode_code_hint,
+            fetched_at = now()
+        RETURNING id
+        """
+        with self._conn.cursor() as cur:
+            cur.execute(
+                query,
+                {
+                    "url": article.url,
+                    "slug": article.slug,
+                    "title": article.title,
+                    "description": article.description,
+                    "lang": article.lang,
+                    "episode_code_hint": article.episode_code_hint,
+                },
+            )
+            row = cur.fetchone()
+        self._conn.commit()
+        assert row is not None
+        return int(row["id"])
 
     def list_runroom_articles(self) -> list[dict[str, Any]]:
         with self._conn.cursor() as cur:
@@ -177,6 +240,39 @@ class SupabaseStorage:
         with self._conn.cursor() as cur:
             cur.execute(query, (url, status, confidence, episode_id))
         self._conn.commit()
+
+    def update_episode_and_article_title(
+        self,
+        episode_id: int,
+        runroom_article_url: str,
+        new_title: str,
+    ) -> dict[str, int]:
+        with self._conn.cursor() as cur:
+            cur.execute(
+                """
+                UPDATE episodes
+                SET title = %s
+                WHERE id = %s
+                """,
+                (new_title, episode_id),
+            )
+            episode_rows = cur.rowcount
+
+            cur.execute(
+                """
+                UPDATE runroom_articles
+                SET title = %s,
+                    fetched_at = now()
+                WHERE url = %s
+                """,
+                (new_title, runroom_article_url),
+            )
+            article_rows = cur.rowcount
+        self._conn.commit()
+        return {
+            "episodes_updated": int(episode_rows),
+            "runroom_articles_updated": int(article_rows),
+        }
 
     def query_similar_chunks(self, query_embedding: list[float], top_k: int = 8) -> list[dict[str, Any]]:
         vec = _vector_literal(query_embedding)
@@ -246,6 +342,81 @@ class SupabaseStorage:
                 writer.writerow(row)
 
         return len(rows)
+
+    def list_review_candidates(self, limit_episodes: int | None = None) -> list[dict[str, Any]]:
+        query = """
+        WITH ranked AS (
+            SELECT
+                e.id AS episode_id,
+                e.source_filename,
+                e.episode_code,
+                e.title AS episode_title,
+                e.match_confidence,
+                a.id AS article_id,
+                a.url AS candidate_url,
+                a.title AS candidate_title,
+                c.score,
+                c.method,
+                row_number() OVER (PARTITION BY e.id ORDER BY c.score DESC NULLS LAST) AS rn
+            FROM episodes e
+            JOIN episode_article_candidates c ON c.episode_id = e.id
+            JOIN runroom_articles a ON a.id = c.article_id
+            WHERE e.match_status = 'review_required'
+        )
+        SELECT *
+        FROM ranked
+        WHERE rn <= 5
+        ORDER BY episode_id, score DESC NULLS LAST
+        """
+        with self._conn.cursor() as cur:
+            cur.execute(query)
+            rows = list(cur.fetchall())
+
+        if limit_episodes is None:
+            return rows
+
+        allowed_ids: set[int] = set()
+        for row in rows:
+            episode_id = int(row["episode_id"])
+            if len(allowed_ids) >= limit_episodes and episode_id not in allowed_ids:
+                continue
+            allowed_ids.add(episode_id)
+        return [row for row in rows if int(row["episode_id"]) in allowed_ids]
+
+    def set_manual_match(self, episode_id: int, article_id: int, confidence: float | None = None) -> None:
+        with self._conn.cursor() as cur:
+            cur.execute(
+                """
+                UPDATE episode_article_candidates
+                SET is_selected = FALSE,
+                    review_required = FALSE
+                WHERE episode_id = %s
+                """,
+                (episode_id,),
+            )
+            cur.execute(
+                """
+                UPDATE episode_article_candidates
+                SET is_selected = TRUE,
+                    review_required = FALSE
+                WHERE episode_id = %s AND article_id = %s
+                """,
+                (episode_id, article_id),
+            )
+            cur.execute(
+                """
+                UPDATE episodes e
+                SET runroom_article_url = a.url,
+                    match_status = 'manual_matched',
+                    match_confidence = %s,
+                    matched_at = now()
+                FROM runroom_articles a
+                WHERE e.id = %s
+                  AND a.id = %s
+                """,
+                (confidence, episode_id, article_id),
+            )
+        self._conn.commit()
 
 
 def _vector_literal(values: list[float]) -> str:

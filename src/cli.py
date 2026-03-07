@@ -15,10 +15,12 @@ from src.pipeline.models import RunroomArticle
 logger = logging.getLogger(__name__)
 
 
-
 def build_parser() -> argparse.ArgumentParser:
-    parser = argparse.ArgumentParser(description="Realworld transcript RAG pipeline")
+    parser = argparse.ArgumentParser(description="Runroom content knowledge layer CLI")
     sub = parser.add_subparsers(dest="command", required=True)
+
+    migrate_cmd = sub.add_parser("migrate-schema", help="Apply SQL migrations in /sql")
+    migrate_cmd.add_argument("--schema-path", type=Path, default=Path("sql"))
 
     ingest_cmd = sub.add_parser("ingest-transcripts", help="Parse transcripts, chunk, enrich and load into Supabase")
     ingest_cmd.add_argument("--transcripts-dir", default="transcripciones", type=Path)
@@ -26,6 +28,26 @@ def build_parser() -> argparse.ArgumentParser:
     ingest_cmd.add_argument("--overlap-tokens", default=40, type=int)
     ingest_cmd.add_argument("--batch-size", default=32, type=int)
     ingest_cmd.add_argument("--offline-mode", action="store_true", help="Use deterministic local metadata/embeddings")
+
+    cs_md_cmd = sub.add_parser("ingest-case-studies-markdown", help="Ingest runroom case studies from markdown export")
+    cs_md_cmd.add_argument("--input", required=True, type=Path)
+    cs_md_cmd.add_argument("--target-tokens", default=240, type=int)
+    cs_md_cmd.add_argument("--overlap-tokens", default=40, type=int)
+    cs_md_cmd.add_argument("--batch-size", default=32, type=int)
+    cs_md_cmd.add_argument("--offline-mode", action="store_true", help="Use deterministic local metadata/embeddings")
+    cs_md_cmd.add_argument("--dry-run", action="store_true")
+
+    cs_url_cmd = sub.add_parser("ingest-case-study-url", help="Fetch and ingest a single runroom case study URL")
+    cs_url_cmd.add_argument("--url", required=True)
+    cs_url_cmd.add_argument("--target-tokens", default=240, type=int)
+    cs_url_cmd.add_argument("--overlap-tokens", default=40, type=int)
+    cs_url_cmd.add_argument("--batch-size", default=32, type=int)
+    cs_url_cmd.add_argument("--offline-mode", action="store_true")
+    cs_url_cmd.add_argument("--dry-run", action="store_true")
+
+    backfill_cmd = sub.add_parser("backfill-canonical-content", help="Backfill legacy episodes/chunks into canonical tables")
+    backfill_cmd.add_argument("--dry-run", action="store_true")
+    backfill_cmd.add_argument("--limit", type=int, default=None)
 
     sync_cmd = sub.add_parser("sync-runroom-sitemap", help="Fetch Runroom sitemap and upsert realworld URLs")
     sync_cmd.add_argument("--fetch-meta", action="store_true", default=True)
@@ -37,10 +59,34 @@ def build_parser() -> argparse.ArgumentParser:
     match_cmd.add_argument("--auto-margin", type=float, default=None)
     match_cmd.add_argument("--top-candidates", type=int, default=5)
 
-    query_cmd = sub.add_parser("query-similar", help="Search chunks by semantic similarity")
+    query_cmd = sub.add_parser("query-similar", help="Search legacy episode chunks by semantic similarity")
     query_cmd.add_argument("--text", required=True)
     query_cmd.add_argument("--top-k", default=8, type=int)
     query_cmd.add_argument("--offline-mode", action="store_true", help="Use deterministic local embeddings")
+
+    recommend_cmd = sub.add_parser("recommend-content", help="Recommend canonical content from free text")
+    text_group = recommend_cmd.add_mutually_exclusive_group(required=True)
+    text_group.add_argument("--text", type=str)
+    text_group.add_argument("--text-file", type=Path)
+    recommend_cmd.add_argument("--top-k", type=int, default=8)
+    recommend_cmd.add_argument("--fetch-k", type=int, default=60)
+    recommend_cmd.add_argument("--content-types", type=str, default="")
+    recommend_cmd.add_argument("--source", type=str, default=None)
+    recommend_cmd.add_argument("--lang", type=str, default=None)
+    recommend_cmd.add_argument("--group-by-type", action="store_true")
+    recommend_cmd.add_argument("--offline-mode", action="store_true")
+
+    reembed_cmd = sub.add_parser("reembed-content", help="Recompute embeddings for canonical content chunks")
+    reembed_cmd.add_argument("--content-type", type=str, default=None)
+    reembed_cmd.add_argument("--item-id", type=int, default=None)
+    reembed_cmd.add_argument("--batch-size", type=int, default=64)
+    reembed_cmd.add_argument("--offline-mode", action="store_true")
+
+    rel_cmd = sub.add_parser("materialize-content-relations", help="Persist related-content candidates")
+    rel_cmd.add_argument("--top-k-per-item", type=int, default=5)
+    rel_cmd.add_argument("--limit-items", type=int, default=None)
+    rel_cmd.add_argument("--content-types", type=str, default="")
+    rel_cmd.add_argument("--min-score", type=float, default=0.55)
 
     export_cmd = sub.add_parser("export-review-report", help="Export review_required matches to CSV")
     export_cmd.add_argument("--output", type=Path, default=Path("reports/review_report.csv"))
@@ -48,17 +94,11 @@ def build_parser() -> argparse.ArgumentParser:
     review_cmd = sub.add_parser("review-matches", help="Review and select matches interactively")
     review_cmd.add_argument("--limit", type=int, default=None, help="Max review episodes in this run")
 
-    apply_cmd = sub.add_parser(
-        "apply-manual-overrides",
-        help="Apply manual episode->URL matches from CSV",
-    )
+    apply_cmd = sub.add_parser("apply-manual-overrides", help="Apply manual episode->URL matches from CSV")
     apply_cmd.add_argument("--csv", type=Path, required=True, help="CSV path with manual overrides")
     apply_cmd.add_argument("--dry-run", action="store_true", help="Validate input without writing to database")
 
-    title_sync_cmd = sub.add_parser(
-        "sync-episode-titles-from-h1",
-        help="Sync episode and article titles from each episode page h1",
-    )
+    title_sync_cmd = sub.add_parser("sync-episode-titles-from-h1", help="Sync episode and article titles from each episode page h1")
     title_sync_cmd.add_argument("--dry-run", action="store_true", help="Only report differences without writing")
     title_sync_cmd.add_argument("--limit", type=int, default=None, help="Process only first N matched episodes")
     title_sync_cmd.add_argument(
@@ -76,7 +116,6 @@ def build_parser() -> argparse.ArgumentParser:
     return parser
 
 
-
 def main() -> None:
     parser = build_parser()
     args = parser.parse_args()
@@ -84,7 +123,19 @@ def main() -> None:
     settings = Settings.from_env()
     configure_logging(settings.log_level)
 
-    schema_path = Path("sql/001_init.sql")
+    schema_path = Path("sql")
+
+    if args.command == "migrate-schema":
+        from src.pipeline.storage import SupabaseStorage
+
+        storage = SupabaseStorage(settings.supabase_db_url)
+        try:
+            storage.ensure_schema(args.schema_path)
+        finally:
+            storage.close()
+        print(json.dumps({"ok": True, "schema_path": str(args.schema_path)}, indent=2, ensure_ascii=False))
+        return
+
     if args.command == "ingest-transcripts":
         from src.pipeline.ingest import ingest_transcripts
 
@@ -96,6 +147,50 @@ def main() -> None:
             offline_mode=args.offline_mode,
         )
         summary = ingest_transcripts(settings=settings, options=runtime, schema_path=schema_path)
+        print(json.dumps(summary, indent=2, ensure_ascii=False))
+        return
+
+    if args.command == "ingest-case-studies-markdown":
+        from src.content.ingest import ingest_case_studies_markdown
+
+        summary = ingest_case_studies_markdown(
+            settings=settings,
+            schema_path=schema_path,
+            input_path=args.input,
+            target_tokens=args.target_tokens,
+            overlap_tokens=args.overlap_tokens,
+            batch_size=args.batch_size,
+            offline_mode=args.offline_mode,
+            dry_run=args.dry_run,
+        )
+        print(json.dumps(summary, indent=2, ensure_ascii=False))
+        return
+
+    if args.command == "ingest-case-study-url":
+        from src.content.ingest import ingest_case_study_url
+
+        summary = ingest_case_study_url(
+            settings=settings,
+            schema_path=schema_path,
+            url=args.url,
+            target_tokens=args.target_tokens,
+            overlap_tokens=args.overlap_tokens,
+            batch_size=args.batch_size,
+            offline_mode=args.offline_mode,
+            dry_run=args.dry_run,
+        )
+        print(json.dumps(summary, indent=2, ensure_ascii=False))
+        return
+
+    if args.command == "backfill-canonical-content":
+        from src.content.backfill import backfill_episodes_to_canonical
+
+        summary = backfill_episodes_to_canonical(
+            settings=settings,
+            schema_path=schema_path,
+            dry_run=args.dry_run,
+            limit=args.limit,
+        )
         print(json.dumps(summary, indent=2, ensure_ascii=False))
         return
 
@@ -140,6 +235,66 @@ def main() -> None:
             print(f"[{sim:.4f}] {row['episode_code'] or '-'} {row['episode_title']} @ {ts}")
             print(f"  URL: {row.get('runroom_article_url') or '-'}")
             print(f"  Texto: {str(row['text'])[:240].strip()}\n")
+        return
+
+    if args.command == "recommend-content":
+        from src.content.recommendation import recommend_content
+
+        query_text = args.text
+        if args.text_file:
+            query_text = args.text_file.read_text(encoding="utf-8")
+
+        summary = recommend_content(
+            settings=settings,
+            schema_path=schema_path,
+            text=query_text,
+            top_k=args.top_k,
+            fetch_k=args.fetch_k,
+            content_types=_parse_comma_values(args.content_types),
+            source=args.source,
+            language=args.lang,
+            group_by_type=args.group_by_type,
+            offline_mode=args.offline_mode,
+        )
+        print(json.dumps(summary, indent=2, ensure_ascii=False))
+        return
+
+    if args.command == "reembed-content":
+        from src.pipeline.ai_client import AIClient
+        from src.pipeline.storage import SupabaseStorage
+
+        storage = SupabaseStorage(settings.supabase_db_url)
+        ai = AIClient(settings=settings, force_offline=args.offline_mode)
+
+        updated = 0
+        try:
+            storage.ensure_schema(schema_path)
+            rows = storage.list_content_chunks_for_reembed(content_type=args.content_type, item_id=args.item_id)
+            for i in range(0, len(rows), args.batch_size):
+                batch = rows[i : i + args.batch_size]
+                texts = [str(row.get("text") or "") for row in batch]
+                vectors = ai.embed_texts(texts)
+                for row, vector in zip(batch, vectors):
+                    storage.update_content_chunk_embedding(int(row["id"]), vector)
+                    updated += 1
+        finally:
+            storage.close()
+
+        print(json.dumps({"chunks_updated": updated}, indent=2, ensure_ascii=False))
+        return
+
+    if args.command == "materialize-content-relations":
+        from src.content.recommendation import materialize_relations
+
+        summary = materialize_relations(
+            settings=settings,
+            schema_path=schema_path,
+            top_k_per_item=args.top_k_per_item,
+            limit_items=args.limit_items,
+            content_types=_parse_comma_values(args.content_types),
+            min_score=args.min_score,
+        )
+        print(json.dumps(summary, indent=2, ensure_ascii=False))
         return
 
     if args.command == "export-review-report":
@@ -198,7 +353,6 @@ def main() -> None:
             storage.close()
         print(json.dumps(summary, indent=2, ensure_ascii=False))
         return
-
 
 
 def _fmt_seconds(seconds: float) -> str:

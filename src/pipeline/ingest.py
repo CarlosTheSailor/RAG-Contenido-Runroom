@@ -77,6 +77,7 @@ def ingest_transcripts(settings: Settings, options: RuntimeOptions, schema_path:
                 )
 
             storage.replace_chunks(episode_id=episode_id, chunks=chunks)
+            storage.sync_episode_to_canonical(episode_id)
             summary["chunks_written"] += len(chunks)
             summary["chunks_with_metadata"] += len(chunks)
 

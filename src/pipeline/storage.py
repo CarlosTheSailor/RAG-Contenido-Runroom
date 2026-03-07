@@ -9,7 +9,10 @@ from typing import Any
 import psycopg
 from psycopg.rows import dict_row
 
+from src.content.models import CanonicalChunk, CanonicalContentItem, CanonicalSection
 from src.pipeline.models import Chunk, EpisodeInfo, RunroomArticle
+from src.pipeline.normalization import slugify
+from src.pipeline.schema import apply_migrations
 
 logger = logging.getLogger(__name__)
 
@@ -22,10 +25,11 @@ class SupabaseStorage:
         self._conn.close()
 
     def ensure_schema(self, schema_path: Path) -> None:
-        sql = schema_path.read_text(encoding="utf-8")
-        with self._conn.cursor() as cur:
-            cur.execute(sql)
-        self._conn.commit()
+        apply_migrations(self._conn, schema_path)
+
+    # ---------------------------
+    # Legacy episode/chunk methods
+    # ---------------------------
 
     def upsert_episode(self, episode: EpisodeInfo) -> int:
         query = """
@@ -86,6 +90,30 @@ class SupabaseStorage:
                     },
                 )
         self._conn.commit()
+
+    def list_chunks_for_episode(self, episode_id: int) -> list[dict[str, Any]]:
+        with self._conn.cursor() as cur:
+            cur.execute(
+                """
+                SELECT
+                    id,
+                    episode_id,
+                    chunk_index,
+                    start_ts_sec,
+                    end_ts_sec,
+                    speaker,
+                    text,
+                    metadata_json,
+                    embedding,
+                    token_count
+                FROM chunks
+                WHERE episode_id = %s
+                ORDER BY chunk_index
+                """,
+                (episode_id,),
+            )
+            rows = cur.fetchall()
+        return list(rows)
 
     def list_episodes(self) -> list[dict[str, Any]]:
         with self._conn.cursor() as cur:
@@ -417,6 +445,510 @@ class SupabaseStorage:
                 (confidence, episode_id, article_id),
             )
         self._conn.commit()
+
+    # ---------------------------
+    # Canonical multi-content layer
+    # ---------------------------
+
+    def upsert_content_item(self, item: CanonicalContentItem, legacy_episode_id: int | None = None) -> int:
+        query = """
+        INSERT INTO content_items (
+            content_key,
+            content_type,
+            title,
+            slug,
+            url,
+            source,
+            language,
+            status,
+            published_at,
+            extracted_at,
+            metadata_json,
+            custom_metadata_json,
+            raw_text,
+            legacy_episode_id
+        ) VALUES (
+            %(content_key)s,
+            %(content_type)s,
+            %(title)s,
+            %(slug)s,
+            %(url)s,
+            %(source)s,
+            %(language)s,
+            %(status)s,
+            %(published_at)s,
+            %(extracted_at)s,
+            %(metadata_json)s::jsonb,
+            %(custom_metadata_json)s::jsonb,
+            %(raw_text)s,
+            %(legacy_episode_id)s
+        )
+        ON CONFLICT (content_key)
+        DO UPDATE SET
+            content_type = EXCLUDED.content_type,
+            title = EXCLUDED.title,
+            slug = EXCLUDED.slug,
+            url = EXCLUDED.url,
+            source = EXCLUDED.source,
+            language = EXCLUDED.language,
+            status = EXCLUDED.status,
+            published_at = EXCLUDED.published_at,
+            extracted_at = EXCLUDED.extracted_at,
+            metadata_json = EXCLUDED.metadata_json,
+            custom_metadata_json = EXCLUDED.custom_metadata_json,
+            raw_text = EXCLUDED.raw_text,
+            legacy_episode_id = EXCLUDED.legacy_episode_id,
+            updated_at = now()
+        RETURNING id
+        """
+        payload = {
+            "content_key": item.content_key,
+            "content_type": item.content_type,
+            "title": item.title,
+            "slug": item.slug,
+            "url": item.url,
+            "source": item.source,
+            "language": item.language,
+            "status": item.status,
+            "published_at": item.published_at,
+            "extracted_at": item.extracted_at,
+            "metadata_json": json.dumps(item.metadata, ensure_ascii=False),
+            "custom_metadata_json": json.dumps(item.custom_metadata, ensure_ascii=False),
+            "raw_text": item.raw_text,
+            "legacy_episode_id": legacy_episode_id,
+        }
+        with self._conn.cursor() as cur:
+            cur.execute(query, payload)
+            row = cur.fetchone()
+        self._conn.commit()
+        assert row is not None
+        return int(row["id"])
+
+    def replace_content_sections(self, item_id: int, sections: list[CanonicalSection]) -> dict[int, int]:
+        section_map: dict[int, int] = {}
+        with self._conn.cursor() as cur:
+            cur.execute("DELETE FROM content_sections WHERE content_item_id = %s", (item_id,))
+            query = """
+            INSERT INTO content_sections (
+                content_item_id,
+                section_order,
+                section_key,
+                section_title,
+                text,
+                token_count,
+                metadata_json,
+                source_locator
+            ) VALUES (
+                %(content_item_id)s,
+                %(section_order)s,
+                %(section_key)s,
+                %(section_title)s,
+                %(text)s,
+                %(token_count)s,
+                %(metadata_json)s::jsonb,
+                %(source_locator)s::jsonb
+            )
+            RETURNING id
+            """
+            for section in sections:
+                cur.execute(
+                    query,
+                    {
+                        "content_item_id": item_id,
+                        "section_order": section.section_order,
+                        "section_key": section.section_key,
+                        "section_title": section.section_title,
+                        "text": section.text,
+                        "token_count": section.token_count,
+                        "metadata_json": json.dumps(section.metadata, ensure_ascii=False),
+                        "source_locator": json.dumps(section.source_locator, ensure_ascii=False),
+                    },
+                )
+                row = cur.fetchone()
+                if row is not None:
+                    section_map[section.section_order] = int(row["id"])
+        self._conn.commit()
+        return section_map
+
+    def replace_content_chunks(self, content_item_id: int, chunks: list[CanonicalChunk]) -> None:
+        with self._conn.cursor() as cur:
+            cur.execute("DELETE FROM content_chunks WHERE content_item_id = %s", (content_item_id,))
+            query = """
+            INSERT INTO content_chunks (
+                content_item_id,
+                section_id,
+                chunk_order,
+                section_key,
+                section_title,
+                text,
+                token_count,
+                metadata_json,
+                source_locator,
+                embedding
+            ) VALUES (
+                %(content_item_id)s,
+                %(section_id)s,
+                %(chunk_order)s,
+                %(section_key)s,
+                %(section_title)s,
+                %(text)s,
+                %(token_count)s,
+                %(metadata_json)s::jsonb,
+                %(source_locator)s::jsonb,
+                %(embedding)s::vector
+            )
+            """
+            for chunk in chunks:
+                section_id_val = chunk.metadata.get("section_id")
+                section_id = int(section_id_val) if isinstance(section_id_val, int) or (isinstance(section_id_val, str) and section_id_val.isdigit()) else None
+                cur.execute(
+                    query,
+                    {
+                        "content_item_id": content_item_id,
+                        "section_id": section_id,
+                        "chunk_order": chunk.chunk_order,
+                        "section_key": chunk.section_key,
+                        "section_title": chunk.section_title,
+                        "text": chunk.text,
+                        "token_count": chunk.token_count,
+                        "metadata_json": json.dumps(chunk.metadata, ensure_ascii=False),
+                        "source_locator": json.dumps(chunk.source_locator, ensure_ascii=False),
+                        "embedding": _vector_literal(chunk.embedding),
+                    },
+                )
+        self._conn.commit()
+
+    def list_content_items(
+        self,
+        content_types: list[str] | None = None,
+        source: str | None = None,
+        language: str | None = None,
+        limit: int | None = None,
+    ) -> list[dict[str, Any]]:
+        query = """
+        SELECT
+            id,
+            content_key,
+            content_type,
+            title,
+            slug,
+            url,
+            source,
+            language,
+            status,
+            published_at,
+            extracted_at,
+            metadata_json,
+            custom_metadata_json,
+            raw_text,
+            legacy_episode_id
+        FROM content_items
+        WHERE 1=1
+        """
+        params: dict[str, Any] = {}
+
+        if content_types:
+            query += " AND content_type = ANY(%(content_types)s)"
+            params["content_types"] = content_types
+        if source:
+            query += " AND source = %(source)s"
+            params["source"] = source
+        if language:
+            query += " AND language = %(language)s"
+            params["language"] = language
+
+        query += " ORDER BY id"
+        if limit is not None:
+            query += " LIMIT %(limit)s"
+            params["limit"] = int(limit)
+
+        with self._conn.cursor() as cur:
+            cur.execute(query, params)
+            rows = cur.fetchall()
+        return list(rows)
+
+    def list_content_chunks_for_item(self, content_item_id: int, limit: int | None = None) -> list[dict[str, Any]]:
+        query = """
+        SELECT
+            id,
+            content_item_id,
+            section_id,
+            chunk_order,
+            section_key,
+            section_title,
+            text,
+            token_count,
+            metadata_json,
+            source_locator,
+            embedding
+        FROM content_chunks
+        WHERE content_item_id = %(content_item_id)s
+        ORDER BY chunk_order
+        """
+        params: dict[str, Any] = {"content_item_id": content_item_id}
+        if limit is not None:
+            query += " LIMIT %(limit)s"
+            params["limit"] = int(limit)
+
+        with self._conn.cursor() as cur:
+            cur.execute(query, params)
+            rows = cur.fetchall()
+        return list(rows)
+
+    def query_similar_content_chunks(
+        self,
+        query_embedding: list[float],
+        top_k: int = 60,
+        content_types: list[str] | None = None,
+        source: str | None = None,
+        language: str | None = None,
+        exclude_content_item_id: int | None = None,
+    ) -> list[dict[str, Any]]:
+        vec = _vector_literal(query_embedding)
+        query = """
+        SELECT
+            ci.id AS content_item_id,
+            ci.content_type,
+            ci.title,
+            ci.url,
+            ci.source,
+            ci.language,
+            ci.metadata_json,
+            cc.id AS chunk_id,
+            cc.chunk_order,
+            cc.section_key,
+            cc.section_title,
+            cc.text AS chunk_text,
+            cc.metadata_json AS chunk_metadata_json,
+            (1 - (cc.embedding <=> %(vec)s::vector)) AS similarity
+        FROM content_chunks cc
+        JOIN content_items ci ON ci.id = cc.content_item_id
+        WHERE 1=1
+        """
+        params: dict[str, Any] = {"vec": vec, "top_k": top_k}
+
+        if content_types:
+            query += " AND ci.content_type = ANY(%(content_types)s)"
+            params["content_types"] = content_types
+        if source:
+            query += " AND ci.source = %(source)s"
+            params["source"] = source
+        if language:
+            query += " AND ci.language = %(language)s"
+            params["language"] = language
+        if exclude_content_item_id is not None:
+            query += " AND ci.id <> %(exclude_content_item_id)s"
+            params["exclude_content_item_id"] = exclude_content_item_id
+
+        query += " ORDER BY cc.embedding <=> %(vec)s::vector LIMIT %(top_k)s"
+        with self._conn.cursor() as cur:
+            cur.execute(query, params)
+            rows = cur.fetchall()
+        return list(rows)
+
+    def upsert_content_relation(
+        self,
+        from_content_item_id: int,
+        to_content_item_id: int,
+        relation_type: str,
+        method: str,
+        score: float,
+        status: str,
+        rationale: str | None,
+        metadata: dict[str, Any] | None = None,
+    ) -> None:
+        query = """
+        INSERT INTO content_relations (
+            from_content_item_id,
+            to_content_item_id,
+            relation_type,
+            method,
+            score,
+            status,
+            rationale,
+            metadata_json,
+            computed_at
+        ) VALUES (
+            %(from_content_item_id)s,
+            %(to_content_item_id)s,
+            %(relation_type)s,
+            %(method)s,
+            %(score)s,
+            %(status)s,
+            %(rationale)s,
+            %(metadata_json)s::jsonb,
+            now()
+        )
+        ON CONFLICT (from_content_item_id, to_content_item_id, relation_type, method)
+        DO UPDATE SET
+            score = EXCLUDED.score,
+            status = EXCLUDED.status,
+            rationale = EXCLUDED.rationale,
+            metadata_json = EXCLUDED.metadata_json,
+            computed_at = now()
+        """
+        with self._conn.cursor() as cur:
+            cur.execute(
+                query,
+                {
+                    "from_content_item_id": from_content_item_id,
+                    "to_content_item_id": to_content_item_id,
+                    "relation_type": relation_type,
+                    "method": method,
+                    "score": score,
+                    "status": status,
+                    "rationale": rationale,
+                    "metadata_json": json.dumps(metadata or {}, ensure_ascii=False),
+                },
+            )
+        self._conn.commit()
+
+    def list_content_chunks_for_reembed(
+        self,
+        content_type: str | None = None,
+        item_id: int | None = None,
+    ) -> list[dict[str, Any]]:
+        query = """
+        SELECT
+            cc.id,
+            cc.content_item_id,
+            cc.text,
+            ci.content_type
+        FROM content_chunks cc
+        JOIN content_items ci ON ci.id = cc.content_item_id
+        WHERE 1=1
+        """
+        params: dict[str, Any] = {}
+
+        if content_type:
+            query += " AND ci.content_type = %(content_type)s"
+            params["content_type"] = content_type
+        if item_id is not None:
+            query += " AND ci.id = %(item_id)s"
+            params["item_id"] = item_id
+
+        query += " ORDER BY cc.id"
+
+        with self._conn.cursor() as cur:
+            cur.execute(query, params)
+            rows = cur.fetchall()
+        return list(rows)
+
+    def update_content_chunk_embedding(self, chunk_id: int, embedding: list[float]) -> None:
+        with self._conn.cursor() as cur:
+            cur.execute(
+                """
+                UPDATE content_chunks
+                SET embedding = %(embedding)s::vector
+                WHERE id = %(chunk_id)s
+                """,
+                {"embedding": _vector_literal(embedding), "chunk_id": chunk_id},
+            )
+        self._conn.commit()
+
+    def sync_episode_to_canonical(self, episode_id: int) -> int | None:
+        with self._conn.cursor() as cur:
+            cur.execute("SELECT * FROM episodes WHERE id = %s", (episode_id,))
+            episode = cur.fetchone()
+        if episode is None:
+            return None
+
+        chunks = self.list_chunks_for_episode(episode_id)
+        raw_text = "\n\n".join(str(row.get("text") or "") for row in chunks if row.get("text"))
+        title = str(episode.get("title") or f"Episode {episode_id}")
+        slug = str(episode.get("episode_code") or "").strip().lower() or slugify(title)
+
+        item = CanonicalContentItem(
+            content_key=f"episode:{episode_id}",
+            content_type="episode",
+            title=title,
+            slug=slug,
+            url=str(episode.get("runroom_article_url") or "").strip() or None,
+            source="realworld_transcript",
+            language=str(episode.get("language") or "es"),
+            status="active",
+            metadata={
+                "content_type": "episode",
+                "source": "realworld_transcript",
+                "legacy_episode_id": episode_id,
+                "episode_code": episode.get("episode_code"),
+                "guest_names": episode.get("guest_names") or [],
+            },
+            custom_metadata={
+                "source_filename": episode.get("source_filename"),
+                "transcript_path": episode.get("transcript_path"),
+            },
+            raw_text=raw_text,
+        )
+
+        section = CanonicalSection(
+            section_order=0,
+            section_key="other",
+            section_title="Transcript",
+            text=raw_text,
+            token_count=max(1, len(raw_text) // 4),
+            metadata={"section_key": "other", "section_title": "Transcript", "legacy_episode_id": episode_id},
+            source_locator={"legacy_episode_id": episode_id},
+        )
+
+        canonical_chunks: list[CanonicalChunk] = []
+        for row in chunks:
+            embedding = self.parse_vector(row.get("embedding"))
+            canonical_chunks.append(
+                CanonicalChunk(
+                    chunk_order=int(row.get("chunk_index") or 0),
+                    section_order=0,
+                    section_key="other",
+                    section_title="Transcript",
+                    text=str(row.get("text") or ""),
+                    token_count=int(row.get("token_count") or 1),
+                    metadata={
+                        "legacy_chunk_id": row.get("id"),
+                        "legacy_episode_id": episode_id,
+                        "speaker": row.get("speaker"),
+                        "metadata_json": row.get("metadata_json") or {},
+                        "start_ts_sec": row.get("start_ts_sec"),
+                        "end_ts_sec": row.get("end_ts_sec"),
+                    },
+                    source_locator={
+                        "start_ts_sec": row.get("start_ts_sec"),
+                        "end_ts_sec": row.get("end_ts_sec"),
+                    },
+                    embedding=embedding,
+                )
+            )
+
+        item_id = self.upsert_content_item(item, legacy_episode_id=episode_id)
+        section_map = self.replace_content_sections(item_id, [section])
+        section_id = section_map.get(0)
+        if section_id is not None:
+            for chunk in canonical_chunks:
+                chunk.metadata["section_id"] = section_id
+        self.replace_content_chunks(item_id, canonical_chunks)
+        return item_id
+
+    @staticmethod
+    def parse_vector(value: Any) -> list[float]:
+        if value is None:
+            return []
+        if isinstance(value, list):
+            return [float(v) for v in value]
+        if isinstance(value, tuple):
+            return [float(v) for v in value]
+
+        raw = str(value).strip()
+        if not raw:
+            return []
+        if raw.startswith("[") and raw.endswith("]"):
+            raw = raw[1:-1]
+        parts = [part.strip() for part in raw.split(",") if part.strip()]
+        out: list[float] = []
+        for part in parts:
+            try:
+                out.append(float(part))
+            except ValueError:
+                continue
+        return out
 
 
 def _vector_literal(values: list[float]) -> str:

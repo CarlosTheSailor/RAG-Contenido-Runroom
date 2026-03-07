@@ -16,4 +16,4 @@ dependencies = [
 realworld-rag = "src.cli:main"
 
 [tool.setuptools]
-packages = ["src", "src.pipeline", "src.matching"]
+packages = ["src", "src.pipeline", "src.matching", "src.content"]

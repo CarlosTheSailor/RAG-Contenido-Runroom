@@ -2,7 +2,7 @@
 
 Fecha: 8 de marzo de 2026  
 Proyecto Google Cloud: `noted-function-94615`  
-Nombre del servicio interno: `RAG-Contenido-Runroom / Phase 0 Preview`
+Nombre del servicio interno: `rag-contenidos-runroom / Phase 0 Preview`
 
 ## 1. Resumen ejecutivo
 Este proyecto usa YouTube Data API v3 exclusivamente en modo de lectura para obtener la descripción actual de un video del podcast Realworld y generar una propuesta editorial mejorada de forma local.

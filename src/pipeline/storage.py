@@ -121,6 +121,12 @@ class SupabaseStorage:
             rows = cur.fetchall()
         return list(rows)
 
+    def get_episode_by_id(self, episode_id: int) -> dict[str, Any] | None:
+        with self._conn.cursor() as cur:
+            cur.execute("SELECT * FROM episodes WHERE id = %s", (episode_id,))
+            row = cur.fetchone()
+        return row
+
     def list_episodes_for_title_sync(self, statuses: list[str], limit: int | None = None) -> list[dict[str, Any]]:
         statuses = [s.strip() for s in statuses if s.strip()]
         if not statuses:
@@ -220,6 +226,12 @@ class SupabaseStorage:
             cur.execute("SELECT * FROM runroom_articles ORDER BY id")
             rows = cur.fetchall()
         return list(rows)
+
+    def get_runroom_article_by_url(self, url: str) -> dict[str, Any] | None:
+        with self._conn.cursor() as cur:
+            cur.execute("SELECT * FROM runroom_articles WHERE url = %s LIMIT 1", (url,))
+            row = cur.fetchone()
+        return row
 
     def clear_candidates_for_episode(self, episode_id: int) -> None:
         with self._conn.cursor() as cur:
@@ -666,6 +678,36 @@ class SupabaseStorage:
             cur.execute(query, params)
             rows = cur.fetchall()
         return list(rows)
+
+    def get_content_item_by_legacy_episode_id(self, legacy_episode_id: int) -> dict[str, Any] | None:
+        with self._conn.cursor() as cur:
+            cur.execute(
+                """
+                SELECT
+                    id,
+                    content_key,
+                    content_type,
+                    title,
+                    slug,
+                    url,
+                    source,
+                    language,
+                    status,
+                    published_at,
+                    extracted_at,
+                    metadata_json,
+                    custom_metadata_json,
+                    raw_text,
+                    legacy_episode_id
+                FROM content_items
+                WHERE legacy_episode_id = %s
+                ORDER BY id
+                LIMIT 1
+                """,
+                (legacy_episode_id,),
+            )
+            row = cur.fetchone()
+        return row
 
     def list_content_chunks_for_item(self, content_item_id: int, limit: int | None = None) -> list[dict[str, Any]]:
         query = """

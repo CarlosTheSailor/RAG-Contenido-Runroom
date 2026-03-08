@@ -3,7 +3,7 @@ requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "realworld-rag"
+name = "rag-contenidos-runroom"
 version = "0.1.0"
 description = "RAG pipeline for Realworld podcast transcripts with Supabase pgvector"
 readme = "README.md"
@@ -13,7 +13,8 @@ dependencies = [
 ]
 
 [project.scripts]
+rag-contenidos-runroom = "src.cli:main"
 realworld-rag = "src.cli:main"
 
 [tool.setuptools]
-packages = ["src", "src.pipeline", "src.matching", "src.content"]
+packages = ["src", "src.pipeline", "src.matching", "src.content", "src.youtube_preview"]

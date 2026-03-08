@@ -153,7 +153,7 @@ def fetch_url_text(url: str, timeout: int = 30) -> str:
     req = urllib.request.Request(
         url,
         headers={
-            "User-Agent": "realworld-rag/1.0",
+            "User-Agent": "rag-contenidos-runroom/1.0",
         },
     )
     with urllib.request.urlopen(req, timeout=timeout) as resp:

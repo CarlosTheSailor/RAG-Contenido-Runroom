@@ -1,0 +1,143 @@
+{
+  "passed": false,
+  "checks": [
+    {
+      "key": "intro_seo",
+      "passed": true,
+      "severity": "error",
+      "message": "El primer párrafo incluye invitado, tema principal y keywords."
+    },
+    {
+      "key": "non_generic",
+      "passed": true,
+      "severity": "warning",
+      "message": "La descripción es específica y contextual."
+    },
+    {
+      "key": "editorial_style",
+      "passed": true,
+      "severity": "warning",
+      "message": "El texto mantiene un estilo editorial natural (no excesivamente list-based)."
+    },
+    {
+      "key": "length_reasonable",
+      "passed": true,
+      "severity": "error",
+      "message": "Longitud válida (2273 caracteres)."
+    },
+    {
+      "key": "timestamps_start",
+      "passed": true,
+      "severity": "error",
+      "message": "Los timestamps empiezan en 00:00."
+    },
+    {
+      "key": "timestamps_ascending",
+      "passed": true,
+      "severity": "error",
+      "message": "Los timestamps son ascendentes."
+    },
+    {
+      "key": "chapters_minimum",
+      "passed": true,
+      "severity": "error",
+      "message": "Capítulos suficientes (4)."
+    },
+    {
+      "key": "chapter_duration",
+      "passed": false,
+      "severity": "error",
+      "message": "Hay capítulos con duración inferior a 10 segundos."
+    },
+    {
+      "key": "related_links_quality",
+      "passed": true,
+      "severity": "warning",
+      "message": "Los links relacionados no tienen duplicados ni señales claras de irrelevancia."
+    },
+    {
+      "key": "brand_block_preserved",
+      "passed": true,
+      "severity": "warning",
+      "message": "No había brand block previo para preservar."
+    },
+    {
+      "key": "no_hallucinated_urls",
+      "passed": true,
+      "severity": "error",
+      "message": "No se detectan URLs alucinadas."
+    }
+  ],
+  "debug": {
+    "current_description_length": 0,
+    "current_description_source": "missing",
+    "youtube_api_success": false,
+    "env_key_present_at_cli_entry": true,
+    "env_key_present_at_youtube_client_init": true,
+    "env_key_length": 39,
+    "youtube_client_error_type": "RuntimeError",
+    "youtube_client_error_message": "YouTube API HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}\n",
+    "current_description": {
+      "source": "missing",
+      "source_detail": "missing",
+      "length": 0,
+      "brand_block_detected": false,
+      "current_description_length": 0
+    },
+    "episode_context": {
+      "runroom_episode_identifier": "r085",
+      "runroom_url": "https://www.runroom.com/realworld/ia-en-product-management-con-nacho-bassino",
+      "youtube_url": "https://youtu.be/npyyu7T3PwM?si=YRl2pfu8az9PAkjz",
+      "youtube_video_id": "npyyu7T3PwM",
+      "current_description_source": "missing",
+      "youtube_api_success": false,
+      "youtube_api_error": "YouTube API HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}\n",
+      "youtube_client_error_type": "RuntimeError",
+      "youtube_client_error_message": "YouTube API HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}\n",
+      "env_key_present_at_youtube_client_init": true,
+      "env_key_length": 39,
+      "env_key_prefix": "AIzaSy"
+    },
+    "chapters": {
+      "source": "transcript_chunks",
+      "used_existing_timestamps": false,
+      "count": 4,
+      "items": [
+        {
+          "timestamp": "00:00",
+          "start_sec": 0,
+          "label": "Introducción y presentación de Nacho Bassino"
+        },
+        {
+          "timestamp": "15:28",
+          "start_sec": 928,
+          "label": "El rol de la IA en el ciclo completo de desarrollo de producto"
+        },
+        {
+          "timestamp": "29:40",
+          "start_sec": 1780,
+          "label": "Ejemplos prácticos de IA en DLocal y automatización de procesos"
+        },
+        {
+          "timestamp": "43:00",
+          "start_sec": 2580,
+          "label": "Retos, resistencias y futuro de la IA en Product Management"
+        }
+      ]
+    },
+    "related_content_debug": {
+      "episodes": [
+        {
+          "content_item_id": 71,
+          "content_type": "episode",
+          "title": "R083 - Mentalidad startup, con Adriana Landaverde",
+          "url": "https://www.runroom.com/realworld/mentalidad-startup-con-adriana-landaverde",
+          "score": 0.6908281707321341,
+          "rationale": "de inteligencia artificial, pero luego vas al supermercado y dices: Pero esto no es tema de inteligencia artificial, esto es de un proceso q...",
+          "selection_reason": "Coincidencia semántica suficiente: de inteligencia artificial, pero luego vas al supermercado y dices: Pero esto no es tema de inteligencia artificial, esto es de un proceso q..."
+        }
+      ],
+      "case_studies": []
+    }
+  }
+}

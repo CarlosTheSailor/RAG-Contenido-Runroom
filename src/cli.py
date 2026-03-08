@@ -4,6 +4,7 @@ import argparse
 import csv
 import json
 import logging
+import os
 from pathlib import Path
 from typing import Any
 from urllib.parse import urlparse
@@ -75,6 +76,21 @@ def build_parser() -> argparse.ArgumentParser:
     recommend_cmd.add_argument("--lang", type=str, default=None)
     recommend_cmd.add_argument("--group-by-type", action="store_true")
     recommend_cmd.add_argument("--offline-mode", action="store_true")
+
+    preview_cmd = sub.add_parser(
+        "preview-youtube-description",
+        help="Generate a local preview of an improved YouTube description for one episode",
+    )
+    preview_cmd.add_argument("--episode", required=True, help="Episode identifier: id, slug, code, or Runroom URL")
+    preview_cmd.add_argument("--youtube-url", type=str, default=None, help="Optional YouTube URL for the episode")
+    preview_cmd.add_argument(
+        "--current-description-file",
+        type=Path,
+        default=None,
+        help="Optional local file to use as current description source for diff/preview",
+    )
+    preview_cmd.add_argument("--output-dir", type=Path, default=Path("output"))
+    preview_cmd.add_argument("--offline-mode", action="store_true", help="Force deterministic local generation")
 
     reembed_cmd = sub.add_parser("reembed-content", help="Recompute embeddings for canonical content chunks")
     reembed_cmd.add_argument("--content-type", type=str, default=None)
@@ -254,6 +270,30 @@ def main() -> None:
             source=args.source,
             language=args.lang,
             group_by_type=args.group_by_type,
+            offline_mode=args.offline_mode,
+        )
+        print(json.dumps(summary, indent=2, ensure_ascii=False))
+        return
+
+    if args.command == "preview-youtube-description":
+        from src.youtube_preview import run_preview_youtube_description
+
+        cli_env_debug = _masked_env_debug("YOUTUBE_API_KEY")
+        print(
+            "[debug] CLI YOUTUBE_API_KEY "
+            f"present={str(cli_env_debug['present']).lower()} "
+            f"prefix={cli_env_debug['prefix']} "
+            f"length={cli_env_debug['length']}"
+        )
+
+        summary = run_preview_youtube_description(
+            settings=settings,
+            schema_path=schema_path,
+            episode_identifier=args.episode,
+            youtube_url=args.youtube_url,
+            current_description_file=args.current_description_file,
+            cli_env_debug=cli_env_debug,
+            output_root=args.output_dir,
             offline_mode=args.offline_mode,
         )
         print(json.dumps(summary, indent=2, ensure_ascii=False))
@@ -524,6 +564,15 @@ def _slug_from_url(url: str) -> str:
     if len(parts) >= 2 and parts[0] == "realworld":
         return parts[1]
     return parts[-1]
+
+
+def _masked_env_debug(var_name: str) -> dict[str, Any]:
+    value = (os.getenv(var_name) or "").strip()
+    return {
+        "present": bool(value),
+        "prefix": value[:6] if value else "",
+        "length": len(value),
+    }
 
 
 if __name__ == "__main__":

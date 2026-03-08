@@ -75,7 +75,7 @@ def _fetch_text(url: str) -> str:
     req = urllib.request.Request(
         url,
         headers={
-            "User-Agent": "realworld-rag/1.0",
+            "User-Agent": "rag-contenidos-runroom/1.0",
         },
     )
     with urllib.request.urlopen(req, timeout=30) as resp:

@@ -75,6 +75,7 @@ Variables clave:
 
 - `SUPABASE_DB_URL`
 - `OPENAI_API_KEY`
+- `YOUTUBE_API_KEY` (opcional, necesario para leer descripción actual desde YouTube API en preview)
 - `OPENAI_EMBEDDING_MODEL=text-embedding-3-large`
 - `EMBEDDING_DIM=1536`
 
@@ -179,6 +180,47 @@ python -m src.cli recommend-content \
   --text "contenido sobre customer centric y growth" \
   --group-by-type
 ```
+
+## Preview descripción YouTube (Phase 0)
+
+Modo local/offline para previsualizar una descripción mejorada de YouTube para un único episodio, sin integrar todavía la API de YouTube.
+
+```bash
+python -m src.cli preview-youtube-description --episode r085
+```
+
+`--episode` admite:
+
+- id numérico (`85`)
+- código/slug (`r085`)
+- URL de Runroom (`https://www.runroom.com/realworld/...`)
+
+Opcionales:
+
+- `--output-dir output` (por defecto)
+- `--offline-mode` (fuerza generación determinista local)
+- `--youtube-url https://youtube.com/watch?v=...` (o `https://youtu.be/...`, se parsea `video_id`)
+- `--current-description-file /ruta/descripcion_actual.txt` (usa este texto como fuente actual para diff)
+
+Salida:
+
+- `output/<episode_slug>/proposed_description.md`
+- `output/<episode_slug>/qa_report.json`
+- `output/<episode_slug>/diff.md`
+
+Notas de funcionamiento (Phase 0):
+
+- la propuesta intenta mejorar la descripción actual (no reescribirla desde cero) cuando existe en datos fuente
+- `diff.md` incluye bloque actual + bloque propuesto + diff unificado
+- si hay bloque de marca Realworld/Runroom en la descripción actual, se preserva de forma exacta
+- en episodios históricos, los capítulos priorizan timestamps reales (descripción actual o transcript/chunks), sin inventar tiempos arbitrarios
+- `current_description_source` en debug se clasifica como `youtube_api`, `db`, `file` o `missing`
+- si se pasa `--youtube-url` y hay `YOUTUBE_API_KEY`, la descripción actual se lee vía YouTube Data API (`current_description_source=youtube_api`) en modo solo lectura
+- `qa_report.json` incluye checks QA/SEO y `debug` con:
+  - fuente de descripción actual usada
+  - identificadores de contexto (Runroom + YouTube + `video_id`)
+  - origen de timestamps de capítulos
+  - detalle de contenidos relacionados elegidos (score, título, URL y razón de selección)
 
 ## Re-embedding canónico
 

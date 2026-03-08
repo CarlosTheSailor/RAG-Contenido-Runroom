@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Runroom Content Query</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f4f6fb;
+      --panel: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --primary: #0e7490;
+      --danger: #b91c1c;
+      --border: #dbe3f2;
+    }
+    body {
+      margin: 0;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      background: radial-gradient(circle at top, #ddeafe 0%, var(--bg) 45%);
+      color: var(--text);
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+    }
+    .card {
+      width: min(480px, 100%);
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      box-shadow: 0 24px 48px rgba(15, 23, 42, 0.08);
+      padding: 24px;
+    }
+    h1 {
+      margin: 0 0 12px;
+      font-size: 1.5rem;
+    }
+    p {
+      margin: 0 0 16px;
+      color: var(--muted);
+      line-height: 1.45;
+    }
+    .btn {
+      display: inline-block;
+      border: none;
+      border-radius: 10px;
+      padding: 12px 16px;
+      background: var(--primary);
+      color: #fff;
+      font-weight: 600;
+      text-decoration: none;
+    }
+    .warning {
+      margin-top: 12px;
+      color: var(--danger);
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <h1>Runroom Content Query</h1>
+    <p>
+      Accede con Google para usar la busqueda semantica sin configurar API keys manualmente.
+      Solo se permiten cuentas del dominio <strong>{{ allowed_domain }}</strong>.
+    </p>
+
+    {% if oauth_enabled %}
+      <a class="btn" href="/auth/google/start">Entrar con Google</a>
+    {% else %}
+      <p class="warning">Google OAuth no esta configurado en este entorno.</p>
+    {% endif %}
+  </main>
+</body>
+</html>

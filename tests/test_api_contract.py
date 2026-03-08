@@ -45,6 +45,24 @@ class _FakeService:
             "results_by_type": {"episode": [{"content_item_id": 1, "score": 0.91}]} if group_by_type else None,
         }
 
+    def generate_newsletter_linkedin(
+        self,
+        idea: str,
+        referencias: str | None = None,
+        audiencia: str | None = None,
+        objetivo_secundario: str | None = None,
+        longitud: str | None = None,
+        metafora_visual: str | None = None,
+        texto_a_incluir: str | None = None,
+        offline_mode: bool = False,
+    ) -> dict[str, object]:
+        return {
+            "output_text": f"Newsletter sobre: {idea}",
+            "related_content": [],
+            "warnings": [],
+            "used_examples": ["post_ejemplo1.txt"],
+        }
+
 
 class ApiContractTests(unittest.TestCase):
     def setUp(self) -> None:

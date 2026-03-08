@@ -1,0 +1,23 @@
+Se habla mucho de “equipos AI-native”, pero pocas veces se explica qué significa en la práctica. El equipo de Codex en OpenAI ofrece un caso interesante porque no se limita a usar IA para programar más rápido; ha integrado la IA en el propio diseño del equipo.
+
+Son alrededor de 40 personas, organizadas en pequeños grupos que trabajan sobre distintas piezas: agente open-source, extensiones de IDE, app, infraestructura distribuida, API, backend y frontend. La diversidad técnica es amplia, pero la estructura es sorprendentemente ligera: un único Product Manager para todo el equipo, pocos diseñadores y un alto grado de autonomía individual.
+
+La clave no parece estar en el talento individual, sino en cómo han reducido la fricción del sistema.
+
+Utilizan Codex internamente para casi todo: sintetizar feedback conectado a herramientas como Linear o Slack, priorizar incidencias, revisar automáticamente pull requests, ejecutar QA sobre builds o lanzar sub-agentes para testing masivo y grandes refactors. Esto no solo acelera tareas. Reduce el coste marginal de experimentar, equivocarse y corregir.
+
+Cuando el coste del error baja, puedes optimizar por velocidad de aprendizaje en lugar de por prevención del fallo.
+
+Otro elemento interesante es el onboarding. El propio Codex guía a las nuevas incorporaciones: configura el entorno, explica el código base, orienta sobre proyectos activos. En lugar de depender exclusivamente de la transmisión informal de contexto, el conocimiento está asistido y accesible. Eso permite que alguien contribuya desde el primer día. No es una cuestión simbólica; es diseño deliberado para acortar el tiempo hasta impacto.
+
+También han formalizado estándares a través de “skills” reutilizables que encapsulan buenas prácticas. En vez de confiar en que cada persona recuerde cómo se debe revisar o estructurar código, parte de ese criterio está automatizado. Esto escala coherencia sin multiplicar capas de control.
+
+Tres aprendizajes transferibles para cualquier equipo:
+
+La IA no es solo una herramienta de ejecución; puede ser infraestructura de coordinación.
+Reducir el coste del error cambia la estructura óptima de gobierno y decisión.
+Escalar criterio es más potente que escalar output.
+
+Finalmente, su política de contratación (grandes generalistas y especialistas muy profundos) refuerza un entorno donde la adaptabilidad es central. En un contexto de cambio acelerado, necesitas personas capaces de conectar puntos y otras capaces de redefinirlos.
+
+La lección no es copiar su estructura tal cual. No queremos caer en la fetichización como con el "modelo Spotify", ¿verdad? La lección pasa por preguntarse qué parte de nuestro sistema actual fue diseñada para un mundo donde experimentar era caro y lento. Si ese supuesto ya no es cierto, probablemente nuestro modelo organizativo esté desalineado.

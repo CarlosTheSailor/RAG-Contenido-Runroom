@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Newsletter LinkedIn Generator</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f5f7fc;
+      --panel: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --primary: #075985;
+      --border: #d5deee;
+      --accent: #0f766e;
+    }
+    body {
+      margin: 0;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      background: linear-gradient(180deg, #e8eefc 0%, var(--bg) 45%);
+      color: var(--text);
+      min-height: 100vh;
+    }
+    .container {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+    .row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+    }
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 16px;
+      margin-bottom: 16px;
+    }
+    h1 {
+      margin: 0;
+      font-size: 1.6rem;
+    }
+    h2 {
+      margin: 0 0 12px;
+      font-size: 1.1rem;
+    }
+    .muted {
+      color: var(--muted);
+      margin: 4px 0 0;
+    }
+    label {
+      display: block;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+    input, textarea {
+      width: 100%;
+      box-sizing: border-box;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 10px;
+      margin-top: 4px;
+      margin-bottom: 12px;
+      font: inherit;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 12px;
+    }
+    button {
+      border: none;
+      border-radius: 10px;
+      background: var(--primary);
+      color: #fff;
+      padding: 10px 14px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .secondary {
+      background: #334155;
+    }
+    .warn {
+      border-left: 4px solid #dc2626;
+      background: #fff1f2;
+      color: #7f1d1d;
+      padding: 10px;
+      border-radius: 8px;
+      margin-bottom: 12px;
+      display: none;
+      white-space: pre-wrap;
+    }
+    .ok {
+      border-left: 4px solid var(--accent);
+      background: #f0fdfa;
+      color: #134e4a;
+      padding: 10px;
+      border-radius: 8px;
+      margin-bottom: 12px;
+      display: none;
+      white-space: pre-wrap;
+    }
+    pre {
+      margin: 0;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: #f9fbff;
+      padding: 12px;
+      overflow: auto;
+      max-height: 700px;
+      white-space: pre-wrap;
+    }
+    ul {
+      margin: 0;
+      padding-left: 18px;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="row">
+      <div>
+        <h1>Newsletter LinkedIn Generator</h1>
+        <p class="muted">Sesión iniciada como {{ user.name }} ({{ user.email }})</p>
+      </div>
+      <div class="row">
+        <a href="/app"><button class="secondary" type="button">Volver</button></a>
+        <form action="/auth/logout" method="post">
+          <button class="secondary" type="submit">Cerrar sesión</button>
+        </form>
+      </div>
+    </header>
+
+    <section class="panel">
+      <h2>Generar newsletter</h2>
+      <form id="newsletter-form">
+        <label>
+          Idea (obligatorio)
+          <textarea id="idea" rows="4" required placeholder="Escribe la idea central..."></textarea>
+        </label>
+
+        <div class="grid">
+          <label>
+            Referencias
+            <textarea id="referencias" rows="3" placeholder="Enlaces, fuentes o notas..."></textarea>
+          </label>
+          <label>
+            Audiencia
+            <input id="audiencia" type="text" placeholder="Ej: managers de producto y negocio" />
+          </label>
+          <label>
+            Objetivo secundario
+            <input id="objetivo_secundario" type="text" placeholder="Ej: abrir debate sobre incentivos" />
+          </label>
+          <label>
+            Longitud
+            <input id="longitud" type="text" placeholder="Ej: 1200-1500 palabras" />
+          </label>
+          <label>
+            Metáfora visual preferida
+            <input id="metafora_visual" type="text" placeholder="Ej: tablero de control vs brújula" />
+          </label>
+          <label>
+            Texto a incluir íntegramente
+            <textarea id="texto_a_incluir" rows="3" placeholder="Pega aquí texto literal, si aplica..."></textarea>
+          </label>
+        </div>
+
+        <label>
+          <input id="offline_mode" type="checkbox" />
+          Forzar modo offline (sin OpenAI)
+        </label>
+
+        <button type="submit">Generar newsletter</button>
+      </form>
+    </section>
+
+    <section class="panel">
+      <h2>Resultado</h2>
+      <div id="warning-box" class="warn"></div>
+      <div id="info-box" class="ok"></div>
+      <pre id="output-text"></pre>
+    </section>
+
+    <section class="panel">
+      <h2>Contenidos relacionados (RAG)</h2>
+      <ul id="related-content"></ul>
+    </section>
+  </div>
+
+  <script>
+    async function postJson(url, payload) {
+      const response = await fetch(url, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+      const body = await response.json();
+      return { status: response.status, body };
+    }
+
+    const form = document.getElementById("newsletter-form");
+    const outputText = document.getElementById("output-text");
+    const warningBox = document.getElementById("warning-box");
+    const infoBox = document.getElementById("info-box");
+    const relatedList = document.getElementById("related-content");
+
+    form.addEventListener("submit", async (event) => {
+      event.preventDefault();
+      warningBox.style.display = "none";
+      infoBox.style.display = "none";
+      relatedList.innerHTML = "";
+      outputText.textContent = "Generando...";
+
+      const payload = {
+        idea: document.getElementById("idea").value,
+        referencias: document.getElementById("referencias").value || null,
+        audiencia: document.getElementById("audiencia").value || null,
+        objetivo_secundario: document.getElementById("objetivo_secundario").value || null,
+        longitud: document.getElementById("longitud").value || null,
+        metafora_visual: document.getElementById("metafora_visual").value || null,
+        texto_a_incluir: document.getElementById("texto_a_incluir").value || null,
+        offline_mode: document.getElementById("offline_mode").checked,
+      };
+
+      const result = await postJson("/app/api/newsletters-linkedin/generate", payload);
+      if (result.status !== 200) {
+        warningBox.textContent = JSON.stringify(result.body, null, 2);
+        warningBox.style.display = "block";
+        outputText.textContent = "";
+        return;
+      }
+
+      const warnings = Array.isArray(result.body.warnings) ? result.body.warnings : [];
+      if (warnings.length > 0) {
+        warningBox.textContent = warnings.join("\n");
+        warningBox.style.display = "block";
+      }
+
+      const usedExamples = Array.isArray(result.body.used_examples) ? result.body.used_examples : [];
+      infoBox.textContent = usedExamples.length > 0
+        ? `Ejemplos usados: ${usedExamples.join(", ")}`
+        : "No se han usado ejemplos de estilo.";
+      infoBox.style.display = "block";
+
+      outputText.textContent = result.body.output_text || "";
+      const related = Array.isArray(result.body.related_content) ? result.body.related_content : [];
+      if (related.length === 0) {
+        relatedList.innerHTML = "<li>No hay contenidos relacionados para esta ejecución.</li>";
+        return;
+      }
+      for (const item of related) {
+        const li = document.createElement("li");
+        const link = item.url ? `\nURL: ${item.url}` : "";
+        const excerpt = item.excerpt ? `\nExtracto: ${item.excerpt}` : "";
+        li.textContent = `[${item.content_type}] ${item.title} (score ${Number(item.score).toFixed(4)})${link}${excerpt}`;
+        relatedList.appendChild(li);
+      }
+    });
+  </script>
+</body>
+</html>

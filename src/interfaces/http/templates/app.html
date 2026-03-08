@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Runroom Content Query</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f5f7fc;
+      --panel: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --primary: #075985;
+      --border: #d5deee;
+    }
+    body {
+      margin: 0;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      background: linear-gradient(180deg, #e8eefc 0%, var(--bg) 45%);
+      color: var(--text);
+      min-height: 100vh;
+    }
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+    .row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+    }
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 16px;
+      margin-bottom: 16px;
+    }
+    h1 {
+      margin: 0;
+      font-size: 1.6rem;
+    }
+    h2 {
+      margin: 0 0 12px;
+      font-size: 1.1rem;
+    }
+    .muted {
+      color: var(--muted);
+      margin: 4px 0 0;
+    }
+    label {
+      display: block;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+    input, textarea {
+      width: 100%;
+      box-sizing: border-box;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 10px;
+      margin-top: 4px;
+      margin-bottom: 12px;
+      font: inherit;
+    }
+    button {
+      border: none;
+      border-radius: 10px;
+      background: var(--primary);
+      color: #fff;
+      padding: 10px 14px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    pre {
+      margin: 0;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: #f9fbff;
+      padding: 12px;
+      overflow: auto;
+      max-height: 380px;
+    }
+    .logout button {
+      background: #334155;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="row">
+      <div>
+        <h1>Runroom Content Query</h1>
+        <p class="muted">Sesión iniciada como {{ user.name }} ({{ user.email }})</p>
+      </div>
+      <form class="logout" action="/auth/logout" method="post">
+        <button type="submit">Cerrar sesión</button>
+      </form>
+    </header>
+
+    <section class="panel">
+      <h2>Newsletter LinkedIn Generator</h2>
+      <p class="muted">Genera newsletter completa con estilo + recomendaciones del RAG.</p>
+      <a href="/app/newsletters-linkedin">
+        <button type="button">Abrir generador</button>
+      </a>
+    </section>
+
+    <section class="panel">
+      <h2>Query Similar</h2>
+      <form id="query-form">
+        <label>
+          Texto
+          <textarea id="query-text" rows="3" required>customer centric</textarea>
+        </label>
+        <label>
+          Top K
+          <input id="query-topk" type="number" value="5" min="1" max="50" />
+        </label>
+        <button type="submit">Buscar</button>
+      </form>
+      <pre id="query-result">{}</pre>
+    </section>
+
+    <section class="panel">
+      <h2>Recommend Content</h2>
+      <form id="recommend-form">
+        <label>
+          Texto
+          <textarea id="rec-text" rows="3" required>newsletter sobre CX</textarea>
+        </label>
+        <label>
+          Top K
+          <input id="rec-topk" type="number" value="8" min="1" max="50" />
+        </label>
+        <label>
+          Fetch K
+          <input id="rec-fetchk" type="number" value="60" min="1" max="300" />
+        </label>
+        <label>
+          Content types (coma separada)
+          <input id="rec-types" type="text" value="episode,case_study" />
+        </label>
+        <button type="submit">Recomendar</button>
+      </form>
+      <pre id="recommend-result">{}</pre>
+    </section>
+  </div>
+
+  <script>
+    async function postJson(url, payload) {
+      const response = await fetch(url, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+      const text = await response.text();
+      let parsed;
+      try {
+        parsed = JSON.parse(text);
+      } catch (err) {
+        parsed = { raw: text };
+      }
+      return { status: response.status, body: parsed };
+    }
+
+    document.getElementById("query-form").addEventListener("submit", async (event) => {
+      event.preventDefault();
+      const payload = {
+        text: document.getElementById("query-text").value,
+        top_k: Number(document.getElementById("query-topk").value || 5),
+      };
+      const result = await postJson("/app/api/query-similar", payload);
+      document.getElementById("query-result").textContent = JSON.stringify(result, null, 2);
+    });
+
+    document.getElementById("recommend-form").addEventListener("submit", async (event) => {
+      event.preventDefault();
+      const types = document
+        .getElementById("rec-types")
+        .value
+        .split(",")
+        .map((item) => item.trim())
+        .filter(Boolean);
+      const payload = {
+        text: document.getElementById("rec-text").value,
+        top_k: Number(document.getElementById("rec-topk").value || 8),
+        fetch_k: Number(document.getElementById("rec-fetchk").value || 60),
+        content_types: types,
+      };
+      const result = await postJson("/app/api/recommend-content", payload);
+      document.getElementById("recommend-result").textContent = JSON.stringify(result, null, 2);
+    });
+  </script>
+</body>
+</html>

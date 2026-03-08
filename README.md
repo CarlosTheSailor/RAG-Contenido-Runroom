@@ -78,8 +78,20 @@ Variables clave:
 - `YOUTUBE_API_KEY` (opcional, necesario para leer descripción actual desde YouTube API en preview)
 - `API_KEY` (requerido para API HTTP)
 - `HOST` / `PORT` (servidor FastAPI)
+- `GOOGLE_OAUTH_CLIENT_ID` / `GOOGLE_OAUTH_CLIENT_SECRET`
+- `GOOGLE_OAUTH_REDIRECT_URI` (ejemplo local: `http://127.0.0.1:8000/auth/google/callback`)
+- `GOOGLE_OAUTH_ALLOWED_DOMAIN` (por defecto `runroom.com`)
+- `SESSION_SECRET` / `SESSION_MAX_AGE_SECONDS` / `SESSION_COOKIE_SECURE`
 - `OPENAI_EMBEDDING_MODEL=text-embedding-3-large`
+- `OPENAI_NEWSLETTER_MODEL` (opcional, por defecto usa `OPENAI_METADATA_MODEL`)
+- `NEWSLETTER_RAG_MIN_SCORE` (0.0 a 1.0, default `0.74`)
 - `EMBEDDING_DIM=1536`
+
+`NEWSLETTER_RAG_MIN_SCORE` controla el filtro de relevancia para episodios/cases en el generador de newsletter:
+
+- `0.0` = no filtra por score (acepta cualquier resultado)
+- `1.0` = filtro máximo (solo resultados casi perfectos; normalmente ninguno)
+- rango recomendado práctico: `0.70` a `0.85`
 
 ## Flujo recomendado
 
@@ -199,6 +211,7 @@ Endpoints:
 - `GET /health`
 - `POST /v1/query-similar`
 - `POST /v1/recommend-content`
+- `POST /app/api/newsletters-linkedin/generate` (requiere sesión web)
 
 Ejemplo:
 
@@ -208,6 +221,62 @@ curl -X POST http://localhost:8000/v1/recommend-content \
   -H "X-API-Key: $API_KEY" \
   -d '{"text":"newsletter sobre CX","top_k":5,"content_types":["episode","case_study"]}'
 ```
+
+## Acceso no técnico desde navegador (Google OAuth)
+
+Puedes mantener `API_KEY` para clientes técnicos y ofrecer UX simple a usuarios finales:
+
+1. Configura una app OAuth de Google (Web Application).
+2. Añade en `.env`:
+   - `GOOGLE_OAUTH_CLIENT_ID`
+   - `GOOGLE_OAUTH_CLIENT_SECRET`
+   - `GOOGLE_OAUTH_REDIRECT_URI=http://127.0.0.1:8000/auth/google/callback`
+   - `GOOGLE_OAUTH_ALLOWED_DOMAIN=runroom.com`
+   - `SESSION_SECRET=<secreto_largo>`
+3. Arranca la API:
+
+```bash
+python -m src.interfaces.http
+```
+
+Flujo:
+
+- `/` muestra login con Google.
+- tras autenticación, redirige a `/app`.
+- `/app` permite ejecutar `query-similar` y `recommend-content` sin headers manuales.
+- `/app/newsletters-linkedin` permite generar la newsletter completa con estilo + RAG.
+- `/v1/*` y `/health` siguen protegidos por `X-API-Key`.
+
+## Newsletter LinkedIn Generator
+
+Nueva UI autenticada:
+
+- `GET /app/newsletters-linkedin`
+
+Endpoint de generación:
+
+- `POST /app/api/newsletters-linkedin/generate`
+
+Payload:
+
+- `idea` (obligatorio)
+- `referencias`, `audiencia`, `objetivo_secundario`, `longitud`, `metafora_visual`, `texto_a_incluir` (opcionales)
+- `offline_mode` (opcional)
+
+Respuesta:
+
+- `request_id`
+- `output_text`
+- `related_content[]` (`title`, `url`, `content_type`, `score`, `excerpt`)
+- `warnings[]`
+- `used_examples[]`
+
+Assets editables en disco:
+
+- Prompt base: `newsletters-linkedin/prompts/base_prompt.txt`
+- Ejemplos de estilo: `newsletters-linkedin/examples/*.txt`
+
+Los ejemplos `.txt` se cargan automáticamente en cada generación (sin reiniciar servidor).
 
 ## Docker / Coolify
 

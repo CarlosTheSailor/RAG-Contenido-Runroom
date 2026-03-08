@@ -1,0 +1,56 @@
+Título: Adopción por Diseño, No por Decreto: La IA, Productos Internos y el Cambio Cultural
+
+
+Los productos internos no se adoptan por decreto.
+Se anuncian, se mandatan, se les pone un KPI de uso, se envía un email con un GIF motivacional, y luego… sorpresa: la gente no los usa.
+
+O peor: los sabotea sin decirlo.
+
+Y ya sabes cómo va esto… Acusaciones cruzadas entre silos. Delegación de responsabilidades. Orientación a outputs. Obsesión por los outputs, diría, más bien:
+
+Negocio le dice al equipo qué hacer. El equipo ejecuta exactamente lo que pone en la Historia de Usuario (ja! de usuario!) Si no sale bien, el equipo se agarra a la tarjeta de Jira como si fueran las cláusulas de su contrato de alquiler y tuvieran una orden de embargo en la puerta. Negocio desconfía del backlog, del equipo, del producto.
+
+Todo el mundo sufre. 
+
+Nadie tiene mala intención, en realidad todas quieren que salga bien pero, por alguna razón, se instalan en todo tipo de dinámicas tóxicas. Negociaciones a cuchillo. Burnouts. Desmotivación. Cero impacto.
+
+¿Te suena?
+
+Hace poco facilité un workshop de estrategia de producto para una organización que está construyendo un producto interno basado en IA.
+
+La promesa era potente: automatizar decenas de miles de operaciones que hasta hace poco solo podía hacerse “a mano”.
+
+Pero cuando esa cultura está establecida, se mide éxito en releases, se confunde “entregar” con “crear valor”, se convierte el equipo en una feature factory y se espera que la organización “obedezca” y ya.
+
+(Spoiler: no funciona).
+
+¿Qué hicimos? Cambiar la conversación. De opiniones a evidencia. De output a outcomes.
+
+Definimos la North Star Metric. Aterrizamos en qué fase de madurez está el producto (y qué métricas tienen sentido AHORA).
+
+Sobre todo, identificamos algo que casi nadie hace explícito:
+
+👉 ¿Qué cambios de comportamiento queremos ver en los usuarios?
+
+👉 ¿Cómo los vamos a medir?
+
+👉 ¿Qué impacto en negocio debería provocar eso?
+
+
+
+Y cuando haces eso, ocurre una cosa preciosa:
+
+Las “ideas” dejan de ser ideas. Se convierten en hipótesis.
+
+Hipótesis que puedes validar con experimentos claros. POCs con criterio. Aprendizaje maximizado. Impacto maximizado.
+
+Y desde ahí, de repente, empiezan a aparecer soluciones con un potencial transformador brutal: no “IA que ayuda”, sino IA agéntica e invisible que elimina fricción organizativa rediseñando el trabajo.
+
+En resumen:
+Si quieres adherencia, no intentes imponer uso. Diseña adopción. Define outcomes. Define comportamiento. Mide. Experimenta. Aprende. Itera.
+
+Y, por el camino, transforma la cultura. Porque el problema rara vez es La Gente ©
+
+Suele ser el sistema.
+
+Y ahora te pido yo a ti: ¿Cuál es tu experiencia en esto? ¿Has vivido estas situaciones? ¿Qué pasó? Me ayuda mucho conocer casos reales, así que ojalá te animes a escribirme.

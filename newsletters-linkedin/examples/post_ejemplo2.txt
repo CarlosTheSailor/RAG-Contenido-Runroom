@@ -1,0 +1,42 @@
+Título: Cuando el sabio señala el aprendizaje, el necio mira el Jira
+
+
+¿Cuál es el objetivo de tu equipo de producto? Si pregunto esto en una sala llena de managers, la respuesta suele ser un coro desafinado de: "Entregar valor", "Cumplir el roadmap", "Sacar la release".
+
+Mentira. En la práctica, en el día a día de las trincheras, el objetivo real de la mayoría de equipos es no ser culpables.
+
+Y para eso, hemos convertido herramientas maravillosas en armas arrojadizas. He visto (demasiadas veces) cómo Jira se convierte en una herramienta de acusación, no de gestión. Un tribunal digital donde el ticket se usa como coartada. "Eh, nosotros hicimos exactamente lo que ponía en la descripción". "El ticket está en 'Review' y lleva 3 semanas esperando feedback de negocio".
+
+Nos obsesionamos con el output. Con la velocidad. Con mover tarjetas de izquierda a derecha como si nos fuera la vida en ello. Pero el código se queda obsoleto. Las features se ignoran. Y lo único que realmente tiene valor a largo plazo, lo tiramos a la basura al final de cada Sprint: El Aprendizaje.
+
+El tesoro escondido (lecciones desde el NHS)
+La semana pasada, en una formación in-company que impartimos en IBM Consulting sobre Lean Product Discovery, hablábamos de la importancia del aprendizaje. Una de las participantes, Laura Gómez Guzmán (a.k.a. LaGo), nos habló del sistema sanitario del Reino Unido (NHS) y me voló la cabeza con un concepto. Me contó que allí guardan los aprendizajes como un tesoro. Literalmente.
+
+He estado investigando y no es una frase bonita para poner en un póster de la oficina. Es un proceso. Tienen roles específicos y dinámicas (como la Tool Treasure Hunt) dedicadas exclusivamente a asegurar que el conocimiento no se evapore cuando un equipo se disuelve o un proyecto acaba. Piénsalo un segundo. En un hospital, aprender de un error o de un acierto salva vidas. En nuestras empresas, ignorar lo que aprendimos el trimestre pasado solo mata presupuestos (y la moral del equipo), pero la tragedia es la misma: Amnesia corporativa.
+
+Fíjate si van en serio que han desmantelado (decommissioned) su antiguo sistema nacional de reporte de incidentes. ¿Por qué? Porque olía a culpa. Lo han sustituido por uno nuevo diseñado exclusivamente para aprender (LFPSE). No es un cambio de software, es un cambio de mentalidad radical: pasan del "quién ha sido" al "qué nos enseña esto". Tienen incluso dinámicas específicas como el "Blame vs Gain" para entrenar a los equipos a soltar el mazo de juez y coger la lupa de investigador.
+
+Y lo mejor es que no improvisan. Utilizan el Knowledge Mobilisation Framework, un marco de trabajo que divide el aprendizaje en tres tiempos, no solo al final. 
+
+Learning Before: ¿Quién ha hecho esto antes y qué sabe? (antes de picar una línea de código). 
+Learning During: ¿Qué estamos descubriendo ahora mismo? 
+Learning After: La cosecha final. Convertir el aprendizaje en un proceso continuo, no en un trámite incómodo al final del Sprint.
+
+Convertir el aprendizaje en un proceso continuo, no en un trámite incómodo al final del Sprint.
+
+Mientras ellos tienen eso, nosotros aprendemos cosas valiosísimas durante el discovery, o tras un lanzamiento fallido, y dejamos que ese conocimiento se quede encerrado en la cabeza de alguien o, peor, en un PDF en una carpeta de Drive que nadie volverá a abrir jamás. Wiki-cementerios.
+
+De la "Acusación" a la "Cosecha"
+El verdadero entregable de un equipo de alto rendimiento no es el software. El software es solo el medio. El entregable es el conocimiento compartido.
+
+Si tu equipo entrega mucho código pero no sabe por qué funciona (o por qué no), no sois un equipo de producto. Sois una imprenta de features.
+
+¿Cómo cambiamos esto? Aquí va una idea para hackear el sistema, ya que (probablemente) no tengas presupuesto para contratar a dos "bibliotecarios del conocimiento" como el NHS:
+
+Usa la IA para atesorar. Imagina crear un NotebookLM (o cualquier RAG de confianza) y volcar ahí todo. Y cuando digo todo, es todo: las notas desordenadas de las entrevistas, los resultados de los tests A/B, los hilos de Slack donde se debatió esa decisión técnica crucial, los post-mortems.
+
+Convertir el caos en un oráculo. Facilitar que cualquier persona, nueva o veterana, pueda preguntar: "¿Qué aprendimos la última vez que intentamos cambiar el onboarding?" y obtener una respuesta basada en evidencia, no en la opinión del que grita más fuerte.
+
+Dejemos de usar las herramientas para controlar quién hizo qué. Empecemos a usarlas para entender qué aprendimos todos. El código se deprecia. El aprendizaje se compone. Ese es nuestro verdadero tesoro. Cuidémoslo.
+
+¿Tenéis algún sistema para no tropezar dos veces con la misma piedra? Me encantaría leer cómo gestionáis (o sufrís) esto. 👇

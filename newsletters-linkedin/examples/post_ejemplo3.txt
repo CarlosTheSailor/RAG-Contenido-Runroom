@@ -1,0 +1,39 @@
+Título: El PIB y otras métricas vacías 
+
+Cada vez que se publica el dato de PIB, se repite el mismo ritual. Titulares triunfalistas si sube, tono de alarma si baja. Se habla de él como si fuera el parte médico de un país, una cifra capaz de resumir si “vamos bien” o “vamos mal”. El problema es que el PIB nunca fue diseñado para eso. 
+
+Jason Hickel insiste en una idea tan sencilla como incómoda: el PIB mide actividad económica monetizada, no bienestar. Suma transacciones, no vidas mejores. Y, aun así, lo hemos convertido en el indicador central de éxito de nuestras sociedades. No porque sea especialmente bueno, sino porque es fácil de agregar, comparar y convertir en objetivo político. 
+
+El propio Simon Kuznets, uno de los padres de las cuentas nacionales, lo advirtió desde el principio: el bienestar de una nación difícilmente puede inferirse de una medida del ingreso nacional. Esa advertencia se perdió por el camino. En el contexto de posguerra, producir más casas, carreteras y bienes básicos sí se parecía bastante a vivir mejor. Pero el mundo cambió y la métrica no. 
+
+Hickel señala varios problemas estructurales del PIB que conviene recordar. El primero es que confunde “más mercado” con “mejor vida”. El cuidado de niños, mayores o enfermos no cuenta si no pasa por el mercado; en cambio, si ese mismo cuidado se privatiza y se paga, el PIB sube. La métrica, por diseño, trata la mercantilización de la vida como progreso. 
+
+El segundo problema es aún más perverso: el PIB suma bienes y males como si fueran lo mismo. Un vertido genera actividad para limpiarlo. Una catástrofe natural impulsa la reconstrucción. Una población enferma eleva el gasto sanitario. Todo eso hace crecer el PIB, aunque nadie diría que esas situaciones representan prosperidad. El indicador no resta daños ni distingue causas de consecuencias. 
+
+Quizá esto explique la escalada bélica y la tendencia del regreso a la militarización de países que se suponía habían superado esa deriva. 
+
+A eso se añade que el PIB es ciego a la desigualdad. Puede crecer mientras la mayoría empeora, siempre que una minoría concentre más renta. En ese sentido, como dice Hickel, el PIB mide la salud del capitalismo más que la salud de la sociedad. Celebra expansión agregada, crecimiento crónico, no bienestar distribuido. 
+
+Y, por último, ignora casi por completo la base material de la economía: la naturaleza. No descuenta la pérdida de suelos, bosques o estabilidad climática. Los daños aparecen como “externalidades”, pero el sistema aprende rápido: si el éxito se mide por crecimiento del PIB, se prioriza crecer aunque se hipoteque el futuro. 
+
+Todo esto ocurre porque el PIB dejó de ser un termómetro y se convirtió en el objetivo. Y cuando una métrica se convierte en objetivo, deja de informar y empieza a deformar decisiones. No es un problema moral; es un problema de diseño del sistema. Y es otro ejemplo de libro de la fetichización de la que hablaba la semana pasada. 
+
+Ahora cambia de escala y mira hacia tu estrategia. 
+
+En la estrategia también elegimos métricas agregadas porque son fáciles de comunicar y comparar. Usuarios activos, sesiones, tiempo de uso, ingresos. Métricas lagging que describen lo que ya pasó. Son útiles para evaluar, pero peligrosas cuando se usan para decidir. 
+
+El paralelismo con el PIB es más directo de lo que parece. Un MAU puede subir aunque el producto empeore la vida del usuario. Puede subir porque empujamos notificaciones, añadimos fricción a la salida o forzamos workflows innecesarios. Igual que el PIB, la cifra crece, pero el bienestar no. Cuando tratamos una métrica lagging como si fuera impacto, el sistema aprende a optimizarla. Aparecen los atajos, los dark patterns, las decisiones locales “racionales” que erosionan el valor global. 
+
+Actividad no es impacto. Uso no es valor. Crecimiento no es aprendizaje. 
+
+Por eso es tan importante separar tipos de métricas. Las leading metrics no describen el éxito; anticipan si vamos en la dirección correcta. Capturan cambios de comportamiento concretos que, si se sostienen, deberían generar impacto real. Son más difíciles de definir y menos sexys en un dashboard, pero obligan a pensar. 
+
+Y luego están las métricas guardarraíles, que en economía casi nunca existieron para el PIB. Son las que dicen hasta dónde no queremos optimizar, aunque el número principal mejore. Calidad, carga cognitiva, quejas, errores, tiempo perdido. Sin guardarraíles, el sistema aprende a hacer trampas sin saber que las está haciendo. Jesica Wulf explica algo muy parecido en el último Realworld que publicamos ayer. 
+
+La lección de Hickel no es “no midamos”. Es mucho más incómoda: midamos sabiendo qué estamos dejando fuera y qué comportamientos estamos incentivando. En producto, igual. No se trata de encontrar la métrica perfecta, sino de diseñar un sistema de métricas que no confunda movimiento con progreso. 
+
+El problema no es que la gente tome decisiones mirando un dashboard. El problema es el sistema que les enseñamos a optimizar. 
+
+Si te interesa todo esto, te invito a que este jueves asistas (online o presencialmente) al Runroom Lab, donde acompañado de Jose E. Saura Oller, explicaré por primera vez en público nuestro framework estratégico Impact-Driven Growth™️, que hemos creado desde Runroom para ayudarte a diseñar estrategias guiadas por evidencia, basándote en métricas de impacto, con un acercamiento lean centrado en el comportamiento humano. Puedes inscribirte en este enlace. 
+
+¿Qué métricas de producto se parecen hoy demasiado al PIB? Si aún no lo has hecho, no olvides suscribirte a la newsletter y te leo en comentarios 👇

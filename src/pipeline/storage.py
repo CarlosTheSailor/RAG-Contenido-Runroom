@@ -127,6 +127,12 @@ class SupabaseStorage:
             row = cur.fetchone()
         return row
 
+    def get_episode_by_source_filename(self, source_filename: str) -> dict[str, Any] | None:
+        with self._conn.cursor() as cur:
+            cur.execute("SELECT * FROM episodes WHERE source_filename = %s LIMIT 1", (source_filename,))
+            row = cur.fetchone()
+        return row
+
     def list_episodes_for_title_sync(self, statuses: list[str], limit: int | None = None) -> list[dict[str, Any]]:
         statuses = [s.strip() for s in statuses if s.strip()]
         if not statuses:

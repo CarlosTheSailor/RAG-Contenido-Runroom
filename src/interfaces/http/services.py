@@ -11,6 +11,7 @@ from src.application.use_cases.query_similar import QuerySimilarRequest, QuerySi
 from src.application.use_cases.recommend_content import RecommendContentRequest, RecommendContentUseCase
 from src.config import Settings
 from src.content.ingest import ingest_case_study_url as ingest_case_study_url_pipeline
+from src.pipeline.manual_episode_ingest import ingest_uploaded_episode
 from src.infrastructure.ai.openai_embedding_client import OpenAIEmbeddingClient
 from src.infrastructure.repositories.content_chunks import ContentChunksRepository
 from src.infrastructure.repositories.legacy_chunks import LegacyChunksRepository
@@ -149,5 +150,27 @@ class QueryApiService:
         )
         return {
             "url": url,
+            "summary": dict(summary),
+        }
+
+    def ingest_episode_upload(
+        self,
+        transcript_filename: str,
+        transcript_bytes: bytes,
+        runroom_url: str,
+    ) -> dict[str, Any]:
+        summary = ingest_uploaded_episode(
+            settings=self._settings,
+            schema_path=self._schema_path,
+            source_filename=transcript_filename,
+            transcript_bytes=transcript_bytes,
+            runroom_url=runroom_url,
+            target_tokens=220,
+            overlap_tokens=40,
+            batch_size=32,
+            offline_mode=False,
+        )
+        return {
+            "runroom_url": runroom_url,
             "summary": dict(summary),
         }

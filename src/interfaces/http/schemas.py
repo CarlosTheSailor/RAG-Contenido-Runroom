@@ -82,3 +82,21 @@ class CaseStudyIngestUrlResponseModel(BaseModel):
     request_id: str
     url: str
     summary: CaseStudyIngestUrlSummaryModel
+
+
+class EpisodeIngestSummaryModel(BaseModel):
+    source_filename: str
+    transcript_path: str
+    episode_id: int
+    content_item_id: Optional[int] = None
+    episode_code: Optional[str] = None
+    title: str
+    runroom_url: str
+    chunks_written: int
+    canonical_synced: bool
+
+
+class EpisodeIngestResponseModel(BaseModel):
+    request_id: str
+    runroom_url: str
+    summary: EpisodeIngestSummaryModel

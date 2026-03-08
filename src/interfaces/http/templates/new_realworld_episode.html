@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nueva ingesta de episodio Realworld</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f5f7fc;
+      --panel: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --primary: #075985;
+      --border: #d5deee;
+      --accent: #0f766e;
+    }
+    body {
+      margin: 0;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      background: linear-gradient(180deg, #e8eefc 0%, var(--bg) 45%);
+      color: var(--text);
+      min-height: 100vh;
+    }
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+    .row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+    }
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 16px;
+      margin-bottom: 16px;
+    }
+    h1 {
+      margin: 0;
+      font-size: 1.6rem;
+    }
+    h2 {
+      margin: 0 0 12px;
+      font-size: 1.1rem;
+    }
+    .muted {
+      color: var(--muted);
+      margin: 4px 0 0;
+    }
+    label {
+      display: block;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+    input {
+      width: 100%;
+      box-sizing: border-box;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 10px;
+      margin-top: 4px;
+      margin-bottom: 12px;
+      font: inherit;
+    }
+    input[type="file"] {
+      padding: 8px;
+      background: #f9fbff;
+    }
+    button {
+      border: none;
+      border-radius: 10px;
+      background: var(--primary);
+      color: #fff;
+      padding: 10px 14px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .secondary {
+      background: #334155;
+    }
+    .warn {
+      border-left: 4px solid #dc2626;
+      background: #fff1f2;
+      color: #7f1d1d;
+      padding: 10px;
+      border-radius: 8px;
+      margin-bottom: 12px;
+      display: none;
+      white-space: pre-wrap;
+    }
+    .ok {
+      border-left: 4px solid var(--accent);
+      background: #f0fdfa;
+      color: #134e4a;
+      padding: 10px;
+      border-radius: 8px;
+      margin-bottom: 12px;
+      display: none;
+      white-space: pre-wrap;
+    }
+    pre {
+      margin: 0;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: #f9fbff;
+      padding: 12px;
+      overflow: auto;
+      max-height: 420px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="row">
+      <div>
+        <h1>Nueva ingesta de episodio Realworld</h1>
+        <p class="muted">Sesion iniciada como {{ user.name }} ({{ user.email }})</p>
+      </div>
+      <div class="row">
+        <a href="/app"><button class="secondary" type="button">Volver</button></a>
+        <form action="/auth/logout" method="post">
+          <button class="secondary" type="submit">Cerrar sesion</button>
+        </form>
+      </div>
+    </header>
+
+    <section class="panel">
+      <h2>Ingestar episodio manualmente</h2>
+      <p class="muted">Sube una transcripcion .txt y la URL del episodio en Runroom.</p>
+      <form id="ingest-form">
+        <label>
+          Archivo de transcripcion (.txt)
+          <input id="transcript-file" type="file" accept=".txt,text/plain" required />
+        </label>
+        <label>
+          URL del episodio en Runroom
+          <input
+            id="runroom-url"
+            type="url"
+            required
+            placeholder="https://www.runroom.com/realworld/..."
+          />
+        </label>
+        <button type="submit">Ingestar episodio</button>
+      </form>
+    </section>
+
+    <section class="panel">
+      <h2>Resultado</h2>
+      <div id="warning-box" class="warn"></div>
+      <div id="info-box" class="ok"></div>
+      <pre id="result-box">{}</pre>
+    </section>
+  </div>
+
+  <script>
+    async function postMultipart(url, formData) {
+      const response = await fetch(url, {
+        method: "POST",
+        body: formData,
+      });
+      const text = await response.text();
+      let body;
+      try {
+        body = JSON.parse(text);
+      } catch (err) {
+        body = { raw: text };
+      }
+      return { status: response.status, body };
+    }
+
+    const form = document.getElementById("ingest-form");
+    const warningBox = document.getElementById("warning-box");
+    const infoBox = document.getElementById("info-box");
+    const resultBox = document.getElementById("result-box");
+
+    form.addEventListener("submit", async (event) => {
+      event.preventDefault();
+      warningBox.style.display = "none";
+      infoBox.style.display = "none";
+      resultBox.textContent = "Ingestando...";
+
+      const fileInput = document.getElementById("transcript-file");
+      const runroomUrl = document.getElementById("runroom-url").value;
+      const file = fileInput.files && fileInput.files[0];
+
+      if (!file) {
+        warningBox.textContent = "Debes seleccionar un archivo .txt.";
+        warningBox.style.display = "block";
+        resultBox.textContent = "{}";
+        return;
+      }
+
+      const formData = new FormData();
+      formData.append("transcript_file", file);
+      formData.append("runroom_url", runroomUrl);
+
+      const result = await postMultipart("/app/api/episodes/ingest", formData);
+      resultBox.textContent = JSON.stringify(result, null, 2);
+
+      if (result.status === 200) {
+        infoBox.textContent = "Episodio ingestado correctamente.";
+        infoBox.style.display = "block";
+        return;
+      }
+
+      warningBox.textContent = result.body && result.body.detail ? String(result.body.detail) : "Error inesperado.";
+      warningBox.style.display = "block";
+    });
+  </script>
+</body>
+</html>

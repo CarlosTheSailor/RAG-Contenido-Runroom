@@ -246,6 +246,7 @@ Flujo:
 - `/app` permite ejecutar `query-similar` y `recommend-content` sin headers manuales.
 - `/app/newsletters-linkedin` permite generar la newsletter completa con estilo + RAG.
 - `/app/nuevo-case-study` permite ingestar manualmente un case study desde URL.
+- `/app/nuevo-episodio-realworld` permite ingestar manualmente un episodio Realworld desde `.txt` + URL Runroom.
 - `/v1/*` y `/health` siguen protegidos por `X-API-Key`.
 
 ### Ingesta manual de case study (Web)
@@ -279,6 +280,47 @@ Errores:
 - `422` si la URL no cumple la política
 - `502` si falla la carga de la URL externa
 - `500` para errores inesperados de ingesta
+
+### Ingesta manual de episodio Realworld (Web)
+
+Nueva UI autenticada:
+
+- `GET /app/nuevo-episodio-realworld`
+
+Endpoint interno (requiere sesión web):
+
+- `POST /app/api/episodes/ingest` (`multipart/form-data`)
+
+Campos:
+
+- `transcript_file` (obligatorio, `.txt`, no vacio)
+- `runroom_url` (obligatorio)
+
+Política de validación URL:
+
+- solo `http`/`https`
+- host `runroom.com` o `www.runroom.com`
+- path que empiece por `/realworld/` o `/en/realworld/`
+
+Comportamiento de ingesta:
+
+- guarda el `.txt` subido en `transcripciones/` con el nombre original
+- bloquea duplicados por `source_filename` (`409`)
+- extrae el titulo desde el primer `<h1>` de la URL de Runroom (si falta, falla)
+- ingesta en `episodes/chunks` (legacy), marca `manual_matched` con la URL y sincroniza a canónico
+
+Respuesta:
+
+- `request_id`
+- `runroom_url`
+- `summary` (`source_filename`, `transcript_path`, `episode_id`, `content_item_id`, `episode_code`, `title`, `runroom_url`, `chunks_written`, `canonical_synced`)
+
+Errores:
+
+- `422` validaciones de URL/archivo o `<h1>` ausente
+- `409` si ya existe ese `source_filename`
+- `502` si falla la carga de la URL externa
+- `500` para errores inesperados
 
 ## Newsletter LinkedIn Generator
 

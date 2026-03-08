@@ -95,6 +95,31 @@ La respuesta devuelve un `summary` con:
 - `chunks_written`
 - `dry_run`
 
+## 5d) Ingesta manual de episodio Realworld (Web autenticada)
+
+Con OAuth de Google activo y sesion iniciada:
+
+- UI: `GET /app/nuevo-episodio-realworld`
+- Endpoint interno: `POST /app/api/episodes/ingest` (`multipart/form-data`)
+
+Campos:
+
+- `transcript_file` (obligatorio, extension `.txt`, no vacio)
+- `runroom_url` (obligatorio)
+
+Validaciones URL:
+
+- esquema `http/https`
+- host `runroom.com` o `www.runroom.com`
+- path iniciado por `/realworld/` o `/en/realworld/`
+
+Comportamiento:
+
+- guarda el archivo en `transcripciones/` con su nombre original
+- bloquea duplicados por `source_filename` con `409`
+- extrae titulo del primer `<h1>` de Runroom (si falta, falla con `422`)
+- ingesta legacy (`episodes/chunks`) + sync canónico (`content_items/content_chunks`)
+
 ## 6) Re-embedding selectivo
 
 ```bash

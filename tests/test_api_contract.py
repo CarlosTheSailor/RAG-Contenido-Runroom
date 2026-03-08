@@ -75,6 +75,27 @@ class _FakeService:
             },
         }
 
+    def ingest_episode_upload(
+        self,
+        transcript_filename: str,
+        transcript_bytes: bytes,
+        runroom_url: str,
+    ) -> dict[str, object]:
+        return {
+            "runroom_url": runroom_url,
+            "summary": {
+                "source_filename": transcript_filename,
+                "transcript_path": f"transcripciones/{transcript_filename}",
+                "episode_id": 1,
+                "content_item_id": 2,
+                "episode_code": "r001",
+                "title": "R001 - Test",
+                "runroom_url": runroom_url,
+                "chunks_written": 1,
+                "canonical_synced": True,
+            },
+        }
+
 
 class ApiContractTests(unittest.TestCase):
     def setUp(self) -> None:

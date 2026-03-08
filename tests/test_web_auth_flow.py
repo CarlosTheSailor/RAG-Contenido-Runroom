@@ -7,6 +7,7 @@ from fastapi.testclient import TestClient
 
 from src.config import APIRuntimeSettings
 from src.interfaces.http.app import create_app
+from src.pipeline.manual_episode_ingest import DuplicateEpisodeSourceFilenameError
 
 
 class _FakeService:
@@ -85,6 +86,29 @@ class _FakeService:
             },
         }
 
+    def ingest_episode_upload(
+        self,
+        transcript_filename: str,
+        transcript_bytes: bytes,
+        runroom_url: str,
+    ) -> dict[str, object]:
+        if transcript_filename == "duplicate.txt":
+            raise DuplicateEpisodeSourceFilenameError("duplicate")
+        return {
+            "runroom_url": runroom_url,
+            "summary": {
+                "source_filename": transcript_filename,
+                "transcript_path": f"transcripciones/{transcript_filename}",
+                "episode_id": 999,
+                "content_item_id": 1999,
+                "episode_code": "r999",
+                "title": "R999 - Episodio de prueba",
+                "runroom_url": runroom_url,
+                "chunks_written": 4,
+                "canonical_synced": True,
+            },
+        }
+
 
 class _FakeGoogleOAuthClient:
     def __init__(self, userinfo: dict[str, object]) -> None:
@@ -159,6 +183,7 @@ class WebAuthFlowTests(unittest.TestCase):
         self.assertEqual(callback.headers["location"], "/app")
         self.assertEqual(app_response.status_code, 200)
         self.assertIn("Runroom Content Query", app_response.text)
+        self.assertIn("Ingesta manual de episodio Realworld", app_response.text)
 
     def test_app_api_requires_session(self) -> None:
         app = create_app(
@@ -364,6 +389,144 @@ class WebAuthFlowTests(unittest.TestCase):
         self.assertEqual(payload["url"], "https://www.runroom.com/cases/caso-valido")
         self.assertIn("summary", payload)
         self.assertEqual(payload["summary"]["items_upserted"], 1)
+
+    def test_new_realworld_episode_page_redirects_without_session(self) -> None:
+        app = create_app(
+            service=_FakeService(),
+            api_key="secret",
+            runtime_settings=self._runtime(),
+            google_oauth_client=_FakeGoogleOAuthClient(
+                userinfo={"email": "person@runroom.com", "email_verified": True, "name": "Person"}
+            ),
+        )
+        client = TestClient(app)
+
+        response = client.get("/app/nuevo-episodio-realworld", follow_redirects=False)
+
+        self.assertEqual(response.status_code, 302)
+        self.assertEqual(response.headers["location"], "/")
+
+    def test_new_realworld_episode_page_with_session(self) -> None:
+        app = create_app(
+            service=_FakeService(),
+            api_key="secret",
+            runtime_settings=self._runtime(),
+            google_oauth_client=_FakeGoogleOAuthClient(
+                userinfo={"email": "person@runroom.com", "email_verified": True, "name": "Person"}
+            ),
+        )
+        client = TestClient(app)
+        client.get("/auth/google/callback", follow_redirects=False)
+
+        response = client.get("/app/nuevo-episodio-realworld")
+
+        self.assertEqual(response.status_code, 200)
+        self.assertIn("Nueva ingesta de episodio Realworld", response.text)
+
+    def test_episode_ingest_requires_session(self) -> None:
+        app = create_app(
+            service=_FakeService(),
+            api_key="secret",
+            runtime_settings=self._runtime(),
+            google_oauth_client=_FakeGoogleOAuthClient(
+                userinfo={"email": "person@runroom.com", "email_verified": True, "name": "Person"}
+            ),
+        )
+        client = TestClient(app)
+
+        response = client.post(
+            "/app/api/episodes/ingest",
+            data={"runroom_url": "https://www.runroom.com/realworld/r999"},
+            files={"transcript_file": ("episodio.txt", b"[00:00:00.000] - Host\nHola", "text/plain")},
+        )
+
+        self.assertEqual(response.status_code, 401)
+        self.assertEqual(response.json()["detail"], "Authentication required")
+
+    def test_episode_ingest_rejects_url_outside_policy(self) -> None:
+        app = create_app(
+            service=_FakeService(),
+            api_key="secret",
+            runtime_settings=self._runtime(),
+            google_oauth_client=_FakeGoogleOAuthClient(
+                userinfo={"email": "person@runroom.com", "email_verified": True, "name": "Person"}
+            ),
+        )
+        client = TestClient(app)
+        client.get("/auth/google/callback", follow_redirects=False)
+
+        response = client.post(
+            "/app/api/episodes/ingest",
+            data={"runroom_url": "https://example.com/realworld/r999"},
+            files={"transcript_file": ("episodio.txt", b"[00:00:00.000] - Host\nHola", "text/plain")},
+        )
+
+        self.assertEqual(response.status_code, 422)
+
+    def test_episode_ingest_rejects_invalid_file_extension(self) -> None:
+        app = create_app(
+            service=_FakeService(),
+            api_key="secret",
+            runtime_settings=self._runtime(),
+            google_oauth_client=_FakeGoogleOAuthClient(
+                userinfo={"email": "person@runroom.com", "email_verified": True, "name": "Person"}
+            ),
+        )
+        client = TestClient(app)
+        client.get("/auth/google/callback", follow_redirects=False)
+
+        response = client.post(
+            "/app/api/episodes/ingest",
+            data={"runroom_url": "https://www.runroom.com/realworld/r999"},
+            files={"transcript_file": ("episodio.md", b"hola", "text/markdown")},
+        )
+
+        self.assertEqual(response.status_code, 422)
+
+    def test_episode_ingest_rejects_duplicate_filename(self) -> None:
+        app = create_app(
+            service=_FakeService(),
+            api_key="secret",
+            runtime_settings=self._runtime(),
+            google_oauth_client=_FakeGoogleOAuthClient(
+                userinfo={"email": "person@runroom.com", "email_verified": True, "name": "Person"}
+            ),
+        )
+        client = TestClient(app)
+        client.get("/auth/google/callback", follow_redirects=False)
+
+        response = client.post(
+            "/app/api/episodes/ingest",
+            data={"runroom_url": "https://www.runroom.com/realworld/r999"},
+            files={"transcript_file": ("duplicate.txt", b"[00:00:00.000] - Host\nHola", "text/plain")},
+        )
+
+        self.assertEqual(response.status_code, 409)
+
+    def test_episode_ingest_with_session_contract(self) -> None:
+        app = create_app(
+            service=_FakeService(),
+            api_key="secret",
+            runtime_settings=self._runtime(),
+            google_oauth_client=_FakeGoogleOAuthClient(
+                userinfo={"email": "person@runroom.com", "email_verified": True, "name": "Person"}
+            ),
+        )
+        client = TestClient(app)
+        client.get("/auth/google/callback", follow_redirects=False)
+
+        response = client.post(
+            "/app/api/episodes/ingest",
+            data={"runroom_url": "https://www.runroom.com/realworld/r999"},
+            files={"transcript_file": ("episodio.txt", b"[00:00:00.000] - Host\nHola", "text/plain")},
+        )
+
+        self.assertEqual(response.status_code, 200)
+        payload = response.json()
+        self.assertIn("request_id", payload)
+        self.assertEqual(payload["runroom_url"], "https://www.runroom.com/realworld/r999")
+        self.assertEqual(payload["summary"]["source_filename"], "episodio.txt")
+        self.assertEqual(payload["summary"]["episode_id"], 999)
 
 
 if __name__ == "__main__":

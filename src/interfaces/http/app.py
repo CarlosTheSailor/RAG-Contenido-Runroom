@@ -9,7 +9,7 @@ from urllib.parse import urlparse
 from uuid import uuid4
 
 from authlib.integrations.starlette_client import OAuth, OAuthError
-from fastapi import Depends, FastAPI, HTTPException, Request, Security
+from fastapi import Depends, FastAPI, File, Form, HTTPException, Request, Security, UploadFile
 from fastapi.responses import HTMLResponse, RedirectResponse
 from fastapi.security import APIKeyHeader
 from fastapi.templating import Jinja2Templates
@@ -19,6 +19,7 @@ from src.config import APIRuntimeSettings, Settings
 from src.interfaces.http.schemas import (
     CaseStudyIngestUrlRequestModel,
     CaseStudyIngestUrlResponseModel,
+    EpisodeIngestResponseModel,
     NewsletterLinkedInGenerateRequestModel,
     NewsletterLinkedInGenerateResponseModel,
     QuerySimilarRequestModel,
@@ -27,6 +28,7 @@ from src.interfaces.http.schemas import (
     RecommendContentResponseModel,
 )
 from src.interfaces.http.services import QueryApiService
+from src.pipeline.manual_episode_ingest import DuplicateEpisodeSourceFilenameError
 
 
 class QueryServicePort(Protocol):
@@ -60,6 +62,14 @@ class QueryServicePort(Protocol):
         ...
 
     def ingest_case_study_url(self, url: str) -> dict[str, Any]:
+        ...
+
+    def ingest_episode_upload(
+        self,
+        transcript_filename: str,
+        transcript_bytes: bytes,
+        runroom_url: str,
+    ) -> dict[str, Any]:
         ...
 
 
@@ -123,6 +133,21 @@ def _validate_runroom_case_study_url(url: str) -> str:
         raise ValueError("URL inválida: solo se permiten hosts runroom.com o www.runroom.com.")
     if not parsed.path.startswith("/cases/"):
         raise ValueError("URL inválida: el path debe empezar por /cases/.")
+
+    return candidate
+
+
+def _validate_runroom_episode_url(url: str) -> str:
+    candidate = url.strip()
+    parsed = urlparse(candidate)
+    host = (parsed.hostname or "").lower()
+
+    if parsed.scheme not in {"http", "https"}:
+        raise ValueError("URL invalida: solo se permiten esquemas http/https.")
+    if host not in {"runroom.com", "www.runroom.com"}:
+        raise ValueError("URL invalida: solo se permiten hosts runroom.com o www.runroom.com.")
+    if not (parsed.path.startswith("/realworld/") or parsed.path.startswith("/en/realworld/")):
+        raise ValueError("URL invalida: el path debe empezar por /realworld/ o /en/realworld/.")
 
     return candidate
 
@@ -238,6 +263,37 @@ def create_app(
             "summary": result["summary"],
         }
 
+    def episode_ingest_payload(
+        transcript_filename: str,
+        transcript_bytes: bytes,
+        runroom_url: str,
+    ) -> Dict[str, Any]:
+        try:
+            url = _validate_runroom_episode_url(runroom_url)
+        except ValueError as exc:
+            raise HTTPException(status_code=422, detail=str(exc)) from exc
+
+        try:
+            result = service.ingest_episode_upload(
+                transcript_filename=transcript_filename,
+                transcript_bytes=transcript_bytes,
+                runroom_url=url,
+            )
+        except DuplicateEpisodeSourceFilenameError as exc:
+            raise HTTPException(status_code=409, detail=str(exc)) from exc
+        except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError) as exc:
+            raise HTTPException(status_code=502, detail=f"No se pudo cargar la URL externa: {exc}") from exc
+        except ValueError as exc:
+            raise HTTPException(status_code=422, detail=str(exc)) from exc
+        except Exception as exc:
+            raise HTTPException(status_code=500, detail="Error inesperado durante la ingesta del episodio.") from exc
+
+        return {
+            "request_id": str(uuid4()),
+            "runroom_url": str(result["runroom_url"]),
+            "summary": result["summary"],
+        }
+
     @app.get("/", response_class=HTMLResponse)
     def root(request: Request) -> Any:
         if _session_user(request):
@@ -323,6 +379,17 @@ def create_app(
             {"user": user},
         )
 
+    @app.get("/app/nuevo-episodio-realworld", response_class=HTMLResponse)
+    def app_new_realworld_episode_page(request: Request) -> Any:
+        user = _session_user(request)
+        if user is None:
+            return RedirectResponse(url="/", status_code=302)
+        return templates.TemplateResponse(
+            request,
+            "new_realworld_episode.html",
+            {"user": user},
+        )
+
     @app.get("/health")
     def health(_: None = Security(require_api_key)) -> Dict[str, str]:
         return {"status": "ok", "request_id": str(uuid4())}
@@ -368,6 +435,32 @@ def create_app(
         _: dict[str, str] = Depends(require_session_api_user),
     ) -> Dict[str, Any]:
         return case_study_ingest_payload(payload)
+
+    @app.post(
+        "/app/api/episodes/ingest",
+        response_model=EpisodeIngestResponseModel,
+    )
+    async def app_ingest_realworld_episode(
+        runroom_url: str = Form(...),
+        transcript_file: UploadFile = File(...),
+        _: dict[str, str] = Depends(require_session_api_user),
+    ) -> Dict[str, Any]:
+        filename = Path(transcript_file.filename or "").name.strip()
+        if not filename:
+            raise HTTPException(status_code=422, detail="Debes subir un archivo de transcripcion.")
+        if Path(filename).suffix.lower() != ".txt":
+            raise HTTPException(status_code=422, detail="El archivo debe tener extension .txt.")
+
+        transcript_bytes = await transcript_file.read()
+        await transcript_file.close()
+        if not transcript_bytes or not transcript_bytes.strip():
+            raise HTTPException(status_code=422, detail="El archivo de transcripcion esta vacio.")
+
+        return episode_ingest_payload(
+            transcript_filename=filename,
+            transcript_bytes=transcript_bytes,
+            runroom_url=runroom_url,
+        )
 
     if runtime is not None:
         app.state.runtime = runtime

@@ -73,6 +73,18 @@ class _FakeService:
             "used_examples": ["post_ejemplo1.txt", "post_ejemplo2.txt"],
         }
 
+    def ingest_case_study_url(self, url: str) -> dict[str, object]:
+        return {
+            "url": url,
+            "summary": {
+                "documents_total": 1,
+                "items_upserted": 1,
+                "sections_written": 3,
+                "chunks_written": 6,
+                "dry_run": False,
+            },
+        }
+
 
 class _FakeGoogleOAuthClient:
     def __init__(self, userinfo: dict[str, object]) -> None:
@@ -257,6 +269,101 @@ class WebAuthFlowTests(unittest.TestCase):
         self.assertIn("warnings", payload)
         self.assertIn("used_examples", payload)
         self.assertGreaterEqual(len(payload["related_content"]), 1)
+
+    def test_new_case_study_page_redirects_without_session(self) -> None:
+        app = create_app(
+            service=_FakeService(),
+            api_key="secret",
+            runtime_settings=self._runtime(),
+            google_oauth_client=_FakeGoogleOAuthClient(
+                userinfo={"email": "person@runroom.com", "email_verified": True, "name": "Person"}
+            ),
+        )
+        client = TestClient(app)
+
+        response = client.get("/app/nuevo-case-study", follow_redirects=False)
+
+        self.assertEqual(response.status_code, 302)
+        self.assertEqual(response.headers["location"], "/")
+
+    def test_new_case_study_page_with_session(self) -> None:
+        app = create_app(
+            service=_FakeService(),
+            api_key="secret",
+            runtime_settings=self._runtime(),
+            google_oauth_client=_FakeGoogleOAuthClient(
+                userinfo={"email": "person@runroom.com", "email_verified": True, "name": "Person"}
+            ),
+        )
+        client = TestClient(app)
+        client.get("/auth/google/callback", follow_redirects=False)
+
+        response = client.get("/app/nuevo-case-study")
+
+        self.assertEqual(response.status_code, 200)
+        self.assertIn("Nueva ingesta de case study", response.text)
+
+    def test_case_study_ingest_requires_session(self) -> None:
+        app = create_app(
+            service=_FakeService(),
+            api_key="secret",
+            runtime_settings=self._runtime(),
+            google_oauth_client=_FakeGoogleOAuthClient(
+                userinfo={"email": "person@runroom.com", "email_verified": True, "name": "Person"}
+            ),
+        )
+        client = TestClient(app)
+
+        response = client.post(
+            "/app/api/case-studies/ingest-url",
+            json={"url": "https://www.runroom.com/cases/caso-valido"},
+        )
+
+        self.assertEqual(response.status_code, 401)
+        self.assertEqual(response.json()["detail"], "Authentication required")
+
+    def test_case_study_ingest_rejects_url_outside_policy(self) -> None:
+        app = create_app(
+            service=_FakeService(),
+            api_key="secret",
+            runtime_settings=self._runtime(),
+            google_oauth_client=_FakeGoogleOAuthClient(
+                userinfo={"email": "person@runroom.com", "email_verified": True, "name": "Person"}
+            ),
+        )
+        client = TestClient(app)
+        client.get("/auth/google/callback", follow_redirects=False)
+
+        response = client.post(
+            "/app/api/case-studies/ingest-url",
+            json={"url": "https://example.com/cases/no-valido"},
+        )
+
+        self.assertEqual(response.status_code, 422)
+
+    def test_case_study_ingest_with_session_contract(self) -> None:
+        app = create_app(
+            service=_FakeService(),
+            api_key="secret",
+            runtime_settings=self._runtime(),
+            google_oauth_client=_FakeGoogleOAuthClient(
+                userinfo={"email": "person@runroom.com", "email_verified": True, "name": "Person"}
+            ),
+        )
+        client = TestClient(app)
+        client.get("/auth/google/callback", follow_redirects=False)
+
+        response = client.post(
+            "/app/api/case-studies/ingest-url",
+            json={"url": "https://www.runroom.com/cases/caso-valido"},
+        )
+
+        self.assertEqual(response.status_code, 200)
+        payload = response.json()
+        self.assertIn("request_id", payload)
+        self.assertEqual(payload["url"], "https://www.runroom.com/cases/caso-valido")
+        self.assertIn("summary", payload)
+        self.assertEqual(payload["summary"]["items_upserted"], 1)
 
 
 if __name__ == "__main__":

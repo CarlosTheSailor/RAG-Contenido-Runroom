@@ -245,7 +245,40 @@ Flujo:
 - tras autenticación, redirige a `/app`.
 - `/app` permite ejecutar `query-similar` y `recommend-content` sin headers manuales.
 - `/app/newsletters-linkedin` permite generar la newsletter completa con estilo + RAG.
+- `/app/nuevo-case-study` permite ingestar manualmente un case study desde URL.
 - `/v1/*` y `/health` siguen protegidos por `X-API-Key`.
+
+### Ingesta manual de case study (Web)
+
+Nueva UI autenticada:
+
+- `GET /app/nuevo-case-study`
+
+Endpoint interno (requiere sesión web):
+
+- `POST /app/api/case-studies/ingest-url`
+
+Payload:
+
+- `url` (obligatorio)
+
+Política de validación:
+
+- solo `http`/`https`
+- host `runroom.com` o `www.runroom.com`
+- path que empiece por `/cases/`
+
+Respuesta:
+
+- `request_id`
+- `url`
+- `summary` (`documents_total`, `items_upserted`, `sections_written`, `chunks_written`, `dry_run`)
+
+Errores:
+
+- `422` si la URL no cumple la política
+- `502` si falla la carga de la URL externa
+- `500` para errores inesperados de ingesta
 
 ## Newsletter LinkedIn Generator
 

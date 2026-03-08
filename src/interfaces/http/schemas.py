@@ -64,3 +64,21 @@ class NewsletterLinkedInGenerateResponseModel(BaseModel):
     related_content: List[NewsletterLinkedInRelatedContentModel]
     warnings: List[str]
     used_examples: List[str]
+
+
+class CaseStudyIngestUrlRequestModel(BaseModel):
+    url: str = Field(..., min_length=1)
+
+
+class CaseStudyIngestUrlSummaryModel(BaseModel):
+    documents_total: int
+    items_upserted: int
+    sections_written: int
+    chunks_written: int
+    dry_run: bool
+
+
+class CaseStudyIngestUrlResponseModel(BaseModel):
+    request_id: str
+    url: str
+    summary: CaseStudyIngestUrlSummaryModel

@@ -68,6 +68,33 @@ curl -X POST http://localhost:8000/v1/query-similar \
   -d '{"text":"customer centric","top_k":5}'
 ```
 
+## 5c) Ingesta manual de case study (Web autenticada)
+
+Con OAuth de Google activo y sesión iniciada:
+
+- UI: `GET /app/nuevo-case-study`
+- Endpoint interno: `POST /app/api/case-studies/ingest-url`
+
+Payload mínimo:
+
+```json
+{"url":"https://www.runroom.com/cases/bayer-design-system-coherencia-global-flexibilidad-local"}
+```
+
+Validaciones de URL:
+
+- esquema `http/https`
+- host `runroom.com` o `www.runroom.com`
+- path iniciado por `/cases/`
+
+La respuesta devuelve un `summary` con:
+
+- `documents_total`
+- `items_upserted`
+- `sections_written`
+- `chunks_written`
+- `dry_run`
+
 ## 6) Re-embedding selectivo
 
 ```bash

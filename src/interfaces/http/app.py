@@ -2,8 +2,10 @@ from __future__ import annotations
 
 import os
 import secrets
+import urllib.error
 from pathlib import Path
 from typing import Any, Dict, Optional, Protocol
+from urllib.parse import urlparse
 from uuid import uuid4
 
 from authlib.integrations.starlette_client import OAuth, OAuthError
@@ -15,6 +17,8 @@ from starlette.middleware.sessions import SessionMiddleware
 
 from src.config import APIRuntimeSettings, Settings
 from src.interfaces.http.schemas import (
+    CaseStudyIngestUrlRequestModel,
+    CaseStudyIngestUrlResponseModel,
     NewsletterLinkedInGenerateRequestModel,
     NewsletterLinkedInGenerateResponseModel,
     QuerySimilarRequestModel,
@@ -53,6 +57,9 @@ class QueryServicePort(Protocol):
         texto_a_incluir: str | None = None,
         offline_mode: bool = False,
     ) -> dict[str, Any]:
+        ...
+
+    def ingest_case_study_url(self, url: str) -> dict[str, Any]:
         ...
 
 
@@ -103,6 +110,21 @@ def _session_user(request: Request) -> dict[str, str] | None:
 def _email_matches_domain(email: str, allowed_domain: str) -> bool:
     domain = email.rsplit("@", 1)[-1].lower()
     return domain == allowed_domain.lower()
+
+
+def _validate_runroom_case_study_url(url: str) -> str:
+    candidate = url.strip()
+    parsed = urlparse(candidate)
+    host = (parsed.hostname or "").lower()
+
+    if parsed.scheme not in {"http", "https"}:
+        raise ValueError("URL inválida: solo se permiten esquemas http/https.")
+    if host not in {"runroom.com", "www.runroom.com"}:
+        raise ValueError("URL inválida: solo se permiten hosts runroom.com o www.runroom.com.")
+    if not parsed.path.startswith("/cases/"):
+        raise ValueError("URL inválida: el path debe empezar por /cases/.")
+
+    return candidate
 
 
 def create_app(
@@ -197,6 +219,25 @@ def create_app(
             **result,
         }
 
+    def case_study_ingest_payload(payload: CaseStudyIngestUrlRequestModel) -> Dict[str, Any]:
+        try:
+            url = _validate_runroom_case_study_url(payload.url)
+        except ValueError as exc:
+            raise HTTPException(status_code=422, detail=str(exc)) from exc
+
+        try:
+            result = service.ingest_case_study_url(url=url)
+        except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError) as exc:
+            raise HTTPException(status_code=502, detail=f"No se pudo cargar la URL externa: {exc}") from exc
+        except Exception as exc:
+            raise HTTPException(status_code=500, detail="Error inesperado durante la ingesta del case study.") from exc
+
+        return {
+            "request_id": str(uuid4()),
+            "url": str(result["url"]),
+            "summary": result["summary"],
+        }
+
     @app.get("/", response_class=HTMLResponse)
     def root(request: Request) -> Any:
         if _session_user(request):
@@ -271,6 +312,17 @@ def create_app(
             {"user": user},
         )
 
+    @app.get("/app/nuevo-case-study", response_class=HTMLResponse)
+    def app_new_case_study_page(request: Request) -> Any:
+        user = _session_user(request)
+        if user is None:
+            return RedirectResponse(url="/", status_code=302)
+        return templates.TemplateResponse(
+            request,
+            "new_case_study.html",
+            {"user": user},
+        )
+
     @app.get("/health")
     def health(_: None = Security(require_api_key)) -> Dict[str, str]:
         return {"status": "ok", "request_id": str(uuid4())}
@@ -306,6 +358,16 @@ def create_app(
         _: dict[str, str] = Depends(require_session_api_user),
     ) -> Dict[str, Any]:
         return newsletter_linkedin_payload(payload)
+
+    @app.post(
+        "/app/api/case-studies/ingest-url",
+        response_model=CaseStudyIngestUrlResponseModel,
+    )
+    def app_ingest_case_study_url(
+        payload: CaseStudyIngestUrlRequestModel,
+        _: dict[str, str] = Depends(require_session_api_user),
+    ) -> Dict[str, Any]:
+        return case_study_ingest_payload(payload)
 
     if runtime is not None:
         app.state.runtime = runtime

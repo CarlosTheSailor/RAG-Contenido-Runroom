@@ -10,6 +10,7 @@ from src.application.newsletter_linkedin_generator import (
 from src.application.use_cases.query_similar import QuerySimilarRequest, QuerySimilarUseCase
 from src.application.use_cases.recommend_content import RecommendContentRequest, RecommendContentUseCase
 from src.config import Settings
+from src.content.ingest import ingest_case_study_url as ingest_case_study_url_pipeline
 from src.infrastructure.ai.openai_embedding_client import OpenAIEmbeddingClient
 from src.infrastructure.repositories.content_chunks import ContentChunksRepository
 from src.infrastructure.repositories.legacy_chunks import LegacyChunksRepository
@@ -133,4 +134,20 @@ class QueryApiService:
             "related_content": result.related_content,
             "warnings": [*warnings, *result.warnings],
             "used_examples": result.used_examples,
+        }
+
+    def ingest_case_study_url(self, url: str) -> dict[str, Any]:
+        summary = ingest_case_study_url_pipeline(
+            settings=self._settings,
+            schema_path=self._schema_path,
+            url=url,
+            target_tokens=240,
+            overlap_tokens=40,
+            batch_size=32,
+            offline_mode=False,
+            dry_run=False,
+        )
+        return {
+            "url": url,
+            "summary": dict(summary),
         }

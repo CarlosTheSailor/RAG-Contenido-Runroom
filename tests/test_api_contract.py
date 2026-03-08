@@ -63,6 +63,18 @@ class _FakeService:
             "used_examples": ["post_ejemplo1.txt"],
         }
 
+    def ingest_case_study_url(self, url: str) -> dict[str, object]:
+        return {
+            "url": url,
+            "summary": {
+                "documents_total": 1,
+                "items_upserted": 1,
+                "sections_written": 3,
+                "chunks_written": 6,
+                "dry_run": False,
+            },
+        }
+
 
 class ApiContractTests(unittest.TestCase):
     def setUp(self) -> None:

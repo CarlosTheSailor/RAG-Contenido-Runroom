@@ -10,11 +10,15 @@ readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
   "psycopg[binary]>=3.2.0",
+  "fastapi>=0.116.0",
+  "uvicorn[standard]>=0.35.0",
+  "httpx>=0.28.0",
 ]
 
 [project.scripts]
 rag-contenidos-runroom = "src.cli:main"
 realworld-rag = "src.cli:main"
+realworld-rag-api = "src.interfaces.http.__main__:main"
 
-[tool.setuptools]
-packages = ["src", "src.pipeline", "src.matching", "src.content", "src.youtube_preview"]
+[tool.setuptools.packages.find]
+include = ["src*"]

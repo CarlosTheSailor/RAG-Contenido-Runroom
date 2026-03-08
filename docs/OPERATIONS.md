@@ -52,6 +52,22 @@ python -m src.cli recommend-content \
   --top-k 8
 ```
 
+## 5b) API HTTP (query + recommendation)
+
+```bash
+export API_KEY=change-me
+python -m src.interfaces.http
+```
+
+Con `curl`:
+
+```bash
+curl -X POST http://localhost:8000/v1/query-similar \
+  -H "Content-Type: application/json" \
+  -H "X-API-Key: $API_KEY" \
+  -d '{"text":"customer centric","top_k":5}'
+```
+
 ## 6) Re-embedding selectivo
 
 ```bash
@@ -106,4 +122,11 @@ python -m src.cli ingest-transcripts
 python -m src.cli sync-runroom-sitemap
 python -m src.cli match-episodes
 python -m src.cli query-similar --text "..."
+```
+
+## Deploy rápido en Docker/Coolify
+
+```bash
+docker build -t runroom-rag .
+docker run --rm -p 8000:8000 --env-file .env runroom-rag
 ```

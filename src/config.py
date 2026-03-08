@@ -56,3 +56,27 @@ class RuntimeOptions:
     overlap_tokens: int = 40
     batch_size: int = 32
     offline_mode: bool = False
+
+
+@dataclass(frozen=True)
+class APIRuntimeSettings:
+    api_key: str
+    host: str = "0.0.0.0"
+    port: int = 8000
+    schema_path: Path = Path("sql")
+
+    @classmethod
+    def from_env(cls) -> "APIRuntimeSettings":
+        api_key = os.getenv("API_KEY", "").strip()
+        if not api_key:
+            raise ValueError("API_KEY is required")
+
+        host = os.getenv("HOST", "0.0.0.0").strip() or "0.0.0.0"
+        port = int(os.getenv("PORT", "8000"))
+        schema_path = Path(os.getenv("SCHEMA_PATH", "sql"))
+        return cls(
+            api_key=api_key,
+            host=host,
+            port=port,
+            schema_path=schema_path,
+        )

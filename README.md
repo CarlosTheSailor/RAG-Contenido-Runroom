@@ -76,6 +76,8 @@ Variables clave:
 - `SUPABASE_DB_URL`
 - `OPENAI_API_KEY`
 - `YOUTUBE_API_KEY` (opcional, necesario para leer descripción actual desde YouTube API en preview)
+- `API_KEY` (requerido para API HTTP)
+- `HOST` / `PORT` (servidor FastAPI)
 - `OPENAI_EMBEDDING_MODEL=text-embedding-3-large`
 - `EMBEDDING_DIM=1536`
 
@@ -179,6 +181,48 @@ Salida agrupada por tipo:
 python -m src.cli recommend-content \
   --text "contenido sobre customer centric y growth" \
   --group-by-type
+```
+
+## API HTTP v1 (consulta)
+
+La API expone búsqueda semántica y recomendación multi-fuente con `X-API-Key`.
+
+Arranque local:
+
+```bash
+export API_KEY=change-me
+python -m src.interfaces.http
+```
+
+Endpoints:
+
+- `GET /health`
+- `POST /v1/query-similar`
+- `POST /v1/recommend-content`
+
+Ejemplo:
+
+```bash
+curl -X POST http://localhost:8000/v1/recommend-content \
+  -H "Content-Type: application/json" \
+  -H "X-API-Key: $API_KEY" \
+  -d '{"text":"newsletter sobre CX","top_k":5,"content_types":["episode","case_study"]}'
+```
+
+## Docker / Coolify
+
+Imagen única para API y jobs CLI.
+
+```bash
+docker build -t runroom-rag .
+docker run --rm -p 8000:8000 --env-file .env runroom-rag
+```
+
+En Coolify puedes reutilizar la misma imagen para tareas batch sobre CLI, por ejemplo:
+
+```bash
+python -m src.cli migrate-schema
+python -m src.cli backfill-canonical-content
 ```
 
 ## Preview descripción YouTube (Phase 0)

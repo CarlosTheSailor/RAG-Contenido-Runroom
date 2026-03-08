@@ -100,3 +100,15 @@ Esto permite pasar de cálculo on-the-fly a links materializados cuando convenga
 - No se cambia la dimensión de embeddings.
 - Se prioriza arquitectura extensible sobre parche específico de case studies.
 - Se mantiene complejidad controlada (stdlib para scraping URL).
+
+## Refactor por capas (incremental)
+
+Para preparar clientes web sin romper la CLI:
+
+- `src/domain`: puertos/protocolos de negocio (embedding y repositorio de consulta).
+- `src/application`: casos de uso (`query-similar`, `recommend-content`) y reranking.
+- `src/infrastructure`: adaptadores concretos (`OpenAIEmbeddingClient`, repositorios sobre `SupabaseStorage`).
+- `src/interfaces/cli`: dispatcher de comandos (CLI fina).
+- `src/interfaces/http`: API FastAPI v1 (`/health`, `/v1/query-similar`, `/v1/recommend-content`) con `X-API-Key`.
+
+La separación API/worker se deja como evolución posterior; v1 despliega un único servicio en Coolify.

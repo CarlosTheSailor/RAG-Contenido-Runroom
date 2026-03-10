@@ -6,6 +6,11 @@ from pathlib import Path
 from src.config import RuntimeOptions, Settings
 from src.content.case_study_markdown import parse_case_studies_markdown
 from src.content.case_study_url import parse_case_study_url
+from src.content.runroom_lab_url import parse_runroom_lab_url
+from src.content.runroom_labs_index import (
+    DEFAULT_RUNROOM_LABS_INDEX_URL,
+    discover_runroom_lab_urls,
+)
 from src.content.chunking import chunk_sections
 from src.content.models import CanonicalChunk, CanonicalDocument
 from src.pipeline.ai_client import AIClient
@@ -62,6 +67,58 @@ def ingest_case_study_url(
         offline_mode=offline_mode,
         dry_run=dry_run,
     )
+
+
+def ingest_runroom_labs(
+    settings: Settings,
+    schema_path: Path,
+    index_url: str = DEFAULT_RUNROOM_LABS_INDEX_URL,
+    target_tokens: int = 240,
+    overlap_tokens: int = 40,
+    batch_size: int = 32,
+    offline_mode: bool = False,
+    dry_run: bool = False,
+) -> ContentIngestSummary:
+    urls, discovery_stats = discover_runroom_lab_urls(index_url=index_url)
+
+    documents: list[CanonicalDocument] = []
+    parse_errors = 0
+    parse_error_urls: list[str] = []
+
+    for url in urls:
+        try:
+            documents.append(parse_runroom_lab_url(url))
+        except Exception:
+            parse_errors += 1
+            parse_error_urls.append(url)
+            logger.exception("Failed to parse runroom LAB URL: %s", url)
+
+    summary = ingest_documents(
+        settings=settings,
+        schema_path=schema_path,
+        documents=documents,
+        target_tokens=target_tokens,
+        overlap_tokens=overlap_tokens,
+        batch_size=batch_size,
+        offline_mode=offline_mode,
+        dry_run=dry_run,
+    )
+
+    summary.update(
+        {
+            "index_url": index_url,
+            "labs_discovered": len(urls),
+            "labs_parsed_ok": len(documents),
+            "labs_parse_errors": parse_errors,
+            "labs_parse_error_urls": parse_error_urls,
+            "labs_groups_total": discovery_stats["groups_total"],
+            "labs_groups_with_summary_url": discovery_stats["groups_with_selected_url"],
+            "labs_groups_without_summary_url": discovery_stats["groups_without_selected_url"],
+            "labs_duplicate_urls_removed": discovery_stats["duplicates_removed"],
+        }
+    )
+
+    return summary
 
 
 def ingest_documents(

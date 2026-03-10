@@ -38,6 +38,18 @@ def build_parser() -> argparse.ArgumentParser:
     cs_url_cmd.add_argument("--offline-mode", action="store_true")
     cs_url_cmd.add_argument("--dry-run", action="store_true")
 
+    labs_cmd = sub.add_parser("ingest-runroom-labs", help="Discover and ingest runroom LAB summaries from the index page")
+    labs_cmd.add_argument(
+        "--index-url",
+        default="https://info.runroom.com/runroom-lab-todas-las-ediciones",
+        help="Index page that links all runroom LAB editions",
+    )
+    labs_cmd.add_argument("--target-tokens", default=240, type=int)
+    labs_cmd.add_argument("--overlap-tokens", default=40, type=int)
+    labs_cmd.add_argument("--batch-size", default=32, type=int)
+    labs_cmd.add_argument("--offline-mode", action="store_true")
+    labs_cmd.add_argument("--dry-run", action="store_true")
+
     backfill_cmd = sub.add_parser("backfill-canonical-content", help="Backfill legacy episodes/chunks into canonical tables")
     backfill_cmd.add_argument("--dry-run", action="store_true")
     backfill_cmd.add_argument("--limit", type=int, default=None)

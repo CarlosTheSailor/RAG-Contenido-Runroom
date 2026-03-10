@@ -4,7 +4,7 @@
 
 Evolucionar el RAG centrado en episodios a una capa de conocimiento de contenidos multi-fuente para:
 
-- indexar tipos de contenido heterogéneos (`episode`, `case_study`, futuros `article/event/training`),
+- indexar tipos de contenido heterogéneos (`episode`, `case_study`, `runroom_lab`, futuros `article/event/training`),
 - recomendar contenido relacionado desde texto libre,
 - mantener compatibilidad con el pipeline legacy.
 
@@ -66,6 +66,12 @@ Pipeline fase 2 sin dependencias extra:
 - fetch HTML (stdlib),
 - extracción de metadatos (`og:*`, `description`, JSON-LD cuando existe),
 - normalización al mismo modelo canónico que Markdown.
+
+Para Runroom LABs se añade además una fase de descubrimiento desde índice:
+
+- parsea acordeones del índice de ediciones,
+- selecciona 1 URL resumen por LAB (descarta vídeo/social),
+- normaliza y deduplica URLs antes de ingestar.
 
 ## Chunking y embeddings
 

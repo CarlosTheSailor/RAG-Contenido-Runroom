@@ -6,6 +6,7 @@ Esta versión evoluciona el repositorio desde un RAG centrado en transcripciones
 
 - `episode`
 - `case_study`
+- `runroom_lab`
 - `article` (preparado)
 - `event` (preparado)
 - `training` (preparado)
@@ -58,6 +59,7 @@ Además, `ingest-transcripts` ahora sincroniza también al modelo canónico (dua
 
 - `sql/001_init.sql` (legacy)
 - `sql/002_content_knowledge_layer.sql` (modelo canónico)
+- `sql/003_add_runroom_lab_content_type.sql` (extiende `content_type` con `runroom_lab`)
 
 Aplicación automática idempotente mediante `schema_migrations`.
 
@@ -87,7 +89,7 @@ Variables clave:
 - `NEWSLETTER_RAG_MIN_SCORE` (0.0 a 1.0, default `0.74`)
 - `EMBEDDING_DIM=1536`
 
-`NEWSLETTER_RAG_MIN_SCORE` controla el filtro de relevancia para episodios/cases en el generador de newsletter:
+`NEWSLETTER_RAG_MIN_SCORE` controla el filtro de relevancia para episodios/case studies/LABs en el generador de newsletter:
 
 - `0.0` = no filtra por score (acepta cualquier resultado)
 - `1.0` = filtro máximo (solo resultados casi perfectos; normalmente ninguno)
@@ -112,6 +114,10 @@ python -m src.cli ingest-case-studies-markdown \
 # 5) Ingesta de case study individual desde URL (fase 2)
 python -m src.cli ingest-case-study-url \
   --url https://www.runroom.com/cases/energia-nufri-posicionamiento-marca-ecosistema-digital
+
+# 6) Ingesta masiva de Runroom LABs desde índice
+python -m src.cli ingest-runroom-labs \
+  --index-url https://info.runroom.com/runroom-lab-todas-las-ediciones
 ```
 
 ## Comandos CLI
@@ -167,6 +173,28 @@ Opciones:
 - `--offline-mode`
 - `--dry-run`
 
+## Ingesta Runroom LABs (índice)
+
+```bash
+python -m src.cli ingest-runroom-labs \
+  --index-url https://info.runroom.com/runroom-lab-todas-las-ediciones
+```
+
+Opciones:
+
+- `--target-tokens 240`
+- `--overlap-tokens 40`
+- `--batch-size 32`
+- `--offline-mode`
+- `--dry-run`
+
+Comportamiento:
+
+- recorre acordeones del índice
+- selecciona 1 URL de resumen por LAB (excluye vídeo/social)
+- normaliza URLs (quita `hsLang`) y deduplica
+- ingesta cada página como `content_type=runroom_lab`
+
 ## Recomendación multi-fuente
 
 ```bash
@@ -180,7 +208,7 @@ Con filtros:
 ```bash
 python -m src.cli recommend-content \
   --text-file /tmp/newsletter_draft.txt \
-  --content-types episode,case_study,training \
+  --content-types episode,case_study,runroom_lab,training \
   --source runroom_case_studies_markdown \
   --lang es \
   --top-k 10 \
@@ -219,7 +247,7 @@ Ejemplo:
 curl -X POST http://localhost:8000/v1/recommend-content \
   -H "Content-Type: application/json" \
   -H "X-API-Key: $API_KEY" \
-  -d '{"text":"newsletter sobre CX","top_k":5,"content_types":["episode","case_study"]}'
+  -d '{"text":"newsletter sobre CX","top_k":5,"content_types":["episode","case_study","runroom_lab"]}'
 ```
 
 ## Acceso no técnico desde navegador (Google OAuth)
@@ -422,7 +450,7 @@ python -m src.cli reembed-content --item-id 42
 ```bash
 python -m src.cli materialize-content-relations \
   --top-k-per-item 5 \
-  --content-types episode,case_study \
+  --content-types episode,case_study,runroom_lab \
   --min-score 0.58
 ```
 

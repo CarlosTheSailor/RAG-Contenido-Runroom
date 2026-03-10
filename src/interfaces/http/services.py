@@ -87,7 +87,7 @@ class QueryApiService:
                 text=idea,
                 top_k=3,
                 fetch_k=40,
-                content_types=["episode", "case_study"],
+                content_types=["episode", "case_study", "runroom_lab"],
                 group_by_type=False,
                 offline_mode=offline_mode,
             )

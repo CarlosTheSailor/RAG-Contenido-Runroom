@@ -15,6 +15,7 @@ class CliParserRegressionTests(unittest.TestCase):
         self.assertIn("query-similar", commands)
         self.assertIn("recommend-content", commands)
         self.assertIn("review-matches", commands)
+        self.assertIn("ingest-runroom-labs", commands)
 
     def test_query_similar_flags_unchanged(self) -> None:
         parser = build_parser()
@@ -45,6 +46,32 @@ class CliParserRegressionTests(unittest.TestCase):
         self.assertEqual(args.content_types, "episode,case_study")
         self.assertEqual(args.lang, "es")
         self.assertTrue(args.group_by_type)
+
+    def test_ingest_runroom_labs_supports_expected_flags(self) -> None:
+        parser = build_parser()
+        args = parser.parse_args(
+            [
+                "ingest-runroom-labs",
+                "--index-url",
+                "https://info.runroom.com/runroom-lab-todas-las-ediciones",
+                "--target-tokens",
+                "300",
+                "--overlap-tokens",
+                "50",
+                "--batch-size",
+                "16",
+                "--offline-mode",
+                "--dry-run",
+            ]
+        )
+
+        self.assertEqual(args.command, "ingest-runroom-labs")
+        self.assertEqual(args.index_url, "https://info.runroom.com/runroom-lab-todas-las-ediciones")
+        self.assertEqual(args.target_tokens, 300)
+        self.assertEqual(args.overlap_tokens, 50)
+        self.assertEqual(args.batch_size, 16)
+        self.assertTrue(args.offline_mode)
+        self.assertTrue(args.dry_run)
 
 
 if __name__ == "__main__":

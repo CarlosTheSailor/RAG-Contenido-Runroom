@@ -75,6 +75,22 @@ def dispatch_command(args: argparse.Namespace, settings: Settings, schema_path: 
         print(json.dumps(summary, indent=2, ensure_ascii=False))
         return
 
+    if args.command == "ingest-runroom-labs":
+        from src.content.ingest import ingest_runroom_labs
+
+        summary = ingest_runroom_labs(
+            settings=settings,
+            schema_path=schema_path,
+            index_url=args.index_url,
+            target_tokens=args.target_tokens,
+            overlap_tokens=args.overlap_tokens,
+            batch_size=args.batch_size,
+            offline_mode=args.offline_mode,
+            dry_run=args.dry_run,
+        )
+        print(json.dumps(summary, indent=2, ensure_ascii=False))
+        return
+
     if args.command == "backfill-canonical-content":
         from src.content.backfill import backfill_episodes_to_canonical
 

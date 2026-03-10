@@ -74,6 +74,23 @@ class NewsletterLinkedInServiceTests(unittest.TestCase):
         self.assertEqual(result["related_content"], [])
         self.assertTrue(any("score >=" in warning for warning in result["warnings"]))
 
+    @patch("src.interfaces.http.services.NewsletterLinkedInGenerator", new=_FakeGenerator)
+    def test_recommendation_scope_includes_runroom_lab(self) -> None:
+        service = QueryApiService(settings=_settings(newsletter_rag_min_score=0.74), schema_path=Path("sql"))
+        captured: dict[str, object] = {}
+
+        def _fake_recommend_content(**kwargs):  # type: ignore[no-untyped-def]
+            captured.update(kwargs)
+            return {"results": []}
+
+        service.recommend_content = _fake_recommend_content  # type: ignore[method-assign]
+        service.generate_newsletter_linkedin(idea="idea")
+
+        self.assertEqual(
+            captured.get("content_types"),
+            ["episode", "case_study", "runroom_lab"],
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

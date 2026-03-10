@@ -44,7 +44,20 @@ python -m src.cli ingest-case-study-url \
   --url https://www.runroom.com/cases/bayer-design-system-coherencia-global-flexibilidad-local
 ```
 
-## 5) Recomendación
+## 5) Ingesta masiva Runroom LABs
+
+```bash
+python -m src.cli ingest-runroom-labs \
+  --index-url https://info.runroom.com/runroom-lab-todas-las-ediciones
+```
+
+Notas:
+
+- selecciona 1 URL resumen por acordeón
+- excluye URLs de vídeo/social
+- persiste como `content_type=runroom_lab`
+
+## 6) Recomendación
 
 ```bash
 python -m src.cli recommend-content \
@@ -52,7 +65,7 @@ python -m src.cli recommend-content \
   --top-k 8
 ```
 
-## 5b) API HTTP (query + recommendation)
+## 6b) API HTTP (query + recommendation)
 
 ```bash
 export API_KEY=change-me
@@ -68,7 +81,7 @@ curl -X POST http://localhost:8000/v1/query-similar \
   -d '{"text":"customer centric","top_k":5}'
 ```
 
-## 5c) Ingesta manual de case study (Web autenticada)
+## 6c) Ingesta manual de case study (Web autenticada)
 
 Con OAuth de Google activo y sesión iniciada:
 
@@ -95,7 +108,7 @@ La respuesta devuelve un `summary` con:
 - `chunks_written`
 - `dry_run`
 
-## 5d) Ingesta manual de episodio Realworld (Web autenticada)
+## 6d) Ingesta manual de episodio Realworld (Web autenticada)
 
 Con OAuth de Google activo y sesion iniciada:
 
@@ -120,17 +133,17 @@ Comportamiento:
 - extrae titulo del primer `<h1>` de Runroom (si falta, falla con `422`)
 - ingesta legacy (`episodes/chunks`) + sync canónico (`content_items/content_chunks`)
 
-## 6) Re-embedding selectivo
+## 7) Re-embedding selectivo
 
 ```bash
 python -m src.cli reembed-content --content-type case_study
 ```
 
-## 7) Materializar relaciones
+## 8) Materializar relaciones
 
 ```bash
 python -m src.cli materialize-content-relations \
-  --content-types episode,case_study \
+  --content-types episode,case_study,runroom_lab \
   --top-k-per-item 5 \
   --min-score 0.58
 ```

@@ -1,0 +1,189 @@
+[00:00:00.850] - Carlos Iglesias
+En una ocasión, Xavier Farras, investigador y profesor con quien a menudo tengo el honor de compartir espacio de docencia en ESADE, me dijo que para él las empresas de tecnología son a la innovación, lo que las moscas del vinagre a la experimentación en laboratorio. Su propia naturaleza hace posible que se den ciclos muy rápidos de aprendizaje. Por esta razón, creo que es interesante conocer empresas de producto digital, ya que en mi opinión, son el caldo de cultivo perfecto para experimentar nuevas formas de gestión del trabajo, de planificación estratégica, de culturas de autogestión y, en definitiva, de todo aquello que tiene que ver con los principales retos de transformación que enfrentan hoy la mayor parte de compañías. Por esta razón, creo que ha llegado el momento de empezar a hablar de producto en Realworld. Y para arrancar este viaje, hoy nos acompaña Marta Ros. Marta, nos conocimos en el contexto de Women in Mobile hace ya unos añitos y la verdad que estoy supercontento de tenerte en el podcast porque me parece que tienes una trayectoria interesantísima. El rol de dirección de producto es un oficio de última generación y creo que es muy curioso analizar, entre las personas que os estáis dedicando a ello al máximo nivel, ¿de dónde venís, cuál es vuestra trayectoria.
+
+[00:01:23.950] - Carlos Iglesias
+En tu caso, empezaste en el ámbito de la comunicación y el marketing desde el mundo industria, pasando por agencia, editorial, hasta el momento en el que fundas tu propia agencia de UX, Tintin, la cual, sospecho que debió de ser para ti un punto de inflexión, en diseño de producto. Y a partir de ahí, a tope. Head of Product y cofundadora en V1, de Product Manager a Product Director en FreeNow, y en esta última etapa, Product Director en Infojobs a de Vinta. Marta Ros, bienvenida a Real World.
+
+[00:02:02.350] - Marta Ros
+Muchas gracias. Encantada de estar aquí
+
+[00:02:05.600] - Carlos Iglesias
+ ¿Qué es para ti el mundo real?
+
+[00:02:25.920] - Marta Ros
+La definición del mundo real es un poco compleja para mí, porque como cada uno vive su burbuja de realidad, ¿qué es realidad y qué no es realidad? es algo para mí difícil de definir, porque cada uno tiene la su vida propia. Ahí está la magia también.
+
+[00:03:19.460] - Marta Ros
+Cuando estamos haciendo cualquier investigación de mercado, lo que tratamos de que hacer es evitar todas las asunciones que tomamos nosotros mismos sobre lo que nos están contando, porque como cada uno viene con su mochilita de realidad y su contexto, es difícil disgregar las diferentes realidades y es un trabajo que te hace ir siempre en página en blanco, para entender la realidad, precisamente, del otro.
+
+[00:03:56.600] - Carlos Iglesias
+¿Qué hitos destacas de tu trayectoria profesional?
+
+[00:04:10.000] - Marta Ros
+Voy a empezar por la época de marketing. Empecé en un departamento de Insight Sales, que era justo lo que no me apetecía hacer, y pasé al mundo del marketing tirándome a la piscina sin mirar si había agua, prácticamente. Creo que eso fue un hito para cambiar precisamente de estar en un departamento comercial y ir hacia donde yo quería. Siguiente hito fue el cambio profesional de empresas muy industriales al mundo digital.
+
+[00:05:25.260] - Marta Ros
+En Esade justo empezaba el máster en Digital Business. Y en aquella época lo digital no era la novedad, todos teníamos ya teléfonos móviles con internet y tal. Y eso fue otro punto de inflexión muy grande y de lo que me siento orgullosa por el cambio tan fuerte que di.
+
+[00:06:30.810] - Marta Ros
+Y de ahí tirarme a la piscina también como a emprender. Has hablado de TinkTank Design, de B-wom y algunas cositas más pequeñas. De todos esos emprendimientos, igual el que más orgullosa me siento, es uno que no se conoce muy bien. En esa época tenía hijos pequeños y te pasas todo el día en el parque. Entonces, estaba con mi socia de TinkTank, Sara Rink en el parque con su madre y empezamos un poco como experimento sociológico, en plan tomando nota qué juguetes dejábamos en el parque para que otros niños los usaran, cuántos se perdían, cuáles funcionaban, cuáles dejaban de funcionar, cómo reaccionaba la gente. Y al final se fue convirtiendo en un movimiento social toy https://socialtoy.wordpress.com/ de juguetes para compartir en el parque. De eso me siento superorgullosa porque se generaron un montón de Social Toys en Barcelona.
+
+[00:09:18.390] - Carlos Iglesias
+Luego te fuiste hacia producto. ¿Qué es producto digital?
+
+[00:09:42.070] - Marta Ros
+Igual la manera más fácil de explicarla es pasarte al móvil, que es lo que tenemos todos en la mano a todas horas y todos los días. El móvil en sí mismo ya es un producto digital. Entonces, un producto digital puede ser un hardware, algo que construyes y que tiene tiene algo dentro. El móvil es el móvil en sí mismo, pero luego también tiene el sistema operativo, es decir, hay otros productos digitales que no es el hardware, sino el software, simple y llanamente el software. Y luego tenemos las aplicaciones y tenemos internet en el móvil. Todos esos cuadraditos que hay en el móvil son productos digitales que alguien ha desarrollado pensando en solucionar un problema. Y Y cada vez que vas a internet, buscas en Google, Google ya es un producto digital en sí mismo. Cada página que clicas ahí es un producto digital que sirve para algo, que cubre una necesidad. Entonces, a veces es difícil de explicarlo porque es algo como más, quizá, intangible. En su ahora mayoría de las veces. Lo que cuesta pensar no tanto es el producto digital, porque yo creo que hoy en día, como que todo el mundo, cualquier edad y cualquier Cualquier persona ha tenido una interacción con un producto digital.
+
+[00:12:32.370] - Carlos Iglesias
+¿Qué es lo que más te gusta de dedicarte a producto?
+
+[00:12:57.290] - Marta Ros
+La parte que más me gusta es toda la parte de entender a usuario, toda la parte de saber cómo vive en ese momento de solución del problema central. Ahora estoy en Infojobs, de cómo la gente busca trabajo, diferentes momentos de la vida en los que tienen esa necesidad de entender esos cambios de necesidades dependiendo del cambio de su entorno, de las características que le rodean, de sus momentos vitales. Todo este entendimiento, todo este saber qué es lo que ocurre en el alrededor, independientemente de si hay un producto digital o no. Esta es la parte que más me gusta, la parte más de fuera.
+
+[00:14:19.730] - Marta Ros
+Hay una cosa muy bonita: las contrataciones que se consiguen a lo largo del año, se llaman alegrías. Hemos conseguido 1.3 millones de alegrías este último año. Y esto refleja justo lo que estás diciendo, porque se vive de una manera especial, un momento especial en la vida de la gente, porque estás cubriendo una necesidad muy vital para las personas.
+
+[00:14:55.020] - Carlos Iglesias
+Hay algunos productos que tienen la suerte de poder tener un propósito claro, un propósito supernoble. Es inteligente como estrategia utilizar ese tipo de táctica, vamos a llamarle a alegrías, porque es una manera de orientar a la compañía a impacto, a outcome.
+
+[00:15:28.060] - Carlos Iglesias
+¿Qué características tiene una empresa de producto digital? Hablamos de empresas con orientación a producto. ¿Qué significa eso? 
+
+[00:15:49.840] - Marta Ros
+Al final, para mí, igual viene también con la parte que más me gusta de producto. Para mí, una empresa orientada a producto es más bien una empresa orientada a usuario. Es decir, que el usuario está en el centro y si tú pones las prioridades de la empresa, el usuario está en el centro. ¿Quiere decir esto que no vaya a tener ningún impacto sobre la compañía? No, porque sí que lo tiene que tener. Pero esto es lo que lo hace diferente.
+
+[00:16:15.820] - Marta Ros
+Yo, en mi experiencia anterior, en las empresas más industriales, el usuario no era algo que se tenía en cuenta y sí que es verdad que incluso mi primer estudio etnográfico lo hice en Roca. Quiero decir que empresa puramente industrial, pero nos metimos a ver cómo la gente, en este caso los "empty nesters" vivían en el baño una vez que los hijos se habían ido de su casa. La verdad que fue una oportunidad maravillosa. O sea, no quiere decir que las empresas industriales no tengan esta percepción, porque sí que lo he vivido en una empresa totalmente industrial, pero creo que esto sí que lo diferencia de la gran mayoría, quizá.
+
+[00:17:18.150] - Marta Ros
+La otra para mí es la velocidad. O sea, es una velocidad vertiginosa. Hay que estar sacando novedades todo el rato, todo el rato, todo el rato. No puedes estar quieto ni un minuto. Tengo esa sensación de no hay picos y valles, estás todo el rato en el pico. Y luego lo demás, tampoco en realidad las empresas digitales han reinventado ninguna rueda. Estaba todo ya. Un poquito de aquí, un poquito de allá. Han reunido como diferentes formas de trabajar que estaban bastante bien optimizadas y las han reunido de alguna manera.
+
+[00:18:00.560] - Marta Ros
+Ux no está inventado en el entorno digital. La experiencia de usuario es entrar en una tienda de ropa también. Cómo lo haces todo, el aroma, la música, cómo te atienden, eso es experiencia de usuario también. No está inventado en el mundo digital.
+
+[00:18:38.970] - Carlos Iglesias
+Me da la sensación de que en las empresas de productos se dan unas conversaciones, especialmente en aquellas que están más maduras o son más conscientes de que son una empresa de producto, que yo creo que son muy necesarias de exportar a otro tipo de compañías en general. Me refiero a conversaciones que tengan que ver con autogestión, con equipos autogestionados o con orientación a outcome, orientación a impacto, métricas.
+
+[00:19:57.710] - Marta Ros
+Sí, o sea, algo que hace mucho la diferencia quizá es el análisis continuo de cómo está funcionando cada una de las cosas. No solo la performance del producto en sí mismo, técnicamente hablando, o cómo interaccionan los usuarios, sino cómo trabajamos nosotros. Eso está totalmente medido y siempre miramos cómo se puede mejorar para que los equipos sean autosuficientes. Eso es una realidad que quizá no hay en otras empresas y esto te hace crecer un montón.
+
+[00:20:41.490] - Carlos Iglesias
+¿Qué es una estrategia de producto?
+
+[00:21:10.470] - Marta Ros
+A ver, yo creo que la estrategia de producto depende un poco de al nivel que la estés mirando. Depende también del tamaño de la empresa. Quiero decir, una Adevinta, que es una empresa tremendamente grande con 25 marketplaces en 10 países distintos, cuando hay una estrategia de producto, es una estrategia más estructurada en qué es exactamente los valores que tiene que respirar cada uno de los productos. Estamos hablando de marketplaces, lo que es la liquidez en los marketplaces tiene que estar, tenemos que estar atentos a esto. El producto tiene que respirar esa confianza que tenemos que dar a los usuarios. Determinados elementos que tienen que ser pilares, que se tienen que respetar en cada uno los productos que tú desarrollas.
+
+[00:22:11.540] - Marta Ros
+Luego, puedes ir más al nivel como de marketplace, cómo tú defines la estrategia de producto. De la manera que yo la entiendo, para mí es fundamental que el producto, y sobre todo en una empresa digital, esté superalineada con la estrategia del business en sí mismo, porque el producto es business, business es producto. Está todo como muy entremezclado.
+
+[00:22:39.280] - Marta Ros
+Si vamos por caminos distintos, se van a hacer tremendamente complicadas las conversaciones, porque ya hablamos idiomas distintos, business y producto. Hablamos diferente y si ya no estamos alineados ahí, mal vamos.
+
+[00:22:54.250] - Marta Ros
+Para mí, uno de los puntos fundamentales para tener una buena estrategia, que también todo el mundo tenga claro, no solo qué es, sino cómo vamos a medir que esa estrategia se está cumpliendo. Claro, nuestro objetivo es que la gente encuentre trabajo, tenga alegrías, y que las empresas rellenen este hueco. Son las alegrías, pero las alegrías las medimos una vez al año. ¿Cómo sabemos a lo largo del año que sí estamos en el camino? Tiene que haber una North Star Metric. Y a partir de ahí vamos disgregando, que es exactamente el foco de cada uno. Y vamos siendo un poco más concretos, ¿qué significa esta visión tan grande en las diferentes áreas?
+
+[00:23:38.500] - Marta Ros
+Para mí está la estrategia por un lado, como más de el problema core que estás resolviendo y que tienes que estar seguro de que lo estás resolviendo correctamente, pero luego tienes que ver si hay una necesidad de ampliar esa estrategia en otros focos, como la extensión del producto y encontrar explorar esos huecos que puedan cubrir otras necesidades adherentes al problema principal.
+
+[00:24:51.870] - Carlos Iglesias
+Tiene sentido definir una visión y hacia dónde queremos ir. Pero luego, ¿cómo llegas hacia esa visión?
+
+[00:25:27.120] - Marta Ros
+Cómo llegas a esa visión es lo que tienes que ir definiendo. Por eso te decía que hay como diferentes capas. Para mí, la estrategia está en el nivel de la visión. Que tú puedas conseguir esto y cómo tú puedes estar seguro de que estás yendo hacia ese camino. Y luego, a partir de ahí, es ir viendo cómo evoluciona, porque también el entorno evoluciona muy rápido. No solo nosotros como empresa que vamos sacando novedades, sino que el entorno en sí mismo cambia también muy rápido. Entonces, Entonces, eso hace que las personas también se comporten de otra manera con respecto a tu producto. Por lo tanto, ya tienes que girar. Quizá el ejemplo más heavy que hemos tenido hace poco ha sido la pandemia. Eso cambió absolutamente todos los comportamientos de todo el mundo. Y miras todas las métricas de todas las empresas, y hay picos para arriba o picos para abajo. No hay términos medio. Pero, claro, tienes que tener en cuenta que esas circunstancias, a veces, antes los ciclos eran como más largos y ahora los ciclos son más pequeños y los contextos cambian rápidamente.
+
+[00:26:33.920] - Marta Ros
+Por lo tanto, no sé si no tiene que haber una estrategia, no sé si yo diría esto como un statement, no sé si me sentiría cómoda, porque siempre tiene que haber una dirección, algo hacia donde hay que ir.
+
+[00:26:46.840] - Carlos Iglesias
+Hablo con muchas personas que se dedican a esto, en dirección de producto, product managers, líderes de producto, y siempre intento hacer esta pregunta: ¿Qué es la estrategia de producto para ti? Y el principal dolor que yo percibo es que en muchas ocasiones la respuesta es que no hay estrategia de producto. Es interesante en el sentido de que ganar un 30% más de market share, no es una estrategia de producto. Eso es una estrategia de business. Y cómo tú defines esa estrategia para poder mover la aguja, en muchos lugares no hay estrategia de producto, porque en muchos lugares ni siquiera hay estrategia de negocio. Ganar un 30% de market share ni siquiera es una estrategia en sí misma.
+
+[00:28:25.000] - Marta Ros
+Totalmente de acuerdo. Pero volviendo un poco a la pregunta de estrategia, lo que sí nos ha quedado claro es que la visión es una, vamos hacia ahí, hay que conseguirlo y es la razón por la que existimos también, nuestra visión. Hay una métrica clara que hemos definido y a partir de aquí la pregunta que nos vamos haciendo todo el rato es: ¿cuáles son los problemas que encontramos con respecto a los usuarios? ¿Qué problemas se encuentran los usuarios en la plataforma que no nos dejan conseguir llegar ahí? Y esta pregunta es una pregunta constante. O sea, la estamos haciendo realmente una vez al año para revisitar dónde estamos y qué hemos aprendido también de los problemas que nos hemos puesto a resolver.
+
+[00:29:26.140] - Carlos Iglesias
+Hablábamos de las métricas y de esa orientación al dato. ¿Cómo medir y qué problemas encontramos con las métricas a veces?
+
+[00:29:55.640] - Marta Ros
+Yo creo que la primera es el entender las métricas que estamos mirando. La interpretación del dato. Y el dato es muy juguetón, porque depende de la perspectiva que lo mires, lo puedes interpretar de una manera o de la otra. Y entonces, te cambia completamente la perspectiva de lo que estás mirando. De hecho, a mí me hacía mucha gracia, justo en la pandemia, el mismo dato compartido por diferentes televisiones le daban un enfoque positivo o uno negativo. Este es el tema del dato. En sí mismo, el dato no te dice nada. ¿Cómo lo interpretas? ¿Con qué otros datos lo estás alimentando? Ahí es un reto complicado. Y saber lo que estás mirando también. Y luego, no enrocarte en aquellas métricas que realmente no te están ayudando a mejorar absolutamente nada, conocidas como Vanity Metrics. El reto de identificar realmente cuáles son esas métricas buenas que necesitamos para saber si realmente estamos siguiendo ese camino que te decía antes.
+
+[00:31:36.620] - Marta Ros
+Interpretación, elección de las buenas métricas y no perderte en no parar nunca de mirar, porque esto es un pozo sin fondo. O sea, podrías rascar y rascar y rascar y rascar en la data y no acabarías jamás este trabajo. Entonces, hay que saber decir basta.
+
+[00:31:59.270] - Carlos Iglesias
+¿Podemos caer en desalinearnos, en casarnos demasiado con una métrica o en obsesionarnos con una métrica, intentar suboptimizar esa métrica y perder de vista la estrategia?
+
+[00:32:13.200] - Marta Ros
+Puede pasar. En el momento que esa métrica esté como muy alejada de la métrica objetivo. Ahora, una de las cosas que estamos intentando hacer en Infojobs es intentar construir un KPI tree de todo el marketplace, que es muy complejo en este caso. Precisamente para saber cuál es la conexión entre las métricas y cuál es la distancia. Porque si tú dices: Este es el problema más grande que hay y esta es la métrica con la que voy a medir, pero está muy lejos de uno de los objetivos que necesitas conseguir, no vas a hacer mucha cosa, no vas a mover la aguja. Moverás esta de aquí abajo, pero tenemos que estar aquí arriba como negocio.
+
+[00:33:03.520] - Marta Ros
+Esa falta de visualización de esa interconexión entre las métricas, creo que no está en todas las empresas. Nosotros no la tenemos todavía, estamos en ello.
+
+[00:33:44.260] - Marta Ros
+El peligro está en estar muy alejado de las métricas y a veces, incluso hasta no mirar la métrica y dejarte llevar como por tu intuición. Son como dos cosas distintas, pero que las veo muy parejas, a pesar de estar mirando métricas.
+
+[00:34:52.120] - Carlos Iglesias
+El output versus outcome.
+
+[00:35:07.400] - Carlos Iglesias
+Orientación a entregables, compañías que viven obsesionadas con reportar resultados, reportar el trabajo realizado, documentar las funcionalidades y compañías que viven obsesionadas con el reporting y la definición y el entregable, versus la orientación a impacto. Impacto verdadero, ese outcome, ese impacto real. Hemos disminuido el churn, hemos aumentado la fidelización, la recomendación de... Y que todas las personas que están trabajando en producto estén enfocadas en ese impacto y no en justificar su trabajo o en el reporting. ¿Por qué crees que cuesta tanto orientarse a outcome?
+
+[00:36:08.390] - Marta Ros
+Lo voy a dividir en dos partes: la gente que está fuera de producto y la gente que está dentro del producto (entendido como Product and Tech). La gente que está fuera porque necesita saber qué estás haciendo. Necesidad de saber a dónde vamos, qué es lo siguiente, qué estás haciendo en el día a día. Esa percepción de falta de control a lo que estamos acostumbrados los humanos, de ver algo tangible, ¿qué estamos sacando ahí afuera?
+
+[00:37:16.860] - Marta Ros
+Y luego está la parte de Product y Tech: "Nosotros trabajamos un montón, pero no hemos impactado". Y esa desmoralización sobre el trabajo entregado. Cuando tú vas a Outcome, tienes un riesgo de que no la vas a acertar a la primera y seguramente vas a fallar hoy, mañana y pasado. Y precisamente lo que se trata es del aprendizaje, en esto consiste el discovery, en ir aprendiendo. Pero claro, hemos trabajado un montón como equipo y aquí parece que no hemos hecho nada. El OKR no se ha movido.
+
+[00:37:55.920] - Marta Ros
+Y todo lo que hemos aprendido, ¿qué? Ya, pero es que nosotros también queremos decir que hemos hecho un montón de cosas.
+
+[00:38:02.000] - Marta Ros
+Entonces, no es tan fácil de ninguna de las dos perspectivas, desde la perspectiva de fuera de qué están haciendo y de la perspectiva de dentro de estamos haciendo un montón de cosas, aunque no la estemos petando, no la estemos acertando, estamos trabajando un montón. Y tiene que haber un cierto reflejo de lo que se está haciendo. Es un poco difícil. Pero puede haber una convivencia entre las dos. No hay que obsesionarse ni con el uno ni con el otro.
+
+[00:38:54.190] - Carlos Iglesias
+Mi problema con la orientación output es que creo que ese tipo de culturas desempodera absolutamente a las personas, impide que los equipos estén enfocados a resolver problemas, porque están enfocados a desarrollar las funcionalidades que alguien pide, que tenemos que hacer, porque estamos orientados a output. Ahí veo un problema muy grave, la industria todavía está muy inmadura en ese sentido.
+
+[00:40:01.400] - Marta Ros
+Estoy 100% alineada contigo. La orientación tiene que ser outcome, no output. Pero el output está ahí. Entonces, no hay que perder la visibilidad del output. Pero todo el rato tenemos que estar enfocados a outcome. Y ahora vamos a discutir Q3, qué vamos a hacer en Q3. Pero me vais a decir cuáles son las necesidades. Luego los equipos ya dirán qué iniciativas van a hacer. A mí no me importa ni cuáles ni cuántas. Quiero saber, y que estemos todos alineados, en cuál es esa necesidad, esa oportunidad que estamos todos de acuerdo que vamos a perseguir. Porque los equipos están muy interrelacionados, que tratamos de que haya muy pocas dependencias entre ellos para que haya autonomía. Pero es imposible que una cosa no tenga efecto sobre la otra. Por lo tanto, todos tenemos que estar más o menos alineados.
+
+[00:41:08.650] - Carlos Iglesias
+Cuando yo me refiero un poco al problema que yo veo en el output, estoy hablando de feature factories, o sea, fábricas de producir funcionalidades, porque desde negocio se piden funcionalidades y en lugar de estar pensando en cuál es la estrategia de negocio, estamos pensando: Yo quiero que me pongas esto en el producto. Se invierten millones en crear productos de esta manera y es muy común.
+
+[00:41:59.780] - Marta Ros
+Incluso en la definición de lo que es una necesidad hay que hacer un poquito de cultura alrededor de esto.
+
+[00:42:35.240] - Carlos Iglesias
+Tu contexto, es un contexto realmente complejo, ya no solo por lo que hablábamos de los marketplaces, países, etcétera. Tú ahora mismo diriges 11 equipos, y estos equipos están trabajando todos en un único marketplace.
+
+[00:43:00.810] - Marta Ros
+Sí, ahora estamos virando un poco a que sea más internacional, pero principalmente todos estos equipos venían de trabajar en Infojobs.
+
+[00:43:09.120] - Carlos Iglesias
+Me gustaría entender un poco cómo divides a los equipos. ¿Por áreas funcionales o cómo es esa división de equipos?
+
+[00:43:29.890] - Marta Ros
+Los equipos ya estaban divididos cuando yo los encontré y estaban muy bien definidos en cómo estaban divididos. Si estaban clasterizados en candidatos, empresas y monetización. Ahora monetización y empresa están juntos. Cada uno de ellos tiene una parte de la experiencia de cada uno de los usuarios y son owners de esto, lo cual bajo mi punto de vista está bien y esto no le toca.
+
+[00:43:57.490] - Marta Ros
+Sí, o sea, si un equipo de candidatos está dedicado al search experience, pues todos los problemas que estén relacionados con la experiencia del usuario buscando algo, pues este es su problema y ellos dirán cuáles son los problemas, etcétera. Está muy bien resuelto y no se ha tocado absolutamente nada. Para mí, el reto es como trabajan juntos y que no se generen silos entre ellos y que no haya comunicación. Entonces, este para mí ha sido el mayor de los retos este año y medio. Ha sido fácil porque cuando yo entré, todos los product managers era una de las cosas que pedían. Necesitamos estar como más unidos. Y es generar el espacio para tener esas discusiones comunes sobre problemas de usuarios.
+
+[00:44:50.460] - Marta Ros
+Cuando estamos hablando de el candidato no encuentra las ofertas adecuadas. Es que igual las empresas no están definiendo bien la oferta. Entonces, ya no es un problema solo del candidato que no encuentra. ¿Cómo extendemos este problema a todos los equipos? ¿Podemos hacer algo desde algún otro equipo que no sea estrictamente el que está ocupándose del search? Porque justo lo que hace es no encontrar. Esta es la pregunta que nos tenemos que hacer. Por eso es importante alinearse en esas necesidades. A partir de alinearnos en las necesidades, cuáles son los problemas más importantes que tenemos que resolver, esto tenemos que estar de acuerdo todos. Entonces, para mí la unidad es la parte más importante de todo, para que no cada uno se quede aislado en su lado. Antes hablabas del aislamiento de mirar una métrica y perder la perspectiva, pues puede pasar lo mismo en un equipo de producto.
+
+[00:46:03.900] - Carlos Iglesias
+¿Qué artefacto utilizáis? Estoy pensando que, yo me imagino, un customer journey transversal a todas esas áreas funcionales o un journey de empresas. ¿Qué tipo de artefactos utilizáis o estás utilizando para intentar trasladar esa visibilidad transversal a todos los equipos.
+
+[00:46:38.160] - Marta Ros
+El artefacto menos técnico que hay es juntarnos todos en una habitación y hablar. El año pasado, por ejemplo, vi la necesidad de que todos miráramos todo el journey de ambos lados del marketplace, employers y candidatos, en cada uno de los steps, qué problemas veo, todo métricas y todo datos también cualitativos, quizá temas más relacionados con la satisfacción de los usuarios para entender cada una de las cosas. Hicimos un ejercicio de conectar las diferentes métricas con hilo. Y ahí decidimos cuáles eran los problemas que teníamos que hablar. Pero ese artefacto era porque veníamos de la separación de todos. Entonces, me pareció que era importante que todo el mundo entendiera los problemas de los demás. Entonces, que cuando yo he movido esta métrica, a ti te ha afectado esta otra métrica.
+
+[00:48:02.380] - Marta Ros
+Entonces, era importante entender esa parte para que tuviéramos una conversación concreta. Cuando nos volvamos a juntar ahora, será otro artefacto completamente distinto. Es ir experimentando, igual que la cultura. Mira, una de las cosas que no te he dicho antes de cosas diferentes de las empresas digitales es el lujo de poder fallar. Y esta cultura del aprendizaje constante. Pues también me lo permito dentro de los equipos y los artefactos que utilizamos.
+
+[00:48:50.070] - Carlos Iglesias
+Es imposible desarrollar producto en una compañía que penaliza el error.
+
+[00:48:57.410] - Marta Ros
+No se puede, porque justamente es lo que tienes que hacer, fallar. Porque es que te va a tocar. Otro problema si fallamos y no hemos aprendido nada. Si no aprendemos nada, algo estamos haciendo mal. Pero si hemos aprendido un montón, ya deja de ser un error, pasa a ser un aprendizaje. Entonces, esto lo tenemos que tener clarísimo. Pero entonces, yo también me lo permito y yo soy supertransparente también con el equipo para que ellos también vivan la cultura del error, que es como una palabra peyorativa, pero a mí me parece maravilloso.
+
+[00:50:33.230] - Carlos Iglesias
+Si de algo estoy orgulloso en cuanto a este podcast, es de lo heterogénea que es su comunidad de oyentes. He de confesar que hubo una época que me preocupó hablaros de temas no habituales en la línea de real world de los últimos tiempos. A lo largo de los años, y ya van seis, hemos ido desarrollando temáticas diversas y descubriendo a personas increíbles. Pero quizá los temas de negocio y producto se han ido quedando fuera, y creo que hay que ponerle remedio a esto. El cambio que necesitan las empresas es un cambio integral. Es difícil encontrar referentes en los que inspirarse, por eso creo que hay mucho que aprender de las compañías orientadas a producto. De manera que en próximos episodios añadiremos algo más de diversidad a los ya habituales temas sobre innovación, tecnología y su impacto social y ético. Pero en el fondo, todo esto va de lo mismo. Personas tratando de construir mejores futuros. Muchas gracias por confiar en nuestro criterio. Un fuerte abrazo y os espero en el mundo real.
+

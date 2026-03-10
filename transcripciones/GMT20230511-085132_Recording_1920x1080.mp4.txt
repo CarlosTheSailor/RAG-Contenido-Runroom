@@ -1,0 +1,408 @@
+[00:00:02.740] - Hablante 3
+Listo, grabando.
+
+[00:00:05.030] - Hablante 1
+Vale, gracias, Contra. Venga, os comparto pantalla. A ver si esto lo ponemos bien. Speed with, por ejemplo, ocupado. Vale. La formación de hoy se título Beyond Systems. La idea, un poco, cuando nació esta, o un poco la idea de esta formación nació a raíz de todo el sistema de diseño que habíamos montado para The Net. The Net es una empresa que se dedica a ofrecer beneficios a través de retribución flexible a diferentes empresas y usuarios y teníamos que actualizar la app. Era un proyecto súper grande. El proyecto consistía no solo en construir ese design system, sino construir todo el producto y además una de las premisas era que tenía que ser escalable. De ahí salieron formas de trabajar a las que no nos habíamos enfrentado. ¿Cómo se dice en castellano?
+
+[00:01:01.000] - Hablante 5
+Enfrentado. Enfrentado.
+
+[00:01:03.930] - Hablante 1
+Bueno, sí. Formas de trabajar con las que no nos habíamos enfrentado hasta ese momento y Jota dijo Ostras, estaría muy bien que lo compartiéramos con el equipo. Como en Vayer además también estáis trabajando todo ese Design System Global, la idea era que pudierais asistir y participar para ver si algo de lo que explicamos y de lo que aprendimos del caso de Enrette os puede servir de inspiración, de ayuda, de lo que sea también, no solo en estos proyectos que estáis trabajando ahora, sino también de cara a futuros. ¿Por qué se titula Beyond Systems? Primero, porque a mí me gusta eliminar la palabra design system, o sea, la palabra design del concepto design system, porque me da la sensación de que es un concepto que suele morir en la parte de diseño. Y justamente este proyecto fue todo lo contrario. Era un sistema que iba mucho más allá de la pantalla de diseño, que estuvimos trabajando juntamente con Fromes, del cual nació un storybook, etcétera. Entonces, lo que vamos a ver en esta charla básicamente es una metodología que se llama DDD. Vamos a entrar más en detalle, pero al final es una metodología que nació en development y como los diseñadores, pues nos gusta mucho apropiarnos de todo lo que hace la comunidad de developers y nos ayuda también a trabajar en nuestro día a día, lo adaptamos a nuestro rol que era diseño.
+
+[00:02:25.530] - Hablante 1
+Vamos a trabajar un reto entre todos y esta es la parte práctica. La idea es que de la parte teórica podamos sacar unos conceptos o un mindset que luego entre todos vayamos discurriendo. Y luego la idea es compartir las posibles soluciones, tanto las soluciones que desarrollamos en la parte de en red, como las que lleguemos en el workshop de hoy. Entonces, CDD significa component driven development. O lo que es lo mismo, component driven design. Porque para usar el CDD en la parte de desarrollo, también tenemos que haberlo usado en la parte de diseño. Y vamos a ver, ¿qué es un component driven design? Bueno, pues empezamos con una pregunta súper baja, que os la hace y os disparo desde ya, que es, ¿qué es un componente? ¿Qué diríais que es un componente? Esta es la parte interactiva que respondéis.
+
+[00:03:23.360] - Hablante 5
+Le voy a preguntar a Chiquitití.
+
+[00:03:26.620] - Hablante 5
+No.
+
+[00:03:29.110] - Hablante 1
+Broma. yo.
+
+[00:03:31.280] - Hablante 5
+Te diría que es un elemento... Guao.
+
+[00:03:35.700] - Hablante 1
+Como.
+
+[00:03:36.760] - Hablante 5
+Un elemento base que después vamos a.
+
+[00:03:40.720] - Hablante 1
+Utilizar en repetidas ocasiones.
+
+[00:03:48.270] - Hablante 5
+Guao, es que para formular la frase no.
+
+[00:03:51.720] - Hablante 1
+Es fácil. Vale, vale. Tenemos por ahora, es un elemento base que vamos a usar en repetidas formaciones.
+
+[00:03:58.980] - Hablante 5
+Escalable, que sea escalable.
+
+[00:04:04.970] - Hablante 1
+A.
+
+[00:04:06.280] - Hablante 3
+Mí me gusta verlo como una pieza de Lego.
+
+[00:04:09.600] - Hablante 1
+Total, total. Poder ver.
+
+[00:04:12.240] - Hablante 5
+Variantes también.
+
+[00:04:13.850] - Hablante 4
+Y que puede tener tantos o casi tantos elementos como quieras. O sea, no se queda en un botón o en un text input, sino que puede tener muchos elementos distintos dentro de ese componente.
+
+[00:04:29.300] - Hablante 2
+Que sea configurable.
+
+[00:04:30.700] - Hablante 1
+Que sea configurable. Entonces, en base a todo lo que habéis dicho, ¿qué diferencia hay entre una página, un slider, un botón y un token? Claro.
+
+[00:04:48.380] - Hablante 4
+El tamaño, ¿no?
+
+[00:04:49.720] - Hablante 1
+Bueno, que...
+
+[00:04:51.150] - Hablante 5
+Es como las muñecas rusas, ¿no? Guau, yo tenía lo mismo en la cabeza. Sí, sí, sí, sí, sí, iba a decir lo mismo.
+
+[00:05:01.180] - Hablante 1
+Vale, aquí tenemos una página, un modal, un color y un botón. ¿Diríais que es lo mismo? ¿Estamos hablando de lo mismo? Sí, ¿no?
+
+[00:05:16.120] - Hablante 5
+Yo veo como que la página.
+
+[00:05:21.040] - Hablante 1
+Es, digamos, la.
+
+[00:05:23.070] - Hablante 5
+Agrupación de todo lo anterior. Ir de lo mínimo a lo máximo sería.
+
+[00:05:31.200] - Hablante 2
+Bueno, o.
+
+[00:05:32.460] - Hablante 4
+Puede ser lo mismo, porque en el fondo es una agrupación de cosas. Es decir, la página es una agrupación de muchas cosas, el token también es una agrupación de muchas cosas, el botón es una agrupación de muchas cosas y que si tú los tienes componentizados, al final el comportamiento, pese a que uno es muy grande y el otro es muy pequeño, puede ser, se comete, parecido.
+
+[00:05:51.520] - Hablante 5
+O sea, al final todo pueden ser componentes. Si es algo que va a.
+
+[00:05:55.350] - Hablante 1
+Tener.
+
+[00:05:55.730] - Hablante 5
+Una repetición, aunque sea.
+
+[00:05:57.210] - Hablante 1
+Con variantes, puedes.
+
+[00:05:58.270] - Hablante 5
+Componentizar tanto una página como la cosa.
+
+[00:06:01.760] - Hablante 1
+Más básica. Me gusta lo que has dicho, Patri. Has dicho todo puede ser componente. Y yo os pregunto, ¿todo son componentes? El color, ¿no? A mí el color es lo que me despista de.
+
+[00:06:17.780] - Hablante 5
+Estas cosas.
+
+[00:06:19.210] - Hablante 3
+El color está estilado.
+
+[00:06:21.630] - Hablante 1
+Sería un componente también, ¿no? Bingo. O sea, en realidad todo, absolutamente todo son componentes. Al final, un componente es una unidad de información que funciona por sí solo, la pongas donde la pongas. Entonces, si entendemos esta definición de componente, un color funciona por sí solo, es un componente. Un botón funciona por sí solo por sí solo es un componente. Si una página funciona por sí sola, también es un componente. Aunque en el Figma no pongamos el comando K y no lo convirtamos en componente a nivel conceptualización, absolutamente todo son componentes. Lo que pasa, y en development hay un concepto que se llama singleton, que es cuando un componente solo tiene una instancia en toda la web y entonces no se hace el esfuerzo de componentizarlo a nivel práctico en nuestro documento o en nuestro repositorio, etcétera. A eso le llamamos singleton. Pero quiero que quede claro que no deja de ser un componente, solo que en cada caso valoramos el esfuerzo de materializar ese componente de forma configurable, reúsable, etcétera. ¿Esto se entiende? Vale. ¿Qué entendemos entonces por CDD, que es el component driven design? Pues es una metodología que pone en el core de su desarrollo los componentes.
+
+[00:07:45.950] - Hablante 1
+Es decir, que trabajas absolutamente todo a través de componentes. Vale. Y lleva este concepto de la componentización a su máximo exponente. No nos quedamos solo en la parte de componentizamos un botón o componentizamos una car, sino que cualquier elemento que vayamos a repetir dos veces, por tanto, ya no es un singleton, es un componente si funciona por sí solo. Luego hay el concepto de componentes acoplados, que es cuando entendemos un componente que no puede funcionar por sí solo, sino que necesita de otra cosa. A eso le llamamos acoplamiento y en esta metodología intentamos alejarnos lo máximo de eso, porque si ese componente necesita de algo más, quiere decir que necesitas componentizar eso en un componente. Vale. ¿Qué es lo que nos pasa? Que tenemos muy interiorizado el Atomic Design. ¿Y qué diferencia hay entre esta metodología y nuestro querido Atomic Design? Al final, el Atomic Design te dice lo mismo. Si nos vamos a la raíz de qué es un átomo, un átomo es un elemento indivisible. Bueno, en química ya no, porque han encontrado una unidad más pequeña. Pero a nivel concepto, diseño, sí, el átomo viene a ser una unidad indivisible. Y entonces tenemos las moléculas y tenemos las plantillas, pero al final no deja de ser lo mismo.
+
+[00:09:15.030] - Hablante 1
+O sea, una molécula son varios átomos, que traducido es un componente que tiene varios componentes dentro. Y una plantilla no deja de ser un componente que tiene diferentes componentes, que a su vez tienen más componentes dentro. ¿Cuál es la diferencia? ¿Y por qué en el red decidimos no usar Atomic Design y usar el component Driven Design? Añado coletilla. Nosotros usábamos component Driven Design sin saber que estábamos usando esto. O sea, a mitad del proyecto, de repente un front dijo, no, esto es un componente agnóstico y empezamos a investigar y nos dimos cuenta que estábamos haciendo esto sin saberlo en realidad. También como solución a varios problemas que nos encontramos. ¿Pero por qué decidimos hacer una y no la otra? Bueno, esto es opinión personal. Para mí el Atomic Design tiene un problema y son las etiquetas. Perdemos demasiado tiempo discutiendo en equipo qué va dentro de una molécula, qué va dentro de una plantilla, qué va dentro de un átomo. Porque el baremo que rige la agrupación es el tamaño y en cada Design System es tan diferente que cada vez que inicias un Design System tienes que volver a pactar, a crear acuerdos sobre cuál es el tamaño que va dentro de un grupo del otro.
+
+[00:10:33.960] - Hablante 1
+Al final, si tuviéramos que hacer una clasificación en cualquiera de las dos metodologías, porque lo que hemos dicho es que un color es un componente, un estilo tipográfico es un componente. Pero si tuviéramos que hacer una clasificación dentro del component Driven Design, desde luego sería, por un lado, las foundations, que son los tokens, que es colores, estilos, sombras y cornes, radios. Todo el resto son componentes y ya está. Y no nos tenemos que romper la cabeza a pactar entre todos. Si tengo que crear un nuevo componente, va dentro de una molécula, va dentro de una plantilla, porque un slider es una plantilla. Entendemos páginas de plantillas, pero luego tienes como componentes más grandes. Vas a meter en el mismo grupo un form input que un slider o un beaver que va a tener form input, texto, no sé qué. Entonces, la gracia es que al final lo que estamos intentando es, si todo es lo mismo, nos ahorramos este paso de clasificación, quitamos las etiquetas y lo tratamos todo como componentes. Si nos fijamos en los design system de referencia, que son los de Fluent de Microsoft, Material de Google, el carbon de IBM, el Human de Apple.
+
+[00:11:47.290] - Hablante 1
+Y entramos dentro de estos design systems, que además son públicos, veremos que en ninguno hacen ya la clasificación de Atomic Design, porque se ha quedado obsoleta. Ellos hablan de foundations y hablan de componentes, que al final es sobre lo que hemos regido también nosotros, el design system de Red. Y que al final, si lo que estamos haciendo es un proyecto colaborativo y somos un equipo, y no somos un equipo de diseño, somos un equipo de proyecto, y en este equipo está nuestro PO, y están los front, y están los back, estamos nosotros. Si trabajamos como equipo, la gracia del component driven design de development es que es una metodología que precisamente acerca las formas de trabajar entre diseño y development. No tiene sentido que hagamos una clasificación nosotros en nuestro design system si luego los developers lo van a desarrollar por componentes. Entonces, un poco la lógica es acercarnos lo máximo posible a cómo se desarrolla, porque nuestro producto, nuestro Figma, no va a tener valor si lo que se realice finalmente en front no es como lo de nuestro Figma. Y la idea está pues ahí, en unir estos conceptos. ¿Cuáles son los beneficios?
+
+[00:12:53.940] - Hablante 3
+Una pregunta. En la página anterior, dice Michelle en el carbon design system? ¿Por qué es un visual?
+
+[00:13:03.830] - Hablante 1
+Es una imagen que saqué de Google simplemente para mencionar los design systems principales, no.
+
+[00:13:10.160] - Hablante 3
+Están enlazados. Vale.
+
+[00:13:13.430] - Hablante 1
+Los beneficios de trabajar por componentes. Estos son consistencia. Si nosotros tenemos un slider en nuestro design system, que vamos a tener que adaptar a diferentes slides globales, me voy a poner en el caso de buyer, en el de buyer, en el de en el de las submarcas de buyer, etcétera. Si nosotros lo tenemos componentizado desde un inicio, vamos a generar consistencia en el sentido de si trabajamos siempre por componentes, todos los sliders de buyer van a tener las flechas en la misma posición, con la misma distancia, con las mismas variantes, con las mismas propiedades. Si no trabajamos por componentes o por el contrario, necesitamos personalizar cada vez un componente en cada una de las marcas porque varían en cuanto a estilos y tenemos que empezar a hacer detach de nuestros componentes. Cuando nosotros hagamos un cambio oficial en nuestro Design System de Buyer Global, no se va a replicar en el resto de Sites. Vamos a tener que ir los cambiando manualmente y ahí se van a empezar a generar inconsistencias. Entonces, trabajar por componentes nos va a ayudar a generar consistencia. Un mantra de esta metodología, pero en realidad yo creo que es un mantra que deberíamos aplicar en cualquier metodología, es el drive.
+
+[00:14:29.000] - Hablante 1
+Don't repeat yourself. Pone not, pero es don't repeat yourself. Cualquier cosa que tengamos que hacer dos veces es un componente que deberíamos componentizar en nuestro Figma. Porque si no vamos a perder tiempo y el tiempo se traduce en dinero. Luego, a cotas el scope por lo mismo, porque al reducir tiempo aumentas el alcance y el scope queda como acotado. Solo tengo que trabajar en esto una vez, no tengo que hacerlo en todas las veces en las que se repite. Vas a mantener muchísimo más orden. La curva de aprendizaje es reducida, porque a la que aprendes a usar un componente una vez, ya no tienes que aprender a usarlo de diferentes formas en otros sitios. Y luego, mejor gestión del feedback. Porque cuando apliquemos el feedback en nuestro componente base, se nos va a aplicar a todas partes. No vamos a tener que aplicar este feedback de forma manual. Vale, entonces entramos en el concepto componente agnóstico. ¿Qué es un componente agnóstico? Un componente agnóstico es un componente que no depende de su contexto. Es decir, que lo pongas donde lo pongas va a funcionar de formas por sí solo. Y cuando digo que va a funcionar, va a ser que va a funcionar a nivel visual, que va a funcionar a nivel usable, que va a funcionar a nivel técnico en cualquier contexto en el que se encuentre.
+
+[00:15:47.590] - Hablante 1
+Eso es un componente agnóstico. Entonces, los componentes agnósticos tienen slots. El reto que vamos a plantear más adelante va a tratar sobre modales. ¿Qué nos pasa en un modal? Un modal es un componente que tiene varios componentes dentro. Entonces, un modal es un componente que tiene ciertas cosas intrínsecas en el componente, es decir, que todos los modales en todos nuestros sites, en todas nuestras páginas, van a tener en común, que pueden o no tenerlos, pero que van dentro del componente modal, y un contenido que va a ser personalizado en función de su contexto. Y eso es el Slog. Es el contenido personalizado. A mí me gusta entenderlo como un donut. Pues nuestro modal es un donut. Quería un agujero dentro. ¿Y cómo de rellenó yo ese agujero? Va a depender de mi contexto. Lo puedo rellenar con otro componente, lo puedo rellenar con lo que sea. Pero es un agujero de información que, sea donde sea donde pongamos ese modal, no va a depender del propio componente. Si entendemos el modal, cosas que tiene siempre un modal. El modal siempre tiene un título. El modal siempre puede o no tener una cruz de cerrar. Puede o no tener un footer de acciones.
+
+[00:17:12.660] - Hablante 1
+Pero esas cosas van intrínsecas en el modal, porque ponga donde ponga ese modal, las acciones siempre deben ir con los mismos espaciados, con el mismo tipo de botones, la cruz siempre tiene que ir al mismo sitio. Pero lo que yo ponga de contenido dentro de ese modal, es decir, si le quiero poner un texto, si le quiero poner un formulario entero o un mapa, va a depender del contexto en el que yo ponga ese modal. Y esa parte personalizable es a lo que llamamos Slot. ¿Esto se entiende?
+
+[00:17:44.240] - Hablante 5
+Yes.
+
+[00:17:45.930] - Hablante 2
+¿y.
+
+[00:17:47.740] - Hablante 1
+Si cómo pensamos qué cosas van dentro de un componente y qué cosas van fuera? Todo lo que sea elementos de marca van dentro del componente. Y nos referimos a vimos a recursos gráficos, los íconos, los logos, los colores. Todo lo que sean elementos de producto, lo que hemos dicho, el tipo de botones, el tipo de taps, cosas así más genéricas van dentro de ese componente. Lo que es contenido personalizado de cada proyecto, eso no debería estar en el componente de nuestro Design S istem. Porque si ponemos un contenido específico dentro y luego ese modal nos lo llevamos a la marca, me lo invento, ibuprofeno, y en lugar de tener un texto, necesitamos ponerle un formulario, vamos a tener que hacer detox de ese componente. Y cuando yo haga un cambio en mi modal, en el Design System, no se me va a aplicar allí. Y los Singletons. Si hay una instancia de algo, de un componente que solo vamos a usar una vez, ahí no tiene ningún sentido hacer el componente. A la que tengamos ya dos instancias, sí vamos a trabajarlo. Pero la línea entre componentizar y hacer sobre ingeniería es muy delicada y está en nuestro criterio entender cuándo sí y cuándo no.
+
+[00:19:04.540] - Hablante 1
+Y todas las opciones están bien. En Red veremos que creamos slots para ciertos componentes y otros en los que no están hechos con slots y hay componentes hechos detox porque llegamos tarde y que por scope no pudimos repactorizar el documento, etcétera. Lo que yo quiero decir es, de aquí me gustaría que salierais con un mindset y no quiere decir que los design system se tengan que rehacer desde cero componentizados, no, sino que lo que hagamos a partir de ahora, lo hagamos con este mindset en la cabeza.
+
+[00:19:37.380] - Hablante 3
+Una pregunta.
+
+[00:19:39.170] - Hablante 1
+Dime.
+
+[00:19:39.800] - Hablante 3
+¿cuáles serían ejemplos de Singleton?
+
+[00:19:43.640] - Hablante 1
+El ejemplo de Singleton es cuando yo he hecho un comp... O sea, cuando tengo una página que no tiene ningún tipo de variación, de variante, ¿vale? Es una página, entendemos una página como un componente porque funciona por sí sola, independientemente de su contexto, tiene diferentes componentes dentro, pero como no voy a tener diferentes versiones de esa página, no me esfuerzo en componentizarla en Figma.
+
+[00:20:13.640] - Hablante 3
+Eso.
+
+[00:20:14.520] - Hablante 1
+Es un single tongue.
+
+[00:20:15.430] - Hablante 3
+¿vamos a ver ejemplos en el red?
+
+[00:20:19.370] - Hablante 1
+Sí, vamos a ver un ejemplo.
+
+[00:20:21.340] - Hablante 3
+Vale.
+
+[00:20:23.140] - Hablante 1
+Vale.
+
+[00:20:24.440] - Hablante 4
+Pero, Ana, tengo una duda.
+
+[00:20:26.540] - Hablante 1
+Si.
+
+[00:20:27.820] - Hablante 4
+Por ejemplo, esa página se repite en varias ocasiones, ¿no sería conveniente hacer un componente para que se cambie todo el contenido de esa página?
+
+[00:20:38.160] - Hablante 1
+Sí, sí, totalmente. A la que la tenemos en dos instancias, vale, vale, vale. Merece la pena componentizar en Figma. Pero si esa página solo la vamos a tener en un sitio y no hemos tenido la necesidad de duplicarla en ningún otro, entonces no vamos a hacer el esfuerzo de componentizarlo. Llegamos al concepto de contaminación cruzada. ¿A qué nos referimos con contaminación cruzada? En cocina, la contaminación cruzada es cuando nosotros trabajamos en un mismo sitio, diferentes elementos que no deberían cruzarse porque pueden contaminar el resultado final. Y ahora os voy a poner un ejemplo en el enredo, ¿vale? De algo que de haber sabido hacia dónde iba a escalar se hubiéramos hecho diferente. Nosotros teníamos un componente que era genérico, que era un filtro. Y los filtros, pues en cada tabla de cada página, nosotros aquí tenemos... A ver, mis pedidos. Nosotros tenemos una navegación aquí de muchas cosas y cada tabla de mis pedidos, una tabla de facturas, el tipo de filtro que tenía dentro era diferente. Pues en el filtro de mis pedidos nosotros podíamos filtrar por producto, estado, tal. Pero en cambio, en usuarios y saldos, lo que podíamos filtrar era solo de un rango de precios y un estado del usuario.
+
+[00:22:15.760] - Hablante 1
+Entonces, cometimos el error de personalizar el contenido, de componentizar el contenido de algo específico de esa página en nuestro eDesign system. Y la contaminación cruzada hace referencia a eso, a que, por ejemplo, en nuestra home nosotros tenemos unos componentes que vienen del design system, que son, pues este tab viene de nuestro design system, estos botones distribuidores vienen de nuestro design system, pero el contenido de nuestra página de home lo componentizamos en nuestro archivo de trabajo, no en nuestro design system. Me vuelvo al ejemplo de buyer. En Buyer tenemos un Design System global que tiene que dar servicio a diferentes marcas. Todo lo que sea específico de esas marcas, que buyer no vaya a necesitar o que cualquier otra marca no vaya a necesitar, no tiene que estar en el design system de Buyer, tiene que estar en el archivo de trabajo de esa marca concreto. En el Design System solo ponemos aquellas cosas que sirven a todos los productos de los cuales va a beber ese design system. ¿Se entiende esto?
+
+[00:23:25.830] - Hablante 2
+Sí, pero yo tengo una duda aquí. Porque, por ejemplo, antes comentabas de qué incluimos y qué no incluimos en un componente y en lo que incluíamos comentabas incluir la marca, o sea, el logo, aspectos de la marca. Y por ejemplo, en el caso de Buyer Global y Bayer Marcas, sí que hay elementos que son lo que ahora mismo se llaman Themes de cada marca, que son únicos de cada una de las marcas. Por ejemplo, el esquema de color. Es decir, yo en un componente tengo un esquema de color global y tengo un esquema de color propio de cada una de las marcas. Ahora mismo, tal como está construido, ese esquema de color se aplica en algunos componentes como una opción, como una propiedad propia, como una propiedad del mismo componente. Por lo que entiendo ahora, igual no sería lo más adecuado, igual tendríamos que sacar esa personalización del componente fuera del design system y que solo sucediese en otro contexto propio de la marca. O yo puedo tener esa opción en el componente en función de la marca, como.
+
+[00:24:32.500] - Hablante 1
+Una propiedad. ¿Este esquema de color de la marca la vais a usar solo en el archivo de la marca o en otros archivos de otras marcas vais a poder usar eso?
+
+[00:24:43.750] - Hablante 2
+No, solo... Cada uno de los temas de la marca es propio, o sea, solo se utiliza, digamos, a la hora de trabajar con ese componente dentro del contexto de la marca.
+
+[00:24:55.600] - Hablante 1
+Porque igual lo que tiene sentido hacer es un esquema de color y dentro de cada archivo de marca tener una página de fundations que te diga cómo se aplican el esquema de color de la marca propia sobre el componente global de buyer.
+
+[00:25:14.290] - Hablante 2
+Es que te lo pregunto porque es pregunta a trampa, es para que me soluciones una duda filosófica que llevo tres días con ella en la cabeza. Porque sí que tenemos algunos componentes que aplicamos ese concepto de Themes, y entonces dentro del propio componente, por ejemplo, el footer, yo tengo una propiedad y digo vale, mi footer del esquema de Xarelto, de la marca que sea. Pero no lo tenemos todo eso en todos los componentes, aunque sí que es susceptible de que pase en cualquier componente. Entonces, hay una lógica por encima de eso, que es el esquema de colores con el que trabajamos, que tiene un primary y un secondary, un surface, etcétera. Que eso en mi cabeza es, vale, si yo ya tengo ese esquema, lo que va a suceder es que si yo heredo mi componente, lo único que tengo que hacer es hacer el match de cuál es mi primary, cuál es el primary de la marca, y entonces ya lo puedo cambiar en mi diseño. Es decir, no es una acción que me la da el propio componente, yo no puedo elegir mi color, sino que tengo que hacer el match de, vale, es que más de color yo tengo primary, secondary, metrégo el componente y hago el override de los colores y lo cambio a mi primary y a mi secondary.
+
+[00:26:26.540] - Hablante 2
+Pero eso ya no está en el design system. Está en el outside of the design system.
+
+[00:26:31.580] - Hablante 1
+Yo abogaría por esa solución y tengo un ejemplo, pero no lo tengo aquí y de todas formas nos estamos quedando sin tiempo. Entonces, me parece una consulta súper interesante y me gustaría que intentáramos encontrar 15 minutos para profundizar sobre ello y te enseño otros ejemplos. Pero si yo tuviera que crearlo, Riqui, lo haría bajo esa lógica. Tendría unos esquemas de colores. En el design system solo pondría el genérico de marca y en el archivo de trabajo de esa marca concreto, tendría una página donde pondría los dos esquemas de colores paralelamente. Generaría todas las agrupaciones de colores con el mismo nombre y orden y en cada componente iría sustituyendo el color primary de un esquema por el color primary del otro esquema.
+
+[00:27:13.660] - Hablante 3
+Ana, ahora tenemos un critic de Bayer. ¿Igual te puedes sumar los primeros 15 minutos y vemos el caso concreto?
+
+[00:27:21.260] - Hablante 4
+Vale.
+
+[00:27:21.290] - Hablante 2
+Yo creo que más o menos hacemos esto ahora, en algunos casos estamos haciendo como eso. Creo que estamos haciendo como un mix, Rubén, que te veo con la mano levantada, porque estamos haciendo como por una parte eso y luego otra también con monetizado. Entonces hay como.
+
+[00:27:37.200] - Hablante 1
+Una mezcla. Puede llevaros sobre todo a conclusión de cuándo usar uno y cuándo usar otro. Claro.
+
+[00:27:44.240] - Hablante 4
+Si solo cambiar el color.
+
+[00:27:46.590] - Hablante 1
+Y.
+
+[00:27:47.220] - Hablante 4
+También yo tenía una duda cuando decías de componentizar, si solo se va a utilizar en una marca, componentizarlo en el archivo de la marca. Pero es que estamos en un punto en el que no sabemos cuántas marcas vamos a trabajar, no sabemos si se va a repetir. Entonces, buenas prácticas para eso. Construirlo primero, o sea, desde nuestro sistema de diseño primero. Es que por ahora estamos trabajando una marca, o sea, tres o cuatro marcas, pero hay un montón.
+
+[00:28:29.720] - Hablante 1
+Vale. No sé si conocéis el side de Advanced. Advanced es una marca de piensos para mascotas y es una marca de piensos que distribuye varias marcas, pero a nivel componentes querían generar una consistencia entre todas las marcas y que un design system sirviera a todos. Esto es un buen y mal ejemplo. Es un buen ejemplo porque creo que a nivel conceptual se va a entender. Es un mal ejemplo porque esto no está componentizado como debería estar hecho. Vale. Entonces, este side de Advanced tenía la misma página adaptando el contenido a cada marca con el estilo de cada marca. Cuando nosotros hablamos de componentizar, hablamos de esto. O sea, nosotros tenemos un componente que es background, que ese es el que va a estar en nuestro design system, y un componente que es logo, que va a estar en nuestro design system. Y entonces tenemos un componente que es intro, que va a estar en nuestro design system, y el componente clay, y el componente slider. Lo que vamos a hacer ahí es que luego, cada uno de estos componentes, que son secciones de la web, los vamos a ir adaptando con la marca y el contenido de cada una de las marcas.
+
+[00:29:38.560] - Hablante 1
+Pero este contenido específico de marca lo trabajamos en el archivo de marca. De nuestro Design S istemsolo van a salir componentes básicos. Y ahora vamos a ver cómo hacer esto sin tener que hacer retouch. Entonces, voy a tener que acelerar un poco porque me he comido más tiempo del que me hubiera gustado. ¿El reto cuál es? Decártelo en tiene un problema. Todos conocemos Decathlon. Decathlon es una marca con sede francesa. Decathlon tiene un design system que crean los de Francia. Okey, el design system de Decathlon de Francia es uno que tiene unos botones, etcétera. Okey. ¿Y qué es el concepto de construir un modal, un modal que está componentizado en su design system. Cuando publican este design system y de repente el equipo de Decathlon España quiere trabajar sobre ese modal, los elementos que quiere poner dentro de ese modal son distintos a los que vienen en el componente. Y resulta que tienen que hacer un detach. Hacen un detach, crean el componente como lo tenían, perfecto, y lo lanzan a la web. En Francia siguen evolucionando su design system y de repente deciden que el back drop del modal ya no va a ser blanco, va a ser de color oscuro y que los modales van a tener un Conv Radio de 16 en lugar de 0.
+
+[00:30:58.700] - Hablante 1
+Y lo mismo con los botones. Y a medida que van evolucionando todo su design system, el modal de España se queda desactualizado porque ha tenido que hacer detach para poder personalizar esos elementos. El reto es imaginaros que estamos trabajando para el design system de Catalan, me da igual, y tenemos que crear un componente modal agnóstico que sirva a todas las páginas del mundo. Y entonces pensamos, lo hemos dicho, ¿qué elementos tiene un modal? La idea de esto es que lo hubiéramos hecho entre todos y que cada uno tuviera tiempo para jugar un poco con el Figma. El Figma estaba preparado con estilos y con elementos básicos para poder crear este modal. Lo que pasa es que nos hemos comido el tiempo y no nos va a dar tiempo, así que simplemente lo vamos a construir un poco entre todos, ¿vale? Nuestro modal básico va a ser un frame. Este frame va a tener un título. Me lo invento. Title. Le vamos a dar este estilado. Ok. Vale. Tip toe. Vale. Esto va a tener un fix set de tal. Este va a ser nuestro título. Más o menos. Vale, nuestro modal además puede tener o no la acción de cruz, de poder cerrar.
+
+[00:32:42.220] - Hablante 1
+A ver. Vale, si yo me vengo a assets y cojo logos a Nightcots y cojo una cruz, la voy a poner aquí. Vale, esta cruz la voy a posicionar en absoluto y la voy a dejar por aquí. Y entonces le voy a añadir la propiedad de que se pueda o no ocultar o mostrar con el liar. Has closed through. Vale, ¿qué más? Vamos a tener que poner un contenido personalizado, pero lo que seguramente también va a tener nuestro modal es un footer de acciones. Un footer de acciones. Le vamos a poner por aquí el botón. Venga. Le vamos a dar un botón primary y un botón secundary. Vale, ya tenemos más o menos. Y entonces, lo normal sería que a partir de aquí yo le pusiera el típico content, que sería cualquier cosa, cualquier contenido que dijera, ¿Estás seguro que quieres cancelar esta acción? Vale. Si yo publico este modal, bueno, ahí le daría también el fondo, etcétera, no me quiero complicar porque el tiempo es super justo. Si yo publico este modal a la que yo publique la librería y en Francia cojan una instancia de esto, lo que les va a pasar es que de repente el modal lo quieran usar para poner otro tipo de contenido, como por ejemplo un portmint put.
+
+[00:34:23.580] - Hablante 1
+Y no lo voy a poder poner porque el componente no lo puedo variar, solo puedo cambiar contenido muy específico. Y voy a tener que hacer ese detox. ¿Cómo lo solucionamos? Creando lo que viene a ser un Slot. Vale, el Slot se puede solucionar de muchas maneras en Figma, pero Figma tiene una limitación y es que así como por ejemplo, en un storybook... En un storybook yo componentizaría el modal y toda esta parte de puedes guardar este pedido, el form y tal, no estaría dentro de mi componente. Esto es un componente agnóstico, porque puede ponerse en cualquier parte de la web, independientemente de su contexto, y puedo personalizar todo el contenido. ¿Cómo salvamos esta distancia en feedback? Cuando no tenemos la opción de añadir contenido agnóstico con slots representados gráficamente. Al final, un Slot representado gráficamente es algo muy similar a esto. Yo aquí tengo una instancia. Esto es un componente que le he dicho el default. Y pongo una instancia de este componente dentro de mis filtros, por ejemplo. Cuando yo esté usando este filtro en cualquier otra página de mi web, lo que voy a hacer es crear en una sección que voy a llamar templates o contenido, todo el contenido personalizado que va a ir dentro de ese filtro o dentro de ese modal.
+
+[00:36:01.170] - Hablante 1
+Cuando yo esté trabajando sobre mis páginas, por ejemplo, en mis pedidos, perdonaré porque estoy cruzando mucha información, pero si yo trajera mi componente aquí, esto es lo que me llegaría. Esto es lo que me llegaría. Y entonces aquí yo empezaría a crear un frame con el componente que necesitaría dentro de ese filtro, que tendría, pues, todos los corbitos mi inputs, etcétera. Esto lo componentizaría y entonces vendría a mi template. Y cambiaría esta instancia por la instancia de contenido, que va a ser la de mis pedidos. Y entonces si me adapta, y eso lo haríamos con toda la instancia. Tengo un componente en mi design system, que es el filter, y tengo un componente de contenido específico de la página de mis pedidos en la sección de mis pedidos. Aquí, si yo le dijera mis pedidos filtr y le voy a poner un rectángulo rojo para que se entienda o un rectángulo gris. Esto es una plantilla. Bueno, es un componente de mi página porque va a tener diferentes variantes. Y entonces, en la representación, yo me vengo aquí a esta instancia y le digo que en lugar de ser mis pedidos, sea mis pedidos filter left, hemos llamado.
+
+[00:37:31.880] - Hablante 1
+Este no es.
+
+[00:37:33.420] - Hablante 3
+El documento en red real, ¿no? Sí, pero.
+
+[00:37:36.630] - Hablante 1
+Ahora lo cambio.
+
+[00:37:37.730] - Hablante 3
+Luego control Z. Vale, es.
+
+[00:37:41.930] - Hablante 1
+Que no lo estoy encontrando. Mis pedidos filter.
+
+[00:37:44.730] - Hablante 2
+Bueno, porque.
+
+[00:37:45.780] - Hablante 1
+Estoy en el webinar de Cloud Design Systems, en Local Component. Vale, mis pedidos filter. Vale, y aquí ya tengo el contenido específico de esta página. Y este concepto lo podemos elevar a cualquier cosa que tenga contenido específico. Es decir, el Slot este que veíamos por default, para que a Jota no le dé un infarto hago ya el control Z y elimino esto. Ya está, no hemos cambiado nada. Este Slot abstracto lo podemos tener dentro de nuestro modal. Aquí. En lugar de poner una capa de texto, pondríamos una instancia de un componente abstracto que luego podríamos cambiar por cualquier contenido que trabajemos en nuestra página, si está componentizado. Y esto lo podemos llevar al modal, a un contenido de filtros, a contenido de cards, a contenido de sliders, a cualquier cosa que se os ocurra. Pero no es la única forma de trampear los slots. Por ejemplo, en RedBlecks nos pasaba un poco lo mismo. Teníamos esta caja donde había unas cosas que eran generales que iban a tener todas las cajas que era esta parte del titular y luego el contenido dentro de cada caja era personalizable. Pero al final el contenido que podías poner solo eran tres cosas.
+
+[00:39:09.270] - Hablante 1
+Era un slider, que es este del rango de precio, un form input y un drop down, que desplega una lista. En lugar de crear, de poner una instancia que fuera el Slot abstracto este que hemos visto, lo que hemos hecho es componentizar y sacar usando las propiedades de los componentes para ocultarlo. Y como en este caso este componente solo tenía tres variantes, lo que hemos hecho es decirle, añadirle un boleano al rango de precio para decir si queremos que lo muestre o no, añadirle un boleano a la parte de form para decirle si quieres mostrarlo o no y añadir un boleano a la parte de la póliza. Entonces, cuando yo aquí estoy trabajando en mi componente, simplemente, en este caso, en lugar de usar instancias de contenido, uso los boleanos para decir si quiero el drop down, si quiero el drop down abierto o no. ¿Por qué lo digo? Porque esa cajita lila, a nivel conceptual, lo único que quiero que os quedéis es que es una forma de trampear esos slides que nos da Figma, pero hay mil y todas son válidas. Y la idea de esto es que nosotros podamos crear una página entera en base a componentes sin tener que hacer detach de absolutamente nada.
+
+[00:40:27.640] - Hablante 1
+Dime, Neus.
+
+[00:40:29.400] - Hablante 5
+Sí, lo comento rápido porque me tengo que ir a otro arreglo, pero me parece muy interesante porque justo en Decathlon lo estamos usando también para crear los containers a nivel de código. O sea, por ejemplo, en la home, cada componente tiene como el container alrededor o un wrapper que llamarían en código, con las características que tiene que tener cada uno de esos componentes, porque hay unos márgenes para desktop, unos márgenes para mobile que son fijos. Entonces, hemos creado estos slots. O sea, el componente sería ese container que tendría esos márgenes, esos paddings que tienen que tener todos los componentes. Y ese componente container tiene un slot dentro donde tú le puedes llamar cualquier componente que quieres poner en la home y así automáticamente se adapta a los márgenes y a los paddings y nos está siendo bastante útil para no tener que luego ponerlo en cada uno de los componentes de la home, poner los mismos márgenes y paddings, simplemente pues le metes lo metes dentro del componente container. Sí, es algo.
+
+[00:41:49.700] - Hablante 1
+Muy similar a lo que hicimos con las tablas. Las tablas tienen la rows y el container componentizado, lo que pasa es que lo ocultamos, dentro del cual le pusimos una instancia del contenido. En este caso tenemos el contenido dentro del propio DesignSystem. Lo deberíamos haber sacado, pero evolucionó tan rápido que refactorizarlo nos costaba más que seguir adelante con esto. Aquí simplemente tenemos componentes de contenido. Nosotros añadimos ese Slot abstracto a nuestra row de la tabla y simplemente cuando necesitamos cambiar el contenido de cualquier tabla, actualizamos esta instancia de aquí dentro, pero los márgenes con la row siempre van a ser las mismas. Y lo que tiene las propiedades de los márgenes es el componente TableRow. Esto podría estar vacío y funcionaría igual, y aquí le podríamos añadir las variantes de tamaño, etcétera. ¿Se entiende? ¿Hay dudas? Yo creo que no.
+
+[00:43:04.700] - Hablante 4
+Se entiende.
+
+[00:43:05.750] - Hablante 5
+Muy bien, pero creo que a la hora de crear...
+
+[00:43:08.880] - Hablante 1
+Sí, dudas prácticas.
+
+[00:43:09.910] - Hablante 5
+¿cuándo surgen de dónde pongo esto, esto, sabes? Pero explicado se entiende superbién. Van a.
+
+[00:43:16.320] - Hablante 1
+Ser.
+
+[00:43:17.000] - Hablante 5
+Superbién.
+
+[00:43:19.310] - Hablante 1
+Vale. O sea, os animo. Podéis contar conmigo siempre que os entren dudas para cualquier cosa. Tampoco, ya os digo, hay muchísimas formas de abordarlo y todas son correctas y cada equipo encuentra la forma que mejor se adapta a las necesidades que tiene su producto. Pero mi idea de esta formación es que salíamos con el mindset realmente de lo que es la componentización, de la importancia de elaborar un sistema que sea robusto y que pueda persistir a lo largo del tiempo sin hacer detox, precisamente por generar consistencia, especialmente en marcas que son globales, que tienen sus marcas, etcétera. Es súper importante ahí generar la consistencia entre espaciados, elementos que se repiten de una página a otro, etcétera. Entonces, quiero que nos vayamos de aquí con el mindset y luego a la hora de aplicarlo, cada uno encuentra un poco su solución. En el enrede, nuestra solución fue hacer estos slots abstractos en algunas partes y usar los component property en otras. Pero todas las soluciones, si se entiende el componente, el concepto, el slot, y se entiende el concepto componente de verdad, luego la solución que apliquemos en cada proyecto estará bien. Yo creo.
+
+[00:44:39.370] - Hablante 2
+Que hay que entenderlo... Aparte de entenderlo, nosotros hay un reto muy grande en Bayer, por ejemplo, y es que tenemos un reto, pero tenemos una restricción también. Todo ese concepto de slots ya nos viene dado en muchos casos, porque todo el design system está basado en otra librería. Entonces, que no podemos hacer un detox de esa librería y adaptarla 100 percent. Entonces, nosotros siempre tenemos como una capa extra de componentización, que es componentizar sus componentes y heredar algunas cosas, no heredarlas, etcétera. Entonces, yo creo que es un reto muy bonito, que tendrá el futuro que tenga, pero que se pueden... O sea, yo creo que es el mindset y también un poco el juego de a ver cómo lo conseguimos hacer para llevárnoslo a nuestro terreno. Pero con la explicación, yo creo que ya vamos a hacer un match en un montón de ideas que teníamos y está muy guay.
+
+[00:45:42.720] - Hablante 1
+Gracias, Ezequiel. Víctor.
+
+[00:45:46.500] - Hablante 5
+Vale, pues yo tengo una duda, no sé si... O sea, ¿lo has explicado de lo mejor? Pero el tema de... Perdona, Di.
+
+[00:45:56.480] - Hablante 1
+Voy a hacer un apunte para todos, porque nos hemos pasado siete minutos y yo no tengo ningún problema con alargar. Quien necesite ir, si se puede ir, quien pueda alargar, perfecto. Vale, okey.
+
+[00:46:08.630] - Hablante 5
+Pues genial. Que el tema de... No sé cómo lo habéis trabajado, el tema de las variantes por marca, porque has enseñado lo de.
+
+[00:46:17.560] - Hablante 1
+La.
+
+[00:46:18.760] - Hablante 5
+Marca de perros, ¿no era? Y que.
+
+[00:46:21.080] - Hablante 1
+No sé.
+
+[00:46:22.410] - Hablante 5
+Cómo habéis definido los elementos que serían variantes del ejercicio, como lo habéis hecho, que a lo mejor a nosotros eso no nos viene muy bien, saber cómo lo habéis trabajado.
+
+[00:46:34.680] - Hablante 1
+Vale. Este documento es un mal ejemplo porque no está bien hecho, pero a nivel conceptual, vale, esto es un proyecto que no se ha hecho en RAN RUM, es de fuera de RAN RUM y os lo enseño de forma extraoficial, porque me parecía que sobre todo por el tema de buyer us iba a servir un poco de inspiración. Pero el tema es, todas estas páginas tienen unas secciones que en realidad son la misma, tienen los mismos elementos en cada página y solo se personaliza el contenido. Dependiendo de cada sección, por ejemplo, si en una sección lo único que tienes es texto, este componente, que no es un componente en este archivo, pero que debería serlo, vendría a la del Design S istem Global. Y aquí lo único que haríamos sería lo que Rikki había hecho de terminar de matchear los esquemas de color con el esquema de color de la marca. Y haríamos el mismo ejercicio en cada página de cada marca. Si estáis trabajando todas las marcas en una única página, pues tendríamos algo bastante similar a esto. ¿Hace falta componentizarlo? Si la página está duplicada, es decir, si tenéis varias versiones de una misma página, sí, claro que hace falta componentizarlo.
+
+[00:47:45.090] - Hablante 1
+Si es simplemente una página que no tiene más versiones, lo podéis dejar así. Al final no deja de ser una referencia para que los desarrolladores puedan desarrollar este producto componentizado. Si yo se los dejo ya segmentado por componentes, ellos no van a venir a esta página a maquetar esta página. Ellos solo se van a ir a la sección donde tengamos nuestros componentes, se van a componer un componente, ellos van a desarrollar un componente y lo van a desarrollar con los estilados, pero va a ser un componente solo. Dentro, si estamos trabajando todas las marcas dentro de un archivo, tiene sentido que este billboard adaptado a cada marca, en realidad sea un componente con sus variantes. Si estamos trabajando cada marca en archivos independientes, no tiene sentido tener el resto como variantes, porque yo en la marca de Advants no voy a querer nunca la variante de Natoors Varianty. Y al final, como los dos componentes van a beber del mismo, que es el Design S istema Global de Bayer, ¿qué más me da cómo haya adaptado Advants de colores su intro? Porque todos los componentes van a ser igual si beben del mismo. ¿Se entiende esto?
+
+[00:49:02.560] - Hablante 2
+Sí, aquí la única cosa que tenemos, no que sea un problema, pero que tenemos que tener en cuenta en esa colaboración con desarrollo, y es que en el storybook de Bayer van a convivir ambas cosas. Es decir, nuestro componente va a convivir con ese concepto de CYM. Entonces, si hay algún tipo de sincronización del componente, tenemos que llegar a un acuerdo con ellos, vale, nosotros os vamos a dar el componente agnóstico, no va a haber times, porque el trim se lo vais a poner vosotros luego en vuestra variación del storybook, es decir, en vuestras propiedades del storybook. Yo creo que son cosas que está guay que salgan porque nos van a hacer preparar mejor esa hoja de ruta de vale, ya tenemos lo nuestro, es agnóstico, ahora lo movemos aquí, hacer lo que tengáis que hacer y también esa guía, eso es lo que estamos preparando también de esos design guidelines para que una persona que coge una marca nueva, que comentaba Rubén, que no sabemos cuántas tendremos, pero en el momento que tengamos más, decir, vale, cojo una marca nueva, ¿qué tengo que preparar en esa marca para hacer el match entre esquemas de color, entre tipografías, lo que sea?
+
+[00:50:13.440] - Hablante 2
+Que está guay, que yo creo que para mí es el camino. Tenía mis dudas, pero está guay que lo hablemos para grabarlo. Y en la medida de.
+
+[00:50:23.350] - Hablante 1
+Lo posible, en el design system, intentamos añadir, y esto está inspirado del design system de O'La Luz, de Watt, se llama Watt el Design System de Hola, lo que es. En todas sus páginas de componentes introducían unas guidelines de cómo usar ese componente. En estas guidelines podríais incluir, en la parte de foundations, por ejemplo, nosotros lo tenemos aquí abajo, pues en la parte de colores, podríais incluir una página que te explicara cómo convertir ese esquema de color al de la marca y con eso lo tendríais solucionado y en cada archivo se trabajaría con el esquema de color que toca. Yo creo.
+
+[00:50:59.960] - Hablante 2
+Que en principio, suena más trabajo, que nadie se asuste a la hora de crear las marcas, pero yo creo que es más sólido. O sea, me huele que es más robusto hacerlo así, porque es que hay componentes que si no va a ser una locura de personalización. O sea, vamos a tener 15, 20 opciones por...
+
+[00:51:22.240] - Hablante 3
+Todo lo que nos genere más trabajo ahora, pero que nos va a hacer la vida más fácil en el futuro, es una inversión que tenemos que hacer. Sí, estamos haciendo eso.
+
+[00:51:31.270] - Hablante 4
+Es que nosotros pecamos de hacer componentes con contenido, como has dicho, y hemos visto lo que se va a convertir en lo que va a escalar y se nos ha ido un poco de las manos y estamos haciendo ahora todo el ejercicio de quitar contenido y empezar de un poco de cero.
+
+[00:51:51.060] - Hablante 1
+Vale. Las tablas, que era el ejemplo más complejo que os he enseñado, os juro, o sea, os juro que es la mejor inversión que hemos hecho de lejos en este proyecto, porque igual tardamos una semana en hacer componente tabla bien, pero nos ha ahorrado tanto tiempo. De verdad, nadie de su equipo daba un duro porque pudiéramos hacer, en realidad, todos estos flujos que veis aquí, todas estas tablas las hemos podido hacer a raíz de trabajar bien ese componente diagnóstico. Todo el feedback que ha venido después lo hemos podido aplicar y se ha aplicado en todas partes a raíz de trabajar esta componentización correctamente. Hubiéramos muerto si no hubiéramos hecho este ejercicio, al menos con el enred seguro que hubiéramos muerto. Y ellos alucinaron porque no daban un duro sobre que pudiéramos realmente hacer tanto en tan poco tiempo. Y lo hemos podido hacer gracias a la componentización. Porque en todos los flujos, en facturas, tenemos tablas, en usuarios, tenemos tablas y nos da igual el contenido que haya dentro de estas tablas. Cuando de repente dijimos Ostras, pues es que el command bar tiene que ser distinto, lo aplicamos en el componente y se nos aplicó en todas las tablas a la vez.
+
+[00:53:06.820] - Hablante 1
+Cuando tuvimos que modificar los espaciados de los botones o la posición de la paginación de las tablas, lo aplicamos en nuestro componente base y se aplicó en todas partes. Entonces, yo os animo a que realmente hagáis esta inversión, porque os va a dar tiempo, dolores de cabeza y dinero a la larga.
+
+[00:53:24.210] - Hablante 3
+Muchas gracias. Yo tengo que salir. Igual se pueden quedar si siguen con dudas. Me ha encantado, la verdad, Ana. Yo tenía muy en la cabeza el esquema del Atomic Design. No había visto el tema de los diagnósticos por la explicadora y flipado. De hecho, tengo que confesar que cuando te fuiste del proyecto de la ed y entré yo al soporte, hice mucho detox de las tablas. Lo siento. Y sí, cuando volviste encontraste muchas cosas con detox, porque todavía no he entendido este sistema. Pero ahora que lo entiendo, creo que no puede haber otra forma de hacerlo mejor. También quiero darle al equipo, reforzar lo que decía Ana, que es el mindset, porque eso tiene mucho de arte también. No hay, como siempre, una única forma de hacer las cosas. Es tener este mindset de don't repute yourself, de hacer cosas que sean escalables y de pensar cómo podemos ahorrarnos trabajo en el futuro. Y aparte de eso, también mucha comunicación. Porque cuando trabajamos en equipo, para que no pase lo que me pasó a mí de romper las tablas, pues tener conversaciones. Todo el equipo debería estar alineado en cómo estamos construyendo las cosas. Y cuando hablo equipo, no solamente hablo equipo de diseño, sino también equipo de desarrollo.
+
+[00:54:47.290] - Hablante 3
+Lo que ya estamos haciendo un poco en en en en Bayer, que es que el storybook sea un reflejo de lo que tenemos en el Figma, debería aplicar también para todos los proyectos y para esto necesitamos tener conversaciones con los developers. Y por último, me ha apuntado por aquí a que esto justamente lo de los componentes diagnósticos, fue un debate que hubo hace ya varios años con el Adobe Design, si una cart era una molécula, un organismo. Y dependiendo del Design System que entras, unos lo calificaban como molécula y otros como organismo, y había debates en foros, en red it, de por qué es una molécula, por qué es un organismo. Tal como decía Ana, una pérdida de tiempo. Da igual si es una cosa o la otra, al final es un componente. Así que nada, Ana, muchas gracias. No sé, igual el equipo va ayer, si le pedimos a Ana que se sume 15 minutos a la DesignCritic, si tienen tema en concreto, Ana, te invito entonces. Y nada, los dejo. ¿Tienen más preguntas igual? No. tengo 1000.
+
+[00:56:01.620] - Hablante 1
+Perdón, yo creo que...
+
+[00:56:03.680] - Hablante 3
+Se te va a ir a un momentito ahora. Soy de un evento.
+
+[00:56:07.580] - Hablante 1
+De calendas de distancia, os lo juro. O sea, cualquier cosa que necesitáis que me convocáis y estoy a vuestra disposición. Muchas gracias. Me gustaría para el tema del esquema de color, me parece un súper tema. Yo no tengo ningún archivo para enseñaros, pero sí conozco, algunos de vosotros habéis trabajado con él, un freelance que a veces trabaja con Ran Ron Queserar, que es que justamente tiene un archivo donde trabajó este esquema de color para diferentes marcas, etcétera. ¿Tú crees, Jota, que lo podemos traer de invitado, 10 minutos, y que nos enseñe esto? Por supuesto, si.
+
+[00:56:40.120] - Hablante 3
+Se puede sumar, bienvenido. Vale. Pues ahora le pregunto.
+
+[00:56:43.850] - Hablante 1
+Venga.
+
+[00:56:44.830] - Hablante 3
+Vale. Vale, equipo. Bye, bye. Gracias. Muchas gracias.
+
+[00:56:49.870] - Hablante 5
+Muchas gracias, Ana. Muchas gracias, Ana. Chau.
+

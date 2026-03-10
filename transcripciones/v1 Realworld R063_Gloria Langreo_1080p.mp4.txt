@@ -1,0 +1,210 @@
+[00:00:00.000] - Carlos Iglesias
+El universo es un bosque oscuro y cada civilización es un cazador armado vigilando detrás de los árboles, caminando, apartando las ramas lentamente, intentando avanzar sin emitir ningún sonido. Incluso respirar se hace con cuidado. "El bosque oscuro" de Liu Cixin, inspiró a Yancey Strickler a utilizar este concepto para describir el lugar en el que se ha convertido Internet en los últimos años. Debido al miedo a comportamientos predatorios, potenciados por una tecnología que se ha ido haciendo cada vez mejor, traqueando a sus usuarios, segmentando audiencias, viralizando discursos de odio o generando cámaras de eco. Descubrí este concepto a través de una audaz charla de Glòria Langreo, donde hace un llamamiento a la responsabilidad a quienes creamos tecnología.
+
+[00:01:01.660] - Carlos Iglesias
+Te conocí hará unos 15 años en Runroom, cuando estabas en la dirección de arte de el Mundo Deportivo punto Es. Y desde entonces te he visto pasar por Tuenti, liderando el equipo de experiencia de usuario en Xing, de product manager en Xketch. Y ahora yo diría que estás en la punta de lanza a nivel mundial, GitHub, como directora de diseño muy cerquita de GitHub Copilot en temas de community, open source o growth. Gloria Langreo, bienvenida a Realworld.
+
+[00:01:46.610] - Carlos Iglesias
+¿Qué es para ti el mundo real?
+
+[00:01:56.790] - Glòria Langreo
+El mundo real en realidad para mí es un pleonasmo. Es como decir subir arriba o bajar abajo. El mundo real para mí es todo. Entiendo la diferenciación que hace la gente cuando dice el mundo real es por contraposición entiendo al mundo digital. Para mí el mundo digital es simplemente un formato, otro formato en el que estamos viviendo nosotros, pero sigue siendo el mundo real. Es decir, hablamos de medios, hablamos de formatos, hablamos de diferentes experiencias, pero en el fondo todo es mundo real. 
+
+[00:02:50.450] - Carlos Iglesias
+GitHub Copilot está definiendo un nuevo paradigma a la hora de relacionarse con la inteligencia artificial. Hay desarrolladores que están utilizando fragmentos de código que la propia inteligencia artificial les va sirviendo para poder completar su trabajo.
+
+[00:04:16.340] - Carlos Iglesias
+¿Cuál es tu reto actual como diseñadora en GitHub.
+
+[00:04:57.720] - Glòria Langreo
+En GitHub no estoy centrada en Copilot, en el producto en sí, pero estoy en el área de communities y open source. Toda la parte que no da dinero a la plataforma, pero es la mayor entrada de usuarios a nuestra plataforma y el motivo por el que existe el open source.
+
+[00:05:18.900] - Glòria Langreo
+Recientemente también estoy trabajando en growth, que es la parte que sí que da dinero, que reporta en dinero. Como has dicho, ha cambiado el paradigma: el modo de desarrollar, el modo de crear código, está cambiando a una velocidad increíble. Y es interesante ver de qué modos podemos utilizar esta tecnología, no solo para programar, sino para ayudar en ciertas áreas del ciclo de desarrollo. Por ejemplo, en open source vemos muy a menudo cómo un montón de gente mantiene proyectos un poco por amor al arte, por amor a la comunidad, porque creen en lo que están haciendo. Sin embargo, muchas veces se convierte en un trabajo full time.
+
+[00:06:16.390] - Glòria Langreo
+Hay muchísima gente que podría estar perfectamente ocho horas al día haciendo eso. Sin embargo, no hay un retorno económico. Entonces, hay muy poca gente que se pueda dedicar a la open source, a no ser que estén dentro de una empresa que esté realmente creando productos open source. En GitHub se ha trabajado mucho para dar soporte a los maintainers de open source, creando iniciativas como los sponsors, donde tú puedes dar tu dinero para ayudar a que una persona mantenga un proyecto. Sin embargo, esto es un arma de doble filo, porque si una empresa te da dinero para mantener un proyecto open source, eso crea una especie de dependencia en la que tú tienes que responder a esta persona a unas velocidades, a unos ritmos x. Y open source no es eso, o sea, no es de una empresa que da dinero a una persona que está trabajando por amor al arte. Entonces pienso que productos como Copilot o en general la inteligencia artificial son una herramienta muy poderosa para este tipo de caso de uso.
+
+[00:07:24.470] - Glòria Langreo
+Si somos capaces de ayudar a la gente que está trabajando en open source a responder rápidamente a estas necesidades, a crear una pull request directamente en el código si alguien reporta un bug, a escribir. Mucha gente quiere colaborar en un proyecto, hace una pull request, pero no escribe tests. Si tú puedes tener Copilot que te escribe los tests y directamente te lo mergea, estás acortando esta cadena de discusión. Si la gente, en lugar de contestar discusiones o dudas, puede hacer una consulta en un chat de Copilot, por ejemplo, estás acortando este peso, esta carga que tiene la gente que está manteniendo proyectos open source. Uno de los challenges que tenemos ahora es ver de qué modo podemos aplicar esta tecnología en un montón de áreas.
+
+[00:08:18.230] - Carlos Iglesias
+El 46 % de media del código que se está generando actualmente lo está generando Copilot ya directamente. En algunos lenguajes incluso más, en Java creo que era el 61 %.
+
+[00:08:39.350] - Carlos Iglesias
+Estamos en un momento donde la velocidad de los cambios es brutal. Yo te quiero preguntar, ¿la velocidad es un problema?
+
+[00:09:43.820] - Glòria Langreo
+Para por mi opinión, definitivamente lo es. Es maravilloso de que podamos estar teniendo esta innovación constante y que echamos la vista atrás. Y hace seis meses Dal·le estaba haciendo un artwork horroroso, como de gente rota y 26 dedos, y ahora prácticamente no eres capaz de discernir si es una imagen real o no en nada, en tres versiones.
+
+[00:10:09.940] - Glòria Langreo
+Pienso que la velocidad es peligrosa, no en cuanto a lo rápido que estamos mejorando la tecnología, que eso es maravilloso, sino quién está pensando en las consecuencias de estos cambios, de estos nuevos paradigmas que estamos introduciendo y a qué precio se están introduciendo estos cambios.
+
+[00:10:26.640] - Glòria Langreo
+Lo vimos con Facebook. En su momento nadie, es como Qué bien Facebook, voy a hablar con mis amigos, redes sociales, qué guay. Todo el mundo hacía redes sociales, likes, comments, tal. Y hasta al cabo de unos años nos hemos dicho Dios santo, ¿qué hemos hecho? O sea, ¿qué hemos hecho? Yo he trabajado en dos redes sociales y al cabo de un tiempo miras hacia atrás y dices "Ostras, quizás habríamos tenido que tener más cuidado en muchísimas de las cosas que estábamos haciendo".
+
+[00:10:53.250] - Glòria Langreo
+Y estamos hablando de que a finales de los 90, principios de los 2000, estos tiempos eran muchísimo más lentos. No quiere decir que fueran entornos más seguros ni más pensados, porque no era así, pero sí que había un tiempo de reacción, en el sentido de que encontrábamos un problema o un problema ético o una piedra en el camino. Teníamos un tiempo de reflexión, un tiempo en el que pensar cómo solucionar eso y de ahí nacieron comités de ética, códigos de conducta, líneas rojas que no queremos cruzar nunca jamás, como en la industria. Es decir, salieron una serie de departamentos que tenían en cuenta todas estas cuestiones que ahora mismo no da tiempo. Porque cuando han solucionado una cosa ya ha cambiado 23 veces. Es decir, toda la información que estamos guardando ahora mismo en estos modelos ya está guardada. O sea, no la puedes decir a ti misma ay, perdón, no, que no la quería meter. Es que ya está allí. O sea, ya no hay marcha atrás. Entonces
+
+[00:12:05.560] - Glòria Langreo
+Estamos como creando marcas permanentes. Pienso en esta sociedad digital que tenemos, que no sé qué va a suceder dentro de un tiempo si no tomamos estos pequeños tiempos de reflexión.
+
+[00:12:19.280] - Carlos Iglesias
+¿De dónde crees que debe venir el liderazgo de estas reflexiones que hay que tomar?
+
+[00:12:27.670] - Glòria Langreo
+Bueno, de hecho, la mayoría de empresas que estaban trabajando desde hace muchos años en estos temas, Inteligencia artificial, como es Alphabet, tenían departamentos de ética donde había gente que estaba alzando la mano, escribiendo papers y diciendo ojo, cuidado, que esto tal cual. Y esa gente se la ha despachado y se la ha sacado de en medio. Entonces, claramente hay intereses comerciales en que eso no suceda. Lo que no deja de fascinarme es que como sociedad aceptemos eso, que digamos bueno, está todo bien, o sea que no salgamos con las torchas en la calle. No puede ser que haya gente que se esté preocupando por de qué modo guardamos los datos, qué datos guardamos, cómo los utilizamos, qué bias, qué sesgos tiene este modelo. Nos da igual. A veces me da la sensación de que estamos todos mirando el gran espectáculo de imagen y color, que es estos modelos de imagen, de vídeo, de sonido, cuando lo que hay por debajo está sucediendo y en algún momento, bueno, pues ya lo veremos, qué pasará ahí. ¿Quién es responsable? No lo tengo muy claro.
+
+[00:13:43.660] - Carlos Iglesias
+Me gusta tu mirada crítica. De hecho, yo te he escuchado, yo sé que no te gusta mucho, por ejemplo, el framework personas. En este podcast hemos hablado de arquetipos y de ese framework, el modelado de arquetipos de usuarios. Yo te he escuchado criticarlo abiertamente y frontalmente. Posicionarte un poco en contra de cómo era el uso que se le está dando. ¿Por qué?
+
+[00:14:14.100] - Glòria Langreo
+Yo pienso que hay muchas maneras de utilizar...  Simplemente pienso que son frameworks, o sea, el tema de las personas, los focus groups, la mayoría de frameworks que utilizamos en research, ¿de dónde provienen todos estos frameworks? ¿Cuál es el origen de estos frameworks? Es el marketing. O sea, es el marketing y es el vender cosas. O sea, habéis visto Mad Men, es el rollo este de cómo vamos a engañar a las señoras para que compren el pintalabios. O sea, al final no se trata de ayudar a la gente a tener una mejor experiencia, como experiencia de usuario que vendemos, se trata de cómo manipular para poder llegar a vender nuestro libro. Entonces, pienso que estamos utilizando un framework que no está pensado para el fin que le queremos dar al final. El simple hecho de coger una masa de la población súper grande de miles de personas y condensarlas, hacer un batido y condensarlas en una única persona que es perfecta, no tiene ningún defecto, es el vecino ideal, que te presta sal, que nunca cometería ningún crimen ni nada. Es decir, son seres de luz que casualmente, yo me hace mucha gracia porque cuando leo las personas, yo he dado mucha clase en bootcamps y demás y te vienen los estudiantes con la user persona y es como necesidades, comprar mi producto.
+
+[00:15:48.550] - Glòria Langreo
+Normalmente, las user leads que definimos, ¿por qué están siempre relacionadas con mi producto? Los humanos tenemos un sin fin de necesidades. Esta sintetización hace que para mí son seres ficticios, que son como una excusita para justificar tu trabajo, al final. No digo que no sean útiles como concepto de usuario tipo. Es decir, son frameworks que pueden resultar útiles en algunos momentos concretos. Pero esto de tener una persona que se llama Juan y le gusta el hockey y no sé qué, me parece que no es el framework correcto para trabajar.
+
+[00:16:33.860] - Carlos Iglesias
+¿Qué acercamiento prefieres?
+
+[00:16:36.880] - Glòria Langreo
+Bueno, yo pienso que principalmente el user research, otro hot take, normalmente lo que el cometido del user research, lo que queremos hacer cuando hacemos user research es tener empatía hacia la persona con la que estás trabajando. Es decir, entender de dónde viene, qué necesidad, o sea, cuáles son las necesidades, cómo puedes ayudar a esta persona. Entonces, generar empatía desde la barrera. Me parece, que lo comentaba el otro día en una charla, que al final es como una mirada muy colonialista sobre la sociedad. Es decir, tú vas a una entrevista y vas tomando notas y es como el ellos y el nosotros. Estás generando una alteridad o una distancia que es completamente contraria a la empatía. O sea, ¿cómo puedes empatizar con alguien cuando le estás observando desde tu podio, desde tu pedestal de experto en la materia? Yo he estado en un montón de focus groups. Cuando hacíamos twenty que hacíamos focus groups en la oficina y tal. Y es así. O sea, tú estás observando un grupo de adolescentes interactuar entre ellos y al final es como estar ahí en la de esto, viendo cómo se relacionan los gorilas un poco. ¿Qué empatía genera eso?
+
+[00:17:55.600] - Glòria Langreo
+Eso genera una distancia. Entonces, pienso que una de las maneras más eficaces de generar empatía es involucrar a los usuarios en tu proceso de creación. Es decir, tenerlos contigo sentados en la mesa como uno más, como uno más del proceso de creación. Tener equipos diversos para mí es la clave. Contar con gente de todo tipo de backgrounds, de vivencias, de situaciones. Y en general, tomar este acercamiento más humano hacia las personas, de tener entrevistas profundas, de sentarte, de charlar, de entender. Y no tomar este posicionamiento más clínico, analítico, de examinar al otro.
+
+[00:18:45.680] - Carlos Iglesias
+Y aun así, tampoco es 100 % garantizable, digamos, que no aparezcan.
+
+[00:18:52.120] - Glòria Langreo
+No, es decir, yo digo mucho, mi frase favorita de la historia de la música es de Ari Puello en La ley de Murphys, que dice "Si algo tiene que salir mal, así será". Y es así. Tú no puedes prever todo lo que le puede llegar a suceder a un usuario nunca, jamás. Pero sí que hay maneras, hay mecanismos en los que tú puedes posicionarte de una manera en la que puedes prever más o menos qué situaciones pueden suceder. Por ejemplo, en GitHub utilizamos un framework que me parece muchísimo más interesante que cualquier framework de éstos, que yo no lo conocía antes de entrar y me enamoró. La mayoría de empresas utilizan los postmortem. Cuando algo sucede, cuando algo va mal y hay una gran cagada, se hace un postmortem y el equipo se junta y pues ¿qué ha pasado? En GitHub hacemos premortems, que me parece un concepto maravilloso. Es decir, un premortem es juntarte con toda la gente que puedas y pensar todo lo que puede salir mal. O sea, es como ser unos cenizos de la vida. Es decir, ¿qué puede pasar? Pues alguien lo puede utilizar para cometer abusos sobre otra persona.
+
+[00:20:05.510] - Glòria Langreo
+Nos pueden crucificar en Twitter. Puede ser cualquier cosa. Es decir, todo lo que puede salir mal. Entonces, puedes llegar a hacer una evaluación de si esta idea o esta solución que tú has pensado vale la pena, viendo los riesgos o los posibles riesgos que puede tener y cuáles de estos riesgos puedes parar y que no sucedan.
+
+[00:20:25.900] - Carlos Iglesias
+Porque hay mala gente.
+
+[00:20:28.200] - Glòria Langreo
+Mucha.
+
+[00:20:29.130] - Carlos Iglesias
+ Y se convierten, digamos, en antipersonas.
+
+[00:20:32.910] - Glòria Langreo
+Claro, es decir, es el tema este de la... Volvemos no a lo de las personas. Es gente perfecta siempre. O sea, yo nunca he visto una persona definida en ninguna empresa que sea un depredador sexual, por ejemplo, o no sé, un pederasta. Y en redes sociales debería existir esa persona porque están allí. Sin embargo, no las definimos. ¿Por qué? Porque es un tema muy delicado. O sea, ¿cómo defino a una persona que es un pederasta? En realidad es una antipersona. Es alguien que estás definiendo que no quieres que acceda a tu producto y tienes que generar mecanismos para que esta persona no pueda acceder. Sin embargo, es algo que no se suele hacer. Y esto ha dado lugar a un montón de fracasos, que los conocerá todo el mundo, desde los AirTags de Apple, lo de las llaves, que seguramente las pensó las pensaron para no perder las llaves del coche o el apartamento de la sierra o lo que fuera. Alguien de clase media alta, blanco, lleno de privilegios. Y los AirTags se están utilizando para traquear a mujeres hasta sus casas. O sea, se están utilizando, se están poniendo en las ruedas de los coches, en las bolsillas de las chaquetas para seguirlas hasta sus casas.
+
+[00:21:50.280] - Glòria Langreo
+Y los AirTag han estado ya involucrados en tres asesinatos y ahí siguen. Es decir, los mecanismos que Apple propone para paliar este... Bueno, no quiero decir que es un error, simplemente que no lo han tenido en cuenta. El hecho de que hay estas malas personas que pueden utilizar tu producto es bueno, pues te bajas una aplicación en tu móvil y así sabes si tienes un AirTag cerca. Es como, pero a ver, señores. O sea, esto no tiene...
+
+[00:22:19.060] - Carlos Iglesias
+Te traslado la responsabilidad.
+
+[00:22:20.190] - Glòria Langreo
+Te traslado la responsabilidad a ti. O los sistemas estos de calefacción, el Nest, los termostatos estos que los utilizan abusadores domésticos para subir, bajar la temperatura de las casas, hacerle gaslighting a sus parejas. Cuando esto salió a la luz de que había un montón de mujeres que estaban siendo prácticamente torturadas en sus casas, haciéndolas creer que estaban locas, la solución es que ahora, cuando tú compras un Nest o un dispositivo de este estilo, tienes una pegatina diciendo "Esta casa está controlada por Nest". Pero a ver, si lo estoy comprando con esta intención, ¿cómo voy a poner esa pegatina? Es decir, son remedios un poco de Jaimito. Estamos todo el rato como parcheando en lugar de tener en cuenta que esto puede suceder antes de que suceda, que es bien fácil.
+
+[00:23:11.400] - Carlos Iglesias
+Sí, en realidad casi como deslizando la responsabilidad a esa pegatina. 
+
+[00:23:18.130] - Glòria Langreo
+Incluso la responsabilidad en la víctima: ¿no has visto la pegatina? Está muy de moda este rollo de trasladar la culpa a la víctima, y con tecnología pasa un montón y con la inteligencia artificial está pasando también con las imágenes. Técnicas para protegerte de imágenes. ¿Por qué me tengo yo que aprender cómo..? Pon regulación para que esta gente no pueda estar creando este tipo de imágenes falsas o estar abusando de esto, de influencers, de estar generando imágenes que nunca han sucedido de gente famosa. Pon regulación para que esto suceda. No me hagas a mí responsable de saber discernir si una imagen es real o no. Y es un poco este lavarse las manos de la industria.
+
+[00:24:15.110] - Carlos Iglesias
+Veo como una distancia brutal entre la velocidad de cambio de la tecnología, que hablábamos hace un momento, y la velocidad de crucero de la regulación o de la reflexión... Que en parte es lógico que la regulación siempre vaya por detrás, tiene su lógica. Pero lo que está sucediendo, y yo creo que más que nunca en la historia de la humanidad, es eso, una diferencia brutal entre las dos cosas y a mí me da un poquito de... A mí me asusta un poco, la verdad. O sea, no quiero sonar muy distópico porque últimamente hablo mucho de este tema y me da la sensación de que soy un poco el cenizo distópico, pero a mí me preocupa, sinceramente, es algo que me asusta.
+
+[00:25:16.640] - Glòria Langreo
+De hecho, se está viendo muchísimo en la forma en la que la gente está empezando a moverse por Internet, en general en productos digitales, que antes había como un descuido generalizado, que sigue habiéndolo bastante, pero como que muchísima gente se empieza como a esconder en estas redes seguras, estos espacios seguros, que son estos desde canales de Telegram a un canal de Discord con los cuatro colegas. Es decir, la gente ya tiene miedo de salir afuera en este mundo, al bosque oscuro. Es como que tiene miedo, pues esto, de que en cualquier momento viene el depredador y dices bueno, ¿pero por dónde? ¿Por dónde me va a salir la jugada? Y esto gente que sabe más o menos de qué va la historia, porque luego hay gente que ni siquiera se plantea estas cosas. A veces me hace gracia, en el mundo real, mucha gente tiene mucho cuidado con la protección de sus datos. Tenemos unas reacciones muy claras acerca de cuáles son nuestro espacio, nuestras líneas rojas. En cambio, en Internet ¿qué quieres? Mi edad, mi DNI, mi tal. Sí, toma hombre, toma. Mi talla de sujetador, toma, todo. Sí, a todo. Y lo leemos, nos da igual.
+
+[00:26:55.090] - Glòria Langreo
+¿En qué momento hemos renunciado? En qué momento hemos claudicado y hemos dicho mira, ya fue, ya está ya claudico y lo cedo todo. Es curioso que tengamos tanto cuidado en el mundo físico y tenemos como una desconexión brutal entre dónde nace el conflicto.
+
+[00:27:41.820] - Carlos Iglesias
+Recojo una cita de una de tus charlas de Edward Tufte. "Hay solo dos industrias que llaman usuarios a sus consumidores, las drogas ilegales y el software". Y dices que cuando hablamos de los usuarios, lo hacemos desde una perspectiva colonialista. Lo expresas así. ¿Qué quiere decir esto?
+
+[00:28:10.080] - Glòria Langreo
+Pues esto, desde esta observación, desde esta barrera, desde este ley. Ellos nosotros. Llegamos aquí con el barco y vamos a ver esta gente qué está haciendo. Vamos a colonizarles y a enseñarles cómo deben comportarse para poder utilizar mi producto correctamente. Porque yo, por ejemplo, la frase de los usuarios no tienen ni idea, bueno, no sé tú, yo la he escuchado mil veces y es como, ¿Pero qué es esto? O sea, ¿Cómo que no tienen ni idea?
+
+[00:28:37.750] - Glòria Langreo
+Bueno, a ver, por favor, qué desconexión hay aquí. Y es esta perspectiva del ellos y el nosotros que al final creo que no ayuda a nadie.
+
+[00:28:57.230] - Carlos Iglesias
+No recuerdo haber escuchado nunca eso.
+
+[00:29:05.720] - Glòria Langreo
+Por desgracia, muchas veces.
+
+[00:29:10.020] - Carlos Iglesias
+Hablamos también de los datos y tú ahora decías, le estás regalando tus fotos a Meta o a tal. Y un poco pasa lo mismo con los datos. Y estamos dando datos que se están almacenando. De momento, probablemente para nada, en algunas ocasiones. Simplemente por inercia. Vamos colectando, digamos, no vaya a ser que de repente nos demos cuenta de que lo necesitábamos o algo así. ¿Es peligroso esto también?
+
+[00:29:57.570] - Glòria Langreo
+A ver, yo creo que es peligroso en el sentido de que muchas veces no nos planteamos qué datos necesito, qué datos no necesito. Es decir, no hay una reflexión previa. Es decir, la recogida de datos por sí no es mala, no es negativa. Lo que es negativo es recogerlos por inercia y sin plantearnos para qué los necesitamos, para qué son útiles. Pienso que una pregunta clave que tenemos que hacernos cada vez que guardamos datos es ¿los necesito para que mi aplicación funcione? Porque si la respuesta es no, probablemente no tienes que guardarlos. Y el tema no es la colección de datos que tú hagas ahora mismo en tu aplicación. Ahora mismo te guardas x datos en tu base de datos y no sucede absolutamente nada. Lo que pasa es que tu empresa quizás puede ser vendida en un futuro y esos datos pasan a manos de otra persona. Tu empresa puede ser hackeada y puede haber un bridge de datos y esos datos quedan expuestos en Internet. Tu gobierno puede hacer cambios en la ley y puede requerirte que le des esos datos. Esto sucede en Estados Unidos constantemente con el tema del aborto, de la legalización del aborto.
+
+[00:31:09.690] - Glòria Langreo
+Un montón de mujeres que utilizaban aplicaciones para traquear su menstruación cedieron datos como la localización o una serie de datos que ahora mismo están siendo requeridas por la policía para identificar si una persona ha estado embarazada y ha dejado de estarla para poder ir y arrestarlas, básicamente, y ponérlas en la cárcel. O empresas de seguros que utilizan los datos de fitness de tu reloj que tú estás cediendo muy alegremente a Apple, los están utilizando para denegarte o darte un seguro de salud en Estados Unidos. Es decir, ¿la empresa de la aplicación de trackeo de la menstruación, estaba guardando esos datos para joderte viva y que te pusieran en la cárcel si abortabas? No. ¿Habían pensado que esto podía pasar? No. ¿Guardaban tus datos para algo? No. Habríamos podido evitar esto. Si tú no necesitabas toda esta info. ¿Para qué quieres saber dónde estoy? Si te estoy diciendo que me ha venido la regla o que me ha dejado de venir. Pienso que falta un poco esta reflexión previa y al final es gratis. O sea, es información que es gratuita, como si tú te intentas dar de alta en ProductHunt, y te intentas loguear con Twitter, te pide que le des permiso para seguir gente, para borrar gente, para crear listas, para borrar listas, para mandar mensajes y dices, pero a ver, un momento.  ¿Para qué quieres todo esto? Bueno, pues porque la API de Twitter lo permite, entonces, ¿Why not?, Igual no voy a hacer nada, pero como es gratis, pues me lo guardo. Y bueno, y en el final, pues es un poco que hacemos así y le damos vale, sí o no, porque quiero, estoy interesado en ver este contenido. 
+
+[00:33:14.550] - Carlos Iglesias
+¿Cómo incorporamos esa reflexión ética de los datos desde una perspectiva de creación de producto?
+
+[00:33:56.680] - Glòria Langreo
+Yo pienso que cada vez hay más empresas que están preocupadas por esto y que están intentando guardar únicamente los datos que necesitan. En GitHub, por ejemplo, es así, es decir, no se guarda prácticamente nada. En Sketch, igual. De hecho teníamos un montón de problemas para poder hacer definición de algunas features porque no teníamos datos de uso, no guardábamos nada. Luego tienes empresas como Plausible, hay un montón de empresas que están cada vez más concienciadas de esto y al final es un valor del producto. Muchísima gente está utilizando un producto sobre otro por las políticas de privacidad que tienen. Quizás como usuarios no le damos todo el valor que deberíamos darle. Mucha gente ni siquiera se preocupa de ver esta comparación, tengo estas dos aplicaciones que las dos me interesan igual. ¿Cuál va a ser más respetuoso con mi información? No lo hacemos porque es cansado y al final es eso, estás poniendo la responsabilidad en el usuario.
+
+[00:35:08.980] - Carlos Iglesias
+¿Cómo es una buena estrategia de producto? ¿Cómo aseguro hacer un buen producto que éticamente intente no tener un impacto negativo?
+
+[00:35:34.750] - Glòria Langreo
+Yo pienso que siempre tenemos que hablar de intentar, porque es muy difícil lograrlo al 100 %. Es decir, la intención tiene que estar allí y es importante que esté. Y pienso que es personalmente, vuelvo a ser otra vez ceniza, pero pienso que es imposible generar un producto que no... O sea, que de ningún modo pueda generar estas situaciones. Es decir, las utopías no existen. Es estos mundos perfectos en los que no sucede nada y es todo maravilloso. Eso no existe. Es otro pleonasmo. La utopía inalcanzable no puede ser, no existe. Entonces, pienso que tenemos que intentar diseñar productos y estrategias resilientes, ya que no podemos evitar que las cosas malas sucedan. Tenemos que diseñar estrategias y productos que sean capaces de reaccionar a esos momentos negativos. Es decir, que sepan recuperarse y reaccionar a una velocidad razonable a esos momentos negativos. Creo que teniendo estas precauciones, simplemente que tengas en cuenta lo que puede suceder negativo y que tengas mecanismos para arreglar estas situaciones tal como pasan. El otro día en una charla en la Bilbostack, de hecho, lo llamé la psetopía o la nifúnifá-topía.
+
+[00:37:06.530] - Glòria Langreo
+No es una utopía, pero tampoco es una distopía. Bueno, pues es la vida, al final. Entonces, pienso que es importante tener estos mecanismos de resistencia y de recuperación rápida. 
+
+[00:37:25.560] - Carlos Iglesias
+Me gusta mucho lo que has explicado del premortem, este ejercicio que hacéis. Y de ahí entiendo que de alguna forma también salen features o iteraciones sobre la propia aplicación, sobre la herramienta.
+
+[00:37:49.040] - Glòria Langreo
+Simplemente el hecho de desarrollar mecanismos para evitar estas interacciones negativas que no deseas en tu plataforma, muchas veces dan pie a esto, a nuevas funcionalidades que ni siquiera se te habían ocurrido, pero que tienen todo el sentido del mundo. Es un ejercicio que yo recomiendo hacer a todo el mundo porque es súper interesante. 
+
+[00:38:13.860] - Carlos Iglesias
+A la vez es súper generoso en el sentido de que este tipo de features, este tipo de reflexiones, en muchas ocasiones van en contra del ROI, en contra del MRR, en contra de todas esas métricas financieras que queremos potenciar, porque tenemos un set de inversores que nos están respirando la nuca, porque quieren un retorno de 100x a su inversión. Me parece como un ejercicio de madurez y de solidez y de valores y principios que es súper difícil de encontrar realmente.
+
+[00:38:58.770] - Glòria Langreo
+Sí, va un poco por aquí la cosa, de que al final si tú tienes un grupo de principios, de valores y no te cuestan nada, son gratis, no te cuestan dinero, no te afectan a tu rol y no afectan a nada, probablemente no son valores. Probablemente son eslóganes o cosas, frases bonitas para tu landing de tu empresa. Pero cuando son principios reales son los que te afectan verdaderamente al negocio, al beneficio que sacas. Porque yo, por ejemplo, pongo muchas veces el ejemplo de cuando yo trabajaba en Sketch, que a pesar de ser una empresa privada, con un producto de pago que funciona por suscripción, el formato de archivo es abierto, es open source, porque sus fundadores tienen la firme creencia de que tus creaciones son tuyas. O sea, tus diseños son tuyos. Ellos no son propietarios de lo que tú has generado. Entonces, porque tienen que tener un formato de archivo cerrado que solo vas a poder utilizar en su plataforma y no vas a poder hacer nunca nada más nada con ese archivo.
+
+[00:40:23.670] - Glòria Langreo
+Eso, que es una cosa súper bonita y como de cajón, porque al final es una cosa que he creado yo, que he parido yo, que es mía o de mi empresa o lo que sea, eso abre la puerta a un montón de aplicaciones, servicios que se construyeron encima de Sketch: Abstract, Invision, Figma nació importando archivos de Sketch.
+
+[00:40:54.610] - Glòria Langreo
+Eso dio pie a que nacieran y que se diversificara el mercado, que es una cosa súper buena y súper bonita, en la que ellos creen en que haya esta diversificación de mercado. No creen en los monopolios, pero a su vez está afectando, obviamente, económicamente al negocio. Están perdiendo usuarios y perdiendo clientes. Sin embargo, es un valor principal al que no están dispuestos a renunciar. Y eso para mí es una de las cosas que hicieron que me enamorara de la cultura de la empresa.
+
+[00:41:30.210] - Carlos Iglesias
+Esa distancia a los usuarios, al final todos, todas somos usuarias. Todas las personas utilizamos la tecnología, y tener esa visión siempre de ese grupo a colonizar, como decías, al final lo que trae es precisamente a cerrarse, a exprimir al máximo posible. Y creo que son dinámicas negativas. 
+
+[00:42:08.340] - Carlos Iglesias
+A veces hablamos de la agilidad o de lo difícil que es implementar la agilidad en las organizaciones o trabajar de una forma realmente ágil. Y ya más que ágil, te diría incluso respetuosa con las personas, respetuosa con la calidad de lo que hacemos, con la excelencia. Y en muchas ocasiones la conclusión a la que llegamos, o al menos a la que yo llego, es que esto hay que ir estirándolo hasta el punto de la venta. Es decir, hasta la venta en la que tú estás vendiendo un producto, estás vendiendo un proyecto, la forma en la que a ti te van a pagar por eso define.
+
+[00:42:41.220] - Carlos Iglesias
+Y en este sentido, me da la sensación de que aquí están como pasando de puntillas, porque al final son los que ponen el dinero, pero yo veo personalmente una responsabilidad en los inversores también en esto.
+
+[00:42:56.610] - Carlos Iglesias
+Si al final yo voy a estar sujeto a quien me está respirando en la nuca para cumplir una serie de KPIs que me exigen multiplicar por n, no puedo pararme, no puedo dedicar mi tiempo a hacer este tipo de reflexiones para el bien común o para que trasciendan un poco, o sea, un poquito de ética. Todo el rato me suena a mí mismo un poco marxista, pero no se trata de eso, simplemente yo pienso que muchos de los problemas que enfrentamos tienen que ver con este hiper capitalismo voraz a tope todo el rato, sálvese quien pueda, individualidad, libre mercado.
+
+[00:43:59.380] - Carlos Iglesias
+Pero creo firmemente que desde luego quien compra, quien pone la pasta, pues también tiene mucha responsabilidad en la forma en la que se definen las cosas.
+
+[00:44:11.900] - Glòria Langreo
+Sí, sí, totalmente. Hay una presión ahí que... Claro. Lo que pasa es que es curioso porque hay varios ejemplos. Una compañera de mi equipo que estuvo trabajando en Blinkist y habla mucho de cómo en Blinkist el tema de la trial de la aplicación, era un poco shady. O sea, la gente no acababa de entender cuándo se renovaba, cuándo no se renovaba, además. Y aparte de tener clientes muy enfadados, pues claro, las bajas iban así. En cambio, ellos hicieron un trabajo de hacer un approach mucho más ético a la trial, a explicar claramente cómo funciona, cuándo te vamos a cobrar, de qué manera, tal. Lo hicieron de una manera súper clara y súper bien explicado y la conversión se disparó. Claro. Muchas veces pensamos que es algo negativo, ¿cómo voy a invertir ahora en esto, que no me va a dar nada? que es mejor estar engañando a la gente, y luego lo haces de una manera respetuosa, ética, teniendo en cuenta que la gente entienda lo que está sucediendo y te va muchísimo mejor el negocio. Porque al final estás quemando a la gente.
+
+[00:45:28.830] - Glòria Langreo
+O sea, si tienes un servicio horroroso nadie te va a recomendar, ni nadie se va a re suscribir, ni nadie se va a quedar contigo. Entonces son números que funcionan al quarter. O sea, este quarter hemos tenido un revenue tal, pero luego, ¿qué ha pasado con eso? O sea, muchas métricas, en muchas ocasiones, sobre todo cuando van atadas a los bónuses de los C level, de la gente más senior de la empresa, al final lo que quieren es el número al final del quarter. ¿Cuál es el follow up de este número? Da igual, yo ya he cobrado. A veces somos muy cortoplacistas, miramos muy cerca a unos números que parecen maravillosos y luego al final tengan un revenue horroroso. 
+
+[00:46:18.210] - Carlos Iglesias
+La importancia que tienen los incentivos dentro de cualquier sistema son brutales, ¿no? Muy buen ejemplo traído, me ha encantado el ejemplo que has puesto de Blinkist.  Te quiero tirar un reto y es un poco que me digas...
+
+[00:47:00.820] - Carlos Iglesias
+¿Cómo ves tú el futuro próximo? Ya no me voy a la inteligencia artificial general ni a nada parecido a esto. O sea, ¿cómo ves tú este año que viene a nivel del impacto de la tecnología?
+
+[00:47:24.930] - Glòria Langreo
+Ayer vi un anuncio de cerveza generado por inteligencia artificial que me parecía una locura, como si lo hubiera dirigido David Cronenberg. Si el futuro se parece a algo dirigido por David Cronenberg, all in. Yo ahí estoy. 
+
+[00:48:55.530] - Carlos Iglesias
+Cory Doctorow, otra de las referencias que me he llevado de Gloria, dice "Asumir que nada saldrá mal no te hace optimista, te convierte en un necio. Un necio peligroso. Asumir que nada saldrá mal es el motivo por el que no pusieron suficientes botes salvavidas en el titanic. El principal problema del tecnopti mismo es que podemos estar generando nuevos problemas a escala, más complejos, incluso, que los que intentamos resolver. Es más necesaria que nunca una mirada más cauta, diversa, integradora y generosa, más allá del propio beneficio económico, del reto técnico o del placer de crear. Comparte este episodio con otras personas si crees que merece ser compartido. Suscríbete, activa la campanita, dale al like y devuélvanos un poquito de Karma, por favor. Un fuerte abrazo y os espero en el mundo real.
+

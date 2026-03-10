@@ -1,0 +1,189 @@
+[00:00:00.880] - Carlos Iglesias
+Medir la productividad puede parecer una respuesta clara para mejorar la eficiencia en los equipos, pero también plantea muchas preguntas. ¿Hasta qué punto la claridad que brindan los datos realmente impulsa el progreso? ¿Cuándo se convierte en una fuente de estrés o en un obstáculo para la creatividad? ¿Hasta dónde nos ayuda la medición a ser más efectivos y cuándo podría limitar la autonomía de un equipo? Es un balance delicado. Medir puede aportar estructura y transparencia, ¿Pero puede también alejar a los equipos de lo que realmente importa? ¿Cuánta transparencia es constructiva y en qué punto se vuelve invasiva? Hoy, con Toni Tassani, Deputy CTO en Ocado Technology, exploraremos cómo encontrar el equilibrio entre los números y el verdadero impacto del trabajo. Toni, estoy verdaderamente feliz de tenerte hoy aquí como amigo y como referente que eres para mí. Llevas una larguísima trayectoria en tecnología, pero personalmente lo que más me interesa destacar es tu curiosidad por el lado humano de los procesos de desarrollo y la mejora organizacional. Profesional, una trayectoria que incluye compañías como Oracle, eDream, Thomson Reuters y un largo etcétera, que te han acabado llevando a liderar un equipo en Ocado Technology, que cubre desde la accesibilidad hasta la seguridad de las aplicaciones o las prácticas de ingeniería.
+
+[00:01:33.280] - Carlos Iglesias
+Probablemente, muchas de las personas que escucháis habitualmente este podcast ya conoceréis a Toni, porque lleva años enseñando y compartiendo sus conocimientos tanto en el mundo académico como en conferencias internacionales.
+
+[00:01:54.800] - Carlos Iglesias
+¿Qué es para ti el mundo real?
+
+[00:01:57.270] - Toni Tassani
+Si yo me pregunto a mí mismo qué es el mundo real, seguramente será diferente si nosotros dos hablamos de qué es el mundo real. O sea, cuando yo pienso en qué es el mundo real, seguramente estré pensando en mis percepciones y cómo me llega. Y puedo inventarme y estar completamente sesgado. Pero si los dos hablamos, seguramente tendremos que llegar a un acuerdo. Entonces, el mundo real es lo que tú y yo digamos.
+
+[00:02:40.790] - Carlos Iglesias
+¿Qué es Ocado Technology, y qué haces tú en tu rol de Deputy CEO?
+
+[00:03:26.140] - Toni Tassani
+Ocado es una empresa que nació en Inglaterra hace más de 20 años y empezó como supermercado online sin tener supermercados físicos. 
+
+[00:03:45.080] - Toni Tassani
+Era una propuesta muy ambiciosa, con la intención de utilizar al máximo automatizaciones en los almacenes, inteligencia artificial y demás, para hacer viable económicamente aquello de hacer llegar los productos a las casas. Y en Inglaterra es muy conocido. En Inglaterra todo el mundo ves las furgonetas de Ocado por allí con mucha frecuencia. Pero después de 20 años, decidimos como organización, aquellos conocimientos que habíamos adquirido y aquellas tecnologías que teníamos, ponerlas al alcance de socios y ayudar a los supermercados más importante y más allá de los supermercados, hacerles posible ofrecer sus productos online. Y ahora estamos ofreciendo nuestra tecnología que construimos robots, construimos los almacenes, el mecanismo de cumplimentar los pedidos, la logística a última milla. Hacemos el end-to-end y el e-commerce también. Y estamos en Australia, en Estados Unidos, en Suecia, Polonia, en Corea. Y por aquí cerquita, Bonpreu y Alcampo. 
+
+[00:05:10.570] - Toni Tassani
+Mi rol es el Deputy CTO. Reporto al CTO, el Chief Technology Officer de la organización. En un momento determinado, él decidió tener dos deputies, dos adjuntos, uno encargado de tecnología, de los stacks tecnológicos, las herramientas que se podían utilizar a la hora de construir software y una persona que ayudase a cómo hacemos software, a las prácticas de ingeniería.
+
+[00:05:39.950] - Toni Tassani
+Ahora tengo un pequeño equipo en el que nos encargamos de trabajar con nuestros ingenieros de software, para hacer que puedan hacer mejor su trabajo.
+
+[00:05:58.860] - Carlos Iglesias
+Hace 20 años nacer con esa propuesta de valor me parece una cosa increíble, absolutamente visionaria y probablemente una marcianada en aquella época, debía ser una marcianada.
+
+[00:06:28.280] - Toni Tassani
+Y así lo juzgaron muchos. Esta está bien. Pero el hecho de ser capaz de poderte traer la compra a casa, teniendo en cuenta que hay producto congelado, producto fresco, producto frágil, que no se puede llevar de cualquier manera y hay que tener en cuenta el ciclo de vida de las cosas, hemos ido demostrando que añadiendo nuevas tecnologías y nuevas maneras de hacer en los almacenes y en la entrega, que tenía sentido, que era una cosa que ahora todo el mundo ahora, después de 20 años, con tecnologías más avanzadas, están intentando hacer cosas similares.
+
+[00:07:10.880] - Carlos Iglesias
+Debe ser supercomplejo, y además, porque estáis en muchas partes del mundo, y eso yo me imagino que tiene que traer una complejidad extraordinaria, además, a la propia operación, al propio desarrollo de producto, de lo que hacéis. Supongo que cada mercado es un mundo distinto, cada país es cada continente. Entiendo que esto debe traer una complejidad brutal.
+
+[00:07:34.240] - Toni Tassani
+Como ingeniero es apasionante, porque lo que nos gusta son resolver problemas.
+
+[00:07:38.380] - Toni Tassani
+A mí me parecía fantástico, nunca lo había pensado. Nuestra manera de trabajar con los robots es que están en unas rejillas y los robots van recogiendo los productos en vertical. Y cuando fuimos a Japón, había que tener en cuenta los terremotos. Había que pensar en aquellas estructuras de una manera completamente diferente o las furgonetas tienen que ser mucho más estrechas porque allí las calles son mucho más estrechas. A la hora de cuando nos fuimos al territorio de Escocia y a otros sitios, que no puedes vender alcohol a determinadas horas, entonces tienes que tener en cuenta determinados productos de no mostrarlos. Y ahora estamos en un mercado también en Arabia Saudí y lectura de derecha a izquierda, pues es un problema interesante.
+
+[00:08:37.610] - Carlos Iglesias
+¿Qué te motivó a explorar y sobre todo a medir la productividad en equipos de ingeniería?
+
+[00:08:59.040] - Toni Tassani
+No es una cosa que salga de mí, ni que haya sido una propuesta de mi equipo. Llevamos mucho tiempo en la organización hablando de estas cosas y pensando en productividad. Y votamos nombres y salió el nombre Engineering Productivity. A este grupo que reportaba al entonces Chief Engineering Officer y a la CTO, decidimos llamarle Engineering Productivity. Se podía haber llamado platform engineering, se podía haber llamado de muchas maneras, pero desde ese momento empezamos a pensar en productividad, en cómo mejorar la productividad de nuestros ingenieros. Y es una cosa supernatural para nosotros. Somos una organización muy centrada en los datos. Al tener esto de los almacenes, los robots, el pensar en datos es una cosa muy natural para nosotros. Y ya que vamos almacenando muchas de las cosas de cómo interactúan nuestros ingenieros con las herramientas que utilizan, era fácil pensar en cómo leemos estos datos.
+
+[00:10:30.640] - Carlos Iglesias
+¿Qué es la productividad?
+
+[00:10:33.470] - Toni Tassani
+La productividad en una definición clásica es la relación entre las salidas y las entradas que le has dado al sistema. Muy fácil. Más productivo, tienes más salidas con menos entradas. Eso es así de fácil. En el mundo del trabajo intelectual, pero en concreto en el del software, la definición no está tan clara. La definición es más... Incluso hay gente que dice que no puede definirse de ninguna manera, que es una ilusión. Pero las definiciones que han dado, por ejemplo, el IEEE, lo relacionaba no solo con la cantidad de código generado, sino con la calidad de este código, la capacidad de poder hacer cambios en el futuro, porque no te sirve de nada ser muy productivo construyendo una cosa ahora que vas a tener que reconstruir dentro de una semana. Entonces, es mucho más complicado medir esta productividad en el mundo del software. Ahora hay gente que habla de que es mejor tratar de medir la experiencia de desarrollo que no la productividad en el mundo del software, que son medidas más cualitativas, que son medidas más de cómo el usuario de tu sistema, que es el ingeniero, se está sintiendo cómo está utilizando las herramientas con las que está creando del software.
+
+[00:12:00.510] - Carlos Iglesias
+Entiendo. O sea, más enfocarse en mejorar su contexto y su propia experiencia para que pueda desempeñar mejor su trabajo que enfocarse en cuánto producen.
+
+[00:12:11.250] - Toni Tassani
+Exacto. El cuánto producen es interesante, no deja de ser interesante, pero este cuánto producen, si es después de mucha fricción, si es después de mucho esfuerzo que les deja exhaustos para continuar produciendo, tienes que repensarlo. Lo importante a la hora de medir la productividad es: ¿Para qué la estás midiendo? Nosotros nos dimos cuenta muy rápido que era lo más importante. Y para nosotros lo importante es mejorar, el tratar de ser capaces de producir más y de producir de una manera más eficiente y más efectiva, más que medirla. Medir la productividad para nosotros era un vehículo para tratar de mejorarla.
+
+[00:12:59.920] - Carlos Iglesias
+Orientación a output vs outcome. ¿En qué forma proteges a tu cultura de obsesionarse con entregar output y con entregar más líneas de código cuando se pone el foco en la productividad?
+
+[00:13:31.710] - Toni Tassani
+Me gusta que hablas de eso, de poner foco en la productividad, porque no le estamos poniendo el foco a la productividad. Lo que hablamos es de cómo tratamos de medir y de mejorar la productividad, pero no estamos hablando todo el día de productividad en Ocado, ni mucho menos. Y sería contraproducente, sinceramente. El foco está en tratarla de entender y pensar que es elusivo, que es difícil de llegar a una medida. Hay mucha gente que afirma que no hay ninguna medida.
+
+[00:14:19.680] - Toni Tassani
+Nuestro foco es tratar de entenderla para mirar de mejorarla. La observamos a nivel de sistema. Miramos, pensando en el output, la cantidad de interacciones que el equipo está produciendo sobre el código, la cantidad de entregas que está haciendo, la cantidad de errores que se están produciendo. Hay unas series de métricas de gente académica y empresas que están empezando a definir, hay partes de LinkedIn, de Microsoft, de Google y demás que tienen un equipo dedicado a medir la productividad y a entender la productividad. No es nuestro caso. No es nuestro negocio, no es lo que nos interesa, pero hemos tratado de entender esa gente qué es lo que mide. Miramos diferentes colecciones de métricas, vimos un paper que había hecho Microsoft hablando de un framework que se llama Space, donde habla de bienestar, de output, pero de muchas otras cosas. Y dijimos: Vale, esto es interesante. ¿Qué es lo que podemos nosotros entender de esto? Sin descuidar el output, porque el output también es importante, pero también entender la cantidad de fricción que se está generando a la hora de producir este código.
+
+[00:15:56.560] - Toni Tassani
+Hacemos muchas métricas cuantitativas midiendo en las herramientas, las interacciones con Jira, de cómo van evolucionando los trabajos en las diferentes etapas y midiendo cómo la gente está trabajando con el código, el número de ciclos de entregas que se están produciendo, si están ejecutando test, cómo consistente son, si van fallando con frecuencia y volviéndola a lanzar, vuelve a funcionar, pues a lo mejor hay algo que que deberías revisar, deberías invertir tiempo, porque no te están aportando mucho valor esos tests, si no son fiables. Y nosotros le damos importancia. Pero lo que le damos más importancia es eso que te decía de utilizar estas métricas para pensar en mejora, para pensar en cómo podemos mejorar esa productividad. Y creemos que ese conocimiento, esa actuación, está más a nivel de equipo. Nosotros pensamos a nivel de sistema, a nivel de equipo y a nivel individual. A nivel de sistema tenemos una conexión de métricas que revisamos, pero no compartimos. A nivel de liderazgo, vamos mirando si alertas, si hay alguna cosa que nos debería preocupar.
+
+[00:17:21.840] - Toni Tassani
+Sí que hemos aprendido, por ejemplo, que cada equipo puede estar pensando en acciones de mejora que serían medibles y cuantificables que pueden ser muy diferentes. Algún equipo puede estar tratando de mejorar el tiempo que tarda en hacer revisión de código. Otro equipo puede estar tratando de revisar en el tiempo que tarda en resolver una incidencia o en el tiempo que tarda en responder por primera vez cuando hay una petición. Cada equipo puede tener opciones de mejora diferente, pero no se puede poner atención a todo. Aquí lo importante es la atención. Aquí lo importante es que el equipo decida qué es lo que quiere medir. Y en eso sí que tenemos la suerte de que habiendo esta cultura de mejora continua, que esta cultura orientada a los datos y a las medidas, emergenge por sí solo que ellos vayan haciendo estas acciones de mejora. Y también hay que tener en cuenta de que muchas veces las métricas que ellos van teniendo no te das cuenta de que tienes algo que sea mejorable porque te has acostumbrado.
+
+[00:18:51.310] - Toni Tassani
+La habituación es peligrosa. El traer observadores externos a un equipo, el que ellos puedan ver sus métricas comparadas con otros, a veces puede ser una medida para que ellos piensen en que el tipo de cambio que tienen que hacer, tiene que ser un cambio más disruptivo, tiene que ser un cambio más grande. Entonces, ese es otro ángulo en que nosotros creemos.
+
+[00:19:31.330] - Carlos Iglesias
+Es interesante. Me encantaría poder estar ahí y ver cómo lo hacéis, porque cuando yo te escucho decir que el foco es la mejora, me estoy imaginando identificar algunos deltas de mejora continua e intentar batir esos deltas de alguna forma. Y ahora me hablabas de que igual hay cambios que identificáis como más disruptivos y son más kaikaku: vamos a hacer un gran cambio que a lo mejor afecta de otra forma o va más allá del propio equipo o la forma en las que se hacen a otro nivel de operación, digamos, dentro de la organización.
+
+[00:20:12.030] - Carlos Iglesias
+Me interesa entender si de alguna forma los equipos disponen de ese tipo de métricas y haciendo analítica descubren gaps que tienen que batir o es al revés. O son los propios equipos quienes que deciden: hemos identificado este delta de mejora, y una vez identificado ese delta, medimos y utilizamos las métricas para ver dónde estamos, si estamos moviendo la aguja o no.
+
+[00:20:54.330] - Toni Tassani
+No lo hemos hecho de una manera muy frecuente el ir a equipos y ayudarles a revisar sus métricas o mirar su condición. Sí que nos ha venido la petición, a veces por parte del equipo, a veces por parte de fuera, y cuando hemos ido a examinar eso, muchas veces es: Pues no estamos tan mal, teníais vuestras inquietudes, pero estáis en la ruta completamente correcta. Y a veces es: Hay una serie de creencias que estabais intentando mejorar algo y lo que teníais que hacer era cambiarlo completamente. Y eso desde dentro es muy difícil.
+
+[00:21:40.680] - Toni Tassani
+Esa es la habituación de la que te hablaba. Y lo que nosotros disponemos de un data lake, un sitio donde en la organización vamos poniendo los datos y los equipos pueden construirse sus reports, hay reports ya creados y pueden ellos identificar qué es lo que les hace falta seguir, y ellos deciden: Vale, como nos hace falta mejorar el tiempo en el que resolvemos los bloqueos de nuestras cosas en Jira, pues ellos pueden tomar sus métricas y ver esa información. Y es una cosa no supervisada que van haciendo en los equipos.
+
+[00:22:16.280] - Carlos Iglesias
+¿Cómo observas que la medición les influye en el trabajo diario? ¿Cómo influyen las métricas de productividad en la cultura y el trabajo diario? 
+
+[00:22:30.580] - Toni Tassani
+Hay una cultura de mejora donde tienen sus retrospectivas, tienen sus momentos de reflexión. En nuestra organización hay líderes de equipo, en los equipos hay una persona que suma este rol y que tiene que tener una visión un poco más externa. Y lo que nosotros pretendemos es que no haya una obsesión respecto a eso, pero sí una información, que puedan tomar decisiones más informadas a la hora de ¿de decidir una arquitectura, decidir un cambio de tecnología o maneras de hacer dentro del equipo. Y eso tienen que ser decisiones dentro del equipo respecto a las maneras de hacer.
+
+[00:23:14.590] - Carlos Iglesias
+¿Cómo influyen las métricas de productividad en la cultura y el trabajo diario? Lo exporto a otro tipo organizaciones y la verdad es que es muy disruptivo.
+
+[00:23:38.860] - Toni Tassani
+Sí que es verdad que en algunas organizaciones empiezas a hablar de productividad o que vamos a empezar a mirar cosas de productividad y dicen: Ya nos están observando el gran hermano, vamos a estar medidos. Todo depende de cómo uses esas medidas. Todo depende de si se trata de mejorarlas, pones a disposición o no son una herramienta. Nosotros creemos en la colaboración y entonces creemos que poner métricas individuales y hacer medidas individuales sería totalmente contraproducente, porque podríamos estar empezando a gamificar, a jugar con estas métricas, a tratar de engañar al sistema. Y cuando empiezas a hacer trampas al solitario, pierde toda la gracia.
+
+[00:24:34.290] - Carlos Iglesias
+Ahí, en este sentido, también me gusta mucho el acercamiento que me explicaste, que de repente vosotros hacéis un estudio de qué es lo que hay ahí fuera, qué es lo que se está haciendo, qué sugiere McKinsey o qué sugiere Google, qué está haciendo los grandes, digamos, que están dedicando esfuerzos a ello. Me gusta mucho que hacéis este acercamiento de de fuera hacia dentro, de entender un poco qué se está haciendo y ahora preguntándose para qué internamente y qué resuena en nuestra cultura y en nuestra forma de entender las cosas, qué cosas resuenan. ¿Qué herramientas hay allá afuera que se están utilizando en el contexto de la productividad, de medir productividad en equipos de ingeniería?
+
+[00:25:26.030] - Toni Tassani
+Cuando nosotros hicimos la investigación de qué había a nivel académico, qué había a nivel de empresa, fuimos a mirar también las herramientas. Hay muchas herramientas que la mayoría de ellas lo que hacen es buscarte las interacciones, te leen las herramientas que estás utilizando para trabajar con código. Git te extrae información de Git, te extraen información de cómo interactúas con los procesos, con los tickets en el sistema de Jira, de las incidencias de tu o lo que tengas cuando tienes que contactar a tus ingenieros porque hay que resolver un incidente, te extraen información y te dan dashboards superbonitos, sofisticados y la mar de bien. Hay varias herramientas de este estilo. Hay otro tipo de herramientas que hacen un trabajo más cualitativo, que se trata de... Nosotros tenemos cosas que hemos construido nosotros inspiradas en estas, que se trata más de pedir a los ingenieros o bien que reporten ellos métricas. O sea, es un formulario, un survey, que se les pasa trimestralmente, donde se les pide que introduzcan datos cuantitativos, pero de una manera manual. ¿Cuántos tickets habéis hecho? Por ejemplo. En lugar de utilizar telemetría, hacerlo de una manera manual y luego les hace preguntas cualitativas y utiliza las dos cosas.
+
+[00:27:00.250] - Toni Tassani
+De los dos modelos, el que más nos gustaba era el de las cualitativas, pero nosotros lo hemos podido trabajar de otra manera. Lo que no nos gustaba de la mayoría de los vendedores de estas herramientas es que el enfoque Se trata de... También te ofrecen benchmarks para compararte con otras compañías similares, para ver cómo estás posicionado, para generar competición interna, para que haya una healthy competencia una competición saludable entre los ingenieros y que traten de ser los mejores, identificar el contribuidor estrella para poder a tus Rockstar developers, poderlos poner en los equipos que tengan que resolver las cosas más complicadas y todo eso no nos cuadraba con como lo vemos nosotros. Y también el modelo económico, que tiene todo el sentido del mundo, seguramente en algún escenario, pero no en el nuestro, de ver de los que tienen, que te están construyendo código para hacer tus sistemas, cuáles son más eficientes. De todos estos consultores que estás teniendo, de cuál quieres pedir más. Ese discurso no nos interesaba.
+
+[00:28:19.620] - Carlos Iglesias
+Es supersignificativo que exista una industria ahí afuera. No sé cuantificar como de grande de pequeño, pero una industria que está desarrollando este tipo de herramientas para medir la productividad en equipos de desarrollo y que el foco lo estén poniendo en esto. Que estén como uno de sus key benefits, sea identificar quién son tus ninjas y cómo Guau, a mí eso me...
+
+[00:28:47.570] - Toni Tassani
+A lo mejor con eso están vendiendo, están encontrando a quién les interesa y eso les está resolviendo un problema. A nosotros no nos estaba resolviendo un problema con eso.
+
+[00:28:58.580] - Carlos Iglesias
+Es significativo para entender la temperatura de la industria, qué es lo que está sucediendo en la industria, porque si se vende eso, es porque se compra, y si se compra, es porque se mira. Y lo que estamos mirando es bastante tóxico. ¿Qué impacto crees que puede generar una herramienta así?
+
+[00:29:22.710] - Toni Tassani
+Se trata de una herramienta. Lo que a mí me sorprendía era lo diferente que era el cómo entendía yo productividad y para lo que nosotros queríamos la herramienta, con el discurso que nos traían. Yo no quiero la herramienta. Vale, a lo mejor no quiero la herramienta, pero sí que quiero saber estas cosas. Entonces, no es la herramienta, es el el propósito, el para qué la vas a estar utilizando. Muchas veces cuando las personas arriba de la organización están preguntando por productividad, lo que realmente quieren saber es si estoy gastando mi dinero de manera adecuada, si el dinero que estoy invirtiendo para producir, lo estoy invirtiendo de una manera correcta o no, porque no tienen más información, quieren saber un poco más respecto a cómo están haciendo su inversión, el cómo le hagas la vuelta a la pregunta para poderla utilizar. Sí, que a lo mejor el identificar los Rockstar developers habrá a quién le interese, pero no era nuestra búsqueda.
+
+[00:30:43.140] - Carlos Iglesias
+Qué peligroso, no sé, a mí igual es mi sesgo, seguramente estoy sesgadísimo por mis opiniones, pero me parece peligrosísimo mirar ese tipo de métricas. Yo creo que es como poner el... No sé cómo me cuesta explicarlo, pero poner el foco en ese tipo de cosas, es tan fácilmente corrompible la forma en la que tú trabajas para impactar positivamente las métricas que estás mirando y alejarte absolutamente de la intención inicial. Entiendo que es entregar el valor que esperamos, tener el foco en impacto real, en negocio, en la forma en la que estamos mejorando, en ser capaces de ser más flexibles, no sé, más adaptables, podernos adaptar mejor. No sé, Es que veo tanta poca correlación entre una cosa y otra que me sorprende mucho que no sé.
+
+[00:31:37.960] - Toni Tassani
+Sí. Me interesa mucho que tú lo ves clarísimo. Y yo lo veía clarísimo también cuando me lo decían. Me chirriaba muchísimo ese mensaje y no sé de dónde viene. No sé de esas alertas que para nosotros son tan evidentes. Otras personas no son capaces de ver el daño que puede hacer en una cultura o en un trabajo en equipo, el poner medidas individuales, el poner objetivos a ese tipo de métricas. Para mí era una cosa que no necesita mucha explicación, pero parece ser que sí.
+
+[00:32:10.540] - Carlos Iglesias
+¿Qué aspectos de la productividad habéis decidido no medir? ¿Y por qué?
+
+[00:33:10.160] - Toni Tassani
+Hay tantas cosas que no medimos. El tiempo en la silla... Yo creo que hay muchísimas más cosas que no medimos que medimos. Pero no soy capaz de decirte ninguna que hayamos dicho explícitamente: No, pues esto no lo vamos a medir por alguna cosa. Sí que no soy consciente de ninguna que hayamos decidido así ahora mismo. En la productividad individual, sí que no estamos interesados en medirla, pero sí que estamos interesados en mejorarla. Y es muy interesante cuando hablas con la gente y hablas de su productividad, porque lo que tratamos de mejorar es cómo trabajan, el entorno, cómo piden las cosas, los permisos para acceder a sitios y demás, que sea lo más fácil, que ellos tengan agencia.
+
+[00:34:38.580] - Toni Tassani
+Que tengan la capacidad de solicitarlo ellos mismos y que no tengan que pasar por terceros. A eso le damos mucha importancia, pero a la hora de mejorar la productividad individual, hay un libro que se llama The Productivity Project, que un señor, justo terminar la universidad, era un tema que le apasionaba, el tema de productividad personal. Y le ofrecieron trabajos en diferentes sitios. Pero es que quiero estudiar esto. Se decidió escribir un libro sobre productividad personal y el libro quería investigar diferentes maneras de mejorar la productividad personal, haciendo experimentos consigo mismo, utilizando como métrica número de páginas escritas. Y al mismo tiempo lo iba publicando en un blog. Y entonces, él experimentó con muchas cosas de trabajar por la mañana, trabajar por la noche, el hacer más descansos, menos descansos, hacer ejercicio, el tomar cafeína, meditación, un montón de cosas respecto a la atención, la energía personal y la gestión del tiempo, que si getting things done, que si utilizar listas, muchísimas cosas. A mí me pareció Magnífico. Lo comenté con una persona y me dijo: ¿Y por qué no hacemos ese productivity project dentro de Ocado con gente que quiera experimentar con cosas y luego lo compartimos con el resto.
+
+[00:36:12.780] - Toni Tassani
+Y hicimos eso. Buscamos gente que estuviese interesada en mejorar su productividad y gente que quisiese hacer coaching de esas personas probando herramientas que hay en el libro. Y a través de ahí, construimos un documento el productivity menu de cosas que puedes probar. Porque yo personalmente, en mi productividad personal, cuando tengo una herramienta que me funciona bien, me funciona hasta que deja de funcionar. Ya era esto.
+
+[00:36:44.050] - Carlos Iglesias
+No sabes cuánto entiendo lo que estás diciendo. Estoy totalmente...
+
+[00:36:48.910] - Toni Tassani
+Me hago una lista por las mañanas de lo que tengo que hacer y luego esa lista ya no me funciona. Vale, pues ahora lo que voy a hacer es ponerme post-its. Deja de funcionar. Ahora lo que voy a hacer...
+
+[00:36:57.070] - Carlos Iglesias
+Sí, sí, sí, sí. Menos mal que me dices tú Que alguien como tú me diga esto. De verdad que me hace sobrellevar mi vida mejor, la verdad.
+
+[00:37:06.120] - Toni Tassani
+Técnica del Pomodoro. Ahora voy a utilizar tiempos...
+
+[00:37:22.330] - Carlos Iglesias
+¿Qué hipótesis tenéis en cuanto al uso de la inteligencia artificial como potenciador de la productividad?
+
+[00:37:49.930] - Toni Tassani
+Es muy difícil o incluso peligroso no estar probando esas cosas cuando toda la industria, la competencia, está utilizando esas herramientas para producir más o para tratar de producir más. Así que nosotros sí que tenemos iniciativas en las que estamos utilizando, sobre todo para generación de código, pero para cualquier otra cosa. Tenemos una sensibilidad especial con la propiedad intelectual. Parte de nuestro negocio se basa en propiedad intelectual, en todas aquellas inversiones que hemos hecho durante mucho tiempo y que queremos capitalizar. Esa propiedad intelectual nos interesa muchísimo. Teniendo en cuenta esas restricciones, hemos puesto herramientas de generación de código a disposición de nuestros ingenieros. Los hay que las encuentran imprescindibles, que ya no podría vivir sin ellas, que me están ayudando muchísimo, que han cambiado su manera de hacer código. Ahora escriben código para la herramienta. Es muy diferente el cómo trabajaban antes que el cómo trabajaban ahora. Un compañero del equipo me decía: Es que muchas veces para mí me interesa cuando estoy muy atascado con un programa y trato de resolver algo, lo que me interesa es ir a hacer algo que sea que no utilice mi cerebro tanto, que sea más mecánico.
+
+[00:39:34.420] - Toni Tassani
+Y si eso me lo va a hacer una inteligencia artificial, no voy a tener la oportunidad yo de refrescar el cerebro tal como está hoy habituado. Los patrones de trabajar que teníamos hasta ahora sin estas herramientas de generación de código, van a cambiar, si realmente nos están ayudando tanto. Estamos viendo que también la cantidad de código que se produce es más, se produce más. Pero también es código que hay que revisar. El código en el que hay que buscar las posibles vulnerabilidades de seguridad, genera un trabajo secundario. Y para nosotros es muy importante cuando pensamos en productividad, nuestra creencia es que es muy importante que las mismas personas que están construyendo el código, sean las personas que tienen que mantenerlo y que tienen que estar para resolver cualquier de la incidencia que surja. El tiempo que están resolviendo de incidencias es tiempo que no están produciendo. Entonces, eso se tiene que compensar. No nos interesa que sean muy rápidos produciendo el código, pero que luego estén tardando mucho en resolver las incidencias. Estamos trabajando en medir todas estas cosas para medir el impacto que está teniendo con nosotros.
+
+[00:41:03.120] - Toni Tassani
+Pero sí que vas leyendo que en muchos sitios se han dado cuenta que a la hora de introducir generadores de código, se ha generado más capacidad, pero esa capacidad no ha ido directamente a producir más código. Ha generado un buffer, pero ese buffer no se está utilizando para más capacidad. A lo mejor está consiguiendo más bienestar, que a lo mejor es una cosa que también nos interesa conseguir, pero que no va directamente relacionada con la productividad. Estamos estudiándolo, estamos invirtiendo en ello, estamos trabajando mucho con eso porque no es tan lineal, no es tan directa la relación.
+
+[00:41:49.040] - Carlos Iglesias
+Y desde tu perspectiva, este tipo de copilotos de generación de código ¿a qué perfil de desarrollador o desarrolladora crees que le interesa más utilizarlo? ¿Y cuáles crees que sienten un mayor rechazo o prefieren no usarlo?
+
+[00:42:16.120] - Toni Tassani
+Así de entrada, te diría que los juniors, los menos experimentados, están más inclinados a utilizar cualquier asistente que les pueda ayudar. No lo tengo validado, esta hipótesis de de ninguna manera. Pero sí que es verdad, y a lo mejor no depende de la edad ni de la experiencia, pero hay gente que le gusta probar cosas nuevas y le gusta... Y si ahora tengo una cosa que me va a producir código, Yo quiero utilizar esta cosa que me va a ayudar a producir código. Y hemos encontrado en la empresa gente superatraida por estas herramientas a todos los niveles de experiencia y gente que aburrece estas a todos los niveles de experiencia y que dicen que no les ayudará a nada porque su ciclo de pensar, su manera de pensar, no es compatible con esta herramienta. Yo empiezo a escribir algo y me propone un bloque de código, no me ayuda a pensar, porque yo ya sé lo que quería escribir. A lo mejor lo puedo utilizar para que le ayude a entender el código de otro, pero no para producirlo. Porque cuando estás produciendo código con esas herramientas, tienes que utilizar nombres adecuados, comentarios en el dar el sitio correcto, darle el contexto que le hace falta a la herramienta.
+
+[00:43:34.030] - Toni Tassani
+Y entonces, estás trabajando para la herramienta, no estás trabajando para codificar. Claro, sí, sí. Es completamente diferente. Pero no sé si es una cosa que los senior, senior, la rechazan y los junior la adoran. Yo creo que va por otra dimensión, no por la experiencia.
+
+[00:43:54.310] - Carlos Iglesias
+¿Qué consejo darías a empresas que estén empezando a medir la productividad en sus equipos? ¿Qué les dirías?
+
+[00:44:05.750] - Toni Tassani
+Entender el para qué la quieren medir, si es para hacer competiciones internas o porque el CEO se lo ha pedido o para tener satisfecho a alguien, o porque lo pide el mercado o porque quieren hacer algo, que se lo pregunten, que lo tengan claro. Que exploren el mercado, porque hay herramientas super-chulas que a lo mejor ya le cubren todo, pero yo creo que sería una muy mala idea el poner objetivos relacionados con la productividad y sería terrible el medir la productividad individual.
+
+[00:44:40.910] - Carlos Iglesias
+¿Tú crees que hay empresas que están asociando bonus económicos con objetivos de productividad?
+
+[00:44:53.010] - Toni Tassani
+No sé si existe, pero estoy 100% convencido que hay gente que cree que eso es una buena idea.
+
+[00:46:17.970] - Carlos Iglesias
+En la búsqueda de maximizar la productividad, a veces nos encontramos con un efecto inesperado. Medir y mejorar no siempre nos lleva a donde queremos. Un buen ejemplo es la paradoja de Jevons. En el siglo XIX, William Jevons observó que al hacer más eficientes las máquinas de vapor para consumir menos carbón por unidad de trabajo, el uso total de carbón aumentaba en lugar de reducirse. Este fenómeno lo observamos hoy en día con todos los recursos, desde el combustible en los coches a los dispositivos electrónicos, pasando por el consumo de agua. Obsesionarnos con mejorar una métrica no garantiza el impacto y el valor real que queremos crear. Si además de una ganancia económica, queremos generar un impacto positivo en las personas y en el planeta, la productividad debería ser un medio, nunca un objetivo en sí misma. Un fuerte abrazo y os espero en el mundo real.
+

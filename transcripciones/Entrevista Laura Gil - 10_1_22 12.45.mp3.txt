@@ -1,0 +1,192 @@
+[00:00:09.360] - Speaker 2
+
+
+[00:00:35.880] - Speaker 1
+Liderar la transformación digital en Damm, con Laura Gil.
+
+[00:01:58.770] - Carlos
+¿Cuál es tu trayectoria?
+
+[00:02:13.770] - Laura
+Empecé en el área financiera, del área financiera, estuve en los últimos años en la parte más corporativa,  analizando y siguiendo sobre todo inversiones no core, no de cerveza. Y ahí, entre esas inversiones había una que era Rodilla, un proyecto de cambio también súper bonito, pero con unas necesidades súper distintas, porque era una empresa que estaba muy tocada cuando Damm cogió el control, pero al final un proceso de cambio también. Y después de esa experiencia, ya me propusieron liderar la transformación digital en Danm. Ahora, echando la vista atrás, sí que pienso que tomaron una decisión acertada, porque transformar el negocio, transformar una compañía, creo que se tiene que hacer desde dentro. La apuesta por el talento interno y formarlo en lo digital creo que consigues perfiles híbridos o perfiles mucho más completos. 
+
+[00:05:09.660] - Carlos
+ 
+
+[00:05:43.800] - Carlos
+Tiene mucho que ver con la visión y el liderazgo de la compañía en el momento. O hay una intención, un liderazgo y una autoridad interna y con suficiente credibilidad que quiera llevar a cabo esa transformación o difícilmente se va a dar. 
+
+[00:06:12.870] - Laura
+A mí me parece fundamental que alguien al más alto nivel en la compañía, sea quien sea, tiene que mandar mucho y se lo tiene que creer mucho. Si no, es muy difícil que ocurra cuando hay dos o tres por abajo remando y no hay nadie por arriba que realmente lo impulse. Es muy complicado que esa compañía llegue a transformarse más que en implementar alguna herramienta o activo digital. No es lo mismo hacer proyectos digitales que transformarse digitalmente. 
+
+[00:07:07.860] - Carlos
+ ¿Qué significa transformación digital para ti desde tu perspectiva?
+
+[00:07:44.700] - Laura
+Le quitaría lo de digital; es una pura transformación de las organizaciones. Evidentemente hay tecnología y hay herramientas digitales, pero no son el fin, sino son el medio para conseguir un cambio total en la organización. Tengo clarísimo que la agilidad se gana organizando la compañía por proyectos y por procesos. En el momento en que las áreas empiezan a dedicar recursos íntegramente a proyectos con las herramientas para que la toma de decisiones sea muy rápida, las necesidades se discutan en los entornos adecuados y sea muy ágil, en ese momento es cuando realmente empezamos a ser Agile.
+
+[00:09:09.780] 
+El cambio brutal para una empresa como la nuestra es dejar de hacer proyectos perfectos, a hacer proyectos con pruebas directas en el consumidor cuando están en fases muy incipientes, con entregables muy pequeños. A las empresas grandes les cuesta mucho porque venimos de super proyectos perfectos que tardan dos o tres años, que cuando terminan ya han cambiado los requerimientos. Es muy importante cambiar la metodología en cómo nos organizamos, pero también cómo trabajamos.
+
+[00:10:50.060] - Carlos
+¿Con qué dificultades os habéis encontrado?
+
+[00:11:21.980] - Speaker 2
+La primera es cómo priorizas. Tuvimos que dedicar mucho tiempo porque teníamos proyectos en el entorno industrial, en temas de campos de cultivo, en temas de personas, de cultura, de formaciones de workplace, pero también había que crear nuevas áreas que no existían: data, operaciones, marketing digital, consumidor - uno de los pilares estratégicos al inicio del plan, toda la relación con el cliente y entendiendo un cliente como la hostelería, el bar o restaurante, pero también los distribuidores, los importadores, las grandes cuentas de alimentación. Por dónde empiezas y por dónde decides priorizar es la principal dificultad. 
+
+[00:12:30.170] - Speaker 2
+Una vez superado este momento cada empresa tiene que empezar por donde tenga un problema muy grande o la principal oportunidad. Cada empresa tiene que ligarlo a sus objetivos estratégicos, pero también a sus necesidades del momento.
+
+[00:12:47.520] 
+Luego ya viene el encaje con la gente. La mayoría de la gente no entiende que necesitamos un cambio y menos un cambio tan profundo cuando las cosas nos van bien. Entonces es muy difícil y hay que hacer un esfuerzo en comunicación brutal para explicar por qué necesitamos cambiar, por qué necesitamos datos, cómo obtenemos datos y cómo sensorizamos esa toma de datos... todo hay que explicarlo muy bien.
+
+[00:13:24.620] - Speaker 2
+Cuando vas a hacer una transformación hay que plantear proyectos que a corto plazo no te generan ningún payback. Con lo cual lo que sí tiene claro el que lleva su área en su día a día es que antes que hacer esto que tú estás viviendo, yo tengo una necesidad del día a día, entonces yo no quiero dedicarme a ayudarte a hacer esto, yo quiero que me arregles mi problema de hoy no. Entonces, el conjugar el futuro versus el día a día también es muy complejo, porque son dos líneas de trabajo y hay que empezar a trabajar en esos proyectos que nos preparan para el futuro.
+
+[00:14:11.180] - Speaker 3
+Y ahí sobre todo, hablamos muchas veces de datos, de proyectos que a veces son muy costosos, de preparar la organización.
+
+[00:14:31.270] 
+Una vez superado que todo el mundo tiene claro que hay que hacer unos basics, la otra oleada viene cuando ya piensas más en ese futuro. En los datos, en las estrategias de innovación a largo plazo. Vuelves a tener ahí ciertos bloqueos internos.
+
+[00:15:21.330] - Speaker 3
+Por suerte tenemos una compañía que es joven. Más de la mitad de nuestros colaboradores y colaboradoras son millenials o más jóvenes, y eso es un gran motor de cambio.
+
+[00:15:53.730] - Speaker 3
+Otro de los temas es cómo hacer de esto un proceso inclusivo. Nadie se puede quedar fuera: la clave es sobre todo cómo generar un entorno seguro para todo el mundo. Un entorno de aprendizaje, de formación, de juntar conocimientos. Y este es otro de los retos.
+
+[00:18:08.340] - Carlos
+¿Cómo es esa visión del dato en un modelo B2B2c? ¿De dónde parte la estrategia del dato? 
+
+[00:18:46.020] - Speaker 2
+Claro, por un lado tenemos toda la parte del consumidor. Damm históricamente nunca ha funcionado con el consumidor final ni teníamos los datos. Nos dedicábamos a hacer campañas de comunicación. Hoy sí necesitamos esos datos y tenemos una transacción, pero no sólo a través de una shop o de un e-commerce, sino que tenemos varias experiencias como promociones en el canal, catas, visitas a la fábrica, eventos en las que tenemos ese contacto y ahí tejemos la estrategia B2C donde el dato es la clave: conocer a nuestro consumidor, comunicarnos con él, sobre todo con contenido de alto valor añadido.
+
+[00:19:33.330] 
+Por otro lado, teníamos la estrategia de datos de la parte B2B. La clave era cómo tener una estrategia de datos que nos aporta valor a todas las partes y sobre todo tener digitalizada esa relación para poder ir incrementando en la calidad y el valor de esos datos.
+
+[00:20:07.150] 
+Una vez tienes esas dos partes, tienes que ir a una estrategia B2B2C. Es decir, si tengo los datos y la relación digitalizada con el consumidor y por otro lado con los clientes, lo que podemos aportar es como llevo esas experiencias al consumidor dándole un valor también a mi cliente que está en el medio que es lo que tiene más valor para nosotros, con lo cual lo que tiene mucho sentido es que esta estrategia tenga mis clientes en el centro.
+
+[00:20:54.190] 
+Evidentemente teniendo también muy presente el consumidor final.
+
+[00:20:59.470] - Carlos
+La estrategia de vuestro cliente emerge de la estrategia del consumidor final. ¿Es así?
+
+[00:21:28.060] - Laura
+Si te pongo dos ejemplos, 1. A raíz del Covid, nuevas necesidades digitales en los bares que evidentemente impactan en el consumidor y en las cuales nosotros estamos ayudando. De repente necesito tecnología, necesito códigos QRs, motores de reservas, tecnología y plataformas que necesitan los bares que no tienen ni los recursos ni el foco para hacer todo esto. Pero para eso estamos, les estamos ayudando.
+
+[00:21:57.880] - Speaker 3
+2. por otro lado una estrategiaB2B2C offline que estamos digitalizando: la ruta de tapas. 
+
+[00:22:19.480] - Speaker 3
+Lo que estamos haciendo es digitalizarlo para ofrecer una mejor experiencia al consumidor y sobre todo, aportar más valor a los bares.
+
+[00:22:31.660] - Carlos
+¿De dónde salen vuestros datos?
+
+[00:22:51.730] - Laura
+Cuando hay una transacción los consumidores nos ceden sus datos. Hacemos un trato exquisito de esos datos. Y muchos consumidores voluntariamente no ceden sus datos y se registran en nuestras plataformas porque les aporta un valor añadido la información que les ofrecemos.
+
+[00:23:57.880] - Carlos
+¿Si volvieses a empezar, qué harías diferente?
+
+[00:24:14.620] - Laura
+Una de las primeras cosas que haría distinta sería dimensionar bien las necesidades en el resto de áreas.
+
+[00:24:20.710] - Speaker 3
+Porque si no generas muchos cuellos de botella y muchas frustraciones, porque evidentemente no se llega o no se puede llegar al ritmo deseable. Sobre todo en el área de IT. Es algo que se tiene que hacer en el minuto uno. Y la otra cosa que también se tiene que hacer sin dilaciones es establecer un buen modelo de relación con estas áreas porque si no está claro, todo el mundo lo hace como se hacía antes, se genera mucha pérdida de tiempo.
+
+[00:25:50.900] - Carlos
+¿Cuál es la importancia de la innovación en Damm? 
+
+[00:26:03.170] - Speaker 1
+
+
+[00:26:05.300] - Laura
+Una empresa que lleva tantos años y ha pasado por todo lo que ha pasado, creo que lleva en el ADN la innovación. Desde la creación de nuevos productos, la incorporación de nuevas tecnologías en las plantas, en todo lo que hace.
+
+[00:26:23.000] - Speaker 3
+Dicho esto, estamos cambiando la manera en la que innovamos. Creo que había cierto monopolio en cómo se innovaba y creo que la clave es abrirlo y democratizarlo. Con las herramientas necesarias y con formación, creo que todos podemos ser personas que aportan innovación a la organización.  Y Los que saben dicen que cuando pones a todo el mundo a innovar, solo el 7% de la innovación en la organización viene de las tradicionales áreas de I+D+I y que el 70% viene del resto de colaboradores y colaboradoras en la empresa, los empleados. Y el resto de la innovación viene de colaboraciones externas. Trabajar con startups, sponsorships como el MWC o Tech Barcelona, ir a eventos, ferias, relacionarnos con los hubs de innovación a nivel internacional, programas con las universidades también nos trae mucha innovación. Al final hablamos de tejer una estrategia de varias vías o varias maneras de innovar de manera abierta.
+
+[00:27:51.620] 
+No hay que volverse locos en buscar lo más disruptivo el minuto uno. Hay innovación incremental que aporta muchísimo valor. Entonces creo que es muy interesante ir a buscar esa innovación incremental y irlo abriendo y hacerlo más disruptivo gradualmente.
+
+[00:28:08.680] - Speaker 1
+
+
+[00:28:23.700] - Carlos
+También hay una transformación en el proceso de innovación en sí mismo y abrir eso a la experiencia del cliente final, es un reto titánico.
+
+[00:28:52.620] - Laura
+Además es un proceso súper bonito. Yo me emocioné de ver a tantas personas de la organización implicadas en un momento tan complicado ya que lo hicimos online.
+
+[00:29:05.760] 
+En la primera fase participaron unas 400 personas y fue increíble y además con unas ideas espectaculares. De las siete ideas que llegaron a la final, ya estamos ejecutando cuatro de ellas.
+
+[00:29:28.470] - Speaker 3
+Es súper bonito, muy gratificante, pero además aporta muchísimo valor a la organización.
+
+[00:29:36.390] - Speaker 1
+
+
+[00:29:55.020] - Carlos
+¿Por dónde esperáis que llegue la disrupción a un sector como el vuestro?
+
+[00:30:02.760] - Laura
+La verdad es que no ha llegado. Van llegando cosas que afectan en algunas partes de la cadena de valor, por ejemplo, la parte de la última milla, del delivery o las experiencias en casa.
+
+[00:30:13.910] - Speaker 3
+Pero al final no hay algo que haya cambiado radicalmente nuestro sector.
+
+[00:30:20.270] 
+Yo siempre creo que las disrupciones de nuestro sector van a llegar en forma de servicios, nunca en forma de productos, en forma de experiencias.
+
+[00:30:30.670] - Speaker 2
+Pero también hay retos. Resolver la parte de la logística, la distribución. En España tenemos una capilaridad tan grande de puntos de venta que hace que nuestro negocio tenga unas características complejas.
+
+[00:30:51.310] 
+Es un consumo super social, que ocurre normalmente fuera de la casa y eso es algo que creo que no va a cambiar, al menos aquí.
+
+[00:31:12.100] - Speaker 3
+Así que van a haber muchas innovaciones, pero de momento un cambio radical, como ocurrió con los taxis, con los hoteles y Airbnb, no ha ocurrido de momento. Hay que estar cerca para que, si hay alguna disrupción, que seamos una compañía tan ágil y flexible para que podamos adaptarnos.
+
+[00:32:34.120] - Speaker 1
+
+
+[00:32:39.010] - Carlos
+¿Cuál es vuestro principal reto de cara al futuro?
+
+[00:32:59.680] - Laura
+Desde mi área van a ser siempre dos.
+
+[00:33:04.600] 
+1. Crecer, ayudar al crecimiento de la compañía. Y esto implica crecer más haciendo lo que hacemos, pero también crear nuevos modelos de negocio.
+
+[00:33:14.750] - Speaker 3
+2. Ser más eficiente. La tecnología nos ayuda en estas dos líneas. Estos son los retos de siempre.
+
+[00:33:29.860] - Speaker 3
+Pero luego creo que un reto muy importante es poner la tecnología al servicio de la sostenibilidad. La sostenibilidad ya es el new digital. Hace unos años hablábamos de que las empresas que no sean digitales quizá dentro de 10 años ya no van a existir. Y ahora ya las empresas que no sean digitales y que además no sean sostenibles, no van a existir. Con lo cual aquí hay un reto doble. Hay que hacer una total apuesta por la sostenibilidad, no desde el punto de vista de las personas, también del medio ambiente. Además, aquí la tecnología es una gran aliada y una gran ayuda.
+
+[00:34:16.830] 
+Este es el reto: crecer, sobre todo desde el punto de vista internacional, y alcanzar la excelencia en cuanto a la sostenibilidad.
+
+[00:34:50.870] - Carlos
+Sobre sostenibilidad y ética, ¿qué opinión tienes al respecto de las nuevas conversaciones acerca de Behavioral Economics? 
+
+[00:35:02.290] - Speaker 3
+
+
+[00:35:34.600] - Laura
+Se han hecho tantos malos usos de nuestros datos, que ahora estamos hablando de esto. Esto ha hecho que lleguemos a tener unas leyes muy estrictas, unas multas muy elevadas, pero no se están cumpliendo.
+
+[00:36:29.290] 
+Creo que como reto futuro acabaremos con la identidad digital que será nuestra y creo que todas las innovaciones van por ahí.
+
+[00:36:38.260] - Speaker 2
+Si quiero venderé mis datos, a quien yo quiera y cuando yo quiera, y quien lo monetizará será la persona, porque esos datos son de mi propiedad. Habrá tal protección, pero sobre todo fomentada porque se ha hecho muy mal uso.
+
+[00:36:53.680] 
+Todo apunta hacia una identidad digital que nos va a recordar a lo que teníamos hace 40 años. Mi madre. En el cajón del comedor había un cajón donde tenía el libro de familia, los pasaportes, las radiografías del médico, todo estaba en ese cajón. Pues volveremos a tener ese cajón, aunque sea en un entorno digital donde nadie más lo va a poder ver, a no ser que yo lo quiera compartir. Creo que va a ir por ahí. Pero falta tiempo y todavía no estamos maduros para llegar ahí, pero vamos a tener un cajón digital, donde va a estar toda nuestra información que compartiremos solo con quien queramos y en el momento en que queramos compartirla. Creo que va a ir por ahí.
+

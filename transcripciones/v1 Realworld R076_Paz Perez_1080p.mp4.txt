@@ -1,0 +1,354 @@
+[00:00:00.16] - Carlos Iglesias
+Los últimos dos años han sido una verdadera locura. Si pensamos en la explosión de la inteligencia artificial generativa. La velocidad a la que evolucionan los modelos y el impacto que suponen en nuestro trabajo es algo que no habíamos visto nunca hasta hoy. Ya han cambiado nuestra forma de trabajar, pero quién diseña estos modelos? Y no me refiero únicamente al diseño de interacción o cómo interactuamos con ellos, sino cómo se diseñan los modelos en sí. Las alucinaciones, la privacidad, los sesgos de la IA no son solo problemas que encuentran los usuarios que la usan, sino que están profundamente arraigados en la forma en la que se construyen. Qué oportunidades se abren ante nuestros ojos? Cuál es el papel de los Model Designers en la creación de modelos de IA éticos y responsables? Hoy hablamos con Paz Pérez, Senior UX Designer en Google. Paz. Déjame explicar brevemente algunos puntos de tu trayectoria a las personas que nos escuchan en este momento. Para empezar, decir que actualmente estás en Google, entre otras cosas, formando a cientos de Googlers en los fundamentos de los modelos de la inteligencia artificial y cómo la experiencia de usuario debe ayudar a innovar en sus productos.
+
+[00:01:24.07] - Carlos Iglesias
+Tu interés por la inteligencia artificial viene de lejos. Ya antes de llegar a Google estuviste trabajando en Autodesk, en el diseño de su asistente conversacional y a nivel de formación destaco un programa en el MIT sobre diseño y construcción de productos y servicios de IA. Me parece súper interesante. Dentro de un rato te preguntaré cómo es vivir en San Francisco, pero déjame decirte que me ha explotado la cabeza cuando he visto que tu formación universitaria arranca con un grado y Máster en Arquitectura. Guau! De dónde sales? Paz Perez y bienvenida a Real World.
+
+[00:02:00.04] - Paz Pérez
+Muchas gracias por tenerme, Carlos.
+
+[00:02:01.19] - Carlos Iglesias
+No, de verdad que es un verdadero placer. Estoy super contento. Es un honor. Te lo digo de verdad. No siempre. O sea, es muy difícil acceder a perfiles como tú. O sea que es una suerte que seas española y que además te presente que te prestes a a venir a este podcast. Ahora te voy a preguntar sobre San Francisco porque tengo mucha curiosidad y estoy seguro de que las personas que nos escuchan también. Pero antes tengo que arrancar con la pregunta canónica de este podcast, que es qué es para ti el mundo real?
+
+[00:02:30.07] - Paz Pérez
+Pues el mundo real es como cada uno experimentamos nuestra vida, nuestro día a día. El mundo real es como como vamos por por nuestro día, con nuestro aprendizaje, con nuestro bagaje, con nuestras cosas, con nuestro contexto que vamos a hablar. Hay mucho de contexto y yo creo que el mundo real es muy personal al final.
+
+[00:02:52.18] - Carlos Iglesias
+Pero lo relacionas con el aprendizaje. Si me gusta esto, me interesa.
+
+[00:02:56.22] - Paz Pérez
+Yo creo que vamos aprendiendo todo el rato y vamos sumando.
+
+[00:02:59.19] - Carlos Iglesias
+Me gusta mucho tu perfil, lo decía en la intro porque es que vienes de arquitectura y ahora fuera de micro me decías no es tan raro. Yo he conocido a más gente, yo no, yo no he conocido a tanta gente que venga de la arquitectura. Además, tú te tiraste muchos años. Una dilatadísima experiencia en arquitectura.
+
+[00:03:15.23] - Paz Pérez
+Sí, sí. Yo estuve trabajando muchos años de arquitecta, un par de ellos aquí en Barcelona, que la verdad que fueron años estupendos y muchos en Nueva York también. Allí en Nueva York lo que hacía era escuelas públicas. Ok, pero siempre tuve un ojo en tecnología desde que terminé la carrera. Cuando yo terminé arquitectura, que lo estudié en Sevilla, decidí mudarme a Barcelona, que fue cuando empecé a trabajar aquí. Pero ya montamos un e-commerce por aquello del 2005 2006, cuando montar plataformas de venta no era como ahora, que era un plugin. Que lo puedes hacer fácil, entonces tienes que construirlo desde el principio. Qué bueno! Y fue cuando mi pareja, que es ahora mi marido, que es americano, empezó a programar y yo empecé a diseñar, hacer webs, hacer todo tipo de catálogo. De todo. Mientras por la mañana trabajaba como arquitecta. 
+
+[00:04:19.13] - Paz Pérez
+Y aprendimos muchísimo de tecnología los dos. Hasta que llegó el 2008, cuando empezó a bajar todo un poco. Mi pareja se fue a Jacksonville y después me fui yo para intentar ver qué pasaba con el negocio y cayó justo en Lehman Brothers y aquello ya no pudo seguir.
+
+[00:04:37.06] - Carlos Iglesias
+Mal momento para la arquitectura
+
+[00:04:38.13] - Paz Pérez
+Claramente sí. Pero lo que sí que me dio fue esta, este gusanillo por toda esa parte tecnológica. Y aunque yo seguí, pues bastantes años después trabajando en Nueva York como arquitecta, siempre tenía la parte ahí, como siempre miraba que estaba pasando en este mundo tan rápido e innovador y tan ya era algo que que me llamaba muchísimo la atención. Hasta que llegó un momento que dije aquí hay que tirarse a la piscina, vamos para allá, vamos para allá con todas.
+
+[00:05:05.08] - Carlos Iglesias
+Es que no ha sido muy interesante. Antes hablábamos y me decías tampoco hay tanta distancia de la arquitectura al UX Design o al. Al final, cuando estás proyectando, diseñando un tipo de edificio u otro, tienes que entender quiénes son las personas que van a utilizar el edificio. Me parece interesante el acercamiento. Entiendo, Entiendo un poco por qué no le ves tanta distancia de una cosa a la otra.
+
+[00:05:29.10] - Paz Pérez
+Si al final resuelves problemas de diseño, aunque el medio es un poco diferente. Pero digamos que la mentalidad que tienes a la hora de diseñar tanto un edificio como una silla, como un producto digital, realmente es la misma, O sea, no es tan diferente. Y la arquitectura te da unas tablas increíbles para saltar después a UX o a diseño de producto en general.
+
+[00:05:50.03] - Carlos Iglesias
+Oye, y cómo es estar en Google, en San Francisco? Explícanos un poco.
+
+[00:05:53.22] - Paz Pérez
+Pues la verdad es que es fantástico. A mí me encanta. O sea, trabajas con gente, sobre todo de la gente. Lo mejor. O sea, la. Desde fuera se ven mucho los perks, no? Que si sala de masaje, que si los snacks gratis...
+
+[00:06:10.10] - Paz Pérez
+ y tú siempre estás en reuniones. Yo creo que no hago masaje hace meses. Los snacks desgraciadamente sí que comemos demasiado, sobre todo con el estrés y tal, pero para mí me quedo con las personas, unos profesionales excelentes. Esa es realmente la crème de la crème. Gente muy buena. Qué guay. Sí, Y lo que te permite Google, además, es poder llamar a gente que está en otras ramas, que no es la tuya. Y los googlers son muy generosos, que es algo que no es, no tiene valor. O sea, no se puede poner precio a eso.
+
+[00:06:46.06] - Carlos Iglesias
+Yo no he estado en NY, en Mountainview, ni en NY, en Silicon Valley, en Google. He estado muchas veces en las oficinas de Google de aquí en España y conocí a muchos Googlers y realmente creo que es bastante global esa cultura. O sea que me me lo creo mucho porque he conocido a muchas personas que coinciden con un nivel de inquietud muy alto. Gente obviamente muy inteligente porque desgraciadamente se va todo el mundo.
+
+[00:07:15.06] - Paz Pérez
+Es inteligente, pero gente con un nivel de inquietud por seguir aprendiendo.
+
+[00:07:19.16] - Carlos Iglesias
+Inquieto, gente innovadora, gente con ganas de aprender, de probar cosas nuevas y tal. Y mucha generosidad. Eso es verdad. Yo siempre lo he notado.
+
+[00:07:27.15] - Paz Pérez
+Eso se contagia, además, porque a ti te dan el tiempo, tú lo das después.
+
+[00:07:31.16] - Carlos Iglesias
+Sin duda. Interesante esto a nivel cultural. Google, desde luego, merece un estudio, un estudio aparte. Pero hoy no vamos a hablar de cultura. A pesar de que este es un podcast donde desde luego el tema de la cultura interesa muchísimo. Pero tú. Bueno, tienes un par de artículos que me parecen súper interesantes. Uno de ellos donde hablas de los Model designers y llamémosles diseñadores de modelos. Si te parece. Y de qué hablas tú cuando hablas de un diseñador? Una diseñadora de modelos. Y qué habilidades necesita? O sea. De qué estás hablando? Que qué es esa profesión o ese rol?
+
+[00:08:10.15] - Paz Pérez
+Ese artículo surgió porque a nivel de de profesión, yo otra vez tengo desde el punto de UX, desde el punto de vista de diseño, pero UX como disciplina que también engloba a Research y Writer y todo, estábamos centrándonos mucho en la interfaz o en el proceso del día a día y no estábamos viendo más allá. El cambio realmente gordo de paradigma de lo que es un modelo. Entonces, si tú estás pensando que ahora los usuarios van a interactuar con el output, con lo que te genera ese modelo, tanto si es un contenido de texto como si es la interfaz en sí que en algún momento será generada. Cómo puedes tener control como uxer sobre esto? Cómo puedes hacer esto? Y realmente todo es parte del entrenamiento del contexto que le das al modelo y la parte de feedback de cómo la incorporas. Entonces el artículo surge de ahí, de cómo podía yo poner mi pensamiento a la comunidad de oye chicos, aquí algo está cambiando y ahora hay que utilizar estos modelos como herramienta, pero también darles forma porque son material que tú puedes moldear.
+
+[00:09:18.05] - Paz Pérez
+Entonces, cómo podemos integrarnos en ese proceso que ya está pasando desde un punto de vista 100% de ingeniería, pero que los resultados pues tienen muchas alucinaciones y sesgos y que a lo mejor ni siquiera están alineados con lo que el usuario quiere. Cómo podemos hacer esto? Y surge de ahí.
+
+[00:09:38.03] - Carlos Iglesias
+Qué bueno! He escuchado como que decías. O sea, dos cosas. Me quedo con dos cosas importantes. Darle contexto y. O sea, lo que podemos hacer es para modelarlo, para así modelarlo. Es una buena palabra, creo. Es darle contexto y. Y el feedback? No? Claro. Y ahí. Bueno. Y más allá de la data, no? Conocidos problemas de sesgos y este tipo de cosas, no? Cómo? Cómo trabaja una diseñadora de UX en el contexto de un determinado modelo? Me puedo imaginar un poco cómo es esa retroalimentación, no? Pero qué significa trabajar en el contexto?
+
+[00:10:18.07] - Paz Pérez
+Sí. Mira, yo siempre digo que si hay algo que la gente tiene que entender de la gente de diseño es que hemos vivido en un mundo donde tú tienes un problema y la parte difícil era la parte del medio que era romperlo en pasitos. Y después tenías un outcome que era más o menos determinado de cómo iba. O sea, lo vuelves a hacer y vuelve a salir. Lo mismo si haces todos los pasitos Ahora, esto ha cambiado y el lugar del problema está en los extremos. Está en entrenar el modelo y el contexto, que es lo que me estás preguntando o en el feedback. Y esa es la parte que tenemos que dominar como uxers. Cómo podemos entrar en la parte de contexto desde lo que se alimentan estos modelos, cómo se entrenan? Es con una cantidad de datos increíbles, O sea, es asegurarte que en esas bases de datos sean lo más limpios posible, entender de dónde vienen esos datos, quién los está manejando, entender que no haya sesgos ahí, o sea, como trabajar muy de cerca con la gente de Data Science.
+
+[00:11:18.02] - Paz Pérez
+Vale, es un poco complicado cuando son modelos como digamos, preentrenados, como si tú usas un Geminoid o un GPT, ya que lo coges porque ahí no tienes acceso a eso. Ya, pero esto lo vas a entrenar después, hacer un fine tuning para el contexto de tu empresa y ahí ya sí tienes más poder. Tú como diseñador vale entender que le estás dando hoy también una porción que es el Context window, que es un concepto muy importante de entender para gente de UX, que serían los prompts internos que el usuario final no ve pero que las compañías están poniendo. Eso es para virar el modelo. Entonces ahí tiene que haber un partnership entre ingeniería y UX y ahí los que primero han entrado, que tiene muchísimo sentido, es la gente de Content Design y de UX, porque necesitas poder escribir buenos prompts, tener un conocimiento de lenguaje, de taxonomía, de arquitectura de la información con un gran conocimiento del usuario. Entonces, quién reúne esas, ese tipo de, digamos, de parámetros? Pues la gente de content y tal, que entienden mucho el usuario.
+
+[00:12:25.23] - Carlos Iglesias
+Y este tipo de perfiles no? Vale, entonces entiendo el contexto. Cuando hablas de contexto, claro. Cuando hablabas de contexto entendía precisamente en la parte de prompting la parte de parte de crear los prompts. Pues eso, para ir modelando el propio modelo en sí mismo. Claro, hay una parte muy importante de data y esa parte de data también hay como una tendencia ahora muy fuerte en data sintética, en generar grandes datos. Claro, y entiendo que por ahí también tenemos muchas oportunidades. Cómo podemos generar esa data sintética que para quien nos esté escuchando y no sepa de qué va esto es data sintética. Lo que significa es que es data generada, que no es data real, sino que es. No sé cómo explicarlo muy bien, pero que es data generada, digamos, por modelos de inteligencia artificial o o de otras formas, no? Entonces, claro, esto también nos puede permitir modelar, entrenar al modelo con una data, a lo mejor con menos sesgos, a lo mejor. Vale, vale.
+
+[00:13:23.09] - Paz Pérez
+Interesante tanto para entregar entrenar al modelo que va a hacer, digamos, esa sinceridad a esa data. Sintaxis sintética como para revisarla también sabes porque al final tiene que haber algún tipo de humano revisando el output de esos modelos que después vas a entrenar a otros con eso. Claro, todo ese loop de ser humano o es una persona o en las empresas grandes se subcontrata a otras empresas. Ok, la documentación tiene que estar muy clara porque además en el tiempo va a ir cambiando lo que se necesita, La gente va a ir cambiando. Quién cree esa documentación, quién crea esa, ese diálogo, pues debe ser gente de UX también, otra vez con ingeniería, pero ingeniería solo digamos, en un vacío, no va a hacer que haya grandes progresos a niveles de producto, lo que la gente quiere utilizar, o sea, hasta ahora esta disciplina de hoy está muy liderada por ingeniería, en lo cual tiene todo el sentido del mundo. Gracias, pero hasta que no nos despertemos los demás y empezamos a poner nuestras cabezas con ellos, no vamos a ver los grandes productos que de repente cambian el mundo Interesante.
+
+[00:14:32.16] - Carlos Iglesias
+Y qué habilidades tiene que tener alguien que quiera ser Model Designer o que sea Model designer?
+
+[00:14:41.08] - Paz Pérez
+Como ahora mismo están entrenados en grandes cantidades de lenguaje que en el futuro no, ahora también se está hablando de special. Ahí ya a lo mejor después es algo más visual o 3D o lo que sea. A nivel de día de hoy es lenguaje. Gente que sepa escribir muy bien, gente que venga de filologías, de que entiendan realmente cómo se estructura una buena frase y como que no haya incoherencias entre las diferentes frases. Todas esas incoherencias son alucinaciones. Después en en el output de los modelos, gente que entienda también cuál es el proceso de de entrenamiento, por lo menos a un nivel básico para hablar con ingeniería sobre ellos. No que sepas entrenar a un modelo, pero sí entiendas las fases que hay con el idioma. No tiene específicas palabras.
+
+[00:15:30.02] - Carlos Iglesias
+Me parece súper interesante. En los últimos años hablamos de la importancia de la gente que ha estudiado filología, los lingüistas que de alguna forma tú y yo más o menos somos de una generación parecida. Tú eres más joven que yo. Bueno, pero cuando nosotros estudiábamos eran carreras denostadas o eran carreras. Quien hacía este tipo de carreras era porque eran vagos y no querían. No, yo lo recuerdo así y me gusta mucho que realmente se están empezando a poner en valor, pues este tipo de estudios más humanistas y este tipo de carreras que, que que hace unos años era como no, no, esto no tiene salida y hoy se pone en valor, algo que yo creo que tiene muchísimo valor.
+
+[00:16:14.23] - Carlos Iglesias
+¿qué dificultades, no? Claro. Diseñadores de modelos trabajando con ingeniería. Trabajando con ingenieros de data, Con ingenieros. Cómo? Cómo es ese trabajo y cómo deben trabajar? Y qué dificultades se encuentran ahí?
+
+[00:16:35.04] - Paz Pérez
+A ver, yo no trabajo como eso, pero sí que hablo con bastantes model designers o bastante gente que trabaja en, particularmente con Gemini. Y yo creo que ya han encontrado su sitio. Al principio no se vio como un objeto extraño entrando porque ni tanto la gente ni los diseñadores de UX que entraban, los content designer que entraban, salían muy bien su rol. Ni la gente de ingeniería entendía el rol de los otros, pero ya se ha empezado a ver a través de de de ir probándolo lo mucho que mejoran los modelos con prompts y con data de calidad en lugar de cantidad. Y una vez que empiezas a ver esto, pues todo el mundo empieza a encontrar su hueco y empiezan a tener dinámicas, digamos, más sanas. Sí que es verdad que es un campo tan nuevo que yo lo que traigo hoy son más preguntas que respuestas, pero eso es parte de la gracia del momento. Es el momento. Entonces no es que haya procesos todavía muy definidos. Se están definiendo en el momento.
+
+[00:17:35.11] - Carlos Iglesias
+Y yo he de decir no he vivido este beef. Déjame decirlo así. Entre Microsoft y Google de estos últimos años, OpenAI y de repente no. Y hablábamos del VAR y luego eso cambia. Y ahora Géminis y yo estoy empezando a ver productos de Google, que ojo! O sea, mi yo es para mí el producto del año es Notebook. LEM Tal cual. O sea, es increíble ese producto, ese producto es sin. Si las personas que escuchan este podcast no lo conocen, deberían, porque para mí es un game changer, es un. Es un producto que te cambia la forma en la que trabajas. En equipo trabajarán las empresas? Me parece increíble. O sea, me parece un productazo y si.
+
+[00:18:18.12] - Paz Pérez
+No, y es muy interesante también como surge de un proyecto de casi del 20%. 100. Una cosa que se entiende de Google es que cuando tú entras, tú tienes tu trabajo, yo mis acciones en ads y tiene una parte de pero, pero tú tienes un 20%, pero si tienes un Passion Project, si tienes algo que realmente te interesa y yo para mí desde el principio fue hoy y la educación en hoy para otros. Pero esta gente de notebooks empezaron a hacer esto y aquello empezó a crecer y a tener una tracción tan grande que se ha convertido en producto estrella de la empresa.
+
+[00:18:51.03] - Carlos Iglesias
+Es que es increíble.
+
+[00:18:52.07] - Paz Pérez
+Es así, Sale la innovación dando a tus empleados un poco de espacio.
+
+[00:18:56.12] - Carlos Iglesias
+Esto es lo que Google siempre ha hecho muy bien. Esa parte la han mirado muchísimo, siempre y siempre la ponemos de ejemplo en clase y en y en este en estas conversaciones, porque no?
+
+[00:19:06.14] - Paz Pérez
+Y yo estoy aquí gracias a eso. También quiero decir que yo empecé con mi, tuve una visión muy clara de que quería ir con educación y ahí y empecé a hacer unos cursos que tuvieron mucho éxito del boca a boca y aquello empezó a cabo escalando y ahora son videos para toda la empresa, para todos los googlers que.
+
+[00:19:23.17] - Carlos Iglesias
+Te conocen, mucha gente de google.
+
+[00:19:25.05] - Paz Pérez
+No sé si me conocen, pero ahí estoy en los videos.
+
+[00:19:29.06] - Carlos Iglesias
+Qué te iba a decir a ti cuando eras arquitecta? Tal cual. Qué bueno! Oye, Cómo? Tema de ética. Tema de ética en el diseño de modelos. Cómo se trabaja eso? Cómo? Cómo se trabaja? Cómo crees tú que es conveniente trabajar?
+
+[00:19:46.05] - Paz Pérez
+Es que has dado en un tema la parte de la ética. La parte de la ética es muy compleja. Me gusta mucho que haya departamentos o conversaciones sobre ética, porque yo creo que todo lo que sea que las empresas hablen de cuáles son los valores de la empresa, cuáles son los valores de la sociedad a la que sirven. Es súper importante, pero es verdad que lo que es ético para ti puede que no sea ético para mí. Correcto. Entonces entras en un debate que a veces no se traduce a cosas muy concretas. Vale. A mí me encanta cómo habla sobre ética o Beta Samson. No sé si la conoces. Es una directora de UX y en Google. Y para mí es de las voces que hay que seguir. Porque cuando habla parece que es una señora que que lleva muchos años en esto. Habla desde el conocimiento y habla muy claro. Ella habla de Human Risk Engagement. Entonces, en lugar de ética es de el daño que se puede hacer a las personas que están interactuando con esta, con AI.
+
+[00:20:46.10] - Paz Pérez
+Y ahí es donde tenemos una responsabilidad enorme. Tanto las empresas o viene desde arriba, pero nosotros como diseñadores nuestra parte que lo que diseñemos no haga daño a ningún humano, ni psicológico, ni físico. Pero vamos a una revolución. Es que no sabemos lo que viene. Esto va a cambiar el mundo completamente y desgraciadamente, pues va a ser desproporcionado. Cómo va a afectar a una gente contra otras? Y si pierden los de siempre al final? O sea, la gente que no esté, los datasets, que no esté, que se ha visto en los casos de policía donde hacían este facial recognition. Y qué pasa? Que la gente que tenía un color de piel más oscuro no se le reconocía bien y eso acaban arrastrando a gente que no era y acababan condenando a gente que no era. O sea, tragedias. Y estamos solo al principio. Entonces, ese tipo de responsabilidad tan fuerte cuando un humano está interactuando con hay, es algo que las empresas tienen que poner todos sus sus marcos y sus como herramientas a favor de las personas.
+
+[00:21:53.01] - Carlos Iglesias
+Desde luego es un problema complejísimo ya como decías y como el propio, el propio producto puede sesgar y luego que de alguna forma hay no me acuerdo cómo se llama este sesgo, pero que es el sesgo de que oye, que como lo dice la IA. Sí, sí, sí, lo aceptamos. Exacto, exacto. El computer bias, el sesgo del ordenador, como lo dice la máquina, lo dice el ordenador. Esto es listísimo. Esto no puede ser que se equivoque, claro. Y esto alguna vez lo hemos hablado en algún episodio de este podcast donde aquí en Catalunya se están tomando decisiones en un programa que se llama Riscanvi, que asigna un scoring a las personas que están en la cárcel para darles un permiso para salir, por ejemplo, que se están utilizando algoritmos ya en todo el mundo, algoritmos de de scoring de salud, de de talento, de dentro de las propias organizaciones para hacer performance de tal.
+
+[00:22:52.03] - Carlos Iglesias
+Está sesgado obviamente, pero se toma como arbitraje neutro y valor objetivo y.
+
+[00:23:01.11] - Paz Pérez
+Da mucho miedo. Carlos Porque no estamos bien, no estamos bien.
+
+[00:23:08.00] - Paz Pérez
+Pero ahí es donde tienen que estar los diseñadores más que nunca. Sabes que yo siempre digo que hay que hacer un pledge como la que tienen los médicos que tienen este juramento hipocrático. Sí, pues deberíamos hacer algo para diseñadores también. Dónde poner nuestras fuerzas para el bien de la humanidad?
+
+[00:23:27.11] - Paz Pérez
+Bueno, toda la gente que trabaja en tech. Lo que quiero decir es que las herramientas que hacemos han cambiado el mundo, o sea, como interactuamos ahora, sobre todo los adolescentes y tal, no tienen nada que ver con nuestra generación, pero es que no va a tener nada que ver con la siguiente. Que pasa cuando tu hijo tenga un amigo que es gay? O sea que esas cosas van a pasar. Hay mucho, hay mucho por hacer y hay mucho por pensar y tenemos que estar todos como a esta. Sabes?
+
+[00:23:53.08] - Carlos Iglesias
+Hace unos años hablábamos con con Sara Rink, que es amiga tuya, que conoces y luego con Gloria Langreo también, que es una diseñadora a la que admiro muchísimo y que también entrevistamos en este podcast. Y ella hablaba de, precisamente de la responsabilidad que tenemos como diseñadoras de de Tener en cuenta que hay personas que van a abusar, que hay personas que van a hacer un mal uso no esperado e incluso ella hablaba. Me gustó mucho ese concepto, ella hablaba de hacer un pre mortem. O sea, no te esperes a tener un producto, es dificilísimo porque al final un producto tú lo creas y la gente lo utiliza como quiere, no? Pero de alguna forma sí que hay una responsabilidad de decir oye, hacerse la pregunta en el momento que estás creando un producto, qué puede salir mal aquí o cómo? Qué malos usos, no? Desde un punto de vista ético ético, por lo que nosotros, responsables de la creación del producto, entendemos por por lo que lo que es correcto y lo que no lo es, no?
+
+[00:24:51.13] - Paz Pérez
+La gente que estamos metido en tecnología pensamos mucho en el primero que ya no se puede diseñar para el 80% dejando el 20% atrás, sino al contrario, tenemos que centrarnos en la gente que se queda atrás y y después que debemos diseñar para lo que no se puede hacer. O sea, es muy fácil, sobre todo con ingeniería. Diseñar para las posibilidades, porque además es como design. Es como y esto y también puedes hacer lo otro. Pero todo lo que no deberíamos hacer y todo, todos esos límites, son críticos.
+
+[00:25:33.04] - Carlos Iglesias
+Vamos a hablar de agentes. Venga, va, porque es un tema que que conoces, que tratas y que me gusta muchísimo. Me parece súper interesante. Agentes de AI, por favor describe qué es un agente de IA. Y para quien no lo conozca o no sepa lo que es.
+
+[00:25:54.11] - Paz Pérez
+Si no, y gracias por preguntarme que lo describa, porque es una palabra que se está utilizando para todo ahora como un pequeño comodín y todo el mundo tiene un agente. Pero cuando yo hablo de agentes no hablo lo que lo que está ahora. Hablo de lo que viene. Exacto. O sea, hablo de que son sistemas inteligentes. Va a ser un modelo de IA. Ahora será un LLM. Vamos a ver que después. Es algo inteligente ahí que puede razonar, que puede planear, que tiene memoria. Va a recordar cosas que quieres que recuerde o no. Ahí es donde entramos nosotros, que puede utilizar herramientas y que puede conectarse con con otros agentes. Va a trabajar de manera sistemática, sistémica.
+
+[00:26:40.12] - Carlos Iglesias
+Es que esto me parece como fundamental que la gente entienda que estos agentes van a poder utilizar software, van a poder utilizar aplicaciones y herramientas que ya tenemos y que utilizamos nosotros en nuestro día a día y además de forma secuencial. No van a poder razonar que eso siempre suena como weird. Suena un poco raro, no? Qué significa razonar cuando estamos hablando de un algoritmo? Sí, pero. Bueno, Entendido como. Como yo lo entiendo como yo lo entiendo y. Como yo lo entiendo. Es esa capacidad de secuenciar, de decir oye, vale, pues para hacer esta tarea primero habría que hacer esto, luego esto, luego esto, luego esto. Empezamos por esta y primero te desarrollo esta tarea y se conecta con otros agentes y utiliza las herramientas y llega a conclusiones y de ahí pasa como a un siguiente paso y va evolucionando de alguna forma.
+
+[00:27:31.07] - Paz Pérez
+Pero tú has visto cómo has dicho que llega a conclusiones? No es eso. Claro, por eso.
+
+[00:27:35.06] - Carlos Iglesias
+Por eso, por eso, por eso afino el matiz. Porque. Porque cuando decimos razonar es peligroso también utilizar ese lenguaje es inevitable, porque no se me ocurre una palabra mejor, pero a la vez. Pero que es.
+
+[00:27:45.20] - Paz Pérez
+Razonar, no? O sea, si tú buscas patrones y sacas conclusiones, este es un razonamiento y eso lo van a poder hacer. Entonces lo que hay que tener muy claro es que no tienen sentimientos. O sea, ese sentimiento asociado con lo que hacen o con lo que piensan, nunca va a estar ahí. Fuera de eso, Fuera de eso. Sabes? Todo lo demás está. Digamos, por. Por, Por coger. Es un campo interesantísimo el de los agentes. Y la idea es ir hacia un mundo donde en lugar de tener aplicaciones, tú tienes un agente orchestrator que va llamando a los demás. Y tú le puedes decir Quiero comprar una casa en Cádiz. Y ahora la gente se busca la vida y llama a otros agentes y otras empresas, no sé qué, lo que sea. Todo en punto. Tiene que haber un control humano, no? O sea que es un compromiso de las empresas y de los diseñadores. Cuál es la transparencia? Dónde está el consentimiento? Dónde está el.
+
+[00:28:44.15] - Paz Pérez
+Ya no quiero hacerlo con LA y lo quiero hacer yo, no? Ese nivel de autonomía, pero sí entender que es un cambio de paradigma muy fuerte en el sentido que tanto los humanos, las personas como los agentes vamos a tener poder de decisión. Y hasta ahora no hemos tenido una tecnología que tuviese poder de decisión así programada. Si le haces a, B y C sí, pero no A de decisiones. Pero y entonces cómo diseñamos para esta este poder de decisión combinado? Cuando tú. Cuando yo. Es muy interesante, lo que viene con muchísimos beneficios y muchísimos riesgos y estamos hablando del futuro, o sea, no estamos allí, estamos ahora en la prehistoria de lo que van a ser los agentes.
+
+[00:29:25.21] - Paz Pérez
+Total Anthropic está haciendo cosas muy interesantes. No?
+
+[00:29:29.00] - Paz Pérez
+Sí, Anthropic. Es fantástico.
+
+[00:29:30.11] - Carlos Iglesias
+Volviendo otra vez a la parte de diseño y cómo esto nos afecta como diseñadoras de UX, Como la idea de. Vale, yo puedo tener agentes que estén probando y haciendo test de usuario. Test de agente en mis aplicaciones y pasando por los distintos user flows y y esto. O sea, cuánto cambia nuestro trabajo? O sea, cómo. Qué impacto tiene esto en nuestro trabajo?
+
+[00:30:05.20] - Paz Pérez
+Es que son dos cosas para mí. O sea, nos ayuda mucho a nuestro proceso, no? Desde Tienes un brainstorming con tus post-its y te hace sumario de insights, Perdón, todas las palabras en inglés, pero descubrimiento, descubrimiento, así como te te te hace que este proceso sea mucho más rápido y a lo mejor incluso encontrar más propuestas de valor en el momento como lo que tú dices, automatizar test de A, B o B testing. Pero para mí hay que ir también al más allá. Si el agente va a utilizar estas herramientas, ya sea vía API o vía, lo que está haciendo ahora anthropic de Computer House, donde tú ves a la gente con su clicker solo utilizando una interfaz gráfica que puedes también decirme que es menos eficiente, pero a la vez es mucho más transparente para el usuario que ve a la gente. Claro. Cómo diseñamos para la gente.
+
+[00:30:59.04] - Paz Pérez
+Para el agente. Y para la gente.
+
+[00:31:03.18] - Paz Pérez
+¿Cómo diseñamos para para este sistema inteligente? Entonces cómo hacemos A/B test para él o para ella? Para esto. Para este agente y para personas. Y tanto hay agentes que pueden tener todos los parámetros de cómo las personas funcionan y automatizar un poco ese proceso de tus usuarios finales o hacer A/B test para ver cómo el agente utilizaría la interfaz. Y hay que pensar en todas las posibilidades. Y otra vez, no hay respuestas. Hoy esto está cambiando.
+
+[00:31:42.23] - Carlos Iglesias
+Me llamó muchísimo la atención que propones diseñar un agent persona. O sea, como un user persona pero de un agente, para identificar cuáles son sus necesidades también.
+
+[00:31:58.11] - Paz Pérez
+Esto es muy nuevo. Todo esto surgió por un. Uno de los researcher de OpenAI, que es el researcher que ha hecho los papeles de Chain of Thought, está muy, muy metido, con el pulso de la industria. Él empezaba a hablar de que, bueno, la parte de los agentes cada vez empezaba a estar más tal, pero como la gente estaba utilizando la interfaz, había que diseñar para los agentes y la parte de UX estaba completamente verde. Y de ahí surgió una idea para mí de decir Claro, es que si los agentes tienen ahora este nivel de agencia y pueden realmente utilizar esto, cuáles son las herramientas de nuestro presente que utilizamos en el día a día para enseñar? Qué podemos reutilizar? Con ciertas modificaciones para realmente intentar entender a la gente? Una de ellas es hacer un agente persona, o sea, donde tú tengas el gol de esa gente, donde tengas las necesidades que tiene esa gente, donde tú tengas cosas como los datos o la última vez que se ha entrenado, quién lo ha entrenado.
+
+[00:33:25.24] - Paz Pérez
+Lo que si hay que quitar es la parte de los de los sentimientos, no? Entonces, hablando de esto, sí que ha habido gente que me ha dicho bueno, pero claro, los las, las personas. Una de las claves es el empate, no? La empatía que tienes por la parte de sentimientos ya. Y claro, yo digo que esa parte no debe estar ahí. Entonces a lo mejor hay que cambiarle el nombre.
+
+[00:33:49.01] - Paz Pérez
+A lo mejor no es una persona, es un agent algo...
+
+[00:33:52.10] - Paz Pérez
+Hay que tener un repositorio donde tu puedas ver un contexto de. Ok, este es el agente. Funciona así. Utiliza estos guardrails. ¿Cómo puedo intentar aprender sobre esta gente?
+
+[00:34:34.10] - Paz Pérez
+¿Cuáles son este tipo de límites que tiene para que tú puedas diseñar alrededor de eso o para eso ponerle tú los límites si no los tiene. Otra cosa que hay que entender es que tú no solo aprendes sobre la gente, sino que esta gente es cambiante, porque como hemos dicho antes, los modelos no son estáticos, se entrenan, se moldean. Entonces tiene esta dualidad de entenderlo, pero a la vez poderlo cambiar.
+
+[00:35:06.16] - Paz Pérez
+Es que es súper emocionante.
+
+[00:35:08.00] - Carlos Iglesias
+Cuántos agentes con personalidades distintas, configuraciones distintas.
+
+[00:35:23.06] - Carlos Iglesias
+Estamos explorando como esas formas de hablar para hablar de cosas que no existen.
+
+[00:35:27.03] - Paz Pérez
+Realmente nos falta el lenguaje. Por eso yo propongo AI de personas, pero cuando me dicen sin empatía no son personas, digo pues no te falta un punto.
+
+[00:35:40.22] - Paz Pérez
+Y hay más herramientas que podemos traducir a eso también. La Al de blueprints.
+
+[00:35:45.11] - Carlos Iglesias
+Y los journeys. O sea, de alguna forma entender cómo desde un determinado agente con una determinada configuración va a interactuar de una forma o de otra con una aplicación. Es que me parece, me explota la cabeza bastante.
+
+[00:36:05.16] - Paz Pérez
+Es que otra vez te digo, no hay soluciones. Sabes que yo para mí lo que puse en propuestas, sobre todo para como animar a la comunidad UX a decir oye, empezamos a pensar en esto todos, que además la respuesta no tiene que venir de alguien de Google, es que puede venir de alguien que trabaje en una startup pequeñita en su boletín, tan a gusto, basado en la información que hoy en día es súper pública y se puede ver en todas partes y empezar a pensar cómo romper esos límites y cómo pensar en el futuro. Y es de todos.
+
+[00:36:36.07] - Carlos Iglesias
+Es de todos y además es urgente. Yo creo, porque tú hablabas antes, estos agentes tienen que estar sobre control humano porque tenemos un bias del que es un sesgo del que ya hemos hablado, el computer bias. El sesgo del ordenador no sé cómo se traduce al.
+
+[00:36:54.20] - Paz Pérez
+Siempre tiene razón, siempre.
+
+[00:36:56.02] - Carlos Iglesias
+Y esto es peligrosísimo realmente. Y ahora esto, llevado a la exponencialidad de un ecosistema de agentes interconectados entre sí. Ya ves, es que. Es que nos tenemos que poner las pilas con esto. Realmente cómo podemos garantizar que siempre hay un control humano de esto?
+
+[00:37:19.20] - Paz Pérez
+Garantizar es una palabra un poco fuerte. Sabes cómo podemos intentar? Bueno, porque es como muy asertiva, muy blanco y negro. Yo creo que hay que intentarlo mejor posible. Sabes, No puedes garantizar que no va a hacer daño, pero puedes intentar lo más posible que sea. La idea es que el humano esté siempre en control.
+
+[00:37:38.07] - Carlos Iglesias
+Tú crees que los agentes van a venir sí o sí de los grandes modelos fundacionales Nacionales. O crees que. Perdona, te tiro esta pregunta como. O crees que va a llegar o que puede. O sea, es que me parece muy difícil esto que decías como una startup, que una pequeña startup que viene de. No sé, de cualquier parte del mundo que de repente alguien, un equipo muy friki, de gente que muy inteligente, que sabe mucho y que se pone a hacer pruebas y tal, pero en el punto en el que está la la IA en este momento, con tantos trillones de parámetros y tanto y tanto consumo de energético.
+
+[00:38:17.00] - Paz Pérez
+Y ese también es otro tema.
+
+[00:38:20.06] - Carlos Iglesias
+Es un temazo. También es muy difícil que aparezca la innovación de de algo que ya no sea fundacional en este momento.
+
+[00:38:29.05] - Paz Pérez
+A ver, hay una tendencia a modelos más pequeños ahora, o sea, en lugar de modelos cada vez más grandes, cada vez más pequeñitos. Y yo creo que el quid está en la calidad, no en la cantidad. O sea, de hecho se ha visto, hoy como empezó Mistral, que es una empresa de Francia en París, que es súper interesante su caso y ellos han hecho un modelo enorme también, pero no tenían el dinero que tenía OpenAI, ni Google ni nada de eso. Empezaron con muchísima calidad en los datos y de hecho han mostrado que con mucha calidad puedes hacer modelos que están a la par o mejor que muchos de los que salen de grandes empresas. Dicho esto, también hay muchas cosas opensource. Sabes que todas las grandes empresas van sacando pequeñas cosas opensource? Meta ha apostado muchísimo por OpenSource, que yo creo. A mi por lo menos me cogió un poco de sorpresa, pero me alegro un montón. Entonces yo creo que hay mucha manera de innovación increíble sin tener que pasar por los grandes modelos de los de las empresas.
+
+[00:39:33.01] - Carlos Iglesias
+Especialmente los propietarios que meta está haciendo un esfuerzo también en ese sentido de de hacer open source sus modelos.
+
+[00:39:40.09] - Paz Pérez
+Cada empresa ha buscado su vertical de lo que quería hacer, su posicionamiento y ese ha sido el de meta. Yo no entro ahí, pero si te digo que me alegra ver que bueno que la comunidad de open source que tiene mucha vida todavía está bien y los modelos empiezan a tender a ser cada vez más pequeños. Tienen que empezar a aparecer en tu teléfono. Exacto.
+
+[00:40:00.21] - Carlos Iglesias
+Exacto. El otro día hablaba con alguien, no recuerdo con quien era y me daba. Me daba un concepto y una idea que me pareció super interesante, no como parte de la sostenibilidad, la idea de modelos pequeños embedded ya directamente en tu dispositivo, no? El Edge, o sea, llevarlo a lo que se conoce como Edge Computing o Edge. La idea de que el modelo esté aquí, que no sea grandes computaciones y tal, y yo entiendo que bueno, pues que irá por ahí seguramente, como tú dices, modelos más que que premian más la calidad que la cantidad. Y modelos quizá más especializados en algunas partes del uso o para usos más específicos.
+
+[00:40:39.05] - Paz Pérez
+Y piensas que si son agentes que se van a ir dando como manos, se pueden especializar cada uno en su verticales.
+
+[00:40:46.08] - Paz Pérez
+Vamos a ver, porque hay todavía como varias cosas por resolver Quantum computing. Esto va a ser un mundo que lo que viene es tremendo.
+
+[00:41:00.01] - Paz Pérez
+Pero eso va a ayudar también a que haya de repente otro repunte de AI en otra dirección.
+
+[00:41:06.21] - Paz Pérez
+Es que es verdad que no estamos ahí todavía. Al menos yo no. Yo no he oído que estemos ahí todavía. No.
+
+[00:41:12.10] - Carlos Iglesias
+No, no, no lo estamos. Es muy emocionante estar grabando este episodio hoy 2 de diciembre de 2024 y me gustará mucho revisitarlo dentro de un año porque creo que 2025 y 2026 van a ser dos años increíbles, seguro.
+
+[00:41:33.18] - Paz Pérez
+Cada año está siendo una locura.
+
+[00:41:35.01] - Carlos Iglesias
+La sensación un poco es que esto también. De alguna forma, no sé hasta qué punto está. Está por muchos más millones de parámetros que le pongamos a los modelos. Y llega un punto que se habla de un cierto techo. En ese sentido también no.
+
+[00:41:53.12] - Paz Pérez
+Pero saldrá por otro sitio Y como he dicho a mi parte de la labor de hacer esta divulgación de UX es que la comunidad no se está enterando todavía no hay buena educación, no hay buenas cosas y parte de la Revolución es la nuestra, que nos tenemos que enterar de que va la película 100%.
+
+[00:42:12.03] - Carlos Iglesias
+Es verdad y todas las profesiones en realidad ya han cambiado, ya han cambiado.
+
+[00:42:18.05] - Paz Pérez
+Tú y yo diseñamos la herramienta, no solo la utilizamos, sabes? Entonces la responsabilidad y el y el tener que entenderlo es más urgente aún.
+
+[00:42:26.16] - Carlos Iglesias
+Totalmente, totalmente de acuerdo.
+
+[00:42:28.17] - Paz Pérez
+Si no va a haber herramientas ahí fuera que utiliza la gente que no están pensadas desde un punto de vista humanista.
+
+[00:42:35.00] - Carlos Iglesias
+¿Y cómo va a cambiar la sociedad? 
+
+[00:42:41.11] - Paz Pérez
+Es como imposible saberlo desde ese punto de vista. Si tú me llamas en el 95 y me dices oye, paz, cómo va a cambiar dentro de 25 años que nos veamos? Yo qué sé. No, lo que te digo es que va a cambiar completamente porque es otra vez. Es un tipo de tecnología que nunca hemos visto hasta ahora.
+
+[00:43:05.14] - Carlos Iglesias
+Invierto muchas horas en muchas horas en probarlo todo, en probar y meterme a un cierto nivel de cacharreo y un cierto nivel. No me pongo a diseñar modelos o a crear modelos, pero sí que me meto a un cierto nivel a probar cosas y a experimentar, y siempre tengo la sensación de que voy tardísimo, o sea, de que igualmente no sé qué.
+
+[00:43:40.24] - Paz Pérez
+Pero es que no es verdad. No vas tarde.
+
+[00:43:43.02] - Carlos Iglesias
+Es absolutamente que sí. Yo lo comentaba en algún episodio anterior que tengo la sensación de que me pasa la ola por encima todo el tiempo, que estoy todo el tiempo para nada. Tú crees que no.
+
+[00:43:55.08] - Paz Pérez
+Para nada. No es como el miedo número uno y por eso me encanta dar la clase de UX y porque la gente llega con mucho miedo.
+
+[00:44:01.22] - Paz Pérez
+Miedo a perder, miedo.
+
+[00:44:03.10] - Paz Pérez
+A perder la profesión, a que llegan tarde, a que esta se quedan atrás. Y esta es una ola que acaba de empezar. O sea, de hecho es el mejor momento para estar en diseño. Ahora, esto para la gente nueva y para la gente que tiene interés en aprender porque está todo por hacer. Entonces, qué ilusionante es que tú hasta ahora, cuando entrabas en UX, si entrabas el año pasado, tienes un proceso muy mascado, primero esto, después lo otro y ahora es como no, no, esto es el vacío. Si no hay, no hay mucho más.
+
+[00:44:32.11] - Carlos Iglesias
+No hay muchas normas, desde luego.
+
+[00:44:34.06] - Paz Pérez
+Pero eso lo hace muy emocionante también. Entonces tú puedes dar la forma ahora al proceso del futuro de diseño. Es que es súper interesante. Sí, sí, sí. Y te digo, ya que la gente anda muy perdida y ninguno sabemos lo que tenemos que hacer. O sea, yo tampoco.
+
+[00:44:48.16] - Paz Pérez
+Eso es lo que quería escuchar, que me tranquiliza.
+
+[00:44:50.16] - Paz Pérez
+Justamente lo que estás haciendo. Probar las herramientas, seguir con educación, seguir a gente en redes que ves que que tienen un discurso que está, tiene una fundación, o sea que tiene unos cimientos importantes. Pero yo creo que el mensaje es el contrario. O sea, no es solo que la gente no llegue tarde, sino que es el momento para entrar porque está todo por hacer. Es un momento precioso. No, no.
+
+[00:45:15.09] - Carlos Iglesias
+No, no te quería transmitir de que llego tarde, sino de que es tan. Es. Hay tanto todo el tiempo, que realmente es como es un poco. A veces no sabes ni a dónde mirar de repente ya.
+
+[00:45:28.01] - Paz Pérez
+Pero por eso tienes que buscar como tu agente faro y tus referentes. Desde luego. Porque a ver, yo también. Yo tengo como seis newsletter. Leo uno porque si no, no tengo una vida también y realmente en UX hay pocas voces. Es que hay poco. Pero sí que hay algunas personas y hay cosas súper interesantes pasando. Yo creo que todos en algún momento nos quemamos, porque es verdad que lo que es el ritmo es muy fuerte ya. Entonces yo personalmente pues hay un par de semanas que digo pues se desconecta y no pasa nada. 
+
+[00:46:16.20] - Carlos Iglesias
+Paz. Me ha encantado la conversación. Es un privilegio. Creo que es la primera vez que tengo una conversación para la que nos faltan palabras todavía.
+
+[00:46:42.10] - Paz Pérez
+Completamente. Y eso es algo que tenemos que inventar.
+
+[00:46:54.04] - Carlos Iglesias
+Supongo que algunos de los conceptos de los que hemos hablado en esta entrevista te habrán explotado un poquito la cabeza. No sé tú, pero desde que decidí dedicarme a la tecnología hace más de 20 años, yo siempre vivo con la sensación de estar viviendo un momento único e increíble en la historia de la humanidad. Pero he de reconocer que lo de estos dos últimos años, lo que estamos viendo en la IA generativa es algo realmente sobrecogedor. Si no lo estás siguiendo con la atención que merece, te recomiendo que no apartes la vista de los avances que se están produciendo mes a mes, semana a semana, día a día y sobre todo que lo uses porque tu trabajo ya ha cambiado. Déjanos un comentario explicando qué te ha parecido el episodio, qué te ha sorprendido o si hay algo sobre lo que te gustaría saber más. No te olvides de compartirlo. Y si aún no lo has hecho de suscribirte, ya sabes cómo son los algoritmos. Cualquier like, corazoncito o interacción es siempre una gran ayuda. Un fuerte abrazo y os espero en el mundo real.
+

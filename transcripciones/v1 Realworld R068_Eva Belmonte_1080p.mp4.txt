@@ -1,0 +1,195 @@
+[00:00:00.960] - Carlos Iglesias
+Cuáles son tus valores? Cuáles son los valores de la compañía donde trabajas? Honestidad. Lealtad. Esfuerzo. Coraje. Transparencia.
+
+[00:00:11.010] - Carlos Iglesias
+Enumerarlos, listarlos, exponerlos en posters en la pared no hace que sean ciertos. Que un gobierno hable mucho de transparencia o sostenibilidad no significa nada. O al menos importa muy poco, porque lo que importa es lo que hace, cómo legisla y para quién, con qué se compromete, cómo se comporta. Lo que define nuestros valores es nuestro comportamiento. Somos lo que hacemos incluso cuando nadie nos mira. La verdad es lo que hacemos y cómo lo hacemos. Y hoy, entre otras cosas, hablaremos de transparencia con Eva Belmonte.
+
+[00:00:48.810] - Carlos Iglesias
+Eva Belmonte. Te conocí hace tres años en la en la Tarugo del 2020, y me dejaste bastante impresionado. Periodista de pura cepa, radical de la transparencia, autora de dos libros Españopoli y el Diccionario ilustrado español BOE. Premio Gabriel García Márquez a la innovación periodística. Premio al mejor portafolio individual del 2019 en los Data Journalism Awards. Premio Archi Letras de la Lengua al desempeño Profesional y actualmente eres directora de Civio, una fundación centrada en investigar lo público para entenderlo, traducirlo para el común de los mortales y protegerlo. Fundación de la que, por cierto, puedo decir orgulloso que unas cuantas personas de Random somos socios y socias porque creemos que es muy, muy necesaria vuestra existencia. Eva Belmonte, bienvenida a Realworld.
+
+[00:02:06.890] - Carlos Iglesias
+¿Que es para ti el mundo real?
+
+[00:02:27.790] - Eva Belmonte
+El mundo real y es verdad que voy a tirar muy rápido lo mío, pero el mundo real es lo que se publica en el BOE y nos afecta. Para mí es una obsesión casi, si no, no haría lo que hago. Todo lo que se publica en el BOE y nos afecta es real. Va a hacer que tu nómina sea distinta al mes que viene. Va a ser que tu ayuda vaya a ser distinta. Y es un poco en contraposición a esta política que se vende, o sea, la política que vemos en los medios todo el rato, la política que está en redes, la política que está en el Congreso, incluso a grito pelao, a ver si llega el momento del telediario y digo la burrada más gorda. Todo eso no es real. Todo eso es mentira. Todo eso no te afecte en absolutamente nada. Da exactamente igual que se hayan dicho ese día y qué opinión y cómo hayan llegado ese pacto o el otro. Lo importante al final es eso que llega al BOE. Y eso que al final a ti te va a afectar en tu vida diaria. Entonces eso para mí esto es real y por eso quisiera enfocarme en esa parte, esa parte que es estudiar las políticas, pero no la política. No me interesa la política no me interesa qué se ha dicho hoy? Que burrada ha dicho no sé quién o quién ha pactado con quién. Me interesa saber qué se aprueba al final y para mí es muy importante porque al final mucha gente se queda con estas discusiones eternas, estos pactos o incluso se queda con lo que se promete que se va a hacer. Lo que es real es lo que ya está ahí, sobre el papel y entra en vigor. Y el resto es un bluf que cada vez me interesa menos.
+
+[00:04:02.450] - Carlos Iglesias
+En 2012 empiezas a peinar el BOE de forma de forma habitual. ¿Que descubriste en ese momento y por qué te enganchó?
+
+[00:04:33.860] - Eva Belmonte
+Mi primera sorpresa fue que no tenía competencia, no había alguien que hiciera como un seguimiento diario. Empecé a leerme el BOE y tenía 50 seguidores en Twitter y no pensé que fuera a funcionar en absoluto. En ningún momento pensé que iba a funcionar. Pero lo primero que descubrí es que había muchísimas noticias de verdad relevantes, reales y relevantes que nadie estaba publicando en ningún lado y dije: ¡vamos a contarlas!
+
+[00:06:02.140] - Carlos Iglesias
+El robots txt del BOE es increíblemente largo. Decenas de miles de líneas que hay en el robot TXT y casi todos los contenidos como deshabilitados para la indexación. Nunca lo he entendido. 
+
+[00:07:07.570] - Eva Belmonte
+Hay muchas cosas que están dentro del archivo de robots del BOE que tiene sentido que estén y otras no. Para mí el matiz está en que yo creo que no se puede desindexar todo por defecto, que en el caso de empresas todas y personas de interés público, no me vale el tenemos que tapar, me vale en caso de personas con cero interés público, no tiene por qué cuando busque trabajo, alguien encuentre información de un delito mejor indultado hace 20 años, lo primero de todo.
+
+[00:08:11.650] - Carlos Iglesias
+A veces he entrado y me cuesta entenderlo. Creo que se habla un idioma un poquito diferente al mío y que yo creo que tú has conseguido dominar ese idioma muy bien.
+
+[00:08:36.190] - Eva Belmonte
+No del todo. Aún hay cosas cuando hay, por ejemplo, temas que tienen que ver con reformas del sector eléctrico, empezar a meter 207.000 gráficos de cosas que no entiendo en absoluto. Es como y y tengo que llamar a gente que sabe el tema y decirle me puedes decir por favor si hay algo interesante aquí o no? Y hasta no hace falta que me lo expliques, no lleguemos a fondo. Pero sí que es verdad que hay una parte muy importante que entiendo, pero porque son ya más de diez años. Al principio me costaba muchísimo y al principio estaba todo el día para leerme el BOE del día y entender si algo era relevante o no era relevante. Y sí que es verdad que es otro lenguaje; el lenguaje administrativo es otra manera de hablar. 
+
+[00:09:31.040] - Eva Belmonte
+Para mí ese lenguaje es útil porque siempre es igual y nos sirve para estructurar datos. Pero es verdad que es un lenguaje distinto. Y entenderlo te da cierto poder. Cuando yo tengo que reclamar ante alguna administración, yo uso el lenguaje y nombro las leyes por su número. Y es muy útil. Y no solo te da cierto poder porque entiendes lo que en realidad no está hecho para que tú lo entiendas, y a la vez usarlo te da cierto poder.
+
+[00:10:25.100] - Eva Belmonte
+Puede dar mucho poder saber cuáles son tus derechos, cómo reclamar ciertas cosas, qué cosas si las dices así te van a hacer más caso. Las palabras no significan lo mismo, hay palabras, tienen un significado súper concreto. La honorabilidad en el BOE no es lo que tú piensas que es ser honorable, es que no te han condenado por determinados delitos para ser un banquero. En otras leyes significa otra cosa. O sea, es que es un lenguaje totalmente distinto.
+
+[00:11:03.950] - Carlos Iglesias
+Me da la sensación de que está yendo a más todo, que cada vez se escribe peor, cada vez se entiende menos. 
+
+[00:12:09.740] - Eva Belmonte
+Siempre se ha entendido bastante mal, porque de hecho hay un problema muy importante con el BOE y todo el lenguaje administrativo, que es que es un copy & paste continuo. Es decir, si los decretos de indultos son iguales desde hace 100 años, lo único que cambia en cada uno es el nombre de la persona, el delito, los años y lo que se le indulta. Pero es la misma estructura, la misma frase. Para mí es muy útil porque eso lo convertimos en una base de datos, pero tú ves normas que están copy pegadas de una norma que tiene tantísimos años que de hecho hace referencia a organismos que no existen, pre democráticos. Hay una parte de vaguería, de pues copio y pego y voy tirando. Entonces cada vez está peor escrito. Esa cosa antigua de lenguaje raro sigue siendo el mismo, cada vez es más confuso.
+
+[00:13:08.530] - Eva Belmonte
+Hay una cosa que para mí es muy importante. Los asesores de los partidos políticos en el Congreso, los asesores de los partidos normales, el gobierno, antes la mayoría eran técnicos: gente que sabía del sector o sabía escribir leyes. Ahora la mayoría es de gente de comunicación, porque lo importante es el relato, lo que se dice, no lo que se hace. Da igual lo que se haga. Entonces se dice que es todo maravilloso y luego se hace un churro de norma, un decreto ley que se contradice. Una persona que escribe una norma en el BOE la está escribiendo para sus congéneres.
+
+[00:13:57.560] - Eva Belmonte
+De abogado del Estado a abogado del Estado. No la está escribiendo para que la entienda la gente normal. Y me ha gustado mucho lo que decías de ser un poco hacker. En Civio, además de hacer periodismo y de estar en juicios porque nos peleamos por todo, también hacemos lobby. Cuando yo hago un lobby para que cambie la Ley de transparencia y sea mejor, o para que la Ley de contratos obligue a publicar más cosas y podamos vigilar corruptelas, yo me disfrazo de lobista. Me leo la ley y presento enmiendas a los partidos políticos y creo que a veces al activismo, cuando se intentan cambiar las cosas, le falta un poco de eso.
+
+[00:14:31.790] - Eva Belmonte
+De en lugar de hacer un comunicado diciendo es que esto debería ser mejor, haz como hace Endesa, lleva las enmiendas escritas y le hace el trabajo al diputado. Y nosotros hemos metido en la Ley de contratos del sector Público, que imagínate al otro lado estaba OHL, enmiendas escritas de mi puño y letra, así enteras como artículos. No vale solo con decir es que esto está mal, debería ser mejor. Tienes que entender cuáles son las reglas. No puedes jugar contra o OHL, contra Ferrovial, contra Iberdrola con las reglas de un campamento hippie. Hay que ir con con las mismas.
+
+[00:15:57.570] - Eva Belmonte
+Seguro que en tu sector hay una norma que os va a afectar y puedes hacer un lobby muy específico porque lo controlas mejor que nadie. 
+
+[00:16:28.650] - Carlos Iglesias
+¿De qué te sientes más orgullosa?
+
+[00:16:32.960] - Eva Belmonte
+Es verdad que hay una parte de ego periodístico. Sobre todo cuando publicas que un contrato de publicidad institucional es ilegal y lo tumbas, cuando llega algo al Congreso porque tú lo has descubierto, casos de corrupción, el ego te lo infla un poco, pero de lo que de verdad me siento orgullosa es cuando consigo que gente que cree que no tiene derecho a una ayuda o que le han dicho que no tiene derecho, se la den al final. O sea, con lo del bono social fue una burrada. Y te llamaban en la semana y te decían es que me han dado el bono social o el ingreso mínimo vital o gracias a que tú me has dicho no sé qué he conseguido esto.
+
+[00:17:25.070] - Eva Belmonte
+A mí eso me infla como un pavo real, porque de repente te sientes útil. Explicarle a la gente qué puede hacer, cómo cambia las reglas cada día, es útil. Puede dar paz a mucha gente y dar un poco de tranquilidad. 
+
+[00:18:34.500] - Carlos Iglesias
+¿Hay consecuencias?
+
+[00:18:57.300] - Eva Belmonte
+Me cuesta mucho demostrar el impacto. Porque yo descubro todos los contratos de emergencia que son como mínimo sospechosos, o los contratos fraccionados, que son sospechosos. Creo una base de datos y se la paso a todas las agencias anticorrupción, a la CNMC, a todo el mundo y a mí la CNMC en algunos casos me ha dicho "estamos investigando y hemos abierto expediente, pero no te podemos contar nada más". Entonces yo sé que se han visto, que se han mirado, que pasan cosas. Sé que algunos contratos se han tumbado. Sé que ha habido algunas normas que estaban mal hechas y lo hemos desvelado y se han reformado. Luego si yo veo un contrato que sé que es ilegal, que está mal, yo puedo publicar un artículo, pero yo no puedo llevarlo a juicio porque yo no soy parte interesada.
+
+[00:19:55.990] - Eva Belmonte
+Además la corrupción en este país no es discreta. Es que nadie está vigilando. Tampoco hace falta que te esfuerces mucho en ocultarlo, nadie lo va a ver.
+
+[00:20:22.900] - Carlos Iglesias
+¿Qué tal la Ley de transparencia en este país?
+
+[00:20:48.520] - Eva Belmonte
+Muy mala. Es horrible. La odio muy fuerte. Hay una cosa muy importante en la ley de transparencia que es: peor es no tenerla. Fuimos los últimos en Europa, menos Chipre, en tener una ley de transparencia, y por lo menos tenemos una base legal. Yo ahora, cuando no me responden, puedo ir a juicio. Por lo menos tenemos ley, pero la ley es muy mala. Primero porque hay límites que son demasiado amplios. Y luego hay una cosa muy importante que es que la ley de transparencia es una ley rasa. Una ley estándar, no es una ley orgánica. Entonces cualquier otra ley anterior a ella de las normales, o si es orgánica, como protección de datos, va por encima. Entonces cualquier cosa va por encima. Y luego hay una cosa muy importante de la ley, además de que hay muchas cosas que no obliga a publicar, como por ejemplo con quién se reúnen, que afecta para una ley, que para mí es muy importante, que es que no cumplirla no tiene consecuencias. O sea, el organismo que tiene que vigilarlo no es independiente, en realidad no tiene recursos. Lo nombra el propio Gobierno y no puede sancionar. Si tú no publicas cosas que te obliga la ley o no respondes a una pregunta que te hacen, no te puede pasar nada. No hay consecuencias. Entonces esperemos que con la reforma eso cambie, porque ahora mismo es un poco de mentirijilla.
+
+[00:22:49.730] - Eva Belmonte
+Luego hay cosas que un gobierno puede hacer sin aprobar una ley. Por ejemplo, hace años que el Gobierno del PSOE dijo Vamos a publicar las agendas completas de trabajo de los ministros completas, para saber con quién se reúnen, que es muy relevante. Aún no han publicado la agenda de trabajo real y hace un montón de años. Entonces esta legislatura en la anterior, no ha habido ningún avance en transparencia, pero ni uno.
+
+[00:23:48.590] - Eva Belmonte
+Se ha dicho que se iba a reformar la Ley de Transparencia, que se iba a aprobar una ley del lobby que se iba a publicar no sé qué, que era el gobierno más transparente de la historia. Lo dice muy fuerte. Pero luego no han hecho nada. La realidad es que no han hecho absolutamente nada. Entonces en eso no estamos avanzando.
+
+[00:24:17.280] - Carlos Iglesias
+¿Cuál es la información más opaca?
+
+[00:24:20.960] - Eva Belmonte
+El lobby. Seguro. Llevamos desde el nacimiento de Civio, más de diez años, peleando por que se regule el lobby y se regule la huella legislativa. Yo quiero saber esta ley al final quién ha influenciado por el camino, qué informes se han leído, quién te los ha dado, con quién te has reunido, con quién no te has reunido, que también es relevante. Y eso, gobierno tras gobierno, no hay manera. Es prácticamente imposible.
+
+[00:26:25.300] - Carlos Iglesias
+Tengo un par de preguntas de Paco, de la comunidad Realworld en WhatsApp. ¿Has recibido presiones alguna vez?
+
+[00:26:44.090] - Eva Belmonte
+Sí, pero para mí son un poco de mentirijilla. Quiero decir, yo pienso que tengo muchos colegas periodistas en México, en otros países, y eso sí son presiones. Desde lo público, la presión principal es que te echan bronca los gabinetes de comunicación. Voy a decir dos tipos de presión que nos llegan desde las administraciones públicas y desde empresas. Y a mí lo que más pena me da de todo esto es que si lo hacen es porque funciona. A mí no me funciona, pero tiene que funcionar en otros sitios y eso es lo que me da un poco de pena/miedo. Los gabinetes de comunicación administración pública te riñen.
+
+[00:27:38.130] - Eva Belmonte
+Y luego de empresas que te amenazan con denunciarte, pero nunca te denuncian. Nunca nos han denunciado. Nosotros estamos en juicios contra la administración y contra empresas para que nos den información, pero nunca nos han denunciado. O sea que solo con la amenaza les está funcionando en otros lados, solo con la bronca les está funcionando en otros lados. 
+
+[00:28:35.700] - Eva Belmonte
+Pero no son presiones realmente de las de verdad. Hay periodistas que lo están pasando muy mal en el mundo. 
+
+[00:28:47.120] - Carlos Iglesias
+Otra pregunta de Paco: ¿tu trabajo ha conllevado un coste para ti en tu vida personal?
+
+[00:28:59.620] - Eva Belmonte
+Sí. Imagínate en Pandemia estuve no sé si fueron tres meses trabajando todo el rato sin parar, durmiendo cinco horas al día y en ese momento estaba encerrada con un noviete que tenía (spoiler: salió mal). Sí me ha afectado, y sobre todo al final, es esta cosa de que no hay desconexión total nunca, porque el BOE es de lunes a sábado siempre. En verano paro dos semanas, pero ya está. Entonces. Estás en el cumpleaños, la boda de tu mejor amiga y te levantas por la mañana... Al final, que la gente se enfade contigo es normal. Pero bueno, no es muy grave. Es más que me tomo todo muy a pecho.
+
+[00:29:58.670] - Eva Belmonte
+Me afecta mucho cuando las cosas están mal hechas o cuando veo que hay gente que no recibe la ayuda o la están maltratando las administraciones... Entonces ahí me quedo muy hecha bola y me afecta demasiado. Es una sensación de que todo lo malo que pasa en el mundo es culpa tuya o está encima de tus hombros, de querer arreglar todo lo que está mal en el mundo. Y yo acabé reventando, estuve de baja cuatro meses.
+
+[00:30:40.970] - Carlos Iglesias
+Vosotros hicisteis una aplicación para que las personas de forma totalmente anonimizada, pudiesen llegar a vuestra página y en base a un formulario y una serie de preguntas, saber si le correspondía o no una ayuda. Estuvisteis más de un mes hablando con funcionarios, con personas técnicas de la administración pública para intentar entender ese entresijo de condiciones y el algoritmo. De alguna forma acabasteis produciendo una tecnología que te daba una respuesta fiable. 
+
+[00:32:23.030] - Carlos Iglesias
+¿Por qué esto no lo hace la propia administración pública?
+
+[00:32:38.810] - Eva Belmonte
+El problema de base es que las ayudas son muy complejas de entender y de tramitar, que es lo flipante. O sea, cómo puede ser complejo de tramitar el ingreso mínimo vital? Estamos hablando de gente que no tiene 500 € al mes. 
+
+[00:33:31.070] - Eva Belmonte
+Yo creo que el problema de las ayudas es que están planteado desde el punto de vista de todo el mundo quiere engañar. Y no es verdad. Deberían ser mucho más sencillas a la hora de concederlas. Tendría que ser un proceso mucho más fácil. Y luego que las leyes las escribe gente que escribe entre ellos, no para que se entiendan.
+
+[00:34:46.010] - Carlos Iglesias
+No están centradas en la persona, no están centradas en el usuario.
+
+[00:34:50.570] - Eva Belmonte
+Esto pasa con todo, pero en el caso de las ayudas a gente que está muy mal, es una burrada. No es normal que cuando hicimos la primera aplicación, que es la del bono social, que es la que decías con la gente de la CNMC, expertos en energía, expertos en entender leyes, hablábamos con gente muy lista. Nosotros llevábamos. Yo me sabía esa norma de memoria. La parte técnica no es complicada, era conseguir entender qué órdenes había que darle la aplicación. Yo creo que el problema es ese, que están hechas desde el punto de vista de nos van a engañar y no desde el punto de vista tenemos que ayudar. 
+
+[00:35:36.930] - Eva Belmonte
+Cuando se presenta una ayuda, en los informes que se hacen se dice "Esto se podrían beneficiar 1 millón de personas, pero sabemos que va a llegar a 400.000" y esto está en el informe y a todo el mundo le parece normal. Ya sabes a priori que se lo va a llevar la mitad, porque la otra mitad ni siquiera va a llegar. Es que es una burrada. Es que es una cosa que nunca entenderé. Que den por hecho que algo que están haciendo no va a funcionar bien. Y no pasa nada. Un 40% está bien. ¿Cómo que está bien? ¿Está bien que un 60% de gente que necesita dinero para vivir se muera de hambre? Una cosa que nunca acaba de entender.
+
+[00:36:29.150] - Carlos Iglesias
+Lo que hacemos a la hora de crear tecnología es ponernos en los zapatos del usuario, de la persona que va a usar la tecnología y entender cuáles son sus problemas, sus fricciones, sus motivaciones, sus objetivos, sus dolores e intentar facilitarle la vida. Esto parece que está diseñado expresamente para que sea exactamente lo contrario.
+
+[00:37:51.000] - Carlos Iglesias
+¿Nos puede ayudar la tecnología?
+
+[00:37:54.980] - Eva Belmonte
+Un montón. Nosotros usamos mucho visualizaciones. Para mí el trabajo más importante que hace Civio en cuanto a periodismo, más allá de las investigaciones, es explicar de forma muy sencilla cosas que son complejas. Y luego creo que es importante que el periodismo cada vez sea más personalizado. Y las aplicaciones de ayudas, hicimos la del bono, ya tenemos la del ingreso mínimo vital. Hicimos otra durante la pandemia con todas las ayudas de pandemia. Al final es un periodismo mucho más personalizado porque yo puedo escribir un artículo explicando las condiciones para acceder al ingreso mínimo vital, pero tú leyéndotelo, incluso aunque yo lo explique la forma más clara posible, ¿cómo sabes si en tu caso concreto aplica? La tecnología nos ayuda mucho a nosotros a conseguir que algo que es muy complicado sea sencillo y que además sea personalizado, y lo hacemos cada vez más. A mí me ayuda mucho eso a la hora de dar algo mucho más personalizado, porque es imposible explicar las 27.000 casuísticas de una ayuda.
+
+[00:39:15.450] - Eva Belmonte
+Y luego me ayuda a conseguir información que no puedo conseguir de otra manera. Nosotros tenemos a David, que es el otro director de Civio, que es ingeniero informático, que es el que consigue crear datos donde no los hay, porque al final muchas veces pedimos datos a las administraciones, pero no suele ser casi nunca exitoso. Entonces muchas veces tenemos que empujar un poco, scrapear de aquí, mover de allá, convertir una base de datos, algo que no existe, combinar cosas. A mí lo que más me sirve la tecnología es conseguir datos, información que nadie más tiene, pero que están ahí, que solo hay que hackear un poco el sistema también.
+
+[00:39:57.630] - Eva Belmonte
+Para mí eso es muy relevante porque al final no dependo de nadie.
+
+[00:40:02.640] - Carlos Iglesias
+Los grandes modelos de lenguaje, la inteligencia artificial generativa, los GPTs ¿no te pueden ayudar?
+
+[00:40:27.930] - Eva Belmonte
+Ojalá. Desde el principio casi desde que yo empecé con el BOE y yo llegué a Civio, le hemos dado muchísimas vueltas a qué cosas puede hacer la tecnología por quitarme partes. Hay muchas cosas que hace la tecnología por mí con el BOE. Tenemos un sistema de alertas bastante sofisticado. Tenemos un robot que me llama cuando el BOE sale a deshoras. Puede haber un BOE extraordinario un domingo o un día a las 16:00 de la tarde. Hay un montón de información del BOE que ya no analizo una a una porque sé que vamos a analizar en bloque. Como el lenguaje es siempre igual, yo sé que en cartas de naturaleza, en indultos, yo miro el indulto que hay ese día, si por si acaso fuera alguien muy gordo, pero yo sé que a final de año voy a tener una base de datos de indultos con porcentaje de indultados con un montón de datos. Con eso ya tiro, entonces no hace falta que lo mire a fondo.
+
+[00:41:35.640] - Eva Belmonte
+Me ayuda a los temas más recurrentes, tenerlos como en bloque y tratados automáticamente sin tener que uno a uno, me ayuda con un sistema de alertas que cada vez es más sofisticado. Pero yo sigo pensando que hay cosas que no puede hacer aún. Esa base de datos que está en mi cabeza ahora mismo no está aún.
+
+[00:42:23.580] - Eva Belmonte
+El día que esté como más estructurado y funcione mejor, igual yo simplemente me levantaré por la mañana y en lugar de tener que mirarme todo me dirá "ojo a esto y a esto" y yo me miraré dos paginitas. Sería muy guay. Yo le agradecería muy fuerte. Ahora mismo nos ayuda muy poco, pero yo espero que vaya más porque yo no puedo hacer esto toda mi vida. Estoy un poco agotada. Son más de diez años ya. Creo que es muy útil y que alguien tiene que hacerlo, pero espero que cada vez más la tecnología me quite partes.
+
+[00:42:59.270] - Carlos Iglesias
+¿Estáis recibiendo apoyo de la comunidad tecnológica, de la comunidad desarrolladora?
+
+[00:43:07.070] - Eva Belmonte
+Recibimos. Tenemos hoy un buen porcentaje de nuestros socios que son de la comunidad desarrolladora, y muchos nos ofrecen ayuda y muchos nos han ayudado y sobre todo al principio nos ayudaban muchísimo porque al principio estábamos más en pañales. El primer blog del BOE nuestro de cada día que lo hice yo en WordPress, vino un socio que era muy fan y le dio una vuelta. Siempre nos ayudan y siempre nos dan muchísimas ideas. Yo valoro muchísimo que teniendo en cuenta lo tiquismiquis y rigurosos que somos, haya una parte muy importante de nuestros socios que vengan del mundo de la tecnología y que digan está todo bien.
+
+[00:44:29.910] - Carlos Iglesias
+¿Qué se está legislando realmente en España en ámbito de la tecnología, en el ámbito de lo digital?
+
+[00:44:39.870] - Eva Belmonte
+Súper poco. Este es el ejemplo más claro de lo que hablábamos al principio. Se anuncia mucho y no se ha hecho nada. Todo lo que se ha hecho desde la Secretaría de Estado de digitalizar ha sido anunciar cosas. Ahora mismo lo más importante va a venir de Europa, que es el Reglamento de Inteligencia Artificial, que va a ser muy relevante para muchas cosas, pero desde mi punto de vista, para ver qué pasa con los algoritmos que se usan en la administración pública, y para mí eso es lo más relevante. Cómo se aplica eso. Porque ahora mismo nosotros estamos en juicio con el Ministerio de Transición Ecológica, porque no nos quiere dar el código de la aplicación que decide quién recibe el bono social, o no.
+
+[00:45:33.260] - Eva Belmonte
+Queremos ver el código porque queremos saber si hay más errores, porque igual hay un montón de gente en este país que tiene derecho, que no está recibiendo o al revés. No nos dan el código. Llevamos en juicios dos años y pico porque no nos quieren dar el código. Pero es que hay un problema. Tenemos altos cargos diciendo que España es ultra moderna y ultra tecnológica y está liderando la transición en Europa, y yo ni siquiera puedo saber qué aplicaciones está usando cada ministerio porque ni siquiera me están respondiendo eso. Si en algo hay bluf, y luego está vacío, si en algo vendo muchísimo la moto y no hay nada en lo público ahora mismo en tecnología.
+
+[00:46:39.760] - Eva Belmonte
+Ha habido cambios en la obligación de comunicarse de forma digital con la administración, ya que cada vez aplica más gente y eso es un problema. Eso no es bueno. Estamos obligando a todos los chavales que quieren el bono cultural a pedirlo por internet. Entonces, quién no tiene acceso a Internet o no sabe cómo funciona la web o no tiene ordenador, pues no tiene la pasta para gastarse en cultura, porque aquí se va a gastar pasta en cultura quien no lo necesita. Si en algo se está legislando es en poner barreras digitales. Que la tecnología sea una burocracia digital y una barrera digital para la gente que está peor. Pero en lo que es en avanzar en temas de tecnología, inteligencia artificial, algoritmos que sean más transparentes, que sepamos qué hacen esos algoritmos que hay en las administraciones, que no lo sabemos, se anuncia muy fuerte, se han creado muchas cosas, muchas comisiones, muchos grupos de expertos, no se ha movido nada, no ha habido ningún avance real.
+
+[00:48:20.620] - Eva Belmonte
+Es muy peligroso que ni siquiera sabemos que algoritmos están tomando decisiones que nos afectan y cómo funcionan. Es que es una locura.
+
+[00:48:28.600] - Eva Belmonte
+Es como si hubieran leyes que no podemos leer, pero te afectan 100%. Da muchísimo miedo.
+
+[00:48:37.330] - Carlos Iglesias
+Si empezamos a hablar de inteligencias artificiales ya es terrorífico, porque en muchos casos ni siquiera saben cómo esa caja negra está funcionando.
+
+[00:48:49.330] - Eva Belmonte
+Incluso con aplicaciones muy sencillas de cuatro parámetros, es que no nos dejan verlas. Hay unos algoritmos que van a tomar decisiones sobre mi vida que se están empezando a aplicar en sanidad. Esto es un miedo que te mueres. Si yo no puedo vigilarlos y no puedo asegurarme de que estén bien, no quiero que los uses. Yo no estoy en contra la tecnología, estoy en contra de la tecnología opaca. Lo que no puede ser es que haya un algoritmo que se use desde lo público y tome decisiones que te afectan, que nadie pueda vigilar. Porque además es bueno que se pueda vigilar. Se mejora entre todos. Lo que pasó con Radar COVID Claro, se puso ahí. Esto está mal, esto está mal. Se arregló, chico, no pasa nada. Claro, si es que no, no debería haber un problema.
+
+[00:50:20.860] - Carlos Iglesias
+Respetar lo público, lo común va más allá de nuestro interés individual o nuestros privilegios depende en gran parte de la educación que hayamos recibido. Protegerlo, defenderlo, reforzarlo, es nuestra responsabilidad. Es fácil confundir autoridad y poder. El poder es la capacidad que tengo para hacer que los demás hagan lo que yo quiero. La autoridad me la gano o la pierdo. Como ciudadanía tenemos autoridad para defender lo común, para defenderlo en muchas ocasiones de la avidez de poder. Si te ha gustado tanto como a mí escuchar a Eva en el episodio de hoy, déjanos un comentario dándonos tu opinión. Ah, y por si aún no te habías enterado, que sepas que existe una comunidad de Realworld en WhatsApp, así que eso, echa un ojo a la descripción y haz click en el enlace de invitación para unirte si es que te interesa. Un fuerte abrazo y os espero en el mundo real.
+

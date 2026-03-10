@@ -1,0 +1,189 @@
+[00:01:03.060] - Speaker 1
+Tecnología y brecha de género, con Thais Ruiz de Alda
+
+[00:01:06.560] - Carlos
+¿A qué te dedicas ahora?
+
+[00:01:17.760] - Thais
+Yo empecé a trabajar en Internet el año '99, o sea en el siglo pasado, me encanta decirlo (risas). Soy licenciada en Derecho, luego me especialicé en teoría política y políticas públicas culturales y en aquel momento las políticas públicas culturales en Francia incluían lo digital. No era business, era cultura. Empecé a trabajar haciendo unas consultorías en una empresa que, curiosamente, me pedía web. Entonces me explicaron esto del protocolo TCP IP y a partir de ahí me enamoré de internet y me fui a Madrid a trabajar en la IAB, Interactive Advertising Bureau. En aquel momento lo que intentábamos hacer era regular la publicidad. ¡Fíjate tú que mal lo hicimos! (risas)
+
+[00:02:22.850] - Thais
+Había mucha gente que tenía una gran conciencia de que Internet era un medio nuevo y que había que regular o al menos autorregular, porque el legislador iba a llegar tarde. Salté a algunas empresas de comunicación digital y luego me fui a trabajar a una empresa que venía de la comunicación offline y querían montar lo digital y ahí tuve un gran aprendizaje trabajando con clientes. Y de ahí me fui al Ayuntamiento a trabajar en el departamento de comunicación en estrategia digital. Para que te hagas una idea, cuando llegué era el boom de las redes sociales. Había que generar una estrategia global para las más de quinientas cuentas en redes sociales que había en el Ayuntamiento en aquel momento y que iban in crescendo. Una locura.
+
+[00:03:33.970] - Thais
+Eso por un lado y por otro, el mundo de las aplicaciones. Poner un poco de orden y sobre todo visión estratégica. Y de ahí me fui a trabajar a una consultora de software, ThoughtWorks, que eso también me dio otra perspectiva. Los de comunicación trabajamos el front y el diseño de código trabaja toda la parte de atrás, que era una cosa que yo no había hecho nunca y me pareció fascinante. Y ahí es donde me di cuenta que no habían mujeres.
+
+[00:04:32.710] - Thais
+Y de ahí Digital Fems. Hay que montar algo para que hayan productos tecnológicos diseñados por mujeres y para mujeres. Y empezó la aventura.
+
+[00:04:47.740] - Carlos
+¿Qué es Digital Fems?
+
+[00:04:56.680] - Thais
+Es una non profit, porque nosotras prestamos servicios profesionales (que seamos una ONG no quiere decir que no prestemos servicios de manera profesional). Prestamos servicios para entidades, asociaciones, administraciones públicas que necesiten incorporar esta perspectiva y diseñar planes para incorporar a más mujeres en el pipeline de producción de tecnología. Lo más destacable de este año podría ser la medida de gobierno BCN FemTech, por ejemplo, que la hemos construido con más de 50 mujeres. Ha sido un proceso de co-creación con colectivos de la ciudad, con colectivo de mujeres de ciudad, con asociaciones de mujeres que eran las que detectaban todos los gaps y todas las necesidades. A partir de ahí se fue construyendo esta medida de gobierno y ha sido una experiencia fantástica.
+
+[00:06:18.360] - Carlos
+En cierta manera es el concepto de gestión de la diversidad, ¿no?
+
+[00:06:28.130] - Thais
+Exacto. La diversidad es muy importante por muchos factores. Hay muchos estudios que hablan de que la diversidad, si se aplica y hay estrategias para ello, es una ventaja competitiva. Pero es que en el mundo tecnológico es todavía más, porque la tecnología nos está envolviendo en todo, en todo hay tecnología. ¿Qué pasa cuando esa tecnología sólo la diseña un determinado tipo de personas? Eso tiene carencias. Bueno, ahora ya se empieza a oír hablar de estas carencias, de algoritmos en el diseño de herramientas de búsqueda de talento, el caso de Amazon famoso, etc, etc. Podríamos tener una lista interminable, algoritmos musicales o los algoritmos que utilizan los bancos, ¿quién diseña esos algoritmos? ¿Quién diseña esa tecnología? ¿Y qué carencias puede tener? ¿Quién define los criterios que tiene que contener una funcionalidad tecnológica? ¿Y cómo sabemos si esos criterios son mejorables? Pues teniendo equipos diversos, es decir, incorporando más mujeres en entornos tecnológicos. Eso está claro que acabaría con los sesgos que hay.
+
+[00:08:02.900] - Carlos
+Ya no solo el código, como dices, también Datasets sesgadísimos, cámaras de eco... 
+
+[00:08:27.290] - Thais
+Totalmente, sí. Por ejemplo, los Datasets es también uno de nuestros temas desde Digital Fems. Ahora vamos a lanzar un proyecto que se llama Gender Data Lab, que es un repositorio de datos abiertos con perspectiva de género y hemos hecho ya este año algunas pruebas, pero por ejemplo, hemos trabajado con la Asociación de Mujeres Directoras de Cine de España, CIMA, y ellas publican un informe desde hace cinco años, donde recogen, a partir de los datos que pueden recolectar de los premios Goya, recogen cuál es la presencia, como una radiografía del sector del cine en España. Al final el informe lo que te va a decir es, si en el año 2015 habían tantas mujeres directoras, en el año 2020 hay el mismo número de directoras, no ha incrementado, por ejemplo. O esto ha decrecido o esto ha crecido un poco. Lo que hemos hecho ha sido trabajar, crear un Dataset que incluya esta perspectiva de género, donde se compare a hombres y mujeres para poder sacar conclusiones, indicadores, como por ejemplo la brecha de género en el entorno del cine.
+
+[00:09:45.560] - Thais
+Eso es un diseño de Dataset con perspectiva de género. Al final las mujeres lo que necesitamos muchas veces es estar demostrando que cobramos menos. Oye no, no, que hay una cosa que se llama payment gap. Que le pasa a la mitad de este planeta.
+
+[00:10:11.330] - Thais
+Y, ¿cómo lo sabes? Pues porque hay algunos países donde este payment gap  tiene que ser públicamente comunicado, por mandato legal. Entonces, tienes datos que avalan lo que lo que como mujer estás pensando, percibiendo, notando.
+
+[00:10:29.990] - Thais
+Imagínate si eso lo conseguimos con todos y cada uno de los de los aspectos en los que hay desigualdad. Si lo avalas con datos, y quien tiene que diseñar esos esos Dataset tiene que tener incluida esta perspectiva de género, podrá demostrarse. Sino, no tenemos elementos racionales o pruebas con las que demostrar nuestros pensamientos, creencias, nuestra intuición. Con Data facts, no hay ni trampa ni cartón. Y eso es muy importante.
+
+[00:11:22.170] - Carlos
+Esto me lleva al concepto de Sealioning, un sesgo que, desde la masculinidad, da por hecho que una serie de estadísticas son falsas y se pide, encima, el trabajo de justificar.
+
+[00:12:37.050] - Thais
+Esto es lo que les pasó a las directoras de cine de España, que cuando presentaron el estudio les decían: "esto de dónde lo has sacado?" Pues mira esto lo hemos sacado de los premios Goya, que tú como productora también has reportado. No son datos míos, son datos de todos que se han recolectado, se han estructurado y así es la realidad. Pero tienes razón. Fíjate que el link que tuvo más clics de la campaña de comunicación fue el de los Datasets, al Gender Data Lab, porqué se estaba cuestionando: "oye, ¿esto que estás diciendo, de dónde los has sacado?" Pues está ahí.
+
+[00:13:41.970] - Thais
+Esta plataforma la hemos construido con mujeres desarrolladoras con becas. Es Open Source y hemos trabajado con CKAN, la plataforma Open Source de la Open Knowledge Foundation. Incluso dentro de la Open Knowledge Foundation y de CKAN vimos que tampoco había mujeres en la comunidad de código, así que hemos estado hablando con ellos porque hay una carencia y vamos a hacer algo a futuro, el año 2022, con la Open Knowledge Foundation para cerrar este gap que hay en la producción de software, que lo que lo que genera es que no hayan tantas plataformas producidas por mujeres para mujeres que contengan estos elementos que son importantes.
+
+[00:14:38.580] - Thais
+Esta pequeña organización es precisamente para para intentar que haya conciencia de lo importante que es que haya mujeres en entornos tecnológicos y sobre todo también demostrarlo con hechos, con plataformas. Otro proyecto de datos es Datos contra el ruido, una revisión de las estadísticas judiciales que analizan o que reportan información sobre las violencias machistas. En este caso hemos escogido las tres que son como trackeables, porque existen datos, que son las violencias sexuales, la violencia de género, que es la que ocurren entre hombres y mujeres, pareja o ex pareja, y la violencia doméstica, que es la que ocurre en el ámbito familiar y que tanto puede ir de hombres a mujeres, como de mujeres a hombres. Nosotras, obviamente, hemos analizado la violencia que los hombres dentro del entorno familiar ejercen a mujeres para tener una unidad metodológica.
+
+[00:15:51.090] - Thais
+Explicar esto con visualización de datos comprensibles, transformando la información de la estadística judicial en algo accesible a la gente es también nuestro pequeño grano de arena para incidir en esta idea de que mujeres tecnólogas pueden generar un impacto social porque tienen una visión y una manera de entender las cosas que a lo mejor una sensibilidad más masculina, o más brogrammer  (que de esta palabra tenemos que hablar) no tienen, ¿no?. Y esa es la innovación que nosotras hemos aportado. Empezamos el año pasado y este año hemos sacado la segunda ola, con análisis de datos desde 2010, que se te ponen los pelos de punta. Pero bueno, eso ya es otro podcast. (risas)
+
+[00:16:39.150] - Thais
+Son ejemplos de cómo trabajando tecnología y perspectiva de género puedes vislumbrar cosas que sin esta perspectiva de género no puedes ver.
+
+[00:17:00.640] - Carlos
+Y hay montones de áreas de diversidad. Género, discapacidad, raza, origen étnico, edad... y  esto tiene un impacto brutal en la innovación. Pero, ¿por qué no hay esa conciencia, dónde está la dificultad?
+
+[00:18:04.930] - Thais
+Para mí hay diferentes elementos que juegan un papel importante. Estos sesgos provienen de los estereotipos sociales, de nuestra cultura social, cultura colectiva... Si las empresas no adoptan medidas para ponerle freno, están reproduciendo lo que los estereotipos sociales provocan. Si gestionas una empresa igual no estás pensando en esto, y en la industria tech también. Hoy en día la industria tech supone el 3% del PIB del Estado español y el 7,3% del PIB de Cataluña.
+
+[00:19:19.380] - Thais
+Es el sector que ha crecido durante la pandemia, el único sector que generaba cada vez más más empleos. ¿Por qué hay problemas para incorporar personas que no representan a la gran mayoría de lo que se considera el modelo válido para trabajar en entornos tecnológicos, que son hombres blancos? Sobre todo es porque las empresas no han asumido el potencial competitivo que tiene eso.
+
+[00:20:37.480] - Thais
+En el caso de las mujeres está muy claro que es por los estereotipos y por eso te mencionaba antes lo de la cultura Brogrammer, de brother, bro, y del mundo programador. Y el estereotipo en este caso es: las mujeres no saben diseñar buen código o no tan bueno como los hombres.
+
+[00:21:12.250] - Thais
+De otros ámbitos de diversidad no sé tanto, la verdad, pero lo que sí he conocido en mi bagaje profesional, cuando he trabajado en una multinacional consultora de software trabajábamos en equipo, el continuous delivery que se produce en el mundo del software, era tan real como que había proyectos que eran producidos y ejecutados por diferentes equipos de todo el globo terráqueo.
+
+[00:21:59.350] - Thais
+Empezaban por donde sale el sol, que sale por el este, empezaban China, luego India, luego Europa y luego América. El producto no paraba nunca, esto no es muy fácil de conseguir. ¿Cómo se puede hacer esto y que funcione? Imaginarte el framework de trabajo bueno, pero que luego funcione, porque son relaciones humanas las que operan, después te tienes que llevar bien con todos los de tu equipo, te tienes que entender. Eso es porque tenían una cultura corporativa que sí que incluía en su core el respeto a la diversidad y la diversidad como driver de negocio, como un elemento tan preciado que habían políticas que lo potenciaban, de intercambios, cuando empezaba toda la gente se iba a la ThoughtWorks Academy que está en India, todos los equipos se conocían. 
+
+[00:23:13.060] - Thais
+Si nosotros queremos que la empresa sea diversa, porque el producto necesita diversidad para tener un buen acabado, ¿qué tenemos que hacer para que esto sea así? Aquí es donde vendría una cosa que sé que te gusta mucho, que son los Journey. Y aquí vendría hablar de lo que supone diseñar un Gender Equity Journey, el principio de cómo puede convertirse una corporación en Gender Divers. Realmente hace este ejercicio de autoevaluación y de autoexigencia para incorporarlo en sus valores esenciales. Sólo así vas a poder conseguir tener una empresa que cumpla con este principio. No hay que hacer Pink Washing.
+
+[00:24:38.410] - Thais
+Incluso employer branding. Está muy bien hacer employer branding, pero para que realmente esto sea efectivo y que puedas ser más competitivo porque incorporas diversidad en tus equipos, porque eso de alguna manera producirá un impacto en el diseño de tus productos y servicios, es porqué realmente lo adoptas de base. Hay etapas que hay que seguir, que van de la negación a la sostenibilidad.
+
+[00:25:17.630] - Thais
+Hay un estudio de este CTecno que al final dicen: "a ver, la media europea es más o menos el 19,5% de mujeres trabajando en entornos tecnológicos, nosotros tenemos un 29% que no está tan mal". Ya, pero de ese 29%, ¿quién está haciendo código? ¿Quién está diseñando tecnología? Porque no cuenta Recursos Humanos, no cuenta Marketing. O sea, no cuenta lo no techie.
+
+[00:25:47.230] - Thais
+Y al final, este estudio tecno del año 2020 lo que nos viene a decir es que solo el 8,3 % de las personas que desarrollan software en Cataluña son mujeres muy fuertes.
+
+[00:25:58.710] - Carlos
+No me extraña para nada y hasta alto me parece...
+
+[00:26:09.070] - Thais
+¿Y eso porque es? Primero, porque hay pocas mujeres estudiando, porque hay pocas mujeres estudiando es por lo que hemos dicho antes que tenemos que trabajar el mundo de los estereotipos desde muy pequeñitos y muy pequeñitas porque es ahí donde el funnel ya empieza mal. Si no recuerdo mal, las medias están en el 18% del total de personas matriculadas son mujeres en carreras STEM. Esto no solo pasa aquí, pasa en todos lados.
+
+[00:26:47.150] - Thais
+A finales de los años 70 se había llegado a un pico de más del 30% de mujeres y hemos reducido a la mitad, ¿qué está pasando? Lo primero es la entrada, ya hay pocas mujeres pero es que luego hay drop offs, se van cayendo por el camino. ¿Porque se van cayendo por el camino las mujeres que empezaban desarrollando tecnología? Cada vez hay más producción de tecnología, cada vez hay menos mujeres y cada vez está más estereotipado la "carencia de talento" para producir software por parte de las mujeres. Una mujer en GitHub que tiene un nombre de mujer, su issue que acaba de subir con el pull request va a tener más comentarios y más correcciones si su nombre es femenimo que si su nombre no es femenino. Esto es un estudio que hizo Stack Overflow y que se ha aireado a los cuatro vientos que es muy fuerte. ¿Y porque? Pues eso es porque la gente piensa que sabe menos. ¿Qué nos está pasando? No solo son las fake news, es todo lo que envuelve a este mundo de espejos y de reflejos incorrectos.
+
+[00:28:07.170] - Carlos
+Muchas mujeres suelen suelen responder que esto también se resuelve con más referentes, más referentes va a bajar la barrera y a ampliar el top of the funnel. Pero tengo la sensación de que eso es trasladar la responsabilidad de nuevo a las mujeres. Y algo habrá que cambiar desde el privilegio, ¿no?
+
+[00:28:52.190] - Carlos
+Me gusta cómo lo enfocas porque has empezado hablando de estereotipos y del problema y de sobreponerse a los estereotipos. Y eso implica una responsabilidad de todos y de todas. No puede ser que no tengamos consciencia.
+
+[00:29:19.310] - Thais
+Sí ,sí, ¡es que las mujeres somos la mitad de la población!
+
+[00:29:33.380] - Thais
+Sobre lo de la visibilidad de las mujeres y los referentes, creo que ya hay muchas asociaciones que cada vez más están incidiendo en esta idea de visibilizar el talento de las mujeres aplicado a todos los campos. Da igual. Lo mismo me da el desarrollo de software que las directoras de cine, las escritoras, las artistas... Es verdad que esta cuarta ola del feminismo ha venido a visibilizar eso desde mi punto de vista y la cuarta ola de feminismo no es muy amiga de sectores más convencionales que hoy en día gestionan empresas (que en el fondo la cuarta ola del feminismo "se la trae al pairo", para entendernos). Pero todo suma, al final.
+
+[00:30:15.200] - Thais
+Lo que pasa es que no hay visibilidad de mujeres porque hay estereotipos. O sea que para mí todo nace de estas carencias culturales. Aquí y, insisto, en Sebastopol. Las tías indias ni te cuento con lo que tienen que luchar. Yo en Thoughtworks me acuerdo que estaba trabajando en un proyecto y todo eran tías y pensaba "es muy fuerte, ¡no me había pasado nunca!". Los ingenieros indios son la pera, ¡pero es que las mujeres ingenieras indias son todavía más la pera! Porque imagínate tú lo que han tenido que luchar para conseguir ese lugar en esa sociedad. Bueno, pues así ad eternum podríamos estar. Acabar con esta visión sesgada de lo que puede ser una mujer coder  para mi es el gran campo de batalla, porque todo es tecnología.
+
+[00:31:21.860] - Thais
+Si cada vez nos auto-censuramos las mujeres y cada vez luchas contra esta corriente con fuerza contraria a la tuya es algo que las empresas y sobre todo las administraciones públicas, en la medida de lo posible, deberían de poner en el top of the tops de las prioridades.
+
+[00:31:52.130] - Thais
+La industria tech va a ser el motor de la economía del mundo, si no podemos decir que ya es así, si esto es lo que está produciendo empleo, ¿cómo podemos hacer que las sociedades digitales del futuro sean diversas? No es nada fácil y es un problema global. Y bueno, esta falta de capacitación tecnológica a nivel profesional está ahí, pero es que a nivel de usuarias también existe. Está a la orden del día, todas las herramientas de ciberseguridad que las mujeres tengan que adaptar, por ejemplo, el sexting.
+
+[00:32:57.890] - Thais
+Este año hemos dado un curso de autodefensa feminista entre comillas, con un programa de residencias que tiene montado el CCCB muy interesante, que hace formación en museos con estudiantes de bachillerato del barrio del Raval y que fueron dos sesiones donde al final veías que, como las mujeres tenemos un estereotipo de que no sabemos tanta tecnología y que no sabemos utilizar tan bien los cacharros, al final acaba generando este doble sesgo que eres víctima de no saber utilizar Digital Skills y luego, encima, por el hecho de no tenerenacabas metiéndote en cada sarao que no veas. Con lo cual se amplifica, porque todo esto del sexting y del acoso digital... Hay que tener unas nociones.
+
+[00:34:05.200] - Carlos
+He empezado diciéndote que si está tan claro que la diversidad fomenta la creatividad y por lo tanto potencias palanca de innovación. ThoughtWorks por ejemplo, lo tiene en su ADN y lo valora como un asset. Pero la diversidad también tiene un cierto peaje, genera conflictos. Es decir, al final vas a tener miembros de equipos con diferentes valores, con diferentes prioridades, con diferentes estilos de comunicación, con diferencias y eso es un peaje que tienes que pagar por esa ventaja competitiva que te va a dar.
+
+[00:36:12.080] - Thais
+Yo creo que es verdad, hay peajes. ¿Y cuáles serían los peajes? Lo primero de todo, ¿porque este modelo de empresa, ThoughtWorks, lo había adoptado en su ADN y otras no lo han hecho? Pues porque el presidente de ThoughtWorks era una persona negra. Esta persona tenía una perspectiva que un blanco a lo mejor no tiene, y ni se te va a ocurrir pensar en elementos discriminatorios, porque a lo mejor tú no los has vivido nunca.  
+
+[00:37:24.430] - Thais
+Pero esto no es un elemento común. Entonces, ¿cuáles son los stoppers para que las empresas no hagan este cambio? ¿Qué está frenando que exista este cambio cultural? La gente piensa que es un tema de costes. ¿Cuánta pasta me va a costar esto? Y al final, ¿te va a costar más encontrar a buenas mujeres o te va a costar hacer workshops y cambiar la metodología de recruiting? Esa es la inversión.
+
+[00:38:11.850] - Thais
+Lo que hace falta es tener claro, ¿cuánta inversión puedes hacer en esto en un año, en dos años, en tres años? ¿Cómo puedes medir los resultados de esta inversión? Si tu este ejercicio no lo sabes hacer o no tienes recursos para hacerlo...
+
+[00:38:59.050] - Thais
+Hay muchas empresas o entidades, como Digital Fems, hay un montón de gente que hace esto, que puede ayudarte a hacer esto, pero realmente tiene que ser una motivación. No es un nice to have, es un must, es como el que invierte en software. Si compro es de software, esta licencia, puedo hacer todo esto. Esto es una inversión. Te lo has de creer.
+
+[00:39:40.960] - Thais
+Yo he vivido, como te decía, la evolución del entorno digital. En su momento me acuerdo que la gente de las televisiones se reía... Al final ha habido unos que sí que han creído y otros que no han creído. La famosa transformación digital... ¡Ha arrastrado a Kodak! Kodak,nuestra infancia de películas, de fotografías...
+
+[00:40:15.830] - Carlos
+Y es que además los ingenieros de Kodak fueron los que inventaron la fotografía digital, que eso fue lo más interesante de todo.
+
+[00:40:23.920] - Thais
+Ahora parece inverosímil, no compares decir que no a la transformación digital y decir que no a la diversidad. Pues a lo mejor hay otro al lado que sí, que es capaz de diseñar productos y servicios con diversidad y a ti al final te va a acabar desbancando, ¿sabes? Es un coste de oportunidad. Hoy no, pero dentro de 20 años con las nativas digitales que hay, sí hay diseños de aplicativos, de funcionalidades que no son inclusivas, no van a utilizar tú tu plataforma, se van a ir a la que sí, porque esta generación ya son nativos digitales y las funcionalidades no las valoran, las dan por hecho.
+
+[00:41:15.910] - Thais
+¿Qué pasa si está fastidiando mi seguridad? El otro día, sobre una aplicación de dating, había  salido la disyuntiva entre el equipo de desarrollo de software si tenían que incluir o no un tracking, porque claro, si vas a ver a un desconocido, ¿cómo puedes estar segura? Pero, ¿quién va a compartir la ubicación? El producto de repente no parece seguro, pero a lo mejor es un valor, porque la mitad de tus usuarios son tías. Oye, que si son mujeres no son las mismas necesidades, que si son hombres.
+
+[00:42:07.630] - Thais
+No tengo una respuesta clara, lo que sí tengo claro es que sin una estrategia que sea medible y sin una inversión que sea cuantificable y que vaya contra incremento de facturación por incorporar esa diversidad...
+
+[00:42:31.330] - Carlos
+La dificultad de medir el ROI en algo como esto... Si fuese obvia la parte económica, el propio mercado estaría empujando con una fuerza arrolladora hacia ahí.  
+
+[00:44:05.590] - Thais
+Hombre, si pudiéramos inventarnos unos estándares medibles, objetivables. Voy a poner un ejemplo muy tonto, pero tienes un equipo diverso y un equipo no diverso, si tus métricas están midiendo una serie de indicadores tipo: la de veces que el cliente se queja... Lo que pasa que hace falta tener dinero y tiempo para hacer esas métricas otra vez, al final también es una cuestión de fe, de ética.  Voy a dedicarle recursos a medir todo esto, alguien en la organización que se va a dedica a medir esto y al final del año vamos a ver la evolución. O sea, no sólo te cuesta incorporar nuevos perfiles también te cuesta alguien que se dedique a medir todo esto.
+
+[00:45:11.510] - Thais
+Pero si al cabo de un año o dos mides los resultados, igual dices, ¡pues tampoco me ha salido tan caro!
+
+[00:45:24.740] - Carlos
+Esto es un poco parecido al tema de la sostenibilidad, ¿no? ¿La sostenibilidad es una línea estratégica de tu compañía o no lo es? Porque si no es una línea estratégica, si no hay una determinación por conseguir eso, difícilmente vas a cambiar algo. 
+
+[00:46:25.100] - Thais
+Totalmente de acuerdo. Es imposible alcanzarlo si no hay un commitment por parte de los líderes de la organización que, a modo de mantra, vayan construyendo este relato constante: "Más diverso, somos mejores, más diverso, somos mejores". El código diverso, en el caso de la tecnología, es mejor que el código no diverso. Y generar este relato. Este convencimiento a base de demostrarlo con data facts, las KPIs... Y solo a base de insistir y a base de tener esto en tu ADN y tomártelo como un must. No un nice to have, no, un must.
+
+[00:47:43.430] - Carlos
+Me llevo reflexiones muy potentes que me tocan a nivel personal y a nivel profundo, me llevo deberes para mi propia compañía y te agradezco esta reflexión que creo que es súper necesaria.
+
+[00:48:09.840] - Carlos
+¿Cómo ves el futuro?
+
+[00:48:12.600] - Thais
+El futuro lo veo bien porque como hay tantas cosas por hacer, todo está por hacer. Creo que hay muchas personas, muchas empresas también, que sí están empezando a oir notas musicales. Los entornos tecnológicos deberían de ser pioneros porque teóricamente son más susceptibles a la introducción de elementos que ayuden a innovar, porque están en procesos continuos de movimiento. Y esto me parece bonito en el sentido de que todo está por hacer y nos queda mucho camino.
+
+[00:49:22.590] - Thais
+También es verdad que hay muchos inputs que cada vez suenan más, que ayudan a generar conciencia. Y aunque no sea por ideología, aunque sea por rentabilidad. Hay muchos elementos que cada vez suenan más alto y más a menudo con lo que son elementos facilitadores de cambios a futuro.
+
+[00:49:52.130] - Thais
+También creo que tener este aval del mundo datificado que vivimos nos puede servir para medir cómo evolucionamos. Y las empresas tienen muchos elementos cada vez más accesibles para poder medir todo esto y ver qué políticas, qué acciones, pueden introducirse, aunque sea poco a poco.
+
+[00:50:20.610] - Thais
+No hace falta que sea el gran cambio. Todas las revoluciones silenciosas al final acaban explotando y floreciendo
+

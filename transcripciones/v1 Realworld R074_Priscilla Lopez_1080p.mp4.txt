@@ -1,0 +1,288 @@
+[00:00:00.910] - Carlos Iglesias
+Descubrir es una experiencia que despierta múltiples emociones. A veces, es una chispa de curiosidad que nos impulsa a seguir adelante. Otras, es la inquietud de lo incierto, de no saber qué encontraremos. Hay momentos en los que el hallazgo nos sorprende y otros en los que nos deja pensando, replanteando lo que creíamos conocer. Pero en cada descubrimiento hay algo que nos transforma, que nos invita a ver más allá de lo evidente, a conectar con nuevas ideas o perspectivas. La verdadera esencia de descubrir radica en el proceso, en lo que sentimos y aprendemos mientras avanzamos. Así que, ¿qué tal si nos permitimos explorar lo que aún no hemos visto? Por eso, qué mejor que hablar hoy de Product Discovery con Priscila López, Digital Product Director en ManoMano.
+
+[00:00:56.400] - Carlos Iglesias
+Pristila, hay algo que en Me da a llamar la atención de tu espectacular trayectoria profesional, y es que vienes de la logística. A mí eso me llamó la atención. Trece años en Desigual internacionalizando las operaciones de la marca, donde conociste a Manuel de Laut, que fue quien nos presentó. Muchas gracias, Manuel. Cuatro años en Privalia, combinando el rol de Digital Product Director primero, Global Supply Chain Director después, y tras la adquisición por parte de BP, dos años y medio más como directora de procesos del grupo.
+
+[00:01:37.180] - Carlos Iglesias
+Ahí es nada, para aterrizar finalmente en esta última etapa en mano a mano como directora de producto digital, liderando la visión, la estrategia de producto, asegurando el impacto en negocio y fomentando la innovación. Yo estoy seguro de que toda esta experiencia previa en liderazgo, gestión de equipos, en tantas áreas distintas, desde la cadena de suministro Pero global, hasta la transformación digital, te han dado una visión única sobre cómo dirigir producto. Así que, Priscilla López, bienvenida a Real World y muchísimas gracias por estar aquí.
+
+[00:02:11.550] - Priscila López
+Encantada, Carlos, y muchas gracias por tenerme.
+
+[00:02:14.720] - Carlos Iglesias
+De verdad que es un placer que estés en este podcast. Y te lo digo de verdad, me parece como muy interesante y es muy impresionante ver toda tu experiencia. Y me parece como muy interesante y tienes un perfil... Porque por aquí han Ha pasado a algunas personas que dirigen producto y me parece interesante entender de dónde vienen, cuál es su pasado, porque eso te da una perspectiva que me apetece explorar contigo.
+
+[00:02:40.990] - Carlos Iglesias
+¿Qué es para ti el mundo real?
+
+[00:02:43.660] - Priscila López
+Creo que el mundo real está hecho de muchas cosas muy, muy pequeñas, de pequeños detalles, de cosas que ocurren cada día, que parecen ínfimas, de lo que has comido, se ha salido el sol, las personas que has visto por el camino. Y creo que hay cosas buenas, cosas no buenas, cosas que ocurren. Y esa es tu realidad, tu mundo. Cuando realmente pones el mundo de cada uno de nosotros junto, ese cómputo creo que es el mundo real, al final, el conjunto, diría yo. Y ese conjunto también creo que al final, con los años, yo al menos, soy más consciente de lo diferente que es mi mundo real del de mucha gente. Con lo cual creo que estoy muy agradecida también por la suerte que tengo en mi día a día.
+
+[00:03:38.740] - Carlos Iglesias
+Hablabas de los detalles, de pequeños detalles. ¿Eres una persona detallista?
+
+[00:03:43.210] - Priscila López
+No sé, soy detallista, pero sé que me fijo en pequeñas cosas. No soy detallista quizás porque mi marido diría que no, la verdad. Pero sí que me fijo en las pequeñas cosas, sí que me fijo mucho en los detalles. Me gusta ver la foto global, pero también me gusta hacer zooms, pequeños detalles.
+
+[00:04:00.410] - Carlos Iglesias
+Compartimos ese rasgo, esa característica. Hoy vamos a hablar de discovery y me apetece un poco como setear las bases, digamos. Empecemos por lo más básico. ¿Qué es el discovery en producto? ¿Y qué hablamos cuando hablamos de discovery en producto? ¿Y por qué es importante?
+
+[00:04:21.330] - Priscila López
+Discovery básicamente va de identificar un problema que quieres solventar. No me gusta mucho hablar de problemas, a pesar de que creo que en producto lo hacemos mucho, porque creo que tiene connotaciones a veces como un poco negativas. Entonces, te pierdes las oportunidades. Pero bueno, entendamos que son oportunidades y problemas. Buscar una solución, al final. Discovery para mí va de esto, de diseñar, identificar soluciones o diseñar soluciones para oportunidades, como decía. Creo que es una parte muy importante del product management, porque al final, realmente sin el discovery, es muy difícil crear un impacto. Entonces, para mí es clave y es una parte fundamental de nuestra función en cualquier empresa digital.
+
+[00:05:08.290] - Carlos Iglesias
+Oye, ¿y por qué, siendo tan importante, en nuestro sector, se percibe en ocasiones como algo pesado o algo demasiado caro o o algo innecesario, incluso. ¿Por qué sucede esto? ¿Te lo encuentras?
+
+[00:05:35.820] - Priscila López
+Sí, yo creo que es un mal común. Creo que la percepción viene de áreas que no son de producto. No creo que nadie en producto, piense esto. Pero sí que es verdad que al final en las compañías puede verse de esta manera. Creo que se ve como algo que ralentiza, quizás en algunos casos, es como que estáis invirtiendo mucho tiempo en esto cuando ya sabemos que queremos Yo sé lo que quiero. Yo sé lo que quiero y hacer esto. Esta funcionalidad, ¿dónde está? Hazme esto ya. Pero la verdad es que creo que al final lo que ralentiza es no hacerlo. Y no solo ralentiza, sino que hablabas de que quizás es más caro. En Lo que es caro es no hacerlo, yo creo. Porque al final, si tú piensas el dinero que pierdes en lanzar funcionalidades o productos que no funcionan, es bastante superior al dinero que has invertido en analizar bien y entender bien el problema. Con lo cual, sí que creo que es una percepción, pero en mi opinión, es un error, porque si ves y pones todo en una balanza, realmente al final estás ganando tiempo y estás creando mayor impacto, en mi opinión.
+
+[00:06:41.560] - Carlos Iglesias
+Yo lo veo mucho esto, esta percepción de: Esto ya O sobre todo, es innecesario igual, fíjate, en fases como más avanzadas de producto, en productos que se supone que ya están maduros y de repente ya sabemos lo que hay. Ahora ya solo es cuestión de sota caballo rey, hay que hacer lo que hay que hacer. Y no sé, mi sensación es que es un grave problema, porque es que también, y de esto hemos hablado tú y yo varias veces también, de la orientación a output, orientación a outcome, entender el valor de lo que haces, entender el impacto de lo que estás haciendo, versus la orientación a output, esa: Hazme esto, yo quiero esto, hacedme esto. Y en muchas ocasiones, yo casi diría, y además lo suelo decir bastante a menudo, que a veces valdría más quitar funcionalidades, ya no solo añadir funcionalidades de esos productos. No, pero esto es clave. Sino simplificar el producto y quitar funcionalidades. Y eso es totalmente incompatible con la visión de output.
+
+[00:07:45.120] - Priscila López
+O sea, no sabes como me gusta el tema de simplificar, de decir todo esto, si no funciona, lo quitamos. De hecho, nosotros ahora, actualmente, en ManoMano, hemos en parte hecho un análisis respecto a esto, de cómo podemos simplificar el tech stack, pero también funcionalidades al final, que realmente tienen un nivel de uso muy bajo y realmente dan complejidad a toda la compañía, ningún valor. Entonces, también creo que es de sabios rectificar, quizás. Fantástico, claro. Para mí, no solamente es intentar crear las cosas correctas, pero también asegurarte que aquello no funciona, pues oye, como en casa, o sea, la basura. Fantástico. Y sí, sí. Del mismo modo.
+
+[00:08:22.490] - Carlos Iglesias
+Y oye, como hablabas ahora de simplificar también no solo la parte técnica, e intuyo que estructural, probablemente debe afectar también. Si hay una parte técnica y de funcionalidades, mi cabeza me dice: Bueno, pues probablemente hay algún tipo de reorganización estructural. ¿Cómo crees que es la mejor forma de estructurar a los equipos, a la organización, para maximizar la eficiencia, para maximizar el impacto, el aprendizaje? ¿Cómo deben integrarse las distintas disciplinas de los equipos? No sé cómo lo ve esto. Háblame de estructura.
+
+[00:09:00.440] - Priscila López
+En cuanto a organización, creo que la organización es muy importante. Y te hablo de organización, antes de hablar un poco quizás de la coordinación o la estructura de la organización. La organización creo que tiene que ser algo que está en constante desarrollo. ¿Esto qué significa? Significa que como empresa tienes necesidades diferentes en cada momento. Entonces, creo que es muy importante replantearte si esa organización que tienes, es la que necesitas. Entonces, yo creo que esto es vital y para el equipo de producto también lo es. Es decir, si estás lanzando un producto, como decías anteriormente, a veces quizás necesitas cosas diferentes en cuanto al discovery. Nadie se plantearía no hacer discovery si quieres lanzar un nuevo producto, por ejemplo. Para la organización pasaría un poco lo mismo, yo creo. Que tienes que entender qué organización necesitas en cada momento. Y para el producto, para mí, eso se traslada a identificar si quieres una organización que está enfocada en los diferentes tipos de usuarios que puedas tener. Muchas veces son organizaciones que son reflejo de las necesidades de negocio o la estructura de negocio. Entonces, la organización es clave. Y luego, en función de esa organización, también tienes que ver cómo organizar el día a día de esos diferentes equipos, que es un poco también cómo coordinamos o animamos ese día a día también.
+
+[00:10:15.220] - Priscila López
+Entonces, yo creo que tiene que ser algo en evolución, básicamente. No hay una solución única o perfecta y tiene que ser en constante evolución, en mi opinión.
+
+[00:10:23.710] - Carlos Iglesias
+Me recuerda, hemos hablado en este podcast muchas veces de la ley de Conway y de cómo afecta tu estructura formal a tu capacidad de entrega de valor. O incluso la propia arquitectura de tu propio producto, la forma en la que organizas el producto, la forma en la que está estructurada tu organización y los distintos, no voy a decir así, silos. Pero ocurre, al final todo el mundo intenta evitarlo, pero a ver los áilos. Claro, se dan. Lo interesante es estar en guardia, digamos, y estar atento a qué podemos hacer cuando identificamos que se producen. Y no asumirlo como algo normal. Pero sí, hemos hablado muchas veces de eso, de cómo tu estructura formal condiciona tu capacidad de entrega de valor y la propia estructura de tu aplicación, de tu software. ¿Cómo crees que en este sentido.? O sea, me has respondido que esto es algo que hay que ir evolucionando y hay que ir encontrándolo. Pero desde el punto de vista del discovery, me interesa entender cómo es el contexto ideal para ti para para poder realizar un buen discovery, unos buenos aprendizajes, identificar insights, identificar oportunidades, como decías antes.
+
+[00:11:39.580] - Priscila López
+¿cómo crees que es la mejor forma? Algo que tenemos a día de hoy que nos funciona, yo diría, en mi opinión, en mano a mano. Nosotros trabajamos a través de ciclos, que cada vez son más cortos, y lanzamos los ciclos con PI Planings. Nosotros los discoveries forman parte de la preparación del PI Planning y del ciclo. Y esto yo creo que nos ayuda bastante a organizarnos. Es decir, nos ayuda a entender, obviamente hemos hecho un trabajo previo, identificar prioridades y qué problemas queremos enfocarnos. Y en el PI y Planning somos capaces de comunicar esto a todos los equipos que pueden estar involucrados. Esos equipos no solamente es productos, sino también es diseñadores, ingenieros, equipos de negocio que tienen que contribuir. Entonces, gracias a esto identificamos qué personas y qué equipos deberían contribuir a este discovery para tener éxito. Y también, aseguramos que esos esfuerzos son posibles. A veces, quizás, queremos atacar demasiados temas a la vez. Y hay que tomar decisiones, y que tiene que haber un arbitraje. También es el momento en que realizamos esto. Entonces, esto nos ayuda mucho a ser más eficientes como organización, respecto a los discoveries también, no solamente los deliveries.
+
+[00:12:54.850] - Priscila López
+Y gracias a este ejercicio, creo que también estamos enfocando bastante el discovery, porque intentamos asegurar qué parte del problema queremos atacar. No los problemas tienen que abrirse y cerrarse, yo creo que tiene que ser algo más, también, en cuanto a evolución, algo más constante. Y queremos también crear un impacto, aprender y iterar sobre esto, con lo cual también os ayuda un poco este ejercicio a identificar qué parte del problema queremos atacar y de qué manera.
+
+[00:13:25.430] - Carlos Iglesias
+O sea, que hay como una especie de, si lo he entendido bien, una especie metaestructura que planifica cómo vamos a integrar los discoveries con parte del equipo de delivery también, entiendo.
+
+[00:13:37.310] - Priscila López
+Sí, los equipos son los mismos. Nuestros equipos hacen discovery, delivery, todo. No, para mí es algo que no se puede separar en ningún caso. Cástilo, quería escuchar esto. Exactamente. Ellos contribuyen también, obviamente, a la visión de producto, a la estrategia de producto y a los roadmaps. Es decir, es el mismo equipo con quien trabajamos todos los ámbitos del producto.
+
+[00:13:58.060] - Carlos Iglesias
+Pero digamos que hay como una especie de decisión más, quizá, a nivel de negocio de cuánto... O sea, ¿por qué hacéis esto? Y no les cedéis a los equipos la propia decisión de cuándo hacer discovery. ¿Qué necesidad identificáis para poder gobernar cuando se hacen esos procesos de discovery?
+
+[00:14:16.180] - Priscila López
+Es en ambos sentidos, realmente. Es decir, sí que, obviamente, con todas las empresas tienes ciertos temas que son top down, que al final hay una visión muy clara a nivel del top management y realmente sí que hay una directriz respecto a esto. Pero luego también tienes muchos bottom-ups, que yo creo que donde se encuentren es el punto ideal. Entonces, tienes un mix de ambas cosas y tiene que haber un consenso.
+
+[00:14:39.830] - Carlos Iglesias
+Cuando decías arbitraje, te referías a eso, ¿no?
+
+[00:14:41.930] - Priscila López
+Sí, exactamente. Vale. Pero ese consenso y ese arbitraje es cuando tú pones todas esas cosas en común. Y para poner estas cosas en común, tienes datos, insights, que son parte más difícil a veces, para poder vender tu idea en este momento de concentrar todas las ideas.
+
+[00:14:57.760] - Carlos Iglesias
+Quiero que pongamos el foco en lo mío, quiero que pongamos el foco en esto.
+
+[00:15:00.080] - Priscila López
+Cada uno tiene su libro.
+
+[00:15:01.020] - Carlos Iglesias
+¿por qué? Claro.
+
+[00:15:02.200] - Priscila López
+Y no solamente su libro, sus convicciones.
+
+[00:15:04.100] - Carlos Iglesias
+Claro, claro, claro. Sí, sí, sí, sí, sí, por supuesto. Interesante. O sea, tienes que ganarte el derecho de alguna forma a priorizar ese discovery, a priorizar esa parte de discovery, porque tenemos muchas ganas de descubrir muchas cosas en muchos sentidos, pero ahora queremos poner el foco en esto. Exactamente. Es esto, ¿no? Muy interesante esto. Y cómo se alinean las prioridades del product discovery con la Digamos, con los objetivos estratégicos, digamos. O sea, ¿cómo buscáis esa alineación? Si lo puedes contar, porque tampoco te quiero poner aquí.
+
+[00:15:41.720] - Priscila López
+No, por supuesto, puedo contar. Mi cara básicamente es porque no podríamos alinearlas. Es decir, creo que es imposible no alinearlas. No porque sea fácil, sino porque es una obligación como compañía. Si realmente tú tienes una desconexión entre tus prioridades de compañía, ya no en tus prioridades de producto que deberían ser las mismas, y los discovery que se están priorizando, al final hay una desconexión y tú no vas a acertar nada al objetivo que tienes realmente. Entonces, en nuestro caso, la manera en que trabajamos es que para cada ciclo, de nuevo, definimos objetivos, son objetivos más a alto nivel. Entonces, finalmente hay una visión más alto nivel compañía. Intentamos que debajo de ser unos objetivos relativamente claros o son más macro, Esos objetivos después se segmentan quizás en cosas más tangibles, que puedas enfocar en cuanto a dos meses vista, tres meses vista, pero siempre tienen que estar alineados con ese marco. Y esto nos ayuda a entender un poco todos la dirección que debemos seguir. Pero luego esto se puede enfocar de muchas maneras, que es donde te decía el tema de las confrontaciones, de realmente, ¿cuál es el problema real? ¿Qué discovery queremos hacer? Entonces, todo está dentro de este marco de los objetivos que hemos definido antes.
+
+[00:16:57.190] - Priscila López
+Con lo cual, en cuanto a proceso, Revisamos la visión y la estrategia más a nivel compañía periódicamente. Normalmente, es como una vez al año, máximo. Además, que esto no es asumible. Definimos unos objetivos alineados con esta visión, que son más alto nivel. Y entonces, definimos objetivos a nivel trimestral o de ciclo que nos ayudan a priorizar. Entonces, si en hoy tenemos dudas y demás, nos tenemos que dirigir a esos objetivos que hemos alineado previamente. Sí que es verdad que los objetivos vienen más dados por los líderes. Y sí que los equipos son quienes definen los key results de esos OKRs. Por ejemplo, mi equipo es quien define hasta dónde van a poder llegar o qué van a poder entregar como outcome en ese caso, respecto a ese objetivo. Entonces, luego tienen que encontrar la manera, qué iniciativas hay detrás de esto.
+
+[00:17:55.010] - Carlos Iglesias
+Esas acciones no tienen por qué ir a un roadmap de producto, no tienen por qué ir a un backlog, no necesariamente. Puede ser acciones, incluso a nivel de transformación organizacional, a nivel de cómo nos vamos a organizar o cómo...
+
+[00:18:25.720] - Priscila López
+Qué interesante. Por eso la colaboración, yo creo, con todos los equipos, como te comentaba, es clave, porque a veces un discovery puede arrancarse como un discovery que parece técnico y puedes acabar con una solución que pasa por cambios en las negociaciones con los sellers, entonces somos un marketplace. Claro. Esto nos ha ocurrido, por ejemplo. Entonces, yo creo que si haces bien el discovery, el output de ese discovery en concreto, lo que surge de allí, puede ser cualquier cosa. Mientras solucionas el problema que esperabas.
+
+[00:18:57.440] - Carlos Iglesias
+No sé, yo tengo una teoría que es mía y que, por lo tanto, no tiene ningún fundamento, en el sentido de que no tengo pruebas, pero tampoco dudas, lo que se suele decir. Yo tengo la sensación de que las compañías de producto, yo he visto muchas compañías de producto donde no se hace discovery? Y donde el discovery, no se hace discovery. Sencillamente, el roadmap de producto lo define ventas, que es lo que están pidiendo algunos de sus clientes, que son los clientes más importantes que son los que generan el income más importante, etcétera. Y un poco mi sensación, creo que eso tiene un impacto brutal a todos los niveles en la cultura. Creo que una cosa tan En principio, hablamos del discovery como: Es que es muy importante conocer las necesidades y las oportunidades, descubrir oportunidades en nuestros usuarios, en nuestros clientes. Pero yo creo que además, yo veo una gran diferencia entre empresas que entienden la importancia del discovery y empresas que no lo entienden. Diferencia cultural, diferencia de toda la organización orientada a output o de repente todos los equipos son feature factories, son pequeñas empresas de hacer churros y se les evalúa por una performance de cuánto estás entregando y cuántas líneas de código estás escribiendo y cuánto.
+
+[00:20:23.950] - Carlos Iglesias
+Versus todo lo contrario, eso era lo que tú decías. Ojalá podamos sacar funcionalidad, ojalá podamos encontrar una solución a un problema haciendo una renegociación con resellers o con partners o lo que sea. Para mí hay una implicación, o sea, hay un impacto cultural, al menos la evidencia que yo he visto es muy bestia realmente. ¿Tú lo contrastas esto? ¿Tienes la misma sensación?
+
+[00:20:48.970] - Priscila López
+Sí, yo creo que hay empresas donde no hay discoveries. También en todas las empresas, yo creo que nos ha pasado a todos, no siempre haces discoveries y a veces sí que realmente era necesario. Esto también ocurre. Claro. Creo que realmente son empresas donde quizás el rol de producto, dentro de la compañía, no está bien definido o posicionado. Creo que tiene que ver con esto, mi opinión.
+
+[00:21:10.770] - Carlos Iglesias
+El rol de producto, háblame de eso.
+
+[00:21:12.880] - Priscila López
+Es un tema que no tiene fin, yo creo. Ya, ya, ya.
+
+[00:21:16.180] - Carlos Iglesias
+¿qué quieres decir? ¿Pero de qué hablas tú cuando hablas del rol de producto?
+
+[00:21:21.140] - Priscila López
+Tú antes hablabas de que yo venía de operaciones, supply chain, logística. La gente de producto, los líderes, los PMs, ¿de dónde vienen? Es decir, hay una formación realmente. Tú ves la universidad y estudiar para product manager, sí que es verdad que ahora hay más formaciones. Ahora empiezan a haber. Yo quizás he sido otra generación.
+
+[00:21:39.730] - Carlos Iglesias
+Ahora empiezan a haber.
+
+[00:21:40.640] - Priscila López
+Sí, es verdad, las generaciones más jóvenes. Pero la gente tiene algunos años más de experiencia, vamos a decir, no existía. Entonces, realmente vienes o de ingeniería, normalmente, o de áreas de negocio, vamos a decir. Entonces, ahí has ido un poco evolucionando por curiosidad, por interés y demás. Y esto tiene que ver mucho con el tema de cómo definimos y dónde posicionas producto, porque como es un rol relativamente nuevo, que se ha ido definiendo de manera diferente en empresas diferentes por personas que han ido adaptando y creando ese rol por sí mismos, en cierta manera en muchas empresas. Esto yo creo que tiene que ver con la razón por la cual en cada empresa es diferente también. Un contable todo el mundo sabe lo que es. No sé si el día de mañana existirán, pero todo el mundo sabe lo que es y qué se espera de ellos. De nosotros, no. Entonces, yo creo que tiene que ver con esto, en mi opinión. Entonces, producto es diferente en cada empresa y está bien, pero sí que es verdad que para tener el potencial de producto, en mi opinión, tienes que darles cierto ámbito de actuación. Si no, para mí, es malgastar los recursos de la compañía.
+
+[00:22:45.990] - Priscila López
+Y creo que muchas empresas ocurren que tienen equipos de producto que realmente no son de producto como podrían serlo y quizás esos recursos no están bien empleados, en mi opinión, en mi humilde opinión.
+
+[00:22:58.720] - Carlos Iglesias
+Sí, me Me resuena muchísimo y parece que nos estamos dando la razón todo el tiempo, pero yo, o sea, mi experiencia y también veo casos. Ahora tengo la suerte de que a veces me piden acompañar a empresas de producto o a empresas de la industria que han entendido que tienen que hacer un cambio. Y me encuentro con la sorpresa en muchas ocasiones de que ni siquiera hay conciencia de la necesidad de crear una estructura de producto, una estructura de la gestión del producto. Y es muy heavy, porque es como ir en un transatlántico que gasta una diesel, que no veas, sin tener clara la dirección, sin tener... O sea, es bastante... Yo he percibido mucho dolor. Hay mucho dolor ahí. También hay mucho dolor en product managers que de repente, y estoy convencido de que tú también has escuchado esto alguna vez, ¿no? Y cuál es la estrategia del producto? Product managers que no tienen una estrategia donde agarrarse o que no tienen esa estructura organizada de objetivos estratégicos, de los cuales penden una serie de objetivos o de métricas que queremos batir, queremos mover la aguja, cuáles son los resultados esperados, qué iniciativas. Claro, no en todos los sitios está tan ordenado, por herencia, probable.
+
+[00:24:19.030] - Priscila López
+No te creas que sea tan ordenado tampoco para nosotros, no es perfecto. Y sí que es verdad que los product managers, especialmente los buenos, yo creo que deben reclamar esto y obligarnos a todos los líderes de la empresa a realmente facilitarlo.
+
+[00:24:36.040] - Carlos Iglesias
+Qué bueno, estoy super de acuerdo. Esto lo he comentado con varias personas que hacen este rol, el rol de product manager, y es un poco un rol de ir Irritador también el sistema, en ese sentido, de estar preguntando. Es molesto tener a alguien que todo el día te está diciendo: Bueno, pero ¿cuál es la estrategia de producto? ¿Y cuál es la estrategia de negocio?. No me digas que es este KPI, porque un KPI no es una estrategia. ¿Cuál es la estrategia?. Esas preguntas son incómodas, Y estas preguntas son, probablemente, no en todas las culturas, probablemente no en todas las culturas se acepta que haya personas que estén ejerciendo ese rol, algo molesto o algo... Pero me parece superimportante Me parece que es muy importante estar preguntándose eso constantemente y intentar darle respuesta, que no hay respuesta buena. Porque luego tenemos el problema de la priorización. Porque luego, claro, si no tenemos una estrategia o nuestra estrategia está más o menos definida, la estrategia de negocio, la estrategia de producto, y estamos en muchas ocasiones compitiendo por recursos, compitiendo por el tiempo, compitiendo. Hay una competición a veces por eso. ¿Cómo se prioriza y qué problemas vienen de ahí, de la priorización?
+
+[00:25:50.500] - Carlos Iglesias
+¿Cómo es la mejor manera de priorizar, Priscila?
+
+[00:25:54.610] - Priscila López
+No tengo la solución, por desgracia. No tengo ninguna varita mágica. Lo sabía. No lo Creo que es difícil priorizar correctamente a veces, porque priorizar va de decir no. Y decir no no es fácil. No es fácil porque muchas veces hay muchos temas muy interesantes a atacar, pero los recursos son siempre limitados. Tengas más o menos, siempre son limitados. Entonces, creo que es muy importante ser pragmático la manera de tomar decisiones y ser coherente a veces. A mí, algo que me irrita un poco, que es el cambio de rumbo constante. Eso no significa Sé que no sea flexible, porque me encanta apuntar cosas nuevas. Me aburro con facilidad y esto me gusta mucho. Pero sí que un cambio de rumbo que no te permite haber aprendido nada y que realmente estás malgastando recursos y sabes que es un cambio de rumbo que también va a ser como temporal, esto realmente es difícil. Entonces, la priorización creo que tiene que ver con el hecho de tener claro, como decías, tu visión, tus objetivos. Eso te ayuda mucho, obviamente, a priorizar, a tener datos detrás para poder entender bien si estás priorizando correctamente y estás alineado con esto.
+
+[00:27:01.260] - Priscila López
+Y esto no significa que no puedas cambiar de opinión. Claro. Pero sí que tiene que ver... O revisar los objetivos. Exacto. Cierta estructura, yo creo. Entonces, creo que todo tiene que ver de nuevo un poco con el mindset de la compañía, la estructura de la compañía y la organización, que ayuden un poco a dar soporte a todo esto.
+
+[00:27:20.340] - Carlos Iglesias
+Tienes razón y a mí también me pasa un poco. Sobre todo porque cuando estás enfocado en una ruta, estar todo el rato saliendo de esa ruta es Me gasta muchísimo, es desgastante. Pero por complementar un poco esa visión, también me ha pasado, yo he compartido mi trayectoria profesional con personas que son precisamente todo lo contrario, son personas que están poniendo todo el tiempo en duda. Y a veces tienes la sensación de: Oye, igual si no dudásemos tanto, iríamos más rápido. Pero también he de decir que en ocasiones me he sorprendido. Yo soy una persona como muy ejecutiva, muy de hacer las cosas, de agarrar algo y no lo suelto. Y de repente necesito a alguien que esté poniendo en duda lo que estamos haciendo, que si no, yo sería un versecker, iría con un foco y no pensaría en nada, haría lo que tengo que hacer. Y de alguna forma, por complementar esa idea, que también hace falta esa visión de esas personas que de repente sienten la necesidad de revisar y de volver a hacerse la pregunta, y es complicado.
+
+[00:28:25.800] - Priscila López
+Un contrapeso siempre hace falta, obviamente. Y retarse y retar la estrategia y todo, es ha salido siempre. Pero sí que mi punto va más enfocado al tema de dedicar recursos y esfuerzos sin nunca aprender nada constantemente. Esto yo creo que es un problema a veces en algunos periodos para algunas empresas, yo creo.
+
+[00:28:44.700] - Carlos Iglesias
+Qué bueno, qué buena visión. O sea, lo estás enfocando como hay periodos de las empresas, no es que en esa empresa sea así, sino que hay momentos en los que...
+
+[00:28:51.940] - Priscila López
+No, yo lo veo como algo de momentos, quizás de transición, donde a veces pierdes un poco el oremos que puede ocurrir. Claro. Y sí que es como que malgastando los recursos preciados.
+
+[00:29:02.620] - Carlos Iglesias
+Qué bueno, esto es la voz de la experiencia, tantos años viendo un poco cómo funcionan las compañías, eso es lo que te da un poco... Porque en muchas ocasiones, yo, perdone, porque ahora me voy al tema de la experiencia, creo que la experiencia es precisamente eso. O sea, tú tener la capacidad de mirar el bosque, de tomar distancia y decir: Bueno, esto ya sé. Ya he experimentado esto, ya lo he vivido. Y a veces, cuando nos falta esa experiencia, y creo que en un rol como el del product manager, que es un rol estratégico de toma de decisiones y tal, es difícil eso. Y tú lo decías antes, claro, ¿cómo llegas a ser product manager? Yo creo que hay muy buenas formaciones hoy en día para ser product manager, pero yo creo que product manager es un camino, no sé, como si opinas lo mismo.
+
+[00:29:50.620] - Priscila López
+Yo nunca he sido product manager, esto lo sabes. No. Nunca he sido product manager.
+
+[00:29:54.990] - Carlos Iglesias
+Ya pasaste a ser directora de producto.
+
+[00:29:57.530] - Priscila López
+Bueno, porque por razones de una manera como muy natural, acabé allí, pero sin ni siquiera saber prácticamente dónde iba, sinceramente. Entonces, nunca he sido product manager, que es algo realmente que me hubiera encantado, si hubiera tenido la oportunidad un poco antes en mi carrera, sinceramente. Entonces, yo creo que product manager es una persona que tiene que tener un rol muy completo, en mi opinión. Y lo que hablábamos antes del discovery, tiene que ver con la curiosidad. Entonces, no puedes pretenderte en un product manager que realmente aporta valor, si no es una persona curiosa. Y si es una persona curiosa, va a ser curiosa, no solamente para realizar discovery y poder encontrar la mejor solución, sino también para retarte, como tú decías, y replantearse quizás esa estrategia y demás, hasta que se asegura de que tiene sentido y es coherente. Entonces, no puedes contratar gente de este perfil y luego pedirles que te entreguen la funcionalidad.
+
+[00:30:52.820] - Carlos Iglesias
+Exactamente, que te gestionen output. 100%. Es verdad, ahora, en este momento, Eso lo hablo con muchos colegas, y hay una demanda brutal de product managers. Porque es que no hay, es que hacen falta muchos product managers, porque llevamos muchos años haciendo producto de una manera que nos estamos dando cuenta de que quizá no era la más correcta y que hacía falta una cierta estructura por encima. Y ahí yo creo que hay un reto y hay una oportunidad superbonita, creo, para que haya personas que creo que es una profesión no de futuro, o sea, ya es de presente, pero que no va a parar de evolucionar, me da un poco esa sensación.
+
+[00:31:33.280] - Priscila López
+Yo eso espero porque es apasionante y no es por venderlo, pero realmente el rol de un product manager es tan completo, medio que similar al rol de un CEO, porque puede ser product manager de casi todo. Entonces, al final realmente...
+
+[00:31:44.240] - Carlos Iglesias
+El CEO es el primer product manager, cuando arranca una startup, ese es su rol, es el rol de gestionar el producto.
+
+[00:31:50.260] - Priscila López
+Con lo cual te permite trabajar en todo, en temas de marketing como en temas hasta logística, si quieres. Con lo cual te permite tener un conocimiento amplio de la compañía si quieres evolucionar.
+
+[00:32:01.100] - Carlos Iglesias
+¿en qué te ayudó tu experiencia en la logística?
+
+[00:32:05.600] - Priscila López
+Me ayudó, no me experiencie la logística, me ayudó como a gente que confió en mí, básicamente. Pero me ayudó porque la necesidad que en ese momento había en Privalia tenía que ver con un rol de producto, pero muy relacionado con procesos de logística, de transporte, de gestión del catálogo y los materiales, con lo cual realmente era algo lo que yo ya había trabajado, porque había implementado proyectos de tecnología para esas áreas en el pasado, con lo cual tenía cierta curiosidad de conocimiento tecnológico, aunque no había nunca trabajado un producto como tal. Entonces, mi transición fue muy natural debido a eso.
+
+[00:32:50.110] - Carlos Iglesias
+Justo la semana pasada hablaba con Manuel de Laud, que estamos compartiendo un proyecto en el sector de la moda, estamos trabajando juntos. Me encanta trabajar con Manuel, es un crack, de verdad lo digo.
+
+[00:33:01.390] - Priscila López
+También he trabajado con él, por suerte, y es fantástico.
+
+[00:33:03.640] - Carlos Iglesias
+Es increíble, es un tío increíble. Y justo comentaba, él me decía que él sabe mucho de moda, es una persona que sabe un montón. Estudiaba moda. Claro, estudiaba moda, era un buen diseñador de moda. Y además, él sabe mucho de marketing y de... Bueno, sabe mucho de muchas cosas. Pero me decía: No, es que hoy la moda la dominan aquellos que dominan la distribución.Hemos.
+
+[00:33:26.370] - Priscila López
+Tenido muchas discusiones de esto con Manolo.
+
+[00:33:27.940] - Carlos Iglesias
+Sí, sí. Y Y creo que en producto digital pasa algo parecido. Es decir, entendiendo distribución como cómo consigues adopción de tu producto digital, cómo consigues O sea, también esa parte de distribuir tu producto creo que es fundamental y en muchas ocasiones mi sensación es que las personas que nos dedicamos a hacer producto porque nos apasiona el producto, no No nos apasiona tanto esa otra parte, esa parte más de distribuir, de hacer que el producto llegue. Y para mí es un poco como el equivalente. Al mundo de la moda está la parte de logística, sin la cual no hay moda, es imposible que exista. Y en el producto digital me da un poco la sensación de que pasa algo parecido.
+
+[00:34:18.320] - Priscila López
+Yo veo sinergias, quizás por mi background y mi mentalidad, pero entre supply chain y producto, en el sentido de que supply chain al final son como muchas piezas, es un enganaje, y siempre tienes algún problema. Es como que cuando te falla por aquí, te va bien por aquí, cuando solucionas el otro, ahora ya no te va bien.
+
+[00:34:36.610] - Carlos Iglesias
+En el canal de Suez ahí cruzado.
+
+[00:34:39.260] - Priscila López
+Exacto. Yo creo que ahora todo el mundo se ha dado cuenta con mis compañeros, decimos que ahora todo el mundo nos valora.
+
+[00:34:43.840] - Carlos Iglesias
+Desde luego, desde luego. Estos últimos años ha abierto los ojos, la realidad, qué es esto, el supply chain.
+
+[00:34:48.700] - Priscila López
+Y también la pandemia y demás ha puesto en valor ciertas actividades. Desde luego que sí. En cuanto a producto, también es un poco esto, engranajes, yo creo. Entonces, es donde tienes que ir viendo todo el engranaje en su totalidad para realmente entender esa adopción, dónde está fallando, por qué razones reales. Y ver un poco todo el customer journey, en algunos casos, en su totalidad para ayudarte. Entonces, yo veo sinergias en ese sentido.
+
+[00:35:12.920] - Carlos Iglesias
+Y hablando de discovery, que hablábamos antes, la importancia del discovery también en esto. También podemos usar discovery en esto. Y en este sentido, te diría, ¿tú cómo Bueno, todas las preguntas que te hago, yo soy muy consciente de que ninguna tiene una respuesta clara. Digamos que estamos hablando de complejidad y, por lo tanto, de muchos parámetros que influyen. Pero sí que me gustaría entender tu punto de vista, sobre todo de cómo adaptar el discovery a las diferentes fases del ciclo de vida del producto. Diferentes momentos. No sé, en tu experiencia, ¿cómo ¿Cómo es esto?
+
+[00:36:01.490] - Priscila López
+Hay claras diferencias, especialmente entre el lanzamiento de un nuevo producto y productos ya lanzados, obviamente. Eso que decíamos antes, yo creo, nadie se plantearía, espero, lanzar un producto nuevo al mercado sin haber hecho ningún tipo de discovery. Entonces, aquí se trata de discovery más relevantes, si es posible, y quizás un poco más pesados en cuanto al tiempo que tienes que dedicar, el esfuerzo, la incertidumbre que tienes también. Hacer un producto nuevo siempre es algo excitante, pero también complicado. Tienes que dedicar quizás mucho tiempo a conocer a tus usuarios o clientes, reales, qué necesidades reales pueden tener, qué problemas reales quieres atacar. Entonces, yo creo que en la fase de lanzamiento el discovery es incluso más relevante y más, quizás, lento en cuanto a tiempo que tienes que dedicar y totalmente diferente a un producto maduro que decíamos, donde quizás ocurre más esto de: Bueno, quiero esa funcionalidad, que tampoco debería ser. Pero quizás, tratas ya más en cuanto a... Descobrís constantes, que son quizás como más pequeñitos en el tiempo, pero mucho más constantes, también más difíciles a veces, porque ya estás como afinando cosas. Entonces, no es tan fácil tener datos reales o entender realmente qué impacto vas a tener.
+
+[00:37:17.210] - Priscila López
+Creo que es incluso más complejo, pero estás como ya afinando mucho. Idealmente, es un producto que funciona bien. Entonces, creo que hay grandes diferencias desde eso, en los lados de diferentes lados de madurez que puede tener un producto.
+
+[00:37:31.220] - Carlos Iglesias
+Claro. Y es verdad que cuando estás lanzando un producto además, tienes retos como encontrar el market fit, o sea, entender cómo es tu modelo, o sea, cómo tienes que construir ese modelo. Cuando ese modelo ya está validado, los retos son otros, los retos son ir consiguiendo, ir ganando pequeñas batallas. Como decías que al final es, pues probablemente te supone algo... Pequeños esfuerzos más constantes, pero mucho más pequeños también. Yo lo percibo también...
+
+[00:37:59.250] - Priscila López
+Perdona. No, disculpa. No, digo, el market fit, por ejemplo, lo comentabas, y yo creo que una cosa que ocurre a veces, que es como bastante interesante, es que tú quizás ves un market fit que es bueno con tu producto, lanzas y luego ese producto lo usan de otra manera los usuarios. Esto es una cosa que ocurre. 100%. De hecho, tengo una persona que estaba anteriormente en mi equipo, que ahora está emprendiendo, y me explica y dice: Es que lo están usando para cosas diferentes, es la cosa que lo estoy vendiendo.
+
+[00:38:20.420] - Carlos Iglesias
+Es buenísimo esto que estás diciendo.
+
+[00:38:21.350] - Priscila López
+Y digo: Bueno, tienes que estar contento de haberlo identificado rápido. Claro. Y tú ir ajustando esto y ampliar realmente tu share para Además, pasa muy a menudo.
+
+[00:38:32.110] - Carlos Iglesias
+Es una cosa que pasa muchísimas veces esto. Tú diseñas algo, incluso partiendo de un buen discovery, tú puedes descubrir algo, diseñas algo, pero al final tú estás diseñando algo, tu diseño, tu solución es una hipótesis que tienes que validar. O sea, claro, lo puedes plantear como un experimento, lo puedes... Claro, ¿cuánto arriesgas para producir la solución? Y en muchas ocasiones, no sé, supongo que es porque a veces damos más pasos. A mí me ha pasado, yo lo reconozco. Yo estaba enamorado de esa solución, quería hacer esa solución, quería haber hecho realidad ese producto y hemos tomado decisiones de: No, vamos a hacerlo, ese producto, cuando quizá puedes reducir mucho el riesgo haciendo muchos más experimentos y no tener tanto esa mentalidad de crear producto, que a veces a mí me pasa, porque yo soy una persona que me gusta la tecnología y nos gusta. Me sucede bastante, pero sí, ayer hablábamos precisamente de esto. No sé, yo creo que es perfectamente normal, me parece que es supernormal. Yo incluso en los últimos años... Claro, nosotros, Run Room, sabes que nosotros somos una compañía, nos conoces, y nosotros somos una compañía que desarrollamos producto para terceros.
+
+[00:39:49.240] - Carlos Iglesias
+Y esto es bastante difícil.Eso era imposible, a mí Carlos.Esto es bastante mágico, es milagroso, porque tú sabes, claro, lo que pide la industria son manos. Lo que nosotros ofrecemos no es eso. Nuestro mood siempre es equipos orientados a impacto, orientados a outcome, orientados a entrega de valor, equipos que hagan continuous discovery, continuous delivery. Y eso es difícil. Nadie te compra eso de entrada. Tienes que ganarte el derecho a ofrecer eso a una empresa, una compañía. Y lo que estoy viendo en los últimos años es que incluso nosotros, que damos servicio para terceros, antes nuestros discoveries eran mucho más grandes, en ese sentido, en el tamaño. Antes hacíamos grandes discoveries en cualquier fase del proyecto. Y hoy esta capacidad que tenemos de ofrecer ese servicio de continuous discovery, continuous delivery, es decir, poder tener un equipo multidisciplinar, integrado, que va decidiendo cuánto tiempo le dedica el discovery, cuánto tiempo no, todo el equipo está haciendo discovery, todo el equipo está haciendo delivery y alineado con la estrategia, etcétera. Bueno, todo lo que hemos hablado. Eso nos ha hecho que prácticamente no estamos haciendo ya grandes discoveries en este momento. Grandes discoveries, entiéndeme. Lo estoy diciendo un poco mal.
+
+[00:41:10.800] - Priscila López
+No, pero te entiendo.
+
+[00:41:11.550] - Carlos Iglesias
+La idea de mega proyecto de discovery con un.
+
+[00:41:15.830] - Priscila López
+Pero es mejor, yo creo.
+
+[00:41:16.630] - Carlos Iglesias
+Mucho mejor. Es mucho más lean, es mucho más foco. Pero claro, para eso necesitas que todo el equipo esté rimando en la misma dirección, todo el mundo. Claro, la gente se sorprende. Hay gente que que trabaja como product designer y trabajan en el departamento de product designer. Y ellos hacen sus discoveries con los researchers y con lo tal, y entonces hacen un hand off a tecnología. Y yo es que no puedo entender No lo puedo entender, no me cabe en la cabeza, no sé por qué hacemos eso así.
+
+[00:41:50.930] - Priscila López
+Pero de estas conexiones ocurren, lo que decíamos, al final de silos ocurren. Ocurren, sí. Y creo que la función de los product directors o de producto es evitar que eso ocurra, porque al final los hilos nunca son buenos.
+
+[00:42:05.620] - Carlos Iglesias
+Yo te quería preguntar para ir cerrando la entrevista, no te quiero robar más tiempo. Precisamente, te quería hablar de transformación cultural. Porque estás hablando ahora de un rol como muy elevado, donde tú estás viendo cuáles son el impacto en el producto, el impacto en la organización, el impacto en la estrategia. Y tienes un rol como muy transformador. Puedes provocar, puedes impulsar. ¿Qué barreras culturales suelen encontrar las organizaciones?
+
+[00:42:46.590] - Priscila López
+Creo que muchas. La cultura tiene que ver con los valores de la empresa, yo creo también. Creo que la innovación es clave, pero también es difícil, porque para que una empresa pueda innovar, tiene que haber espacio para equivocarse mucho. Y claro, todo el mundo dice que sí, que te dan permiso para equivocarte, pero hazlo rápido y barato. Entonces, no es tan fácil. Con lo cual yo creo que tiene que ver mucho con esto, con la capacidad de confiar en todo el mundo, la organización, y dar espacio para equivocarse, si no, no se aprende tampoco, lo que tiene que ver con la innovación. Y esto es un tema que tiene que calar en todas las esferas de la empresa, con lo cual por eso es complicado, yo creo, en mi opinión. Entonces, para mí tiene que ver mucho con eso, con los valores que tú tienes como empresa. No los valores que tienes escritos, sino los reales que se palpan en el día a día, que por desgracia, a veces no son iguales. Esto es muy importante. Y una cosa que me impresionó mucho en mano a mano cuando llegué, sinceramente, es que los valores que me explicaron, al llegar, los percibí.
+
+[00:43:56.590] - Priscila López
+Y no siempre me ha pasado, sinceramente. Luego, es difícil mantenerlos en el tiempo, creo, aparte. Pero sí que es verdad que en cuanto a captación de talentos, sí que hubo un esfuerzo muy grande, yo creo. Hablo del momento en que me incorporé, ahora ya quizás no lo sé, estoy tan en el ciclo que no lo sé. Pero sí que creo que hubo un buen trabajo de entender que las personas que se incorporaban estaban alineadas relativamente con esos valores. Y creo que no es fácil.
+
+[00:44:24.840] - Carlos Iglesias
+Pues te felicito. Yo creo que estás en un sitio fantástico para aprender, para desarrollarte, para experimentar Me parece un sitio superbonito para que puedas seguir desarrollando esta trayectoria. Impresionante. Muchísimas gracias, Priscila. No te quiero, de verdad, no te quiero robar más tiempo. Yo creo que me ha encantado la entrevista Creo que hemos tocado temas superrelevantes, superimportantes y espero que sigamos conectados y que sigamos en contacto. Muchísimas gracias por todo.
+
+[00:44:53.190] - Priscila López
+Gracias a ti, Carlos. Ha sido un placer y me he sentido como en casa. Es un placer, de verdad, ha sido mío, de verdad.
+
+[00:45:00.070] - Carlos Iglesias
+A menudo, el cortoplacismo nos seduce con promesas de resultados rápidos. Pero, ¿qué estamos sacrificando en el camino? Al enfocarnos solo en cumplir metas inmediatas, olvidamos que cada decisión que tomamos debería alinearse con un propósito más profundo. ¿Construir algo duradero? Cuando corremos por entregar rápido, perdemos de vista la visión a largo plazo, la verdadera esencia de lo que queremos crear. La estrategia, en cambio, nos invita a pensar en el mañana, a tomar decisiones con calma, a aprender, a innovar y a crear valor real. Si nos dejamos llevar por la urgencia, ¿dónde queda nuestro compromiso con el usuario, con el producto, con el legado que queremos dejar? Al final, ¿qué es lo que realmente importa? En fin, ya sabes, si te ha gustado el episodio, danos un poquito de cariño con un like, un comentario o mejor, compártelo en tus redes. Un fuerte abrazo y os espero en el mundo real.
+

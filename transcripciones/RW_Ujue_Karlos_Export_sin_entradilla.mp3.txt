@@ -1,0 +1,168 @@
+[00:00:01.400] - Carlos
+Behavioral Economics, con Ujué Agudo y Karlos G. Liberal
+
+[00:00:24.160] 
+La libertad ​ en sentido amplio es la capacidad humana de actuar por voluntad propia. La facultad y derecho de las personas para elegir de manera responsable su propia forma de actuar dentro de una sociedad. Profundizando en las teorías de comportamiento, todo apunta a que somos menos libres de lo que creemos. Lo hablamos con Ujué Agudo y Karlos G. Liberal.
+
+[00:02:46.940] - Carlos
+<Paragraph big> ¿A qué os dedicáis?
+
+[00:03:05.820] - Ujué
+Durante muchos años he estado trabajando en Biko como consultora de marketing digital y experiencia de usuario, venía de estudiar publicidad en la universidad. En los últimos años me dio por la investigación y la psicología y de ahí ese doctorado en psicología que acabé en diciembre. 
+
+[00:03:58.310] - Ujué
+En los últimos años me he especializado en esa parte de psicología y de investigación. Y es lo que estoy haciendo ahora en Bikolabs, que os lo cuenta mucho mejor Karlos, porque es el iniciador de la idea y del proyecto. Tengo la suerte de llevar ahí trabajando los últimos años, tratando de comprender mejor esa respuesta humana en la interacción con la tecnología. Entender qué está pasando ahora, cómo afecta la tecnología cuando interactuamos las personas con ella, pensar cómo nos gustaría que fuera  y cómo nos gustaría que fuera esa interacción en el futuro.
+
+[00:04:47.560] - Karlos
+Llevo desde el '98 dedicado a lo tecnológico. Siempre he tenido un vínculo con la tecnología un poco especial, por su relación directa con el mundo de la economía social. Durante mucho tiempo nos vinculamos con el concepto de cooperativa, en Investic, de cómo hacer una relación con el trabajo un poco especial. Y eso siempre ha estado en el camino. Ya posteriormente, cuando empiezo a vincularme con Biko, lo que me ha gustado es que me ha permitido esa autonomía, esa manera de entender el trabajo un poco más controlada.
+
+[00:05:53.300] - Karlos
+De hecho mantenemos esos vínculos un poco extraños en Biko: somos parte de Biko, una parte fundamental, pero manteniendo espacios de autonomía. Y eso es igual el inicio de Bikolabs. De nuestros proyectos previos en la cooperativa de Investic había ideas de cómo mestizar lo tecnológico, de cómo entender la tecnología no solamente como un elemento que nos permite hacer cosas, sino también como vivir el mundo en el que estamos. Y eso siempre nos ha parecido algo muy potente. Nos lo parecía antes de estar en Biko y hubo un momento, hace cosa de tres años y pico, que decidimos hacerlo en Biko para mantener un sentido común. Y ese fue el arranque. Sí que me ha tocado estar mucho en desarrollo, luego a la gestión de equipos técnicos, pero en los últimos años siempre con una pata en cómo nos relacionamos con lo tecnológico, desde el arte hasta la parte más especulativa.
+
+[00:07:11.950] - Karlos
+Y ese es el inicio de Bikolabs. Jugamos con ese paréntesis que nos permite meter lo que nos dé la gana, porque en el sector en el que estamos nos gusta concretar mucho, nos gusta que todo tenga su nombre, pero a veces cuando lo defines todo mucho, pierdes oportunidades. 
+
+[00:08:34.870] - Carlos
+Soy súper fan de Biko. Explicad algunos proyectos en Bikolabs de los que os sintáis orgullosos.
+
+[00:09:20.950] - Karlos
+Pues mira, hay un proyecto pequeño que vamos a empezar. Hemos empezado con una idea de contar historias con una especie de scrollytelling, como un scroll que te cuenta una historia. Es un proyecto que hacemos con dos neurólogas que trabajan con el tema del Parkinson. Hay unas circunstancias en las que, cuando una persona tiene una serie de lesiones alrededor del Parkinson, provocadas a veces por la propia farmacología o por una serie de intervenciones, eso provoca que la gente se queda congelada. Le llaman así; freezing, de repente quieren andar, pero no pueden andar. Parte de su línea de investigación consiste en la hipótesis de que igual, añadiendo un elemento virtual, admitiría, como línea de investigación, ir avanzando. Nos lo plantearon y entonces, con unas gafas de realidad aumentada, iniciamos un prototipo hace dos años y ahora ya está en la fase de pilotaje. Hace dos meses fuimos a Madrid a continuar el proyecto con pacientes.
+
+[00:11:09.960] - Karlos
+Es una experiencia muy curiosa que de alguna manera agarra muy bien la idea de Bikolabs de cómo la tecnología puede, aún siendo un espacio de especulación y que tenga un recorrido que no sabemos hacia dónde nos lleva, como puede hibridar, como puede mezclarse con otras disciplinas.
+
+[00:11:42.800] - Karlos
+Me gusta porque a veces intentamos que siempre se resuelvan todos los problemas, este solucionismo que tanto nos gusta en lo tecnológico.
+
+[00:12:01.420] - Karlos
+Otro de estos proyectos bonitos, yo tengo bastante trato, porque me ha tocado hacer cosillas con la gente de Tabakalera, sobre todo con la gente del Medialab de Tabakalera en Donosti, que es el espacio de arte contemporáneo de Donosti. Nos invitaron a participar, a hacer una instalación en la fachada del Kursaal, que lo tienen lleno de leds y con eso consiguen proyectar.
+
+[00:12:35.300] - Ujué
+Es una fachada de 20 por 70 metros, una exageración. Nos dijeron: "Proponed lo que queráis, pero como sabemos que estáis trabajando con temas de Inteligencia Artificial, utilizad algo que estéis trabajando sobre esos temas". Entonces, utilizando una serie de sistemas generativos basados en StyleGAN, hicimos una representación del paso del tiempo. Entrenamos tres modelos, tres redes neuronales, que generan glaciares, cielos y bosques, con la idea de representar el paso del tiempo (que es lo que hacemos en Navidades, para bien o para mal, decir, "¿qué hemos hecho este año?"). Entonces, como no queríamos hacer un árbol de Navidad, queríamos hacer algo que fuera estéticamente bonito, pues hicimos esa instalación. Fue guay discutir todo esto con Santi, con Silvia, con Ujué y con más gente de Biko, con Aritz... fue chulo y el resultado ha gustado bastante. Impresiona ver una cosa así en una fachada tan grande.
+
+[00:14:00.430] - Karlos
+Fue bonito además porque por parte de la gente de Kursaal y de Tabakalera fue un salto de fe. Por tiempos y por, "¿cómo lo hacemos?". Nos pusieron un límite que es que la fachada ellos la consideran una piel, entonces no la utilizas como una pantalla, tiene que haber un juego. Ese fue un límite muy bonito y nos obligaba. Pero sí, luego llegar allá y verlo en grande, fue bastante emocionante, la verdad.
+
+[00:14:33.260] - Ujué
+Para nosotros también hacer esa reflexión de "todo lo que estamos proyectando aquí, nada de esto existe, ¿no? ". Todas las imágenes eran generadas por una IA, no había ni un solo paisaje que fuera real. Saber que estábamos representando irrealidad tenía un punto muy potente, la verdad.
+
+[00:14:58.030] - Carlos
+La idea de que estéis aquí hoy, viene un poco de ese curso que planteastéis en la Nave Nodriza sobre diseño, tecnología y comportamiento. Me llevé de allí un montón de reflexiones profundas que todavía me acompañan. Yo os preguntaría, ¿somos libres?, ¿cuán libres somos? y ¿cómo de condicionadas están las decisiones que tomamos?
+
+[00:15:56.210] - Ujué
+¡El silencio te responde! (risas) En el curso arrancamos así un poco, porque es de estas preguntas que uno parece que tiene clara hasta que se lo preguntan: ¿Cómo de libres crees que son tus decisiones? De hecho, tuvimos incluso que matizar la pregunta porque decíamos: "¿nivel de libre albedrío o de qué estamos hablando cuando hablamos de libertad?".
+
+[00:16:27.620] - Ujué
+Mi respuesta a esta pregunta siempre es que creo que somos menos libres de lo que creemos. ¿Cuánto es ese grado de libertad? Pues no lo sé. Supongo que dependerá de la creencia de cada uno, pero para mí somos menos libres de lo que creemos, porque muchísimas de nuestras decisiones que están condicionadas de formas que ni siquiera somos conscientes. Todos damos por hecho que nos condiciona lo que vemos en las noticias, lo que nos venden pero luego hay otros tantos factores que creo que influyen en nuestras decisiones que no percibimos y que no consideramos. Por eso creo que somos menos libres de lo que creemos que somos.
+
+[00:17:11.660] - Karlos
+Que ahí también entre ese matiz, que en el curso lo intentábamos cruzar con muchos elementos, de cómo la tecnología influye en parte de esas libertades. En conversaciones con Ariel, que también participaba, decíamos que en lo tecnológico parece que hay como una especie de agenda oculta que nos determina y nos manipula, que en muchos casos hay una intención y a veces está demostrado y hay ejemplos. Pero bueno, ¿cuánto de libres somos? Menos de lo que nos pensamos, pero tenemos márgenes de libertad y de toma de decisión, lo que pasa es que a veces, dependiendo de lo que sepas y dependiendo de la información que hayas podido tener al respecto de según qué temas.
+
+[00:18:18.860] - Carlos
+Hay una corriente de pensamiento relacionada con que somos irracionales y por lo tanto todo va a ser impulsivo, ¿cómo lo véis?
+
+[00:19:04.320] - Ujué
+Sí que es verdad que, durante muchos años, se creyó que éramos seres puramente racionales, al menos desde la psicología y desde la economía se hablaba del ser humano con este concepto que se hecho muy famoso de "homo económicus" y lo que se daba a entender es que se tomaban nuestras decisiones de forma racional. Entonces todo lo que se estudiaba sobre decisión era con un carácter normativo de cómo habría que tomar la decisión, o con un carácter prescriptivo de cómo habría que tomarla y te doy los pasos para tomar esta decisión.  
+
+[00:19:42.670] - Ujué
+¿Qué pasa? Que luego Kahneman y su socio cuando empezaron a investigar, empezaron a mostrar al mundo algo que quizá se sabía pero que no estaba visible en la investigación, que era que no éramos tan racionales en algunas decisiones. No seguíamos esa normativa que se esperaría desde la economía de cómo tomar una decisión adecuadamente. Ya no maximizábamos la utilidad esperada, no minimizábamos los riesgos... Por tanto, de repente, empezamos a hablar en otros términos sobre la decisión. Que si usamos heurísticos, que si usamos atajos que nos permiten tomar la decisión de forma más rápida, no procesamos toda la información, a veces solo aquella que es más saliente o que la tenemos más disponible.
+
+[00:20:33.260] - Ujué
+Eso, como dices, ha llevado a la derivada de decir que somos irracionales. Y de hecho, hablando con gente que ha estudiado psicología hace muchos años te dicen "antes teníamos un puñado de sesgos identificados, ahora hay cientos, no sabes ni  cómo organizarlos". Esto va creciendo, en parte porque nos ha hecho cierta gracia descubrir que cometemos muchos errores a la hora de tomar decisiones, muchos errores de pensamiento, pero de ahí a decir que somos irracionales... creo que sí, que ha sido una simplificación. Porque la racionalidad se puede entender solo desde la lógica o, a veces, el uso de heurístico también podría tener sentido para ser racionales, para tomar la decisión más adecuada y en según qué situaciones. Pero sí, sí que creo que esa tendencia a tacharnos como irracionales ha contribuido a otras muchas corrientes, entre ellas, pues que la tecnología esté aprovechando toda esta idea para automatizar procesos o que se tomen muchas decisiones por nosotros porque somos muy malos tomándolas.
+
+[00:22:02.230] - Karlos
+Y aquí hay como dos líneas, ¿no? Una es la de heurísticos y sesgos de la que luego entiendo que preguntaras y hablaremos, pero también como somos, estamos simplificando nuestra racionalidad e irracionalidad pero desde un punto de vista que también luego se recogen en el mundo de la economía del comportamiento. Ahí hay una ética y hay una ética económica, que esa ética económica, de alguna manera, también pone una agenda. Entonces, cuando hablamos de irracionalidad, hablamos de esa irracionalidad o de esa racionalidad individual. Cuando hablamos del "homo economicus", que sería como una especie de hermano malo del utilitarismo como marco ético, eso es una cuestión que la tenemos encima de la mesa en estos cuarenta últimos años. Nosotros estamos viviendo una sociedad en la que hemos primado esa idea de lo mejor para la mayoría, lo mejor para la mayoría en términos éticos, pero en términos también de cómo definimos esa racionalidad. Si nosotros hiciéramos muchas de las preguntas que hacen Kahneman y compañía en términos más colectivos, en términos no de individuos, sino de individuo colectivo, en una familia, no es lo mismo preguntarte por un seguro individualmente, porque tú vas a tener una visión como muy racional, o semiracional, que si lo hicieras en casa, que de repente habría como una conversación y ahí saldrían otros temas.
+
+[00:23:29.560] - Karlos
+Nosotros hemos estado dándole vueltas a cómo a veces la propia línea argumental de la realidad económica, social y política que vivimos (política en términos amplios), también marca esa manera de entender lo que es racional o irracional. Incluso ahora, que en lo tecnológico hay mucha discusión en lo ético, la ética predominante sería sobre todo en lo tecnológico, el utilitarismo. Y entonces ahí también sale porque encaja que esta líneas hayan cogido tanto peso. Luego hay una teoría, una base, sí, la que ha dicho un juez, hay un heurístico, que puede ser a veces como un elemento normal. Normal de nuestra naturaleza que nos hace potentes y luego ese sesgo que en algunos casos, obviamente, habría que revisar.
+
+[00:25:02.980] - Carlos
+Habladme un poquito de heurística y de sesgos, y de cuál creéis que es la diferencia.
+
+[00:25:32.410] - Ujué
+En ambos casos es un atajo mental que utilizamos a la hora de tomar decisiones. Los heurísticos sí tienen ese carácter normalmente evolutivo, pero hay otros aprendidos a base de cultura, etc. Lo que nos permiten es responder de forma rápida, sin tener que realizar un razonamiento profundo, sin tener que recopilar todos los datos o consumir demasiada energía, nos permiten responder a la señal del entorno, a esa decisión. Normalmente suelen ser acertados,  nos permiten decidir muchísimas cosas en nuestro día a día. Kahneman en su libro lo plantea así también, normalmente son útiles, son muy útiles. Porque si tuviéramos que estar recopilando toda la información necesaria y disponible para tomar una decisión de forma racional en cada momento de nuestra vida, es que explotaríamos, es que no podríamos. Claro, ¿que ocurre? Que es verdad que ese heurístico se puede desencadenar en una situación que no es adecuada para él o que esté teniendo en cuenta una información que no es justo la más apropiada para la decisión que se va a tomar.
+
+[00:26:51.490] - Ujué
+En ese caso es cuando hablamos de sesgo. Sería como un heurístico mal aplicado. En ese caso es un heurístico que nos lleva a un error y que nos lleva a error que es sistemático. Es decir, que en una situación similar, con unas condiciones similares, la respuesta sería la misma; nos desvía, pero siempre en la misma línea. Eso es lo que permite a la psicología estudiarlos, porque si cada vez el error fuera aleatorio, de una forma o de otra, pues no tendría el interés que tiene. Pero el hecho de que siempre sea un error en la misma dirección, de forma sistemática, pues tiene ese interés a la hora de investigarlo.
+
+[00:27:36.370] - Ujué
+¿Podemos evitarlos?, ¿nos podemos reprogramar? Sí que es verdad que hay muchas estrategias de debiasing, de cómo eliminar los sesgos en según qué situaciones, o algún sesgo, por ejemplo ¿cómo evitar reconfirmar nuestras creencias?, que sería el sesgo de confirmación. Igual cada vez que nos enfrentemos a una información que nos parece súper coherente porque encaja con nuestras creencias, deberíamos buscar cuál es la información que lo contradice y entonces ampliar nuestra visión del tema. Siempre se pueden hacer cosas, sobre todo si eres consciente de que estás sufriendo el sesgo en ese momento, pero es verdad que no es algo que uno pueda evitar así per sé, porque todos funcionamos en base heurísticos. Por tanto, todos vamos a sufrir sesgos porque los vamos a aplicar probablemente en situaciones que no sean adecuadas. Entonces, no es tan sencillo.
+
+[00:28:33.130] - Carlos
+¿Se os ocurre algún ejemplo fácil de diferencia entre heurístico y sesgo?
+
+[00:28:47.740] - Karlos
+Esta es la típica conversación que hemos tenido mucho, entre que vas leyendo, vas comprendiendo y luego vas preparando el material para el curso. A mí me sorprendió el heurístico de que tenemos la capacidad de reconocer más verdes, más gama de verdes que cualquier otro color. Y tenía una explicación, porque el depredador se escondía en zonas selváticas o zonas boscosas. El hecho de poder intuir de forma heurística, o sea, que nuestra vista, por defecto, en  cuanto notara algo en esa selva, nos diera la alerta y directamente subieras al árbol era un elemento evolutivo. Lo mismo podría pasar con respecto al "ajeno", a un heurístico devenido en sesgo que sería "lo que viene de fuera siempre  es peor", porque era el que venía a atacar tu espacio. Claro, ahora, pasado el tiempo, uno puede tener poco sentido porque empieza a haber pocos depredadores, pero la capacidad de distinguir verde sí que la seguimos teniendo, y otros heurísticos devenidos a sesgos raciales, ahí es donde se nota la diferencia.
+
+[00:30:08.030] - Carlos
+¿Qué es la economía del comportamiento?
+
+[00:30:46.910] - Karlos
+Hay varios autores, especialmente Thaler y alguno que comparte con él sus teorías, que lo que vienen a decir es que, dada esa racionalidad delimitada, lo que tenemos es un gap. Queremos (en un discurso muy tiktokero) ser "la mejor versión de ti mismo" y estamos muy forzados a querer ser esa mejor versión. Pero claro, resulta que yo no era tan racional como me habían dicho, como ese "homo económicus" me había dicho.  Ahí es donde estos autores dicen, podemos utilizar esos heurísticos, esos sesgos, para ayudar, mediante un concepto que utilizan, el paternalismo libertario. Tu siempre vas a tener la libertad de poder decir que no, pero yo voy a poder empujar (de ahí el libro famoso de Nudge, de Thaler), en el que, mediante ese pequeño empujón, poder hacer eso que tu irracionalidad no te permite.
+
+[00:32:00.800] - Karlos
+Pongo un ejemplo, el libro de Nudge está muy bien para poder comprender un poco esta teoría, incluso en algunos casos ideología, del paternalismo libertario. Hay casos en los que realmente sí que tiene un sentido utilitarista y funcional. En Estados Unidos con el Medical Care, que es donde se aplica parte de esta teoría, cuando tú tienes un seguro médico en un trabajo claro, tú llegas,  te contratan, te ponen en un rango que tú vas a desviar para tu seguro de médico y ese se puede quedar ahí perpetuo. Thaler lo que dice es: "¿Cómo haces que la gente sepa y cambie su comportamiento habitual y vaya aumentando conforme va llegando su edad de jubilación o sus riesgos de salud por vejez?". Bueno, pues que cada vez que haya un aumento de sueldo, por defecto, aumente el rango que tendrías que tener en el seguro. Ahí es donde se aplica parte de de ese empujón, tu sin tener que volver a tomar la decisión de forma racional (cada vez que me aumentan tengo que decir que me subas el porcentaje que tenías que subir), pues directamente yo te hago ese pequeño empujón o ese gran empujón y ahí hay una mejora. En este caso tiene sentido. Luego, bueno, hemos visto otros casos, con la pandemia en el gobierno inglés, pues también han tomado ese tipo decisiones, de empujones. Y ahí es donde donde recae el peso de la discusión. El paternalismo libertario realmente es tan libertario en el sentido más profundo o no lo es. Y ahí es donde, en la parte que me toca, pues hay cosas de las que habla Thaler que me entran dudas. Me entran dudas, porque estás más cerca de esa manipulación que, bueno, por eso tiene el peso que tiene, porque modificar o imaginar que podemos modificar el comportamiento, es bastante tentador, ¿no?
+
+[00:34:13.420] - Carlos
+Creo que era Ujué que decía, el año pasado, ¿cuántos comisteis todo lo sano que queríais comer?, ¿cuántos hicisteis todo el deporte que queríais hacer? Todos queremos hacer cosas que son buenas para nosotros, pero nos cuesta. Tenemos fricciones, y la idea de paternalismo libertario se basa en eso, en diseñar esos pequeños empujones, esos nudges, para ayudarte.
+
+[00:34:55.840] - Carlos
+¿Y si podemos diseñar una arquitectura de decisión que te permita reducir la fricción para conseguir aquello que tú quieres? Pero claro, eso es muy peligroso ¿Se os ocurren ejemplos de nudges que nos ericen un poquito el vello de la nuca?
+
+[00:36:45.900] - Ujué
+Relacionado con política te iba a contar uno, un estudio. Desde Biko todos los años publicamos una especie de revista, un paper, que le llamamos Insights y en el que hacemos reflexiones de los temas que más hemos trabajado ese año y tenemos como un punto de vista más crítico. Tenemos un artículo ahí sobre este tema que llamamos "automatismo paternalista" y ponemos un ejemplo que para mí refleja muy bien esta idea, y está muy relacionada con esa parte de Cambridge Analytica.
+
+[00:37:32.530] - Ujué
+Es un estudio de 2012 en el que plantean qué va a pasar en las elecciones al Congreso de Estados Unidos si en Facebook hacemos una manipulación experimental. A algunos usuarios les mostramos que hoy es el día de las elecciones y pueden marcar si van a votar o no, y pueden ver cuánta gente en Facebook ha dicho que va a votar, mientras que a otro grupo, además de decirle eso, le enseñamos fotos de sus amigos para que vean cuáles de sus círculos cercanos ya han ido a votar. Aquí están utilizando un empujón que se llama "social proof" o prueba social con la cual, como tenemos este heurístico de "lo que haga la mayoría está bien hecho", "lo que hagan los míos está bien hecho", que nos puede llevar a un sesgo de seguir a la masa, tengan razón o no. Pues aquí se utiliza esa mezcla de heurístico sesgo, de arrastre, para empujar nuestra decisión y como vemos a nuestros amigos, pues que sea más probable que vayamos a votar.
+
+[00:38:44.410] - Ujué
+En el estudio, que estaba hecho en real, no era una simulación en laboratorio, utilizaron 61 millones de personas para hacer el estudio, lo que comprobaron era que podían movilizar al voto. Según los investigadores, unos 60.000 votantes fueron movilizados por esta manipulación de forma directa, que es una barbaridad. Y sobre lo que decías antes del paternalismo libertario, es verdad que sí se ha utilizado o se ha explicado desde las dos perspectivas, mucho desde la auto mejora: Oye, si tú te pones tus empujoncitos, te puede ayudar a ti mismo a mejorar (¿quieres hacer dieta? Pues cuando te compres una tableta de chocolate, parte las pastillas y envuélvelas por separado, así comerás menos chocolate que si tienes la tableta entera). Me pongo mis propios trucos para ser la mejor versión de mí mismo. Pero es que todo esto se ha llevado a: ¡eh, gobiernos!, es que esto lo podéis utilizar para que los ciudadanos sean mejores ciudadanos y hagan lo que deberían - pagar sus impuestos, seguir las políticas sanitarias, etc.-, entonces, ya no es solo una herramienta de auto mejora y auto hackeo, es una herramienta que se puede, se ha utilizado y se está utilizando a nivel político.
+
+[00:40:17.360] - Karlos
+Luego, la siguiente derivada, que es la que nosotros estamos analizando y queremos comprobar y no tenemos más que intuiciones, esto sí que hay que aclararlo, que es con la que titulamos el artículo, El automatismo paternalista, es: si nos están bombardeando constante y continuamente con que somos seres irracionales y que nuestras decisiones pueden estar sujetas a una serie de devenires humanos, y como la máquina, el algoritmo, es un ser racional puro, porque está definido como tal, como una fuente de la verdad, pues bueno, pues con quitar al humano del medio ya tenemos, simplificando y haciendo casi una parodia irónica, pues tenemos ese automatismo paternalista que sería unir esto que acaba de contar Ujué.
+
+[00:41:05.800] - Karlos
+De repente tenemos una manera de justificar muchos de los procesos de automatización. A nosotros no nos gusta, ¿eh? Como primos que somos y dedicados al sector del software al que nos dedicamos, no nos gusta ninguna de las simplificaciones ni la apocalíptica de los solucionistas. De hecho, lo que intentamos es comprender como funciona esto, pero sí que estamos intuyendo de que hay un intento de dejar la discusión de lo complejo, que al final lo que ocurre es que nuestro mundo es complejo y nuestras sociedades son complejas. Intentar simplificarlas, ya sea con empujones, ya sea con teorías paternalistas, no deja de ser una simplificación para intentar resolver procesos muy complejos, como ha podido ocurrir con la pandemia y con todas estas majaradas que surgían de algunos de estos gabinetes. Espera un poco que haya unas evidencias científicas y a partir de ahí, toma una serie de decisiones, e incluso, como es un acontecimiento, puede que no aciertes, pero no queremos abrazar esa complejidad. Solución: que el algoritmo lo resuelva y encima sea, como decías Carlos, sea con esa especie de paternalismo, de, a veces, simplificación.
+
+[00:42:20.270] - Karlos
+Yo creo que el sector como tal tiene algo que decir y tendremos algo que contar, de cuando es oportuno ser tan utilitarista y cuando directamente no hay que usar según que tecnologías, según qué decisiones tecnológicas.
+
+[00:42:39.200] - Carlos
+Tenemos una responsabilidad como tecnólogos, como creadores de software, como diseñadoras. Pero a nivel ciudadano, a nivel individuo, a nivel usuario, consumidor, consumidora, ¿qué podemos hacer?
+
+[00:42:57.110] - Karlos
+Pues curiosamente nos han invitado a participar en un curso de Nociones Comunes que habla de tecno política, que es curioso porque en el mundo del activismo, una línea muy potente en los años 2000-2010 fue el Hacktivismo y era un grupo de gente que nos organizábamos con esa intención, como tener una visión política del uso de la tecnología. Curiosamente, en estos últimos años hay un páramo. También es cierto que por la polarización que vivimos, por ese intento de simplificación. El problema que tenemos como ciudadanía es que estamos muy inmersos en una realidad que a veces es un poco como aplastante.
+
+[00:43:41.060] - Karlos
+Mark Fisher habla siempre de que lo difícil es imaginarse salir de esto que nos atenaza. La frase célebre es que "és más fácil imaginarse el Apocalipsis, que salir del capitalismo", y no por entrar en el discurso del capitalismo, que podríamos hablar mucho, sino por la idea de que cómo podemos modificar cosas que vemos claramente que no funcionan bien.
+
+[00:44:05.400] - Karlos
+Te pongo un ejemplo concreto en el que sí que estuvimos en Bikolabs. Nosotros participamos en la redacción de la carta en favor de una moratoria por los sistemas de reconocimiento de caras, porque veíamos que puede ser interesante ese conjunto de tecnologías y puede estar bien usarlas, pero también puede estar bien decir que no las uses. Como tecnólogos, como gente que nos dedicamos a diseñar software no pasa nada por decir en un momento dado: "esto no tiene porque usarse ahora". Y yo creo que eso es lo que hay que transmitir. Eso es lo que, como tecnólogos, podríamos transmitir a la sociedad. La calle dará su propio uso a la tecnología, es un hecho que ocurre constantemente. Entonces, si eso es un hecho, pues tendremos que ir como creando, como retomando de una vez ese discurso que había de que la tecnología no dejan de ser unas decisiones tomadas por la sociedad civil.
+
+[00:45:02.510] - Karlos
+Ahora lo estamos viendo con estas polémicas con el Open Source, de si se está extrayendo ese uso por parte de las grandes compañías, claro, pues tendremos que ir cada dos por tres recordando viejas discusiones. El software libre es bueno porque nos da libertades, pero si no las da, si nos las quita, pues igual no es tan bueno, ¿no? Pues ahí es donde yo creo que, como instituciones que somos, fundamentales por ahora en la sociedad en la que estamos, las empresas como instituciones que somos, tendremos que decir como vemos ese uso de la tecnología que hacemos. Por lo menos a nosotros en Bikolabs eso a veces nos tranquiliza.
+
+[00:45:44.510] - Karlos
+Hemos escrito este artículo del automatismo paternalista como una manera de decir: esto es un tema complejo, no va de simplificarlo. Analicémoslo, veamos en qué casos de uso esa economía del comportamiento nos va a determinar nuestra vida. Hagámoslo, igual no tenemos respuesta, pero si hacemos un mínimo análisis podemos empezar a tener este diálogo como estamos teniendo contigo Carlos, que es parte de lo que se trata.
+
+[00:46:17.660] - Ujué
+Igual, lo que tendríamos también es que cuestionar algunos discursos que se extienden y se asientan como mantras y que corren el peligro, para empezar por no ser totalmente ciertos, pero que corran el peligro de facilitar decisiones que igual no van a nuestro favor. Cuando hablábamos antes de la irracionalidad, esta idea de que somos irracionales se ha establecido y gente que está estudiando dentro del sistema 1, el sistema 2, tipo 1, tipo 2... Que tenemos distintos procesos o sistemas de procesamiento, no es que niegan que los tengamos, pero sí que afirman que cuidado, nadie está diciendo que los sistemas de procesamiento lento sean mejores. Simplemente que tenemos dos sistemas. Entonces es como que vamos estableciendo ideas, ¿no? Como tomamos decisiones rápida es malo y entonces somos irracionales. Y además, fíjate, tenemos una tecnología que nos va a conocer mejor que nosotros mismos. Entonces, ¿por qué no le damos las decisiones a ellos? Serán más objetivos, serán más racionales.
+
+[00:47:37.130] - Ujué
+Cada vez establecemos más premisas que luego no nos van a beneficiar, más bien van a facilitar que se den procesos sobre los que no hemos discutido si nos parece adecuado. A mi me sorprende que tengamos algunos procesos automatizados, últimamente hablo mucho de ello y no sé si son los mejores ejemplos, pero yo que sé, desde evaluación del riesgo penitenciario en Cataluña o nivel de riesgo de violencia de género en casi todas las comunidades de España.
+
+[00:48:12.200] - Ujué
+Bueno, son algoritmos, muchos de ellos inteligentes, que no es ni para bien ni para mal, quiero decir que puede ser algoritmo que tiene unas reglas establecidas por expertos, pero que se han establecido y no hemos tenido la discusión como sociedad de si nos parece adecuado o no que se establezcan. Entonces todos estos mantras creo que contribuyen a dar por sentado que eso está bien, sin haber tenido siquiera antes la discusión de si está bien o no.  Yo lo que diría es que como ciudadanos igual deberíamos ser más cautos con todos estos mantras y empezar a decidir, porque si se está estableciendo en algunos colectivos, lo más probable es que se establezca pronto en la sociedad en general. Y ni siquiera hemos pensado si está bien que se establezcan esos colectivos.
+
+[00:51:00.630] - Carlos
+No sé si os quedáis con ganas de decir algo más, de aportar algo más a la conversación.
+
+[00:51:08.190] - Karlos
+Agradecerte la invitación, además en mi caso,  como te lo he dicho más de una vez, soy fan de tu podcast. Para mi es una gozada poder haber estado hablando contigo y participar de tu podcast.
+
+[00:51:34.180] - Ujué
+Yo agradecerte también, ha sido muy guay poder estar hoy contigo aquí, fue súper especial que te vinieras a la Nave, nos hizo muchísima ilusión. Sobre todo también te agradezco que le des difusión a estos temas, porque nosotros intentamos desde nuestro choquito contar las cosas, nos parece importante aquello que hemos estado investigando, compartirlo con la comunidad. Pero luego cada uno tiene un altavoz y llega hasta donde llega y siempre te queda la pena de que haya cosas que te parecen relevantes y que no nos salgan más allá. Esto, desde luego, nos ayuda en ese camino, así que muchísimas gracias por contar con nosotros hoy aquí.
+
+[00:52:28.350] - Carlos
+Pues nada, gracias a vosotros y de verdad un súper placer.
+

@@ -86,6 +86,18 @@ class _FakeService:
             },
         }
 
+    def ingest_runroom_lab_url(self, url: str) -> dict[str, object]:
+        return {
+            "url": url,
+            "summary": {
+                "documents_total": 1,
+                "items_upserted": 1,
+                "sections_written": 2,
+                "chunks_written": 5,
+                "dry_run": False,
+            },
+        }
+
     def ingest_episode_upload(
         self,
         transcript_filename: str,
@@ -387,6 +399,101 @@ class WebAuthFlowTests(unittest.TestCase):
         payload = response.json()
         self.assertIn("request_id", payload)
         self.assertEqual(payload["url"], "https://www.runroom.com/cases/caso-valido")
+        self.assertIn("summary", payload)
+        self.assertEqual(payload["summary"]["items_upserted"], 1)
+
+    def test_new_runroom_lab_page_redirects_without_session(self) -> None:
+        app = create_app(
+            service=_FakeService(),
+            api_key="secret",
+            runtime_settings=self._runtime(),
+            google_oauth_client=_FakeGoogleOAuthClient(
+                userinfo={"email": "person@runroom.com", "email_verified": True, "name": "Person"}
+            ),
+        )
+        client = TestClient(app)
+
+        response = client.get("/app/nuevo-runroom-lab", follow_redirects=False)
+
+        self.assertEqual(response.status_code, 302)
+        self.assertEqual(response.headers["location"], "/")
+
+    def test_new_runroom_lab_page_with_session(self) -> None:
+        app = create_app(
+            service=_FakeService(),
+            api_key="secret",
+            runtime_settings=self._runtime(),
+            google_oauth_client=_FakeGoogleOAuthClient(
+                userinfo={"email": "person@runroom.com", "email_verified": True, "name": "Person"}
+            ),
+        )
+        client = TestClient(app)
+        client.get("/auth/google/callback", follow_redirects=False)
+
+        response = client.get("/app/nuevo-runroom-lab")
+
+        self.assertEqual(response.status_code, 200)
+        self.assertIn("Nueva ingesta de runroom_lab", response.text)
+
+    def test_runroom_lab_ingest_requires_session(self) -> None:
+        app = create_app(
+            service=_FakeService(),
+            api_key="secret",
+            runtime_settings=self._runtime(),
+            google_oauth_client=_FakeGoogleOAuthClient(
+                userinfo={"email": "person@runroom.com", "email_verified": True, "name": "Person"}
+            ),
+        )
+        client = TestClient(app)
+
+        response = client.post(
+            "/app/api/runroom-labs/ingest-url",
+            json={"url": "https://info.runroom.com/lab-heart-of-agile"},
+        )
+
+        self.assertEqual(response.status_code, 401)
+        self.assertEqual(response.json()["detail"], "Authentication required")
+
+    def test_runroom_lab_ingest_rejects_url_outside_policy(self) -> None:
+        app = create_app(
+            service=_FakeService(),
+            api_key="secret",
+            runtime_settings=self._runtime(),
+            google_oauth_client=_FakeGoogleOAuthClient(
+                userinfo={"email": "person@runroom.com", "email_verified": True, "name": "Person"}
+            ),
+        )
+        client = TestClient(app)
+        client.get("/auth/google/callback", follow_redirects=False)
+
+        response = client.post(
+            "/app/api/runroom-labs/ingest-url",
+            json={"url": "https://example.com/lab-heart-of-agile"},
+        )
+
+        self.assertEqual(response.status_code, 422)
+
+    def test_runroom_lab_ingest_with_session_contract(self) -> None:
+        app = create_app(
+            service=_FakeService(),
+            api_key="secret",
+            runtime_settings=self._runtime(),
+            google_oauth_client=_FakeGoogleOAuthClient(
+                userinfo={"email": "person@runroom.com", "email_verified": True, "name": "Person"}
+            ),
+        )
+        client = TestClient(app)
+        client.get("/auth/google/callback", follow_redirects=False)
+
+        response = client.post(
+            "/app/api/runroom-labs/ingest-url",
+            json={"url": "https://info.runroom.com/lab-heart-of-agile"},
+        )
+
+        self.assertEqual(response.status_code, 200)
+        payload = response.json()
+        self.assertIn("request_id", payload)
+        self.assertEqual(payload["url"], "https://info.runroom.com/lab-heart-of-agile")
         self.assertIn("summary", payload)
         self.assertEqual(payload["summary"]["items_upserted"], 1)
 

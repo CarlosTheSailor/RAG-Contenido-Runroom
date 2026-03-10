@@ -75,6 +75,18 @@ class _FakeService:
             },
         }
 
+    def ingest_runroom_lab_url(self, url: str) -> dict[str, object]:
+        return {
+            "url": url,
+            "summary": {
+                "documents_total": 1,
+                "items_upserted": 1,
+                "sections_written": 2,
+                "chunks_written": 5,
+                "dry_run": False,
+            },
+        }
+
     def ingest_episode_upload(
         self,
         transcript_filename: str,

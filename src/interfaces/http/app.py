@@ -26,6 +26,8 @@ from src.interfaces.http.schemas import (
     QuerySimilarResponseModel,
     RecommendContentRequestModel,
     RecommendContentResponseModel,
+    RunroomLabIngestUrlRequestModel,
+    RunroomLabIngestUrlResponseModel,
 )
 from src.interfaces.http.services import QueryApiService
 from src.pipeline.manual_episode_ingest import DuplicateEpisodeSourceFilenameError
@@ -62,6 +64,9 @@ class QueryServicePort(Protocol):
         ...
 
     def ingest_case_study_url(self, url: str) -> dict[str, Any]:
+        ...
+
+    def ingest_runroom_lab_url(self, url: str) -> dict[str, Any]:
         ...
 
     def ingest_episode_upload(
@@ -148,6 +153,26 @@ def _validate_runroom_episode_url(url: str) -> str:
         raise ValueError("URL invalida: solo se permiten hosts runroom.com o www.runroom.com.")
     if not (parsed.path.startswith("/realworld/") or parsed.path.startswith("/en/realworld/")):
         raise ValueError("URL invalida: el path debe empezar por /realworld/ o /en/realworld/.")
+
+    return candidate
+
+
+def _validate_runroom_lab_url(url: str) -> str:
+    candidate = url.strip()
+    parsed = urlparse(candidate)
+    host = (parsed.hostname or "").lower()
+    path = parsed.path.rstrip("/")
+
+    if parsed.scheme not in {"http", "https"}:
+        raise ValueError("URL invalida: solo se permiten esquemas http/https.")
+    if host not in {"runroom.com", "www.runroom.com", "info.runroom.com"}:
+        raise ValueError(
+            "URL invalida: solo se permiten hosts runroom.com, www.runroom.com o info.runroom.com."
+        )
+    if not path:
+        raise ValueError("URL invalida: la URL debe apuntar a una pagina concreta del LAB.")
+    if path == "/runroom-lab-todas-las-ediciones":
+        raise ValueError("URL invalida: usa la URL de una edicion concreta del LAB, no la del indice.")
 
     return candidate
 
@@ -256,6 +281,25 @@ def create_app(
             raise HTTPException(status_code=502, detail=f"No se pudo cargar la URL externa: {exc}") from exc
         except Exception as exc:
             raise HTTPException(status_code=500, detail="Error inesperado durante la ingesta del case study.") from exc
+
+        return {
+            "request_id": str(uuid4()),
+            "url": str(result["url"]),
+            "summary": result["summary"],
+        }
+
+    def runroom_lab_ingest_payload(payload: RunroomLabIngestUrlRequestModel) -> Dict[str, Any]:
+        try:
+            url = _validate_runroom_lab_url(payload.url)
+        except ValueError as exc:
+            raise HTTPException(status_code=422, detail=str(exc)) from exc
+
+        try:
+            result = service.ingest_runroom_lab_url(url=url)
+        except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError) as exc:
+            raise HTTPException(status_code=502, detail=f"No se pudo cargar la URL externa: {exc}") from exc
+        except Exception as exc:
+            raise HTTPException(status_code=500, detail="Error inesperado durante la ingesta del runroom lab.") from exc
 
         return {
             "request_id": str(uuid4()),
@@ -379,6 +423,17 @@ def create_app(
             {"user": user},
         )
 
+    @app.get("/app/nuevo-runroom-lab", response_class=HTMLResponse)
+    def app_new_runroom_lab_page(request: Request) -> Any:
+        user = _session_user(request)
+        if user is None:
+            return RedirectResponse(url="/", status_code=302)
+        return templates.TemplateResponse(
+            request,
+            "new_runroom_lab.html",
+            {"user": user},
+        )
+
     @app.get("/app/nuevo-episodio-realworld", response_class=HTMLResponse)
     def app_new_realworld_episode_page(request: Request) -> Any:
         user = _session_user(request)
@@ -435,6 +490,16 @@ def create_app(
         _: dict[str, str] = Depends(require_session_api_user),
     ) -> Dict[str, Any]:
         return case_study_ingest_payload(payload)
+
+    @app.post(
+        "/app/api/runroom-labs/ingest-url",
+        response_model=RunroomLabIngestUrlResponseModel,
+    )
+    def app_ingest_runroom_lab_url(
+        payload: RunroomLabIngestUrlRequestModel,
+        _: dict[str, str] = Depends(require_session_api_user),
+    ) -> Dict[str, Any]:
+        return runroom_lab_ingest_payload(payload)
 
     @app.post(
         "/app/api/episodes/ingest",

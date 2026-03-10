@@ -69,6 +69,29 @@ def ingest_case_study_url(
     )
 
 
+def ingest_runroom_lab_url(
+    settings: Settings,
+    schema_path: Path,
+    url: str,
+    target_tokens: int = 240,
+    overlap_tokens: int = 40,
+    batch_size: int = 32,
+    offline_mode: bool = False,
+    dry_run: bool = False,
+) -> ContentIngestSummary:
+    doc = parse_runroom_lab_url(url)
+    return ingest_documents(
+        settings=settings,
+        schema_path=schema_path,
+        documents=[doc],
+        target_tokens=target_tokens,
+        overlap_tokens=overlap_tokens,
+        batch_size=batch_size,
+        offline_mode=offline_mode,
+        dry_run=dry_run,
+    )
+
+
 def ingest_runroom_labs(
     settings: Settings,
     schema_path: Path,

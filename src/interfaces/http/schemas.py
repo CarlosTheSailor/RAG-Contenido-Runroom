@@ -84,6 +84,24 @@ class CaseStudyIngestUrlResponseModel(BaseModel):
     summary: CaseStudyIngestUrlSummaryModel
 
 
+class RunroomLabIngestUrlRequestModel(BaseModel):
+    url: str = Field(..., min_length=1)
+
+
+class RunroomLabIngestUrlSummaryModel(BaseModel):
+    documents_total: int
+    items_upserted: int
+    sections_written: int
+    chunks_written: int
+    dry_run: bool
+
+
+class RunroomLabIngestUrlResponseModel(BaseModel):
+    request_id: str
+    url: str
+    summary: RunroomLabIngestUrlSummaryModel
+
+
 class EpisodeIngestSummaryModel(BaseModel):
     source_filename: str
     transcript_path: str

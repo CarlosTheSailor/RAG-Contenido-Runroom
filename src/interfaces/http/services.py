@@ -11,6 +11,7 @@ from src.application.use_cases.query_similar import QuerySimilarRequest, QuerySi
 from src.application.use_cases.recommend_content import RecommendContentRequest, RecommendContentUseCase
 from src.config import Settings
 from src.content.ingest import ingest_case_study_url as ingest_case_study_url_pipeline
+from src.content.ingest import ingest_runroom_lab_url as ingest_runroom_lab_url_pipeline
 from src.pipeline.manual_episode_ingest import ingest_uploaded_episode
 from src.infrastructure.ai.openai_embedding_client import OpenAIEmbeddingClient
 from src.infrastructure.repositories.content_chunks import ContentChunksRepository
@@ -139,6 +140,22 @@ class QueryApiService:
 
     def ingest_case_study_url(self, url: str) -> dict[str, Any]:
         summary = ingest_case_study_url_pipeline(
+            settings=self._settings,
+            schema_path=self._schema_path,
+            url=url,
+            target_tokens=240,
+            overlap_tokens=40,
+            batch_size=32,
+            offline_mode=False,
+            dry_run=False,
+        )
+        return {
+            "url": url,
+            "summary": dict(summary),
+        }
+
+    def ingest_runroom_lab_url(self, url: str) -> dict[str, Any]:
+        summary = ingest_runroom_lab_url_pipeline(
             settings=self._settings,
             schema_path=self._schema_path,
             url=url,

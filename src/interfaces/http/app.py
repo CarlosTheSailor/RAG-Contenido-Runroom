@@ -21,6 +21,18 @@ from src.interfaces.http.schemas import (
     CaseStudyIngestUrlRequestModel,
     CaseStudyIngestUrlResponseModel,
     EpisodeIngestResponseModel,
+    LinkedInDraftPublisherScheduleConfigCreateRequestModel,
+    LinkedInDraftPublisherScheduleConfigResponseModel,
+    LinkedInDraftPublisherScheduleConfigUpdateRequestModel,
+    LinkedInDraftPublisherScheduleCreateRequestModel,
+    LinkedInDraftPublisherScheduleExecutionsResponseModel,
+    LinkedInDraftPublisherScheduleListResponseModel,
+    LinkedInDraftPublisherScheduleResponseModel,
+    LinkedInDraftPublisherScheduleRunNowRequestModel,
+    LinkedInDraftPublisherScheduleRunNowResponseModel,
+    LinkedInDraftPublisherScheduleUpdateRequestModel,
+    LinkedInDraftPublisherSchedulerTickRequestModel,
+    LinkedInDraftPublisherSchedulerTickResponseModel,
     LinkedInDraftPublisherRunCreateRequestModel,
     LinkedInDraftPublisherRunCreateResponseModel,
     LinkedInDraftPublisherRunGetResponseModel,
@@ -232,6 +244,62 @@ class QueryServicePort(Protocol):
         ...
 
     def tick_theme_intel_scheduler(self, offline_mode: bool = False) -> dict[str, Any]:
+        ...
+
+    def create_linkedin_draft_publisher_schedule(
+        self,
+        name: str,
+        enabled: bool = True,
+        every_n_days: int = 1,
+        run_time_local: str = "09:00",
+        timezone_name: str = "Europe/Madrid",
+    ) -> dict[str, Any]:
+        ...
+
+    def list_linkedin_draft_publisher_schedules(self) -> list[dict[str, Any]]:
+        ...
+
+    def update_linkedin_draft_publisher_schedule(
+        self,
+        schedule_id: int,
+        name: str | None = None,
+        enabled: bool | None = None,
+        every_n_days: int | None = None,
+        run_time_local: str | None = None,
+        timezone_name: str | None = None,
+    ) -> dict[str, Any] | None:
+        ...
+
+    def create_linkedin_draft_publisher_schedule_config(
+        self,
+        schedule_id: int,
+        execution_order: int,
+        origin_category: str,
+        slack_channel: str,
+        buyer_persona_objetivo: str,
+        enabled: bool = True,
+    ) -> dict[str, Any]:
+        ...
+
+    def update_linkedin_draft_publisher_schedule_config(
+        self,
+        schedule_id: int,
+        config_id: int,
+        execution_order: int | None = None,
+        origin_category: str | None = None,
+        slack_channel: str | None = None,
+        buyer_persona_objetivo: str | None = None,
+        enabled: bool | None = None,
+    ) -> dict[str, Any] | None:
+        ...
+
+    def run_linkedin_draft_publisher_schedule_now(self, schedule_id: int, offline_mode: bool = False) -> dict[str, Any]:
+        ...
+
+    def list_linkedin_draft_publisher_schedule_executions(self, schedule_id: int, limit: int = 20) -> list[dict[str, Any]]:
+        ...
+
+    def tick_linkedin_draft_publisher_scheduler(self, offline_mode: bool = False) -> dict[str, Any]:
         ...
 
     def create_linkedin_draft_publisher_run(
@@ -558,6 +626,14 @@ def create_app(
             "schedules": schedules,
         }
 
+    def list_linkedin_draft_publisher_schedules_payload() -> Dict[str, Any]:
+        schedules = service.list_linkedin_draft_publisher_schedules()
+        return {
+            "request_id": str(uuid4()),
+            "total": len(schedules),
+            "schedules": schedules,
+        }
+
     @app.get("/", response_class=HTMLResponse)
     def root(request: Request) -> Any:
         if _session_user(request):
@@ -824,6 +900,161 @@ def create_app(
         result = service.get_linkedin_draft_publisher_run_result(run_id=run_id)
         if result is None:
             raise HTTPException(status_code=404, detail="LinkedIn draft run not found")
+        return {"request_id": str(uuid4()), "result": result}
+
+    @app.post(
+        "/app/api/linkedin-draft-publisher/schedules",
+        response_model=LinkedInDraftPublisherScheduleResponseModel,
+    )
+    def app_create_linkedin_draft_publisher_schedule(
+        payload: LinkedInDraftPublisherScheduleCreateRequestModel,
+        _: dict[str, str] = Depends(require_session_api_user),
+    ) -> Dict[str, Any]:
+        try:
+            schedule = service.create_linkedin_draft_publisher_schedule(
+                name=payload.name,
+                enabled=payload.enabled,
+                every_n_days=payload.every_n_days,
+                run_time_local=payload.run_time_local,
+                timezone_name=payload.timezone,
+            )
+        except ValueError as exc:
+            raise HTTPException(status_code=422, detail=str(exc)) from exc
+        return {"request_id": str(uuid4()), "schedule": schedule}
+
+    @app.get(
+        "/app/api/linkedin-draft-publisher/schedules",
+        response_model=LinkedInDraftPublisherScheduleListResponseModel,
+    )
+    def app_list_linkedin_draft_publisher_schedules(
+        _: dict[str, str] = Depends(require_session_api_user),
+    ) -> Dict[str, Any]:
+        return list_linkedin_draft_publisher_schedules_payload()
+
+    @app.patch(
+        "/app/api/linkedin-draft-publisher/schedules/{schedule_id}",
+        response_model=LinkedInDraftPublisherScheduleResponseModel,
+    )
+    def app_update_linkedin_draft_publisher_schedule(
+        schedule_id: int,
+        payload: LinkedInDraftPublisherScheduleUpdateRequestModel,
+        _: dict[str, str] = Depends(require_session_api_user),
+    ) -> Dict[str, Any]:
+        try:
+            schedule = service.update_linkedin_draft_publisher_schedule(
+                schedule_id=schedule_id,
+                name=payload.name,
+                enabled=payload.enabled,
+                every_n_days=payload.every_n_days,
+                run_time_local=payload.run_time_local,
+                timezone_name=payload.timezone,
+            )
+        except ValueError as exc:
+            raise HTTPException(status_code=422, detail=str(exc)) from exc
+        if schedule is None:
+            raise HTTPException(status_code=404, detail="LinkedIn draft schedule not found")
+        return {"request_id": str(uuid4()), "schedule": schedule}
+
+    @app.post(
+        "/app/api/linkedin-draft-publisher/schedules/{schedule_id}/configs",
+        response_model=LinkedInDraftPublisherScheduleConfigResponseModel,
+    )
+    def app_create_linkedin_draft_publisher_schedule_config(
+        schedule_id: int,
+        payload: LinkedInDraftPublisherScheduleConfigCreateRequestModel,
+        _: dict[str, str] = Depends(require_session_api_user),
+    ) -> Dict[str, Any]:
+        try:
+            config = service.create_linkedin_draft_publisher_schedule_config(
+                schedule_id=schedule_id,
+                execution_order=payload.executionOrder,
+                origin_category=payload.originCategory,
+                slack_channel=payload.slackChannel,
+                buyer_persona_objetivo=payload.buyerPersonaObjetivo,
+                enabled=payload.enabled,
+            )
+        except ValueError as exc:
+            detail = str(exc)
+            status_code = 404 if "Schedule no encontrado" in detail else 422
+            raise HTTPException(status_code=status_code, detail=detail) from exc
+        return {"request_id": str(uuid4()), "config": config}
+
+    @app.patch(
+        "/app/api/linkedin-draft-publisher/schedules/{schedule_id}/configs/{config_id}",
+        response_model=LinkedInDraftPublisherScheduleConfigResponseModel,
+    )
+    def app_update_linkedin_draft_publisher_schedule_config(
+        schedule_id: int,
+        config_id: int,
+        payload: LinkedInDraftPublisherScheduleConfigUpdateRequestModel,
+        _: dict[str, str] = Depends(require_session_api_user),
+    ) -> Dict[str, Any]:
+        try:
+            config = service.update_linkedin_draft_publisher_schedule_config(
+                schedule_id=schedule_id,
+                config_id=config_id,
+                execution_order=payload.executionOrder,
+                origin_category=payload.originCategory,
+                slack_channel=payload.slackChannel,
+                buyer_persona_objetivo=payload.buyerPersonaObjetivo,
+                enabled=payload.enabled,
+            )
+        except ValueError as exc:
+            raise HTTPException(status_code=422, detail=str(exc)) from exc
+        if config is None:
+            raise HTTPException(status_code=404, detail="LinkedIn draft schedule config not found")
+        return {"request_id": str(uuid4()), "config": config}
+
+    @app.post(
+        "/app/api/linkedin-draft-publisher/schedules/{schedule_id}/run-now",
+        response_model=LinkedInDraftPublisherScheduleRunNowResponseModel,
+    )
+    def app_run_linkedin_draft_publisher_schedule_now(
+        schedule_id: int,
+        payload: LinkedInDraftPublisherScheduleRunNowRequestModel,
+        _: dict[str, str] = Depends(require_session_api_user),
+    ) -> Dict[str, Any]:
+        try:
+            result = service.run_linkedin_draft_publisher_schedule_now(
+                schedule_id=schedule_id,
+                offline_mode=payload.offline_mode,
+            )
+        except ValueError as exc:
+            raise HTTPException(status_code=404, detail=str(exc)) from exc
+        return {"request_id": str(uuid4()), "result": result}
+
+    @app.get(
+        "/app/api/linkedin-draft-publisher/schedules/{schedule_id}/executions",
+        response_model=LinkedInDraftPublisherScheduleExecutionsResponseModel,
+    )
+    def app_list_linkedin_draft_publisher_schedule_executions(
+        schedule_id: int,
+        limit: int = 20,
+        _: dict[str, str] = Depends(require_session_api_user),
+    ) -> Dict[str, Any]:
+        try:
+            executions = service.list_linkedin_draft_publisher_schedule_executions(
+                schedule_id=schedule_id,
+                limit=limit,
+            )
+        except ValueError as exc:
+            raise HTTPException(status_code=404, detail=str(exc)) from exc
+        return {
+            "request_id": str(uuid4()),
+            "schedule_id": schedule_id,
+            "total": len(executions),
+            "executions": executions,
+        }
+
+    @app.post(
+        "/app/api/linkedin-draft-publisher/scheduler/tick",
+        response_model=LinkedInDraftPublisherSchedulerTickResponseModel,
+    )
+    def app_tick_linkedin_draft_publisher_scheduler(
+        payload: Optional[LinkedInDraftPublisherSchedulerTickRequestModel] = None,
+        _: dict[str, str] = Depends(require_session_api_user),
+    ) -> Dict[str, Any]:
+        result = service.tick_linkedin_draft_publisher_scheduler(offline_mode=bool(payload and payload.offline_mode))
         return {"request_id": str(uuid4()), "result": result}
 
     @app.post(
@@ -1319,6 +1550,19 @@ def create_app(
         _: None = Security(require_api_key),
     ) -> Dict[str, Any]:
         result = service.tick_theme_intel_scheduler(offline_mode=bool(payload and payload.offline_mode))
+        return {"request_id": str(uuid4()), "result": result}
+
+    @app.post(
+        "/v1/linkedin-draft-publisher/scheduler/tick",
+        response_model=LinkedInDraftPublisherSchedulerTickResponseModel,
+    )
+    def tick_linkedin_draft_publisher_scheduler_v1(
+        payload: Optional[LinkedInDraftPublisherSchedulerTickRequestModel] = None,
+        _: None = Security(require_api_key),
+    ) -> Dict[str, Any]:
+        result = service.tick_linkedin_draft_publisher_scheduler(
+            offline_mode=bool(payload and payload.offline_mode)
+        )
         return {"request_id": str(uuid4()), "result": result}
 
     if runtime is not None:

@@ -13,7 +13,7 @@ import urllib.error
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from collections import defaultdict
-from datetime import date, datetime
+from datetime import date, datetime, time as dt_time, timezone
 from pathlib import Path
 from typing import Any, Sequence
 
@@ -24,12 +24,16 @@ from src.infrastructure.repositories.content_chunks import ContentChunksReposito
 from src.pipeline.normalization import normalize_for_match
 from src.pipeline.storage import SupabaseStorage
 from src.theme_intel.repository import ThemeIntelRepository
+from src.theme_intel.scheduling import compute_next_run_at_utc, parse_run_time_local, validate_timezone_name
 from src.theme_intel.utils import normalize_tag
 
 from .models import DraftStage1Output, DraftStage2Output, LinkedInDraftRunConfig, TopicCandidate
 from .parsing import normalize_references, parse_json_payload
 from .prompts import LinkedInDraftPromptLoader
 from .repository import LinkedInDraftPublisherRepository
+
+SCHEDULER_LOCK_KEY = 2026031201
+DEFAULT_SCHEDULE_TIMEZONE = "Europe/Madrid"
 
 
 class LinkedInDraftPublisherService:
@@ -144,6 +148,468 @@ class LinkedInDraftPublisherService:
             "items": finals,
             "total": len(finals),
         }
+
+    def create_schedule(
+        self,
+        *,
+        name: str,
+        enabled: bool = True,
+        every_n_days: int = 1,
+        run_time_local: str = "09:00",
+        timezone_name: str = DEFAULT_SCHEDULE_TIMEZONE,
+    ) -> dict[str, Any]:
+        clean_name = name.strip()
+        if not clean_name:
+            raise ValueError("name es obligatorio.")
+        if every_n_days < 1 or every_n_days > 365:
+            raise ValueError("every_n_days debe estar entre 1 y 365.")
+
+        validated_timezone = validate_timezone_name(timezone_name)
+        run_time = parse_run_time_local(run_time_local)
+        now_utc = datetime.now(tz=timezone.utc)
+        next_run_at_utc = None
+        if enabled:
+            next_run_at_utc = compute_next_run_at_utc(
+                every_n_days=every_n_days,
+                run_time_local=run_time,
+                timezone_name=validated_timezone,
+                now_utc=now_utc,
+                last_run_at_utc=None,
+            )
+
+        storage = SupabaseStorage(self._settings.supabase_db_url)
+        try:
+            storage.ensure_schema(self._schema_path)
+            repo = LinkedInDraftPublisherRepository(storage)
+            schedule = repo.create_schedule(
+                name=clean_name,
+                enabled=enabled,
+                every_n_days=every_n_days,
+                run_time_local=run_time.isoformat(timespec="seconds"),
+                timezone=validated_timezone,
+                next_run_at_utc=next_run_at_utc,
+                metadata={},
+            )
+            schedule["configs"] = []
+            return _normalize_schedule_payload(schedule)
+        finally:
+            storage.close()
+
+    def list_schedules(self) -> list[dict[str, Any]]:
+        storage = SupabaseStorage(self._settings.supabase_db_url)
+        try:
+            storage.ensure_schema(self._schema_path)
+            repo = LinkedInDraftPublisherRepository(storage)
+            schedules = repo.list_schedules()
+            output: list[dict[str, Any]] = []
+            for schedule in schedules:
+                configs = repo.list_schedule_configs(schedule_id=int(schedule["id"]), enabled_only=False)
+                payload = dict(schedule)
+                payload["configs"] = [_normalize_schedule_config_payload(item) for item in configs]
+                output.append(_normalize_schedule_payload(payload))
+            return output
+        finally:
+            storage.close()
+
+    def update_schedule(
+        self,
+        *,
+        schedule_id: int,
+        name: str | None = None,
+        enabled: bool | None = None,
+        every_n_days: int | None = None,
+        run_time_local: str | None = None,
+        timezone_name: str | None = None,
+    ) -> dict[str, Any] | None:
+        storage = SupabaseStorage(self._settings.supabase_db_url)
+        try:
+            storage.ensure_schema(self._schema_path)
+            repo = LinkedInDraftPublisherRepository(storage)
+            current = repo.get_schedule(schedule_id=schedule_id)
+            if current is None:
+                return None
+
+            patch: dict[str, Any] = {}
+            if name is not None:
+                clean_name = name.strip()
+                if not clean_name:
+                    raise ValueError("name no puede estar vacio.")
+                patch["name"] = clean_name
+            if enabled is not None:
+                patch["enabled"] = bool(enabled)
+            if every_n_days is not None:
+                if every_n_days < 1 or every_n_days > 365:
+                    raise ValueError("every_n_days debe estar entre 1 y 365.")
+                patch["every_n_days"] = int(every_n_days)
+            if run_time_local is not None:
+                parsed_time = parse_run_time_local(run_time_local)
+                patch["run_time_local"] = parsed_time.isoformat(timespec="seconds")
+            if timezone_name is not None:
+                patch["timezone"] = validate_timezone_name(timezone_name)
+
+            cadence_changed = any(
+                key in patch for key in ("enabled", "every_n_days", "run_time_local", "timezone")
+            )
+            if cadence_changed:
+                final_enabled = bool(patch.get("enabled", current["enabled"]))
+                final_every_n_days = int(patch.get("every_n_days", current["every_n_days"]))
+                final_run_time_raw = patch.get("run_time_local", current["run_time_local"])
+                final_run_time = _to_time(final_run_time_raw)
+                final_timezone = str(patch.get("timezone", current["timezone"]))
+                if final_enabled:
+                    patch["next_run_at_utc"] = compute_next_run_at_utc(
+                        every_n_days=final_every_n_days,
+                        run_time_local=final_run_time,
+                        timezone_name=final_timezone,
+                        now_utc=datetime.now(tz=timezone.utc),
+                        last_run_at_utc=current.get("last_run_at_utc"),
+                    )
+                else:
+                    patch["next_run_at_utc"] = None
+
+            updated = repo.update_schedule(schedule_id=schedule_id, patch=patch)
+            if updated is None:
+                return None
+            configs = repo.list_schedule_configs(schedule_id=schedule_id, enabled_only=False)
+            updated["configs"] = [_normalize_schedule_config_payload(item) for item in configs]
+            return _normalize_schedule_payload(updated)
+        finally:
+            storage.close()
+
+    def create_schedule_config(
+        self,
+        *,
+        schedule_id: int,
+        execution_order: int,
+        origin_category: str,
+        slack_channel: str,
+        buyer_persona_objetivo: str,
+        enabled: bool = True,
+    ) -> dict[str, Any]:
+        if execution_order < 1:
+            raise ValueError("execution_order debe ser >= 1.")
+        clean_category = normalize_tag(origin_category)
+        if not clean_category:
+            raise ValueError("originCategory es obligatorio.")
+        clean_slack_channel = slack_channel.strip()
+        if not clean_slack_channel:
+            raise ValueError("slackChannel es obligatorio.")
+        clean_buyer_persona = buyer_persona_objetivo.strip()
+        if not clean_buyer_persona:
+            raise ValueError("buyerPersonaObjetivo es obligatorio.")
+
+        storage = SupabaseStorage(self._settings.supabase_db_url)
+        try:
+            storage.ensure_schema(self._schema_path)
+            repo = LinkedInDraftPublisherRepository(storage)
+            schedule = repo.get_schedule(schedule_id=schedule_id)
+            if schedule is None:
+                raise ValueError("Schedule no encontrado.")
+            config = repo.create_schedule_config(
+                schedule_id=schedule_id,
+                execution_order=execution_order,
+                origin_category=clean_category,
+                slack_channel=clean_slack_channel,
+                buyer_persona_objetivo=clean_buyer_persona,
+                enabled=enabled,
+                metadata={},
+            )
+            return _normalize_schedule_config_payload(config)
+        finally:
+            storage.close()
+
+    def update_schedule_config(
+        self,
+        *,
+        schedule_id: int,
+        config_id: int,
+        execution_order: int | None = None,
+        origin_category: str | None = None,
+        slack_channel: str | None = None,
+        buyer_persona_objetivo: str | None = None,
+        enabled: bool | None = None,
+    ) -> dict[str, Any] | None:
+        storage = SupabaseStorage(self._settings.supabase_db_url)
+        try:
+            storage.ensure_schema(self._schema_path)
+            repo = LinkedInDraftPublisherRepository(storage)
+            current = repo.get_schedule_config(schedule_id=schedule_id, config_id=config_id)
+            if current is None:
+                return None
+
+            patch: dict[str, Any] = {}
+            if execution_order is not None:
+                if execution_order < 1:
+                    raise ValueError("execution_order debe ser >= 1.")
+                patch["execution_order"] = int(execution_order)
+            if origin_category is not None:
+                clean_category = normalize_tag(origin_category)
+                if not clean_category:
+                    raise ValueError("originCategory es obligatorio.")
+                patch["origin_category"] = clean_category
+            if slack_channel is not None:
+                clean_slack_channel = slack_channel.strip()
+                if not clean_slack_channel:
+                    raise ValueError("slackChannel es obligatorio.")
+                patch["slack_channel"] = clean_slack_channel
+            if buyer_persona_objetivo is not None:
+                clean_buyer_persona = buyer_persona_objetivo.strip()
+                if not clean_buyer_persona:
+                    raise ValueError("buyerPersonaObjetivo es obligatorio.")
+                patch["buyer_persona_objetivo"] = clean_buyer_persona
+            if enabled is not None:
+                patch["enabled"] = bool(enabled)
+
+            updated = repo.update_schedule_config(
+                schedule_id=schedule_id,
+                config_id=config_id,
+                patch=patch,
+            )
+            return _normalize_schedule_config_payload(updated) if updated else None
+        finally:
+            storage.close()
+
+    def run_schedule_now(self, schedule_id: int, force_offline: bool = False) -> dict[str, Any]:
+        storage = SupabaseStorage(self._settings.supabase_db_url)
+        try:
+            storage.ensure_schema(self._schema_path)
+            repo = LinkedInDraftPublisherRepository(storage)
+            schedule = repo.get_schedule(schedule_id=schedule_id)
+            if schedule is None:
+                raise ValueError("Schedule no encontrado.")
+
+            lock_acquired = repo.try_acquire_scheduler_lock(lock_key=SCHEDULER_LOCK_KEY)
+            if not lock_acquired:
+                return {
+                    "status": "locked",
+                    "executed": 0,
+                    "message": "Scheduler lock ocupado.",
+                }
+
+            try:
+                execution = self._execute_schedule(
+                    repo=repo,
+                    schedule=schedule,
+                    trigger_type="manual_run_now",
+                    force_offline=force_offline,
+                )
+                return {
+                    "status": "ok",
+                    "executed": 1,
+                    "execution": execution,
+                }
+            finally:
+                repo.release_scheduler_lock(lock_key=SCHEDULER_LOCK_KEY)
+        finally:
+            storage.close()
+
+    def list_schedule_executions(self, schedule_id: int, limit: int = 20) -> list[dict[str, Any]]:
+        storage = SupabaseStorage(self._settings.supabase_db_url)
+        try:
+            storage.ensure_schema(self._schema_path)
+            repo = LinkedInDraftPublisherRepository(storage)
+            if repo.get_schedule(schedule_id=schedule_id) is None:
+                raise ValueError("Schedule no encontrado.")
+            executions = repo.list_schedule_executions(schedule_id=schedule_id, limit=max(1, min(limit, 100)))
+            output: list[dict[str, Any]] = []
+            for execution in executions:
+                normalized_execution = dict(execution)
+                normalized_execution["items"] = [
+                    _normalize_schedule_execution_item_payload(item)
+                    for item in execution.get("items", [])
+                ]
+                output.append(_normalize_schedule_execution_payload(normalized_execution))
+            return output
+        finally:
+            storage.close()
+
+    def scheduler_tick(self, force_offline: bool = False) -> dict[str, Any]:
+        storage = SupabaseStorage(self._settings.supabase_db_url)
+        now_utc = datetime.now(tz=timezone.utc)
+        try:
+            storage.ensure_schema(self._schema_path)
+            repo = LinkedInDraftPublisherRepository(storage)
+            lock_acquired = repo.try_acquire_scheduler_lock(lock_key=SCHEDULER_LOCK_KEY)
+            if not lock_acquired:
+                return {
+                    "status": "locked",
+                    "due_schedules": 0,
+                    "executed_schedules": 0,
+                    "executions": [],
+                }
+
+            try:
+                due_schedules = repo.list_due_schedules(now_utc=now_utc)
+                executions: list[dict[str, Any]] = []
+                for schedule in due_schedules:
+                    executions.append(
+                        self._execute_schedule(
+                            repo=repo,
+                            schedule=schedule,
+                            trigger_type="cron_tick",
+                            force_offline=force_offline,
+                        )
+                    )
+                return {
+                    "status": "ok",
+                    "due_schedules": len(due_schedules),
+                    "executed_schedules": len(executions),
+                    "executions": executions,
+                }
+            finally:
+                repo.release_scheduler_lock(lock_key=SCHEDULER_LOCK_KEY)
+        finally:
+            storage.close()
+
+    def _execute_schedule(
+        self,
+        *,
+        repo: LinkedInDraftPublisherRepository,
+        schedule: dict[str, Any],
+        trigger_type: str,
+        force_offline: bool,
+    ) -> dict[str, Any]:
+        schedule_id = int(schedule["id"])
+        execution = repo.create_schedule_execution(schedule_id=schedule_id, trigger_type=trigger_type)
+        execution_id = int(execution["id"])
+
+        stats: dict[str, Any] = {
+            "schedule_id": schedule_id,
+            "configs_total": 0,
+            "runs_created": 0,
+            "items_succeeded": 0,
+            "items_failed": 0,
+        }
+        errors: list[dict[str, Any]] = []
+
+        configs = repo.list_schedule_configs(schedule_id=schedule_id, enabled_only=True)
+        stats["configs_total"] = len(configs)
+
+        if not configs:
+            errors.append(
+                {
+                    "stage": "configs",
+                    "message": "No hay configuraciones activas para este schedule.",
+                }
+            )
+
+        for config in configs:
+            item = repo.create_schedule_execution_item(
+                execution_id=execution_id,
+                schedule_config_id=int(config["id"]),
+                execution_order=int(config["execution_order"]),
+            )
+            item_id = int(item["id"])
+            item_errors: list[dict[str, Any]] = []
+            item_stats: dict[str, Any] = {}
+            run_id: int | None = None
+            item_status = "failed"
+            try:
+                created = self.create_run(
+                    origin_category=str(config["origin_category"]),
+                    slack_channel=str(config["slack_channel"]),
+                    buyer_persona_objetivo=str(config["buyer_persona_objetivo"]),
+                    triggered_by_email=f"scheduler:{schedule_id}",
+                    offline_mode=force_offline,
+                )
+                run_id = int(created["run_id"])
+                stats["runs_created"] += 1
+
+                self.execute_run(run_id=run_id, force_offline=force_offline)
+                run = self.get_run(run_id=run_id) or {}
+                item_stats = dict(run.get("stats_json") or {})
+                raw_errors = run.get("errors_json")
+                if isinstance(raw_errors, list):
+                    for entry in raw_errors:
+                        if isinstance(entry, dict):
+                            item_errors.append(dict(entry))
+                        else:
+                            item_errors.append({"message": str(entry)})
+
+                run_status = str(run.get("status") or "")
+                if run_status == "succeeded":
+                    item_status = "succeeded"
+                    stats["items_succeeded"] += 1
+                else:
+                    item_status = "failed"
+                    stats["items_failed"] += 1
+                    if not item_errors:
+                        item_errors.append(
+                            {
+                                "stage": "linkedin_draft_run",
+                                "message": f"Run {run_id} finalizo con estado {run_status or 'unknown'}",
+                            }
+                        )
+                    errors.append(
+                        {
+                            "stage": "schedule_item",
+                            "config_id": int(config["id"]),
+                            "run_id": run_id,
+                            "message": f"Run finalizo con estado {run_status or 'unknown'}",
+                        }
+                    )
+            except Exception as exc:
+                item_status = "failed"
+                stats["items_failed"] += 1
+                item_errors.append({"stage": "schedule_item", "message": str(exc)})
+                errors.append(
+                    {
+                        "stage": "schedule_item",
+                        "config_id": int(config["id"]),
+                        "run_id": run_id,
+                        "message": str(exc),
+                    }
+                )
+            finally:
+                repo.finalize_schedule_execution_item(
+                    item_id=item_id,
+                    status=item_status,
+                    linkedin_draft_run_id=run_id,
+                    stats=item_stats,
+                    errors=item_errors,
+                )
+
+        status = "succeeded"
+        if stats["items_failed"] > 0 and stats["items_succeeded"] > 0:
+            status = "partial_failed"
+        elif stats["items_failed"] > 0:
+            status = "failed"
+
+        finalized = repo.finalize_schedule_execution(
+            execution_id=execution_id,
+            status=status,
+            stats=stats,
+            errors=errors,
+        )
+
+        finished_at = datetime.now(tz=timezone.utc)
+        if finalized and finalized.get("finished_at") is not None:
+            finished_at = finalized["finished_at"]
+            if finished_at.tzinfo is None:
+                finished_at = finished_at.replace(tzinfo=timezone.utc)
+
+        run_time_local = _to_time(schedule["run_time_local"])
+        next_run_at_utc: datetime | None = None
+        if bool(schedule["enabled"]):
+            next_run_at_utc = compute_next_run_at_utc(
+                every_n_days=int(schedule["every_n_days"]),
+                run_time_local=run_time_local,
+                timezone_name=str(schedule["timezone"]),
+                now_utc=datetime.now(tz=timezone.utc),
+                last_run_at_utc=finished_at,
+            )
+        repo.update_schedule(
+            schedule_id=schedule_id,
+            patch={
+                "last_run_at_utc": finished_at,
+                "next_run_at_utc": next_run_at_utc,
+            },
+        )
+
+        execution_payload = finalized or {"id": execution_id, "status": status, "stats_json": stats, "errors_json": errors}
+        latest_executions = repo.list_schedule_executions(schedule_id=schedule_id, limit=1)
+        execution_payload["items"] = latest_executions[0].get("items", []) if latest_executions else []
+        return _normalize_schedule_execution_payload(execution_payload)
 
     def _set_thread_item_context(self, payload: dict[str, Any] | None) -> None:
         self._thread_context.item_ctx = payload or {}
@@ -2132,6 +2598,41 @@ def _compact_source_docs_for_prompt(raw: Any, limit: int = 8, links_limit: int =
             }
         )
     return compact
+
+
+def _to_time(value: Any) -> dt_time:
+    if isinstance(value, dt_time):
+        return value.replace(microsecond=0)
+    if isinstance(value, str):
+        return parse_run_time_local(value)
+    raise ValueError("run_time_local invalido.")
+
+
+def _normalize_schedule_payload(payload: dict[str, Any]) -> dict[str, Any]:
+    normalized = dict(payload)
+    run_time_local = normalized.get("run_time_local")
+    if isinstance(run_time_local, dt_time):
+        normalized["run_time_local"] = run_time_local.isoformat(timespec="seconds")
+    configs = normalized.get("configs")
+    if isinstance(configs, list):
+        normalized["configs"] = [_normalize_schedule_config_payload(item) for item in configs]
+    return normalized
+
+
+def _normalize_schedule_config_payload(payload: dict[str, Any]) -> dict[str, Any]:
+    return dict(payload)
+
+
+def _normalize_schedule_execution_payload(payload: dict[str, Any]) -> dict[str, Any]:
+    normalized = dict(payload)
+    items = normalized.get("items")
+    if isinstance(items, list):
+        normalized["items"] = [_normalize_schedule_execution_item_payload(item) for item in items]
+    return normalized
+
+
+def _normalize_schedule_execution_item_payload(payload: dict[str, Any]) -> dict[str, Any]:
+    return dict(payload)
 
 
 def _normalize_content_type(value: str) -> str:

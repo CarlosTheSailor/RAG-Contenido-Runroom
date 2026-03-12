@@ -301,6 +301,79 @@ class ThemeIntelSchedulerTickResponseModel(BaseModel):
     result: Dict[str, Any]
 
 
+class LinkedInDraftPublisherScheduleCreateRequestModel(BaseModel):
+    name: str = Field(..., min_length=1)
+    enabled: bool = True
+    every_n_days: int = Field(1, ge=1, le=365)
+    run_time_local: str = Field("09:00", pattern=r"^\d{2}:\d{2}(:\d{2})?$")
+    timezone: str = Field("Europe/Madrid", min_length=1)
+
+
+class LinkedInDraftPublisherScheduleUpdateRequestModel(BaseModel):
+    name: Optional[str] = Field(None, min_length=1)
+    enabled: Optional[bool] = None
+    every_n_days: Optional[int] = Field(None, ge=1, le=365)
+    run_time_local: Optional[str] = Field(None, pattern=r"^\d{2}:\d{2}(:\d{2})?$")
+    timezone: Optional[str] = None
+
+
+class LinkedInDraftPublisherScheduleConfigCreateRequestModel(BaseModel):
+    executionOrder: int = Field(1, ge=1)
+    originCategory: str = Field(..., min_length=1)
+    slackChannel: str = Field(..., min_length=1)
+    buyerPersonaObjetivo: str = Field(..., min_length=1)
+    enabled: bool = True
+
+
+class LinkedInDraftPublisherScheduleConfigUpdateRequestModel(BaseModel):
+    executionOrder: Optional[int] = Field(None, ge=1)
+    originCategory: Optional[str] = Field(None, min_length=1)
+    slackChannel: Optional[str] = Field(None, min_length=1)
+    buyerPersonaObjetivo: Optional[str] = Field(None, min_length=1)
+    enabled: Optional[bool] = None
+
+
+class LinkedInDraftPublisherScheduleRunNowRequestModel(BaseModel):
+    offline_mode: bool = False
+
+
+class LinkedInDraftPublisherSchedulerTickRequestModel(BaseModel):
+    offline_mode: bool = False
+
+
+class LinkedInDraftPublisherScheduleListResponseModel(BaseModel):
+    request_id: str
+    total: int
+    schedules: List[Dict[str, Any]]
+
+
+class LinkedInDraftPublisherScheduleResponseModel(BaseModel):
+    request_id: str
+    schedule: Dict[str, Any]
+
+
+class LinkedInDraftPublisherScheduleConfigResponseModel(BaseModel):
+    request_id: str
+    config: Dict[str, Any]
+
+
+class LinkedInDraftPublisherScheduleExecutionsResponseModel(BaseModel):
+    request_id: str
+    schedule_id: int
+    total: int
+    executions: List[Dict[str, Any]]
+
+
+class LinkedInDraftPublisherScheduleRunNowResponseModel(BaseModel):
+    request_id: str
+    result: Dict[str, Any]
+
+
+class LinkedInDraftPublisherSchedulerTickResponseModel(BaseModel):
+    request_id: str
+    result: Dict[str, Any]
+
+
 class LinkedInDraftPublisherRunCreateRequestModel(BaseModel):
     originCategory: str = Field(..., min_length=1)
     slackChannel: str = Field(..., min_length=1)

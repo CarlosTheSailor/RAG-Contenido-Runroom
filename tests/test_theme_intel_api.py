@@ -19,6 +19,10 @@ class _FakeThemeService:
         self._next_execution_id = 1
         self._linkedin_runs: dict[int, dict[str, object]] = {}
         self._next_linkedin_run_id = 1
+        self._linkedin_schedules: dict[int, dict[str, object]] = {}
+        self._next_linkedin_schedule_id = 1
+        self._next_linkedin_schedule_config_id = 1
+        self._next_linkedin_schedule_execution_id = 1
 
     # Existing app protocol methods
     def query_similar(self, text: str, top_k: int, offline_mode: bool = False):  # noqa: ANN001, ARG002
@@ -247,6 +251,117 @@ class _FakeThemeService:
         return executions[:limit]
 
     def tick_theme_intel_scheduler(self, offline_mode: bool = False):  # noqa: ANN001, ARG002
+        return {"status": "ok", "due_schedules": 0, "executed_schedules": 0, "executions": []}
+
+    def create_linkedin_draft_publisher_schedule(  # noqa: ANN001
+        self,
+        name: str,
+        enabled: bool = True,
+        every_n_days: int = 1,
+        run_time_local: str = "09:00",
+        timezone_name: str = "Europe/Madrid",
+    ):
+        schedule_id = self._next_linkedin_schedule_id
+        self._next_linkedin_schedule_id += 1
+        payload = {
+            "id": schedule_id,
+            "name": name,
+            "enabled": enabled,
+            "every_n_days": every_n_days,
+            "run_time_local": run_time_local,
+            "timezone": timezone_name,
+            "configs": [],
+            "executions": [],
+        }
+        self._linkedin_schedules[schedule_id] = payload
+        return payload
+
+    def list_linkedin_draft_publisher_schedules(self):  # noqa: ANN001
+        return [self._linkedin_schedules[key] for key in sorted(self._linkedin_schedules.keys(), reverse=True)]
+
+    def update_linkedin_draft_publisher_schedule(self, schedule_id: int, **kwargs):  # noqa: ANN001
+        schedule = self._linkedin_schedules.get(schedule_id)
+        if not schedule:
+            return None
+        for key, value in kwargs.items():
+            if value is None:
+                continue
+            if key == "timezone_name":
+                schedule["timezone"] = value
+                continue
+            schedule[key] = value
+        return schedule
+
+    def create_linkedin_draft_publisher_schedule_config(  # noqa: ANN001
+        self,
+        schedule_id: int,
+        execution_order: int,
+        origin_category: str,
+        slack_channel: str,
+        buyer_persona_objetivo: str,
+        enabled: bool = True,
+    ):
+        schedule = self._linkedin_schedules.get(schedule_id)
+        if not schedule:
+            raise ValueError("Schedule no encontrado.")
+        config_id = self._next_linkedin_schedule_config_id
+        self._next_linkedin_schedule_config_id += 1
+        config = {
+            "id": config_id,
+            "schedule_id": schedule_id,
+            "execution_order": execution_order,
+            "origin_category": origin_category,
+            "slack_channel": slack_channel,
+            "buyer_persona_objetivo": buyer_persona_objetivo,
+            "enabled": enabled,
+        }
+        schedule["configs"].append(config)
+        return config
+
+    def update_linkedin_draft_publisher_schedule_config(self, schedule_id: int, config_id: int, **kwargs):  # noqa: ANN001
+        schedule = self._linkedin_schedules.get(schedule_id)
+        if not schedule:
+            return None
+        for config in schedule["configs"]:
+            if int(config["id"]) != int(config_id):
+                continue
+            for key, value in kwargs.items():
+                if value is None:
+                    continue
+                config[key] = value
+            return config
+        return None
+
+    def run_linkedin_draft_publisher_schedule_now(self, schedule_id: int, offline_mode: bool = False):  # noqa: ANN001, ARG002
+        schedule = self._linkedin_schedules.get(schedule_id)
+        if not schedule:
+            raise ValueError("Schedule no encontrado.")
+        execution_id = self._next_linkedin_schedule_execution_id
+        self._next_linkedin_schedule_execution_id += 1
+        execution = {
+            "id": execution_id,
+            "schedule_id": schedule_id,
+            "status": "succeeded",
+            "trigger_type": "manual_run_now",
+            "items": [],
+        }
+        executions = schedule.get("executions")
+        if not isinstance(executions, list):
+            executions = []
+            schedule["executions"] = executions
+        executions.insert(0, execution)
+        return {"status": "ok", "executed": 1, "execution": execution}
+
+    def list_linkedin_draft_publisher_schedule_executions(self, schedule_id: int, limit: int = 20):  # noqa: ANN001, ARG002
+        schedule = self._linkedin_schedules.get(schedule_id)
+        if not schedule:
+            return []
+        executions = schedule.get("executions")
+        if not isinstance(executions, list):
+            return []
+        return executions[:limit]
+
+    def tick_linkedin_draft_publisher_scheduler(self, offline_mode: bool = False):  # noqa: ANN001, ARG002
         return {"status": "ok", "due_schedules": 0, "executed_schedules": 0, "executions": []}
 
     # LinkedIn draft publisher methods
@@ -482,6 +597,78 @@ class ThemeIntelApiTests(unittest.TestCase):
 
         authorized_no_body = client.post(
             "/v1/theme-intel/scheduler/tick",
+            headers={"X-API-Key": "secret"},
+        )
+        self.assertEqual(authorized_no_body.status_code, 200)
+
+    def test_linkedin_draft_publisher_schedule_crud_and_run_now_with_session(self) -> None:
+        client = self._client()
+        client.get("/auth/google/callback", follow_redirects=False)
+
+        create_schedule = client.post(
+            "/app/api/linkedin-draft-publisher/schedules",
+            json={
+                "name": "LinkedIn Diario",
+                "enabled": True,
+                "every_n_days": 1,
+                "run_time_local": "09:00",
+                "timezone": "Europe/Madrid",
+            },
+        )
+        self.assertEqual(create_schedule.status_code, 200)
+        schedule_id = create_schedule.json()["schedule"]["id"]
+
+        list_schedules = client.get("/app/api/linkedin-draft-publisher/schedules")
+        self.assertEqual(list_schedules.status_code, 200)
+        self.assertGreaterEqual(list_schedules.json()["total"], 1)
+
+        create_config = client.post(
+            f"/app/api/linkedin-draft-publisher/schedules/{schedule_id}/configs",
+            json={
+                "executionOrder": 1,
+                "originCategory": "product",
+                "slackChannel": "C0AJHN3L6LW",
+                "buyerPersonaObjetivo": "CMOs",
+                "enabled": True,
+            },
+        )
+        self.assertEqual(create_config.status_code, 200)
+        config_id = create_config.json()["config"]["id"]
+
+        patch_config = client.patch(
+            f"/app/api/linkedin-draft-publisher/schedules/{schedule_id}/configs/{config_id}",
+            json={"enabled": False},
+        )
+        self.assertEqual(patch_config.status_code, 200)
+        self.assertFalse(patch_config.json()["config"]["enabled"])
+
+        run_now = client.post(
+            f"/app/api/linkedin-draft-publisher/schedules/{schedule_id}/run-now",
+            json={"offline_mode": True},
+        )
+        self.assertEqual(run_now.status_code, 200)
+        self.assertIn("result", run_now.json())
+
+        executions = client.get(f"/app/api/linkedin-draft-publisher/schedules/{schedule_id}/executions")
+        self.assertEqual(executions.status_code, 200)
+        self.assertIn("executions", executions.json())
+
+    def test_linkedin_draft_scheduler_tick_v1_requires_api_key(self) -> None:
+        client = self._client()
+
+        unauthorized = client.post("/v1/linkedin-draft-publisher/scheduler/tick", json={"offline_mode": True})
+        self.assertEqual(unauthorized.status_code, 401)
+
+        authorized = client.post(
+            "/v1/linkedin-draft-publisher/scheduler/tick",
+            headers={"X-API-Key": "secret"},
+            json={"offline_mode": True},
+        )
+        self.assertEqual(authorized.status_code, 200)
+        self.assertIn("result", authorized.json())
+
+        authorized_no_body = client.post(
+            "/v1/linkedin-draft-publisher/scheduler/tick",
             headers={"X-API-Key": "secret"},
         )
         self.assertEqual(authorized_no_body.status_code, 200)

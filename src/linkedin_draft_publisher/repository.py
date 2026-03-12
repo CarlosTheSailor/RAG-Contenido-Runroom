@@ -86,6 +86,433 @@ class LinkedInDraftPublisherRepository:
             row = cur.fetchone()
         return dict(row) if row else None
 
+    def try_acquire_scheduler_lock(self, lock_key: int) -> bool:
+        with self._conn.cursor() as cur:
+            cur.execute("SELECT pg_try_advisory_lock(%s) AS locked", (int(lock_key),))
+            row = cur.fetchone()
+        return bool(row and row.get("locked"))
+
+    def release_scheduler_lock(self, lock_key: int) -> None:
+        with self._conn.cursor() as cur:
+            cur.execute("SELECT pg_advisory_unlock(%s)", (int(lock_key),))
+
+    def create_schedule(
+        self,
+        *,
+        name: str,
+        enabled: bool,
+        every_n_days: int,
+        run_time_local: str,
+        timezone: str,
+        next_run_at_utc: datetime | None,
+        metadata: dict[str, Any] | None = None,
+    ) -> dict[str, Any]:
+        with self._conn.cursor() as cur:
+            cur.execute(
+                """
+                INSERT INTO linkedin_draft_schedules (
+                    name,
+                    enabled,
+                    every_n_days,
+                    run_time_local,
+                    timezone,
+                    next_run_at_utc,
+                    metadata_json
+                ) VALUES (
+                    %(name)s,
+                    %(enabled)s,
+                    %(every_n_days)s,
+                    %(run_time_local)s,
+                    %(timezone)s,
+                    %(next_run_at_utc)s,
+                    %(metadata_json)s::jsonb
+                )
+                RETURNING *
+                """,
+                {
+                    "name": name,
+                    "enabled": bool(enabled),
+                    "every_n_days": int(every_n_days),
+                    "run_time_local": run_time_local,
+                    "timezone": timezone,
+                    "next_run_at_utc": next_run_at_utc,
+                    "metadata_json": _json_dumps(metadata or {}),
+                },
+            )
+            row = cur.fetchone()
+        self._conn.commit()
+        assert row is not None
+        return dict(row)
+
+    def list_schedules(self) -> list[dict[str, Any]]:
+        with self._conn.cursor() as cur:
+            cur.execute(
+                """
+                SELECT *
+                FROM linkedin_draft_schedules
+                ORDER BY id DESC
+                """
+            )
+            rows = cur.fetchall()
+        return [dict(row) for row in rows]
+
+    def get_schedule(self, schedule_id: int) -> dict[str, Any] | None:
+        with self._conn.cursor() as cur:
+            cur.execute(
+                """
+                SELECT *
+                FROM linkedin_draft_schedules
+                WHERE id = %s
+                LIMIT 1
+                """,
+                (int(schedule_id),),
+            )
+            row = cur.fetchone()
+        return dict(row) if row else None
+
+    def list_due_schedules(self, now_utc: datetime) -> list[dict[str, Any]]:
+        with self._conn.cursor() as cur:
+            cur.execute(
+                """
+                SELECT *
+                FROM linkedin_draft_schedules
+                WHERE enabled = true
+                  AND next_run_at_utc IS NOT NULL
+                  AND next_run_at_utc <= %s
+                ORDER BY next_run_at_utc, id
+                """,
+                (now_utc,),
+            )
+            rows = cur.fetchall()
+        return [dict(row) for row in rows]
+
+    def update_schedule(self, schedule_id: int, patch: dict[str, Any]) -> dict[str, Any] | None:
+        allowed = {
+            "name",
+            "enabled",
+            "every_n_days",
+            "run_time_local",
+            "timezone",
+            "next_run_at_utc",
+            "last_run_at_utc",
+            "metadata_json",
+        }
+        sets: list[str] = []
+        params: dict[str, Any] = {"schedule_id": int(schedule_id)}
+        for key, value in patch.items():
+            if key not in allowed:
+                continue
+            param_key = f"value_{key}"
+            if key == "metadata_json":
+                sets.append(f"{key} = %({param_key})s::jsonb")
+                params[param_key] = _json_dumps(value or {})
+            else:
+                sets.append(f"{key} = %({param_key})s")
+                params[param_key] = value
+
+        if not sets:
+            return self.get_schedule(schedule_id=schedule_id)
+
+        with self._conn.cursor() as cur:
+            cur.execute(
+                f"""
+                UPDATE linkedin_draft_schedules
+                SET {", ".join(sets)}
+                WHERE id = %(schedule_id)s
+                RETURNING *
+                """,
+                params,
+            )
+            row = cur.fetchone()
+        self._conn.commit()
+        return dict(row) if row else None
+
+    def create_schedule_config(
+        self,
+        *,
+        schedule_id: int,
+        execution_order: int,
+        origin_category: str,
+        slack_channel: str,
+        buyer_persona_objetivo: str,
+        enabled: bool,
+        metadata: dict[str, Any] | None = None,
+    ) -> dict[str, Any]:
+        with self._conn.cursor() as cur:
+            cur.execute(
+                """
+                INSERT INTO linkedin_draft_schedule_configs (
+                    schedule_id,
+                    execution_order,
+                    origin_category,
+                    slack_channel,
+                    buyer_persona_objetivo,
+                    enabled,
+                    metadata_json
+                ) VALUES (
+                    %(schedule_id)s,
+                    %(execution_order)s,
+                    %(origin_category)s,
+                    %(slack_channel)s,
+                    %(buyer_persona_objetivo)s,
+                    %(enabled)s,
+                    %(metadata_json)s::jsonb
+                )
+                RETURNING *
+                """,
+                {
+                    "schedule_id": int(schedule_id),
+                    "execution_order": int(execution_order),
+                    "origin_category": origin_category,
+                    "slack_channel": slack_channel,
+                    "buyer_persona_objetivo": buyer_persona_objetivo,
+                    "enabled": bool(enabled),
+                    "metadata_json": _json_dumps(metadata or {}),
+                },
+            )
+            row = cur.fetchone()
+        self._conn.commit()
+        assert row is not None
+        return dict(row)
+
+    def get_schedule_config(self, schedule_id: int, config_id: int) -> dict[str, Any] | None:
+        with self._conn.cursor() as cur:
+            cur.execute(
+                """
+                SELECT *
+                FROM linkedin_draft_schedule_configs
+                WHERE schedule_id = %s
+                  AND id = %s
+                LIMIT 1
+                """,
+                (int(schedule_id), int(config_id)),
+            )
+            row = cur.fetchone()
+        return dict(row) if row else None
+
+    def list_schedule_configs(self, schedule_id: int, enabled_only: bool = False) -> list[dict[str, Any]]:
+        query = """
+        SELECT *
+        FROM linkedin_draft_schedule_configs
+        WHERE schedule_id = %(schedule_id)s
+        """
+        if enabled_only:
+            query += " AND enabled = true"
+        query += " ORDER BY execution_order, id"
+        with self._conn.cursor() as cur:
+            cur.execute(query, {"schedule_id": int(schedule_id)})
+            rows = cur.fetchall()
+        return [dict(row) for row in rows]
+
+    def update_schedule_config(self, schedule_id: int, config_id: int, patch: dict[str, Any]) -> dict[str, Any] | None:
+        allowed = {
+            "execution_order",
+            "origin_category",
+            "slack_channel",
+            "buyer_persona_objetivo",
+            "enabled",
+            "metadata_json",
+        }
+        sets: list[str] = []
+        params: dict[str, Any] = {
+            "schedule_id": int(schedule_id),
+            "config_id": int(config_id),
+        }
+        for key, value in patch.items():
+            if key not in allowed:
+                continue
+            param_key = f"value_{key}"
+            if key == "metadata_json":
+                sets.append(f"{key} = %({param_key})s::jsonb")
+                params[param_key] = _json_dumps(value or {})
+            else:
+                sets.append(f"{key} = %({param_key})s")
+                params[param_key] = value
+
+        if not sets:
+            return self.get_schedule_config(schedule_id=schedule_id, config_id=config_id)
+
+        with self._conn.cursor() as cur:
+            cur.execute(
+                f"""
+                UPDATE linkedin_draft_schedule_configs
+                SET {", ".join(sets)}
+                WHERE schedule_id = %(schedule_id)s
+                  AND id = %(config_id)s
+                RETURNING *
+                """,
+                params,
+            )
+            row = cur.fetchone()
+        self._conn.commit()
+        return dict(row) if row else None
+
+    def create_schedule_execution(self, schedule_id: int, trigger_type: str) -> dict[str, Any]:
+        with self._conn.cursor() as cur:
+            cur.execute(
+                """
+                INSERT INTO linkedin_draft_schedule_executions (
+                    schedule_id,
+                    trigger_type,
+                    status
+                ) VALUES (
+                    %s,
+                    %s,
+                    'running'
+                )
+                RETURNING *
+                """,
+                (int(schedule_id), trigger_type),
+            )
+            row = cur.fetchone()
+        self._conn.commit()
+        assert row is not None
+        return dict(row)
+
+    def finalize_schedule_execution(
+        self,
+        execution_id: int,
+        *,
+        status: str,
+        stats: dict[str, Any],
+        errors: list[dict[str, Any]],
+    ) -> dict[str, Any] | None:
+        with self._conn.cursor() as cur:
+            cur.execute(
+                """
+                UPDATE linkedin_draft_schedule_executions
+                SET
+                    status = %(status)s,
+                    finished_at = now(),
+                    stats_json = %(stats_json)s::jsonb,
+                    errors_json = %(errors_json)s::jsonb
+                WHERE id = %(execution_id)s
+                RETURNING *
+                """,
+                {
+                    "execution_id": int(execution_id),
+                    "status": status,
+                    "stats_json": _json_dumps(stats),
+                    "errors_json": _json_dumps(errors),
+                },
+            )
+            row = cur.fetchone()
+        self._conn.commit()
+        return dict(row) if row else None
+
+    def create_schedule_execution_item(
+        self,
+        *,
+        execution_id: int,
+        schedule_config_id: int,
+        execution_order: int,
+    ) -> dict[str, Any]:
+        with self._conn.cursor() as cur:
+            cur.execute(
+                """
+                INSERT INTO linkedin_draft_schedule_execution_items (
+                    execution_id,
+                    schedule_config_id,
+                    execution_order,
+                    status
+                ) VALUES (
+                    %s,
+                    %s,
+                    %s,
+                    'running'
+                )
+                RETURNING *
+                """,
+                (int(execution_id), int(schedule_config_id), int(execution_order)),
+            )
+            row = cur.fetchone()
+        self._conn.commit()
+        assert row is not None
+        return dict(row)
+
+    def finalize_schedule_execution_item(
+        self,
+        item_id: int,
+        *,
+        status: str,
+        linkedin_draft_run_id: int | None,
+        stats: dict[str, Any],
+        errors: list[dict[str, Any]],
+    ) -> dict[str, Any] | None:
+        with self._conn.cursor() as cur:
+            cur.execute(
+                """
+                UPDATE linkedin_draft_schedule_execution_items
+                SET
+                    status = %(status)s,
+                    linkedin_draft_run_id = %(linkedin_draft_run_id)s,
+                    finished_at = now(),
+                    stats_json = %(stats_json)s::jsonb,
+                    errors_json = %(errors_json)s::jsonb
+                WHERE id = %(item_id)s
+                RETURNING *
+                """,
+                {
+                    "item_id": int(item_id),
+                    "status": status,
+                    "linkedin_draft_run_id": linkedin_draft_run_id,
+                    "stats_json": _json_dumps(stats),
+                    "errors_json": _json_dumps(errors),
+                },
+            )
+            row = cur.fetchone()
+        self._conn.commit()
+        return dict(row) if row else None
+
+    def list_schedule_executions(self, schedule_id: int, limit: int = 20) -> list[dict[str, Any]]:
+        with self._conn.cursor() as cur:
+            cur.execute(
+                """
+                SELECT *
+                FROM linkedin_draft_schedule_executions
+                WHERE schedule_id = %s
+                ORDER BY started_at DESC, id DESC
+                LIMIT %s
+                """,
+                (int(schedule_id), int(limit)),
+            )
+            rows = cur.fetchall()
+
+        if not rows:
+            return []
+
+        execution_ids = [int(row["id"]) for row in rows]
+        items_by_execution = self._list_schedule_execution_items(execution_ids=execution_ids)
+        output: list[dict[str, Any]] = []
+        for row in rows:
+            payload = dict(row)
+            payload["items"] = items_by_execution.get(int(row["id"]), [])
+            output.append(payload)
+        return output
+
+    def _list_schedule_execution_items(self, execution_ids: list[int]) -> dict[int, list[dict[str, Any]]]:
+        with self._conn.cursor() as cur:
+            cur.execute(
+                """
+                SELECT
+                    lsei.*,
+                    lsc.origin_category,
+                    lsc.slack_channel,
+                    lsc.buyer_persona_objetivo
+                FROM linkedin_draft_schedule_execution_items lsei
+                LEFT JOIN linkedin_draft_schedule_configs lsc ON lsc.id = lsei.schedule_config_id
+                WHERE lsei.execution_id = ANY(%s)
+                ORDER BY lsei.execution_id, lsei.execution_order, lsei.id
+                """,
+                (execution_ids,),
+            )
+            rows = cur.fetchall()
+        output: dict[int, list[dict[str, Any]]] = {}
+        for row in rows:
+            execution_id = int(row["execution_id"])
+            output.setdefault(execution_id, []).append(dict(row))
+        return output
+
     def list_stale_running_runs(self, *, stale_minutes: int, exclude_run_id: int | None = None) -> list[dict[str, Any]]:
         stale_minutes = max(1, int(stale_minutes))
         with self._conn.cursor() as cur:

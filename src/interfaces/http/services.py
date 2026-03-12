@@ -375,6 +375,90 @@ class QueryApiService:
     def tick_theme_intel_scheduler(self, offline_mode: bool = False) -> dict[str, Any]:
         return self._theme_intel.scheduler_tick(force_offline=offline_mode)
 
+    def create_linkedin_draft_publisher_schedule(
+        self,
+        name: str,
+        enabled: bool = True,
+        every_n_days: int = 1,
+        run_time_local: str = "09:00",
+        timezone_name: str = "Europe/Madrid",
+    ) -> dict[str, Any]:
+        return self._linkedin_draft_publisher.create_schedule(
+            name=name,
+            enabled=enabled,
+            every_n_days=every_n_days,
+            run_time_local=run_time_local,
+            timezone_name=timezone_name,
+        )
+
+    def list_linkedin_draft_publisher_schedules(self) -> list[dict[str, Any]]:
+        return self._linkedin_draft_publisher.list_schedules()
+
+    def update_linkedin_draft_publisher_schedule(
+        self,
+        schedule_id: int,
+        name: str | None = None,
+        enabled: bool | None = None,
+        every_n_days: int | None = None,
+        run_time_local: str | None = None,
+        timezone_name: str | None = None,
+    ) -> dict[str, Any] | None:
+        return self._linkedin_draft_publisher.update_schedule(
+            schedule_id=schedule_id,
+            name=name,
+            enabled=enabled,
+            every_n_days=every_n_days,
+            run_time_local=run_time_local,
+            timezone_name=timezone_name,
+        )
+
+    def create_linkedin_draft_publisher_schedule_config(
+        self,
+        schedule_id: int,
+        execution_order: int,
+        origin_category: str,
+        slack_channel: str,
+        buyer_persona_objetivo: str,
+        enabled: bool = True,
+    ) -> dict[str, Any]:
+        return self._linkedin_draft_publisher.create_schedule_config(
+            schedule_id=schedule_id,
+            execution_order=execution_order,
+            origin_category=origin_category,
+            slack_channel=slack_channel,
+            buyer_persona_objetivo=buyer_persona_objetivo,
+            enabled=enabled,
+        )
+
+    def update_linkedin_draft_publisher_schedule_config(
+        self,
+        schedule_id: int,
+        config_id: int,
+        execution_order: int | None = None,
+        origin_category: str | None = None,
+        slack_channel: str | None = None,
+        buyer_persona_objetivo: str | None = None,
+        enabled: bool | None = None,
+    ) -> dict[str, Any] | None:
+        return self._linkedin_draft_publisher.update_schedule_config(
+            schedule_id=schedule_id,
+            config_id=config_id,
+            execution_order=execution_order,
+            origin_category=origin_category,
+            slack_channel=slack_channel,
+            buyer_persona_objetivo=buyer_persona_objetivo,
+            enabled=enabled,
+        )
+
+    def run_linkedin_draft_publisher_schedule_now(self, schedule_id: int, offline_mode: bool = False) -> dict[str, Any]:
+        return self._linkedin_draft_publisher.run_schedule_now(schedule_id=schedule_id, force_offline=offline_mode)
+
+    def list_linkedin_draft_publisher_schedule_executions(self, schedule_id: int, limit: int = 20) -> list[dict[str, Any]]:
+        return self._linkedin_draft_publisher.list_schedule_executions(schedule_id=schedule_id, limit=limit)
+
+    def tick_linkedin_draft_publisher_scheduler(self, offline_mode: bool = False) -> dict[str, Any]:
+        return self._linkedin_draft_publisher.scheduler_tick(force_offline=offline_mode)
+
     def create_linkedin_draft_publisher_run(
         self,
         origin_category: str,

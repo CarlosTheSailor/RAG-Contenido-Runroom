@@ -76,8 +76,42 @@
       font-weight: 600;
       cursor: pointer;
     }
+    button.btn-soft {
+      background: #334155;
+    }
     button.secondary {
       background: #334155;
+    }
+    .inline-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .doc-table-wrap {
+      overflow: auto;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: #fff;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      min-width: 720px;
+    }
+    th, td {
+      text-align: left;
+      font-size: 0.84rem;
+      padding: 8px 10px;
+      border-bottom: 1px solid #e2e8f0;
+      vertical-align: top;
+    }
+    th {
+      background: #f8fbff;
+      color: #334155;
+      font-size: 0.74rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
     }
     pre {
       margin: 0;
@@ -173,6 +207,158 @@
       <h2>Resultado final</h2>
       <div id="resultContainer"></div>
     </section>
+
+    <section class="panel">
+      <h2>Cron Scheduler</h2>
+      <div class="grid">
+        <label>
+          name
+          <input id="scheduleName" type="text" placeholder="LinkedIn Draft Diario" />
+        </label>
+        <label>
+          every_n_days
+          <input id="scheduleEveryNDays" type="number" min="1" max="365" value="1" />
+        </label>
+        <label>
+          run_time_local
+          <input id="scheduleRunTime" type="text" value="09:00" />
+        </label>
+        <label>
+          timezone
+          <input id="scheduleTimezone" type="text" value="Europe/Madrid" />
+        </label>
+      </div>
+      <div class="inline-row" style="margin-bottom:10px;">
+        <label style="display:inline-flex;align-items:center;gap:8px;margin:0;font-weight:600;">
+          <input id="scheduleEnabled" type="checkbox" checked />
+          enabled
+        </label>
+      </div>
+      <div class="inline-row" style="margin-bottom:10px;">
+        <button id="createScheduleBtn" type="button">Crear schedule</button>
+        <button id="loadSchedulesBtn" type="button" class="btn-soft">Cargar schedules</button>
+        <button id="tickSchedulerBtn" type="button" class="btn-soft">Tick scheduler (manual)</button>
+      </div>
+
+      <div class="doc-table-wrap" style="margin-bottom:12px;">
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Name</th>
+              <th>Enabled</th>
+              <th>Cadencia</th>
+              <th>Next Run (UTC)</th>
+              <th>Acciones</th>
+            </tr>
+          </thead>
+          <tbody id="schedulesTableBody">
+            <tr><td colspan="6" class="muted">Sin schedules.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Schedule seleccionado</h3>
+      <div class="grid">
+        <label>
+          schedule_id
+          <input id="selectedScheduleId" type="number" min="1" readonly />
+        </label>
+        <label>
+          name
+          <input id="selectedScheduleName" type="text" />
+        </label>
+        <label>
+          every_n_days
+          <input id="selectedScheduleEveryNDays" type="number" min="1" max="365" />
+        </label>
+        <label>
+          run_time_local
+          <input id="selectedScheduleRunTime" type="text" />
+        </label>
+      </div>
+      <div class="grid">
+        <label>
+          timezone
+          <input id="selectedScheduleTimezone" type="text" />
+        </label>
+        <label style="display:inline-flex;align-items:center;gap:8px;margin-top:28px;">
+          <input id="selectedScheduleEnabled" type="checkbox" />
+          enabled
+        </label>
+      </div>
+      <div class="inline-row" style="margin-bottom:10px;">
+        <button id="saveScheduleBtn" type="button" class="btn-soft">Guardar schedule</button>
+        <button id="runSelectedScheduleBtn" type="button" class="btn-soft">Run now</button>
+        <button id="loadScheduleExecutionsBtn" type="button" class="btn-soft">Cargar ejecuciones</button>
+      </div>
+
+      <h3>Configs</h3>
+      <div class="grid">
+        <label>
+          executionOrder
+          <input id="configExecutionOrder" type="number" min="1" value="1" />
+        </label>
+        <label>
+          originCategory
+          <input id="configOriginCategory" type="text" value="product" />
+        </label>
+        <label>
+          slackChannel
+          <input id="configSlackChannel" type="text" value="" />
+        </label>
+        <label>
+          buyerPersonaObjetivo
+          <input id="configBuyerPersonaObjetivo" type="text" value="CMOs" />
+        </label>
+      </div>
+      <div class="inline-row" style="margin-bottom:10px;">
+        <label style="display:inline-flex;align-items:center;gap:8px;margin:0;font-weight:600;">
+          <input id="configEnabled" type="checkbox" checked />
+          enabled
+        </label>
+        <button id="addConfigBtn" type="button" class="btn-soft">Añadir config</button>
+      </div>
+
+      <div class="doc-table-wrap" style="margin-bottom:12px;">
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Order</th>
+              <th>originCategory</th>
+              <th>slackChannel</th>
+              <th>buyerPersonaObjetivo</th>
+              <th>enabled</th>
+              <th>Acciones</th>
+            </tr>
+          </thead>
+          <tbody id="scheduleConfigsBody">
+            <tr><td colspan="7" class="muted">Selecciona un schedule.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Ejecuciones</h3>
+      <div class="doc-table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Status</th>
+              <th>Trigger</th>
+              <th>Started</th>
+              <th>Finished</th>
+              <th>Items</th>
+            </tr>
+          </thead>
+          <tbody id="scheduleExecutionsBody">
+            <tr><td colspan="6" class="muted">Sin ejecuciones cargadas.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="muted" id="schedulerBanner" style="margin-top:10px;">Sin actividad de scheduler.</p>
+    </section>
   </div>
 
   <script>
@@ -182,6 +368,8 @@
     let lastRunUpdatedAt = null;
     let stagnantPolls = 0;
     let pollErrors = 0;
+    let schedules = [];
+    let selectedScheduleId = null;
 
     const MAX_STAGNANT_POLLS = 360; // ~15m (360 * 2.5s)
     const MAX_POLL_ERRORS = 8;
@@ -205,6 +393,13 @@
         .replaceAll(">", "&gt;")
         .replaceAll('"', "&quot;")
         .replaceAll("'", "&#39;");
+    }
+
+    function safeDate(value) {
+      if (!value) return "-";
+      const d = new Date(value);
+      if (Number.isNaN(d.getTime())) return String(value);
+      return d.toLocaleString();
     }
 
     async function requestJson(url, options = {}) {
@@ -371,6 +566,231 @@
       }
     }
 
+    function showSchedulerBanner(text, isError = false) {
+      const banner = document.getElementById("schedulerBanner");
+      banner.textContent = text;
+      banner.style.color = isError ? "#8a1e45" : "#475569";
+      banner.style.fontWeight = isError ? "700" : "500";
+    }
+
+    function getSelectedSchedule() {
+      return schedules.find((schedule) => Number(schedule.id) === Number(selectedScheduleId)) || null;
+    }
+
+    function syncSelectedScheduleInputs(schedule) {
+      if (!schedule) return;
+      selectedScheduleId = Number(schedule.id);
+      document.getElementById("selectedScheduleId").value = String(schedule.id);
+      document.getElementById("selectedScheduleName").value = String(schedule.name || "");
+      document.getElementById("selectedScheduleEveryNDays").value = String(schedule.every_n_days || 1);
+      document.getElementById("selectedScheduleRunTime").value = String(schedule.run_time_local || "09:00");
+      document.getElementById("selectedScheduleTimezone").value = String(schedule.timezone || "Europe/Madrid");
+      document.getElementById("selectedScheduleEnabled").checked = Boolean(schedule.enabled);
+      renderScheduleConfigs(schedule);
+    }
+
+    function renderSchedules(rows) {
+      const tbody = document.getElementById("schedulesTableBody");
+      if (!Array.isArray(rows) || rows.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="6" class="muted">Sin schedules.</td></tr>';
+        return;
+      }
+      tbody.innerHTML = rows.map((schedule) => `
+        <tr>
+          <td>${Number(schedule.id)}</td>
+          <td>${escapeHtml(schedule.name || "")}</td>
+          <td>${schedule.enabled ? "true" : "false"}</td>
+          <td>${Number(schedule.every_n_days || 1)}d @ ${escapeHtml(schedule.run_time_local || "")} (${escapeHtml(schedule.timezone || "")})</td>
+          <td>${escapeHtml(safeDate(schedule.next_run_at_utc))}</td>
+          <td>
+            <div class="inline-row">
+              <button class="btn-soft" data-action="select-schedule" data-schedule-id="${Number(schedule.id)}">Seleccionar</button>
+              <button class="btn-soft" data-action="toggle-schedule" data-schedule-id="${Number(schedule.id)}" data-enabled="${schedule.enabled ? "true" : "false"}">${schedule.enabled ? "Disable" : "Enable"}</button>
+              <button class="btn-soft" data-action="run-schedule" data-schedule-id="${Number(schedule.id)}">Run now</button>
+            </div>
+          </td>
+        </tr>
+      `).join("");
+    }
+
+    function renderScheduleConfigs(schedule) {
+      const tbody = document.getElementById("scheduleConfigsBody");
+      const configs = Array.isArray(schedule?.configs) ? schedule.configs : [];
+      if (!configs.length) {
+        tbody.innerHTML = '<tr><td colspan="7" class="muted">Sin configs para este schedule.</td></tr>';
+        return;
+      }
+      tbody.innerHTML = configs.map((config) => `
+        <tr>
+          <td>${Number(config.id)}</td>
+          <td>${Number(config.execution_order)}</td>
+          <td>${escapeHtml(config.origin_category || "")}</td>
+          <td>${escapeHtml(config.slack_channel || "")}</td>
+          <td>${escapeHtml(config.buyer_persona_objetivo || "")}</td>
+          <td>${config.enabled ? "true" : "false"}</td>
+          <td>
+            <button class="btn-soft" data-action="toggle-config" data-config-id="${Number(config.id)}" data-enabled="${config.enabled ? "true" : "false"}">${config.enabled ? "Disable" : "Enable"}</button>
+          </td>
+        </tr>
+      `).join("");
+    }
+
+    function renderScheduleExecutions(executions) {
+      const tbody = document.getElementById("scheduleExecutionsBody");
+      if (!Array.isArray(executions) || executions.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="6" class="muted">Sin ejecuciones cargadas.</td></tr>';
+        return;
+      }
+      tbody.innerHTML = executions.map((execution) => `
+        <tr>
+          <td>${Number(execution.id)}</td>
+          <td>${escapeHtml(execution.status || "")}</td>
+          <td>${escapeHtml(execution.trigger_type || "")}</td>
+          <td>${escapeHtml(safeDate(execution.started_at))}</td>
+          <td>${escapeHtml(safeDate(execution.finished_at))}</td>
+          <td>${Array.isArray(execution.items) ? execution.items.length : 0}</td>
+        </tr>
+      `).join("");
+    }
+
+    async function loadSchedules(selectId = null) {
+      const payload = await requestJson("/app/api/linkedin-draft-publisher/schedules");
+      schedules = Array.isArray(payload.schedules) ? payload.schedules : [];
+      renderSchedules(schedules);
+
+      let targetId = selectId || selectedScheduleId;
+      if (!targetId && schedules.length) targetId = schedules[0].id;
+      if (targetId) {
+        const selected = schedules.find((schedule) => Number(schedule.id) === Number(targetId));
+        if (selected) syncSelectedScheduleInputs(selected);
+      } else {
+        selectedScheduleId = null;
+        renderScheduleConfigs(null);
+      }
+    }
+
+    async function createSchedule() {
+      const payload = await requestJson("/app/api/linkedin-draft-publisher/schedules", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          name: document.getElementById("scheduleName").value,
+          enabled: document.getElementById("scheduleEnabled").checked,
+          every_n_days: Number(document.getElementById("scheduleEveryNDays").value || 1),
+          run_time_local: document.getElementById("scheduleRunTime").value,
+          timezone: document.getElementById("scheduleTimezone").value,
+        }),
+      });
+      const scheduleId = Number(payload.schedule?.id || 0);
+      showSchedulerBanner(`Schedule ${scheduleId} creado.`);
+      await loadSchedules(scheduleId);
+    }
+
+    async function saveSelectedSchedule() {
+      const scheduleId = Number(document.getElementById("selectedScheduleId").value || 0);
+      if (!scheduleId) {
+        showSchedulerBanner("Selecciona un schedule antes de guardar.", true);
+        return;
+      }
+      await requestJson(`/app/api/linkedin-draft-publisher/schedules/${scheduleId}`, {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          name: document.getElementById("selectedScheduleName").value,
+          enabled: document.getElementById("selectedScheduleEnabled").checked,
+          every_n_days: Number(document.getElementById("selectedScheduleEveryNDays").value || 1),
+          run_time_local: document.getElementById("selectedScheduleRunTime").value,
+          timezone: document.getElementById("selectedScheduleTimezone").value,
+        }),
+      });
+      showSchedulerBanner(`Schedule ${scheduleId} actualizado.`);
+      await loadSchedules(scheduleId);
+    }
+
+    async function toggleSchedule(scheduleId, enabled) {
+      await requestJson(`/app/api/linkedin-draft-publisher/schedules/${scheduleId}`, {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ enabled: !enabled }),
+      });
+      showSchedulerBanner(`Schedule ${scheduleId} actualizado.`);
+      await loadSchedules(scheduleId);
+    }
+
+    async function addScheduleConfig() {
+      const scheduleId = Number(document.getElementById("selectedScheduleId").value || 0);
+      if (!scheduleId) {
+        showSchedulerBanner("Selecciona un schedule para añadir config.", true);
+        return;
+      }
+      await requestJson(`/app/api/linkedin-draft-publisher/schedules/${scheduleId}/configs`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          executionOrder: Number(document.getElementById("configExecutionOrder").value || 1),
+          originCategory: document.getElementById("configOriginCategory").value,
+          slackChannel: document.getElementById("configSlackChannel").value,
+          buyerPersonaObjetivo: document.getElementById("configBuyerPersonaObjetivo").value,
+          enabled: document.getElementById("configEnabled").checked,
+        }),
+      });
+      showSchedulerBanner(`Config añadida al schedule ${scheduleId}.`);
+      await loadSchedules(scheduleId);
+    }
+
+    async function toggleScheduleConfig(configId, enabled) {
+      const scheduleId = Number(document.getElementById("selectedScheduleId").value || 0);
+      if (!scheduleId) return;
+      await requestJson(`/app/api/linkedin-draft-publisher/schedules/${scheduleId}/configs/${configId}`, {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ enabled: !enabled }),
+      });
+      showSchedulerBanner(`Config ${configId} actualizada.`);
+      await loadSchedules(scheduleId);
+    }
+
+    async function runScheduleNow(scheduleId) {
+      await requestJson(`/app/api/linkedin-draft-publisher/schedules/${scheduleId}/run-now`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ offline_mode: document.getElementById("offlineMode").checked }),
+      });
+      showSchedulerBanner(`Schedule ${scheduleId} ejecutado.`);
+      await loadScheduleExecutions(scheduleId);
+      await loadSchedules(scheduleId);
+    }
+
+    async function loadScheduleExecutions(scheduleId = null) {
+      let targetId = scheduleId;
+      if (!targetId) {
+        targetId = Number(document.getElementById("selectedScheduleId").value || 0);
+      }
+      if (!targetId) {
+        showSchedulerBanner("Selecciona un schedule para cargar ejecuciones.", true);
+        return;
+      }
+      const payload = await requestJson(`/app/api/linkedin-draft-publisher/schedules/${targetId}/executions?limit=20`);
+      const executions = Array.isArray(payload.executions) ? payload.executions : [];
+      renderScheduleExecutions(executions);
+      showSchedulerBanner(`Ejecuciones de schedule ${targetId}: ${executions.length}.`);
+    }
+
+    async function tickSchedulerManually() {
+      const payload = await requestJson("/app/api/linkedin-draft-publisher/scheduler/tick", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ offline_mode: document.getElementById("offlineMode").checked }),
+      });
+      showSchedulerBanner(
+        `Tick scheduler ejecutado. Schedules ejecutados: ${payload.result?.executed_schedules || 0}.`
+      );
+      await loadSchedules();
+      if (selectedScheduleId) {
+        await loadScheduleExecutions(selectedScheduleId);
+      }
+    }
+
     document.getElementById("run-form").addEventListener("submit", async (event) => {
       event.preventDefault();
       document.getElementById("submitBtn").disabled = true;
@@ -400,6 +820,105 @@
         document.getElementById("resultContainer").innerHTML = `<pre>${escapeHtml(String(error.message || error))}</pre>`;
         document.getElementById("submitBtn").disabled = false;
       }
+    });
+
+    document.getElementById("createScheduleBtn").addEventListener("click", async () => {
+      try {
+        await createSchedule();
+      } catch (error) {
+        showSchedulerBanner(`Error creando schedule: ${String(error.message || error)}`, true);
+      }
+    });
+    document.getElementById("loadSchedulesBtn").addEventListener("click", async () => {
+      try {
+        await loadSchedules();
+      } catch (error) {
+        showSchedulerBanner(`Error cargando schedules: ${String(error.message || error)}`, true);
+      }
+    });
+    document.getElementById("tickSchedulerBtn").addEventListener("click", async () => {
+      try {
+        await tickSchedulerManually();
+      } catch (error) {
+        showSchedulerBanner(`Error ejecutando tick: ${String(error.message || error)}`, true);
+      }
+    });
+    document.getElementById("saveScheduleBtn").addEventListener("click", async () => {
+      try {
+        await saveSelectedSchedule();
+      } catch (error) {
+        showSchedulerBanner(`Error guardando schedule: ${String(error.message || error)}`, true);
+      }
+    });
+    document.getElementById("runSelectedScheduleBtn").addEventListener("click", async () => {
+      try {
+        const scheduleId = Number(document.getElementById("selectedScheduleId").value || 0);
+        if (!scheduleId) {
+          showSchedulerBanner("Selecciona un schedule antes de ejecutar.", true);
+          return;
+        }
+        await runScheduleNow(scheduleId);
+      } catch (error) {
+        showSchedulerBanner(`Error ejecutando schedule: ${String(error.message || error)}`, true);
+      }
+    });
+    document.getElementById("loadScheduleExecutionsBtn").addEventListener("click", async () => {
+      try {
+        await loadScheduleExecutions();
+      } catch (error) {
+        showSchedulerBanner(`Error cargando ejecuciones: ${String(error.message || error)}`, true);
+      }
+    });
+    document.getElementById("addConfigBtn").addEventListener("click", async () => {
+      try {
+        await addScheduleConfig();
+      } catch (error) {
+        showSchedulerBanner(`Error añadiendo config: ${String(error.message || error)}`, true);
+      }
+    });
+    document.getElementById("schedulesTableBody").addEventListener("click", async (event) => {
+      const target = event.target;
+      if (!(target instanceof HTMLElement)) return;
+      const button = target.closest("button[data-action]");
+      if (!(button instanceof HTMLButtonElement)) return;
+      const action = button.dataset.action || "";
+      const scheduleId = Number(button.dataset.scheduleId || 0);
+      if (!scheduleId) return;
+      try {
+        if (action === "select-schedule") {
+          const selected = schedules.find((schedule) => Number(schedule.id) === scheduleId);
+          if (selected) {
+            syncSelectedScheduleInputs(selected);
+            showSchedulerBanner(`Schedule ${scheduleId} seleccionado.`);
+          }
+          return;
+        }
+        if (action === "toggle-schedule") {
+          await toggleSchedule(scheduleId, button.dataset.enabled === "true");
+          return;
+        }
+        if (action === "run-schedule") {
+          await runScheduleNow(scheduleId);
+        }
+      } catch (error) {
+        showSchedulerBanner(`Error en acción de schedule: ${String(error.message || error)}`, true);
+      }
+    });
+    document.getElementById("scheduleConfigsBody").addEventListener("click", async (event) => {
+      const target = event.target;
+      if (!(target instanceof HTMLElement)) return;
+      const button = target.closest("button[data-action='toggle-config']");
+      if (!(button instanceof HTMLButtonElement)) return;
+      const configId = Number(button.dataset.configId || 0);
+      if (!configId) return;
+      try {
+        await toggleScheduleConfig(configId, button.dataset.enabled === "true");
+      } catch (error) {
+        showSchedulerBanner(`Error en acción de config: ${String(error.message || error)}`, true);
+      }
+    });
+    loadSchedules().catch((error) => {
+      showSchedulerBanner(`No se pudieron cargar schedules: ${String(error.message || error)}`, true);
     });
   </script>
 </body>

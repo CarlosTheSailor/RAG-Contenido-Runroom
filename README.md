@@ -464,6 +464,18 @@ API web (`/app/api/...`, requiere sesión):
 - `POST /app/api/linkedin-draft-publisher/runs`
 - `GET /app/api/linkedin-draft-publisher/runs/{run_id}`
 - `GET /app/api/linkedin-draft-publisher/runs/{run_id}/result`
+- `POST /app/api/linkedin-draft-publisher/schedules`
+- `GET /app/api/linkedin-draft-publisher/schedules`
+- `PATCH /app/api/linkedin-draft-publisher/schedules/{schedule_id}`
+- `POST /app/api/linkedin-draft-publisher/schedules/{schedule_id}/configs`
+- `PATCH /app/api/linkedin-draft-publisher/schedules/{schedule_id}/configs/{config_id}`
+- `POST /app/api/linkedin-draft-publisher/schedules/{schedule_id}/run-now`
+- `GET /app/api/linkedin-draft-publisher/schedules/{schedule_id}/executions`
+- `POST /app/api/linkedin-draft-publisher/scheduler/tick`
+
+API (`X-API-Key`) para cron externo:
+
+- `POST /v1/linkedin-draft-publisher/scheduler/tick`
 
 Prompts editables en disco:
 
@@ -556,6 +568,14 @@ Cron recomendado en Coolify (cada 15 min):
 
 ```bash
 curl -X POST "https://<tu-dominio>/v1/theme-intel/scheduler/tick" \
+  -H "X-API-Key: <API_KEY>" \
+  -H "Content-Type: application/json"
+```
+
+Cron recomendado para LinkedIn Draft Publisher (cada 15 min):
+
+```bash
+curl -X POST "https://<tu-dominio>/v1/linkedin-draft-publisher/scheduler/tick" \
   -H "X-API-Key: <API_KEY>" \
   -H "Content-Type: application/json"
 ```

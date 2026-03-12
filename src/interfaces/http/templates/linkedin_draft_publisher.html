@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LinkedIn Draft Publisher</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f5f7fc;
+      --panel: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --primary: #075985;
+      --border: #d5deee;
+    }
+    body {
+      margin: 0;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      background: linear-gradient(180deg, #e8eefc 0%, var(--bg) 45%);
+      color: var(--text);
+      min-height: 100vh;
+    }
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+    .row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+    }
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 16px;
+      margin-bottom: 16px;
+    }
+    h1 { margin: 0; font-size: 1.6rem; }
+    h2 { margin: 0 0 12px; font-size: 1.1rem; }
+    h3 { margin: 0 0 10px; font-size: 0.95rem; }
+    .muted { color: var(--muted); margin: 4px 0 0; }
+    label { display: block; font-weight: 600; margin-bottom: 8px; }
+    input, textarea {
+      width: 100%;
+      box-sizing: border-box;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 10px;
+      margin-top: 4px;
+      margin-bottom: 12px;
+      font: inherit;
+    }
+    textarea { min-height: 100px; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 10px;
+    }
+    .split {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+    button {
+      border: none;
+      border-radius: 10px;
+      background: var(--primary);
+      color: #fff;
+      padding: 10px 14px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    button.secondary {
+      background: #334155;
+    }
+    pre {
+      margin: 0;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: #f9fbff;
+      padding: 12px;
+      overflow: auto;
+      max-height: 420px;
+      white-space: pre-wrap;
+      overflow-wrap: anywhere;
+      word-break: break-word;
+    }
+    .status {
+      font-weight: 700;
+      color: #0f3c5d;
+    }
+    .item-card {
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 10px;
+      margin-bottom: 8px;
+      background: #fff;
+      overflow-wrap: anywhere;
+    }
+    .badge {
+      display: inline-block;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 2px 8px;
+      font-size: 0.75rem;
+      margin-right: 6px;
+      color: #1d3852;
+      background: #f6fbff;
+    }
+    @media (max-width: 900px) {
+      .split { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="row">
+      <div>
+        <h1>LinkedIn Draft Publisher</h1>
+        <p class="muted">Sesión iniciada como {{ user.name }} ({{ user.email }})</p>
+      </div>
+      <div class="row">
+        <a href="/app"><button class="secondary" type="button">Volver</button></a>
+        <form action="/auth/logout" method="post">
+          <button class="secondary" type="submit">Cerrar sesión</button>
+        </form>
+      </div>
+    </header>
+
+    <section class="panel">
+      <h2>Generar 5 drafts</h2>
+      <form id="run-form">
+        <div class="grid">
+          <label>
+            originCategory
+            <input id="originCategory" type="text" value="product" required />
+          </label>
+          <label>
+            slackChannel
+            <input id="slackChannel" type="text" value="" required />
+          </label>
+          <label>
+            buyerPersonaObjetivo
+            <input id="buyerPersonaObjetivo" type="text" value="Product Managers, CPOs, VPs de Producto" required />
+          </label>
+        </div>
+        <label>
+          <input id="offlineMode" type="checkbox" /> Forzar modo offline
+        </label>
+        <button id="submitBtn" type="submit">Generar drafts</button>
+      </form>
+      <p class="muted">run_id actual: <span id="runIdLabel">-</span> | estado: <span id="runStatusLabel" class="status">-</span></p>
+    </section>
+
+    <section class="panel split">
+      <div>
+        <h2>Progreso</h2>
+        <div id="itemsProgress"></div>
+      </div>
+      <div>
+        <h2>Snapshot run</h2>
+        <pre id="runSnapshot">{}</pre>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Resultado final</h2>
+      <div id="resultContainer"></div>
+    </section>
+  </div>
+
+  <script>
+    let activeRunId = null;
+    let pollTimer = null;
+    let pollStartedAtMs = 0;
+    let lastRunUpdatedAt = null;
+    let stagnantPolls = 0;
+    let pollErrors = 0;
+
+    const MAX_STAGNANT_POLLS = 360; // ~15m (360 * 2.5s)
+    const MAX_POLL_ERRORS = 8;
+    const MAX_POLL_DURATION_MS = 45 * 60 * 1000;
+
+    function latestActivityStamp(run) {
+      const stamps = [];
+      if (run && run.updated_at) stamps.push(String(run.updated_at));
+      const items = Array.isArray(run?.items) ? run.items : [];
+      for (const item of items) {
+        if (item && item.updated_at) stamps.push(String(item.updated_at));
+      }
+      stamps.sort();
+      return stamps.length ? stamps[stamps.length - 1] : "";
+    }
+
+    function escapeHtml(value) {
+      return String(value || "")
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#39;");
+    }
+
+    async function requestJson(url, options = {}) {
+      const response = await fetch(url, options);
+      const text = await response.text();
+      let body;
+      try {
+        body = JSON.parse(text);
+      } catch (error) {
+        body = { raw: text };
+      }
+      if (!response.ok) {
+        throw new Error(typeof body.detail === "string" ? body.detail : JSON.stringify(body));
+      }
+      return body;
+    }
+
+    function renderProgress(run) {
+      const items = Array.isArray(run.items) ? run.items : [];
+      const target = document.getElementById("itemsProgress");
+      if (items.length === 0) {
+        target.innerHTML = '<p class="muted">Sin items todavía.</p>';
+        return;
+      }
+      target.innerHTML = items
+        .map((item) => `
+          <div class="item-card">
+            <div><span class="badge">#${escapeHtml(item.item_index)}</span><span class="badge">topic ${escapeHtml(item.topic_id)}</span><span class="badge">${escapeHtml(item.status)}</span></div>
+            <div><strong>${escapeHtml(item.title || '(sin título)')}</strong></div>
+            <div class="muted">warnings: ${escapeHtml((item.warnings_json || []).length)} | errors: ${escapeHtml((item.errors_json || []).length)}</div>
+          </div>
+        `)
+        .join("");
+    }
+
+    function renderResult(result) {
+      const container = document.getElementById("resultContainer");
+      const items = Array.isArray(result.items) ? result.items : [];
+      if (items.length === 0) {
+        container.innerHTML = '<p class="muted">No hay drafts finales todavía.</p>';
+        return;
+      }
+
+      container.innerHTML = items
+        .map((item) => {
+          const editUrl = item.draft_publish?.edit_url || "";
+          const related = item.related_selected || {};
+          const hasRelated = Boolean(related && related.content_item_id);
+          const debug = item.debug || {};
+          const modelUsed = debug.model_used || {};
+          const stageSource = debug.stage_source || {};
+          const integrationPassed = debug.integration_contract_passed;
+          const slack = item.slack_publish || {};
+          const slackOk = Boolean(slack && slack.ok);
+          const slackTs = slack?.summary?.ts || slack?.thread?.ts || "";
+          const draftPublish = item.draft_publish || {};
+          const draftOk = Boolean(draftPublish && draftPublish.ok);
+          const relatedForced = Boolean(debug.related_forced);
+          const repairReason = debug.repair_reason || "";
+          const validationFlags = debug.validation_flags || {};
+          const durations = debug.durations_ms || {};
+          const llmCallsCount = debug.llm_calls_count || 0;
+          const httpRetriesCount = debug.http_retries_count || 0;
+          const integrationLabel = integrationPassed === true
+            ? "ok"
+            : (integrationPassed === false ? "failed" : "n/a");
+          return `
+            <div class="item-card">
+              <div><span class="badge">#${escapeHtml(item.item_index)}</span><span class="badge">${escapeHtml(item.status)}</span></div>
+              <h3>${escapeHtml(item.title || "(sin título)")}</h3>
+              <p class="muted">topic_id: ${escapeHtml(item.topic_id)}</p>
+              <p><strong>Relacionado elegido:</strong> ${
+                hasRelated
+                  ? `${escapeHtml(related.title || "(sin título)")}${related.url ? ` - <a href="${escapeHtml(related.url)}" target="_blank" rel="noopener">abrir</a>` : ""}`
+                  : "Sin contenido relacionado integrado."
+              }</p>
+              <p><strong>Slack:</strong> ${slackOk ? `publicado ${slackTs ? `(ts ${escapeHtml(slackTs)})` : ""}` : `no publicado${slack.error ? ` (${escapeHtml(slack.error)})` : ""}`}</p>
+              <p><strong>Drafts app:</strong> ${draftOk ? "publicado" : `no publicado${draftPublish.error ? ` (${escapeHtml(draftPublish.error)})` : ""}`}</p>
+              <p><strong>Related forzado:</strong> ${relatedForced ? "sí" : "no"}</p>
+              <p><strong>Repair reason:</strong> ${escapeHtml(repairReason || "-")}</p>
+              <p><strong>Editar draft:</strong> ${editUrl ? `<a href="${escapeHtml(editUrl)}" target="_blank" rel="noopener">${escapeHtml(editUrl)}</a>` : "(sin URL)"}</p>
+              <p class="muted"><strong>Debug:</strong> topic_selection=${escapeHtml(modelUsed.topic_selection || "-")} | stage1_model=${escapeHtml(modelUsed.draft_stage1 || "-")} | stage1_source=${escapeHtml(stageSource.draft_stage1 || "-")} | stage2_model=${escapeHtml(modelUsed.draft_stage2 || "-")} | stage2_source=${escapeHtml(stageSource.draft_stage2 || "-")} | repair=${escapeHtml(debug.repair_applied)} | integration=${escapeHtml(integrationLabel)}</p>
+              <p class="muted"><strong>Perf:</strong> llm_calls=${escapeHtml(llmCallsCount)} | http_retries=${escapeHtml(httpRetriesCount)}</p>
+              <p class="muted"><strong>Durations (ms):</strong> ${escapeHtml(JSON.stringify(durations))}</p>
+              <p class="muted"><strong>Validation:</strong> ${escapeHtml(JSON.stringify(validationFlags))}</p>
+              <pre>${escapeHtml(item.draft_final_text || "")}</pre>
+            </div>
+          `;
+        })
+        .join("");
+    }
+
+    async function pollRun() {
+      if (!activeRunId) return;
+      try {
+        const payload = await requestJson(`/app/api/linkedin-draft-publisher/runs/${activeRunId}`);
+        const run = payload.run || {};
+        pollErrors = 0;
+        document.getElementById("runIdLabel").textContent = String(activeRunId);
+        document.getElementById("runStatusLabel").textContent = String(run.status || "-");
+        document.getElementById("runSnapshot").textContent = JSON.stringify(run, null, 2);
+        renderProgress(run);
+
+        const activityStamp = latestActivityStamp(run);
+        if (activityStamp && activityStamp === lastRunUpdatedAt) {
+          stagnantPolls += 1;
+        } else {
+          stagnantPolls = 0;
+          lastRunUpdatedAt = activityStamp || null;
+        }
+
+        if (["succeeded", "partial_failed", "failed"].includes(String(run.status || ""))) {
+          clearInterval(pollTimer);
+          pollTimer = null;
+          try {
+            const result = await requestJson(`/app/api/linkedin-draft-publisher/runs/${activeRunId}/result`);
+            renderResult(result.result || {});
+          } catch (error) {
+            console.error(error);
+            renderResult({ items: Array.isArray(run.items) ? run.items.map((item) => ({
+              item_index: item.item_index,
+              topic_id: item.topic_id,
+              status: item.status,
+              title: item.title,
+              draft_final_text: item.draft_final_text,
+              related_selected: item.related_selected_json || {},
+              references: item.references_json || [],
+              draft_publish: item.draft_publish_json || {},
+              slack_publish: item.slack_publish_json || {},
+              debug: item.debug_json || {},
+              warnings: item.warnings_json || [],
+              errors: item.errors_json || [],
+            })) : [] });
+            const current = document.getElementById("resultContainer").innerHTML;
+            document.getElementById("resultContainer").innerHTML =
+              `<p class="muted">No se pudo cargar /result, mostrando snapshot final del run.</p>${current}`;
+          }
+          document.getElementById("submitBtn").disabled = false;
+          return;
+        }
+
+        const elapsed = Date.now() - pollStartedAtMs;
+        if (stagnantPolls >= MAX_STAGNANT_POLLS || elapsed >= MAX_POLL_DURATION_MS) {
+          clearInterval(pollTimer);
+          pollTimer = null;
+          document.getElementById("submitBtn").disabled = false;
+          const reason = stagnantPolls >= MAX_STAGNANT_POLLS
+            ? "Ejecución estancada: no hay actividad reciente."
+            : "Timeout de polling alcanzado.";
+          document.getElementById("resultContainer").innerHTML =
+            `<pre>${escapeHtml(`${reason} Revisa el snapshot del run y relanza si hace falta.`)}</pre>`;
+        }
+      } catch (error) {
+        console.error(error);
+        pollErrors += 1;
+        if (pollErrors >= MAX_POLL_ERRORS) {
+          clearInterval(pollTimer);
+          pollTimer = null;
+          document.getElementById("submitBtn").disabled = false;
+          document.getElementById("runStatusLabel").textContent = "error";
+          document.getElementById("resultContainer").innerHTML =
+            `<pre>${escapeHtml(`Error de polling repetido: ${String(error.message || error)}`)}</pre>`;
+        }
+      }
+    }
+
+    document.getElementById("run-form").addEventListener("submit", async (event) => {
+      event.preventDefault();
+      document.getElementById("submitBtn").disabled = true;
+      document.getElementById("resultContainer").innerHTML = '<p class="muted">Ejecutando...</p>';
+
+      try {
+        const payload = await requestJson("/app/api/linkedin-draft-publisher/runs", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            originCategory: document.getElementById("originCategory").value,
+            slackChannel: document.getElementById("slackChannel").value,
+            buyerPersonaObjetivo: document.getElementById("buyerPersonaObjetivo").value,
+            offline_mode: document.getElementById("offlineMode").checked,
+          }),
+        });
+        activeRunId = Number(payload.run_id || 0);
+        pollStartedAtMs = Date.now();
+        lastRunUpdatedAt = null;
+        stagnantPolls = 0;
+        pollErrors = 0;
+        if (pollTimer) clearInterval(pollTimer);
+        pollTimer = setInterval(pollRun, 2500);
+        await pollRun();
+      } catch (error) {
+        document.getElementById("runStatusLabel").textContent = "error";
+        document.getElementById("resultContainer").innerHTML = `<pre>${escapeHtml(String(error.message || error))}</pre>`;
+        document.getElementById("submitBtn").disabled = false;
+      }
+    });
+  </script>
+</body>
+</html>

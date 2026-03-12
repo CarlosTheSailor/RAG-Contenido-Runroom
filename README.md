@@ -88,6 +88,22 @@ Variables clave:
 - `OPENAI_NEWSLETTER_MODEL` (opcional, por defecto usa `OPENAI_METADATA_MODEL`)
 - `NEWSLETTER_RAG_MIN_SCORE` (0.0 a 1.0, default `0.74`)
 - `EMBEDDING_DIM=1536`
+- `LINKEDIN_DRAFT_PUBLISHER_TOPIC_SELECTION_MODEL` (default `gpt-5-mini`)
+- `LINKEDIN_DRAFT_PUBLISHER_STAGE1_MODEL` (default `gpt-5.2-chat-latest`)
+- `LINKEDIN_DRAFT_PUBLISHER_STAGE2_MODEL` (default `gpt-5.2-chat-latest`)
+- `LINKEDIN_DRAFT_PUBLISHER_ENFORCE_RELATED_INTEGRATION` (default `true`)
+- `LINKEDIN_DRAFT_PUBLISHER_OPENAI_TIMEOUT_SECONDS` (default `45`)
+- `LINKEDIN_DRAFT_PUBLISHER_STALE_RUN_MINUTES` (default `5`)
+- `LINKEDIN_DRAFT_PUBLISHER_DRAFTS_API_URL` / `LINKEDIN_DRAFT_PUBLISHER_DRAFTS_API_SECRET`
+- `LINKEDIN_DRAFT_PUBLISHER_SLACK_BOT_TOKEN` / `LINKEDIN_DRAFT_PUBLISHER_SLACK_POST_URL`
+- `LINKEDIN_DRAFT_PUBLISHER_TOPICS_TARGET_COUNT` / `LINKEDIN_DRAFT_PUBLISHER_TOPICS_FETCH_LIMIT`
+- `LINKEDIN_DRAFT_PUBLISHER_RELATED_TOP_K` / `LINKEDIN_DRAFT_PUBLISHER_RELATED_COUNTS_BY_TYPE`
+- `LINKEDIN_DRAFT_PUBLISHER_MAX_CONCURRENCY` (default `2`)
+- `LINKEDIN_DRAFT_PUBLISHER_STAGE_TIMEOUT_SECONDS` (default `90`)
+- `LINKEDIN_DRAFT_PUBLISHER_CONTEXT_EVIDENCE_LIMIT` / `LINKEDIN_DRAFT_PUBLISHER_CONTEXT_DOC_LIMIT`
+- `LINKEDIN_DRAFT_PUBLISHER_RELATED_FETCH_MULTIPLIER` (default `8`)
+- `LINKEDIN_DRAFT_PUBLISHER_HTTP_RETRY_MAX` (default `2`)
+- `LINKEDIN_DRAFT_PUBLISHER_MIN_CHARS` / `LINKEDIN_DRAFT_PUBLISHER_MAX_CHARS` (defaults `1600` / `3200`)
 
 `NEWSLETTER_RAG_MIN_SCORE` controla el filtro de relevancia para episodios/case studies/LABs en el generador de newsletter:
 
@@ -284,6 +300,7 @@ Flujo:
 - `/app` permite ejecutar `query-similar` y `recommend-content` sin headers manuales.
 - `/app/newsletters-linkedin` permite generar la newsletter completa con estilo + RAG.
 - `/app/theme-intel` permite lanzar runs manuales de extraccion de temas y consultar temas persistidos.
+- `/app/linkedin-draft-publisher` permite generar drafts de LinkedIn consumiendo topics de Theme Intel.
 - `/app/nuevo-case-study` permite ingestar manualmente un case study desde URL.
 - `/app/nuevo-episodio-realworld` permite ingestar manualmente un episodio Realworld desde `.txt` + URL Runroom.
 - `/v1/*` y `/health` siguen protegidos por `X-API-Key`.
@@ -429,16 +446,66 @@ Scheduler web (`/app/api/...`, requiere sesión):
 - `GET /app/api/theme-intel/schedules/{schedule_id}/executions`
 - `POST /app/api/theme-intel/scheduler/tick`
 
+## LinkedIn Draft Publisher (fase 2)
+
+Cliente de `theme-intel` que:
+
+- selecciona topics no usados por categoria para `client_name=linkedin_draft_publisher`,
+- genera borradores en 2 etapas (stage1 + refine),
+- integra contenido relacionado del RAG y fuentes/URLs,
+- publica solo el draft final en Slack + app externa de drafts.
+
+UI autenticada:
+
+- `GET /app/linkedin-draft-publisher`
+
+API web (`/app/api/...`, requiere sesión):
+
+- `POST /app/api/linkedin-draft-publisher/runs`
+- `GET /app/api/linkedin-draft-publisher/runs/{run_id}`
+- `GET /app/api/linkedin-draft-publisher/runs/{run_id}/result`
+
+Prompts editables en disco:
+
+- `linkedin-draft-publisher/prompts/topic_selection_system.txt`
+- `linkedin-draft-publisher/prompts/topic_selection_user.txt`
+- `linkedin-draft-publisher/prompts/draft_stage1_system.txt`
+- `linkedin-draft-publisher/prompts/draft_stage1_user.txt`
+- `linkedin-draft-publisher/prompts/draft_stage2_refine_system.txt`
+- `linkedin-draft-publisher/prompts/draft_stage2_refine_user.txt`
+- `linkedin-draft-publisher/prompts/draft_stage2_repair_system.txt`
+- `linkedin-draft-publisher/prompts/draft_stage2_repair_user.txt`
+- `linkedin-draft-publisher/prompts/draft_stage2_quality_repair_system.txt`
+- `linkedin-draft-publisher/prompts/draft_stage2_quality_repair_user.txt`
+
 Payload minimo para lanzar un run:
 
 ```json
 {
-  "gmailQuery": "label:cx is:unread",
   "originCategory": "cx",
-  "markAsRead": false,
-  "limitMessages": 100
+  "slackChannel": "C0AJHN3L6LW",
+  "buyerPersonaObjetivo": "Product Managers, CPOs, VPs de Producto",
+  "offline_mode": false
 }
 ```
+
+Notas de calidad editorial del publisher:
+
+- stage1/stage2 usan modelos independientes por entorno (`TOPIC_SELECTION`, `STAGE1`, `STAGE2`).
+- en `offline_mode=false`, stage1/stage2 no usan fallback silencioso: si OpenAI falla o el JSON no cumple contrato, el item falla explícitamente.
+- cuando `LINKEDIN_DRAFT_PUBLISHER_ENFORCE_RELATED_INTEGRATION=true` y hay candidatos related:
+  - se exige `selected_related_content_item_id` válido,
+  - se obliga a integrar en texto la URL exacta del related elegido,
+  - si falla, se intenta repair; si persiste, el item queda `failed`.
+- validación post-stage2 obligatoria:
+  - longitud configurable (`LINKEDIN_DRAFT_PUBLISHER_MIN_CHARS..LINKEDIN_DRAFT_PUBLISHER_MAX_CHARS`),
+  - sin plantillas prohibidas,
+  - `por_que_importa_ahora` sin URLs/atribuciones,
+  - `referencias_abstract` consistente con el texto.
+- observabilidad de performance:
+  - `debug_json.durations_ms` por etapa,
+  - `debug_json.llm_calls_count` y `debug_json.http_retries_count`,
+  - `stats_json.stage_p50_ms`, `stage_p95_ms`, `slowest_stage`, `total_llm_calls`.
 
 Notas de funcionamiento:
 
@@ -447,7 +514,9 @@ Notas de funcionamiento:
 - `dynamic_tags` combinan origen (`label:*`) + keywords del modelo.
 - dedupe semantico con ventana temporal configurable (`THEME_INTEL_DEDUPE_WINDOW_DAYS`).
 - relaciones RAG se recalculan `on-write` y tambien via endpoint de refresh manual.
-- durante la ingesta, los relacionados intentan cubrir todos los `content_type` disponibles (si hay candidatos).
+- normalizacion de `content_type` interna: lowercase + trim, convirtiendo `-`/espacios a `_` (ej: `runroom-lab` => `runroom_lab`).
+- durante la ingesta, los relacionados fuerzan cobertura minima de `1` por cada `content_type` disponible en `content_items` (si hay candidatos para ese tipo).
+- `GET /topics` no filtra ni recalcula related por tipo; ese control se hace en ingesta y en `POST .../related-content/refresh`.
 - al refrescar related (`POST .../related-content/refresh`) puedes enviar:
   - `content_types` (array)
   - `related_counts_by_type` (objeto `{ "tipo": n }`)
@@ -463,6 +532,24 @@ Reset de datos Theme Intel (sin tocar tablas legacy/canonical):
 ```bash
 python -m src.cli reset-theme-intel --confirm "theme-intel" --dry-run
 python -m src.cli reset-theme-intel --confirm "theme-intel"
+```
+
+Backfill de relacionados (ejemplo growth ultimos 7 dias):
+
+```bash
+python -m src.cli theme-intel-backfill-related \
+  --origin-category growth \
+  --days 7 \
+  --top-k 10
+```
+
+Backfill de relacionados para todas las categorias recientes:
+
+```bash
+python -m src.cli theme-intel-backfill-related \
+  --origin-category all \
+  --days 14 \
+  --top-k 10
 ```
 
 Cron recomendado en Coolify (cada 15 min):

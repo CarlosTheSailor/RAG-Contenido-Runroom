@@ -17,6 +17,8 @@ class _FakeThemeService:
         self._next_schedule_id = 1
         self._next_config_id = 1
         self._next_execution_id = 1
+        self._linkedin_runs: dict[int, dict[str, object]] = {}
+        self._next_linkedin_run_id = 1
 
     # Existing app protocol methods
     def query_similar(self, text: str, top_k: int, offline_mode: bool = False):  # noqa: ANN001, ARG002
@@ -247,6 +249,71 @@ class _FakeThemeService:
     def tick_theme_intel_scheduler(self, offline_mode: bool = False):  # noqa: ANN001, ARG002
         return {"status": "ok", "due_schedules": 0, "executed_schedules": 0, "executions": []}
 
+    # LinkedIn draft publisher methods
+    def create_linkedin_draft_publisher_run(  # noqa: ANN001
+        self,
+        origin_category: str,
+        slack_channel: str,
+        buyer_persona_objetivo: str,
+        triggered_by_email: str | None = None,
+        offline_mode: bool = False,
+    ):
+        run_id = self._next_linkedin_run_id
+        self._next_linkedin_run_id += 1
+        self._linkedin_runs[run_id] = {
+            "id": run_id,
+            "status": "queued",
+            "origin_category": origin_category,
+            "slack_channel": slack_channel,
+            "buyer_persona_objetivo": buyer_persona_objetivo,
+            "triggered_by_email": triggered_by_email,
+            "offline_mode": offline_mode,
+            "items": [],
+        }
+        return {"run_id": run_id, "status": "queued"}
+
+    def execute_linkedin_draft_publisher_run(self, run_id: int, offline_mode: bool = False):  # noqa: ANN001, ARG002
+        run = self._linkedin_runs.get(run_id)
+        if not run:
+            return
+        run["status"] = "succeeded"
+        run["items"] = [
+            {
+                "id": 1,
+                "run_id": run_id,
+                "item_index": 1,
+                "topic_id": 10,
+                "status": "succeeded",
+                "title": "Draft demo",
+                "draft_final_text": "Contenido final",
+                "related_selected_json": {"content_item_id": 99, "title": "Contenido relacionado"},
+                "references_json": [{"fuente": "Demo", "url": "https://example.com", "newsletter_origen": "Demo"}],
+                "draft_publish_json": {"ok": True, "edit_url": "https://linkedin-drafts.runroom.dev/edit/1"},
+                "slack_publish_json": {"ok": True},
+                "warnings_json": [],
+                "errors_json": [],
+            }
+        ]
+
+    def get_linkedin_draft_publisher_run(self, run_id: int):  # noqa: ANN001
+        return self._linkedin_runs.get(run_id)
+
+    def get_latest_linkedin_draft_publisher_run(self):  # noqa: ANN001
+        if not self._linkedin_runs:
+            return None
+        latest_id = max(self._linkedin_runs.keys())
+        return self._linkedin_runs.get(latest_id)
+
+    def get_linkedin_draft_publisher_run_result(self, run_id: int):  # noqa: ANN001
+        run = self._linkedin_runs.get(run_id)
+        if not run:
+            return None
+        return {
+            "run": {k: v for k, v in run.items() if k != "items"},
+            "items": run.get("items", []),
+            "total": len(run.get("items", [])),
+        }
+
 
 class _FakeGoogleOAuthClient:
     async def authorize_redirect(self, request, redirect_uri: str):  # noqa: ANN001
@@ -436,6 +503,31 @@ class ThemeIntelApiTests(unittest.TestCase):
         )
         self.assertEqual(response.status_code, 200)
         self.assertIn("topics", response.json())
+
+    def test_linkedin_draft_publisher_create_get_result_with_session(self) -> None:
+        client = self._client()
+        client.get("/auth/google/callback", follow_redirects=False)
+
+        create_response = client.post(
+            "/app/api/linkedin-draft-publisher/runs",
+            json={
+                "originCategory": "product",
+                "slackChannel": "C0AG54SV7DG",
+                "buyerPersonaObjetivo": "Product Managers",
+                "offline_mode": True,
+            },
+        )
+        self.assertEqual(create_response.status_code, 200)
+        run_id = int(create_response.json()["run_id"])
+
+        run_response = client.get(f"/app/api/linkedin-draft-publisher/runs/{run_id}")
+        self.assertEqual(run_response.status_code, 200)
+        self.assertIn("run", run_response.json())
+
+        result_response = client.get(f"/app/api/linkedin-draft-publisher/runs/{run_id}/result")
+        self.assertEqual(result_response.status_code, 200)
+        payload = result_response.json()["result"]
+        self.assertIn("items", payload)
 
 
 if __name__ == "__main__":

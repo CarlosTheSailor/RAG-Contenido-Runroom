@@ -442,6 +442,100 @@ class ThemeIntelService:
         finally:
             storage.close()
 
+    def backfill_related_content(
+        self,
+        *,
+        origin_category: str,
+        days: int = 7,
+        top_k: int = 10,
+        force_offline: bool = False,
+    ) -> dict[str, Any]:
+        clean_category = origin_category.strip()
+        if not clean_category:
+            raise ValueError("origin_category es obligatorio.")
+        if days < 1 or days > 3650:
+            raise ValueError("days debe estar entre 1 y 3650.")
+        if top_k < 1 or top_k > 100:
+            raise ValueError("top_k debe estar entre 1 y 100.")
+        process_all = clean_category.lower() == "all"
+        if not process_all:
+            category_key = normalize_tag(clean_category)
+            if not category_key:
+                raise ValueError("origin_category invalido.")
+
+        storage = SupabaseStorage(self._settings.supabase_db_url)
+        try:
+            storage.ensure_schema(self._schema_path)
+            repo = ThemeIntelRepository(storage)
+            topics_by_category: dict[str, list[dict[str, Any]]] = {}
+            if process_all:
+                categories = repo.list_recent_origin_categories(days=days)
+                for category in categories:
+                    topics_by_category[category] = repo.list_topics_for_recent_origin_runs(
+                        origin_category=category,
+                        days=days,
+                    )
+            else:
+                topics_by_category[clean_category] = repo.list_topics_for_recent_origin_runs(
+                    origin_category=clean_category,
+                    days=days,
+                )
+            default_related_counts_by_type = self._default_related_counts_by_type(storage=storage)
+            processed_total = sum(len(items) for items in topics_by_category.values())
+            summary: dict[str, Any] = {
+                "origin_category": clean_category,
+                "categories": list(topics_by_category.keys()),
+                "days": days,
+                "top_k": top_k,
+                "processed": processed_total,
+                "succeeded": 0,
+                "failed": 0,
+                "per_category": {
+                    category: {
+                        "processed": len(items),
+                        "succeeded": 0,
+                        "failed": 0,
+                    }
+                    for category, items in topics_by_category.items()
+                },
+                "failures": [],
+            }
+
+            for category, topics in topics_by_category.items():
+                for topic in topics:
+                    topic_id = int(topic["id"])
+                    canonical_text = str(topic.get("canonical_text") or "").strip()
+                    if not canonical_text:
+                        canonical_text = _canonical_topic_text(
+                            str(topic.get("title") or ""),
+                            str(topic.get("context_text") or ""),
+                            [],
+                        )
+                    try:
+                        related = self._recommend_related_content(
+                            storage=storage,
+                            text=canonical_text,
+                            top_k=top_k,
+                            related_counts_by_type=default_related_counts_by_type or None,
+                            force_offline=force_offline,
+                        )
+                        repo.replace_related_content(topic_id=topic_id, related_items=related)
+                        summary["succeeded"] += 1
+                        summary["per_category"][category]["succeeded"] += 1
+                    except Exception as exc:
+                        summary["failed"] += 1
+                        summary["per_category"][category]["failed"] += 1
+                        summary["failures"].append(
+                            {
+                                "origin_category": category,
+                                "topic_id": topic_id,
+                                "message": str(exc),
+                            }
+                        )
+            return summary
+        finally:
+            storage.close()
+
     def create_schedule(
         self,
         *,
@@ -1053,7 +1147,7 @@ class ThemeIntelService:
 
         counts: dict[str, int] = {}
         for raw_type in available_types:
-            content_type = normalize_tag(str(raw_type))
+            content_type = _normalize_content_type_key(str(raw_type))
             if not content_type:
                 continue
             counts.setdefault(content_type, 1)
@@ -1134,10 +1228,10 @@ def _select_mixed_related_candidates(
         if not isinstance(item, dict):
             continue
         row = dict(item)
-        ctype = str(row.get("content_type") or "").strip().lower()
+        ctype = _normalize_content_type_key(str(row.get("content_type") or ""))
         if not ctype:
             ctype = "other"
-            row["content_type"] = "other"
+        row["content_type"] = ctype
         if allowed_set and ctype not in allowed_set:
             continue
         normalized_candidates.append(row)
@@ -1145,7 +1239,7 @@ def _select_mixed_related_candidates(
 
     by_type: dict[str, list[dict[str, Any]]] = {}
     for row in normalized_candidates:
-        content_type = str(row.get("content_type") or "").strip().lower()
+        content_type = _normalize_content_type_key(str(row.get("content_type") or ""))
         if not content_type:
             content_type = "other"
         by_type.setdefault(content_type, []).append(row)
@@ -1195,7 +1289,7 @@ def _normalize_related_types(content_types: list[str]) -> list[str]:
     seen: set[str] = set()
     output: list[str] = []
     for raw in content_types:
-        key = str(raw).strip().lower()
+        key = _normalize_content_type_key(str(raw))
         if not key or key in seen:
             continue
         seen.add(key)
@@ -1208,7 +1302,7 @@ def _normalize_related_count_map(raw_map: dict[str, int] | None) -> dict[str, in
         return {}
     output: dict[str, int] = {}
     for raw_key, raw_value in raw_map.items():
-        key = str(raw_key).strip().lower()
+        key = _normalize_content_type_key(str(raw_key))
         if not key:
             continue
         try:
@@ -1219,3 +1313,14 @@ def _normalize_related_count_map(raw_map: dict[str, int] | None) -> dict[str, in
             continue
         output[key] = value
     return output
+
+
+def _normalize_content_type_key(raw_value: str) -> str:
+    value = raw_value.strip().lower()
+    if not value:
+        return ""
+    value = value.replace("-", "_")
+    value = value.replace(" ", "_")
+    while "__" in value:
+        value = value.replace("__", "_")
+    return value.strip("_")

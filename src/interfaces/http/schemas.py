@@ -299,3 +299,26 @@ class ThemeIntelScheduleRunNowResponseModel(BaseModel):
 class ThemeIntelSchedulerTickResponseModel(BaseModel):
     request_id: str
     result: Dict[str, Any]
+
+
+class LinkedInDraftPublisherRunCreateRequestModel(BaseModel):
+    originCategory: str = Field(..., min_length=1)
+    slackChannel: str = Field(..., min_length=1)
+    buyerPersonaObjetivo: str = Field(..., min_length=1)
+    offline_mode: bool = False
+
+
+class LinkedInDraftPublisherRunCreateResponseModel(BaseModel):
+    request_id: str
+    run_id: int
+    status: str
+
+
+class LinkedInDraftPublisherRunGetResponseModel(BaseModel):
+    request_id: str
+    run: Dict[str, Any]
+
+
+class LinkedInDraftPublisherRunResultResponseModel(BaseModel):
+    request_id: str
+    result: Dict[str, Any]

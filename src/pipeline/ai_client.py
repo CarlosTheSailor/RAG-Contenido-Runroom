@@ -17,9 +17,15 @@ logger = logging.getLogger(__name__)
 
 
 class AIClient:
-    def __init__(self, settings: Settings, force_offline: bool = False):
+    def __init__(
+        self,
+        settings: Settings,
+        force_offline: bool = False,
+        allow_embedding_fallback: bool = True,
+    ):
         self.settings = settings
         self.force_offline = force_offline
+        self.allow_embedding_fallback = allow_embedding_fallback
         self._online = bool(settings.openai_api_key) and not force_offline
 
     @property
@@ -43,6 +49,8 @@ class AIClient:
             vectors = [item["embedding"] for item in raw["data"]]
             return [self._normalize_embedding_dim(v) for v in vectors]
         except Exception as exc:  # pragma: no cover - network fallback
+            if not self.allow_embedding_fallback:
+                raise RuntimeError(f"Embedding API failed: {exc}") from exc
             logger.warning("Embedding API failed, using fallback embeddings: %s", exc)
             return [self._fallback_embedding(t) for t in texts]
 

@@ -16,6 +16,7 @@ from src.pipeline.manual_episode_ingest import ingest_uploaded_episode
 from src.infrastructure.ai.openai_embedding_client import OpenAIEmbeddingClient
 from src.infrastructure.repositories.content_chunks import ContentChunksRepository
 from src.infrastructure.repositories.legacy_chunks import LegacyChunksRepository
+from src.linkedin_draft_publisher.service import LinkedInDraftPublisherService
 from src.pipeline.storage import SupabaseStorage
 from src.theme_intel.models import ThemeTopicFilters
 from src.theme_intel.service import ThemeIntelService
@@ -26,6 +27,7 @@ class QueryApiService:
         self._settings = settings
         self._schema_path = schema_path
         self._theme_intel = ThemeIntelService(settings=settings, schema_path=schema_path)
+        self._linkedin_draft_publisher = LinkedInDraftPublisherService(settings=settings, schema_path=schema_path)
 
     def query_similar(self, text: str, top_k: int, offline_mode: bool = False) -> dict[str, Any]:
         storage = SupabaseStorage(self._settings.supabase_db_url)
@@ -372,3 +374,31 @@ class QueryApiService:
 
     def tick_theme_intel_scheduler(self, offline_mode: bool = False) -> dict[str, Any]:
         return self._theme_intel.scheduler_tick(force_offline=offline_mode)
+
+    def create_linkedin_draft_publisher_run(
+        self,
+        origin_category: str,
+        slack_channel: str,
+        buyer_persona_objetivo: str,
+        triggered_by_email: str | None = None,
+        offline_mode: bool = False,
+    ) -> dict[str, Any]:
+        return self._linkedin_draft_publisher.create_run(
+            origin_category=origin_category,
+            slack_channel=slack_channel,
+            buyer_persona_objetivo=buyer_persona_objetivo,
+            triggered_by_email=triggered_by_email,
+            offline_mode=offline_mode,
+        )
+
+    def execute_linkedin_draft_publisher_run(self, run_id: int, offline_mode: bool = False) -> None:
+        self._linkedin_draft_publisher.execute_run(run_id=run_id, force_offline=offline_mode)
+
+    def get_linkedin_draft_publisher_run(self, run_id: int) -> dict[str, Any] | None:
+        return self._linkedin_draft_publisher.get_run(run_id=run_id)
+
+    def get_latest_linkedin_draft_publisher_run(self) -> dict[str, Any] | None:
+        return self._linkedin_draft_publisher.get_latest_run()
+
+    def get_linkedin_draft_publisher_run_result(self, run_id: int) -> dict[str, Any] | None:
+        return self._linkedin_draft_publisher.get_run_result(run_id=run_id)

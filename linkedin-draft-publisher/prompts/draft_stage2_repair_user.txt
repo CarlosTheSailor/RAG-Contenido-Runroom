@@ -1,0 +1,14 @@
+[BUYER_PERSONA_OBJETIVO]
+{{buyer_persona_objetivo}}
+
+[STAGE2_JSON]
+{{stage2_json}}
+
+[SELECTED_RELATED_JSON]
+{{selected_related_json}}
+
+Tarea:
+1. Ajusta SOLO lo necesario para integrar orgánicamente el related seleccionado.
+2. Incluye la URL exacta del related en borrador_post.
+3. Mantén tono editorial, naturalidad y credibilidad.
+4. Devuelve referencias_abstract consistentes con el texto final.

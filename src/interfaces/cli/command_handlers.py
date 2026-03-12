@@ -49,6 +49,19 @@ def dispatch_command(args: argparse.Namespace, settings: Settings, schema_path: 
         print(json.dumps(summary, indent=2, ensure_ascii=False))
         return
 
+    if args.command == "theme-intel-backfill-related":
+        from src.theme_intel.service import ThemeIntelService
+
+        service = ThemeIntelService(settings=settings, schema_path=schema_path)
+        summary = service.backfill_related_content(
+            origin_category=str(args.origin_category),
+            days=int(args.days),
+            top_k=int(args.top_k),
+            force_offline=bool(args.offline_mode),
+        )
+        print(json.dumps(summary, indent=2, ensure_ascii=False))
+        return
+
     if args.command == "ingest-transcripts":
         from src.pipeline.ingest import ingest_transcripts
 

@@ -1,0 +1,21 @@
+[BUYER_PERSONA_OBJETIVO]
+{{buyer_persona_objetivo}}
+
+[STAGE1_JSON]
+{{stage1_json}}
+
+[TOPIC_BUNDLE_JSON]
+{{topic_bundle_json}}
+
+[RELATED_CANDIDATES_JSON]
+{{related_candidates_json}}
+
+[REFERENCES_JSON]
+{{references_json}}
+
+Tarea:
+1. Reescribe el draft para publicacion final con calidad editorial superior.
+2. Si hay candidatos related, selecciona uno y justifica brevemente por qué encaja de forma natural.
+3. Integra en borrador_post la URL exacta del related elegido.
+4. Mantén coherencia narrativa y trazabilidad en referencias_abstract.
+5. Devuelve SOLO JSON válido con el formato requerido.

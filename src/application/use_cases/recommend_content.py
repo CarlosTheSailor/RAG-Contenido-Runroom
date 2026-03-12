@@ -70,7 +70,7 @@ class RecommendContentUseCase:
             source=request.source,
             language=request.language,
         )
-        ranked = aggregate_and_rerank(rows, top_k=request.top_k)
+        ranked = aggregate_and_rerank(rows, top_k=request.top_k, query_text=query)
 
         if request.group_by_type:
             grouped: dict[str, list[dict[str, Any]]] = {}

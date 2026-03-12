@@ -1091,6 +1091,54 @@ class ThemeIntelRepository:
             output.append(payload)
         return output
 
+    def list_topics_for_recent_origin_runs(self, origin_category: str, days: int) -> list[dict[str, Any]]:
+        with self._conn.cursor() as cur:
+            cur.execute(
+                """
+                SELECT DISTINCT
+                    tt.id,
+                    tt.run_id,
+                    tt.title,
+                    tt.context_text,
+                    tt.canonical_text,
+                    tt.primary_category_key,
+                    tr.origin_category,
+                    tt.last_seen_at
+                FROM theme_topics tt
+                JOIN theme_runs tr ON tr.id = tt.run_id
+                WHERE tr.origin_category = %(origin_category)s
+                  AND COALESCE(tr.started_at, tr.created_at) >= (now() - make_interval(days => %(days)s))
+                ORDER BY tt.last_seen_at DESC NULLS LAST, tt.id DESC
+                """,
+                {
+                    "origin_category": origin_category,
+                    "days": int(days),
+                },
+            )
+            rows = cur.fetchall()
+        return [dict(row) for row in rows]
+
+    def list_recent_origin_categories(self, days: int) -> list[str]:
+        with self._conn.cursor() as cur:
+            cur.execute(
+                """
+                SELECT DISTINCT tr.origin_category
+                FROM theme_runs tr
+                WHERE COALESCE(tr.started_at, tr.created_at) >= (now() - make_interval(days => %(days)s))
+                  AND tr.origin_category IS NOT NULL
+                  AND btrim(tr.origin_category) <> ''
+                ORDER BY tr.origin_category
+                """,
+                {"days": int(days)},
+            )
+            rows = cur.fetchall()
+        output: list[str] = []
+        for row in rows:
+            category = str(row.get("origin_category") or "").strip()
+            if category:
+                output.append(category)
+        return output
+
     def list_source_documents_for_run(self, run_id: int) -> list[dict[str, Any]]:
         with self._conn.cursor() as cur:
             cur.execute(

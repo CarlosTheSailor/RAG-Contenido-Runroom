@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import os
 import secrets
+import threading
 import urllib.error
 from pathlib import Path
 from typing import Any, Dict, Optional, Protocol
@@ -20,6 +21,10 @@ from src.interfaces.http.schemas import (
     CaseStudyIngestUrlRequestModel,
     CaseStudyIngestUrlResponseModel,
     EpisodeIngestResponseModel,
+    LinkedInDraftPublisherRunCreateRequestModel,
+    LinkedInDraftPublisherRunCreateResponseModel,
+    LinkedInDraftPublisherRunGetResponseModel,
+    LinkedInDraftPublisherRunResultResponseModel,
     NewsletterLinkedInGenerateRequestModel,
     NewsletterLinkedInGenerateResponseModel,
     QuerySimilarRequestModel,
@@ -55,6 +60,15 @@ from src.interfaces.http.schemas import (
 )
 from src.interfaces.http.services import QueryApiService
 from src.pipeline.manual_episode_ingest import DuplicateEpisodeSourceFilenameError
+
+
+def _spawn_detached_job(target: Any, *args: Any) -> None:
+    thread = threading.Thread(
+        target=target,
+        args=args,
+        daemon=True,
+    )
+    thread.start()
 
 
 class QueryServicePort(Protocol):
@@ -218,6 +232,28 @@ class QueryServicePort(Protocol):
         ...
 
     def tick_theme_intel_scheduler(self, offline_mode: bool = False) -> dict[str, Any]:
+        ...
+
+    def create_linkedin_draft_publisher_run(
+        self,
+        origin_category: str,
+        slack_channel: str,
+        buyer_persona_objetivo: str,
+        triggered_by_email: str | None = None,
+        offline_mode: bool = False,
+    ) -> dict[str, Any]:
+        ...
+
+    def execute_linkedin_draft_publisher_run(self, run_id: int, offline_mode: bool = False) -> None:
+        ...
+
+    def get_linkedin_draft_publisher_run(self, run_id: int) -> dict[str, Any] | None:
+        ...
+
+    def get_latest_linkedin_draft_publisher_run(self) -> dict[str, Any] | None:
+        ...
+
+    def get_linkedin_draft_publisher_run_result(self, run_id: int) -> dict[str, Any] | None:
         ...
 
 
@@ -607,6 +643,17 @@ def create_app(
             {"user": user},
         )
 
+    @app.get("/app/linkedin-draft-publisher", response_class=HTMLResponse)
+    def app_linkedin_draft_publisher_page(request: Request) -> Any:
+        user = _session_user(request)
+        if user is None:
+            return RedirectResponse(url="/", status_code=302)
+        return templates.TemplateResponse(
+            request,
+            "linkedin_draft_publisher.html",
+            {"user": user},
+        )
+
     @app.get("/app/nuevo-case-study", response_class=HTMLResponse)
     def app_new_case_study_page(request: Request) -> Any:
         user = _session_user(request)
@@ -721,6 +768,63 @@ def create_app(
             transcript_bytes=transcript_bytes,
             runroom_url=runroom_url,
         )
+
+    @app.post(
+        "/app/api/linkedin-draft-publisher/runs",
+        response_model=LinkedInDraftPublisherRunCreateResponseModel,
+    )
+    def app_create_linkedin_draft_publisher_run(
+        payload: LinkedInDraftPublisherRunCreateRequestModel,
+        user: dict[str, str] = Depends(require_session_api_user),
+    ) -> Dict[str, Any]:
+        try:
+            created = service.create_linkedin_draft_publisher_run(
+                origin_category=payload.originCategory,
+                slack_channel=payload.slackChannel,
+                buyer_persona_objetivo=payload.buyerPersonaObjetivo,
+                triggered_by_email=user["email"],
+                offline_mode=payload.offline_mode,
+            )
+        except ValueError as exc:
+            raise HTTPException(status_code=422, detail=str(exc)) from exc
+
+        run_id = int(created["run_id"])
+        _spawn_detached_job(
+            service.execute_linkedin_draft_publisher_run,
+            run_id,
+            payload.offline_mode,
+        )
+        return {
+            "request_id": str(uuid4()),
+            "run_id": run_id,
+            "status": str(created.get("status") or "queued"),
+        }
+
+    @app.get(
+        "/app/api/linkedin-draft-publisher/runs/{run_id}",
+        response_model=LinkedInDraftPublisherRunGetResponseModel,
+    )
+    def app_get_linkedin_draft_publisher_run(
+        run_id: int,
+        _: dict[str, str] = Depends(require_session_api_user),
+    ) -> Dict[str, Any]:
+        run = service.get_linkedin_draft_publisher_run(run_id=run_id)
+        if run is None:
+            raise HTTPException(status_code=404, detail="LinkedIn draft run not found")
+        return {"request_id": str(uuid4()), "run": run}
+
+    @app.get(
+        "/app/api/linkedin-draft-publisher/runs/{run_id}/result",
+        response_model=LinkedInDraftPublisherRunResultResponseModel,
+    )
+    def app_get_linkedin_draft_publisher_run_result(
+        run_id: int,
+        _: dict[str, str] = Depends(require_session_api_user),
+    ) -> Dict[str, Any]:
+        result = service.get_linkedin_draft_publisher_run_result(run_id=run_id)
+        if result is None:
+            raise HTTPException(status_code=404, detail="LinkedIn draft run not found")
+        return {"request_id": str(uuid4()), "result": result}
 
     @app.post(
         "/app/api/theme-intel/runs",

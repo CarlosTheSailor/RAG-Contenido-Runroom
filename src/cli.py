@@ -27,6 +27,24 @@ def build_parser() -> argparse.ArgumentParser:
     )
     reset_theme_intel_cmd.add_argument("--dry-run", action="store_true", help="Only show row counts, do not delete")
 
+    backfill_theme_related_cmd = sub.add_parser(
+        "theme-intel-backfill-related",
+        help="Recompute related content for recent Theme Intel topics by origin category",
+    )
+    backfill_theme_related_cmd.add_argument(
+        "--origin-category",
+        required=True,
+        type=str,
+        help='Category key (e.g. growth, product) or "all" for every recent category',
+    )
+    backfill_theme_related_cmd.add_argument("--days", default=7, type=int)
+    backfill_theme_related_cmd.add_argument("--top-k", default=10, type=int)
+    backfill_theme_related_cmd.add_argument(
+        "--offline-mode",
+        action="store_true",
+        help="Use deterministic local embeddings when recomputing related content",
+    )
+
     ingest_cmd = sub.add_parser("ingest-transcripts", help="Parse transcripts, chunk, enrich and load into Supabase")
     ingest_cmd.add_argument("--transcripts-dir", default="transcripciones", type=Path)
     ingest_cmd.add_argument("--target-tokens", default=220, type=int)

@@ -37,6 +37,31 @@ class RunroomLabUrlParserTests(unittest.TestCase):
         self.assertGreaterEqual(len(doc.sections), 1)
         self.assertTrue(any(section.section_key == "results" for section in doc.sections))
 
+    def test_parse_runroom_lab_url_removes_boilerplate_lines(self) -> None:
+        html = """
+        <html>
+          <head>
+            <meta property="og:title" content="Runroom LAB IA en Product Management" />
+          </head>
+          <body>
+            <main>
+              <h1>Runroom LAB IA en Product Management</h1>
+              <p>Casos Servicios Nosotros Academy Realworld</p>
+              <p>Tienes que inscribirte para reservar tu plaza.</p>
+              <p>En este Runroom LAB exploramos cómo integrar IA en el trabajo de Product Management.</p>
+            </main>
+          </body>
+        </html>
+        """
+
+        with patch("src.content.case_study_url.fetch_url_html", return_value=html):
+            doc = parse_runroom_lab_url("https://info.runroom.com/lab-ia-product-management")
+
+        payload = "\n".join(section.text for section in doc.sections)
+        self.assertIn("integrar IA en el trabajo de Product Management", payload)
+        self.assertNotIn("Casos Servicios Nosotros Academy Realworld", payload)
+        self.assertNotIn("inscribirte para reservar tu plaza", payload.lower())
+
 
 if __name__ == "__main__":
     unittest.main()

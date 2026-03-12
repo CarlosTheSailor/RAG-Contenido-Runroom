@@ -45,6 +45,31 @@ class Settings:
     gmail_oauth_client_secret: str | None = None
     gmail_oauth_refresh_token: str | None = None
     gmail_source_account: str = "newsletters@runroom.com"
+    linkedin_draft_publisher_openai_model: str | None = None
+    linkedin_draft_publisher_topic_selection_model: str = "gpt-5-mini"
+    linkedin_draft_publisher_stage1_model: str = "gpt-5.2-chat-latest"
+    linkedin_draft_publisher_stage2_model: str = "gpt-5.2-chat-latest"
+    linkedin_draft_publisher_enforce_related_integration: bool = True
+    linkedin_draft_publisher_openai_timeout_seconds: int = 45
+    linkedin_draft_publisher_stale_run_minutes: int = 5
+    linkedin_draft_publisher_client_name: str = "linkedin_draft_publisher"
+    linkedin_draft_publisher_drafts_api_url: str = ""
+    linkedin_draft_publisher_drafts_api_secret: str = ""
+    linkedin_draft_publisher_drafts_editor_base_url: str = "https://linkedin-drafts.runroom.dev"
+    linkedin_draft_publisher_slack_bot_token: str = ""
+    linkedin_draft_publisher_slack_post_url: str = "https://slack.com/api/chat.postMessage"
+    linkedin_draft_publisher_topics_target_count: int = 5
+    linkedin_draft_publisher_topics_fetch_limit: int = 40
+    linkedin_draft_publisher_related_top_k: int = 10
+    linkedin_draft_publisher_related_counts_by_type: str = ""
+    linkedin_draft_publisher_max_concurrency: int = 2
+    linkedin_draft_publisher_stage_timeout_seconds: int = 90
+    linkedin_draft_publisher_context_evidence_limit: int = 8
+    linkedin_draft_publisher_context_doc_limit: int = 5
+    linkedin_draft_publisher_related_fetch_multiplier: int = 8
+    linkedin_draft_publisher_http_retry_max: int = 2
+    linkedin_draft_publisher_min_chars: int = 1600
+    linkedin_draft_publisher_max_chars: int = 3200
 
     @classmethod
     def from_env(cls) -> "Settings":
@@ -86,6 +111,98 @@ class Settings:
             gmail_oauth_client_secret=os.getenv("GMAIL_OAUTH_CLIENT_SECRET") or None,
             gmail_oauth_refresh_token=os.getenv("GMAIL_OAUTH_REFRESH_TOKEN") or None,
             gmail_source_account=os.getenv("GMAIL_SOURCE_ACCOUNT", "newsletters@runroom.com"),
+            linkedin_draft_publisher_openai_model=os.getenv("LINKEDIN_DRAFT_PUBLISHER_OPENAI_MODEL") or None,
+            linkedin_draft_publisher_topic_selection_model=(
+                os.getenv("LINKEDIN_DRAFT_PUBLISHER_TOPIC_SELECTION_MODEL", "gpt-5-mini").strip() or "gpt-5-mini"
+            ),
+            linkedin_draft_publisher_stage1_model=(
+                os.getenv("LINKEDIN_DRAFT_PUBLISHER_STAGE1_MODEL", "gpt-5.2-chat-latest").strip()
+                or "gpt-5.2-chat-latest"
+            ),
+            linkedin_draft_publisher_stage2_model=(
+                os.getenv("LINKEDIN_DRAFT_PUBLISHER_STAGE2_MODEL", "gpt-5.2-chat-latest").strip()
+                or "gpt-5.2-chat-latest"
+            ),
+            linkedin_draft_publisher_enforce_related_integration=_as_bool(
+                os.getenv("LINKEDIN_DRAFT_PUBLISHER_ENFORCE_RELATED_INTEGRATION"),
+                default=True,
+            ),
+            linkedin_draft_publisher_openai_timeout_seconds=int(
+                os.getenv("LINKEDIN_DRAFT_PUBLISHER_OPENAI_TIMEOUT_SECONDS", "45")
+            ),
+            linkedin_draft_publisher_stale_run_minutes=max(
+                1,
+                int(os.getenv("LINKEDIN_DRAFT_PUBLISHER_STALE_RUN_MINUTES", "5")),
+            ),
+            linkedin_draft_publisher_client_name=os.getenv(
+                "LINKEDIN_DRAFT_PUBLISHER_CLIENT_NAME",
+                "linkedin_draft_publisher",
+            ),
+            linkedin_draft_publisher_drafts_api_url=os.getenv(
+                "LINKEDIN_DRAFT_PUBLISHER_DRAFTS_API_URL",
+                "",
+            ),
+            linkedin_draft_publisher_drafts_api_secret=os.getenv(
+                "LINKEDIN_DRAFT_PUBLISHER_DRAFTS_API_SECRET",
+                "",
+            ),
+            linkedin_draft_publisher_drafts_editor_base_url=os.getenv(
+                "LINKEDIN_DRAFT_PUBLISHER_DRAFTS_EDITOR_BASE_URL",
+                "https://linkedin-drafts.runroom.dev",
+            ),
+            linkedin_draft_publisher_slack_bot_token=os.getenv(
+                "LINKEDIN_DRAFT_PUBLISHER_SLACK_BOT_TOKEN",
+                "",
+            ),
+            linkedin_draft_publisher_slack_post_url=os.getenv(
+                "LINKEDIN_DRAFT_PUBLISHER_SLACK_POST_URL",
+                "https://slack.com/api/chat.postMessage",
+            ),
+            linkedin_draft_publisher_topics_target_count=int(
+                os.getenv("LINKEDIN_DRAFT_PUBLISHER_TOPICS_TARGET_COUNT", "5")
+            ),
+            linkedin_draft_publisher_topics_fetch_limit=int(
+                os.getenv("LINKEDIN_DRAFT_PUBLISHER_TOPICS_FETCH_LIMIT", "40")
+            ),
+            linkedin_draft_publisher_related_top_k=int(
+                os.getenv("LINKEDIN_DRAFT_PUBLISHER_RELATED_TOP_K", "10")
+            ),
+            linkedin_draft_publisher_related_counts_by_type=os.getenv(
+                "LINKEDIN_DRAFT_PUBLISHER_RELATED_COUNTS_BY_TYPE",
+                "",
+            ),
+            linkedin_draft_publisher_max_concurrency=max(
+                1,
+                int(os.getenv("LINKEDIN_DRAFT_PUBLISHER_MAX_CONCURRENCY", "2")),
+            ),
+            linkedin_draft_publisher_stage_timeout_seconds=max(
+                15,
+                int(os.getenv("LINKEDIN_DRAFT_PUBLISHER_STAGE_TIMEOUT_SECONDS", "90")),
+            ),
+            linkedin_draft_publisher_context_evidence_limit=max(
+                1,
+                int(os.getenv("LINKEDIN_DRAFT_PUBLISHER_CONTEXT_EVIDENCE_LIMIT", "8")),
+            ),
+            linkedin_draft_publisher_context_doc_limit=max(
+                1,
+                int(os.getenv("LINKEDIN_DRAFT_PUBLISHER_CONTEXT_DOC_LIMIT", "5")),
+            ),
+            linkedin_draft_publisher_related_fetch_multiplier=max(
+                2,
+                int(os.getenv("LINKEDIN_DRAFT_PUBLISHER_RELATED_FETCH_MULTIPLIER", "8")),
+            ),
+            linkedin_draft_publisher_http_retry_max=max(
+                0,
+                int(os.getenv("LINKEDIN_DRAFT_PUBLISHER_HTTP_RETRY_MAX", "2")),
+            ),
+            linkedin_draft_publisher_min_chars=max(
+                800,
+                int(os.getenv("LINKEDIN_DRAFT_PUBLISHER_MIN_CHARS", "1600")),
+            ),
+            linkedin_draft_publisher_max_chars=max(
+                1200,
+                int(os.getenv("LINKEDIN_DRAFT_PUBLISHER_MAX_CHARS", "3200")),
+            ),
         )
 
 

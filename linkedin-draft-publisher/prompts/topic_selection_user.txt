@@ -1,0 +1,14 @@
+[BUYER_PERSONA_OBJETIVO]
+{{buyer_persona_objetivo}}
+
+[TARGET_COUNT]
+{{target_count}}
+
+[CANDIDATES_JSON]
+{{candidates_json}}
+
+Tarea:
+- Selecciona hasta TARGET_COUNT topic_id.
+- Prioriza señal de negocio, accionabilidad y encaje con el buyer persona.
+- Evita seleccionar temas redundantes.
+- Usa exclusivamente topic_id existentes.

@@ -17,6 +17,7 @@ class CliParserRegressionTests(unittest.TestCase):
         self.assertIn("review-matches", commands)
         self.assertIn("ingest-runroom-labs", commands)
         self.assertIn("reset-theme-intel", commands)
+        self.assertIn("theme-intel-backfill-related", commands)
 
     def test_query_similar_flags_unchanged(self) -> None:
         parser = build_parser()
@@ -88,6 +89,43 @@ class CliParserRegressionTests(unittest.TestCase):
         self.assertEqual(args.command, "reset-theme-intel")
         self.assertEqual(args.confirm, "theme-intel")
         self.assertTrue(args.dry_run)
+
+    def test_theme_intel_backfill_related_flags(self) -> None:
+        parser = build_parser()
+        args = parser.parse_args(
+            [
+                "theme-intel-backfill-related",
+                "--origin-category",
+                "growth",
+                "--days",
+                "7",
+                "--top-k",
+                "10",
+                "--offline-mode",
+            ]
+        )
+
+        self.assertEqual(args.command, "theme-intel-backfill-related")
+        self.assertEqual(args.origin_category, "growth")
+        self.assertEqual(args.days, 7)
+        self.assertEqual(args.top_k, 10)
+        self.assertTrue(args.offline_mode)
+
+    def test_theme_intel_backfill_related_accepts_all_categories(self) -> None:
+        parser = build_parser()
+        args = parser.parse_args(
+            [
+                "theme-intel-backfill-related",
+                "--origin-category",
+                "all",
+            ]
+        )
+
+        self.assertEqual(args.command, "theme-intel-backfill-related")
+        self.assertEqual(args.origin_category, "all")
+        self.assertEqual(args.days, 7)
+        self.assertEqual(args.top_k, 10)
+        self.assertFalse(args.offline_mode)
 
 
 if __name__ == "__main__":

@@ -240,6 +240,16 @@ Endpoints:
 - `POST /v1/query-similar`
 - `POST /v1/recommend-content`
 - `POST /app/api/newsletters-linkedin/generate` (requiere sesión web)
+- `POST /v1/theme-intel/runs`
+- `GET /v1/theme-intel/runs/latest`
+- `GET /v1/theme-intel/runs/{run_id}`
+- `GET /v1/theme-intel/runs/{run_id}/documents`
+- `GET /v1/theme-intel/topics`
+- `GET /v1/theme-intel/topics/{topic_id}`
+- `PATCH /v1/theme-intel/topics/{topic_id}/status`
+- `POST /v1/theme-intel/topics/{topic_id}/usage`
+- `POST /v1/theme-intel/topics/{topic_id}/related-content/refresh`
+- `POST /v1/theme-intel/scheduler/tick`
 
 Ejemplo:
 
@@ -273,6 +283,7 @@ Flujo:
 - tras autenticación, redirige a `/app`.
 - `/app` permite ejecutar `query-similar` y `recommend-content` sin headers manuales.
 - `/app/newsletters-linkedin` permite generar la newsletter completa con estilo + RAG.
+- `/app/theme-intel` permite lanzar runs manuales de extraccion de temas y consultar temas persistidos.
 - `/app/nuevo-case-study` permite ingestar manualmente un case study desde URL.
 - `/app/nuevo-episodio-realworld` permite ingestar manualmente un episodio Realworld desde `.txt` + URL Runroom.
 - `/v1/*` y `/health` siguen protegidos por `X-API-Key`.
@@ -380,6 +391,87 @@ Assets editables en disco:
 - Ejemplos de estilo: `newsletters-linkedin/examples/*.txt`
 
 Los ejemplos `.txt` se cargan automáticamente en cada generación (sin reiniciar servidor).
+
+## Theme Intel (fase 1)
+
+Servicio central para:
+
+- ingestar newsletters desde Gmail,
+- extraer temas prioritarios con trazabilidad,
+- relacionarlos con el RAG canónico (top 10 mixto por tema),
+- persistir temas + evidencias + tags + embeddings.
+
+UI autenticada:
+
+- `GET /app/theme-intel`
+
+API (`X-API-Key`) y equivalente web (`/app/api/...`):
+
+- `POST /v1/theme-intel/runs`
+- `GET /v1/theme-intel/runs/latest`
+- `GET /v1/theme-intel/runs/{run_id}`
+- `GET /v1/theme-intel/runs/{run_id}/documents` (debug de entrada y limpieza por run)
+- `GET /v1/theme-intel/topics`
+- `GET /v1/theme-intel/topics/{topic_id}` (debug de topic con tags/evidencias/related/usage)
+- `PATCH /v1/theme-intel/topics/{topic_id}/status`
+- `POST /v1/theme-intel/topics/{topic_id}/usage`
+- `POST /v1/theme-intel/topics/{topic_id}/related-content/refresh`
+- `POST /v1/theme-intel/scheduler/tick` (endpoint para cron externo)
+
+Scheduler web (`/app/api/...`, requiere sesión):
+
+- `POST /app/api/theme-intel/schedules`
+- `GET /app/api/theme-intel/schedules`
+- `PATCH /app/api/theme-intel/schedules/{schedule_id}`
+- `POST /app/api/theme-intel/schedules/{schedule_id}/configs`
+- `PATCH /app/api/theme-intel/schedules/{schedule_id}/configs/{config_id}`
+- `POST /app/api/theme-intel/schedules/{schedule_id}/run-now`
+- `GET /app/api/theme-intel/schedules/{schedule_id}/executions`
+- `POST /app/api/theme-intel/scheduler/tick`
+
+Payload minimo para lanzar un run:
+
+```json
+{
+  "gmailQuery": "label:cx is:unread",
+  "originCategory": "cx",
+  "markAsRead": false,
+  "limitMessages": 100
+}
+```
+
+Notas de funcionamiento:
+
+- `originCategory` se guarda como categoria principal operativa.
+- `gmailQuery` se persiste de forma literal para trazabilidad.
+- `dynamic_tags` combinan origen (`label:*`) + keywords del modelo.
+- dedupe semantico con ventana temporal configurable (`THEME_INTEL_DEDUPE_WINDOW_DAYS`).
+- relaciones RAG se recalculan `on-write` y tambien via endpoint de refresh manual.
+- durante la ingesta, los relacionados intentan cubrir todos los `content_type` disponibles (si hay candidatos).
+- al refrescar related (`POST .../related-content/refresh`) puedes enviar:
+  - `content_types` (array)
+  - `related_counts_by_type` (objeto `{ "tipo": n }`)
+  - `top_k` (opcional)
+
+Prompts editables:
+
+- `theme-intel/prompts/temas_system.txt`
+- `theme-intel/prompts/temas_user.txt`
+
+Reset de datos Theme Intel (sin tocar tablas legacy/canonical):
+
+```bash
+python -m src.cli reset-theme-intel --confirm "theme-intel" --dry-run
+python -m src.cli reset-theme-intel --confirm "theme-intel"
+```
+
+Cron recomendado en Coolify (cada 15 min):
+
+```bash
+curl -X POST "https://<tu-dominio>/v1/theme-intel/scheduler/tick" \
+  -H "X-API-Key: <API_KEY>" \
+  -H "Content-Type: application/json"
+```
 
 ## Docker / Coolify
 

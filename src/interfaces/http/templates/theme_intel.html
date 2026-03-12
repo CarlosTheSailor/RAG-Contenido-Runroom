@@ -1,0 +1,1415 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Theme Intel Console</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f4f7fb;
+      --ink: #11253a;
+      --muted: #5f7085;
+      --panel: #ffffff;
+      --line: #d2dff0;
+      --primary: #0b5fb2;
+      --primary-soft: #eaf3ff;
+      --ok: #0f766e;
+      --warn: #be123c;
+      --shadow: 0 10px 24px rgba(7, 25, 48, 0.08);
+      --radius: 14px;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: "Avenir Next", "Segoe UI", "Helvetica Neue", sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 12% 8%, #d9ebff 0%, transparent 38%),
+        radial-gradient(circle at 88% 3%, #e2fff4 0%, transparent 28%),
+        var(--bg);
+      min-height: 100vh;
+    }
+
+    .container {
+      max-width: 1260px;
+      margin: 0 auto;
+      padding: 26px;
+    }
+
+    .topbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 16px;
+    }
+
+    .headline {
+      margin: 0;
+      font-size: 1.8rem;
+      letter-spacing: 0.01em;
+    }
+
+    .muted {
+      color: var(--muted);
+      margin: 4px 0 0;
+      font-size: 0.95rem;
+    }
+
+    .btnrow {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    button {
+      border: 1px solid transparent;
+      border-radius: 10px;
+      background: var(--primary);
+      color: #fff;
+      padding: 10px 14px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: transform 0.12s ease, box-shadow 0.12s ease, background 0.12s ease;
+      box-shadow: 0 5px 14px rgba(11, 95, 178, 0.22);
+    }
+
+    button:hover { transform: translateY(-1px); }
+    button:disabled { cursor: not-allowed; opacity: 0.55; box-shadow: none; }
+
+    .btn-soft {
+      background: #eff4fb;
+      color: #1c324a;
+      border-color: #ccdbef;
+      box-shadow: none;
+    }
+
+    .btn-danger {
+      background: #7f1d1d;
+      box-shadow: none;
+    }
+
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 16px;
+      margin-bottom: 14px;
+      animation: reveal 0.24s ease;
+    }
+
+    @keyframes reveal {
+      from { opacity: 0; transform: translateY(6px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    h2 {
+      margin: 0 0 10px;
+      font-size: 1.05rem;
+      letter-spacing: 0.01em;
+    }
+
+    h3 {
+      margin: 0 0 8px;
+      font-size: 0.95rem;
+      color: #193654;
+    }
+
+    .grid-4 {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1.3fr 1fr;
+      gap: 12px;
+      align-items: start;
+    }
+
+    .split {
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      gap: 12px;
+      align-items: start;
+    }
+
+    label {
+      display: block;
+      font-weight: 700;
+      font-size: 0.86rem;
+      color: #27415f;
+      margin-bottom: 8px;
+    }
+
+    input, select, textarea {
+      width: 100%;
+      border: 1px solid #c8d7ec;
+      border-radius: 10px;
+      padding: 10px;
+      background: #fff;
+      color: #10263d;
+      font: inherit;
+      margin-top: 5px;
+    }
+
+    .field-row {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px;
+      margin-bottom: 6px;
+    }
+
+    .inline-row {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .metric {
+      border: 1px solid #cbdbef;
+      border-radius: 12px;
+      background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+      padding: 12px;
+    }
+
+    .metric .k {
+      display: block;
+      font-size: 0.76rem;
+      color: #5c7088;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      margin-bottom: 5px;
+    }
+
+    .metric .v {
+      font-size: 1.08rem;
+      font-weight: 800;
+      color: #11375b;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      border-radius: 999px;
+      border: 1px solid #bfd4eb;
+      background: #f5faff;
+      color: #154067;
+      padding: 3px 10px;
+      font-size: 0.78rem;
+      margin-right: 6px;
+      margin-bottom: 6px;
+      white-space: nowrap;
+    }
+
+    .badge.ok { border-color: #9ed8cd; background: #ecfcf8; color: #11584d; }
+    .badge.warn { border-color: #f0b7c7; background: #fff1f5; color: #8a1e45; }
+
+    .topic-list {
+      display: grid;
+      gap: 10px;
+      max-height: 64vh;
+      overflow: auto;
+      padding-right: 4px;
+    }
+
+    .topic-card {
+      border: 1px solid #cedef2;
+      border-radius: 12px;
+      padding: 12px;
+      background: #ffffff;
+    }
+
+    .topic-title {
+      font-size: 0.98rem;
+      font-weight: 800;
+      margin: 0 0 6px;
+      color: #0f2f4e;
+    }
+
+    .topic-meta {
+      color: #56708d;
+      font-size: 0.82rem;
+      margin: 0 0 8px;
+    }
+
+    .topic-context {
+      font-size: 0.88rem;
+      color: #2c4a67;
+      margin: 0 0 8px;
+      line-height: 1.35;
+    }
+
+    .topic-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 8px;
+    }
+
+    .topic-actions button {
+      box-shadow: none;
+      padding: 7px 10px;
+      font-size: 0.78rem;
+    }
+
+    .topic-actions .btn-soft { background: #f3f8ff; }
+
+    .related-list {
+      margin: 8px 0 0;
+      padding-left: 18px;
+      color: #335370;
+      font-size: 0.86rem;
+      line-height: 1.3;
+    }
+
+    .detail-box {
+      border: 1px solid #cfe0f4;
+      border-radius: 12px;
+      background: #f9fcff;
+      padding: 12px;
+      min-height: 220px;
+      max-height: 64vh;
+      overflow: auto;
+    }
+
+    .empty {
+      color: #637991;
+      font-size: 0.9rem;
+    }
+
+    .doc-table-wrap {
+      overflow: auto;
+      border: 1px solid #d2e0f3;
+      border-radius: 12px;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      min-width: 840px;
+      background: #fff;
+    }
+
+    th, td {
+      text-align: left;
+      font-size: 0.84rem;
+      padding: 9px 10px;
+      border-bottom: 1px solid #e4edf8;
+      vertical-align: top;
+    }
+
+    th {
+      background: #f4f9ff;
+      color: #27435f;
+      font-size: 0.76rem;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+    }
+
+    .doc-preview {
+      white-space: pre-wrap;
+      background: #f8fbff;
+      border: 1px solid #d8e6f8;
+      border-radius: 10px;
+      padding: 10px;
+      font-size: 0.8rem;
+      max-height: 180px;
+      overflow: auto;
+      margin-top: 8px;
+    }
+
+    .status-dot {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      margin-right: 7px;
+      background: #94a3b8;
+    }
+
+    .status-queued .status-dot,
+    .status-running .status-dot { background: #b45309; }
+    .status-succeeded .status-dot { background: #0f766e; }
+    .status-partial_failed .status-dot { background: #be123c; }
+    .status-failed .status-dot { background: #991b1b; }
+
+    details summary {
+      cursor: pointer;
+      color: #174164;
+      font-weight: 700;
+    }
+
+    .json-dump {
+      margin-top: 8px;
+      border: 1px solid #d5e4f8;
+      background: #f8fbff;
+      border-radius: 10px;
+      padding: 10px;
+      max-height: 200px;
+      overflow: auto;
+      white-space: pre-wrap;
+      font-size: 0.78rem;
+    }
+
+    @media (max-width: 1080px) {
+      .split, .grid-2 { grid-template-columns: 1fr; }
+      .field-row, .grid-4 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+
+    @media (max-width: 640px) {
+      .container { padding: 14px; }
+      .field-row, .grid-4 { grid-template-columns: 1fr; }
+      .headline { font-size: 1.45rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="topbar">
+      <div>
+        <h1 class="headline">Theme Intel Console</h1>
+        <p class="muted">Sesion iniciada como {{ user.name }} ({{ user.email }})</p>
+      </div>
+      <div class="btnrow">
+        <a href="/app"><button class="btn-soft" type="button">Volver</button></a>
+        <form action="/auth/logout" method="post">
+          <button class="btn-soft" type="submit">Cerrar sesion</button>
+        </form>
+      </div>
+    </header>
+
+    <section class="panel">
+      <h2>1. Lanzar Run</h2>
+      <div class="field-row">
+        <label>gmailQuery
+          <input id="gmailQuery" type="text" value="label:cx is:unread" required />
+        </label>
+        <label>originCategory
+          <input id="originCategory" type="text" value="cx" required />
+        </label>
+        <label>limitMessages
+          <input id="limitMessages" type="number" min="1" max="200" value="100" />
+        </label>
+        <label>markAsRead
+          <select id="markAsRead">
+            <option value="false" selected>false</option>
+            <option value="true">true</option>
+          </select>
+        </label>
+      </div>
+      <div class="inline-row" style="margin-bottom:10px;">
+        <label style="display:inline-flex;align-items:center;gap:8px;margin:0;font-weight:600;">
+          <input id="offlineMode" type="checkbox" />
+          Forzar offline mode (debug tecnico)
+        </label>
+      </div>
+      <div class="inline-row">
+        <button id="runBtn" type="button">Ejecutar run</button>
+        <button id="pollBtn" type="button" class="btn-soft">Refrescar estado</button>
+      </div>
+      <div id="runBanner" class="muted" style="margin-top:10px;"></div>
+    </section>
+
+    <section class="panel" id="runSnapshotPanel">
+      <h2>2. Snapshot de Run</h2>
+      <div class="grid-4" id="runMetrics"></div>
+      <details style="margin-top:10px;">
+        <summary>Ver JSON completo del run</summary>
+        <pre class="json-dump" id="runJsonDump">Sin run cargado.</pre>
+      </details>
+    </section>
+
+    <section class="panel">
+      <h2>3. Topics y Contenidos Relacionados</h2>
+      <div class="field-row" style="margin-bottom:10px;">
+        <label>primary_category
+          <input id="filterCategory" type="text" placeholder="cx" />
+        </label>
+        <label>status
+          <select id="filterStatus">
+            <option value="">(todos)</option>
+            <option value="new">new</option>
+            <option value="in_progress">in_progress</option>
+            <option value="used">used</option>
+            <option value="discarded">discarded</option>
+          </select>
+        </label>
+        <label>tags_any (csv)
+          <input id="filterTagsAny" type="text" placeholder="ia,tech" />
+        </label>
+        <label>semantic_query
+          <input id="filterSemantic" type="text" placeholder="automatizacion IA en CX" />
+        </label>
+      </div>
+      <div class="inline-row" style="margin-bottom:10px;">
+        <button id="loadTopicsBtn" type="button">Cargar topics</button>
+        <span class="muted" id="topicsMeta">Sin datos.</span>
+      </div>
+
+      <div class="split">
+        <div>
+          <div class="topic-list" id="topicList"></div>
+        </div>
+        <div class="detail-box" id="topicDetailBox">
+          <p class="empty">Selecciona un topic para ver detalle completo (evidencias, tags, related content y uso).</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>4. Newsletters Guardadas (source_documents)</h2>
+      <div class="inline-row" style="margin-bottom:10px;">
+        <label style="margin:0;min-width:150px;">run_id
+          <input id="debugRunId" type="number" min="1" placeholder="ID de run" />
+        </label>
+        <button id="loadDocsBtn" type="button">Cargar documentos del run</button>
+      </div>
+      <div class="doc-table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Subject</th>
+              <th>Sender</th>
+              <th>Received</th>
+              <th>Labels</th>
+              <th>Preview</th>
+            </tr>
+          </thead>
+          <tbody id="docsTableBody">
+            <tr><td colspan="6" class="muted">Sin documentos cargados.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>5. Cron Scheduler</h2>
+      <div class="field-row">
+        <label>name
+          <input id="scheduleName" type="text" placeholder="Theme Intel Diario" />
+        </label>
+        <label>every_n_days
+          <input id="scheduleEveryNDays" type="number" min="1" max="365" value="1" />
+        </label>
+        <label>run_time_local
+          <input id="scheduleRunTime" type="text" value="09:00" />
+        </label>
+        <label>timezone
+          <input id="scheduleTimezone" type="text" value="Europe/Madrid" />
+        </label>
+      </div>
+      <div class="inline-row" style="margin-bottom:10px;">
+        <label style="display:inline-flex;align-items:center;gap:8px;margin:0;font-weight:600;">
+          <input id="scheduleEnabled" type="checkbox" checked />
+          enabled
+        </label>
+      </div>
+      <div class="inline-row" style="margin-bottom:10px;">
+        <button id="createScheduleBtn" type="button">Crear schedule</button>
+        <button id="loadSchedulesBtn" type="button" class="btn-soft">Cargar schedules</button>
+        <button id="tickSchedulerBtn" type="button" class="btn-soft">Tick scheduler (manual)</button>
+      </div>
+
+      <div class="doc-table-wrap" style="margin-bottom:12px;">
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Name</th>
+              <th>Enabled</th>
+              <th>Cadencia</th>
+              <th>Next Run (UTC)</th>
+              <th>Acciones</th>
+            </tr>
+          </thead>
+          <tbody id="schedulesTableBody">
+            <tr><td colspan="6" class="muted">Sin schedules.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Schedule seleccionado</h3>
+      <div class="field-row">
+        <label>schedule_id
+          <input id="selectedScheduleId" type="number" min="1" readonly />
+        </label>
+        <label>name
+          <input id="selectedScheduleName" type="text" />
+        </label>
+        <label>every_n_days
+          <input id="selectedScheduleEveryNDays" type="number" min="1" max="365" />
+        </label>
+        <label>run_time_local
+          <input id="selectedScheduleRunTime" type="text" />
+        </label>
+      </div>
+      <div class="field-row">
+        <label>timezone
+          <input id="selectedScheduleTimezone" type="text" />
+        </label>
+        <label style="display:inline-flex;align-items:center;gap:8px;margin-top:22px;">
+          <input id="selectedScheduleEnabled" type="checkbox" />
+          enabled
+        </label>
+      </div>
+      <div class="inline-row" style="margin-bottom:10px;">
+        <button id="saveScheduleBtn" type="button" class="btn-soft">Guardar schedule</button>
+        <button id="runSelectedScheduleBtn" type="button" class="btn-soft">Run now</button>
+        <button id="loadScheduleExecutionsBtn" type="button" class="btn-soft">Cargar ejecuciones</button>
+      </div>
+
+      <h3>Configs</h3>
+      <div class="field-row">
+        <label>execution_order
+          <input id="configExecutionOrder" type="number" min="1" value="1" />
+        </label>
+        <label>gmail_query
+          <input id="configGmailQuery" type="text" value="label:cx is:unread" />
+        </label>
+        <label>origin_category
+          <input id="configOriginCategory" type="text" value="cx" />
+        </label>
+        <label>limit_messages
+          <input id="configLimitMessages" type="number" min="1" max="200" value="100" />
+        </label>
+      </div>
+      <div class="inline-row" style="margin-bottom:10px;">
+        <label style="display:inline-flex;align-items:center;gap:8px;margin:0;font-weight:600;">
+          <input id="configMarkAsRead" type="checkbox" />
+          mark_as_read
+        </label>
+        <label style="display:inline-flex;align-items:center;gap:8px;margin:0;font-weight:600;">
+          <input id="configEnabled" type="checkbox" checked />
+          enabled
+        </label>
+      </div>
+      <div class="inline-row" style="margin-bottom:10px;">
+        <button id="addConfigBtn" type="button" class="btn-soft">Anadir config</button>
+      </div>
+
+      <div class="doc-table-wrap" style="margin-bottom:12px;">
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Order</th>
+              <th>Query</th>
+              <th>Category</th>
+              <th>markAsRead</th>
+              <th>limit</th>
+              <th>enabled</th>
+              <th>Acciones</th>
+            </tr>
+          </thead>
+          <tbody id="scheduleConfigsBody">
+            <tr><td colspan="8" class="muted">Selecciona un schedule.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Ejecuciones</h3>
+      <div class="doc-table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Status</th>
+              <th>Trigger</th>
+              <th>Started</th>
+              <th>Finished</th>
+              <th>Items</th>
+            </tr>
+          </thead>
+          <tbody id="scheduleExecutionsBody">
+            <tr><td colspan="6" class="muted">Sin ejecuciones cargadas.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    const state = {
+      activeRunId: null,
+      activeRun: null,
+      topics: [],
+      selectedTopicId: null,
+      documents: [],
+      schedules: [],
+      selectedScheduleId: null,
+      pollTimer: null,
+    };
+
+    async function requestJson(url, options = {}) {
+      const response = await fetch(url, options);
+      let body;
+      try {
+        body = await response.json();
+      } catch (_) {
+        body = { detail: "Respuesta no JSON", raw: await response.text() };
+      }
+      return { status: response.status, body };
+    }
+
+    function escapeHtml(value) {
+      return String(value || "")
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
+
+    function safeDate(value) {
+      if (!value) return "-";
+      const d = new Date(value);
+      if (Number.isNaN(d.getTime())) return String(value);
+      return d.toLocaleString();
+    }
+
+    function runStatusBadge(status) {
+      const clean = String(status || "unknown");
+      return `<span class="badge ${clean === 'succeeded' ? 'ok' : (clean.includes('failed') ? 'warn' : '')}"><span class="status-dot"></span>${escapeHtml(clean)}</span>`;
+    }
+
+    function showBanner(text, isError = false) {
+      const banner = document.getElementById("runBanner");
+      banner.textContent = text;
+      banner.style.color = isError ? "#8a1e45" : "#21445f";
+      banner.style.fontWeight = isError ? "700" : "600";
+    }
+
+    function renderRunMetrics(run) {
+      const container = document.getElementById("runMetrics");
+      if (!run) {
+        container.innerHTML = '<div class="metric"><span class="k">Run</span><span class="v">Sin datos</span></div>';
+        return;
+      }
+      const stats = run.stats_json || {};
+      const items = [
+        ["Run ID", run.id],
+        ["Status", run.status],
+        [
+          "Mensajes (fetch)",
+          `${stats.source_documents_fetched || 0}/${stats.source_documents_discovered || 0}`,
+        ],
+        [
+          "Mensajes (guardados)",
+          `${stats.source_documents_saved || 0}/${stats.source_documents_parsed || 0}`,
+        ],
+        ["Topic->newsletter links", stats.source_links_written || 0],
+        [
+          "Temas",
+          `${stats.themes_processed || 0}/${stats.themes_extracted || 0} procesados`,
+        ],
+        ["Temas nuevos/merge", `${stats.themes_created || 0}/${stats.themes_merged || 0}`],
+        ["Temas omitidos", stats.themes_skipped_low_signal || 0],
+        ["Evidencias", stats.evidences_written || 0],
+        ["Related links", stats.related_content_links_written || 0],
+        ["Inicio / Fin", `${safeDate(run.started_at)} -> ${safeDate(run.finished_at)}`],
+      ];
+      container.innerHTML = items
+        .map(([k, v]) => `<div class="metric"><span class="k">${escapeHtml(k)}</span><span class="v">${escapeHtml(v)}</span></div>`)
+        .join("");
+      document.getElementById("runJsonDump").textContent = JSON.stringify(run, null, 2);
+    }
+
+    function buildTopicCard(topic) {
+      const tags = Array.isArray(topic.tags) ? topic.tags : [];
+      const related = Array.isArray(topic.related_content) ? topic.related_content : [];
+      const tagsHtml = tags.length
+        ? tags.map((tag) => `<span class="badge">${escapeHtml(tag.tag_label || tag.tag_key)}</span>`).join("")
+        : '<span class="muted">Sin tags</span>';
+      const relatedHtml = related.length
+        ? `<details><summary>Relacionado (${related.length})</summary><ul class="related-list">${related.slice(0, 5).map((item) => `<li><strong>${escapeHtml(item.content_type)}</strong>: ${escapeHtml(item.title)} (${Number(item.score || 0).toFixed(3)})</li>`).join("")}</ul></details>`
+        : '<p class="muted" style="margin:6px 0 0;">Sin contenido relacionado.</p>';
+
+      return `
+        <article class="topic-card" data-topic-id="${topic.id}">
+          <p class="topic-title">${escapeHtml(topic.title)}</p>
+          <p class="topic-meta">${runStatusBadge(topic.status)} cat: <strong>${escapeHtml(topic.primary_category_key)}</strong> | score: ${Number(topic.score || 0).toFixed(3)} | seen: ${topic.times_seen || 0}</p>
+          <p class="topic-context">${escapeHtml(topic.context_text || "")}</p>
+          <div>${tagsHtml}</div>
+          ${relatedHtml}
+          <div class="topic-actions">
+            <button class="btn-soft" data-action="detail" data-topic-id="${topic.id}">Detalle</button>
+            <button class="btn-soft" data-action="status" data-status="in_progress" data-topic-id="${topic.id}">in_progress</button>
+            <button class="btn-soft" data-action="status" data-status="used" data-topic-id="${topic.id}">used</button>
+            <button class="btn-soft" data-action="status" data-status="discarded" data-topic-id="${topic.id}">discarded</button>
+            <button class="btn-soft" data-action="usage" data-topic-id="${topic.id}">Registrar uso</button>
+            <button class="btn-soft" data-action="refresh-related" data-topic-id="${topic.id}">Refresh related</button>
+          </div>
+        </article>
+      `;
+    }
+
+    function renderTopics(topics) {
+      const list = document.getElementById("topicList");
+      if (!topics.length) {
+        list.innerHTML = '<div class="topic-card"><p class="empty">No hay topics para estos filtros.</p></div>';
+        return;
+      }
+      list.innerHTML = topics.map(buildTopicCard).join("");
+    }
+
+    function renderTopicDetail(topic) {
+      const box = document.getElementById("topicDetailBox");
+      if (!topic) {
+        box.innerHTML = '<p class="empty">Topic no encontrado.</p>';
+        return;
+      }
+      const tags = Array.isArray(topic.tags) ? topic.tags : [];
+      const evidences = Array.isArray(topic.evidences) ? topic.evidences : [];
+      const related = Array.isArray(topic.related_content) ? topic.related_content : [];
+      const usage = Array.isArray(topic.usage) ? topic.usage : [];
+      const sourceDocuments = Array.isArray(topic.source_documents) ? topic.source_documents : [];
+
+      box.innerHTML = `
+        <h3>${escapeHtml(topic.title)}</h3>
+        <p class="muted">${runStatusBadge(topic.status)} ${escapeHtml(topic.primary_category_key || "")}</p>
+        <p>${escapeHtml(topic.context_text || "")}</p>
+
+        <h3 style="margin-top:12px;">Tags</h3>
+        <div>${tags.map((tag) => `<span class="badge">${escapeHtml(tag.tag_label || tag.tag_key)}</span>`).join("") || '<span class="empty">Sin tags</span>'}</div>
+
+        <h3 style="margin-top:12px;">Evidencias (${evidences.length})</h3>
+        <ul class="related-list">${evidences.map((e) => `<li><strong>${escapeHtml(e.fuente || "sin fuente")}</strong>: ${escapeHtml(e.dato || "")} ${e.url_referencia ? `- <a href="${escapeHtml(e.url_referencia)}" target="_blank" rel="noreferrer">URL</a>` : ""}</li>`).join("") || '<li class="empty">Sin evidencias</li>'}</ul>
+
+        <h3 style="margin-top:12px;">Contenido relacionado (${related.length})</h3>
+        <ul class="related-list">${related.map((r) => `<li><strong>${escapeHtml(r.content_type)}</strong>: ${escapeHtml(r.title)} (${Number(r.score || 0).toFixed(3)})${r.url ? ` - <a href="${escapeHtml(r.url)}" target="_blank" rel="noreferrer">abrir</a>` : ""}</li>`).join("") || '<li class="empty">Sin relacionados</li>'}</ul>
+
+        <h3 style="margin-top:12px;">Newsletters vinculadas (${sourceDocuments.length})</h3>
+        <ul class="related-list">${sourceDocuments.map((doc) => `<li><strong>${escapeHtml(doc.link_type || "run_scope")}</strong>: ${escapeHtml(doc.subject || "(sin asunto)")} - ${escapeHtml(doc.sender || "-")} - ${escapeHtml(safeDate(doc.received_at))}</li>`).join("") || '<li class="empty">Sin newsletters vinculadas</li>'}</ul>
+
+        <h3 style="margin-top:12px;">Uso (${usage.length})</h3>
+        <ul class="related-list">${usage.map((u) => `<li>${escapeHtml(u.client_name)} ${u.artifact_id ? `(${escapeHtml(u.artifact_id)})` : ""} - ${escapeHtml(safeDate(u.used_at))}</li>`).join("") || '<li class="empty">Sin uso registrado</li>'}</ul>
+
+        <details style="margin-top:10px;"><summary>JSON topic</summary><pre class="json-dump">${escapeHtml(JSON.stringify(topic, null, 2))}</pre></details>
+      `;
+    }
+
+    function renderDocuments(documents) {
+      const tbody = document.getElementById("docsTableBody");
+      if (!documents.length) {
+        tbody.innerHTML = '<tr><td colspan="6" class="muted">Sin documentos cargados.</td></tr>';
+        return;
+      }
+
+      tbody.innerHTML = documents.map((doc) => {
+        const labels = Array.isArray(doc.labels_json) ? doc.labels_json.join(", ") : "";
+        const cleanPreview = String(doc.cleaned_text_preview || "").slice(0, 1200);
+        const rawPreview = String(doc.raw_text_preview || "").slice(0, 1200);
+        return `
+          <tr>
+            <td>${doc.id}</td>
+            <td>${escapeHtml(doc.subject || "(sin asunto)")}</td>
+            <td>${escapeHtml(doc.sender || "-")}</td>
+            <td>${escapeHtml(safeDate(doc.received_at))}</td>
+            <td>${escapeHtml(labels || "-")}</td>
+            <td>
+              <details>
+                <summary>Ver texto</summary>
+                <div class="doc-preview"><strong>Cleaned</strong>\n${escapeHtml(cleanPreview || "")}</div>
+                <div class="doc-preview"><strong>Raw</strong>\n${escapeHtml(rawPreview || "")}</div>
+              </details>
+            </td>
+          </tr>
+        `;
+      }).join("");
+    }
+
+    function renderSchedules(schedules) {
+      const tbody = document.getElementById("schedulesTableBody");
+      if (!schedules.length) {
+        tbody.innerHTML = '<tr><td colspan="6" class="muted">Sin schedules.</td></tr>';
+        return;
+      }
+      tbody.innerHTML = schedules.map((schedule) => `
+        <tr>
+          <td>${schedule.id}</td>
+          <td>${escapeHtml(schedule.name || "")}</td>
+          <td>${schedule.enabled ? "true" : "false"}</td>
+          <td>${schedule.every_n_days}d @ ${escapeHtml(schedule.run_time_local || "")} (${escapeHtml(schedule.timezone || "")})</td>
+          <td>${escapeHtml(safeDate(schedule.next_run_at_utc))}</td>
+          <td>
+            <div class="inline-row">
+              <button class="btn-soft" data-action="select-schedule" data-schedule-id="${schedule.id}">Seleccionar</button>
+              <button class="btn-soft" data-action="toggle-schedule" data-schedule-id="${schedule.id}" data-enabled="${schedule.enabled ? "true" : "false"}">${schedule.enabled ? "Disable" : "Enable"}</button>
+              <button class="btn-soft" data-action="run-schedule" data-schedule-id="${schedule.id}">Run now</button>
+            </div>
+          </td>
+        </tr>
+      `).join("");
+    }
+
+    function renderScheduleConfigs(schedule) {
+      const tbody = document.getElementById("scheduleConfigsBody");
+      const configs = Array.isArray(schedule?.configs) ? schedule.configs : [];
+      if (!configs.length) {
+        tbody.innerHTML = '<tr><td colspan="8" class="muted">Sin configs para este schedule.</td></tr>';
+        return;
+      }
+      tbody.innerHTML = configs.map((cfg) => `
+        <tr>
+          <td>${cfg.id}</td>
+          <td>${cfg.execution_order}</td>
+          <td>${escapeHtml(cfg.gmail_query || "")}</td>
+          <td>${escapeHtml(cfg.origin_category || "")}</td>
+          <td>${cfg.mark_as_read ? "true" : "false"}</td>
+          <td>${cfg.limit_messages}</td>
+          <td>${cfg.enabled ? "true" : "false"}</td>
+          <td>
+            <div class="inline-row">
+              <button class="btn-soft" data-action="toggle-config" data-config-id="${cfg.id}" data-enabled="${cfg.enabled ? "true" : "false"}">${cfg.enabled ? "Disable" : "Enable"}</button>
+              <button class="btn-soft" data-action="edit-config" data-config-id="${cfg.id}">Editar</button>
+            </div>
+          </td>
+        </tr>
+      `).join("");
+    }
+
+    function renderScheduleExecutions(executions) {
+      const tbody = document.getElementById("scheduleExecutionsBody");
+      if (!executions.length) {
+        tbody.innerHTML = '<tr><td colspan="6" class="muted">Sin ejecuciones cargadas.</td></tr>';
+        return;
+      }
+      tbody.innerHTML = executions.map((execution) => `
+        <tr>
+          <td>${execution.id}</td>
+          <td>${escapeHtml(execution.status || "")}</td>
+          <td>${escapeHtml(execution.trigger_type || "")}</td>
+          <td>${escapeHtml(safeDate(execution.started_at))}</td>
+          <td>${escapeHtml(safeDate(execution.finished_at))}</td>
+          <td>${Array.isArray(execution.items) ? execution.items.length : 0}</td>
+        </tr>
+      `).join("");
+    }
+
+    async function loadRun(runId) {
+      if (!runId) return;
+      const result = await requestJson(`/app/api/theme-intel/runs/${runId}`);
+      if (result.status !== 200) {
+        showBanner(`Error cargando run ${runId}: ${JSON.stringify(result.body)}`, true);
+        return;
+      }
+      state.activeRunId = runId;
+      state.activeRun = result.body.run;
+      renderRunMetrics(state.activeRun);
+      document.getElementById("debugRunId").value = String(runId);
+      showBanner(`Run ${runId} cargado (${state.activeRun.status}).`);
+
+      if (["queued", "running"].includes(String(state.activeRun.status || ""))) {
+        if (state.pollTimer) clearTimeout(state.pollTimer);
+        state.pollTimer = setTimeout(() => loadRun(runId), 900);
+      }
+    }
+
+    async function loadLatestRun({ silent = false } = {}) {
+      const result = await requestJson("/app/api/theme-intel/runs/latest");
+      if (result.status !== 200) {
+        if (!silent) {
+          showBanner(`No hay runs disponibles: ${JSON.stringify(result.body)}`, true);
+        }
+        return null;
+      }
+      const run = result.body.run || null;
+      if (run && run.id) {
+        await loadRun(Number(run.id));
+        return Number(run.id);
+      }
+      return null;
+    }
+
+    async function runNow() {
+      const runBtn = document.getElementById("runBtn");
+      runBtn.disabled = true;
+      try {
+        const payload = {
+          gmailQuery: document.getElementById("gmailQuery").value,
+          originCategory: document.getElementById("originCategory").value,
+          limitMessages: Number(document.getElementById("limitMessages").value || 100),
+          markAsRead: document.getElementById("markAsRead").value === "true",
+          offline_mode: document.getElementById("offlineMode").checked,
+        };
+        const result = await requestJson("/app/api/theme-intel/runs", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(payload),
+        });
+        if (result.status !== 200) {
+          showBanner(`Error creando run: ${JSON.stringify(result.body)}`, true);
+          return;
+        }
+        const runId = result.body.run_id;
+        showBanner(`Run ${runId} lanzado. Polling automatico activo...`);
+        await loadRun(runId);
+      } finally {
+        runBtn.disabled = false;
+      }
+    }
+
+    async function loadTopics() {
+      const params = new URLSearchParams();
+      const category = document.getElementById("filterCategory").value.trim();
+      const status = document.getElementById("filterStatus").value.trim();
+      const tagsAny = document.getElementById("filterTagsAny").value.trim();
+      const semantic = document.getElementById("filterSemantic").value.trim();
+      if (category) params.set("primary_category", category);
+      if (status) params.set("status", status);
+      if (tagsAny) params.set("tags_any", tagsAny);
+      if (semantic) params.set("semantic_query", semantic);
+
+      const result = await requestJson(`/app/api/theme-intel/topics?${params.toString()}`);
+      if (result.status !== 200) {
+        showBanner(`Error cargando topics: ${JSON.stringify(result.body)}`, true);
+        return;
+      }
+      state.topics = Array.isArray(result.body.topics) ? result.body.topics : [];
+      document.getElementById("topicsMeta").textContent = `${state.topics.length} topics cargados.`;
+      renderTopics(state.topics);
+    }
+
+    async function loadRunDocuments() {
+      let runId = Number(document.getElementById("debugRunId").value || 0);
+      if (!runId && state.activeRunId) {
+        runId = Number(state.activeRunId || 0);
+      }
+      if (!runId) {
+        const latestRunId = await loadLatestRun({ silent: true });
+        if (latestRunId) runId = Number(latestRunId);
+      }
+      if (!runId) {
+        showBanner("No hay run_id valido. Lanza un run primero.", true);
+        return;
+      }
+      const result = await requestJson(`/app/api/theme-intel/runs/${runId}/documents`);
+      if (result.status !== 200) {
+        if (result.status === 404) {
+          const latestRunId = await loadLatestRun({ silent: true });
+          if (latestRunId && latestRunId !== runId) {
+            const retry = await requestJson(`/app/api/theme-intel/runs/${latestRunId}/documents`);
+            if (retry.status === 200) {
+              state.documents = Array.isArray(retry.body.documents) ? retry.body.documents : [];
+              document.getElementById("debugRunId").value = String(latestRunId);
+              renderDocuments(state.documents);
+              showBanner(`Run ${runId} no existe. Mostrando documentos del ultimo run (${latestRunId}).`);
+              return;
+            }
+          }
+        }
+        showBanner(`Error cargando documentos: ${JSON.stringify(result.body)}`, true);
+        return;
+      }
+      state.documents = Array.isArray(result.body.documents) ? result.body.documents : [];
+      renderDocuments(state.documents);
+      showBanner(`Documentos del run ${runId}: ${state.documents.length}.`);
+    }
+
+    async function loadTopicDetail(topicId) {
+      const result = await requestJson(`/app/api/theme-intel/topics/${topicId}`);
+      if (result.status !== 200) {
+        showBanner(`Error cargando topic ${topicId}: ${JSON.stringify(result.body)}`, true);
+        return;
+      }
+      state.selectedTopicId = topicId;
+      renderTopicDetail(result.body.topic);
+      showBanner(`Detalle de topic ${topicId} cargado.`);
+    }
+
+    async function updateTopicStatus(topicId, status) {
+      const result = await requestJson(`/app/api/theme-intel/topics/${topicId}/status`, {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ status }),
+      });
+      if (result.status !== 200) {
+        showBanner(`Error actualizando status: ${JSON.stringify(result.body)}`, true);
+        return;
+      }
+      showBanner(`Topic ${topicId} actualizado a ${status}.`);
+      await loadTopics();
+      await loadTopicDetail(topicId);
+    }
+
+    async function registerTopicUsage(topicId) {
+      const clientName = window.prompt("client_name", "linkedin_drafts");
+      if (!clientName) return;
+      const artifactId = window.prompt("artifact_id (opcional)", "") || null;
+      const result = await requestJson(`/app/api/theme-intel/topics/${topicId}/usage`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ client_name: clientName, artifact_id: artifactId, metadata: {} }),
+      });
+      if (result.status !== 200) {
+        showBanner(`Error registrando uso: ${JSON.stringify(result.body)}`, true);
+        return;
+      }
+      showBanner(`Uso registrado para topic ${topicId} en ${clientName}.`);
+      await loadTopicDetail(topicId);
+    }
+
+    async function refreshTopicRelated(topicId) {
+      const result = await requestJson(`/app/api/theme-intel/topics/${topicId}/related-content/refresh`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          top_k: 10,
+          offline_mode: false,
+        }),
+      });
+      if (result.status !== 200) {
+        showBanner(`Error refrescando related: ${JSON.stringify(result.body)}`, true);
+        return;
+      }
+      showBanner(`Related refresh ejecutado para topic ${topicId}.`);
+      await loadTopics();
+      await loadTopicDetail(topicId);
+    }
+
+    function getSelectedSchedule() {
+      return state.schedules.find((schedule) => Number(schedule.id) === Number(state.selectedScheduleId)) || null;
+    }
+
+    function syncSelectedScheduleInputs(schedule) {
+      if (!schedule) return;
+      state.selectedScheduleId = Number(schedule.id);
+      document.getElementById("selectedScheduleId").value = String(schedule.id);
+      document.getElementById("selectedScheduleName").value = String(schedule.name || "");
+      document.getElementById("selectedScheduleEveryNDays").value = String(schedule.every_n_days || 1);
+      document.getElementById("selectedScheduleRunTime").value = String(schedule.run_time_local || "09:00");
+      document.getElementById("selectedScheduleTimezone").value = String(schedule.timezone || "Europe/Madrid");
+      document.getElementById("selectedScheduleEnabled").checked = Boolean(schedule.enabled);
+      renderScheduleConfigs(schedule);
+    }
+
+    async function loadSchedules(selectScheduleId = null) {
+      const result = await requestJson("/app/api/theme-intel/schedules");
+      if (result.status !== 200) {
+        showBanner(`Error cargando schedules: ${JSON.stringify(result.body)}`, true);
+        return;
+      }
+      state.schedules = Array.isArray(result.body.schedules) ? result.body.schedules : [];
+      renderSchedules(state.schedules);
+
+      let targetId = selectScheduleId;
+      if (!targetId && state.selectedScheduleId) {
+        targetId = state.selectedScheduleId;
+      }
+      if (!targetId && state.schedules.length) {
+        targetId = state.schedules[0].id;
+      }
+      if (targetId) {
+        const selected = state.schedules.find((schedule) => Number(schedule.id) === Number(targetId));
+        if (selected) syncSelectedScheduleInputs(selected);
+      } else {
+        state.selectedScheduleId = null;
+        renderScheduleConfigs(null);
+      }
+    }
+
+    async function createSchedule() {
+      const payload = {
+        name: document.getElementById("scheduleName").value,
+        enabled: document.getElementById("scheduleEnabled").checked,
+        every_n_days: Number(document.getElementById("scheduleEveryNDays").value || 1),
+        run_time_local: document.getElementById("scheduleRunTime").value,
+        timezone: document.getElementById("scheduleTimezone").value,
+      };
+      const result = await requestJson("/app/api/theme-intel/schedules", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+      if (result.status !== 200) {
+        showBanner(`Error creando schedule: ${JSON.stringify(result.body)}`, true);
+        return;
+      }
+      const scheduleId = result.body.schedule?.id;
+      showBanner(`Schedule ${scheduleId} creado.`);
+      await loadSchedules(scheduleId);
+    }
+
+    async function saveSelectedSchedule() {
+      const scheduleId = Number(document.getElementById("selectedScheduleId").value || 0);
+      if (!scheduleId) {
+        showBanner("Selecciona un schedule antes de guardar.", true);
+        return;
+      }
+      const payload = {
+        name: document.getElementById("selectedScheduleName").value,
+        enabled: document.getElementById("selectedScheduleEnabled").checked,
+        every_n_days: Number(document.getElementById("selectedScheduleEveryNDays").value || 1),
+        run_time_local: document.getElementById("selectedScheduleRunTime").value,
+        timezone: document.getElementById("selectedScheduleTimezone").value,
+      };
+      const result = await requestJson(`/app/api/theme-intel/schedules/${scheduleId}`, {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+      if (result.status !== 200) {
+        showBanner(`Error guardando schedule: ${JSON.stringify(result.body)}`, true);
+        return;
+      }
+      showBanner(`Schedule ${scheduleId} actualizado.`);
+      await loadSchedules(scheduleId);
+    }
+
+    async function toggleSchedule(scheduleId, enabled) {
+      const result = await requestJson(`/app/api/theme-intel/schedules/${scheduleId}`, {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ enabled: !enabled }),
+      });
+      if (result.status !== 200) {
+        showBanner(`Error actualizando schedule: ${JSON.stringify(result.body)}`, true);
+        return;
+      }
+      showBanner(`Schedule ${scheduleId} actualizado.`);
+      await loadSchedules(scheduleId);
+    }
+
+    async function addScheduleConfig() {
+      const scheduleId = Number(document.getElementById("selectedScheduleId").value || 0);
+      if (!scheduleId) {
+        showBanner("Selecciona un schedule para anadir config.", true);
+        return;
+      }
+      const payload = {
+        execution_order: Number(document.getElementById("configExecutionOrder").value || 1),
+        gmail_query: document.getElementById("configGmailQuery").value,
+        origin_category: document.getElementById("configOriginCategory").value,
+        mark_as_read: document.getElementById("configMarkAsRead").checked,
+        limit_messages: Number(document.getElementById("configLimitMessages").value || 100),
+        enabled: document.getElementById("configEnabled").checked,
+      };
+      const result = await requestJson(`/app/api/theme-intel/schedules/${scheduleId}/configs`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+      if (result.status !== 200) {
+        showBanner(`Error creando config: ${JSON.stringify(result.body)}`, true);
+        return;
+      }
+      showBanner(`Config ${result.body.config?.id} creada.`);
+      await loadSchedules(scheduleId);
+    }
+
+    async function toggleConfig(configId, enabled) {
+      const scheduleId = Number(document.getElementById("selectedScheduleId").value || 0);
+      if (!scheduleId) return;
+      const result = await requestJson(`/app/api/theme-intel/schedules/${scheduleId}/configs/${configId}`, {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ enabled: !enabled }),
+      });
+      if (result.status !== 200) {
+        showBanner(`Error actualizando config: ${JSON.stringify(result.body)}`, true);
+        return;
+      }
+      showBanner(`Config ${configId} actualizada.`);
+      await loadSchedules(scheduleId);
+    }
+
+    async function editConfig(configId) {
+      const schedule = getSelectedSchedule();
+      if (!schedule) return;
+      const configs = Array.isArray(schedule.configs) ? schedule.configs : [];
+      const config = configs.find((item) => Number(item.id) === Number(configId));
+      if (!config) return;
+
+      const gmailQuery = window.prompt("gmail_query", config.gmail_query || "");
+      if (!gmailQuery) return;
+      const originCategory = window.prompt("origin_category", config.origin_category || "");
+      if (!originCategory) return;
+      const executionOrderRaw = window.prompt("execution_order", String(config.execution_order || 1));
+      if (!executionOrderRaw) return;
+      const limitRaw = window.prompt("limit_messages", String(config.limit_messages || 100));
+      if (!limitRaw) return;
+
+      const result = await requestJson(`/app/api/theme-intel/schedules/${schedule.id}/configs/${configId}`, {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          gmail_query: gmailQuery,
+          origin_category: originCategory,
+          execution_order: Number(executionOrderRaw),
+          limit_messages: Number(limitRaw),
+        }),
+      });
+      if (result.status !== 200) {
+        showBanner(`Error editando config: ${JSON.stringify(result.body)}`, true);
+        return;
+      }
+      showBanner(`Config ${configId} editada.`);
+      await loadSchedules(schedule.id);
+    }
+
+    async function runScheduleNow(scheduleId) {
+      const result = await requestJson(`/app/api/theme-intel/schedules/${scheduleId}/run-now`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ offline_mode: false }),
+      });
+      if (result.status !== 200) {
+        showBanner(`Error ejecutando schedule: ${JSON.stringify(result.body)}`, true);
+        return;
+      }
+      showBanner(`Schedule ${scheduleId} ejecutado.`);
+      await loadScheduleExecutions(scheduleId);
+      await loadSchedules(scheduleId);
+    }
+
+    async function loadScheduleExecutions(scheduleId = null) {
+      let targetId = scheduleId;
+      if (!targetId) {
+        targetId = Number(document.getElementById("selectedScheduleId").value || 0);
+      }
+      if (!targetId) {
+        showBanner("Selecciona un schedule para cargar ejecuciones.", true);
+        return;
+      }
+      const result = await requestJson(`/app/api/theme-intel/schedules/${targetId}/executions?limit=20`);
+      if (result.status !== 200) {
+        showBanner(`Error cargando ejecuciones: ${JSON.stringify(result.body)}`, true);
+        return;
+      }
+      const executions = Array.isArray(result.body.executions) ? result.body.executions : [];
+      renderScheduleExecutions(executions);
+      showBanner(`Ejecuciones de schedule ${targetId}: ${executions.length}.`);
+    }
+
+    async function tickSchedulerManually() {
+      const result = await requestJson("/app/api/theme-intel/scheduler/tick", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ offline_mode: false }),
+      });
+      if (result.status !== 200) {
+        showBanner(`Error haciendo tick: ${JSON.stringify(result.body)}`, true);
+        return;
+      }
+      showBanner(`Tick scheduler ejecutado. Schedules ejecutados: ${result.body.result?.executed_schedules || 0}.`);
+      await loadSchedules();
+      if (state.selectedScheduleId) {
+        await loadScheduleExecutions(state.selectedScheduleId);
+      }
+    }
+
+    document.getElementById("runBtn").addEventListener("click", runNow);
+    document.getElementById("pollBtn").addEventListener("click", () => loadRun(state.activeRunId || Number(document.getElementById("debugRunId").value || 0)));
+    document.getElementById("loadTopicsBtn").addEventListener("click", loadTopics);
+    document.getElementById("loadDocsBtn").addEventListener("click", loadRunDocuments);
+    document.getElementById("createScheduleBtn").addEventListener("click", createSchedule);
+    document.getElementById("loadSchedulesBtn").addEventListener("click", () => loadSchedules());
+    document.getElementById("tickSchedulerBtn").addEventListener("click", tickSchedulerManually);
+    document.getElementById("saveScheduleBtn").addEventListener("click", saveSelectedSchedule);
+    document.getElementById("runSelectedScheduleBtn").addEventListener("click", async () => {
+      const scheduleId = Number(document.getElementById("selectedScheduleId").value || 0);
+      if (!scheduleId) {
+        showBanner("Selecciona un schedule para ejecutar.", true);
+        return;
+      }
+      await runScheduleNow(scheduleId);
+    });
+    document.getElementById("loadScheduleExecutionsBtn").addEventListener("click", () => loadScheduleExecutions());
+    document.getElementById("addConfigBtn").addEventListener("click", addScheduleConfig);
+
+    document.getElementById("topicList").addEventListener("click", async (event) => {
+      const target = event.target;
+      if (!(target instanceof HTMLElement)) return;
+      const action = target.dataset.action;
+      const topicId = Number(target.dataset.topicId || 0);
+      if (!action || !topicId) return;
+
+      if (action === "detail") {
+        await loadTopicDetail(topicId);
+        return;
+      }
+      if (action === "status") {
+        const status = String(target.dataset.status || "");
+        if (status) await updateTopicStatus(topicId, status);
+        return;
+      }
+      if (action === "usage") {
+        await registerTopicUsage(topicId);
+        return;
+      }
+      if (action === "refresh-related") {
+        await refreshTopicRelated(topicId);
+      }
+    });
+
+    document.getElementById("schedulesTableBody").addEventListener("click", async (event) => {
+      const target = event.target;
+      if (!(target instanceof HTMLElement)) return;
+      const action = target.dataset.action;
+      const scheduleId = Number(target.dataset.scheduleId || 0);
+      if (!action || !scheduleId) return;
+
+      if (action === "select-schedule") {
+        const selected = state.schedules.find((schedule) => Number(schedule.id) === scheduleId);
+        if (selected) {
+          syncSelectedScheduleInputs(selected);
+          await loadScheduleExecutions(scheduleId);
+        }
+        return;
+      }
+      if (action === "toggle-schedule") {
+        const enabled = String(target.dataset.enabled || "") === "true";
+        await toggleSchedule(scheduleId, enabled);
+        return;
+      }
+      if (action === "run-schedule") {
+        await runScheduleNow(scheduleId);
+      }
+    });
+
+    document.getElementById("scheduleConfigsBody").addEventListener("click", async (event) => {
+      const target = event.target;
+      if (!(target instanceof HTMLElement)) return;
+      const action = target.dataset.action;
+      const configId = Number(target.dataset.configId || 0);
+      if (!action || !configId) return;
+      if (action === "toggle-config") {
+        const enabled = String(target.dataset.enabled || "") === "true";
+        await toggleConfig(configId, enabled);
+        return;
+      }
+      if (action === "edit-config") {
+        await editConfig(configId);
+      }
+    });
+
+    // Initial state
+    renderRunMetrics(null);
+    renderTopics([]);
+    renderDocuments([]);
+    renderSchedules([]);
+    renderScheduleConfigs(null);
+    renderScheduleExecutions([]);
+    showBanner("Listo. Cargando ultimo run disponible...");
+    loadLatestRun({ silent: true }).then((runId) => {
+      if (runId) {
+        loadRunDocuments();
+      } else {
+        showBanner("Listo. Lanza un run o carga topics/documentos para inspeccionar.");
+      }
+    });
+    loadSchedules();
+  </script>
+</body>
+</html>

@@ -16,6 +16,8 @@ from src.infrastructure.repositories.content_chunks import ContentChunksReposito
 from src.infrastructure.repositories.legacy_chunks import LegacyChunksRepository
 from src.pipeline.models import RunroomArticle
 
+THEME_INTEL_RESET_CONFIRM_TOKEN = "theme-intel"
+
 
 def dispatch_command(args: argparse.Namespace, settings: Settings, schema_path: Path) -> None:
     if args.command == "migrate-schema":
@@ -27,6 +29,24 @@ def dispatch_command(args: argparse.Namespace, settings: Settings, schema_path: 
         finally:
             storage.close()
         print(json.dumps({"ok": True, "schema_path": str(args.schema_path)}, indent=2, ensure_ascii=False))
+        return
+
+    if args.command == "reset-theme-intel":
+        from src.pipeline.storage import SupabaseStorage
+
+        if args.confirm.strip() != THEME_INTEL_RESET_CONFIRM_TOKEN:
+            raise SystemExit(
+                "Confirmacion requerida. Ejecuta con "
+                f'--confirm "{THEME_INTEL_RESET_CONFIRM_TOKEN}" para borrar datos de Theme Intel.'
+            )
+
+        storage = SupabaseStorage(settings.supabase_db_url)
+        try:
+            storage.ensure_schema(schema_path)
+            summary = storage.reset_theme_intel_data(dry_run=bool(args.dry_run))
+        finally:
+            storage.close()
+        print(json.dumps(summary, indent=2, ensure_ascii=False))
         return
 
     if args.command == "ingest-transcripts":

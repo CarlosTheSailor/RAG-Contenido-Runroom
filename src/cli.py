@@ -15,6 +15,18 @@ def build_parser() -> argparse.ArgumentParser:
     migrate_cmd = sub.add_parser("migrate-schema", help="Apply SQL migrations in /sql")
     migrate_cmd.add_argument("--schema-path", type=Path, default=Path("sql"))
 
+    reset_theme_intel_cmd = sub.add_parser(
+        "reset-theme-intel",
+        help="Delete all Theme Intel data only (keeps legacy/canonical content untouched)",
+    )
+    reset_theme_intel_cmd.add_argument(
+        "--confirm",
+        type=str,
+        default="",
+        help='Safety confirmation token. Required value: "theme-intel"',
+    )
+    reset_theme_intel_cmd.add_argument("--dry-run", action="store_true", help="Only show row counts, do not delete")
+
     ingest_cmd = sub.add_parser("ingest-transcripts", help="Parse transcripts, chunk, enrich and load into Supabase")
     ingest_cmd.add_argument("--transcripts-dir", default="transcripciones", type=Path)
     ingest_cmd.add_argument("--target-tokens", default=220, type=int)

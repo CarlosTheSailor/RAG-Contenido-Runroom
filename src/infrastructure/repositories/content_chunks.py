@@ -30,6 +30,9 @@ class ContentChunksRepository:
     def list_content_items(self, content_types: list[str] | None = None, limit: int | None = None) -> list[dict[str, Any]]:
         return self._storage.list_content_items(content_types=content_types, limit=limit)
 
+    def list_content_types(self) -> list[str]:
+        return self._storage.list_content_types()
+
     def list_content_chunks_for_item(self, content_item_id: int, limit: int | None = None) -> list[dict[str, Any]]:
         return self._storage.list_content_chunks_for_item(content_item_id=content_item_id, limit=limit)
 

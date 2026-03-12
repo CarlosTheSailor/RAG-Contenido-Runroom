@@ -1,0 +1,13 @@
+[ORIGIN_CATEGORY]
+{{origin_category}}
+
+[GMAIL_QUERY]
+{{gmail_query}}
+
+[NEWSLETTERS_CLEAN]
+{{newsletters_clean}}
+
+Instrucciones finales:
+- Usa solo informacion del input.
+- Prioriza temas utiles para equipos de CX, Growth, Product, Design, Tech, IA u otras categorias cuando aplique.
+- Mantén salida estrictamente en el JSON requerido.

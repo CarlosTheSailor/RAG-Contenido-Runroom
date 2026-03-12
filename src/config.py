@@ -38,6 +38,13 @@ class Settings:
     auto_match_threshold: float
     auto_match_margin: float
     log_level: str
+    openai_theme_intel_model: str | None = None
+    theme_intel_dedupe_threshold: float = 0.9
+    theme_intel_dedupe_window_days: int = 30
+    gmail_oauth_client_id: str | None = None
+    gmail_oauth_client_secret: str | None = None
+    gmail_oauth_refresh_token: str | None = None
+    gmail_source_account: str = "newsletters@runroom.com"
 
     @classmethod
     def from_env(cls) -> "Settings":
@@ -66,6 +73,19 @@ class Settings:
             auto_match_threshold=float(os.getenv("AUTO_MATCH_THRESHOLD", "0.86")),
             auto_match_margin=float(os.getenv("AUTO_MATCH_MARGIN", "0.06")),
             log_level=os.getenv("LOG_LEVEL", "INFO").upper(),
+            openai_theme_intel_model=os.getenv("OPENAI_THEME_INTEL_MODEL") or None,
+            theme_intel_dedupe_threshold=_as_float_in_range(
+                os.getenv("THEME_INTEL_DEDUPE_THRESHOLD"),
+                default=0.9,
+                min_value=0.0,
+                max_value=1.0,
+                name="THEME_INTEL_DEDUPE_THRESHOLD",
+            ),
+            theme_intel_dedupe_window_days=int(os.getenv("THEME_INTEL_DEDUPE_WINDOW_DAYS", "30")),
+            gmail_oauth_client_id=os.getenv("GMAIL_OAUTH_CLIENT_ID") or None,
+            gmail_oauth_client_secret=os.getenv("GMAIL_OAUTH_CLIENT_SECRET") or None,
+            gmail_oauth_refresh_token=os.getenv("GMAIL_OAUTH_REFRESH_TOKEN") or None,
+            gmail_source_account=os.getenv("GMAIL_SOURCE_ACCOUNT", "newsletters@runroom.com"),
         )
 
 

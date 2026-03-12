@@ -16,6 +16,23 @@ from src.pipeline.schema import apply_migrations
 
 logger = logging.getLogger(__name__)
 
+THEME_INTEL_TABLES: tuple[str, ...] = (
+    "theme_schedule_execution_items",
+    "theme_schedule_executions",
+    "theme_schedule_configs",
+    "theme_schedules",
+    "theme_topic_usage",
+    "theme_topic_embeddings",
+    "theme_related_content",
+    "theme_evidences",
+    "theme_topic_tags",
+    "theme_topic_source_documents",
+    "theme_topics",
+    "source_documents",
+    "theme_categories",
+    "theme_runs",
+)
+
 
 class SupabaseStorage:
     def __init__(self, dsn: str):
@@ -26,6 +43,44 @@ class SupabaseStorage:
 
     def ensure_schema(self, schema_path: Path) -> None:
         apply_migrations(self._conn, schema_path)
+
+    def count_theme_intel_rows(self) -> dict[str, int]:
+        counts: dict[str, int] = {}
+        with self._conn.cursor() as cur:
+            for table_name in THEME_INTEL_TABLES:
+                cur.execute(f"SELECT COUNT(*) AS total FROM {table_name}")
+                row = cur.fetchone()
+                counts[table_name] = int(row["total"]) if row is not None else 0
+        return counts
+
+    def reset_theme_intel_data(self, dry_run: bool = False) -> dict[str, Any]:
+        before = self.count_theme_intel_rows()
+        if dry_run:
+            return {
+                "dry_run": True,
+                "tables": list(THEME_INTEL_TABLES),
+                "rows_before": before,
+                "rows_after": before,
+                "rows_deleted_total": 0,
+            }
+
+        with self._conn.cursor() as cur:
+            cur.execute(
+                f"""
+                TRUNCATE TABLE
+                    {", ".join(THEME_INTEL_TABLES)}
+                RESTART IDENTITY
+                """
+            )
+        self._conn.commit()
+        after = self.count_theme_intel_rows()
+        return {
+            "dry_run": False,
+            "tables": list(THEME_INTEL_TABLES),
+            "rows_before": before,
+            "rows_after": after,
+            "rows_deleted_total": max(0, sum(before.values()) - sum(after.values())),
+        }
 
     # ---------------------------
     # Legacy episode/chunk methods
@@ -684,6 +739,24 @@ class SupabaseStorage:
             cur.execute(query, params)
             rows = cur.fetchall()
         return list(rows)
+
+    def list_content_types(self) -> list[str]:
+        with self._conn.cursor() as cur:
+            cur.execute(
+                """
+                SELECT DISTINCT content_type
+                FROM content_items
+                WHERE content_type IS NOT NULL AND btrim(content_type) <> ''
+                ORDER BY content_type
+                """
+            )
+            rows = cur.fetchall()
+        output: list[str] = []
+        for row in rows:
+            content_type = str(row.get("content_type") or "").strip()
+            if content_type:
+                output.append(content_type)
+        return output
 
     def get_content_item_by_legacy_episode_id(self, legacy_episode_id: int) -> dict[str, Any] | None:
         with self._conn.cursor() as cur:

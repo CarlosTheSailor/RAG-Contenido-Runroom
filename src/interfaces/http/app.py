@@ -9,7 +9,7 @@ from urllib.parse import urlparse
 from uuid import uuid4
 
 from authlib.integrations.starlette_client import OAuth, OAuthError
-from fastapi import Depends, FastAPI, File, Form, HTTPException, Request, Security, UploadFile
+from fastapi import BackgroundTasks, Depends, FastAPI, File, Form, HTTPException, Request, Security, UploadFile
 from fastapi.responses import HTMLResponse, RedirectResponse
 from fastapi.security import APIKeyHeader
 from fastapi.templating import Jinja2Templates
@@ -28,6 +28,30 @@ from src.interfaces.http.schemas import (
     RecommendContentResponseModel,
     RunroomLabIngestUrlRequestModel,
     RunroomLabIngestUrlResponseModel,
+    ThemeIntelRelatedRefreshRequestModel,
+    ThemeIntelRelatedRefreshResponseModel,
+    ThemeIntelRunCreateRequestModel,
+    ThemeIntelRunCreateResponseModel,
+    ThemeIntelRunDocumentsResponseModel,
+    ThemeIntelRunGetResponseModel,
+    ThemeIntelScheduleConfigCreateRequestModel,
+    ThemeIntelScheduleConfigResponseModel,
+    ThemeIntelScheduleConfigUpdateRequestModel,
+    ThemeIntelScheduleCreateRequestModel,
+    ThemeIntelScheduleExecutionsResponseModel,
+    ThemeIntelScheduleListResponseModel,
+    ThemeIntelScheduleResponseModel,
+    ThemeIntelScheduleRunNowRequestModel,
+    ThemeIntelScheduleRunNowResponseModel,
+    ThemeIntelScheduleUpdateRequestModel,
+    ThemeIntelSchedulerTickRequestModel,
+    ThemeIntelSchedulerTickResponseModel,
+    ThemeIntelTopicDetailResponseModel,
+    ThemeIntelTopicListResponseModel,
+    ThemeIntelTopicStatusUpdateRequestModel,
+    ThemeIntelTopicStatusUpdateResponseModel,
+    ThemeIntelTopicUsageRequestModel,
+    ThemeIntelTopicUsageResponseModel,
 )
 from src.interfaces.http.services import QueryApiService
 from src.pipeline.manual_episode_ingest import DuplicateEpisodeSourceFilenameError
@@ -75,6 +99,125 @@ class QueryServicePort(Protocol):
         transcript_bytes: bytes,
         runroom_url: str,
     ) -> dict[str, Any]:
+        ...
+
+    def create_theme_intel_run(
+        self,
+        gmail_query: str,
+        origin_category: str,
+        mark_as_read: bool,
+        limit_messages: int = 100,
+        triggered_by_email: str | None = None,
+    ) -> dict[str, Any]:
+        ...
+
+    def execute_theme_intel_run(self, run_id: int, offline_mode: bool = False) -> None:
+        ...
+
+    def get_theme_intel_run(self, run_id: int) -> dict[str, Any] | None:
+        ...
+
+    def get_latest_theme_intel_run(self) -> dict[str, Any] | None:
+        ...
+
+    def list_theme_intel_run_source_documents(self, run_id: int) -> list[dict[str, Any]]:
+        ...
+
+    def list_theme_intel_topics(
+        self,
+        primary_category: str | None = None,
+        status: str | None = None,
+        tags_any: list[str] | None = None,
+        tags_all: list[str] | None = None,
+        min_score: float | None = None,
+        semantic_query: str | None = None,
+        limit: int = 50,
+        offset: int = 0,
+        offline_mode: bool = False,
+    ) -> list[dict[str, Any]]:
+        ...
+
+    def update_theme_intel_topic_status(self, topic_id: int, status: str) -> dict[str, Any] | None:
+        ...
+
+    def register_theme_intel_topic_usage(
+        self,
+        topic_id: int,
+        client_name: str,
+        artifact_id: str | None = None,
+        metadata: dict[str, Any] | None = None,
+    ) -> dict[str, Any]:
+        ...
+
+    def refresh_theme_intel_related_content(
+        self,
+        topic_id: int,
+        top_k: int | None = 10,
+        content_types: list[str] | None = None,
+        related_counts_by_type: dict[str, int] | None = None,
+        offline_mode: bool = False,
+    ) -> dict[str, Any]:
+        ...
+
+    def get_theme_intel_topic_detail(self, topic_id: int) -> dict[str, Any] | None:
+        ...
+
+    def create_theme_intel_schedule(
+        self,
+        name: str,
+        enabled: bool = True,
+        every_n_days: int = 1,
+        run_time_local: str = "09:00",
+        timezone_name: str = "Europe/Madrid",
+    ) -> dict[str, Any]:
+        ...
+
+    def list_theme_intel_schedules(self) -> list[dict[str, Any]]:
+        ...
+
+    def update_theme_intel_schedule(
+        self,
+        schedule_id: int,
+        name: str | None = None,
+        enabled: bool | None = None,
+        every_n_days: int | None = None,
+        run_time_local: str | None = None,
+        timezone_name: str | None = None,
+    ) -> dict[str, Any] | None:
+        ...
+
+    def create_theme_intel_schedule_config(
+        self,
+        schedule_id: int,
+        execution_order: int,
+        gmail_query: str,
+        origin_category: str,
+        mark_as_read: bool,
+        limit_messages: int,
+        enabled: bool = True,
+    ) -> dict[str, Any]:
+        ...
+
+    def update_theme_intel_schedule_config(
+        self,
+        schedule_id: int,
+        config_id: int,
+        execution_order: int | None = None,
+        gmail_query: str | None = None,
+        origin_category: str | None = None,
+        mark_as_read: bool | None = None,
+        limit_messages: int | None = None,
+        enabled: bool | None = None,
+    ) -> dict[str, Any] | None:
+        ...
+
+    def run_theme_intel_schedule_now(self, schedule_id: int, offline_mode: bool = False) -> dict[str, Any]:
+        ...
+
+    def list_theme_intel_schedule_executions(self, schedule_id: int, limit: int = 20) -> list[dict[str, Any]]:
+        ...
+
+    def tick_theme_intel_scheduler(self, offline_mode: bool = False) -> dict[str, Any]:
         ...
 
 
@@ -338,6 +481,47 @@ def create_app(
             "summary": result["summary"],
         }
 
+    def _parse_csv_tags(value: Optional[str]) -> list[str]:
+        if value is None:
+            return []
+        return [item.strip() for item in value.split(",") if item.strip()]
+
+    def list_theme_topics_payload(
+        primary_category: Optional[str] = None,
+        status: Optional[str] = None,
+        tags_any: Optional[str] = None,
+        tags_all: Optional[str] = None,
+        min_score: Optional[float] = None,
+        semantic_query: Optional[str] = None,
+        limit: int = 50,
+        offset: int = 0,
+        offline_mode: bool = False,
+    ) -> Dict[str, Any]:
+        topics = service.list_theme_intel_topics(
+            primary_category=primary_category,
+            status=status,
+            tags_any=_parse_csv_tags(tags_any),
+            tags_all=_parse_csv_tags(tags_all),
+            min_score=min_score,
+            semantic_query=semantic_query,
+            limit=limit,
+            offset=offset,
+            offline_mode=offline_mode,
+        )
+        return {
+            "request_id": str(uuid4()),
+            "total": len(topics),
+            "topics": topics,
+        }
+
+    def list_theme_schedules_payload() -> Dict[str, Any]:
+        schedules = service.list_theme_intel_schedules()
+        return {
+            "request_id": str(uuid4()),
+            "total": len(schedules),
+            "schedules": schedules,
+        }
+
     @app.get("/", response_class=HTMLResponse)
     def root(request: Request) -> Any:
         if _session_user(request):
@@ -409,6 +593,17 @@ def create_app(
         return templates.TemplateResponse(
             request,
             "newsletter_linkedin.html",
+            {"user": user},
+        )
+
+    @app.get("/app/theme-intel", response_class=HTMLResponse)
+    def app_theme_intel_page(request: Request) -> Any:
+        user = _session_user(request)
+        if user is None:
+            return RedirectResponse(url="/", status_code=302)
+        return templates.TemplateResponse(
+            request,
+            "theme_intel.html",
             {"user": user},
         )
 
@@ -526,6 +721,501 @@ def create_app(
             transcript_bytes=transcript_bytes,
             runroom_url=runroom_url,
         )
+
+    @app.post(
+        "/app/api/theme-intel/runs",
+        response_model=ThemeIntelRunCreateResponseModel,
+    )
+    def app_create_theme_run(
+        payload: ThemeIntelRunCreateRequestModel,
+        background_tasks: BackgroundTasks,
+        user: dict[str, str] = Depends(require_session_api_user),
+    ) -> Dict[str, Any]:
+        try:
+            created = service.create_theme_intel_run(
+                gmail_query=payload.gmailQuery,
+                origin_category=payload.originCategory,
+                mark_as_read=payload.markAsRead,
+                limit_messages=payload.limitMessages,
+                triggered_by_email=user["email"],
+            )
+        except ValueError as exc:
+            raise HTTPException(status_code=422, detail=str(exc)) from exc
+        run_id = int(created["run_id"])
+        background_tasks.add_task(service.execute_theme_intel_run, run_id, payload.offline_mode)
+        return {
+            "request_id": str(uuid4()),
+            "run_id": run_id,
+            "status": str(created.get("status") or "queued"),
+        }
+
+    @app.get(
+        "/app/api/theme-intel/runs/latest",
+        response_model=ThemeIntelRunGetResponseModel,
+    )
+    def app_get_latest_theme_run(
+        _: dict[str, str] = Depends(require_session_api_user),
+    ) -> Dict[str, Any]:
+        run = service.get_latest_theme_intel_run()
+        if run is None:
+            raise HTTPException(status_code=404, detail="Theme run not found")
+        return {"request_id": str(uuid4()), "run": run}
+
+    @app.get(
+        "/app/api/theme-intel/runs/{run_id}",
+        response_model=ThemeIntelRunGetResponseModel,
+    )
+    def app_get_theme_run(
+        run_id: int,
+        _: dict[str, str] = Depends(require_session_api_user),
+    ) -> Dict[str, Any]:
+        run = service.get_theme_intel_run(run_id=run_id)
+        if run is None:
+            raise HTTPException(status_code=404, detail="Theme run not found")
+        return {"request_id": str(uuid4()), "run": run}
+
+    @app.get(
+        "/app/api/theme-intel/runs/{run_id}/documents",
+        response_model=ThemeIntelRunDocumentsResponseModel,
+    )
+    def app_get_theme_run_documents(
+        run_id: int,
+        _: dict[str, str] = Depends(require_session_api_user),
+    ) -> Dict[str, Any]:
+        run = service.get_theme_intel_run(run_id=run_id)
+        if run is None:
+            raise HTTPException(status_code=404, detail="Theme run not found")
+        documents = service.list_theme_intel_run_source_documents(run_id=run_id)
+        return {
+            "request_id": str(uuid4()),
+            "run_id": run_id,
+            "total": len(documents),
+            "documents": documents,
+        }
+
+    @app.get(
+        "/app/api/theme-intel/topics",
+        response_model=ThemeIntelTopicListResponseModel,
+    )
+    def app_list_theme_topics(
+        primary_category: Optional[str] = None,
+        status: Optional[str] = None,
+        tags_any: Optional[str] = None,
+        tags_all: Optional[str] = None,
+        min_score: Optional[float] = None,
+        semantic_query: Optional[str] = None,
+        limit: int = 50,
+        offset: int = 0,
+        offline_mode: bool = False,
+        _: dict[str, str] = Depends(require_session_api_user),
+    ) -> Dict[str, Any]:
+        return list_theme_topics_payload(
+            primary_category=primary_category,
+            status=status,
+            tags_any=tags_any,
+            tags_all=tags_all,
+            min_score=min_score,
+            semantic_query=semantic_query,
+            limit=limit,
+            offset=offset,
+            offline_mode=offline_mode,
+        )
+
+    @app.patch(
+        "/app/api/theme-intel/topics/{topic_id}/status",
+        response_model=ThemeIntelTopicStatusUpdateResponseModel,
+    )
+    def app_update_theme_topic_status(
+        topic_id: int,
+        payload: ThemeIntelTopicStatusUpdateRequestModel,
+        _: dict[str, str] = Depends(require_session_api_user),
+    ) -> Dict[str, Any]:
+        topic = service.update_theme_intel_topic_status(topic_id=topic_id, status=payload.status)
+        if topic is None:
+            raise HTTPException(status_code=404, detail="Theme topic not found")
+        return {"request_id": str(uuid4()), "topic": topic}
+
+    @app.post(
+        "/app/api/theme-intel/topics/{topic_id}/usage",
+        response_model=ThemeIntelTopicUsageResponseModel,
+    )
+    def app_register_theme_topic_usage(
+        topic_id: int,
+        payload: ThemeIntelTopicUsageRequestModel,
+        _: dict[str, str] = Depends(require_session_api_user),
+    ) -> Dict[str, Any]:
+        usage = service.register_theme_intel_topic_usage(
+            topic_id=topic_id,
+            client_name=payload.client_name,
+            artifact_id=payload.artifact_id,
+            metadata=payload.metadata,
+        )
+        return {"request_id": str(uuid4()), "usage": usage}
+
+    @app.get(
+        "/app/api/theme-intel/topics/{topic_id}",
+        response_model=ThemeIntelTopicDetailResponseModel,
+    )
+    def app_get_theme_topic_detail(
+        topic_id: int,
+        _: dict[str, str] = Depends(require_session_api_user),
+    ) -> Dict[str, Any]:
+        topic = service.get_theme_intel_topic_detail(topic_id=topic_id)
+        if topic is None:
+            raise HTTPException(status_code=404, detail="Theme topic not found")
+        return {"request_id": str(uuid4()), "topic": topic}
+
+    @app.post(
+        "/app/api/theme-intel/topics/{topic_id}/related-content/refresh",
+        response_model=ThemeIntelRelatedRefreshResponseModel,
+    )
+    def app_refresh_theme_related_content(
+        topic_id: int,
+        payload: ThemeIntelRelatedRefreshRequestModel,
+        _: dict[str, str] = Depends(require_session_api_user),
+    ) -> Dict[str, Any]:
+        try:
+            result = service.refresh_theme_intel_related_content(
+                topic_id=topic_id,
+                top_k=payload.top_k,
+                content_types=payload.content_types,
+                related_counts_by_type=payload.related_counts_by_type,
+                offline_mode=payload.offline_mode,
+            )
+        except ValueError as exc:
+            raise HTTPException(status_code=404, detail=str(exc)) from exc
+        return {"request_id": str(uuid4()), "result": result}
+
+    @app.post(
+        "/app/api/theme-intel/schedules",
+        response_model=ThemeIntelScheduleResponseModel,
+    )
+    def app_create_theme_schedule(
+        payload: ThemeIntelScheduleCreateRequestModel,
+        _: dict[str, str] = Depends(require_session_api_user),
+    ) -> Dict[str, Any]:
+        try:
+            schedule = service.create_theme_intel_schedule(
+                name=payload.name,
+                enabled=payload.enabled,
+                every_n_days=payload.every_n_days,
+                run_time_local=payload.run_time_local,
+                timezone_name=payload.timezone,
+            )
+        except ValueError as exc:
+            raise HTTPException(status_code=422, detail=str(exc)) from exc
+        return {"request_id": str(uuid4()), "schedule": schedule}
+
+    @app.get(
+        "/app/api/theme-intel/schedules",
+        response_model=ThemeIntelScheduleListResponseModel,
+    )
+    def app_list_theme_schedules(
+        _: dict[str, str] = Depends(require_session_api_user),
+    ) -> Dict[str, Any]:
+        return list_theme_schedules_payload()
+
+    @app.patch(
+        "/app/api/theme-intel/schedules/{schedule_id}",
+        response_model=ThemeIntelScheduleResponseModel,
+    )
+    def app_update_theme_schedule(
+        schedule_id: int,
+        payload: ThemeIntelScheduleUpdateRequestModel,
+        _: dict[str, str] = Depends(require_session_api_user),
+    ) -> Dict[str, Any]:
+        try:
+            schedule = service.update_theme_intel_schedule(
+                schedule_id=schedule_id,
+                name=payload.name,
+                enabled=payload.enabled,
+                every_n_days=payload.every_n_days,
+                run_time_local=payload.run_time_local,
+                timezone_name=payload.timezone,
+            )
+        except ValueError as exc:
+            raise HTTPException(status_code=422, detail=str(exc)) from exc
+        if schedule is None:
+            raise HTTPException(status_code=404, detail="Theme schedule not found")
+        return {"request_id": str(uuid4()), "schedule": schedule}
+
+    @app.post(
+        "/app/api/theme-intel/schedules/{schedule_id}/configs",
+        response_model=ThemeIntelScheduleConfigResponseModel,
+    )
+    def app_create_theme_schedule_config(
+        schedule_id: int,
+        payload: ThemeIntelScheduleConfigCreateRequestModel,
+        _: dict[str, str] = Depends(require_session_api_user),
+    ) -> Dict[str, Any]:
+        try:
+            config = service.create_theme_intel_schedule_config(
+                schedule_id=schedule_id,
+                execution_order=payload.execution_order,
+                gmail_query=payload.gmail_query,
+                origin_category=payload.origin_category,
+                mark_as_read=payload.mark_as_read,
+                limit_messages=payload.limit_messages,
+                enabled=payload.enabled,
+            )
+        except ValueError as exc:
+            detail = str(exc)
+            status_code = 404 if "Schedule no encontrado" in detail else 422
+            raise HTTPException(status_code=status_code, detail=detail) from exc
+        return {"request_id": str(uuid4()), "config": config}
+
+    @app.patch(
+        "/app/api/theme-intel/schedules/{schedule_id}/configs/{config_id}",
+        response_model=ThemeIntelScheduleConfigResponseModel,
+    )
+    def app_update_theme_schedule_config(
+        schedule_id: int,
+        config_id: int,
+        payload: ThemeIntelScheduleConfigUpdateRequestModel,
+        _: dict[str, str] = Depends(require_session_api_user),
+    ) -> Dict[str, Any]:
+        try:
+            config = service.update_theme_intel_schedule_config(
+                schedule_id=schedule_id,
+                config_id=config_id,
+                execution_order=payload.execution_order,
+                gmail_query=payload.gmail_query,
+                origin_category=payload.origin_category,
+                mark_as_read=payload.mark_as_read,
+                limit_messages=payload.limit_messages,
+                enabled=payload.enabled,
+            )
+        except ValueError as exc:
+            raise HTTPException(status_code=422, detail=str(exc)) from exc
+        if config is None:
+            raise HTTPException(status_code=404, detail="Theme schedule config not found")
+        return {"request_id": str(uuid4()), "config": config}
+
+    @app.post(
+        "/app/api/theme-intel/schedules/{schedule_id}/run-now",
+        response_model=ThemeIntelScheduleRunNowResponseModel,
+    )
+    def app_run_theme_schedule_now(
+        schedule_id: int,
+        payload: ThemeIntelScheduleRunNowRequestModel,
+        _: dict[str, str] = Depends(require_session_api_user),
+    ) -> Dict[str, Any]:
+        try:
+            result = service.run_theme_intel_schedule_now(
+                schedule_id=schedule_id,
+                offline_mode=payload.offline_mode,
+            )
+        except ValueError as exc:
+            raise HTTPException(status_code=404, detail=str(exc)) from exc
+        return {"request_id": str(uuid4()), "result": result}
+
+    @app.get(
+        "/app/api/theme-intel/schedules/{schedule_id}/executions",
+        response_model=ThemeIntelScheduleExecutionsResponseModel,
+    )
+    def app_list_theme_schedule_executions(
+        schedule_id: int,
+        limit: int = 20,
+        _: dict[str, str] = Depends(require_session_api_user),
+    ) -> Dict[str, Any]:
+        try:
+            executions = service.list_theme_intel_schedule_executions(
+                schedule_id=schedule_id,
+                limit=limit,
+            )
+        except ValueError as exc:
+            raise HTTPException(status_code=404, detail=str(exc)) from exc
+        return {
+            "request_id": str(uuid4()),
+            "schedule_id": schedule_id,
+            "total": len(executions),
+            "executions": executions,
+        }
+
+    @app.post(
+        "/app/api/theme-intel/scheduler/tick",
+        response_model=ThemeIntelSchedulerTickResponseModel,
+    )
+    def app_tick_theme_scheduler(
+        payload: Optional[ThemeIntelSchedulerTickRequestModel] = None,
+        _: dict[str, str] = Depends(require_session_api_user),
+    ) -> Dict[str, Any]:
+        result = service.tick_theme_intel_scheduler(offline_mode=bool(payload and payload.offline_mode))
+        return {"request_id": str(uuid4()), "result": result}
+
+    @app.post(
+        "/v1/theme-intel/runs",
+        response_model=ThemeIntelRunCreateResponseModel,
+    )
+    def create_theme_run_v1(
+        payload: ThemeIntelRunCreateRequestModel,
+        background_tasks: BackgroundTasks,
+        _: None = Security(require_api_key),
+    ) -> Dict[str, Any]:
+        try:
+            created = service.create_theme_intel_run(
+                gmail_query=payload.gmailQuery,
+                origin_category=payload.originCategory,
+                mark_as_read=payload.markAsRead,
+                limit_messages=payload.limitMessages,
+            )
+        except ValueError as exc:
+            raise HTTPException(status_code=422, detail=str(exc)) from exc
+        run_id = int(created["run_id"])
+        background_tasks.add_task(service.execute_theme_intel_run, run_id, payload.offline_mode)
+        return {
+            "request_id": str(uuid4()),
+            "run_id": run_id,
+            "status": str(created.get("status") or "queued"),
+        }
+
+    @app.get(
+        "/v1/theme-intel/runs/latest",
+        response_model=ThemeIntelRunGetResponseModel,
+    )
+    def get_latest_theme_run_v1(
+        _: None = Security(require_api_key),
+    ) -> Dict[str, Any]:
+        run = service.get_latest_theme_intel_run()
+        if run is None:
+            raise HTTPException(status_code=404, detail="Theme run not found")
+        return {"request_id": str(uuid4()), "run": run}
+
+    @app.get(
+        "/v1/theme-intel/runs/{run_id}",
+        response_model=ThemeIntelRunGetResponseModel,
+    )
+    def get_theme_run_v1(
+        run_id: int,
+        _: None = Security(require_api_key),
+    ) -> Dict[str, Any]:
+        run = service.get_theme_intel_run(run_id=run_id)
+        if run is None:
+            raise HTTPException(status_code=404, detail="Theme run not found")
+        return {"request_id": str(uuid4()), "run": run}
+
+    @app.get(
+        "/v1/theme-intel/runs/{run_id}/documents",
+        response_model=ThemeIntelRunDocumentsResponseModel,
+    )
+    def get_theme_run_documents_v1(
+        run_id: int,
+        _: None = Security(require_api_key),
+    ) -> Dict[str, Any]:
+        run = service.get_theme_intel_run(run_id=run_id)
+        if run is None:
+            raise HTTPException(status_code=404, detail="Theme run not found")
+        documents = service.list_theme_intel_run_source_documents(run_id=run_id)
+        return {
+            "request_id": str(uuid4()),
+            "run_id": run_id,
+            "total": len(documents),
+            "documents": documents,
+        }
+
+    @app.get(
+        "/v1/theme-intel/topics",
+        response_model=ThemeIntelTopicListResponseModel,
+    )
+    def list_theme_topics_v1(
+        primary_category: Optional[str] = None,
+        status: Optional[str] = None,
+        tags_any: Optional[str] = None,
+        tags_all: Optional[str] = None,
+        min_score: Optional[float] = None,
+        semantic_query: Optional[str] = None,
+        limit: int = 50,
+        offset: int = 0,
+        offline_mode: bool = False,
+        _: None = Security(require_api_key),
+    ) -> Dict[str, Any]:
+        return list_theme_topics_payload(
+            primary_category=primary_category,
+            status=status,
+            tags_any=tags_any,
+            tags_all=tags_all,
+            min_score=min_score,
+            semantic_query=semantic_query,
+            limit=limit,
+            offset=offset,
+            offline_mode=offline_mode,
+        )
+
+    @app.patch(
+        "/v1/theme-intel/topics/{topic_id}/status",
+        response_model=ThemeIntelTopicStatusUpdateResponseModel,
+    )
+    def update_theme_topic_status_v1(
+        topic_id: int,
+        payload: ThemeIntelTopicStatusUpdateRequestModel,
+        _: None = Security(require_api_key),
+    ) -> Dict[str, Any]:
+        topic = service.update_theme_intel_topic_status(topic_id=topic_id, status=payload.status)
+        if topic is None:
+            raise HTTPException(status_code=404, detail="Theme topic not found")
+        return {"request_id": str(uuid4()), "topic": topic}
+
+    @app.post(
+        "/v1/theme-intel/topics/{topic_id}/usage",
+        response_model=ThemeIntelTopicUsageResponseModel,
+    )
+    def register_theme_topic_usage_v1(
+        topic_id: int,
+        payload: ThemeIntelTopicUsageRequestModel,
+        _: None = Security(require_api_key),
+    ) -> Dict[str, Any]:
+        usage = service.register_theme_intel_topic_usage(
+            topic_id=topic_id,
+            client_name=payload.client_name,
+            artifact_id=payload.artifact_id,
+            metadata=payload.metadata,
+        )
+        return {"request_id": str(uuid4()), "usage": usage}
+
+    @app.get(
+        "/v1/theme-intel/topics/{topic_id}",
+        response_model=ThemeIntelTopicDetailResponseModel,
+    )
+    def get_theme_topic_detail_v1(
+        topic_id: int,
+        _: None = Security(require_api_key),
+    ) -> Dict[str, Any]:
+        topic = service.get_theme_intel_topic_detail(topic_id=topic_id)
+        if topic is None:
+            raise HTTPException(status_code=404, detail="Theme topic not found")
+        return {"request_id": str(uuid4()), "topic": topic}
+
+    @app.post(
+        "/v1/theme-intel/topics/{topic_id}/related-content/refresh",
+        response_model=ThemeIntelRelatedRefreshResponseModel,
+    )
+    def refresh_theme_related_content_v1(
+        topic_id: int,
+        payload: ThemeIntelRelatedRefreshRequestModel,
+        _: None = Security(require_api_key),
+    ) -> Dict[str, Any]:
+        try:
+            result = service.refresh_theme_intel_related_content(
+                topic_id=topic_id,
+                top_k=payload.top_k,
+                content_types=payload.content_types,
+                related_counts_by_type=payload.related_counts_by_type,
+                offline_mode=payload.offline_mode,
+            )
+        except ValueError as exc:
+            raise HTTPException(status_code=404, detail=str(exc)) from exc
+        return {"request_id": str(uuid4()), "result": result}
+
+    @app.post(
+        "/v1/theme-intel/scheduler/tick",
+        response_model=ThemeIntelSchedulerTickResponseModel,
+    )
+    def tick_theme_scheduler_v1(
+        payload: Optional[ThemeIntelSchedulerTickRequestModel] = None,
+        _: None = Security(require_api_key),
+    ) -> Dict[str, Any]:
+        result = service.tick_theme_intel_scheduler(offline_mode=bool(payload and payload.offline_mode))
+        return {"request_id": str(uuid4()), "result": result}
 
     if runtime is not None:
         app.state.runtime = runtime

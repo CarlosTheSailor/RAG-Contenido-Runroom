@@ -17,12 +17,15 @@ from src.infrastructure.ai.openai_embedding_client import OpenAIEmbeddingClient
 from src.infrastructure.repositories.content_chunks import ContentChunksRepository
 from src.infrastructure.repositories.legacy_chunks import LegacyChunksRepository
 from src.pipeline.storage import SupabaseStorage
+from src.theme_intel.models import ThemeTopicFilters
+from src.theme_intel.service import ThemeIntelService
 
 
 class QueryApiService:
     def __init__(self, settings: Settings, schema_path: Path):
         self._settings = settings
         self._schema_path = schema_path
+        self._theme_intel = ThemeIntelService(settings=settings, schema_path=schema_path)
 
     def query_similar(self, text: str, top_k: int, offline_mode: bool = False) -> dict[str, Any]:
         storage = SupabaseStorage(self._settings.supabase_db_url)
@@ -191,3 +194,181 @@ class QueryApiService:
             "runroom_url": runroom_url,
             "summary": dict(summary),
         }
+
+    def create_theme_intel_run(
+        self,
+        gmail_query: str,
+        origin_category: str,
+        mark_as_read: bool,
+        limit_messages: int = 100,
+        triggered_by_email: str | None = None,
+    ) -> dict[str, Any]:
+        return self._theme_intel.create_run(
+            gmail_query=gmail_query,
+            origin_category=origin_category,
+            mark_as_read=mark_as_read,
+            limit_messages=limit_messages,
+            triggered_by_email=triggered_by_email,
+        )
+
+    def execute_theme_intel_run(self, run_id: int, offline_mode: bool = False) -> None:
+        self._theme_intel.execute_run(run_id=run_id, force_offline=offline_mode)
+
+    def get_theme_intel_run(self, run_id: int) -> dict[str, Any] | None:
+        return self._theme_intel.get_run(run_id=run_id)
+
+    def get_latest_theme_intel_run(self) -> dict[str, Any] | None:
+        return self._theme_intel.get_latest_run()
+
+    def list_theme_intel_run_source_documents(self, run_id: int) -> list[dict[str, Any]]:
+        return self._theme_intel.list_run_source_documents(run_id=run_id)
+
+    def list_theme_intel_topics(
+        self,
+        primary_category: str | None = None,
+        status: str | None = None,
+        tags_any: list[str] | None = None,
+        tags_all: list[str] | None = None,
+        min_score: float | None = None,
+        semantic_query: str | None = None,
+        limit: int = 50,
+        offset: int = 0,
+        offline_mode: bool = False,
+    ) -> list[dict[str, Any]]:
+        return self._theme_intel.list_topics(
+            filters=ThemeTopicFilters(
+                primary_category=primary_category,
+                status=status,
+                tag_any=tags_any,
+                tag_all=tags_all,
+                min_score=min_score,
+                semantic_query=semantic_query,
+                limit=limit,
+                offset=offset,
+            ),
+            force_offline=offline_mode,
+        )
+
+    def update_theme_intel_topic_status(self, topic_id: int, status: str) -> dict[str, Any] | None:
+        return self._theme_intel.update_topic_status(topic_id=topic_id, status=status)
+
+    def register_theme_intel_topic_usage(
+        self,
+        topic_id: int,
+        client_name: str,
+        artifact_id: str | None = None,
+        metadata: dict[str, Any] | None = None,
+    ) -> dict[str, Any]:
+        return self._theme_intel.register_topic_usage(
+            topic_id=topic_id,
+            client_name=client_name,
+            artifact_id=artifact_id,
+            metadata=metadata,
+        )
+
+    def refresh_theme_intel_related_content(
+        self,
+        topic_id: int,
+        top_k: int | None = 10,
+        content_types: list[str] | None = None,
+        related_counts_by_type: dict[str, int] | None = None,
+        offline_mode: bool = False,
+    ) -> dict[str, Any]:
+        return self._theme_intel.refresh_related_content(
+            topic_id=topic_id,
+            top_k=top_k,
+            content_types=content_types,
+            related_counts_by_type=related_counts_by_type,
+            force_offline=offline_mode,
+        )
+
+    def get_theme_intel_topic_detail(self, topic_id: int) -> dict[str, Any] | None:
+        return self._theme_intel.get_topic_detail(topic_id=topic_id)
+
+    def create_theme_intel_schedule(
+        self,
+        name: str,
+        enabled: bool = True,
+        every_n_days: int = 1,
+        run_time_local: str = "09:00",
+        timezone_name: str = "Europe/Madrid",
+    ) -> dict[str, Any]:
+        return self._theme_intel.create_schedule(
+            name=name,
+            enabled=enabled,
+            every_n_days=every_n_days,
+            run_time_local=run_time_local,
+            timezone_name=timezone_name,
+        )
+
+    def list_theme_intel_schedules(self) -> list[dict[str, Any]]:
+        return self._theme_intel.list_schedules()
+
+    def update_theme_intel_schedule(
+        self,
+        schedule_id: int,
+        name: str | None = None,
+        enabled: bool | None = None,
+        every_n_days: int | None = None,
+        run_time_local: str | None = None,
+        timezone_name: str | None = None,
+    ) -> dict[str, Any] | None:
+        return self._theme_intel.update_schedule(
+            schedule_id=schedule_id,
+            name=name,
+            enabled=enabled,
+            every_n_days=every_n_days,
+            run_time_local=run_time_local,
+            timezone_name=timezone_name,
+        )
+
+    def create_theme_intel_schedule_config(
+        self,
+        schedule_id: int,
+        execution_order: int,
+        gmail_query: str,
+        origin_category: str,
+        mark_as_read: bool,
+        limit_messages: int,
+        enabled: bool = True,
+    ) -> dict[str, Any]:
+        return self._theme_intel.create_schedule_config(
+            schedule_id=schedule_id,
+            execution_order=execution_order,
+            gmail_query=gmail_query,
+            origin_category=origin_category,
+            mark_as_read=mark_as_read,
+            limit_messages=limit_messages,
+            enabled=enabled,
+        )
+
+    def update_theme_intel_schedule_config(
+        self,
+        schedule_id: int,
+        config_id: int,
+        execution_order: int | None = None,
+        gmail_query: str | None = None,
+        origin_category: str | None = None,
+        mark_as_read: bool | None = None,
+        limit_messages: int | None = None,
+        enabled: bool | None = None,
+    ) -> dict[str, Any] | None:
+        return self._theme_intel.update_schedule_config(
+            schedule_id=schedule_id,
+            config_id=config_id,
+            execution_order=execution_order,
+            gmail_query=gmail_query,
+            origin_category=origin_category,
+            mark_as_read=mark_as_read,
+            limit_messages=limit_messages,
+            enabled=enabled,
+        )
+
+    def run_theme_intel_schedule_now(self, schedule_id: int, offline_mode: bool = False) -> dict[str, Any]:
+        return self._theme_intel.run_schedule_now(schedule_id=schedule_id, force_offline=offline_mode)
+
+    def list_theme_intel_schedule_executions(self, schedule_id: int, limit: int = 20) -> list[dict[str, Any]]:
+        return self._theme_intel.list_schedule_executions(schedule_id=schedule_id, limit=limit)
+
+    def tick_theme_intel_scheduler(self, offline_mode: bool = False) -> dict[str, Any]:
+        return self._theme_intel.scheduler_tick(force_offline=offline_mode)

@@ -238,6 +238,15 @@
       margin: 0;
     }
 
+    .section-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 10px;
+    }
+
     .badge {
       display: inline-flex;
       align-items: center;
@@ -463,7 +472,13 @@
     </section>
 
     <section class="panel" id="runSnapshotPanel">
-      <h2>2. Snapshot de Run</h2>
+      <div class="section-head">
+        <h2>2. Snapshot de Run</h2>
+        <div class="btnrow">
+          <button id="copyRunTraceBtn" type="button" class="btn-soft">Copiar trazas</button>
+          <button id="copyRunJsonBtn" type="button" class="btn-soft">Copiar JSON</button>
+        </div>
+      </div>
       <div class="grid-4" id="runMetrics"></div>
       <div id="runTrace" class="trace-list">
         <div class="trace-item">
@@ -740,6 +755,20 @@
       banner.style.fontWeight = isError ? "700" : "600";
     }
 
+    async function copyTextToClipboard(text, successText) {
+      const value = String(text || "");
+      if (!value) {
+        showBanner("No hay contenido para copiar.", true);
+        return;
+      }
+      try {
+        await navigator.clipboard.writeText(value);
+        showBanner(successText);
+      } catch (error) {
+        showBanner(`No se pudo copiar al portapapeles: ${String(error)}`, true);
+      }
+    }
+
     function renderRunMetrics(run) {
       const container = document.getElementById("runMetrics");
       if (!run) {
@@ -828,6 +857,23 @@
           </div>
         `;
       }).join("");
+    }
+
+    function formatRunTraceForClipboard(run) {
+      if (!run) return "";
+      const stats = run.stats_json || {};
+      const events = Array.isArray(stats.debug_events) ? stats.debug_events : [];
+      return events.map((event) => {
+        const extras = [];
+        if (event.theme_index) extras.push(`tema ${event.theme_index}/${event.themes_total || "?"}`);
+        if (event.theme_title) extras.push(String(event.theme_title));
+        if (event.topic_id) extras.push(`topic ${event.topic_id}`);
+        if (event.forced_type) extras.push(`tipo ${event.forced_type}`);
+        if (event.related_links) extras.push(`related ${event.related_links}`);
+        if (event.error) extras.push(`error: ${event.error}`);
+        const suffix = extras.length ? ` | ${extras.join(" | ")}` : "";
+        return `${event.ts || "-"} | ${event.stage || "event"} | ${event.message || "-"}${suffix}`;
+      }).join("\n");
     }
 
     function buildTopicCard(topic) {
@@ -1416,6 +1462,13 @@
 
     document.getElementById("runBtn").addEventListener("click", runNow);
     document.getElementById("pollBtn").addEventListener("click", () => loadRun(state.activeRunId || Number(document.getElementById("debugRunId").value || 0)));
+    document.getElementById("copyRunTraceBtn").addEventListener("click", async () => {
+      await copyTextToClipboard(formatRunTraceForClipboard(state.activeRun), "Trazas copiadas al portapapeles.");
+    });
+    document.getElementById("copyRunJsonBtn").addEventListener("click", async () => {
+      const text = state.activeRun ? JSON.stringify(state.activeRun, null, 2) : "";
+      await copyTextToClipboard(text, "JSON del run copiado al portapapeles.");
+    });
     document.getElementById("loadTopicsBtn").addEventListener("click", loadTopics);
     document.getElementById("loadDocsBtn").addEventListener("click", loadRunDocuments);
     document.getElementById("createScheduleBtn").addEventListener("click", createSchedule);

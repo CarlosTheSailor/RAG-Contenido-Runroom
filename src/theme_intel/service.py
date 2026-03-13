@@ -405,6 +405,13 @@ class ThemeIntelService:
                         top_k=10,
                         related_counts_by_type=default_related_counts_by_type or None,
                         force_offline=force_offline,
+                        progress_logger=log_progress,
+                        progress_context={
+                            "theme_index": theme_index,
+                            "themes_total": total_themes,
+                            "theme_title": theme_title,
+                            "topic_id": topic_id,
+                        },
                     )
                     repo.replace_related_content(topic_id=topic_id, related_items=related)
                     stats["related_content_links_written"] += len(related)
@@ -1215,7 +1222,10 @@ class ThemeIntelService:
         content_types: list[str] | None = None,
         related_counts_by_type: dict[str, int] | None = None,
         force_offline: bool = False,
+        progress_logger: Callable[..., None] | None = None,
+        progress_context: dict[str, Any] | None = None,
     ) -> list[dict[str, Any]]:
+        context = dict(progress_context or {})
         allowed_types = _normalize_related_types(content_types or [])
         explicit_min_by_type = _normalize_related_count_map(related_counts_by_type or {})
         forced_min_by_type = explicit_min_by_type
@@ -1228,10 +1238,28 @@ class ThemeIntelService:
         if target_top_k <= 0:
             return []
 
+        if progress_logger is not None:
+            progress_logger(
+                "theme_related_query_plan",
+                "Preparando queries de related content.",
+                allowed_types=allowed_types,
+                forced_min_by_type=forced_min_by_type,
+                target_top_k=target_top_k,
+                **context,
+            )
+
         use_case = RecommendContentUseCase(
             embedding_client=OpenAIEmbeddingClient(settings=self._settings, force_offline=force_offline),
             repository=ContentChunksRepository(storage=storage),
         )
+        if progress_logger is not None:
+            progress_logger(
+                "theme_related_base_query_start",
+                "Lanzando query base de related content.",
+                fetch_k=max(80, target_top_k * 12),
+                top_k=max(24, target_top_k * 3),
+                **context,
+            )
         base = use_case.execute(
             RecommendContentRequest(
                 text=text,
@@ -1241,9 +1269,25 @@ class ThemeIntelService:
                 group_by_type=False,
             )
         ).to_dict().get("results", [])
+        if progress_logger is not None:
+            progress_logger(
+                "theme_related_base_query_done",
+                "Query base de related content completada.",
+                base_candidates=len(base) if isinstance(base, list) else 0,
+                **context,
+            )
 
         guaranteed_by_type: list[dict[str, Any]] = []
         for forced_type in forced_min_by_type.keys():
+            if progress_logger is not None:
+                progress_logger(
+                    "theme_related_typed_query_start",
+                    "Lanzando query forzada por tipo.",
+                    forced_type=forced_type,
+                    fetch_k=max(40, target_top_k * 8),
+                    top_k=max(6, target_top_k),
+                    **context,
+                )
             typed_rows = use_case.execute(
                 RecommendContentRequest(
                     text=text,
@@ -1254,16 +1298,39 @@ class ThemeIntelService:
                 )
             ).to_dict().get("results", [])
             guaranteed_by_type.extend(typed_rows if isinstance(typed_rows, list) else [])
+            if progress_logger is not None:
+                progress_logger(
+                    "theme_related_typed_query_done",
+                    "Query forzada por tipo completada.",
+                    forced_type=forced_type,
+                    typed_candidates=len(typed_rows) if isinstance(typed_rows, list) else 0,
+                    **context,
+                )
 
         merged = _merge_related_candidates(
             candidates=(base if isinstance(base, list) else []) + guaranteed_by_type,
         )
-        return _select_mixed_related_candidates(
+        if progress_logger is not None:
+            progress_logger(
+                "theme_related_merge_done",
+                "Candidatos related fusionados.",
+                merged_candidates=len(merged),
+                **context,
+            )
+        selected = _select_mixed_related_candidates(
             candidates=merged,
             top_k=target_top_k,
             forced_min_by_type=forced_min_by_type,
             allowed_types=allowed_types,
         )
+        if progress_logger is not None:
+            progress_logger(
+                "theme_related_selection_done",
+                "Seleccion final de related content completada.",
+                selected_candidates=len(selected),
+                **context,
+            )
+        return selected
 
     def _origin_tags(self, origin_category: str, gmail_query: str, documents: list[Any]) -> list[str]:
         tags: set[str] = set()

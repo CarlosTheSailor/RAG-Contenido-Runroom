@@ -19,6 +19,7 @@ from .utils import is_low_signal_theme_text, normalize_tag, pretty_tag
 
 SCHEDULER_LOCK_KEY = 2026031101
 DEFAULT_SCHEDULE_TIMEZONE = "Europe/Madrid"
+RUN_DEBUG_EVENT_LIMIT = 200
 
 
 class ThemeIntelService:
@@ -88,16 +89,37 @@ class ThemeIntelService:
                 "related_content_links_written": 0,
                 "emails_marked_read": 0,
                 "warnings": [],
+                "debug_events": [],
             }
             repo.update_run_progress(run_id=run_id, stats=stats, errors=errors)
+
+            def log_progress(stage: str, message: str, **payload: Any) -> None:
+                _append_run_debug_event(stats=stats, stage=stage, message=message, **payload)
+                repo.update_run_progress(run_id=run_id, stats=stats, errors=errors)
+
+            log_progress(
+                "run_started",
+                "Run en ejecucion.",
+                run_id=run_id,
+                force_offline=force_offline,
+                origin_category=str(run["origin_category"]),
+                limit_messages=int(run["limit_messages"]),
+            )
 
             try:
                 def _on_message_fetched(fetched: int, discovered: int, parsed: int) -> None:
                     stats["source_documents_discovered"] = discovered
                     stats["source_documents_fetched"] = fetched
                     stats["source_documents_parsed"] = parsed
-                    repo.update_run_progress(run_id=run_id, stats=stats, errors=errors)
+                    log_progress(
+                        "source_fetch_progress",
+                        "Avance cargando newsletters.",
+                        fetched=fetched,
+                        discovered=discovered,
+                        parsed=parsed,
+                    )
 
+                log_progress("source_fetch_start", "Iniciando lectura de Gmail.")
                 documents, message_ids = self._load_source_documents(
                     run=run,
                     on_message_fetched=_on_message_fetched,
@@ -111,8 +133,19 @@ class ThemeIntelService:
                     len(documents),
                 )
                 stats["source_documents_parsed"] = len(documents)
-                repo.update_run_progress(run_id=run_id, stats=stats, errors=errors)
+                log_progress(
+                    "source_fetch_done",
+                    "Lectura de Gmail completada.",
+                    documents=len(documents),
+                    message_ids=len(message_ids),
+                )
             except Exception as exc:
+                _append_run_debug_event(
+                    stats=stats,
+                    stage="source_fetch_failed",
+                    message="Error cargando newsletters.",
+                    error=str(exc),
+                )
                 repo.finalize_run(
                     run_id=run_id,
                     status="failed",
@@ -125,6 +158,12 @@ class ThemeIntelService:
             persisted_source_doc_ids: list[int] = []
             for doc in documents:
                 try:
+                    log_progress(
+                        "source_persist_start",
+                        "Persistiendo newsletter.",
+                        source_external_id=doc.source_external_id,
+                        subject=_short_debug_text(doc.subject, 120),
+                    )
                     source_doc_id = repo.upsert_source_document(
                         run_id=run_id,
                         doc=doc,
@@ -134,7 +173,13 @@ class ThemeIntelService:
                     source_doc_id_by_external_id[doc.source_external_id] = source_doc_id
                     persisted_source_doc_ids.append(source_doc_id)
                     stats["source_documents_saved"] += 1
-                    repo.update_run_progress(run_id=run_id, stats=stats, errors=errors)
+                    log_progress(
+                        "source_persist_done",
+                        "Newsletter persistida.",
+                        source_external_id=doc.source_external_id,
+                        source_document_id=source_doc_id,
+                        saved=stats["source_documents_saved"],
+                    )
                 except Exception as exc:
                     errors.append(
                         {
@@ -143,10 +188,20 @@ class ThemeIntelService:
                             "source_external_id": doc.source_external_id,
                         }
                     )
-                    repo.update_run_progress(run_id=run_id, stats=stats, errors=errors)
+                    log_progress(
+                        "source_persist_failed",
+                        "Error persistiendo newsletter.",
+                        source_external_id=doc.source_external_id,
+                        error=str(exc),
+                    )
 
             newsletters_clean = "\n\n".join(doc.cleaned_text for doc in documents if doc.cleaned_text.strip())
             extractor = ThemeExtractor(settings=self._settings, assets_dir=self._assets_dir)
+            log_progress(
+                "theme_extraction_start",
+                "Extrayendo temas desde newsletters.",
+                newsletters_with_text=sum(1 for doc in documents if doc.cleaned_text.strip()),
+            )
             extraction = extractor.extract(
                 newsletters_clean=newsletters_clean,
                 origin_category=str(run["origin_category"]),
@@ -155,7 +210,12 @@ class ThemeIntelService:
             )
             stats["themes_extracted"] = len(extraction.temas)
             stats["warnings"] = extraction.warnings
-            repo.update_run_progress(run_id=run_id, stats=stats, errors=errors)
+            log_progress(
+                "theme_extraction_done",
+                "Extraccion de temas completada.",
+                themes_extracted=stats["themes_extracted"],
+                warnings_count=len(extraction.warnings),
+            )
 
             base_origin_tags = self._origin_tags(
                 origin_category=str(run["origin_category"]),
@@ -164,24 +224,62 @@ class ThemeIntelService:
             )
             default_related_counts_by_type = self._default_related_counts_by_type(storage=storage)
 
-            for theme in extraction.temas:
+            total_themes = len(extraction.temas)
+            for theme_index, theme in enumerate(extraction.temas, start=1):
                 try:
                     stats["themes_processed"] += 1
+                    theme_title = _short_debug_text(theme.tema, 140)
+                    log_progress(
+                        "theme_processing_start",
+                        "Procesando tema.",
+                        theme_index=theme_index,
+                        themes_total=total_themes,
+                        theme_title=theme_title,
+                    )
                     if is_low_signal_theme_text(theme.tema):
                         stats["themes_skipped_low_signal"] += 1
-                        repo.update_run_progress(run_id=run_id, stats=stats, errors=errors)
+                        log_progress(
+                            "theme_processing_skipped",
+                            "Tema omitido por baja senal.",
+                            theme_index=theme_index,
+                            themes_total=total_themes,
+                            theme_title=theme_title,
+                            skipped_low_signal=stats["themes_skipped_low_signal"],
+                        )
                         continue
 
                     canonical_text = _canonical_topic_text(theme.tema, theme.contexto_newsletters, theme.keywords)
+                    log_progress(
+                        "theme_embedding_start",
+                        "Generando embedding del tema.",
+                        theme_index=theme_index,
+                        themes_total=total_themes,
+                        theme_title=theme_title,
+                    )
                     embedding = OpenAIEmbeddingClient(
                         settings=self._settings,
                         force_offline=force_offline,
                     ).embed_texts([canonical_text])[0]
+                    log_progress(
+                        "theme_embedding_done",
+                        "Embedding del tema generado.",
+                        theme_index=theme_index,
+                        themes_total=total_themes,
+                        theme_title=theme_title,
+                    )
                     similar = repo.find_similar_topic(
                         embedding=embedding,
                         primary_category_key=normalize_tag(str(run["origin_category"])),
                         similarity_threshold=self._settings.theme_intel_dedupe_threshold,
                         window_days=self._settings.theme_intel_dedupe_window_days,
+                    )
+                    log_progress(
+                        "theme_similarity_done",
+                        "Busqueda de tema similar completada.",
+                        theme_index=theme_index,
+                        themes_total=total_themes,
+                        theme_title=theme_title,
+                        matched_existing=similar is not None,
                     )
 
                     metadata = {
@@ -205,6 +303,14 @@ class ThemeIntelService:
                             metadata=metadata,
                         )
                         stats["themes_created"] += 1
+                        log_progress(
+                            "theme_topic_created",
+                            "Tema creado.",
+                            theme_index=theme_index,
+                            themes_total=total_themes,
+                            theme_title=theme_title,
+                            topic_id=topic_id,
+                        )
                     else:
                         topic_id = int(similar["id"])
                         repo.touch_topic(
@@ -214,12 +320,20 @@ class ThemeIntelService:
                             metadata=metadata,
                         )
                         stats["themes_merged"] += 1
+                        log_progress(
+                            "theme_topic_merged",
+                            "Tema fusionado con uno existente.",
+                            theme_index=theme_index,
+                            themes_total=total_themes,
+                            theme_title=theme_title,
+                            topic_id=topic_id,
+                        )
 
-                    for index, source_doc_id in enumerate(persisted_source_doc_ids):
+                    for doc_index, source_doc_id in enumerate(persisted_source_doc_ids):
                         repo.upsert_topic_source_document(
                             topic_id=topic_id,
                             source_document_id=source_doc_id,
-                            link_type="primary" if index == 0 else "run_scope",
+                            link_type="primary" if doc_index == 0 else "run_scope",
                             metadata={"run_id": run_id, "source": "run"},
                         )
                         stats["source_links_written"] += 1
@@ -228,6 +342,14 @@ class ThemeIntelService:
                         topic_id=topic_id,
                         embedding=embedding,
                         model=self._settings.openai_embedding_model,
+                    )
+                    log_progress(
+                        "theme_topic_embedding_saved",
+                        "Embedding persistido para el tema.",
+                        theme_index=theme_index,
+                        themes_total=total_themes,
+                        theme_title=theme_title,
+                        topic_id=topic_id,
                     )
 
                     for tag in base_origin_tags:
@@ -269,6 +391,14 @@ class ThemeIntelService:
                         )
                         stats["evidences_written"] += 1
 
+                    log_progress(
+                        "theme_related_start",
+                        "Calculando contenido relacionado.",
+                        theme_index=theme_index,
+                        themes_total=total_themes,
+                        theme_title=theme_title,
+                        topic_id=topic_id,
+                    )
                     related = self._recommend_related_content(
                         storage=storage,
                         text=canonical_text,
@@ -278,7 +408,15 @@ class ThemeIntelService:
                     )
                     repo.replace_related_content(topic_id=topic_id, related_items=related)
                     stats["related_content_links_written"] += len(related)
-                    repo.update_run_progress(run_id=run_id, stats=stats, errors=errors)
+                    log_progress(
+                        "theme_processing_done",
+                        "Tema procesado.",
+                        theme_index=theme_index,
+                        themes_total=total_themes,
+                        theme_title=theme_title,
+                        topic_id=topic_id,
+                        related_links=len(related),
+                    )
 
                 except Exception as exc:
                     errors.append(
@@ -288,16 +426,36 @@ class ThemeIntelService:
                             "message": str(exc),
                         }
                     )
-                    repo.update_run_progress(run_id=run_id, stats=stats, errors=errors)
+                    log_progress(
+                        "theme_processing_failed",
+                        "Error procesando tema.",
+                        theme_index=theme_index,
+                        themes_total=total_themes,
+                        theme_title=_short_debug_text(theme.tema, 140),
+                        error=str(exc),
+                    )
 
             if bool(run["mark_as_read"]) and stats["themes_extracted"] > 0 and message_ids:
                 try:
+                    log_progress(
+                        "mark_as_read_start",
+                        "Marcando mensajes como leidos.",
+                        message_ids=len(message_ids),
+                    )
                     GmailClient(settings=self._settings).mark_as_read(message_ids=message_ids)
                     stats["emails_marked_read"] = len(message_ids)
-                    repo.update_run_progress(run_id=run_id, stats=stats, errors=errors)
+                    log_progress(
+                        "mark_as_read_done",
+                        "Mensajes marcados como leidos.",
+                        message_ids=len(message_ids),
+                    )
                 except Exception as exc:
                     errors.append({"stage": "mark_as_read", "message": str(exc)})
-                    repo.update_run_progress(run_id=run_id, stats=stats, errors=errors)
+                    log_progress(
+                        "mark_as_read_failed",
+                        "Error marcando mensajes como leidos.",
+                        error=str(exc),
+                    )
 
             status = "succeeded"
             if errors and (stats["themes_created"] > 0 or stats["themes_merged"] > 0):
@@ -305,6 +463,13 @@ class ThemeIntelService:
             elif errors:
                 status = "failed"
 
+            _append_run_debug_event(
+                stats=stats,
+                stage="run_finalize",
+                message="Finalizando run.",
+                final_status=status,
+                errors_count=len(errors),
+            )
             repo.finalize_run(run_id=run_id, status=status, stats=stats, errors=errors)
         finally:
             storage.close()
@@ -1157,6 +1322,33 @@ class ThemeIntelService:
 def _canonical_topic_text(title: str, context_text: str, keywords: list[str]) -> str:
     parts = [title.strip(), context_text.strip(), ", ".join(keyword.strip() for keyword in keywords if keyword.strip())]
     return " | ".join(part for part in parts if part)
+
+
+def _append_run_debug_event(stats: dict[str, Any], stage: str, message: str, **payload: Any) -> None:
+    now_iso = datetime.now(tz=timezone.utc).isoformat()
+    events_raw = stats.get("debug_events")
+    events = list(events_raw) if isinstance(events_raw, list) else []
+    event = {
+        "ts": now_iso,
+        "stage": stage,
+        "message": message,
+    }
+    for key, value in payload.items():
+        if value is None:
+            continue
+        event[key] = value
+    events.append(event)
+    stats["debug_events"] = events[-RUN_DEBUG_EVENT_LIMIT:]
+    stats["current_stage"] = stage
+    stats["current_stage_message"] = message
+    stats["last_progress_at"] = now_iso
+
+
+def _short_debug_text(value: str, max_len: int) -> str:
+    text = " ".join(str(value or "").split())
+    if len(text) <= max_len:
+        return text
+    return text[: max_len - 3].rstrip() + "..."
 
 
 def _to_time(value: Any) -> time:

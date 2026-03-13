@@ -196,6 +196,48 @@
       color: #11375b;
     }
 
+    .trace-list {
+      display: grid;
+      gap: 8px;
+      margin-top: 12px;
+      max-height: 320px;
+      overflow: auto;
+      padding-right: 4px;
+    }
+
+    .trace-item {
+      border: 1px solid #d8e2f1;
+      border-radius: 12px;
+      background: linear-gradient(180deg, #fbfdff 0%, #f1f6fc 100%);
+      padding: 10px 12px;
+    }
+
+    .trace-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      align-items: baseline;
+      margin-bottom: 4px;
+      flex-wrap: wrap;
+    }
+
+    .trace-stage {
+      font-weight: 800;
+      color: #123f66;
+    }
+
+    .trace-meta {
+      font-size: 0.82rem;
+      color: #5d738b;
+      word-break: break-word;
+    }
+
+    .trace-message {
+      font-size: 0.92rem;
+      color: #173552;
+      margin: 0;
+    }
+
     .badge {
       display: inline-flex;
       align-items: center;
@@ -423,6 +465,14 @@
     <section class="panel" id="runSnapshotPanel">
       <h2>2. Snapshot de Run</h2>
       <div class="grid-4" id="runMetrics"></div>
+      <div id="runTrace" class="trace-list">
+        <div class="trace-item">
+          <div class="trace-head">
+            <span class="trace-stage">Sin trazas</span>
+          </div>
+          <p class="trace-message">Lanza un run para ver el detalle paso a paso.</p>
+        </div>
+      </div>
       <details style="margin-top:10px;">
         <summary>Ver JSON completo del run</summary>
         <pre class="json-dump" id="runJsonDump">Sin run cargado.</pre>
@@ -694,12 +744,15 @@
       const container = document.getElementById("runMetrics");
       if (!run) {
         container.innerHTML = '<div class="metric"><span class="k">Run</span><span class="v">Sin datos</span></div>';
+        renderRunTrace(null);
         return;
       }
       const stats = run.stats_json || {};
       const items = [
         ["Run ID", run.id],
         ["Status", run.status],
+        ["Etapa actual", stats.current_stage_message || stats.current_stage || "-"],
+        ["Ultimo progreso", safeDate(stats.last_progress_at)],
         [
           "Mensajes (fetch)",
           `${stats.source_documents_fetched || 0}/${stats.source_documents_discovered || 0}`,
@@ -722,7 +775,59 @@
       container.innerHTML = items
         .map(([k, v]) => `<div class="metric"><span class="k">${escapeHtml(k)}</span><span class="v">${escapeHtml(v)}</span></div>`)
         .join("");
+      renderRunTrace(run);
       document.getElementById("runJsonDump").textContent = JSON.stringify(run, null, 2);
+    }
+
+    function renderRunTrace(run) {
+      const container = document.getElementById("runTrace");
+      if (!run) {
+        container.innerHTML = `
+          <div class="trace-item">
+            <div class="trace-head">
+              <span class="trace-stage">Sin trazas</span>
+            </div>
+            <p class="trace-message">Lanza un run para ver el detalle paso a paso.</p>
+          </div>
+        `;
+        return;
+      }
+
+      const stats = run.stats_json || {};
+      const events = Array.isArray(stats.debug_events) ? stats.debug_events : [];
+      if (!events.length) {
+        container.innerHTML = `
+          <div class="trace-item">
+            <div class="trace-head">
+              <span class="trace-stage">${escapeHtml(stats.current_stage || "Sin etapa")}</span>
+              <span class="trace-meta">${escapeHtml(safeDate(stats.last_progress_at))}</span>
+            </div>
+            <p class="trace-message">${escapeHtml(stats.current_stage_message || "Aun no hay eventos persistidos para este run.")}</p>
+          </div>
+        `;
+        return;
+      }
+
+      const ordered = events.slice().reverse();
+      container.innerHTML = ordered.map((event) => {
+        const extras = [];
+        if (event.theme_index) extras.push(`tema ${event.theme_index}/${event.themes_total || "?"}`);
+        if (event.theme_title) extras.push(String(event.theme_title));
+        if (event.topic_id) extras.push(`topic ${event.topic_id}`);
+        if (event.documents) extras.push(`docs ${event.documents}`);
+        if (event.related_links) extras.push(`related ${event.related_links}`);
+        if (event.error) extras.push(`error: ${event.error}`);
+        return `
+          <div class="trace-item">
+            <div class="trace-head">
+              <span class="trace-stage">${escapeHtml(event.stage || "event")}</span>
+              <span class="trace-meta">${escapeHtml(safeDate(event.ts))}</span>
+            </div>
+            <p class="trace-message">${escapeHtml(event.message || "-")}</p>
+            ${extras.length ? `<div class="trace-meta">${escapeHtml(extras.join(" | "))}</div>` : ""}
+          </div>
+        `;
+      }).join("");
     }
 
     function buildTopicCard(topic) {

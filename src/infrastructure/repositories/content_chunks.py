@@ -17,6 +17,8 @@ class ContentChunksRepository:
         source: str | None = None,
         language: str | None = None,
         exclude_content_item_id: int | None = None,
+        statement_timeout_ms: int | None = None,
+        lock_timeout_ms: int | None = None,
     ) -> list[dict[str, Any]]:
         return self._storage.query_similar_content_chunks(
             query_embedding,
@@ -25,6 +27,8 @@ class ContentChunksRepository:
             source=source,
             language=language,
             exclude_content_item_id=exclude_content_item_id,
+            statement_timeout_ms=statement_timeout_ms,
+            lock_timeout_ms=lock_timeout_ms,
         )
 
     def list_content_items(self, content_types: list[str] | None = None, limit: int | None = None) -> list[dict[str, Any]]:

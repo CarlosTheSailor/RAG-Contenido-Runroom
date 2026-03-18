@@ -564,6 +564,23 @@ python -m src.cli theme-intel-backfill-related \
   --top-k 10
 ```
 
+Auditoría SQL del related content para un topic concreto:
+
+```bash
+python -m src.cli theme-intel-audit-related \
+  --topic-id 41 \
+  --run-id 8 \
+  --primary-type episode \
+  --compare-type case_study \
+  --fetch-k 80
+```
+
+El comando genera un informe markdown en `docs/` con:
+
+- inventario de `content_items` y `content_chunks` por `content_type`
+- snapshot de `pg_stat_activity` y `pg_locks`
+- `EXPLAIN (ANALYZE, BUFFERS)` para comparar el plan de `episode` frente al tipo de contraste
+
 Cron recomendado en Coolify (cada 15 min):
 
 ```bash

@@ -845,6 +845,11 @@
         if (event.topic_id) extras.push(`topic ${event.topic_id}`);
         if (event.documents) extras.push(`docs ${event.documents}`);
         if (event.related_links) extras.push(`related ${event.related_links}`);
+        if (event.related_warning_count) extras.push(`warnings ${event.related_warning_count}`);
+        if (event.forced_type) extras.push(`tipo ${event.forced_type}`);
+        if (event.duration_ms !== undefined) extras.push(`${event.duration_ms} ms`);
+        if (event.sql_timeout) extras.push("statement_timeout");
+        if (event.lock_timeout) extras.push("lock_timeout");
         if (event.error) extras.push(`error: ${event.error}`);
         return `
           <div class="trace-item">
@@ -870,6 +875,10 @@
         if (event.topic_id) extras.push(`topic ${event.topic_id}`);
         if (event.forced_type) extras.push(`tipo ${event.forced_type}`);
         if (event.related_links) extras.push(`related ${event.related_links}`);
+        if (event.related_warning_count) extras.push(`warnings ${event.related_warning_count}`);
+        if (event.duration_ms !== undefined) extras.push(`${event.duration_ms} ms`);
+        if (event.sql_timeout) extras.push("statement_timeout");
+        if (event.lock_timeout) extras.push("lock_timeout");
         if (event.error) extras.push(`error: ${event.error}`);
         const suffix = extras.length ? ` | ${extras.join(" | ")}` : "";
         return `${event.ts || "-"} | ${event.stage || "event"} | ${event.message || "-"}${suffix}`;

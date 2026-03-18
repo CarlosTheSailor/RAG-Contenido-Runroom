@@ -4,6 +4,7 @@ import csv
 import json
 import logging
 from pathlib import Path
+from time import perf_counter
 from typing import Any
 
 import psycopg
@@ -15,6 +16,33 @@ from src.pipeline.normalization import slugify
 from src.pipeline.schema import apply_migrations
 
 logger = logging.getLogger(__name__)
+
+
+class SimilarContentQueryError(RuntimeError):
+    def __init__(
+        self,
+        *,
+        message: str,
+        content_types: list[str] | None,
+        duration_ms: int,
+        sqlstate: str | None,
+        statement_timeout_ms: int | None,
+        lock_timeout_ms: int | None,
+    ) -> None:
+        super().__init__(message)
+        self.content_types = list(content_types or [])
+        self.duration_ms = int(duration_ms)
+        self.sqlstate = sqlstate
+        self.statement_timeout_ms = statement_timeout_ms
+        self.lock_timeout_ms = lock_timeout_ms
+
+    @property
+    def is_statement_timeout(self) -> bool:
+        return self.sqlstate == "57014"
+
+    @property
+    def is_lock_timeout(self) -> bool:
+        return self.sqlstate == "55P03"
 
 THEME_INTEL_TABLES: tuple[str, ...] = (
     "theme_schedule_execution_items",
@@ -36,10 +64,19 @@ THEME_INTEL_TABLES: tuple[str, ...] = (
 
 class SupabaseStorage:
     def __init__(self, dsn: str):
+        self._dsn = dsn
         self._conn = psycopg.connect(dsn, row_factory=dict_row)
+        self._query_conn: psycopg.Connection[Any] | None = None
 
     def close(self) -> None:
+        if self._query_conn is not None:
+            self._query_conn.close()
         self._conn.close()
+
+    def _get_query_conn(self) -> psycopg.Connection[Any]:
+        if self._query_conn is None or self._query_conn.closed:
+            self._query_conn = psycopg.connect(self._dsn, row_factory=dict_row)
+        return self._query_conn
 
     def ensure_schema(self, schema_path: Path) -> None:
         apply_migrations(self._conn, schema_path)
@@ -824,7 +861,200 @@ class SupabaseStorage:
         source: str | None = None,
         language: str | None = None,
         exclude_content_item_id: int | None = None,
+        statement_timeout_ms: int | None = None,
+        lock_timeout_ms: int | None = None,
     ) -> list[dict[str, Any]]:
+        query, params = self._build_query_similar_content_chunks_sql(
+            query_embedding=query_embedding,
+            top_k=top_k,
+            content_types=content_types,
+            source=source,
+            language=language,
+            exclude_content_item_id=exclude_content_item_id,
+        )
+        conn = self._get_query_conn() if (statement_timeout_ms or lock_timeout_ms) else self._conn
+        started = perf_counter()
+        try:
+            with conn.cursor() as cur:
+                _apply_local_query_timeouts(
+                    cur,
+                    statement_timeout_ms=statement_timeout_ms,
+                    lock_timeout_ms=lock_timeout_ms,
+                )
+                cur.execute(query, params)
+                rows = cur.fetchall()
+            if conn is not self._conn:
+                conn.commit()
+            return list(rows)
+        except psycopg.Error as exc:
+            if conn is not self._conn:
+                conn.rollback()
+            duration_ms = int((perf_counter() - started) * 1000)
+            raise SimilarContentQueryError(
+                message=str(exc),
+                content_types=content_types,
+                duration_ms=duration_ms,
+                sqlstate=_extract_sqlstate(exc),
+                statement_timeout_ms=statement_timeout_ms,
+                lock_timeout_ms=lock_timeout_ms,
+            ) from exc
+
+    def explain_query_similar_content_chunks(
+        self,
+        query_embedding: list[float],
+        top_k: int = 60,
+        content_types: list[str] | None = None,
+        source: str | None = None,
+        language: str | None = None,
+        exclude_content_item_id: int | None = None,
+        statement_timeout_ms: int | None = None,
+        lock_timeout_ms: int | None = None,
+    ) -> list[str]:
+        base_query, params = self._build_query_similar_content_chunks_sql(
+            query_embedding=query_embedding,
+            top_k=top_k,
+            content_types=content_types,
+            source=source,
+            language=language,
+            exclude_content_item_id=exclude_content_item_id,
+        )
+        query = "EXPLAIN (ANALYZE, BUFFERS, FORMAT TEXT) " + base_query
+        conn = self._get_query_conn()
+        started = perf_counter()
+        try:
+            with conn.cursor() as cur:
+                _apply_local_query_timeouts(
+                    cur,
+                    statement_timeout_ms=statement_timeout_ms,
+                    lock_timeout_ms=lock_timeout_ms,
+                )
+                cur.execute(query, params)
+                rows = cur.fetchall()
+            conn.commit()
+            output: list[str] = []
+            for row in rows:
+                for value in row.values():
+                    if value is not None:
+                        output.append(str(value))
+                        break
+            return output
+        except psycopg.Error as exc:
+            conn.rollback()
+            duration_ms = int((perf_counter() - started) * 1000)
+            raise SimilarContentQueryError(
+                message=str(exc),
+                content_types=content_types,
+                duration_ms=duration_ms,
+                sqlstate=_extract_sqlstate(exc),
+                statement_timeout_ms=statement_timeout_ms,
+                lock_timeout_ms=lock_timeout_ms,
+            ) from exc
+
+    def count_content_inventory_by_type(self) -> list[dict[str, Any]]:
+        query = """
+        WITH item_counts AS (
+            SELECT content_type, COUNT(*) AS item_count
+            FROM content_items
+            GROUP BY content_type
+        ),
+        chunk_counts AS (
+            SELECT ci.content_type, COUNT(*) AS chunk_count
+            FROM content_chunks cc
+            JOIN content_items ci ON ci.id = cc.content_item_id
+            GROUP BY ci.content_type
+        )
+        SELECT
+            COALESCE(ic.content_type, cc.content_type) AS content_type,
+            COALESCE(ic.item_count, 0) AS item_count,
+            COALESCE(cc.chunk_count, 0) AS chunk_count
+        FROM item_counts ic
+        FULL OUTER JOIN chunk_counts cc ON cc.content_type = ic.content_type
+        ORDER BY COALESCE(cc.chunk_count, 0) DESC, COALESCE(ic.item_count, 0) DESC, COALESCE(ic.content_type, cc.content_type)
+        """
+        with self._get_query_conn().cursor() as cur:
+            cur.execute(query)
+            rows = cur.fetchall()
+        self._get_query_conn().commit()
+        return [dict(row) for row in rows]
+
+    def list_content_query_activity(self) -> list[dict[str, Any]]:
+        query = """
+        SELECT
+            pid,
+            state,
+            wait_event_type,
+            wait_event,
+            now() - query_start AS running_for,
+            query_start,
+            state_change,
+            query
+        FROM pg_stat_activity
+        WHERE datname = current_database()
+          AND pid <> pg_backend_pid()
+          AND (
+            query ILIKE '%%content_chunks%%'
+            OR query ILIKE '%%content_items%%'
+            OR query ILIKE '%%theme_topic_embeddings%%'
+          )
+        ORDER BY query_start DESC
+        LIMIT 20
+        """
+        with self._get_query_conn().cursor() as cur:
+            cur.execute(query)
+            rows = cur.fetchall()
+        self._get_query_conn().commit()
+        return [dict(row) for row in rows]
+
+    def list_content_query_locks(self) -> list[dict[str, Any]]:
+        query = """
+        SELECT
+            l.pid,
+            c.relname AS relation_name,
+            l.mode,
+            l.granted,
+            a.state,
+            a.wait_event_type,
+            a.wait_event,
+            a.query
+        FROM pg_locks l
+        LEFT JOIN pg_class c ON c.oid = l.relation
+        LEFT JOIN pg_stat_activity a ON a.pid = l.pid
+        WHERE c.relname IN ('content_chunks', 'content_items', 'theme_topic_embeddings')
+        ORDER BY l.granted ASC, l.pid ASC
+        """
+        with self._get_query_conn().cursor() as cur:
+            cur.execute(query)
+            rows = cur.fetchall()
+        self._get_query_conn().commit()
+        return [dict(row) for row in rows]
+
+    def get_theme_topic_embedding(self, topic_id: int) -> list[float]:
+        with self._get_query_conn().cursor() as cur:
+            cur.execute(
+                """
+                SELECT embedding
+                FROM theme_topic_embeddings
+                WHERE topic_id = %s
+                LIMIT 1
+                """,
+                (topic_id,),
+            )
+            row = cur.fetchone()
+        self._get_query_conn().commit()
+        if row is None:
+            return []
+        return self.parse_vector(row.get("embedding"))
+
+    def _build_query_similar_content_chunks_sql(
+        self,
+        *,
+        query_embedding: list[float],
+        top_k: int,
+        content_types: list[str] | None,
+        source: str | None,
+        language: str | None,
+        exclude_content_item_id: int | None,
+    ) -> tuple[str, dict[str, Any]]:
         vec = _vector_literal(query_embedding)
         query = """
         SELECT
@@ -862,10 +1092,7 @@ class SupabaseStorage:
             params["exclude_content_item_id"] = exclude_content_item_id
 
         query += " ORDER BY cc.embedding <=> %(vec)s::vector LIMIT %(top_k)s"
-        with self._conn.cursor() as cur:
-            cur.execute(query, params)
-            rows = cur.fetchall()
-        return list(rows)
+        return query, params
 
     def upsert_content_relation(
         self,
@@ -1074,3 +1301,25 @@ class SupabaseStorage:
 
 def _vector_literal(values: list[float]) -> str:
     return "[" + ",".join(f"{v:.8f}" for v in values) + "]"
+
+
+def _apply_local_query_timeouts(
+    cur: psycopg.Cursor[Any],
+    *,
+    statement_timeout_ms: int | None,
+    lock_timeout_ms: int | None,
+) -> None:
+    if lock_timeout_ms is not None:
+        cur.execute("SELECT set_config('lock_timeout', %s, true)", (f"{int(lock_timeout_ms)}ms",))
+    if statement_timeout_ms is not None:
+        cur.execute("SELECT set_config('statement_timeout', %s, true)", (f"{int(statement_timeout_ms)}ms",))
+
+
+def _extract_sqlstate(exc: BaseException) -> str | None:
+    current: BaseException | None = exc
+    while current is not None:
+        sqlstate = getattr(current, "sqlstate", None)
+        if isinstance(sqlstate, str) and sqlstate.strip():
+            return sqlstate.strip()
+        current = current.__cause__
+    return None

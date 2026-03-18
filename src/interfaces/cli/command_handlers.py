@@ -62,6 +62,24 @@ def dispatch_command(args: argparse.Namespace, settings: Settings, schema_path: 
         print(json.dumps(summary, indent=2, ensure_ascii=False))
         return
 
+    if args.command == "theme-intel-audit-related":
+        from src.theme_intel.audit import run_related_content_audit
+
+        summary = run_related_content_audit(
+            settings=settings,
+            schema_path=schema_path,
+            topic_id=int(args.topic_id),
+            run_id=int(args.run_id) if args.run_id is not None else None,
+            primary_type=str(args.primary_type),
+            compare_type=str(args.compare_type),
+            fetch_k=int(args.fetch_k),
+            statement_timeout_ms=int(args.statement_timeout_ms),
+            lock_timeout_ms=int(args.lock_timeout_ms),
+            output_path=args.output,
+        )
+        print(json.dumps(summary, indent=2, ensure_ascii=False, default=str))
+        return
+
     if args.command == "ingest-transcripts":
         from src.pipeline.ingest import ingest_transcripts
 

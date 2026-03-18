@@ -45,6 +45,19 @@ def build_parser() -> argparse.ArgumentParser:
         help="Use deterministic local embeddings when recomputing related content",
     )
 
+    audit_theme_related_cmd = sub.add_parser(
+        "theme-intel-audit-related",
+        help="Audit typed related-content queries for a Theme Intel topic and save a markdown report",
+    )
+    audit_theme_related_cmd.add_argument("--topic-id", required=True, type=int)
+    audit_theme_related_cmd.add_argument("--run-id", default=None, type=int)
+    audit_theme_related_cmd.add_argument("--primary-type", default="episode", type=str)
+    audit_theme_related_cmd.add_argument("--compare-type", default="case_study", type=str)
+    audit_theme_related_cmd.add_argument("--fetch-k", default=80, type=int)
+    audit_theme_related_cmd.add_argument("--statement-timeout-ms", default=15000, type=int)
+    audit_theme_related_cmd.add_argument("--lock-timeout-ms", default=2000, type=int)
+    audit_theme_related_cmd.add_argument("--output", default=None, type=Path)
+
     ingest_cmd = sub.add_parser("ingest-transcripts", help="Parse transcripts, chunk, enrich and load into Supabase")
     ingest_cmd.add_argument("--transcripts-dir", default="transcripciones", type=Path)
     ingest_cmd.add_argument("--target-tokens", default=220, type=int)

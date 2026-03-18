@@ -16,6 +16,8 @@ class RecommendContentRequest:
     source: str | None = None
     language: str | None = None
     group_by_type: bool = False
+    statement_timeout_ms: int | None = None
+    lock_timeout_ms: int | None = None
 
 
 @dataclass(frozen=True)
@@ -69,6 +71,8 @@ class RecommendContentUseCase:
             content_types=request.content_types,
             source=request.source,
             language=request.language,
+            statement_timeout_ms=request.statement_timeout_ms,
+            lock_timeout_ms=request.lock_timeout_ms,
         )
         ranked = aggregate_and_rerank(rows, top_k=request.top_k, query_text=query)
 

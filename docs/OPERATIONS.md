@@ -148,6 +148,26 @@ python -m src.cli materialize-content-relations \
   --min-score 0.58
 ```
 
+## 9) Auditoría de related content en Theme Intel
+
+Úsalo cuando un run se quede parado en `theme_related_*` y quieras comparar `episode` contra otro tipo con `EXPLAIN`, `pg_stat_activity` y `pg_locks`.
+
+```bash
+python -m src.cli theme-intel-audit-related \
+  --topic-id 41 \
+  --run-id 8 \
+  --primary-type episode \
+  --compare-type case_study \
+  --fetch-k 80
+```
+
+Salida:
+
+- genera un informe markdown en `docs/THEME_INTEL_RELATED_AUDIT_TOPIC_<topic_id>_<fecha>.md`
+- incluye inventario por `content_type`
+- compara `EXPLAIN (ANALYZE, BUFFERS)` entre `episode` y el tipo de contraste
+- captura snapshot de `pg_stat_activity` y `pg_locks`
+
 ## Checks de validación
 
 ```sql

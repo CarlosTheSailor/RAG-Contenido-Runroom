@@ -34,6 +34,8 @@ class _FakeContentRepository:
         source: str | None = None,
         language: str | None = None,
         exclude_content_item_id: int | None = None,
+        statement_timeout_ms: int | None = None,
+        lock_timeout_ms: int | None = None,
     ) -> list[dict[str, object]]:
         return [
             {

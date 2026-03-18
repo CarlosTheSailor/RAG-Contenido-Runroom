@@ -2,13 +2,14 @@ from __future__ import annotations
 
 from datetime import datetime, time, timezone
 from pathlib import Path
+from time import perf_counter
 from typing import Any, Callable
 
 from src.application.use_cases.recommend_content import RecommendContentRequest, RecommendContentUseCase
 from src.config import Settings
 from src.infrastructure.ai.openai_embedding_client import OpenAIEmbeddingClient
 from src.infrastructure.repositories.content_chunks import ContentChunksRepository
-from src.pipeline.storage import SupabaseStorage
+from src.pipeline.storage import SimilarContentQueryError, SupabaseStorage
 
 from .extractor import ThemeExtractor
 from .gmail import GmailClient
@@ -20,6 +21,8 @@ from .utils import is_low_signal_theme_text, normalize_tag, pretty_tag
 SCHEDULER_LOCK_KEY = 2026031101
 DEFAULT_SCHEDULE_TIMEZONE = "Europe/Madrid"
 RUN_DEBUG_EVENT_LIMIT = 200
+RELATED_CONTENT_STATEMENT_TIMEOUT_MS = 15000
+RELATED_CONTENT_LOCK_TIMEOUT_MS = 2000
 
 
 class ThemeIntelService:
@@ -399,6 +402,7 @@ class ThemeIntelService:
                         theme_title=theme_title,
                         topic_id=topic_id,
                     )
+                    related_warnings: list[dict[str, Any]] = []
                     related = self._recommend_related_content(
                         storage=storage,
                         text=canonical_text,
@@ -412,7 +416,13 @@ class ThemeIntelService:
                             "theme_title": theme_title,
                             "topic_id": topic_id,
                         },
+                        warning_collector=related_warnings,
                     )
+                    for warning in related_warnings:
+                        errors.append(dict(warning))
+                        warning_message = str(warning.get("message") or "").strip()
+                        if warning_message:
+                            stats["warnings"].append(warning_message)
                     repo.replace_related_content(topic_id=topic_id, related_items=related)
                     stats["related_content_links_written"] += len(related)
                     log_progress(
@@ -423,6 +433,7 @@ class ThemeIntelService:
                         theme_title=theme_title,
                         topic_id=topic_id,
                         related_links=len(related),
+                        related_warning_count=len(related_warnings),
                     )
 
                 except Exception as exc:
@@ -464,11 +475,7 @@ class ThemeIntelService:
                         error=str(exc),
                     )
 
-            status = "succeeded"
-            if errors and (stats["themes_created"] > 0 or stats["themes_merged"] > 0):
-                status = "partial_failed"
-            elif errors:
-                status = "failed"
+            status = _resolve_run_status(stats=stats, errors=errors)
 
             _append_run_debug_event(
                 stats=stats,
@@ -589,6 +596,7 @@ class ThemeIntelService:
                     str(topic.get("context_text") or ""),
                     [],
                 )
+            related_warnings: list[dict[str, Any]] = []
             related = self._recommend_related_content(
                 storage=storage,
                 text=canonical_text,
@@ -596,6 +604,7 @@ class ThemeIntelService:
                 content_types=content_types,
                 related_counts_by_type=related_counts_by_type,
                 force_offline=force_offline,
+                warning_collector=related_warnings,
             )
             repo.replace_related_content(topic_id=topic_id, related_items=related)
             return {
@@ -667,10 +676,12 @@ class ThemeIntelService:
                         "processed": len(items),
                         "succeeded": 0,
                         "failed": 0,
+                        "warnings": 0,
                     }
                     for category, items in topics_by_category.items()
                 },
                 "failures": [],
+                "warnings": [],
             }
 
             for category, topics in topics_by_category.items():
@@ -684,16 +695,28 @@ class ThemeIntelService:
                             [],
                         )
                     try:
+                        related_warnings: list[dict[str, Any]] = []
                         related = self._recommend_related_content(
                             storage=storage,
                             text=canonical_text,
                             top_k=top_k,
                             related_counts_by_type=default_related_counts_by_type or None,
                             force_offline=force_offline,
+                            warning_collector=related_warnings,
                         )
                         repo.replace_related_content(topic_id=topic_id, related_items=related)
                         summary["succeeded"] += 1
                         summary["per_category"][category]["succeeded"] += 1
+                        if related_warnings:
+                            summary["per_category"][category]["warnings"] += len(related_warnings)
+                            summary["warnings"].extend(
+                                {
+                                    "origin_category": category,
+                                    "topic_id": topic_id,
+                                    **warning,
+                                }
+                                for warning in related_warnings
+                            )
                     except Exception as exc:
                         summary["failed"] += 1
                         summary["per_category"][category]["failed"] += 1
@@ -1224,6 +1247,7 @@ class ThemeIntelService:
         force_offline: bool = False,
         progress_logger: Callable[..., None] | None = None,
         progress_context: dict[str, Any] | None = None,
+        warning_collector: list[dict[str, Any]] | None = None,
     ) -> list[dict[str, Any]]:
         context = dict(progress_context or {})
         allowed_types = _normalize_related_types(content_types or [])
@@ -1252,61 +1276,137 @@ class ThemeIntelService:
             embedding_client=OpenAIEmbeddingClient(settings=self._settings, force_offline=force_offline),
             repository=ContentChunksRepository(storage=storage),
         )
+        base_top_k = max(24, target_top_k * 3)
+        base_fetch_k = max(80, target_top_k * 12)
+
+        base: list[dict[str, Any]] = []
         if progress_logger is not None:
             progress_logger(
                 "theme_related_base_query_start",
                 "Lanzando query base de related content.",
-                fetch_k=max(80, target_top_k * 12),
-                top_k=max(24, target_top_k * 3),
+                fetch_k=base_fetch_k,
+                top_k=base_top_k,
                 **context,
             )
-        base = use_case.execute(
-            RecommendContentRequest(
-                text=text,
-                top_k=max(24, target_top_k * 3),
-                fetch_k=max(80, target_top_k * 12),
-                content_types=allowed_types or None,
-                group_by_type=False,
+        base_started = perf_counter()
+        try:
+            base = use_case.execute(
+                RecommendContentRequest(
+                    text=text,
+                    top_k=base_top_k,
+                    fetch_k=base_fetch_k,
+                    content_types=allowed_types or None,
+                    group_by_type=False,
+                    statement_timeout_ms=RELATED_CONTENT_STATEMENT_TIMEOUT_MS,
+                    lock_timeout_ms=RELATED_CONTENT_LOCK_TIMEOUT_MS,
+                )
+            ).to_dict().get("results", [])
+            if progress_logger is not None:
+                progress_logger(
+                    "theme_related_base_query_done",
+                    "Query base de related content completada.",
+                    base_candidates=len(base) if isinstance(base, list) else 0,
+                    duration_ms=int((perf_counter() - base_started) * 1000),
+                    **context,
+                )
+        except Exception as exc:
+            warning = _build_related_warning_entry(
+                stage="theme_related_base_query_failed",
+                message="Query base de related content fallida.",
+                exc=exc,
+                duration_ms=int((perf_counter() - base_started) * 1000),
+                forced_type=None,
             )
-        ).to_dict().get("results", [])
-        if progress_logger is not None:
-            progress_logger(
-                "theme_related_base_query_done",
-                "Query base de related content completada.",
-                base_candidates=len(base) if isinstance(base, list) else 0,
-                **context,
-            )
+            if warning_collector is not None:
+                warning_collector.append(warning)
+            if progress_logger is not None:
+                progress_logger(
+                    "theme_related_base_query_failed",
+                    "Query base de related content fallida.",
+                    duration_ms=warning["duration_ms"],
+                    error=warning["error"],
+                    sql_timeout=warning["sql_timeout"],
+                    lock_timeout=warning["lock_timeout"],
+                    sqlstate=warning["sqlstate"],
+                    **context,
+                )
 
         guaranteed_by_type: list[dict[str, Any]] = []
         for forced_type in forced_min_by_type.keys():
+            required_candidates = int(forced_min_by_type.get(forced_type) or 0)
+            base_coverage = _count_related_candidates_for_type(
+                candidates=base if isinstance(base, list) else [],
+                forced_type=forced_type,
+            )
+            if required_candidates > 0 and base_coverage >= required_candidates:
+                if progress_logger is not None:
+                    progress_logger(
+                        "theme_related_typed_query_skipped",
+                        "Query forzada por tipo omitida por cobertura suficiente en base.",
+                        forced_type=forced_type,
+                        required_candidates=required_candidates,
+                        base_coverage=base_coverage,
+                        **context,
+                    )
+                continue
+            typed_top_k = max(6, target_top_k)
+            typed_fetch_k = max(40, target_top_k * 8)
             if progress_logger is not None:
                 progress_logger(
                     "theme_related_typed_query_start",
                     "Lanzando query forzada por tipo.",
                     forced_type=forced_type,
-                    fetch_k=max(40, target_top_k * 8),
-                    top_k=max(6, target_top_k),
+                    fetch_k=typed_fetch_k,
+                    top_k=typed_top_k,
                     **context,
                 )
-            typed_rows = use_case.execute(
-                RecommendContentRequest(
-                    text=text,
-                    top_k=max(6, target_top_k),
-                    fetch_k=max(40, target_top_k * 8),
-                    content_types=[forced_type],
-                    group_by_type=False,
-                )
-            ).to_dict().get("results", [])
-            guaranteed_by_type.extend(typed_rows if isinstance(typed_rows, list) else [])
-            if progress_logger is not None:
-                progress_logger(
-                    "theme_related_typed_query_done",
-                    "Query forzada por tipo completada.",
+            typed_started = perf_counter()
+            try:
+                typed_rows = use_case.execute(
+                    RecommendContentRequest(
+                        text=text,
+                        top_k=typed_top_k,
+                        fetch_k=typed_fetch_k,
+                        content_types=[forced_type],
+                        group_by_type=False,
+                        statement_timeout_ms=RELATED_CONTENT_STATEMENT_TIMEOUT_MS,
+                        lock_timeout_ms=RELATED_CONTENT_LOCK_TIMEOUT_MS,
+                    )
+                ).to_dict().get("results", [])
+                guaranteed_by_type.extend(typed_rows if isinstance(typed_rows, list) else [])
+                if progress_logger is not None:
+                    progress_logger(
+                        "theme_related_typed_query_done",
+                        "Query forzada por tipo completada.",
+                        forced_type=forced_type,
+                        typed_candidates=len(typed_rows) if isinstance(typed_rows, list) else 0,
+                        duration_ms=int((perf_counter() - typed_started) * 1000),
+                        **context,
+                    )
+            except Exception as exc:
+                warning = _build_related_warning_entry(
+                    stage="theme_related_typed_query_failed",
+                    message="Query forzada por tipo fallida.",
+                    exc=exc,
+                    duration_ms=int((perf_counter() - typed_started) * 1000),
                     forced_type=forced_type,
-                    typed_candidates=len(typed_rows) if isinstance(typed_rows, list) else 0,
-                    **context,
                 )
+                if warning_collector is not None:
+                    warning_collector.append(warning)
+                if progress_logger is not None:
+                    progress_logger(
+                        "theme_related_typed_query_failed",
+                        "Query forzada por tipo fallida.",
+                        forced_type=forced_type,
+                        duration_ms=warning["duration_ms"],
+                        error=warning["error"],
+                        sql_timeout=warning["sql_timeout"],
+                        lock_timeout=warning["lock_timeout"],
+                        sqlstate=warning["sqlstate"],
+                        **context,
+                    )
 
+        merge_started = perf_counter()
         merged = _merge_related_candidates(
             candidates=(base if isinstance(base, list) else []) + guaranteed_by_type,
         )
@@ -1315,8 +1415,10 @@ class ThemeIntelService:
                 "theme_related_merge_done",
                 "Candidatos related fusionados.",
                 merged_candidates=len(merged),
+                duration_ms=int((perf_counter() - merge_started) * 1000),
                 **context,
             )
+        selection_started = perf_counter()
         selected = _select_mixed_related_candidates(
             candidates=merged,
             top_k=target_top_k,
@@ -1328,6 +1430,7 @@ class ThemeIntelService:
                 "theme_related_selection_done",
                 "Seleccion final de related content completada.",
                 selected_candidates=len(selected),
+                duration_ms=int((perf_counter() - selection_started) * 1000),
                 **context,
             )
         return selected
@@ -1418,6 +1521,41 @@ def _short_debug_text(value: str, max_len: int) -> str:
     return text[: max_len - 3].rstrip() + "..."
 
 
+def _build_related_warning_entry(
+    *,
+    stage: str,
+    message: str,
+    exc: Exception,
+    duration_ms: int,
+    forced_type: str | None,
+) -> dict[str, Any]:
+    sql_timeout = isinstance(exc, SimilarContentQueryError) and exc.is_statement_timeout
+    lock_timeout = isinstance(exc, SimilarContentQueryError) and exc.is_lock_timeout
+    sqlstate = exc.sqlstate if isinstance(exc, SimilarContentQueryError) else None
+    error_text = str(exc).strip() or exc.__class__.__name__
+
+    warning: dict[str, Any] = {
+        "stage": stage,
+        "message": message if forced_type is None else f"{message} ({forced_type}).",
+        "error": error_text,
+        "duration_ms": int(duration_ms),
+        "sql_timeout": bool(sql_timeout),
+        "lock_timeout": bool(lock_timeout),
+        "sqlstate": sqlstate,
+    }
+    if forced_type is not None:
+        warning["forced_type"] = forced_type
+    return warning
+
+
+def _resolve_run_status(*, stats: dict[str, Any], errors: list[dict[str, Any]]) -> str:
+    if not errors:
+        return "succeeded"
+    if int(stats.get("themes_created") or 0) > 0 or int(stats.get("themes_merged") or 0) > 0:
+        return "partial_failed"
+    return "failed"
+
+
 def _to_time(value: Any) -> time:
     if isinstance(value, time):
         return value.replace(microsecond=0)
@@ -1469,6 +1607,26 @@ def _merge_related_candidates(candidates: list[dict[str, Any]]) -> list[dict[str
     merged = list(deduped.values())
     merged.sort(key=lambda row: float(row.get("score") or 0.0), reverse=True)
     return merged
+
+
+def _count_related_candidates_for_type(*, candidates: list[dict[str, Any]], forced_type: str) -> int:
+    normalized_forced_type = _normalize_content_type_key(forced_type)
+    if not normalized_forced_type:
+        return 0
+    seen_ids: set[int] = set()
+    count = 0
+    for item in candidates:
+        if not isinstance(item, dict):
+            continue
+        content_type = _normalize_content_type_key(str(item.get("content_type") or ""))
+        if content_type != normalized_forced_type:
+            continue
+        content_item_id = int(item.get("content_item_id") or 0)
+        if content_item_id <= 0 or content_item_id in seen_ids:
+            continue
+        seen_ids.add(content_item_id)
+        count += 1
+    return count
 
 
 def _select_mixed_related_candidates(

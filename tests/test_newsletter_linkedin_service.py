@@ -91,6 +91,112 @@ class NewsletterLinkedInServiceTests(unittest.TestCase):
             ["episode", "case_study", "runroom_lab"],
         )
 
+    def test_list_newsletter_ideas_prioritizes_fresh_topics_then_used(self) -> None:
+        service = QueryApiService(settings=_settings(newsletter_rag_min_score=0.74), schema_path=Path("sql"))
+
+        def _fake_list_theme_intel_topics(**kwargs):  # type: ignore[no-untyped-def]
+            status = kwargs.get("status")
+            if status == "new":
+                return [
+                    {
+                        "id": 1,
+                        "title": "Nuevo",
+                        "context_text": "Contexto nuevo",
+                        "canonical_text": "Canonico nuevo",
+                        "score": 5,
+                        "last_seen_at": "2026-03-20T10:00:00+00:00",
+                        "status": "new",
+                    }
+                ]
+            if status == "in_progress":
+                return [
+                    {
+                        "id": 2,
+                        "title": "En progreso",
+                        "context_text": "Contexto progreso",
+                        "canonical_text": "Canonico progreso",
+                        "score": 4,
+                        "last_seen_at": "2026-03-19T10:00:00+00:00",
+                        "status": "in_progress",
+                    }
+                ]
+            if status == "used":
+                return [
+                    {
+                        "id": 3,
+                        "title": "Usado",
+                        "context_text": "Contexto usado",
+                        "canonical_text": "Canonico usado",
+                        "score": 3,
+                        "last_seen_at": "2026-03-18T10:00:00+00:00",
+                        "status": "used",
+                    }
+                ]
+            return []
+
+        service.list_theme_intel_topics = _fake_list_theme_intel_topics  # type: ignore[method-assign]
+        result = service.list_newsletter_linkedin_ideas(limit=3)
+
+        self.assertEqual([idea["topic_id"] for idea in result["ideas"]], [1, 2, 3])
+        self.assertFalse(result["pool_exhausted"])
+
+    def test_list_newsletter_ideas_excludes_seen_and_marks_pool_exhausted(self) -> None:
+        service = QueryApiService(settings=_settings(newsletter_rag_min_score=0.74), schema_path=Path("sql"))
+
+        def _fake_list_theme_intel_topics(**kwargs):  # type: ignore[no-untyped-def]
+            status = kwargs.get("status")
+            if status == "new":
+                return [
+                    {
+                        "id": 11,
+                        "title": "Tema once",
+                        "context_text": "Contexto once",
+                        "canonical_text": "Canonico once",
+                        "score": 2,
+                        "last_seen_at": "2026-03-20T10:00:00+00:00",
+                        "status": "new",
+                    }
+                ]
+            if status == "in_progress":
+                return [
+                    {
+                        "id": 12,
+                        "title": "Tema doce",
+                        "context_text": "Contexto doce",
+                        "canonical_text": "Canonico doce",
+                        "score": 1.5,
+                        "last_seen_at": "2026-03-19T10:00:00+00:00",
+                        "status": "in_progress",
+                    }
+                ]
+            return []
+
+        service.list_theme_intel_topics = _fake_list_theme_intel_topics  # type: ignore[method-assign]
+        result = service.list_newsletter_linkedin_ideas(exclude_topic_ids=[11], limit=2)
+
+        self.assertEqual([idea["topic_id"] for idea in result["ideas"]], [12])
+        self.assertTrue(result["pool_exhausted"])
+
+    def test_list_newsletter_ideas_builds_context_preview(self) -> None:
+        service = QueryApiService(settings=_settings(newsletter_rag_min_score=0.74), schema_path=Path("sql"))
+
+        service.list_theme_intel_topics = lambda **kwargs: [  # type: ignore[method-assign]
+            {
+                "id": 44,
+                "title": "Tema largo",
+                "context_text": "Linea uno.\n\nLinea dos con bastante detalle para comprobar que el preview compacta espacios.",
+                "canonical_text": "Canonico largo",
+                "score": 2.1,
+                "last_seen_at": "2026-03-20T10:00:00+00:00",
+                "status": kwargs.get("status"),
+            }
+        ] if kwargs.get("status") == "new" else []
+
+        result = service.list_newsletter_linkedin_ideas(limit=1)
+
+        self.assertEqual(result["ideas"][0]["topic_id"], 44)
+        self.assertIn("Linea uno. Linea dos", result["ideas"][0]["context_preview"])
+
 
 if __name__ == "__main__":
     unittest.main()

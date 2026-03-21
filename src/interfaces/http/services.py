@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from datetime import datetime
 from pathlib import Path
 from typing import Any
 
@@ -142,6 +143,81 @@ class QueryApiService:
             "warnings": [*warnings, *result.warnings],
             "used_examples": result.used_examples,
         }
+
+    def list_newsletter_linkedin_ideas(
+        self,
+        exclude_topic_ids: list[int] | None = None,
+        limit: int = 10,
+        offline_mode: bool = False,
+    ) -> dict[str, Any]:
+        excluded = {int(item) for item in (exclude_topic_ids or [])}
+        wanted = max(1, int(limit))
+        fetch_limit = min(200, max(wanted * 5, wanted + len(excluded)))
+
+        fresh_topics = self._load_newsletter_idea_topics(
+            statuses=["new", "in_progress"],
+            fetch_limit=fetch_limit,
+            offline_mode=offline_mode,
+        )
+        used_topics = self._load_newsletter_idea_topics(
+            statuses=["used"],
+            fetch_limit=fetch_limit,
+            offline_mode=offline_mode,
+        )
+
+        ideas: list[dict[str, Any]] = []
+        selected_ids: set[int] = set()
+
+        for topic in [*fresh_topics, *used_topics]:
+            topic_id = int(topic.get("id") or 0)
+            if not topic_id or topic_id in excluded or topic_id in selected_ids:
+                continue
+            if str(topic.get("status") or "").strip() == "discarded":
+                continue
+            try:
+                score = float(topic.get("score") or 0.0)
+            except (TypeError, ValueError):
+                score = 0.0
+
+            ideas.append(
+                {
+                    "topic_id": topic_id,
+                    "title": str(topic.get("title") or "").strip(),
+                    "context_preview": _build_context_preview(str(topic.get("context_text") or "")),
+                    "canonical_text": str(topic.get("canonical_text") or "").strip(),
+                    "score": score,
+                    "last_seen_at": topic.get("last_seen_at"),
+                    "status": str(topic.get("status") or "").strip() or "unknown",
+                }
+            )
+            selected_ids.add(topic_id)
+            if len(ideas) >= wanted:
+                break
+
+        return {
+            "ideas": ideas,
+            "pool_exhausted": len(ideas) < wanted,
+        }
+
+    def _load_newsletter_idea_topics(
+        self,
+        *,
+        statuses: list[str],
+        fetch_limit: int,
+        offline_mode: bool,
+    ) -> list[dict[str, Any]]:
+        rows: list[dict[str, Any]] = []
+        for status in statuses:
+            result = self.list_theme_intel_topics(
+                primary_category="product",
+                status=status,
+                limit=fetch_limit,
+                offset=0,
+                offline_mode=offline_mode,
+            )
+            rows.extend(item for item in result if isinstance(item, dict))
+        rows.sort(key=_newsletter_idea_sort_key, reverse=True)
+        return rows
 
     def ingest_case_study_url(self, url: str) -> dict[str, Any]:
         summary = ingest_case_study_url_pipeline(
@@ -489,3 +565,30 @@ class QueryApiService:
 
     def get_linkedin_draft_publisher_run_result(self, run_id: int) -> dict[str, Any] | None:
         return self._linkedin_draft_publisher.get_run_result(run_id=run_id)
+
+
+def _newsletter_idea_sort_key(row: dict[str, Any]) -> tuple[datetime, float, int]:
+    last_seen = row.get("last_seen_at")
+    if isinstance(last_seen, datetime):
+        last_seen_dt = last_seen
+    else:
+        try:
+            last_seen_dt = datetime.fromisoformat(str(last_seen).replace("Z", "+00:00"))
+        except ValueError:
+            last_seen_dt = datetime.min
+    try:
+        score = float(row.get("score") or 0.0)
+    except (TypeError, ValueError):
+        score = 0.0
+    try:
+        topic_id = int(row.get("id") or 0)
+    except (TypeError, ValueError):
+        topic_id = 0
+    return (last_seen_dt, score, topic_id)
+
+
+def _build_context_preview(text: str, max_chars: int = 180) -> str:
+    compact = " ".join(text.split()).strip()
+    if len(compact) <= max_chars:
+        return compact
+    return compact[: max_chars - 3].rstrip() + "..."

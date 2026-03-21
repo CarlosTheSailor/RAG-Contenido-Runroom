@@ -63,6 +63,28 @@ class _FakeService:
             "used_examples": ["post_ejemplo1.txt"],
         }
 
+    def list_newsletter_linkedin_ideas(
+        self,
+        exclude_topic_ids: list[int] | None = None,
+        limit: int = 10,
+        offline_mode: bool = False,
+    ) -> dict[str, object]:
+        _ = exclude_topic_ids, limit, offline_mode
+        return {
+            "ideas": [
+                {
+                    "topic_id": 101,
+                    "title": "Reducir fricción en discovery",
+                    "context_preview": "Idea de producto con contexto breve.",
+                    "canonical_text": "Canonical text",
+                    "score": 2.5,
+                    "last_seen_at": "2026-03-20T10:00:00+00:00",
+                    "status": "new",
+                }
+            ],
+            "pool_exhausted": False,
+        }
+
     def ingest_case_study_url(self, url: str) -> dict[str, object]:
         return {
             "url": url,

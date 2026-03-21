@@ -39,6 +39,8 @@ from src.interfaces.http.schemas import (
     LinkedInDraftPublisherRunResultResponseModel,
     NewsletterLinkedInGenerateRequestModel,
     NewsletterLinkedInGenerateResponseModel,
+    NewsletterLinkedInIdeasRequestModel,
+    NewsletterLinkedInIdeasResponseModel,
     QuerySimilarRequestModel,
     QuerySimilarResponseModel,
     RecommendContentRequestModel,
@@ -110,6 +112,14 @@ class QueryServicePort(Protocol):
         longitud: str | None = None,
         metafora_visual: str | None = None,
         texto_a_incluir: str | None = None,
+        offline_mode: bool = False,
+    ) -> dict[str, Any]:
+        ...
+
+    def list_newsletter_linkedin_ideas(
+        self,
+        exclude_topic_ids: list[int] | None = None,
+        limit: int = 10,
         offline_mode: bool = False,
     ) -> dict[str, Any]:
         ...
@@ -520,6 +530,17 @@ def create_app(
             **result,
         }
 
+    def newsletter_linkedin_ideas_payload(payload: NewsletterLinkedInIdeasRequestModel) -> Dict[str, Any]:
+        result = service.list_newsletter_linkedin_ideas(
+            exclude_topic_ids=payload.exclude_topic_ids,
+            limit=payload.limit,
+            offline_mode=payload.offline_mode,
+        )
+        return {
+            "request_id": str(uuid4()),
+            **result,
+        }
+
     def case_study_ingest_payload(payload: CaseStudyIngestUrlRequestModel) -> Dict[str, Any]:
         try:
             url = _validate_runroom_case_study_url(payload.url)
@@ -802,6 +823,16 @@ def create_app(
         _: dict[str, str] = Depends(require_session_api_user),
     ) -> Dict[str, Any]:
         return newsletter_linkedin_payload(payload)
+
+    @app.post(
+        "/app/api/newsletters-linkedin/ideas",
+        response_model=NewsletterLinkedInIdeasResponseModel,
+    )
+    def app_list_newsletter_linkedin_ideas(
+        payload: NewsletterLinkedInIdeasRequestModel,
+        _: dict[str, str] = Depends(require_session_api_user),
+    ) -> Dict[str, Any]:
+        return newsletter_linkedin_ideas_payload(payload)
 
     @app.post(
         "/app/api/case-studies/ingest-url",

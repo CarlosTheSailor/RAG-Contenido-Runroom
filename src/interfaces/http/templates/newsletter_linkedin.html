@@ -106,6 +106,76 @@
       display: none;
       white-space: pre-wrap;
     }
+    .ideas-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-bottom: 12px;
+    }
+    .ideas-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 12px;
+    }
+    .idea-card {
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 14px;
+      background:
+        radial-gradient(circle at top right, rgba(7, 89, 133, 0.08), transparent 40%),
+        #fbfdff;
+      min-height: 168px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .idea-card-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 10px;
+    }
+    .idea-card h3 {
+      margin: 0;
+      font-size: 1rem;
+      line-height: 1.35;
+    }
+    .idea-card p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.45;
+      flex: 1;
+    }
+    .idea-meta {
+      font-size: 0.86rem;
+      color: var(--muted);
+    }
+    .idea-insert {
+      width: 34px;
+      min-width: 34px;
+      height: 34px;
+      border-radius: 999px;
+      padding: 0;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--accent);
+      font-size: 1.1rem;
+      line-height: 1;
+    }
+    .ideas-empty {
+      color: var(--muted);
+      padding: 8px 0;
+    }
+    .inline-note {
+      display: none;
+      margin-top: -4px;
+      margin-bottom: 12px;
+      color: var(--accent);
+      font-size: 0.92rem;
+    }
     pre {
       margin: 0;
       border: 1px solid var(--border);
@@ -141,12 +211,25 @@
     </header>
 
     <section class="panel">
+      <div class="ideas-header">
+        <div>
+          <h2>Ideas del RAG</h2>
+          <p class="muted">Diez temas de producto para arrancar más rápido sin salirte del corpus.</p>
+        </div>
+        <button id="reload-ideas" type="button">Recargar ideas</button>
+      </div>
+      <div id="ideas-status" class="ok" style="display: block;">Cargando ideas...</div>
+      <div id="ideas-grid" class="ideas-grid"></div>
+    </section>
+
+    <section class="panel">
       <h2>Generar newsletter</h2>
       <form id="newsletter-form">
         <label>
           Idea (obligatorio)
           <textarea id="idea" rows="4" required placeholder="Escribe la idea central..."></textarea>
         </label>
+        <div id="idea-copy-feedback" class="inline-note"></div>
 
         <div class="grid">
           <label>
@@ -209,10 +292,124 @@
     }
 
     const form = document.getElementById("newsletter-form");
+    const ideaInput = document.getElementById("idea");
+    const reloadIdeasButton = document.getElementById("reload-ideas");
+    const ideasStatus = document.getElementById("ideas-status");
+    const ideasGrid = document.getElementById("ideas-grid");
+    const ideaCopyFeedback = document.getElementById("idea-copy-feedback");
     const outputText = document.getElementById("output-text");
     const warningBox = document.getElementById("warning-box");
     const infoBox = document.getElementById("info-box");
     const relatedList = document.getElementById("related-content");
+    let seenTopicIds = [];
+    let resetIdeasOnNextReload = false;
+
+    function showIdeasStatus(message, isWarning = false) {
+      ideasStatus.textContent = message;
+      ideasStatus.className = isWarning ? "warn" : "ok";
+      ideasStatus.style.display = "block";
+    }
+
+    function renderIdeas(ideas) {
+      ideasGrid.innerHTML = "";
+      if (!Array.isArray(ideas) || ideas.length === 0) {
+        const empty = document.createElement("div");
+        empty.className = "ideas-empty";
+        empty.textContent = "No hay ideas disponibles con los filtros actuales.";
+        ideasGrid.appendChild(empty);
+        return;
+      }
+
+      for (const idea of ideas) {
+        const card = document.createElement("article");
+        card.className = "idea-card";
+
+        const head = document.createElement("div");
+        head.className = "idea-card-head";
+
+        const title = document.createElement("h3");
+        title.textContent = idea.title || "Tema sin título";
+        head.appendChild(title);
+
+        const insert = document.createElement("button");
+        insert.type = "button";
+        insert.className = "idea-insert";
+        insert.textContent = "+";
+        insert.title = "Usar idea";
+        insert.setAttribute("aria-label", "Usar idea");
+        insert.addEventListener("click", () => {
+          ideaInput.value = idea.canonical_text || "";
+          ideaInput.focus();
+          ideaCopyFeedback.textContent = `Idea cargada: ${idea.title || "Tema"}`;
+          ideaCopyFeedback.style.display = "block";
+        });
+        head.appendChild(insert);
+
+        const preview = document.createElement("p");
+        preview.textContent = idea.context_preview || "Sin contexto adicional.";
+
+        const meta = document.createElement("div");
+        meta.className = "idea-meta";
+        const score = Number(idea.score || 0).toFixed(2);
+        const dateRaw = idea.last_seen_at ? String(idea.last_seen_at).slice(0, 10) : "sin fecha";
+        meta.textContent = `Score ${score} · ${dateRaw}`;
+
+        card.appendChild(head);
+        card.appendChild(preview);
+        card.appendChild(meta);
+        ideasGrid.appendChild(card);
+      }
+    }
+
+    async function loadIdeas({ resetCycle = false } = {}) {
+      if (resetCycle) {
+        seenTopicIds = [];
+        resetIdeasOnNextReload = false;
+      }
+
+      reloadIdeasButton.disabled = true;
+      showIdeasStatus("Cargando ideas...");
+      ideasGrid.innerHTML = "";
+
+      const payload = {
+        exclude_topic_ids: seenTopicIds,
+        limit: 10,
+        offline_mode: document.getElementById("offline_mode").checked,
+      };
+
+      const result = await postJson("/app/api/newsletters-linkedin/ideas", payload);
+      reloadIdeasButton.disabled = false;
+
+      if (result.status !== 200) {
+        showIdeasStatus("No se pudieron cargar ideas del RAG.", true);
+        ideasGrid.innerHTML = "";
+        return;
+      }
+
+      const ideas = Array.isArray(result.body.ideas) ? result.body.ideas : [];
+      for (const idea of ideas) {
+        if (typeof idea.topic_id === "number" && !seenTopicIds.includes(idea.topic_id)) {
+          seenTopicIds.push(idea.topic_id);
+        }
+      }
+
+      renderIdeas(ideas);
+
+      if (result.body.pool_exhausted || ideas.length < 10) {
+        resetIdeasOnNextReload = true;
+        showIdeasStatus(
+          "Se ha agotado el pool de ideas sin repetir. La siguiente recarga reiniciará el ciclo."
+        );
+        return;
+      }
+
+      showIdeasStatus("Ideas listas. Usa + para copiar una al campo de idea.");
+    }
+
+    reloadIdeasButton.addEventListener("click", async () => {
+      ideaCopyFeedback.style.display = "none";
+      await loadIdeas({ resetCycle: resetIdeasOnNextReload });
+    });
 
     form.addEventListener("submit", async (event) => {
       event.preventDefault();
@@ -222,7 +419,7 @@
       outputText.textContent = "Generando...";
 
       const payload = {
-        idea: document.getElementById("idea").value,
+        idea: ideaInput.value,
         referencias: document.getElementById("referencias").value || null,
         audiencia: document.getElementById("audiencia").value || null,
         objetivo_secundario: document.getElementById("objetivo_secundario").value || null,
@@ -266,6 +463,8 @@
         relatedList.appendChild(li);
       }
     });
+
+    loadIdeas({ resetCycle: true });
   </script>
 </body>
 </html>

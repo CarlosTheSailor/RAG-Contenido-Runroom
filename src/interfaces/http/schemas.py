@@ -66,6 +66,28 @@ class NewsletterLinkedInGenerateResponseModel(BaseModel):
     used_examples: List[str]
 
 
+class NewsletterLinkedInIdeasRequestModel(BaseModel):
+    exclude_topic_ids: List[int] = Field(default_factory=list)
+    limit: int = Field(10, ge=1, le=20)
+    offline_mode: bool = False
+
+
+class NewsletterLinkedInIdeaModel(BaseModel):
+    topic_id: int
+    title: str
+    context_preview: str
+    canonical_text: str
+    score: float
+    last_seen_at: Any = None
+    status: str
+
+
+class NewsletterLinkedInIdeasResponseModel(BaseModel):
+    request_id: str
+    ideas: List[NewsletterLinkedInIdeaModel]
+    pool_exhausted: bool
+
+
 class CaseStudyIngestUrlRequestModel(BaseModel):
     url: str = Field(..., min_length=1)
 

@@ -74,6 +74,39 @@ class _FakeService:
             "used_examples": ["post_ejemplo1.txt", "post_ejemplo2.txt"],
         }
 
+    def list_newsletter_linkedin_ideas(
+        self,
+        exclude_topic_ids: list[int] | None = None,
+        limit: int = 10,
+        offline_mode: bool = False,
+    ) -> dict[str, object]:
+        excluded = set(exclude_topic_ids or [])
+        rows = [
+            {
+                "topic_id": 11,
+                "title": "Discovery con evidencia",
+                "context_preview": "Contexto breve de discovery.",
+                "canonical_text": "Texto canonico 11",
+                "score": 3.1,
+                "last_seen_at": "2026-03-20T10:00:00+00:00",
+                "status": "new",
+            },
+            {
+                "topic_id": 12,
+                "title": "Métricas guardarraíl",
+                "context_preview": "Contexto breve de metricas.",
+                "canonical_text": "Texto canonico 12",
+                "score": 2.8,
+                "last_seen_at": "2026-03-19T10:00:00+00:00",
+                "status": "in_progress",
+            },
+        ]
+        filtered = [row for row in rows if int(row["topic_id"]) not in excluded][:limit]
+        return {
+            "ideas": filtered,
+            "pool_exhausted": len(filtered) < limit,
+        }
+
     def ingest_case_study_url(self, url: str) -> dict[str, object]:
         return {
             "url": url,
@@ -194,7 +227,7 @@ class WebAuthFlowTests(unittest.TestCase):
         self.assertEqual(callback.status_code, 302)
         self.assertEqual(callback.headers["location"], "/app")
         self.assertEqual(app_response.status_code, 200)
-        self.assertIn("Runroom Content Query", app_response.text)
+        self.assertIn("Runroom Content RAG", app_response.text)
         self.assertIn("Ingesta manual de episodio Realworld", app_response.text)
 
     def test_app_api_requires_session(self) -> None:
@@ -306,6 +339,47 @@ class WebAuthFlowTests(unittest.TestCase):
         self.assertIn("warnings", payload)
         self.assertIn("used_examples", payload)
         self.assertGreaterEqual(len(payload["related_content"]), 1)
+
+    def test_newsletter_ideas_requires_session(self) -> None:
+        app = create_app(
+            service=_FakeService(),
+            api_key="secret",
+            runtime_settings=self._runtime(),
+            google_oauth_client=_FakeGoogleOAuthClient(
+                userinfo={"email": "person@runroom.com", "email_verified": True, "name": "Person"}
+            ),
+        )
+        client = TestClient(app)
+
+        response = client.post("/app/api/newsletters-linkedin/ideas", json={"exclude_topic_ids": [], "limit": 10})
+
+        self.assertEqual(response.status_code, 401)
+        self.assertEqual(response.json()["detail"], "Authentication required")
+
+    def test_newsletter_ideas_with_session_contract(self) -> None:
+        app = create_app(
+            service=_FakeService(),
+            api_key="secret",
+            runtime_settings=self._runtime(),
+            google_oauth_client=_FakeGoogleOAuthClient(
+                userinfo={"email": "person@runroom.com", "email_verified": True, "name": "Person"}
+            ),
+        )
+        client = TestClient(app)
+        client.get("/auth/google/callback", follow_redirects=False)
+
+        response = client.post(
+            "/app/api/newsletters-linkedin/ideas",
+            json={"exclude_topic_ids": [11], "limit": 10},
+        )
+
+        self.assertEqual(response.status_code, 200)
+        payload = response.json()
+        self.assertIn("request_id", payload)
+        self.assertIn("ideas", payload)
+        self.assertIn("pool_exhausted", payload)
+        self.assertEqual(len(payload["ideas"]), 1)
+        self.assertEqual(payload["ideas"][0]["topic_id"], 12)
 
     def test_new_case_study_page_redirects_without_session(self) -> None:
         app = create_app(

@@ -45,6 +45,13 @@ def build_parser() -> argparse.ArgumentParser:
         help="Use deterministic local embeddings when recomputing related content",
     )
 
+    backfill_theme_newsletters_cmd = sub.add_parser(
+        "theme-intel-backfill-html-fallback",
+        help="Re-fetch Theme Intel newsletters that were saved with HTML fallback placeholder text",
+    )
+    backfill_theme_newsletters_cmd.add_argument("--limit", default=None, type=int)
+    backfill_theme_newsletters_cmd.add_argument("--dry-run", action="store_true")
+
     audit_theme_related_cmd = sub.add_parser(
         "theme-intel-audit-related",
         help="Audit typed related-content queries for a Theme Intel topic and save a markdown report",

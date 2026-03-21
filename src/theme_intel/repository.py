@@ -8,6 +8,14 @@ from src.pipeline.storage import SupabaseStorage
 
 from .models import SourceDocumentInput, ThemeRunConfig, ThemeTopicFilters
 
+_HTML_FALLBACK_SQL_PATTERNS: tuple[str, ...] = (
+    "%can't display html%",
+    "%cannot display html%",
+    "%no puede desplegar correos en formato html%",
+    "%you have received a newsletter from%",
+    "%has recibido un correo de%",
+)
+
 
 class ThemeIntelRepository:
     def __init__(self, storage: SupabaseStorage):
@@ -1165,6 +1173,71 @@ class ThemeIntelRepository:
                 """,
                 (run_id,),
             )
+            rows = cur.fetchall()
+        return [dict(row) for row in rows]
+
+    def get_source_document(self, source_document_id: int) -> dict[str, Any] | None:
+        with self._conn.cursor() as cur:
+            cur.execute(
+                """
+                SELECT
+                    id,
+                    run_id,
+                    source_type,
+                    source_account,
+                    source_external_id,
+                    source_thread_id,
+                    subject,
+                    sender,
+                    received_at,
+                    labels_json,
+                    links_json,
+                    raw_text,
+                    cleaned_text,
+                    char_length(raw_text) AS raw_text_len,
+                    char_length(cleaned_text) AS cleaned_text_len,
+                    metadata_json,
+                    created_at
+                FROM source_documents
+                WHERE id = %s
+                LIMIT 1
+                """,
+                (source_document_id,),
+            )
+            row = cur.fetchone()
+        return dict(row) if row else None
+
+    def list_html_fallback_source_documents(self, limit: int | None = None) -> list[dict[str, Any]]:
+        query = """
+            SELECT
+                id,
+                run_id,
+                source_type,
+                source_account,
+                source_external_id,
+                source_thread_id,
+                subject,
+                sender,
+                received_at,
+                labels_json,
+                links_json,
+                raw_text,
+                cleaned_text,
+                metadata_json,
+                created_at
+            FROM source_documents
+            WHERE (
+                lower(cleaned_text) LIKE ANY(%(patterns)s)
+                OR lower(raw_text) LIKE ANY(%(patterns)s)
+            )
+            ORDER BY received_at DESC NULLS LAST, id DESC
+        """
+        params: dict[str, Any] = {"patterns": list(_HTML_FALLBACK_SQL_PATTERNS)}
+        if limit is not None and int(limit) > 0:
+            query += "\nLIMIT %(limit)s"
+            params["limit"] = int(limit)
+        with self._conn.cursor() as cur:
+            cur.execute(query, params)
             rows = cur.fetchall()
         return [dict(row) for row in rows]
 

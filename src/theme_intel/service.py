@@ -16,7 +16,7 @@ from .gmail import GmailClient
 from .models import ThemeRunConfig, ThemeScheduleConfigCreate, ThemeScheduleCreate, ThemeTopicFilters
 from .repository import ThemeIntelRepository
 from .scheduling import compute_next_run_at_utc, parse_run_time_local, validate_timezone_name
-from .utils import is_low_signal_theme_text, normalize_tag, pretty_tag
+from .utils import is_low_signal_theme_text, looks_like_html_fallback_text, normalize_tag, pretty_tag
 
 SCHEDULER_LOCK_KEY = 2026031101
 DEFAULT_SCHEDULE_TIMEZONE = "Europe/Madrid"
@@ -514,6 +514,95 @@ class ThemeIntelService:
             storage.ensure_schema(self._schema_path)
             repo = ThemeIntelRepository(storage)
             return repo.list_source_documents_for_run(run_id=run_id)
+        finally:
+            storage.close()
+
+    def get_source_document(self, source_document_id: int) -> dict[str, Any] | None:
+        storage = SupabaseStorage(self._settings.supabase_db_url)
+        try:
+            storage.ensure_schema(self._schema_path)
+            repo = ThemeIntelRepository(storage)
+            return repo.get_source_document(source_document_id=source_document_id)
+        finally:
+            storage.close()
+
+    def backfill_html_fallback_source_documents(
+        self,
+        limit: int | None = None,
+        dry_run: bool = False,
+    ) -> dict[str, Any]:
+        storage = SupabaseStorage(self._settings.supabase_db_url)
+        try:
+            storage.ensure_schema(self._schema_path)
+            repo = ThemeIntelRepository(storage)
+            candidates = repo.list_html_fallback_source_documents(limit=limit)
+            summary: dict[str, Any] = {
+                "dry_run": bool(dry_run),
+                "matched": len(candidates),
+                "processed": 0,
+                "updated": 0,
+                "unchanged": 0,
+                "skipped_missing": 0,
+                "skipped_non_gmail": 0,
+                "still_flagged": 0,
+                "errors": [],
+                "documents": [
+                    {
+                        "id": int(row["id"]),
+                        "run_id": int(row["run_id"]) if row.get("run_id") is not None else None,
+                        "source_external_id": str(row.get("source_external_id") or ""),
+                        "subject": str(row.get("subject") or ""),
+                    }
+                    for row in candidates
+                ],
+            }
+            if dry_run or not candidates:
+                return summary
+
+            gmail = GmailClient(settings=self._settings)
+            refreshed_by_external_id = gmail.get_messages(
+                [str(row.get("source_external_id") or "") for row in candidates],
+                ignore_missing=True,
+            )
+            for row in candidates:
+                summary["processed"] += 1
+                if str(row.get("source_type") or "") != "gmail":
+                    summary["skipped_non_gmail"] += 1
+                    continue
+
+                source_external_id = str(row.get("source_external_id") or "").strip()
+                if not source_external_id:
+                    summary["errors"].append({"id": int(row["id"]), "message": "source_external_id vacio."})
+                    continue
+
+                refreshed = refreshed_by_external_id.get(source_external_id)
+                if refreshed is None:
+                    summary["skipped_missing"] += 1
+                    continue
+
+                was_changed = any(
+                    [
+                        str(row.get("raw_text") or "") != refreshed.raw_text,
+                        str(row.get("cleaned_text") or "") != refreshed.cleaned_text,
+                        row.get("links_json") != refreshed.links,
+                        row.get("metadata_json") != refreshed.metadata,
+                    ]
+                )
+                if looks_like_html_fallback_text(refreshed.cleaned_text):
+                    summary["still_flagged"] += 1
+
+                if not was_changed:
+                    summary["unchanged"] += 1
+                    continue
+
+                repo.upsert_source_document(
+                    run_id=int(row["run_id"]),
+                    doc=refreshed,
+                    source_type=str(row["source_type"]),
+                    source_account=str(row["source_account"]),
+                )
+                summary["updated"] += 1
+            return summary
         finally:
             storage.close()
 

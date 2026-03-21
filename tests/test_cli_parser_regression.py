@@ -18,6 +18,7 @@ class CliParserRegressionTests(unittest.TestCase):
         self.assertIn("ingest-runroom-labs", commands)
         self.assertIn("reset-theme-intel", commands)
         self.assertIn("theme-intel-backfill-related", commands)
+        self.assertIn("theme-intel-backfill-html-fallback", commands)
 
     def test_query_similar_flags_unchanged(self) -> None:
         parser = build_parser()
@@ -126,6 +127,21 @@ class CliParserRegressionTests(unittest.TestCase):
         self.assertEqual(args.days, 7)
         self.assertEqual(args.top_k, 10)
         self.assertFalse(args.offline_mode)
+
+    def test_theme_intel_backfill_html_fallback_flags(self) -> None:
+        parser = build_parser()
+        args = parser.parse_args(
+            [
+                "theme-intel-backfill-html-fallback",
+                "--limit",
+                "15",
+                "--dry-run",
+            ]
+        )
+
+        self.assertEqual(args.command, "theme-intel-backfill-html-fallback")
+        self.assertEqual(args.limit, 15)
+        self.assertTrue(args.dry_run)
 
 
 if __name__ == "__main__":

@@ -51,6 +51,7 @@ from src.interfaces.http.schemas import (
     ThemeIntelRunCreateResponseModel,
     ThemeIntelRunDocumentsResponseModel,
     ThemeIntelRunGetResponseModel,
+    ThemeIntelSourceDocumentResponseModel,
     ThemeIntelScheduleConfigCreateRequestModel,
     ThemeIntelScheduleConfigResponseModel,
     ThemeIntelScheduleConfigUpdateRequestModel,
@@ -147,6 +148,9 @@ class QueryServicePort(Protocol):
         ...
 
     def list_theme_intel_run_source_documents(self, run_id: int) -> list[dict[str, Any]]:
+        ...
+
+    def get_theme_intel_source_document(self, source_document_id: int) -> dict[str, Any] | None:
         ...
 
     def list_theme_intel_topics(
@@ -1129,6 +1133,22 @@ def create_app(
         }
 
     @app.get(
+        "/app/api/theme-intel/source-documents/{source_document_id}",
+        response_model=ThemeIntelSourceDocumentResponseModel,
+    )
+    def app_get_theme_source_document(
+        source_document_id: int,
+        _: dict[str, str] = Depends(require_session_api_user),
+    ) -> Dict[str, Any]:
+        document = service.get_theme_intel_source_document(source_document_id=source_document_id)
+        if document is None:
+            raise HTTPException(status_code=404, detail="Theme source document not found")
+        return {
+            "request_id": str(uuid4()),
+            "document": document,
+        }
+
+    @app.get(
         "/app/api/theme-intel/topics",
         response_model=ThemeIntelTopicListResponseModel,
     )
@@ -1446,6 +1466,22 @@ def create_app(
             "run_id": run_id,
             "total": len(documents),
             "documents": documents,
+        }
+
+    @app.get(
+        "/v1/theme-intel/source-documents/{source_document_id}",
+        response_model=ThemeIntelSourceDocumentResponseModel,
+    )
+    def get_theme_source_document_v1(
+        source_document_id: int,
+        _: None = Security(require_api_key),
+    ) -> Dict[str, Any]:
+        document = service.get_theme_intel_source_document(source_document_id=source_document_id)
+        if document is None:
+            raise HTTPException(status_code=404, detail="Theme source document not found")
+        return {
+            "request_id": str(uuid4()),
+            "document": document,
         }
 
     @app.get(

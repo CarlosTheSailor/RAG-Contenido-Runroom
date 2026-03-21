@@ -539,6 +539,7 @@
         </label>
         <button id="loadDocsBtn" type="button">Cargar documentos del run</button>
       </div>
+      <p class="muted" style="margin:0 0 10px;">La tabla muestra solo previews. Usa "Ver completo" para inspeccionar el documento persistido entero.</p>
       <div class="doc-table-wrap">
         <table>
           <thead>
@@ -555,6 +556,9 @@
             <tr><td colspan="6" class="muted">Sin documentos cargados.</td></tr>
           </tbody>
         </table>
+      </div>
+      <div class="detail-box" id="docDetailBox" style="margin-top:12px;">
+        <p class="empty">Selecciona "Ver completo" para inspeccionar el documento persistido completo.</p>
       </div>
     </section>
 
@@ -711,6 +715,7 @@
       topics: [],
       selectedTopicId: null,
       documents: [],
+      selectedSourceDocumentId: null,
       schedules: [],
       selectedScheduleId: null,
       pollTimer: null,
@@ -963,6 +968,7 @@
       const tbody = document.getElementById("docsTableBody");
       if (!documents.length) {
         tbody.innerHTML = '<tr><td colspan="6" class="muted">Sin documentos cargados.</td></tr>';
+        renderSourceDocumentDetail(null);
         return;
       }
 
@@ -970,6 +976,7 @@
         const labels = Array.isArray(doc.labels_json) ? doc.labels_json.join(", ") : "";
         const cleanPreview = String(doc.cleaned_text_preview || "").slice(0, 1200);
         const rawPreview = String(doc.raw_text_preview || "").slice(0, 1200);
+        const extractionMode = String((doc.metadata_json || {}).extraction_mode || "unknown");
         return `
           <tr>
             <td>${doc.id}</td>
@@ -979,14 +986,44 @@
             <td>${escapeHtml(labels || "-")}</td>
             <td>
               <details>
-                <summary>Ver texto</summary>
+                <summary>Preview</summary>
+                <div class="doc-preview"><strong>Mode</strong>\n${escapeHtml(extractionMode)}</div>
                 <div class="doc-preview"><strong>Cleaned</strong>\n${escapeHtml(cleanPreview || "")}</div>
                 <div class="doc-preview"><strong>Raw</strong>\n${escapeHtml(rawPreview || "")}</div>
               </details>
+              <button class="btn-soft" data-action="view-source-document" data-source-document-id="${doc.id}" style="margin-top:8px;">Ver completo</button>
             </td>
           </tr>
         `;
       }).join("");
+    }
+
+    function renderSourceDocumentDetail(doc) {
+      const box = document.getElementById("docDetailBox");
+      if (!doc) {
+        box.innerHTML = '<p class="empty">Selecciona "Ver completo" para inspeccionar el documento persistido completo.</p>';
+        return;
+      }
+
+      const metadata = doc.metadata_json || {};
+      const labels = Array.isArray(doc.labels_json) ? doc.labels_json.join(", ") : "-";
+      const links = Array.isArray(doc.links_json) ? doc.links_json : [];
+      box.innerHTML = `
+        <h3>${escapeHtml(doc.subject || "(sin asunto)")}</h3>
+        <p class="muted">${escapeHtml(doc.sender || "-")} | ${escapeHtml(safeDate(doc.received_at))}</p>
+        <div class="inline-row" style="gap:10px;flex-wrap:wrap;margin-bottom:10px;">
+          <span class="badge">id ${escapeHtml(doc.id)}</span>
+          <span class="badge">run ${escapeHtml(doc.run_id)}</span>
+          <span class="badge">mode ${escapeHtml(metadata.extraction_mode || "unknown")}</span>
+          <span class="badge">raw ${escapeHtml(doc.raw_text_len || 0)} chars</span>
+          <span class="badge">cleaned ${escapeHtml(doc.cleaned_text_len || 0)} chars</span>
+        </div>
+        <p class="muted">Labels: ${escapeHtml(labels)}</p>
+        <p class="muted">Links detectados: ${escapeHtml(links.length)}</p>
+        <details open><summary>Cleaned completo</summary><pre class="json-dump">${escapeHtml(doc.cleaned_text || "")}</pre></details>
+        <details style="margin-top:10px;"><summary>Raw completo</summary><pre class="json-dump">${escapeHtml(doc.raw_text || "")}</pre></details>
+        <details style="margin-top:10px;"><summary>Metadata</summary><pre class="json-dump">${escapeHtml(JSON.stringify(metadata, null, 2))}</pre></details>
+      `;
     }
 
     function renderSchedules(schedules) {
@@ -1162,6 +1199,8 @@
             const retry = await requestJson(`/app/api/theme-intel/runs/${latestRunId}/documents`);
             if (retry.status === 200) {
               state.documents = Array.isArray(retry.body.documents) ? retry.body.documents : [];
+              state.selectedSourceDocumentId = null;
+              renderSourceDocumentDetail(null);
               document.getElementById("debugRunId").value = String(latestRunId);
               renderDocuments(state.documents);
               showBanner(`Run ${runId} no existe. Mostrando documentos del ultimo run (${latestRunId}).`);
@@ -1173,6 +1212,7 @@
         return;
       }
       state.documents = Array.isArray(result.body.documents) ? result.body.documents : [];
+      state.selectedSourceDocumentId = null;
       renderDocuments(state.documents);
       showBanner(`Documentos del run ${runId}: ${state.documents.length}.`);
     }
@@ -1186,6 +1226,17 @@
       state.selectedTopicId = topicId;
       renderTopicDetail(result.body.topic);
       showBanner(`Detalle de topic ${topicId} cargado.`);
+    }
+
+    async function loadSourceDocumentDetail(sourceDocumentId) {
+      const result = await requestJson(`/app/api/theme-intel/source-documents/${sourceDocumentId}`);
+      if (result.status !== 200) {
+        showBanner(`Error cargando source_document ${sourceDocumentId}: ${JSON.stringify(result.body)}`, true);
+        return;
+      }
+      state.selectedSourceDocumentId = sourceDocumentId;
+      renderSourceDocumentDetail(result.body.document);
+      showBanner(`Documento ${sourceDocumentId} cargado completo.`);
     }
 
     async function updateTopicStatus(topicId, status) {
@@ -1480,6 +1531,14 @@
     });
     document.getElementById("loadTopicsBtn").addEventListener("click", loadTopics);
     document.getElementById("loadDocsBtn").addEventListener("click", loadRunDocuments);
+    document.getElementById("docsTableBody").addEventListener("click", async (event) => {
+      const target = event.target;
+      if (!(target instanceof HTMLElement)) return;
+      if (target.dataset.action !== "view-source-document") return;
+      const sourceDocumentId = Number(target.dataset.sourceDocumentId || 0);
+      if (!sourceDocumentId) return;
+      await loadSourceDocumentDetail(sourceDocumentId);
+    });
     document.getElementById("createScheduleBtn").addEventListener("click", createSchedule);
     document.getElementById("loadSchedulesBtn").addEventListener("click", () => loadSchedules());
     document.getElementById("tickSchedulerBtn").addEventListener("click", tickSchedulerManually);

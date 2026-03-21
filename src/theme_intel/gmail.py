@@ -1,7 +1,9 @@
 from __future__ import annotations
 
 import base64
+import html
 import json
+import re
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -11,7 +13,13 @@ from typing import Any, Callable
 from src.config import Settings
 
 from .models import SourceDocumentInput
-from .utils import clean_newsletter_text, extract_links
+from .utils import clean_newsletter_text, extract_links, looks_like_html_fallback_text
+
+_COMMENT_RE = re.compile(r"(?is)<!--.*?-->")
+_STRIP_CONTAINER_RE = re.compile(r"(?is)<(script|style|head|title|meta|link|svg|noscript)[^>]*>.*?</\1>")
+_BREAK_TAG_RE = re.compile(r"(?is)<\s*br\s*/?\s*>")
+_BLOCK_TAG_RE = re.compile(r"(?is)</?\s*(p|div|section|article|aside|header|footer|main|li|ul|ol|table|tr|td|th|blockquote|h[1-6]|hr)[^>]*>")
+_TAG_RE = re.compile(r"(?is)<[^>]+>")
 
 
 class GmailClient:
@@ -70,6 +78,29 @@ class GmailClient:
                 path=f"/users/me/messages/{clean_id}/modify",
                 payload={"removeLabelIds": ["UNREAD"]},
             )
+
+    def get_messages(self, message_ids: list[str], ignore_missing: bool = False) -> dict[str, SourceDocumentInput]:
+        token = self._access_token()
+        labels_map = self._list_labels_map(token=token)
+        output: dict[str, SourceDocumentInput] = {}
+        for message_id in message_ids:
+            clean_id = message_id.strip()
+            if not clean_id:
+                continue
+            try:
+                detail = self._gmail_get(
+                    token=token,
+                    path=f"/users/me/messages/{clean_id}",
+                    params={"format": "full"},
+                )
+            except Exception as exc:
+                if ignore_missing and _is_missing_gmail_error(exc):
+                    continue
+                raise
+            parsed = _to_source_document(detail, labels_map=labels_map)
+            if parsed is not None:
+                output[clean_id] = parsed
+        return output
 
     def _access_token(self) -> str:
         client_id = (self._settings.gmail_oauth_client_id or "").strip()
@@ -176,9 +207,10 @@ def _to_source_document(payload: dict[str, Any], labels_map: dict[str, str]) -> 
     headers = _extract_headers(payload.get("payload"))
     subject = headers.get("subject", "")
     sender = headers.get("from", "")
-    text_body = _extract_plain_text(payload.get("payload"))
+    body = _extract_message_body(payload.get("payload"))
+    text_body = body["raw_text"]
     cleaned = clean_newsletter_text(text_body)
-    links = extract_links(text_body)
+    links = extract_links(body["link_source_text"])
 
     return SourceDocumentInput(
         source_external_id=message_id,
@@ -194,6 +226,10 @@ def _to_source_document(payload: dict[str, Any], labels_map: dict[str, str]) -> 
             "snippet": str(payload.get("snippet") or ""),
             "label_ids": labels_raw,
             "label_names": labels,
+            "extraction_mode": body["mode"],
+            "plain_candidate_len": len(body["plain_text"]),
+            "html_candidate_len": len(body["html_text"]),
+            "plain_low_signal": body["plain_low_signal"],
         },
     )
 
@@ -215,46 +251,87 @@ def _extract_headers(payload: Any) -> dict[str, str]:
     return output
 
 
-def _extract_plain_text(payload: Any) -> str:
-    if not isinstance(payload, dict):
-        return ""
+def _extract_message_body(payload: Any) -> dict[str, Any]:
+    candidates: dict[str, list[str]] = {"plain": [], "html": []}
+    _collect_mime_candidates(payload, candidates)
 
+    plain_text = "\n".join(item.strip() for item in candidates["plain"] if item.strip()).strip()
+    html_source = "\n\n".join(item.strip() for item in candidates["html"] if item.strip()).strip()
+    html_text = _html_to_text(html_source)
+    plain_low_signal = looks_like_html_fallback_text(plain_text)
+
+    if plain_text and not plain_low_signal:
+        raw_text = plain_text
+        mode = "plain"
+    elif html_text:
+        raw_text = html_text
+        mode = "html_fallback" if plain_text else "html"
+    else:
+        raw_text = plain_text or html_text
+        mode = "plain"
+
+    link_source_text = "\n".join(part for part in (plain_text, html_source, html_text) if part).strip()
+    return {
+        "raw_text": raw_text.strip(),
+        "mode": mode,
+        "plain_text": plain_text,
+        "html_text": html_text,
+        "plain_low_signal": plain_low_signal,
+        "link_source_text": link_source_text,
+    }
+
+
+def _collect_mime_candidates(payload: Any, candidates: dict[str, list[str]]) -> None:
+    if not isinstance(payload, dict):
+        return
+
+    mime = str(payload.get("mimeType") or "").strip().lower()
     body = payload.get("body")
     if isinstance(body, dict):
         data = body.get("data")
         if isinstance(data, str) and data:
-            decoded = _decode_base64url(data)
-            if decoded.strip():
-                mime = str(payload.get("mimeType") or "")
+            decoded = _decode_base64url(data).strip()
+            if decoded:
                 if mime.startswith("text/plain"):
-                    return decoded
+                    candidates["plain"].append(decoded)
+                elif mime.startswith("text/html"):
+                    candidates["html"].append(decoded)
 
     parts = payload.get("parts")
     if isinstance(parts, list):
-        # Prefer text/plain parts first.
-        plain_candidates: list[str] = []
-        html_candidates: list[str] = []
         for part in parts:
-            extracted = _extract_plain_text(part)
-            if extracted.strip():
-                mime = ""
-                if isinstance(part, dict):
-                    mime = str(part.get("mimeType") or "")
-                if mime.startswith("text/plain"):
-                    plain_candidates.append(extracted)
-                else:
-                    html_candidates.append(extracted)
-        if plain_candidates:
-            return "\n".join(plain_candidates).strip()
-        if html_candidates:
-            return "\n".join(html_candidates).strip()
+            _collect_mime_candidates(part, candidates)
 
-    data = ""
-    if isinstance(body, dict):
-        raw = body.get("data")
-        if isinstance(raw, str):
-            data = _decode_base64url(raw)
-    return data
+
+def _html_to_text(html_text: str) -> str:
+    if not html_text.strip():
+        return ""
+
+    payload = _COMMENT_RE.sub(" ", html_text)
+    payload = _STRIP_CONTAINER_RE.sub(" ", payload)
+    payload = _BREAK_TAG_RE.sub("\n", payload)
+    payload = _BLOCK_TAG_RE.sub("\n", payload)
+    payload = _TAG_RE.sub(" ", payload)
+    payload = html.unescape(payload).replace("\xa0", " ")
+
+    lines = [re.sub(r"\s+", " ", line).strip() for line in payload.splitlines()]
+    compact: list[str] = []
+    blank_pending = False
+    for line in lines:
+        if not line:
+            if compact:
+                blank_pending = True
+            continue
+        if blank_pending and compact:
+            compact.append("")
+        compact.append(line)
+        blank_pending = False
+    return "\n".join(compact).strip()
+
+
+def _is_missing_gmail_error(exc: Exception) -> bool:
+    text = str(exc).lower()
+    return "gmail api http 404" in text or "requested entity was not found" in text
 
 
 def _decode_base64url(value: str) -> str:

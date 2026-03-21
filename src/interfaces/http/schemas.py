@@ -146,6 +146,11 @@ class ThemeIntelRunDocumentsResponseModel(BaseModel):
     documents: List[Dict[str, Any]]
 
 
+class ThemeIntelSourceDocumentResponseModel(BaseModel):
+    request_id: str
+    document: Dict[str, Any]
+
+
 class ThemeIntelTopicTagModel(BaseModel):
     tag_key: str
     tag_label: str

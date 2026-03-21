@@ -91,6 +91,25 @@ class _FakeThemeService:
             }
         ]
 
+    def get_theme_intel_source_document(self, source_document_id: int):  # noqa: ANN001
+        if source_document_id != 100:
+            return None
+        return {
+            "id": 100,
+            "run_id": 1,
+            "source_external_id": "msg-1",
+            "subject": "Demo newsletter",
+            "sender": "demo@example.com",
+            "received_at": "2026-01-01T00:00:00Z",
+            "labels_json": ["Demo"],
+            "links_json": ["https://example.com"],
+            "raw_text": "Raw completo",
+            "cleaned_text": "Texto limpio completo",
+            "raw_text_len": 12,
+            "cleaned_text_len": 20,
+            "metadata_json": {"extraction_mode": "html_fallback"},
+        }
+
     def list_theme_intel_topics(self, **kwargs):  # noqa: ANN001, ARG002
         self._last_list_topics_kwargs = dict(kwargs)
         return [
@@ -522,6 +541,12 @@ class ThemeIntelApiTests(unittest.TestCase):
         docs_response = client.get(f"/app/api/theme-intel/runs/{run_id}/documents")
         self.assertEqual(docs_response.status_code, 200)
         self.assertIn("documents", docs_response.json())
+        self.assertIn("cleaned_text_preview", docs_response.json()["documents"][0])
+
+        source_doc_response = client.get("/app/api/theme-intel/source-documents/100")
+        self.assertEqual(source_doc_response.status_code, 200)
+        self.assertEqual(source_doc_response.json()["document"]["metadata_json"]["extraction_mode"], "html_fallback")
+        self.assertIn("cleaned_text", source_doc_response.json()["document"])
 
         topic_response = client.get("/app/api/theme-intel/topics/10")
         self.assertEqual(topic_response.status_code, 200)

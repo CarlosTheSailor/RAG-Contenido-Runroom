@@ -62,6 +62,17 @@ def dispatch_command(args: argparse.Namespace, settings: Settings, schema_path: 
         print(json.dumps(summary, indent=2, ensure_ascii=False))
         return
 
+    if args.command == "theme-intel-backfill-html-fallback":
+        from src.theme_intel.service import ThemeIntelService
+
+        service = ThemeIntelService(settings=settings, schema_path=schema_path)
+        summary = service.backfill_html_fallback_source_documents(
+            limit=int(args.limit) if args.limit is not None else None,
+            dry_run=bool(args.dry_run),
+        )
+        print(json.dumps(summary, indent=2, ensure_ascii=False))
+        return
+
     if args.command == "theme-intel-audit-related":
         from src.theme_intel.audit import run_related_content_audit
 

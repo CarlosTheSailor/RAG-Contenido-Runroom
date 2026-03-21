@@ -225,6 +225,9 @@ class QueryApiService:
     def list_theme_intel_run_source_documents(self, run_id: int) -> list[dict[str, Any]]:
         return self._theme_intel.list_run_source_documents(run_id=run_id)
 
+    def get_theme_intel_source_document(self, source_document_id: int) -> dict[str, Any] | None:
+        return self._theme_intel.get_source_document(source_document_id=source_document_id)
+
     def list_theme_intel_topics(
         self,
         primary_category: str | None = None,

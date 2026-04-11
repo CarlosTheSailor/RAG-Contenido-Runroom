@@ -50,6 +50,26 @@ class _FakeThemeService:
     def ingest_episode_upload(self, transcript_filename: str, transcript_bytes: bytes, runroom_url: str):  # noqa: ANN001, ARG002
         return {"runroom_url": runroom_url, "summary": {"source_filename": transcript_filename, "transcript_path": "x", "episode_id": 1, "content_item_id": 1, "episode_code": "r001", "title": "x", "runroom_url": runroom_url, "chunks_written": 1, "canonical_synced": True}}
 
+    def create_episode_ingest_run(self, transcript_filename: str, runroom_url: str):  # noqa: ANN001, ARG002
+        return {"run_id": 1, "status": "queued"}
+
+    def execute_episode_ingest_run(self, run_id: int, transcript_filename: str, transcript_bytes: bytes, runroom_url: str):  # noqa: ANN001, ARG002
+        return None
+
+    def get_episode_ingest_run(self, run_id: int):  # noqa: ANN001, ARG002
+        return {
+            "run_id": run_id,
+            "status": "succeeded",
+            "source_filename": "episodio.txt",
+            "runroom_url": "https://www.runroom.com/realworld/r001",
+            "created_at": "2026-01-01T00:00:00+00:00",
+            "updated_at": "2026-01-01T00:00:01+00:00",
+            "started_at": "2026-01-01T00:00:00+00:00",
+            "finished_at": "2026-01-01T00:00:01+00:00",
+            "summary": {"source_filename": "episodio.txt", "transcript_path": "x", "episode_id": 1, "content_item_id": 1, "episode_code": "r001", "title": "x", "runroom_url": "https://www.runroom.com/realworld/r001", "chunks_written": 1, "canonical_synced": True},
+            "error": None,
+        }
+
     # Theme intel methods
     def create_theme_intel_run(self, gmail_query: str, origin_category: str, mark_as_read: bool, limit_messages: int = 100, triggered_by_email: str | None = None):  # noqa: ANN001
         run_id = self._next_run_id

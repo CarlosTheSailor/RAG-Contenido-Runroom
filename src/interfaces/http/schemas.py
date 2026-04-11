@@ -136,10 +136,28 @@ class EpisodeIngestSummaryModel(BaseModel):
     canonical_synced: bool
 
 
-class EpisodeIngestResponseModel(BaseModel):
-    request_id: str
+class EpisodeIngestRunModel(BaseModel):
+    run_id: int
+    status: str
+    source_filename: str
     runroom_url: str
-    summary: EpisodeIngestSummaryModel
+    created_at: Any
+    updated_at: Any
+    started_at: Any = None
+    finished_at: Any = None
+    summary: Optional[EpisodeIngestSummaryModel] = None
+    error: Optional[str] = None
+
+
+class EpisodeIngestRunCreateResponseModel(BaseModel):
+    request_id: str
+    run_id: int
+    status: str
+
+
+class EpisodeIngestRunGetResponseModel(BaseModel):
+    request_id: str
+    run: EpisodeIngestRunModel
 
 
 class ThemeIntelRunCreateRequestModel(BaseModel):

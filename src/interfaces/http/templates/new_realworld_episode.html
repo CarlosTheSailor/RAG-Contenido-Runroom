@@ -176,6 +176,58 @@
       return { status: response.status, body };
     }
 
+    async function getJson(url) {
+      const response = await fetch(url);
+      const text = await response.text();
+      let body;
+      try {
+        body = JSON.parse(text);
+      } catch (err) {
+        body = { raw: text };
+      }
+      return { status: response.status, body };
+    }
+
+    function sleep(ms) {
+      return new Promise((resolve) => window.setTimeout(resolve, ms));
+    }
+
+    async function pollEpisodeRun(runId) {
+      while (true) {
+        const result = await getJson(`/app/api/episodes/ingest/${runId}`);
+        resultBox.textContent = JSON.stringify(result, null, 2);
+
+        if (result.status !== 200) {
+          warningBox.textContent = result.body && result.body.detail ? String(result.body.detail) : "No se pudo consultar el estado.";
+          warningBox.style.display = "block";
+          return;
+        }
+
+        const run = result.body && result.body.run;
+        if (!run || !run.status) {
+          warningBox.textContent = "Respuesta invalida al consultar el estado de la ingesta.";
+          warningBox.style.display = "block";
+          return;
+        }
+
+        if (run.status === "succeeded") {
+          infoBox.textContent = "Episodio ingestado correctamente.";
+          infoBox.style.display = "block";
+          return;
+        }
+
+        if (run.status === "failed") {
+          warningBox.textContent = run.error ? String(run.error) : "La ingesta ha fallado.";
+          warningBox.style.display = "block";
+          return;
+        }
+
+        infoBox.textContent = run.status === "running" ? "Ingestando episodio..." : "Ingesta en cola...";
+        infoBox.style.display = "block";
+        await sleep(1500);
+      }
+    }
+
     const form = document.getElementById("ingest-form");
     const warningBox = document.getElementById("warning-box");
     const infoBox = document.getElementById("info-box");
@@ -205,9 +257,10 @@
       const result = await postMultipart("/app/api/episodes/ingest", formData);
       resultBox.textContent = JSON.stringify(result, null, 2);
 
-      if (result.status === 200) {
-        infoBox.textContent = "Episodio ingestado correctamente.";
+      if (result.status === 202 && result.body && result.body.run_id) {
+        infoBox.textContent = "Ingesta aceptada. Consultando estado...";
         infoBox.style.display = "block";
+        await pollEpisodeRun(result.body.run_id);
         return;
       }
 

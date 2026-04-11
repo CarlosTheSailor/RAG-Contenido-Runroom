@@ -11,6 +11,10 @@ from src.pipeline.manual_episode_ingest import DuplicateEpisodeSourceFilenameErr
 
 
 class _FakeService:
+    def __init__(self) -> None:
+        self._episode_runs: dict[int, dict[str, object]] = {}
+        self._next_episode_run_id = 1
+
     def query_similar(self, text: str, top_k: int, offline_mode: bool = False) -> dict[str, object]:
         return {
             "query": text,
@@ -153,6 +157,51 @@ class _FakeService:
                 "canonical_synced": True,
             },
         }
+
+    def create_episode_ingest_run(
+        self,
+        transcript_filename: str,
+        runroom_url: str,
+    ) -> dict[str, object]:
+        if transcript_filename == "duplicate.txt":
+            raise DuplicateEpisodeSourceFilenameError("duplicate")
+        run_id = self._next_episode_run_id
+        self._next_episode_run_id += 1
+        self._episode_runs[run_id] = {
+            "run_id": run_id,
+            "status": "queued",
+            "source_filename": transcript_filename,
+            "runroom_url": runroom_url,
+            "created_at": "2026-01-01T00:00:00+00:00",
+            "updated_at": "2026-01-01T00:00:00+00:00",
+            "started_at": None,
+            "finished_at": None,
+            "summary": None,
+            "error": None,
+        }
+        return {"run_id": run_id, "status": "queued"}
+
+    def execute_episode_ingest_run(
+        self,
+        run_id: int,
+        transcript_filename: str,
+        transcript_bytes: bytes,
+        runroom_url: str,
+    ) -> None:
+        result = self.ingest_episode_upload(
+            transcript_filename=transcript_filename,
+            transcript_bytes=transcript_bytes,
+            runroom_url=runroom_url,
+        )
+        run = self._episode_runs[run_id]
+        run["status"] = "succeeded"
+        run["started_at"] = "2026-01-01T00:00:00+00:00"
+        run["finished_at"] = "2026-01-01T00:00:01+00:00"
+        run["updated_at"] = "2026-01-01T00:00:01+00:00"
+        run["summary"] = result["summary"]
+
+    def get_episode_ingest_run(self, run_id: int) -> dict[str, object] | None:
+        return self._episode_runs.get(run_id)
 
 
 class _FakeGoogleOAuthClient:
@@ -702,12 +751,19 @@ class WebAuthFlowTests(unittest.TestCase):
             files={"transcript_file": ("episodio.txt", b"[00:00:00.000] - Host\nHola", "text/plain")},
         )
 
-        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.status_code, 202)
         payload = response.json()
         self.assertIn("request_id", payload)
-        self.assertEqual(payload["runroom_url"], "https://www.runroom.com/realworld/r999")
-        self.assertEqual(payload["summary"]["source_filename"], "episodio.txt")
-        self.assertEqual(payload["summary"]["episode_id"], 999)
+        self.assertEqual(payload["status"], "queued")
+        self.assertEqual(payload["run_id"], 1)
+
+        status_response = client.get("/app/api/episodes/ingest/1")
+
+        self.assertEqual(status_response.status_code, 200)
+        status_payload = status_response.json()
+        self.assertEqual(status_payload["run"]["status"], "succeeded")
+        self.assertEqual(status_payload["run"]["summary"]["source_filename"], "episodio.txt")
+        self.assertEqual(status_payload["run"]["summary"]["episode_id"], 999)
 
 
 if __name__ == "__main__":

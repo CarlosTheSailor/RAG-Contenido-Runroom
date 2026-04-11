@@ -1,7 +1,9 @@
 from __future__ import annotations
 
-from datetime import datetime
+from copy import deepcopy
+from datetime import datetime, timezone
 from pathlib import Path
+import threading
 from typing import Any
 
 from src.application.newsletter_linkedin_generator import (
@@ -13,7 +15,7 @@ from src.application.use_cases.recommend_content import RecommendContentRequest,
 from src.config import Settings
 from src.content.ingest import ingest_case_study_url as ingest_case_study_url_pipeline
 from src.content.ingest import ingest_runroom_lab_url as ingest_runroom_lab_url_pipeline
-from src.pipeline.manual_episode_ingest import ingest_uploaded_episode
+from src.pipeline.manual_episode_ingest import DuplicateEpisodeSourceFilenameError, ingest_uploaded_episode
 from src.infrastructure.ai.openai_embedding_client import OpenAIEmbeddingClient
 from src.infrastructure.repositories.content_chunks import ContentChunksRepository
 from src.infrastructure.repositories.legacy_chunks import LegacyChunksRepository
@@ -29,6 +31,9 @@ class QueryApiService:
         self._schema_path = schema_path
         self._theme_intel = ThemeIntelService(settings=settings, schema_path=schema_path)
         self._linkedin_draft_publisher = LinkedInDraftPublisherService(settings=settings, schema_path=schema_path)
+        self._episode_ingest_lock = threading.Lock()
+        self._episode_ingest_runs: dict[int, dict[str, Any]] = {}
+        self._next_episode_ingest_run_id = 1
 
     def query_similar(self, text: str, top_k: int, offline_mode: bool = False) -> dict[str, Any]:
         storage = SupabaseStorage(self._settings.supabase_db_url)
@@ -272,6 +277,108 @@ class QueryApiService:
             "runroom_url": runroom_url,
             "summary": dict(summary),
         }
+
+    def create_episode_ingest_run(
+        self,
+        transcript_filename: str,
+        runroom_url: str,
+    ) -> dict[str, Any]:
+        safe_filename = Path(transcript_filename or "").name.strip()
+        if not safe_filename:
+            raise ValueError("Debes indicar un nombre de archivo.")
+
+        storage = SupabaseStorage(self._settings.supabase_db_url)
+        try:
+            storage.ensure_schema(self._schema_path)
+            if storage.get_episode_by_source_filename(safe_filename):
+                raise DuplicateEpisodeSourceFilenameError(
+                    f"Ya existe un episodio ingestado con source_filename={safe_filename}."
+                )
+        finally:
+            storage.close()
+
+        with self._episode_ingest_lock:
+            for run in self._episode_ingest_runs.values():
+                if run["source_filename"] == safe_filename and run["status"] in {"queued", "running"}:
+                    raise DuplicateEpisodeSourceFilenameError(
+                        f"Ya hay una ingesta en curso con source_filename={safe_filename}."
+                    )
+
+            run_id = self._next_episode_ingest_run_id
+            self._next_episode_ingest_run_id += 1
+            now = _utc_now_iso()
+            self._episode_ingest_runs[run_id] = {
+                "run_id": run_id,
+                "status": "queued",
+                "source_filename": safe_filename,
+                "runroom_url": runroom_url,
+                "created_at": now,
+                "updated_at": now,
+                "started_at": None,
+                "finished_at": None,
+                "summary": None,
+                "error": None,
+            }
+        return {
+            "run_id": run_id,
+            "status": "queued",
+        }
+
+    def execute_episode_ingest_run(
+        self,
+        run_id: int,
+        transcript_filename: str,
+        transcript_bytes: bytes,
+        runroom_url: str,
+    ) -> None:
+        now = _utc_now_iso()
+        self._update_episode_ingest_run(
+            run_id,
+            status="running",
+            started_at=now,
+            updated_at=now,
+            error=None,
+        )
+        try:
+            result = self.ingest_episode_upload(
+                transcript_filename=transcript_filename,
+                transcript_bytes=transcript_bytes,
+                runroom_url=runroom_url,
+            )
+        except Exception as exc:
+            failed_at = _utc_now_iso()
+            self._update_episode_ingest_run(
+                run_id,
+                status="failed",
+                finished_at=failed_at,
+                updated_at=failed_at,
+                error=str(exc) or exc.__class__.__name__,
+            )
+            return
+
+        finished_at = _utc_now_iso()
+        self._update_episode_ingest_run(
+            run_id,
+            status="succeeded",
+            finished_at=finished_at,
+            updated_at=finished_at,
+            summary=deepcopy(dict(result.get("summary") or {})),
+            error=None,
+        )
+
+    def get_episode_ingest_run(self, run_id: int) -> dict[str, Any] | None:
+        with self._episode_ingest_lock:
+            run = self._episode_ingest_runs.get(int(run_id))
+            if run is None:
+                return None
+            return deepcopy(run)
+
+    def _update_episode_ingest_run(self, run_id: int, **changes: Any) -> None:
+        with self._episode_ingest_lock:
+            run = self._episode_ingest_runs.get(int(run_id))
+            if run is None:
+                return
+            run.update(changes)
 
     def create_theme_intel_run(
         self,
@@ -592,3 +699,7 @@ def _build_context_preview(text: str, max_chars: int = 180) -> str:
     if len(compact) <= max_chars:
         return compact
     return compact[: max_chars - 3].rstrip() + "..."
+
+
+def _utc_now_iso() -> str:
+    return datetime.now(timezone.utc).isoformat()

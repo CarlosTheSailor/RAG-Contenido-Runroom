@@ -20,7 +20,8 @@ from src.config import APIRuntimeSettings, Settings
 from src.interfaces.http.schemas import (
     CaseStudyIngestUrlRequestModel,
     CaseStudyIngestUrlResponseModel,
-    EpisodeIngestResponseModel,
+    EpisodeIngestRunCreateResponseModel,
+    EpisodeIngestRunGetResponseModel,
     LinkedInDraftPublisherScheduleConfigCreateRequestModel,
     LinkedInDraftPublisherScheduleConfigResponseModel,
     LinkedInDraftPublisherScheduleConfigUpdateRequestModel,
@@ -136,6 +137,25 @@ class QueryServicePort(Protocol):
         transcript_bytes: bytes,
         runroom_url: str,
     ) -> dict[str, Any]:
+        ...
+
+    def create_episode_ingest_run(
+        self,
+        transcript_filename: str,
+        runroom_url: str,
+    ) -> dict[str, Any]:
+        ...
+
+    def execute_episode_ingest_run(
+        self,
+        run_id: int,
+        transcript_filename: str,
+        transcript_bytes: bytes,
+        runroom_url: str,
+    ) -> None:
+        ...
+
+    def get_episode_ingest_run(self, run_id: int) -> dict[str, Any] | None:
         ...
 
     def create_theme_intel_run(
@@ -856,9 +876,11 @@ def create_app(
 
     @app.post(
         "/app/api/episodes/ingest",
-        response_model=EpisodeIngestResponseModel,
+        response_model=EpisodeIngestRunCreateResponseModel,
+        status_code=202,
     )
     async def app_ingest_realworld_episode(
+        background_tasks: BackgroundTasks,
         runroom_url: str = Form(...),
         transcript_file: UploadFile = File(...),
         _: dict[str, str] = Depends(require_session_api_user),
@@ -874,11 +896,48 @@ def create_app(
         if not transcript_bytes or not transcript_bytes.strip():
             raise HTTPException(status_code=422, detail="El archivo de transcripcion esta vacio.")
 
-        return episode_ingest_payload(
-            transcript_filename=filename,
-            transcript_bytes=transcript_bytes,
-            runroom_url=runroom_url,
+        try:
+            url = _validate_runroom_episode_url(runroom_url)
+            created = service.create_episode_ingest_run(
+                transcript_filename=filename,
+                runroom_url=url,
+            )
+        except DuplicateEpisodeSourceFilenameError as exc:
+            raise HTTPException(status_code=409, detail=str(exc)) from exc
+        except ValueError as exc:
+            raise HTTPException(status_code=422, detail=str(exc)) from exc
+        except Exception as exc:
+            raise HTTPException(status_code=500, detail="Error inesperado al preparar la ingesta del episodio.") from exc
+
+        run_id = int(created["run_id"])
+        background_tasks.add_task(
+            service.execute_episode_ingest_run,
+            run_id,
+            filename,
+            transcript_bytes,
+            url,
         )
+        return {
+            "request_id": str(uuid4()),
+            "run_id": run_id,
+            "status": str(created.get("status") or "queued"),
+        }
+
+    @app.get(
+        "/app/api/episodes/ingest/{run_id}",
+        response_model=EpisodeIngestRunGetResponseModel,
+    )
+    def app_get_realworld_episode_ingest_run(
+        run_id: int,
+        _: dict[str, str] = Depends(require_session_api_user),
+    ) -> Dict[str, Any]:
+        run = service.get_episode_ingest_run(run_id=run_id)
+        if run is None:
+            raise HTTPException(status_code=404, detail="Episode ingest run not found")
+        return {
+            "request_id": str(uuid4()),
+            "run": run,
+        }
 
     @app.post(
         "/app/api/linkedin-draft-publisher/runs",

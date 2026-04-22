@@ -135,6 +135,19 @@ class _FakeService:
             },
         }
 
+    def ingest_manual_url(self, url: str, content_type: str) -> dict[str, object]:
+        return {
+            "url": url,
+            "content_type": content_type,
+            "summary": {
+                "documents_total": 1,
+                "items_upserted": 1,
+                "sections_written": 2 if content_type == "runroom_lab" else 3,
+                "chunks_written": 5 if content_type == "runroom_lab" else 6,
+                "dry_run": False,
+            },
+        }
+
     def ingest_episode_upload(
         self,
         transcript_filename: str,
@@ -277,7 +290,8 @@ class WebAuthFlowTests(unittest.TestCase):
         self.assertEqual(callback.headers["location"], "/app")
         self.assertEqual(app_response.status_code, 200)
         self.assertIn("Runroom Content RAG", app_response.text)
-        self.assertIn("Ingesta manual de episodio Realworld", app_response.text)
+        self.assertIn("Ingesta manual", app_response.text)
+        self.assertNotIn("Ingesta manual de episodio Realworld", app_response.text)
 
     def test_app_api_requires_session(self) -> None:
         app = create_app(
@@ -446,7 +460,7 @@ class WebAuthFlowTests(unittest.TestCase):
         self.assertEqual(response.status_code, 302)
         self.assertEqual(response.headers["location"], "/")
 
-    def test_new_case_study_page_with_session(self) -> None:
+    def test_new_case_study_page_with_session_redirects_to_unified_ui(self) -> None:
         app = create_app(
             service=_FakeService(),
             api_key="secret",
@@ -458,10 +472,10 @@ class WebAuthFlowTests(unittest.TestCase):
         client = TestClient(app)
         client.get("/auth/google/callback", follow_redirects=False)
 
-        response = client.get("/app/nuevo-case-study")
+        response = client.get("/app/nuevo-case-study", follow_redirects=False)
 
-        self.assertEqual(response.status_code, 200)
-        self.assertIn("Nueva ingesta de case study", response.text)
+        self.assertEqual(response.status_code, 302)
+        self.assertEqual(response.headers["location"], "/app/ingesta-manual?type=case_study")
 
     def test_case_study_ingest_requires_session(self) -> None:
         app = create_app(
@@ -541,7 +555,7 @@ class WebAuthFlowTests(unittest.TestCase):
         self.assertEqual(response.status_code, 302)
         self.assertEqual(response.headers["location"], "/")
 
-    def test_new_runroom_lab_page_with_session(self) -> None:
+    def test_new_runroom_lab_page_with_session_redirects_to_unified_ui(self) -> None:
         app = create_app(
             service=_FakeService(),
             api_key="secret",
@@ -553,10 +567,10 @@ class WebAuthFlowTests(unittest.TestCase):
         client = TestClient(app)
         client.get("/auth/google/callback", follow_redirects=False)
 
-        response = client.get("/app/nuevo-runroom-lab")
+        response = client.get("/app/nuevo-runroom-lab", follow_redirects=False)
 
-        self.assertEqual(response.status_code, 200)
-        self.assertIn("Nueva ingesta de runroom_lab", response.text)
+        self.assertEqual(response.status_code, 302)
+        self.assertEqual(response.headers["location"], "/app/ingesta-manual?type=runroom_lab")
 
     def test_runroom_lab_ingest_requires_session(self) -> None:
         app = create_app(
@@ -636,7 +650,7 @@ class WebAuthFlowTests(unittest.TestCase):
         self.assertEqual(response.status_code, 302)
         self.assertEqual(response.headers["location"], "/")
 
-    def test_new_realworld_episode_page_with_session(self) -> None:
+    def test_new_realworld_episode_page_with_session_redirects_to_unified_ui(self) -> None:
         app = create_app(
             service=_FakeService(),
             api_key="secret",
@@ -648,10 +662,153 @@ class WebAuthFlowTests(unittest.TestCase):
         client = TestClient(app)
         client.get("/auth/google/callback", follow_redirects=False)
 
-        response = client.get("/app/nuevo-episodio-realworld")
+        response = client.get("/app/nuevo-episodio-realworld", follow_redirects=False)
+
+        self.assertEqual(response.status_code, 302)
+        self.assertEqual(response.headers["location"], "/app/ingesta-manual?type=episode")
+
+    def test_manual_ingest_page_redirects_without_session(self) -> None:
+        app = create_app(
+            service=_FakeService(),
+            api_key="secret",
+            runtime_settings=self._runtime(),
+            google_oauth_client=_FakeGoogleOAuthClient(
+                userinfo={"email": "person@runroom.com", "email_verified": True, "name": "Person"}
+            ),
+        )
+        client = TestClient(app)
+
+        response = client.get("/app/ingesta-manual", follow_redirects=False)
+
+        self.assertEqual(response.status_code, 302)
+        self.assertEqual(response.headers["location"], "/")
+
+    def test_manual_ingest_page_supports_type_preselection(self) -> None:
+        app = create_app(
+            service=_FakeService(),
+            api_key="secret",
+            runtime_settings=self._runtime(),
+            google_oauth_client=_FakeGoogleOAuthClient(
+                userinfo={"email": "person@runroom.com", "email_verified": True, "name": "Person"}
+            ),
+        )
+        client = TestClient(app)
+        client.get("/auth/google/callback", follow_redirects=False)
+
+        response = client.get("/app/ingesta-manual?type=training")
 
         self.assertEqual(response.status_code, 200)
-        self.assertIn("Nueva ingesta de episodio Realworld", response.text)
+        self.assertIn("Ingesta manual", response.text)
+        self.assertIn('option value="training" selected', response.text)
+        self.assertIn("Archivo de transcripcion (.txt)", response.text)
+
+    def test_manual_ingest_url_requires_session(self) -> None:
+        app = create_app(
+            service=_FakeService(),
+            api_key="secret",
+            runtime_settings=self._runtime(),
+            google_oauth_client=_FakeGoogleOAuthClient(
+                userinfo={"email": "person@runroom.com", "email_verified": True, "name": "Person"}
+            ),
+        )
+        client = TestClient(app)
+
+        response = client.post(
+            "/app/api/manual-ingest-url",
+            json={"url": "https://www.runroom.com/cases/caso-valido", "content_type": "case_study"},
+        )
+
+        self.assertEqual(response.status_code, 401)
+        self.assertEqual(response.json()["detail"], "Authentication required")
+
+    def test_manual_ingest_url_rejects_invalid_article_host(self) -> None:
+        app = create_app(
+            service=_FakeService(),
+            api_key="secret",
+            runtime_settings=self._runtime(),
+            google_oauth_client=_FakeGoogleOAuthClient(
+                userinfo={"email": "person@runroom.com", "email_verified": True, "name": "Person"}
+            ),
+        )
+        client = TestClient(app)
+        client.get("/auth/google/callback", follow_redirects=False)
+
+        response = client.post(
+            "/app/api/manual-ingest-url",
+            json={"url": "https://example.com/post", "content_type": "article"},
+        )
+
+        self.assertEqual(response.status_code, 422)
+
+    def test_manual_ingest_case_study_with_session_contract(self) -> None:
+        app = create_app(
+            service=_FakeService(),
+            api_key="secret",
+            runtime_settings=self._runtime(),
+            google_oauth_client=_FakeGoogleOAuthClient(
+                userinfo={"email": "person@runroom.com", "email_verified": True, "name": "Person"}
+            ),
+        )
+        client = TestClient(app)
+        client.get("/auth/google/callback", follow_redirects=False)
+
+        response = client.post(
+            "/app/api/manual-ingest-url",
+            json={"url": "https://www.runroom.com/cases/caso-valido", "content_type": "case_study"},
+        )
+
+        self.assertEqual(response.status_code, 200)
+        payload = response.json()
+        self.assertIn("request_id", payload)
+        self.assertEqual(payload["url"], "https://www.runroom.com/cases/caso-valido")
+        self.assertEqual(payload["content_type"], "case_study")
+        self.assertEqual(payload["summary"]["items_upserted"], 1)
+
+    def test_manual_ingest_training_with_session_contract(self) -> None:
+        app = create_app(
+            service=_FakeService(),
+            api_key="secret",
+            runtime_settings=self._runtime(),
+            google_oauth_client=_FakeGoogleOAuthClient(
+                userinfo={"email": "person@runroom.com", "email_verified": True, "name": "Person"}
+            ),
+        )
+        client = TestClient(app)
+        client.get("/auth/google/callback", follow_redirects=False)
+
+        response = client.post(
+            "/app/api/manual-ingest-url",
+            json={"url": "https://idg.runroom.com/formacion", "content_type": "training"},
+        )
+
+        self.assertEqual(response.status_code, 200)
+        payload = response.json()
+        self.assertIn("request_id", payload)
+        self.assertEqual(payload["url"], "https://idg.runroom.com/formacion")
+        self.assertEqual(payload["content_type"], "training")
+        self.assertEqual(payload["summary"]["items_upserted"], 1)
+
+    def test_manual_ingest_other_accepts_root_url(self) -> None:
+        app = create_app(
+            service=_FakeService(),
+            api_key="secret",
+            runtime_settings=self._runtime(),
+            google_oauth_client=_FakeGoogleOAuthClient(
+                userinfo={"email": "person@runroom.com", "email_verified": True, "name": "Person"}
+            ),
+        )
+        client = TestClient(app)
+        client.get("/auth/google/callback", follow_redirects=False)
+
+        response = client.post(
+            "/app/api/manual-ingest-url",
+            json={"url": "https://idg.runroom.com/", "content_type": "other"},
+        )
+
+        self.assertEqual(response.status_code, 200)
+        payload = response.json()
+        self.assertEqual(payload["url"], "https://idg.runroom.com/")
+        self.assertEqual(payload["content_type"], "other")
 
     def test_episode_ingest_requires_session(self) -> None:
         app = create_app(

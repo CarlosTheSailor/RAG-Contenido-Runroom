@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List, Literal, Optional
 
 from pydantic import BaseModel, Field
 
@@ -122,6 +122,29 @@ class RunroomLabIngestUrlResponseModel(BaseModel):
     request_id: str
     url: str
     summary: RunroomLabIngestUrlSummaryModel
+
+
+ManualUrlIngestContentType = Literal["case_study", "runroom_lab", "article", "training", "other"]
+
+
+class ManualUrlIngestRequestModel(BaseModel):
+    url: str = Field(..., min_length=1)
+    content_type: ManualUrlIngestContentType
+
+
+class ManualUrlIngestSummaryModel(BaseModel):
+    documents_total: int
+    items_upserted: int
+    sections_written: int
+    chunks_written: int
+    dry_run: bool
+
+
+class ManualUrlIngestResponseModel(BaseModel):
+    request_id: str
+    url: str
+    content_type: ManualUrlIngestContentType
+    summary: ManualUrlIngestSummaryModel
 
 
 class EpisodeIngestSummaryModel(BaseModel):

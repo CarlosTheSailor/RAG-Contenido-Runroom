@@ -109,6 +109,19 @@ class _FakeService:
             },
         }
 
+    def ingest_manual_url(self, url: str, content_type: str) -> dict[str, object]:
+        return {
+            "url": url,
+            "content_type": content_type,
+            "summary": {
+                "documents_total": 1,
+                "items_upserted": 1,
+                "sections_written": 2,
+                "chunks_written": 5,
+                "dry_run": False,
+            },
+        }
+
     def ingest_episode_upload(
         self,
         transcript_filename: str,

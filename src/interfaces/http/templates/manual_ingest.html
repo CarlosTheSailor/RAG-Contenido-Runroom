@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ingesta manual</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f5f7fc;
+      --panel: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --primary: #075985;
+      --border: #d5deee;
+      --warn-bg: #fff7ed;
+      --warn-text: #9a3412;
+      --ok-bg: #ecfeff;
+      --ok-text: #155e75;
+    }
+    body {
+      margin: 0;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      background: linear-gradient(180deg, #e8eefc 0%, var(--bg) 45%);
+      color: var(--text);
+      min-height: 100vh;
+    }
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+    .row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+    }
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 16px;
+      margin-bottom: 16px;
+    }
+    h1 {
+      margin: 0;
+      font-size: 1.6rem;
+    }
+    h2 {
+      margin: 0 0 12px;
+      font-size: 1.1rem;
+    }
+    .muted {
+      color: var(--muted);
+      margin: 4px 0 0;
+    }
+    label {
+      display: block;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+    input, select {
+      width: 100%;
+      box-sizing: border-box;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 10px;
+      margin-top: 4px;
+      margin-bottom: 12px;
+      font: inherit;
+    }
+    button {
+      border: none;
+      border-radius: 10px;
+      background: var(--primary);
+      color: #fff;
+      padding: 10px 14px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    button.secondary {
+      background: #334155;
+    }
+    pre {
+      margin: 0;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: #f9fbff;
+      padding: 12px;
+      overflow: auto;
+      max-height: 380px;
+    }
+    .warn, .ok {
+      display: none;
+      border-radius: 10px;
+      padding: 10px 12px;
+      margin-bottom: 12px;
+      font-weight: 600;
+    }
+    .warn {
+      background: var(--warn-bg);
+      color: var(--warn-text);
+    }
+    .ok {
+      background: var(--ok-bg);
+      color: var(--ok-text);
+    }
+    .hidden {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="row">
+      <div>
+        <h1>Ingesta manual</h1>
+        <p class="muted">Sesion iniciada como {{ user.name }} ({{ user.email }})</p>
+      </div>
+      <div class="row">
+        <a href="/app"><button class="secondary" type="button">Volver</button></a>
+        <form action="/auth/logout" method="post">
+          <button class="secondary" type="submit">Cerrar sesion</button>
+        </form>
+      </div>
+    </header>
+
+    <section class="panel">
+      <h2>Nuevo contenido manual</h2>
+      <p id="type-copy" class="muted"></p>
+      <form id="ingest-form">
+        <label>
+          Tipo de contenido
+          <select id="content-type" required>
+            <option value="episode" {% if selected_type == "episode" %}selected{% endif %}>episode</option>
+            <option value="case_study" {% if selected_type == "case_study" %}selected{% endif %}>case_study</option>
+            <option value="runroom_lab" {% if selected_type == "runroom_lab" %}selected{% endif %}>runroom_lab</option>
+            <option value="article" {% if selected_type == "article" %}selected{% endif %}>article</option>
+            <option value="training" {% if selected_type == "training" %}selected{% endif %}>training</option>
+            <option value="other" {% if selected_type == "other" %}selected{% endif %}>other</option>
+          </select>
+        </label>
+        <label>
+          URL pública
+          <input
+            id="content-url"
+            type="url"
+            required
+            value="{{ initial_url }}"
+          />
+        </label>
+        <div id="transcript-group" class="{% if selected_type != 'episode' %}hidden{% endif %}">
+          <label>
+            Archivo de transcripcion (.txt)
+            <input id="transcript-file" type="file" accept=".txt,text/plain" {% if selected_type == "episode" %}required{% endif %} />
+          </label>
+        </div>
+        <button id="submit-button" type="submit">Ingestar contenido</button>
+      </form>
+    </section>
+
+    <section class="panel">
+      <h2>Resultado</h2>
+      <div id="warning-box" class="warn"></div>
+      <div id="info-box" class="ok"></div>
+      <pre id="result-box">{}</pre>
+    </section>
+  </div>
+
+  <script>
+    const TYPE_CONFIG = {
+      episode: {
+        copy: "Sube una transcripcion .txt y la URL del episodio de Realworld en Runroom.",
+        placeholder: "https://www.runroom.com/realworld/...",
+        button: "Ingestar episodio",
+        needsFile: true,
+      },
+      case_study: {
+        copy: "Indica la URL del case study de Runroom bajo /cases/.",
+        placeholder: "https://www.runroom.com/cases/...",
+        button: "Ingestar case study",
+        needsFile: false,
+      },
+      runroom_lab: {
+        copy: "Indica la URL de una pagina concreta de Runroom LAB.",
+        placeholder: "https://info.runroom.com/lab-...",
+        button: "Ingestar runroom_lab",
+        needsFile: false,
+      },
+      article: {
+        copy: "Indica la URL pública del articulo de Runroom que quieres ingestar.",
+        placeholder: "https://www.runroom.com/realworld/...",
+        button: "Ingestar article",
+        needsFile: false,
+      },
+      training: {
+        copy: "Indica la URL pública de la pagina de formacion que quieres ingestar.",
+        placeholder: "https://idg.runroom.com/formacion",
+        button: "Ingestar training",
+        needsFile: false,
+      },
+      other: {
+        copy: "Indica la URL pública de Runroom o de un subdominio propio para ingestarla como other.",
+        placeholder: "https://idg.runroom.com/...",
+        button: "Ingestar other",
+        needsFile: false,
+      },
+    };
+
+    async function postJson(url, payload) {
+      const response = await fetch(url, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+      const text = await response.text();
+      let body;
+      try {
+        body = JSON.parse(text);
+      } catch (err) {
+        body = { raw: text };
+      }
+      return { status: response.status, body };
+    }
+
+    async function postMultipart(url, formData) {
+      const response = await fetch(url, {
+        method: "POST",
+        body: formData,
+      });
+      const text = await response.text();
+      let body;
+      try {
+        body = JSON.parse(text);
+      } catch (err) {
+        body = { raw: text };
+      }
+      return { status: response.status, body };
+    }
+
+    async function getJson(url) {
+      const response = await fetch(url);
+      const text = await response.text();
+      let body;
+      try {
+        body = JSON.parse(text);
+      } catch (err) {
+        body = { raw: text };
+      }
+      return { status: response.status, body };
+    }
+
+    function sleep(ms) {
+      return new Promise((resolve) => window.setTimeout(resolve, ms));
+    }
+
+    async function pollEpisodeRun(runId) {
+      while (true) {
+        const result = await getJson(`/app/api/episodes/ingest/${runId}`);
+        resultBox.textContent = JSON.stringify(result, null, 2);
+
+        if (result.status !== 200) {
+          warningBox.textContent = result.body && result.body.detail ? String(result.body.detail) : "No se pudo consultar el estado.";
+          warningBox.style.display = "block";
+          return;
+        }
+
+        const run = result.body && result.body.run;
+        if (!run || !run.status) {
+          warningBox.textContent = "Respuesta invalida al consultar el estado de la ingesta.";
+          warningBox.style.display = "block";
+          return;
+        }
+
+        if (run.status === "succeeded") {
+          infoBox.textContent = "Contenido ingestado correctamente.";
+          infoBox.style.display = "block";
+          return;
+        }
+
+        if (run.status === "failed") {
+          warningBox.textContent = run.error ? String(run.error) : "La ingesta ha fallado.";
+          warningBox.style.display = "block";
+          return;
+        }
+
+        infoBox.textContent = run.status === "running" ? "Ingestando contenido..." : "Ingesta en cola...";
+        infoBox.style.display = "block";
+        await sleep(1500);
+      }
+    }
+
+    const form = document.getElementById("ingest-form");
+    const contentType = document.getElementById("content-type");
+    const contentUrl = document.getElementById("content-url");
+    const transcriptGroup = document.getElementById("transcript-group");
+    const transcriptFile = document.getElementById("transcript-file");
+    const typeCopy = document.getElementById("type-copy");
+    const submitButton = document.getElementById("submit-button");
+    const warningBox = document.getElementById("warning-box");
+    const infoBox = document.getElementById("info-box");
+    const resultBox = document.getElementById("result-box");
+
+    function refreshForm() {
+      const config = TYPE_CONFIG[contentType.value] || TYPE_CONFIG.article;
+      typeCopy.textContent = config.copy;
+      contentUrl.placeholder = config.placeholder;
+      submitButton.textContent = config.button;
+      transcriptGroup.classList.toggle("hidden", !config.needsFile);
+      transcriptFile.required = !!config.needsFile;
+
+      const nextUrl = new URL(window.location.href);
+      nextUrl.searchParams.set("type", contentType.value);
+      window.history.replaceState({}, "", nextUrl.toString());
+    }
+
+    contentType.addEventListener("change", refreshForm);
+    refreshForm();
+
+    form.addEventListener("submit", async (event) => {
+      event.preventDefault();
+      warningBox.style.display = "none";
+      infoBox.style.display = "none";
+      resultBox.textContent = "Ingestando...";
+
+      if (contentType.value === "episode") {
+        const file = transcriptFile.files && transcriptFile.files[0];
+        if (!file) {
+          warningBox.textContent = "Debes seleccionar un archivo .txt.";
+          warningBox.style.display = "block";
+          resultBox.textContent = "{}";
+          return;
+        }
+
+        const formData = new FormData();
+        formData.append("transcript_file", file);
+        formData.append("runroom_url", contentUrl.value);
+
+        const result = await postMultipart("/app/api/episodes/ingest", formData);
+        resultBox.textContent = JSON.stringify(result, null, 2);
+
+        if (result.status === 202 && result.body && result.body.run_id) {
+          infoBox.textContent = "Ingesta creada. Consultando estado...";
+          infoBox.style.display = "block";
+          await pollEpisodeRun(result.body.run_id);
+          return;
+        }
+
+        warningBox.textContent = result.body && result.body.detail ? String(result.body.detail) : "Error inesperado.";
+        warningBox.style.display = "block";
+        return;
+      }
+
+      const result = await postJson("/app/api/manual-ingest-url", {
+        url: contentUrl.value,
+        content_type: contentType.value,
+      });
+      resultBox.textContent = JSON.stringify(result, null, 2);
+
+      if (result.status === 200) {
+        infoBox.textContent = "Contenido ingestado correctamente.";
+        infoBox.style.display = "block";
+        return;
+      }
+
+      warningBox.textContent = result.body && result.body.detail ? String(result.body.detail) : "Error inesperado.";
+      warningBox.style.display = "block";
+    });
+  </script>
+</body>
+</html>

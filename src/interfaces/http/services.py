@@ -15,6 +15,7 @@ from src.application.use_cases.recommend_content import RecommendContentRequest,
 from src.config import Settings
 from src.content.ingest import ingest_case_study_url as ingest_case_study_url_pipeline
 from src.content.ingest import ingest_runroom_lab_url as ingest_runroom_lab_url_pipeline
+from src.content.ingest import ingest_runroom_web_url as ingest_runroom_web_url_pipeline
 from src.pipeline.manual_episode_ingest import DuplicateEpisodeSourceFilenameError, ingest_uploaded_episode
 from src.infrastructure.ai.openai_embedding_client import OpenAIEmbeddingClient
 from src.infrastructure.repositories.content_chunks import ContentChunksRepository
@@ -254,6 +255,35 @@ class QueryApiService:
         return {
             "url": url,
             "summary": dict(summary),
+        }
+
+    def ingest_manual_url(self, url: str, content_type: str) -> dict[str, Any]:
+        normalized_type = str(content_type or "").strip().lower()
+
+        if normalized_type == "case_study":
+            result = self.ingest_case_study_url(url=url)
+        elif normalized_type == "runroom_lab":
+            result = self.ingest_runroom_lab_url(url=url)
+        else:
+            summary = ingest_runroom_web_url_pipeline(
+                settings=self._settings,
+                schema_path=self._schema_path,
+                url=url,
+                content_type=normalized_type,
+                target_tokens=240,
+                overlap_tokens=40,
+                batch_size=32,
+                offline_mode=False,
+                dry_run=False,
+            )
+            result = {
+                "url": url,
+                "summary": dict(summary),
+            }
+
+        return {
+            "content_type": normalized_type,
+            **result,
         }
 
     def ingest_episode_upload(

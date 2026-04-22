@@ -38,6 +38,8 @@ from src.interfaces.http.schemas import (
     LinkedInDraftPublisherRunCreateResponseModel,
     LinkedInDraftPublisherRunGetResponseModel,
     LinkedInDraftPublisherRunResultResponseModel,
+    ManualUrlIngestRequestModel,
+    ManualUrlIngestResponseModel,
     NewsletterLinkedInGenerateRequestModel,
     NewsletterLinkedInGenerateResponseModel,
     NewsletterLinkedInIdeasRequestModel,
@@ -129,6 +131,9 @@ class QueryServicePort(Protocol):
         ...
 
     def ingest_runroom_lab_url(self, url: str) -> dict[str, Any]:
+        ...
+
+    def ingest_manual_url(self, url: str, content_type: str) -> dict[str, Any]:
         ...
 
     def ingest_episode_upload(
@@ -458,6 +463,19 @@ def _validate_runroom_lab_url(url: str) -> str:
     return candidate
 
 
+def _validate_runroom_public_web_url(url: str) -> str:
+    candidate = url.strip()
+    parsed = urlparse(candidate)
+    host = (parsed.hostname or "").lower()
+
+    if parsed.scheme not in {"http", "https"}:
+        raise ValueError("URL invalida: solo se permiten esquemas http/https.")
+    if not host or not (host == "runroom.com" or host.endswith(".runroom.com")):
+        raise ValueError("URL invalida: solo se permiten URLs publicas de Runroom o sus subdominios.")
+
+    return candidate
+
+
 def create_app(
     service: Optional[QueryServicePort] = None,
     api_key: Optional[str] = None,
@@ -596,6 +614,33 @@ def create_app(
         return {
             "request_id": str(uuid4()),
             "url": str(result["url"]),
+            "summary": result["summary"],
+        }
+
+    def manual_url_ingest_payload(payload: ManualUrlIngestRequestModel) -> Dict[str, Any]:
+        try:
+            if payload.content_type == "case_study":
+                url = _validate_runroom_case_study_url(payload.url)
+            elif payload.content_type == "runroom_lab":
+                url = _validate_runroom_lab_url(payload.url)
+            else:
+                url = _validate_runroom_public_web_url(payload.url)
+        except ValueError as exc:
+            raise HTTPException(status_code=422, detail=str(exc)) from exc
+
+        try:
+            result = service.ingest_manual_url(url=url, content_type=payload.content_type)
+        except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError) as exc:
+            raise HTTPException(status_code=502, detail=f"No se pudo cargar la URL externa: {exc}") from exc
+        except ValueError as exc:
+            raise HTTPException(status_code=422, detail=str(exc)) from exc
+        except Exception as exc:
+            raise HTTPException(status_code=500, detail="Error inesperado durante la ingesta manual.") from exc
+
+        return {
+            "request_id": str(uuid4()),
+            "url": str(result["url"]),
+            "content_type": str(result["content_type"]),
             "summary": result["summary"],
         }
 
@@ -780,32 +825,38 @@ def create_app(
         user = _session_user(request)
         if user is None:
             return RedirectResponse(url="/", status_code=302)
-        return templates.TemplateResponse(
-            request,
-            "new_case_study.html",
-            {"user": user},
-        )
+        return RedirectResponse(url="/app/ingesta-manual?type=case_study", status_code=302)
 
     @app.get("/app/nuevo-runroom-lab", response_class=HTMLResponse)
     def app_new_runroom_lab_page(request: Request) -> Any:
         user = _session_user(request)
         if user is None:
             return RedirectResponse(url="/", status_code=302)
-        return templates.TemplateResponse(
-            request,
-            "new_runroom_lab.html",
-            {"user": user},
-        )
+        return RedirectResponse(url="/app/ingesta-manual?type=runroom_lab", status_code=302)
 
     @app.get("/app/nuevo-episodio-realworld", response_class=HTMLResponse)
     def app_new_realworld_episode_page(request: Request) -> Any:
         user = _session_user(request)
         if user is None:
             return RedirectResponse(url="/", status_code=302)
+        return RedirectResponse(url="/app/ingesta-manual?type=episode", status_code=302)
+
+    @app.get("/app/ingesta-manual", response_class=HTMLResponse)
+    def app_manual_ingest_page(request: Request) -> Any:
+        user = _session_user(request)
+        if user is None:
+            return RedirectResponse(url="/", status_code=302)
+        selected_type = str(request.query_params.get("type") or "article").strip().lower()
+        if selected_type not in {"episode", "case_study", "runroom_lab", "article", "training", "other"}:
+            selected_type = "article"
         return templates.TemplateResponse(
             request,
-            "new_realworld_episode.html",
-            {"user": user},
+            "manual_ingest.html",
+            {
+                "user": user,
+                "selected_type": selected_type,
+                "initial_url": "",
+            },
         )
 
     @app.get("/health")
@@ -873,6 +924,16 @@ def create_app(
         _: dict[str, str] = Depends(require_session_api_user),
     ) -> Dict[str, Any]:
         return runroom_lab_ingest_payload(payload)
+
+    @app.post(
+        "/app/api/manual-ingest-url",
+        response_model=ManualUrlIngestResponseModel,
+    )
+    def app_manual_ingest_url(
+        payload: ManualUrlIngestRequestModel,
+        _: dict[str, str] = Depends(require_session_api_user),
+    ) -> Dict[str, Any]:
+        return manual_url_ingest_payload(payload)
 
     @app.post(
         "/app/api/episodes/ingest",

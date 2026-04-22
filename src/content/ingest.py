@@ -11,6 +11,7 @@ from src.content.runroom_labs_index import (
     DEFAULT_RUNROOM_LABS_INDEX_URL,
     discover_runroom_lab_urls,
 )
+from src.content.web_url import parse_runroom_web_url
 from src.content.chunking import chunk_sections
 from src.content.models import CanonicalChunk, CanonicalDocument
 from src.pipeline.ai_client import AIClient
@@ -80,6 +81,30 @@ def ingest_runroom_lab_url(
     dry_run: bool = False,
 ) -> ContentIngestSummary:
     doc = parse_runroom_lab_url(url)
+    return ingest_documents(
+        settings=settings,
+        schema_path=schema_path,
+        documents=[doc],
+        target_tokens=target_tokens,
+        overlap_tokens=overlap_tokens,
+        batch_size=batch_size,
+        offline_mode=offline_mode,
+        dry_run=dry_run,
+    )
+
+
+def ingest_runroom_web_url(
+    settings: Settings,
+    schema_path: Path,
+    url: str,
+    content_type: str,
+    target_tokens: int = 240,
+    overlap_tokens: int = 40,
+    batch_size: int = 32,
+    offline_mode: bool = False,
+    dry_run: bool = False,
+) -> ContentIngestSummary:
+    doc = parse_runroom_web_url(url=url, content_type=content_type)
     return ingest_documents(
         settings=settings,
         schema_path=schema_path,

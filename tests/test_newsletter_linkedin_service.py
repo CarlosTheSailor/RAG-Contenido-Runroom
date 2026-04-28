@@ -75,7 +75,7 @@ class NewsletterLinkedInServiceTests(unittest.TestCase):
         self.assertTrue(any("score >=" in warning for warning in result["warnings"]))
 
     @patch("src.interfaces.http.services.NewsletterLinkedInGenerator", new=_FakeGenerator)
-    def test_recommendation_scope_includes_runroom_lab(self) -> None:
+    def test_recommendation_scope_uses_all_available_types_without_type_bias(self) -> None:
         service = QueryApiService(settings=_settings(newsletter_rag_min_score=0.74), schema_path=Path("sql"))
         captured: dict[str, object] = {}
 
@@ -86,10 +86,9 @@ class NewsletterLinkedInServiceTests(unittest.TestCase):
         service.recommend_content = _fake_recommend_content  # type: ignore[method-assign]
         service.generate_newsletter_linkedin(idea="idea")
 
-        self.assertEqual(
-            captured.get("content_types"),
-            ["episode", "case_study", "runroom_lab"],
-        )
+        self.assertIsNone(captured.get("content_types"))
+        self.assertEqual(captured.get("prefer_type_diversity"), False)
+        self.assertEqual(captured.get("apply_runroom_lab_lexical_boost"), False)
 
     def test_list_newsletter_ideas_prioritizes_fresh_topics_then_used(self) -> None:
         service = QueryApiService(settings=_settings(newsletter_rag_min_score=0.74), schema_path=Path("sql"))

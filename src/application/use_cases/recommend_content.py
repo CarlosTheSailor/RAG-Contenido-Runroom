@@ -18,6 +18,8 @@ class RecommendContentRequest:
     group_by_type: bool = False
     statement_timeout_ms: int | None = None
     lock_timeout_ms: int | None = None
+    prefer_type_diversity: bool = True
+    apply_runroom_lab_lexical_boost: bool = True
 
 
 @dataclass(frozen=True)
@@ -74,7 +76,13 @@ class RecommendContentUseCase:
             statement_timeout_ms=request.statement_timeout_ms,
             lock_timeout_ms=request.lock_timeout_ms,
         )
-        ranked = aggregate_and_rerank(rows, top_k=request.top_k, query_text=query)
+        ranked = aggregate_and_rerank(
+            rows,
+            top_k=request.top_k,
+            query_text=query,
+            prefer_type_diversity=request.prefer_type_diversity,
+            apply_runroom_lab_lexical_boost=request.apply_runroom_lab_lexical_boost,
+        )
 
         if request.group_by_type:
             grouped: dict[str, list[dict[str, Any]]] = {}

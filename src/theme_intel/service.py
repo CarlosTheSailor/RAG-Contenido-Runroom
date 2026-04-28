@@ -225,8 +225,6 @@ class ThemeIntelService:
                 gmail_query=str(run["gmail_query"]),
                 documents=documents,
             )
-            default_related_counts_by_type = self._default_related_counts_by_type(storage=storage)
-
             total_themes = len(extraction.temas)
             for theme_index, theme in enumerate(extraction.temas, start=1):
                 try:
@@ -407,7 +405,6 @@ class ThemeIntelService:
                         storage=storage,
                         text=canonical_text,
                         top_k=10,
-                        related_counts_by_type=default_related_counts_by_type or None,
                         force_offline=force_offline,
                         progress_logger=log_progress,
                         progress_context={
@@ -750,7 +747,6 @@ class ThemeIntelService:
                     origin_category=clean_category,
                     days=days,
                 )
-            default_related_counts_by_type = self._default_related_counts_by_type(storage=storage)
             processed_total = sum(len(items) for items in topics_by_category.values())
             summary: dict[str, Any] = {
                 "origin_category": clean_category,
@@ -789,7 +785,6 @@ class ThemeIntelService:
                             storage=storage,
                             text=canonical_text,
                             top_k=top_k,
-                            related_counts_by_type=default_related_counts_by_type or None,
                             force_offline=force_offline,
                             warning_collector=related_warnings,
                         )
@@ -1388,6 +1383,8 @@ class ThemeIntelService:
                     group_by_type=False,
                     statement_timeout_ms=RELATED_CONTENT_STATEMENT_TIMEOUT_MS,
                     lock_timeout_ms=RELATED_CONTENT_LOCK_TIMEOUT_MS,
+                    prefer_type_diversity=False,
+                    apply_runroom_lab_lexical_boost=False,
                 )
             ).to_dict().get("results", [])
             if progress_logger is not None:
@@ -1460,6 +1457,8 @@ class ThemeIntelService:
                         group_by_type=False,
                         statement_timeout_ms=RELATED_CONTENT_STATEMENT_TIMEOUT_MS,
                         lock_timeout_ms=RELATED_CONTENT_LOCK_TIMEOUT_MS,
+                        prefer_type_diversity=False,
+                        apply_runroom_lab_lexical_boost=False,
                     )
                 ).to_dict().get("results", [])
                 guaranteed_by_type.extend(typed_rows if isinstance(typed_rows, list) else [])
@@ -1561,22 +1560,6 @@ class ThemeIntelService:
                     if tag and tag not in ignored and not tag.startswith("label-"):
                         tags.add(tag)
         return sorted(tags)
-
-    def _default_related_counts_by_type(self, storage: SupabaseStorage) -> dict[str, int]:
-        content_repo = ContentChunksRepository(storage=storage)
-        try:
-            available_types = content_repo.list_content_types()
-        except Exception:
-            return {}
-
-        counts: dict[str, int] = {}
-        for raw_type in available_types:
-            content_type = _normalize_content_type_key(str(raw_type))
-            if not content_type:
-                continue
-            counts.setdefault(content_type, 1)
-        return counts
-
 
 def _canonical_topic_text(title: str, context_text: str, keywords: list[str]) -> str:
     parts = [title.strip(), context_text.strip(), ", ".join(keyword.strip() for keyword in keywords if keyword.strip())]

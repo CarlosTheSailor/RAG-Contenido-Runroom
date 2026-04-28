@@ -54,6 +54,8 @@ def aggregate_and_rerank(
     rows: list[dict[str, Any]],
     top_k: int,
     query_text: str | None = None,
+    prefer_type_diversity: bool = True,
+    apply_runroom_lab_lexical_boost: bool = True,
 ) -> list[RecommendationResult]:
     if not rows:
         return []
@@ -94,20 +96,25 @@ def aggregate_and_rerank(
         sims = sorted(bucket["sims"], reverse=True)
         top_mean = mean(sims[:3])
         score = (0.75 * sims[0]) + (0.25 * top_mean)
-        if query_text and str(bucket.get("content_type") or "") == "runroom_lab":
+        if (
+            apply_runroom_lab_lexical_boost
+            and query_text
+            and str(bucket.get("content_type") or "") == "runroom_lab"
+        ):
             score = score * (1.0 + _runroom_lab_lexical_boost(query_text=query_text, bucket=bucket))
         scored.append({**bucket, "score": score})
 
     scored.sort(key=lambda item: item["score"], reverse=True)
 
-    # Type diversity penalty.
-    type_counts: dict[str, int] = defaultdict(int)
     diversified: list[RecommendationResult] = []
+    type_counts: dict[str, int] = defaultdict(int)
     for row in scored:
         ctype = str(row["content_type"])
-        penalty = 1.0 - (0.08 * type_counts[ctype])
-        final_score = max(0.0, float(row["score"]) * max(0.6, penalty))
-        type_counts[ctype] += 1
+        final_score = float(row["score"])
+        if prefer_type_diversity:
+            penalty = 1.0 - (0.08 * type_counts[ctype])
+            final_score = max(0.0, final_score * max(0.6, penalty))
+            type_counts[ctype] += 1
 
         diversified.append(
             RecommendationResult(

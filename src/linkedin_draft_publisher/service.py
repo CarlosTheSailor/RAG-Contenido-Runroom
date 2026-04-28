@@ -1656,6 +1656,8 @@ class LinkedInDraftPublisherService:
                     top_k=fetch_k,
                     fetch_k=fetch_k,
                     content_types=normalized_types,
+                    prefer_type_diversity=False,
+                    apply_runroom_lab_lexical_boost=False,
                 )
             )
         finally:
@@ -2941,24 +2943,21 @@ def _select_related_candidates(
         if norm and count > 0:
             normalized_forced[norm] = count
 
-    if not normalized_forced:
-        for ctype in by_type.keys():
-            normalized_forced[ctype] = 1
-
-    for ctype, min_count in normalized_forced.items():
-        rows = by_type.get(ctype) or []
-        taken = 0
-        for row in rows:
-            cid = int(row.get("content_item_id") or 0)
-            if cid <= 0 or cid in selected_ids:
-                continue
-            selected.append(row)
-            selected_ids.add(cid)
-            taken += 1
-            if taken >= min_count or len(selected) >= top_k:
+    if normalized_forced:
+        for ctype, min_count in normalized_forced.items():
+            rows = by_type.get(ctype) or []
+            taken = 0
+            for row in rows:
+                cid = int(row.get("content_item_id") or 0)
+                if cid <= 0 or cid in selected_ids:
+                    continue
+                selected.append(row)
+                selected_ids.add(cid)
+                taken += 1
+                if taken >= min_count or len(selected) >= top_k:
+                    break
+            if len(selected) >= top_k:
                 break
-        if len(selected) >= top_k:
-            break
 
     ranked = sorted(normalized, key=lambda x: float(x.get("score") or 0.0), reverse=True)
     for row in ranked:

@@ -527,11 +527,11 @@ Notas de funcionamiento:
 - dedupe semantico con ventana temporal configurable (`THEME_INTEL_DEDUPE_WINDOW_DAYS`).
 - relaciones RAG se recalculan `on-write` y tambien via endpoint de refresh manual.
 - normalizacion de `content_type` interna: lowercase + trim, convirtiendo `-`/espacios a `_` (ej: `runroom-lab` => `runroom_lab`).
-- durante la ingesta, los relacionados fuerzan cobertura minima de `1` por cada `content_type` disponible en `content_items` (si hay candidatos para ese tipo).
+- por defecto, los relacionados se calculan por relevancia semantica sobre todos los `content_type` disponibles, sin forzar cuotas por tipo.
 - `GET /topics` no filtra ni recalcula related por tipo; ese control se hace en ingesta y en `POST .../related-content/refresh`.
 - al refrescar related (`POST .../related-content/refresh`) puedes enviar:
   - `content_types` (array)
-  - `related_counts_by_type` (objeto `{ "tipo": n }`)
+  - `related_counts_by_type` (objeto `{ "tipo": n }`) si quieres forzar cuotas explicitas por tipo
   - `top_k` (opcional)
 
 Prompts editables:

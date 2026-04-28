@@ -161,6 +161,22 @@ class LinkedInDraftPublisherParsingTests(unittest.TestCase):
         selected_ids = [int(item["content_item_id"]) for item in selected]
         self.assertIn(3, selected_ids)
 
+    def test_select_related_candidates_without_forced_counts_uses_relevance_only(self) -> None:
+        rows = [
+            {"content_item_id": 1, "content_type": "episode", "score": 0.9},
+            {"content_item_id": 2, "content_type": "case_study", "score": 0.8},
+            {"content_item_id": 3, "content_type": "runroom_lab", "score": 0.1},
+            {"content_item_id": 4, "content_type": "episode", "score": 0.7},
+        ]
+        selected = _select_related_candidates(
+            candidates=rows,
+            top_k=3,
+            forced_counts={},
+            available_types=["episode", "case_study", "runroom_lab"],
+        )
+        selected_ids = [int(item["content_item_id"]) for item in selected]
+        self.assertEqual(selected_ids, [1, 2, 4])
+
     @patch("src.linkedin_draft_publisher.service.ContentChunksRepository", new=_FakeContentRepo)
     @patch("src.linkedin_draft_publisher.service.ThemeIntelRepository", new=_FakeThemeRepo)
     @patch("src.linkedin_draft_publisher.service.LinkedInDraftPublisherRepository", new=_ExplodingRepo)

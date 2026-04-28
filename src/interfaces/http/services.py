@@ -58,6 +58,8 @@ class QueryApiService:
         language: str | None = None,
         group_by_type: bool = False,
         offline_mode: bool = False,
+        prefer_type_diversity: bool = True,
+        apply_runroom_lab_lexical_boost: bool = True,
     ) -> dict[str, Any]:
         storage = SupabaseStorage(self._settings.supabase_db_url)
         try:
@@ -74,6 +76,8 @@ class QueryApiService:
                     source=source,
                     language=language,
                     group_by_type=group_by_type,
+                    prefer_type_diversity=prefer_type_diversity,
+                    apply_runroom_lab_lexical_boost=apply_runroom_lab_lexical_boost,
                 )
             )
             return response.to_dict()
@@ -99,10 +103,12 @@ class QueryApiService:
             rag_summary = self.recommend_content(
                 text=idea,
                 top_k=3,
-                fetch_k=40,
-                content_types=["episode", "case_study", "runroom_lab"],
+                fetch_k=60,
+                content_types=None,
                 group_by_type=False,
                 offline_mode=offline_mode,
+                prefer_type_diversity=False,
+                apply_runroom_lab_lexical_boost=False,
             )
             raw_results = rag_summary.get("results")
             if isinstance(raw_results, list):

@@ -32,6 +32,8 @@ class _SequencedRecommendContentUseCase:
                 "fetch_k": request.fetch_k,
                 "statement_timeout_ms": request.statement_timeout_ms,
                 "lock_timeout_ms": request.lock_timeout_ms,
+                "prefer_type_diversity": request.prefer_type_diversity,
+                "apply_runroom_lab_lexical_boost": request.apply_runroom_lab_lexical_boost,
             }
         )
         if not self.__class__.scripted_results:
@@ -182,6 +184,28 @@ class ThemeIntelRelatedRuntimeTests(unittest.TestCase):
         self.assertEqual(len(skipped_events), 1)
         self.assertEqual(skipped_events[0]["forced_type"], "episode")
         self.assertEqual(skipped_events[0]["base_coverage"], 2)
+
+    def test_without_explicit_type_quotas_uses_single_unbiased_query(self) -> None:
+        scripted_results = [
+            [
+                {"content_item_id": 1, "content_type": "episode", "score": 0.91, "title": "base episode"},
+                {"content_item_id": 2, "content_type": "runroom_lab", "score": 0.88, "title": "base lab"},
+                {"content_item_id": 3, "content_type": "case_study", "score": 0.87, "title": "base case"},
+            ],
+        ]
+
+        selected, warnings, events = self._run_related(
+            scripted_results,
+            related_counts_by_type={},
+        )
+
+        self.assertEqual(len(selected), 3)
+        self.assertEqual(warnings, [])
+        self.assertEqual(len(_SequencedRecommendContentUseCase.calls), 1)
+        self.assertEqual(_SequencedRecommendContentUseCase.calls[0]["content_types"], [])
+        self.assertFalse(_SequencedRecommendContentUseCase.calls[0]["prefer_type_diversity"])
+        self.assertFalse(_SequencedRecommendContentUseCase.calls[0]["apply_runroom_lab_lexical_boost"])
+        self.assertFalse(any(event["stage"] == "theme_related_typed_query_start" for event in events))
 
     def test_resolve_run_status_marks_partial_failed_when_themes_exist(self) -> None:
         self.assertEqual(

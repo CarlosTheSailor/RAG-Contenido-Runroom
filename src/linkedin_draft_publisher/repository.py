@@ -464,6 +464,124 @@ class LinkedInDraftPublisherRepository:
         self._conn.commit()
         return dict(row) if row else None
 
+    def attach_schedule_execution_item_run(self, item_id: int, run_id: int) -> dict[str, Any] | None:
+        with self._conn.cursor() as cur:
+            cur.execute(
+                """
+                UPDATE linkedin_draft_schedule_execution_items
+                SET linkedin_draft_run_id = %(run_id)s
+                WHERE id = %(item_id)s
+                RETURNING *
+                """,
+                {
+                    "item_id": int(item_id),
+                    "run_id": int(run_id),
+                },
+            )
+            row = cur.fetchone()
+        self._conn.commit()
+        return dict(row) if row else None
+
+    def recover_stale_schedule_executions(self, *, cutoff: datetime) -> int:
+        with self._conn.cursor() as cur:
+            cur.execute(
+                """
+                SELECT *
+                FROM linkedin_draft_schedule_executions
+                WHERE status = 'running'
+                  AND started_at <= %(cutoff)s
+                ORDER BY started_at ASC, id ASC
+                """,
+                {"cutoff": cutoff},
+            )
+            executions = cur.fetchall()
+
+        recovered = 0
+        for execution in executions:
+            execution_id = int(execution["id"])
+            items = self._list_schedule_execution_items(execution_ids=[execution_id]).get(execution_id, [])
+            updated_items: list[dict[str, Any]] = []
+            for item in items:
+                if str(item.get("status") or "") != "running":
+                    updated_items.append(item)
+                    continue
+
+                run_status = str(item.get("linked_run_status") or "")
+                run_updated_at = item.get("linked_run_updated_at")
+                should_recover = False
+                recovered_status = "failed"
+                message = "Schedule item recuperado tras quedar en running sin run asociado."
+                if item.get("linkedin_draft_run_id") is None:
+                    should_recover = True
+                elif run_status and run_status not in {"queued", "running"}:
+                    should_recover = True
+                    recovered_status = "succeeded" if run_status == "succeeded" else "failed"
+                    message = f"Schedule item recuperado desde run asociado en estado {run_status}."
+                elif isinstance(run_updated_at, datetime) and run_updated_at <= cutoff:
+                    should_recover = True
+                    message = "Schedule item recuperado por run asociado sin actividad reciente."
+
+                if not should_recover:
+                    updated_items.append(item)
+                    continue
+
+                existing_errors = item.get("errors_json")
+                if not isinstance(existing_errors, list):
+                    existing_errors = []
+                existing_errors = [*existing_errors, {"stage": "schedule_recovery", "message": message}]
+                existing_stats = item.get("stats_json") if isinstance(item.get("stats_json"), dict) else {}
+                existing_stats = {
+                    **existing_stats,
+                    "stage": "recovered_stale_schedule_item",
+                }
+                updated = self.finalize_schedule_execution_item(
+                    item_id=int(item["id"]),
+                    status=recovered_status,
+                    linkedin_draft_run_id=item.get("linkedin_draft_run_id"),
+                    stats=existing_stats,
+                    errors=existing_errors,
+                )
+                updated_items.append(updated or {**item, "status": recovered_status})
+
+            if not updated_items:
+                final_status = "failed"
+            else:
+                terminal_items = [item for item in updated_items if str(item.get("status") or "") != "running"]
+                if len(terminal_items) != len(updated_items):
+                    continue
+                succeeded = sum(1 for item in updated_items if str(item.get("status") or "") == "succeeded")
+                failed = sum(1 for item in updated_items if str(item.get("status") or "") == "failed")
+                if succeeded and failed:
+                    final_status = "partial_failed"
+                elif succeeded:
+                    final_status = "succeeded"
+                else:
+                    final_status = "failed"
+
+            existing_errors = execution.get("errors_json")
+            if not isinstance(existing_errors, list):
+                existing_errors = []
+            existing_errors = [
+                *existing_errors,
+                {
+                    "stage": "schedule_recovery",
+                    "message": "Schedule execution recuperado tras quedar en running sin finalizar.",
+                },
+            ]
+            existing_stats = execution.get("stats_json") if isinstance(execution.get("stats_json"), dict) else {}
+            existing_stats = {
+                **existing_stats,
+                "stage": "recovered_stale_schedule_execution",
+            }
+            self.finalize_schedule_execution(
+                execution_id=execution_id,
+                status=final_status,
+                stats=existing_stats,
+                errors=existing_errors,
+            )
+            recovered += 1
+        return recovered
+
     def list_schedule_executions(self, schedule_id: int, limit: int = 20) -> list[dict[str, Any]]:
         with self._conn.cursor() as cur:
             cur.execute(
@@ -498,9 +616,12 @@ class LinkedInDraftPublisherRepository:
                     lsei.*,
                     lsc.origin_category,
                     lsc.slack_channel,
-                    lsc.buyer_persona_objetivo
+                    lsc.buyer_persona_objetivo,
+                    ldr.status AS linked_run_status,
+                    ldr.updated_at AS linked_run_updated_at
                 FROM linkedin_draft_schedule_execution_items lsei
                 LEFT JOIN linkedin_draft_schedule_configs lsc ON lsc.id = lsei.schedule_config_id
+                LEFT JOIN linkedin_draft_runs ldr ON ldr.id = lsei.linkedin_draft_run_id
                 WHERE lsei.execution_id = ANY(%s)
                 ORDER BY lsei.execution_id, lsei.execution_order, lsei.id
                 """,

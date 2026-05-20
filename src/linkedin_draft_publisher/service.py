@@ -13,7 +13,7 @@ import urllib.error
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from collections import defaultdict
-from datetime import date, datetime, time as dt_time, timezone
+from datetime import date, datetime, time as dt_time, timedelta, timezone
 from pathlib import Path
 from typing import Any, Sequence
 
@@ -439,6 +439,9 @@ class LinkedInDraftPublisherService:
                 }
 
             try:
+                recovered_stale_executions = repo.recover_stale_schedule_executions(
+                    cutoff=now_utc - timedelta(hours=24)
+                )
                 due_schedules = repo.list_due_schedules(now_utc=now_utc)
                 executions: list[dict[str, Any]] = []
                 for schedule in due_schedules:
@@ -452,6 +455,7 @@ class LinkedInDraftPublisherService:
                     )
                 return {
                     "status": "ok",
+                    "recovered_stale_executions": recovered_stale_executions,
                     "due_schedules": len(due_schedules),
                     "executed_schedules": len(executions),
                     "executions": executions,
@@ -513,6 +517,7 @@ class LinkedInDraftPublisherService:
                     offline_mode=force_offline,
                 )
                 run_id = int(created["run_id"])
+                repo.attach_schedule_execution_item_run(item_id=item_id, run_id=run_id)
                 stats["runs_created"] += 1
 
                 self.execute_run(run_id=run_id, force_offline=force_offline)

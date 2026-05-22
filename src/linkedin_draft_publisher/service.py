@@ -1328,17 +1328,23 @@ class LinkedInDraftPublisherService:
             slack_publish: dict[str, Any] = {}
             if not item_errors:
                 _heartbeat(repo, "publish_drafts")
-                draft_publish = _time_stage(
-                    "publish_drafts",
-                    lambda: self._publish_to_drafts_app(
-                        title=stage2.titulo,
-                        content=stage2.borrador_post,
-                    ),
-                )
+                try:
+                    draft_publish = _time_stage(
+                        "publish_drafts",
+                        lambda: self._publish_to_drafts_app(
+                            title=stage2.titulo,
+                            content=stage2.borrador_post,
+                        ),
+                    )
+                except Exception as exc:
+                    draft_publish = {"ok": False, "skipped": False, "error": str(exc)}
                 if draft_publish.get("skipped"):
                     item_warnings.append("Publicacion en app drafts omitida por configuracion.")
                 elif not draft_publish.get("ok"):
-                    item_errors.append(str(draft_publish.get("error") or "Error publicando en app drafts."))
+                    item_warnings.append(
+                        "Publicacion en app drafts fallida: "
+                        f"{draft_publish.get('error') or 'error desconocido'}"
+                    )
 
                 summary_text = _build_slack_summary_text(
                     title=stage2.titulo,

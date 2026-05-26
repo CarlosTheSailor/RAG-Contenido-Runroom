@@ -1747,10 +1747,15 @@ def create_app(
         payload: Optional[LinkedInDraftPublisherSchedulerTickRequestModel] = None,
         _: None = Security(require_api_key),
     ) -> Dict[str, Any]:
-        result = service.tick_linkedin_draft_publisher_scheduler(
-            offline_mode=bool(payload and payload.offline_mode)
-        )
-        return {"request_id": str(uuid4()), "result": result}
+        offline_mode = bool(payload and payload.offline_mode)
+        _spawn_detached_job(service.tick_linkedin_draft_publisher_scheduler, offline_mode)
+        return {
+            "request_id": str(uuid4()),
+            "result": {
+                "status": "accepted",
+                "message": "Scheduler tick accepted and running in background.",
+            },
+        }
 
     if runtime is not None:
         app.state.runtime = runtime

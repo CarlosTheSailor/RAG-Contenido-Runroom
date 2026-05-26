@@ -378,28 +378,40 @@ class LinkedInDraftPublisherService:
             if schedule is None:
                 raise ValueError("Schedule no encontrado.")
 
-            lock_acquired = repo.try_acquire_scheduler_lock(lock_key=SCHEDULER_LOCK_KEY)
-            if not lock_acquired:
+            recovered_stale_runs = self._recover_stale_running_runs(repo=repo)
+            stale_cutoff = datetime.now(tz=timezone.utc) - timedelta(
+                minutes=max(1, int(self._settings.linkedin_draft_publisher_stale_run_minutes))
+            )
+            recovered_stale_executions = repo.recover_stale_schedule_executions(cutoff=stale_cutoff)
+            claimed_schedule = repo.claim_schedule_execution(
+                schedule_id=schedule_id,
+                trigger_type="manual_run_now",
+                lock_key=SCHEDULER_LOCK_KEY,
+            )
+            if claimed_schedule is None:
                 return {
                     "status": "locked",
+                    "recovered_stale_runs": recovered_stale_runs,
+                    "recovered_stale_executions": recovered_stale_executions,
                     "executed": 0,
-                    "message": "Scheduler lock ocupado.",
+                    "message": "Scheduler ocupado o con una ejecución en curso.",
                 }
 
-            try:
-                execution = self._execute_schedule(
-                    repo=repo,
-                    schedule=schedule,
-                    trigger_type="manual_run_now",
-                    force_offline=force_offline,
-                )
-                return {
-                    "status": "ok",
-                    "executed": 1,
-                    "execution": execution,
-                }
-            finally:
-                repo.release_scheduler_lock(lock_key=SCHEDULER_LOCK_KEY)
+            claimed_execution = claimed_schedule.get("claimed_execution")
+            execution = self._execute_schedule(
+                repo=repo,
+                schedule=claimed_schedule,
+                trigger_type="manual_run_now",
+                force_offline=force_offline,
+                execution=claimed_execution if isinstance(claimed_execution, dict) else None,
+            )
+            return {
+                "status": "ok",
+                "recovered_stale_runs": recovered_stale_runs,
+                "recovered_stale_executions": recovered_stale_executions,
+                "executed": 1,
+                "execution": execution,
+            }
         finally:
             storage.close()
 
@@ -429,39 +441,46 @@ class LinkedInDraftPublisherService:
         try:
             storage.ensure_schema(self._schema_path)
             repo = LinkedInDraftPublisherRepository(storage)
-            lock_acquired = repo.try_acquire_scheduler_lock(lock_key=SCHEDULER_LOCK_KEY)
-            if not lock_acquired:
+            recovered_stale_runs = self._recover_stale_running_runs(repo=repo)
+            stale_cutoff = now_utc - timedelta(
+                minutes=max(1, int(self._settings.linkedin_draft_publisher_stale_run_minutes))
+            )
+            recovered_stale_executions = repo.recover_stale_schedule_executions(cutoff=stale_cutoff)
+            claimed_schedules = repo.claim_due_schedule_executions(
+                now_utc=now_utc,
+                trigger_type="cron_tick",
+                lock_key=SCHEDULER_LOCK_KEY,
+            )
+            if claimed_schedules is None:
                 return {
                     "status": "locked",
+                    "recovered_stale_runs": recovered_stale_runs,
+                    "recovered_stale_executions": recovered_stale_executions,
                     "due_schedules": 0,
                     "executed_schedules": 0,
                     "executions": [],
                 }
 
-            try:
-                recovered_stale_executions = repo.recover_stale_schedule_executions(
-                    cutoff=now_utc - timedelta(hours=24)
-                )
-                due_schedules = repo.list_due_schedules(now_utc=now_utc)
-                executions: list[dict[str, Any]] = []
-                for schedule in due_schedules:
-                    executions.append(
-                        self._execute_schedule(
-                            repo=repo,
-                            schedule=schedule,
-                            trigger_type="cron_tick",
-                            force_offline=force_offline,
-                        )
+            executions: list[dict[str, Any]] = []
+            for schedule in claimed_schedules:
+                claimed_execution = schedule.get("claimed_execution")
+                executions.append(
+                    self._execute_schedule(
+                        repo=repo,
+                        schedule=schedule,
+                        trigger_type="cron_tick",
+                        force_offline=force_offline,
+                        execution=claimed_execution if isinstance(claimed_execution, dict) else None,
                     )
-                return {
-                    "status": "ok",
-                    "recovered_stale_executions": recovered_stale_executions,
-                    "due_schedules": len(due_schedules),
-                    "executed_schedules": len(executions),
-                    "executions": executions,
-                }
-            finally:
-                repo.release_scheduler_lock(lock_key=SCHEDULER_LOCK_KEY)
+                )
+            return {
+                "status": "ok",
+                "recovered_stale_runs": recovered_stale_runs,
+                "recovered_stale_executions": recovered_stale_executions,
+                "due_schedules": len(claimed_schedules),
+                "executed_schedules": len(executions),
+                "executions": executions,
+            }
         finally:
             storage.close()
 
@@ -472,9 +491,11 @@ class LinkedInDraftPublisherService:
         schedule: dict[str, Any],
         trigger_type: str,
         force_offline: bool,
+        execution: dict[str, Any] | None = None,
     ) -> dict[str, Any]:
         schedule_id = int(schedule["id"])
-        execution = repo.create_schedule_execution(schedule_id=schedule_id, trigger_type=trigger_type)
+        if execution is None:
+            execution = repo.create_schedule_execution(schedule_id=schedule_id, trigger_type=trigger_type)
         execution_id = int(execution["id"])
 
         stats: dict[str, Any] = {

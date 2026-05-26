@@ -96,6 +96,127 @@ class LinkedInDraftPublisherRepository:
         with self._conn.cursor() as cur:
             cur.execute("SELECT pg_advisory_unlock(%s)", (int(lock_key),))
 
+    def claim_schedule_execution(
+        self,
+        *,
+        schedule_id: int,
+        trigger_type: str,
+        lock_key: int,
+    ) -> dict[str, Any] | None:
+        try:
+            with self._conn.cursor() as cur:
+                cur.execute("SELECT pg_try_advisory_xact_lock(%s) AS locked", (int(lock_key),))
+                lock_row = cur.fetchone()
+                if not bool(lock_row and lock_row.get("locked")):
+                    self._conn.rollback()
+                    return None
+
+                cur.execute(
+                    """
+                    SELECT *
+                    FROM linkedin_draft_schedules schedule
+                    WHERE schedule.id = %s
+                      AND NOT EXISTS (
+                          SELECT 1
+                          FROM linkedin_draft_schedule_executions execution
+                          WHERE execution.schedule_id = schedule.id
+                            AND execution.status = 'running'
+                      )
+                    FOR UPDATE
+                    """,
+                    (int(schedule_id),),
+                )
+                schedule = cur.fetchone()
+                if not schedule:
+                    self._conn.commit()
+                    return None
+
+                cur.execute(
+                    """
+                    INSERT INTO linkedin_draft_schedule_executions (
+                        schedule_id,
+                        trigger_type,
+                        status
+                    ) VALUES (
+                        %s,
+                        %s,
+                        'running'
+                    )
+                    RETURNING *
+                    """,
+                    (int(schedule["id"]), trigger_type),
+                )
+                execution = cur.fetchone()
+                payload = dict(schedule)
+                payload["claimed_execution"] = dict(execution) if execution else None
+            self._conn.commit()
+            return payload
+        except Exception:
+            self._conn.rollback()
+            raise
+
+    def claim_due_schedule_executions(
+        self,
+        *,
+        now_utc: datetime,
+        trigger_type: str,
+        lock_key: int,
+    ) -> list[dict[str, Any]] | None:
+        try:
+            with self._conn.cursor() as cur:
+                cur.execute("SELECT pg_try_advisory_xact_lock(%s) AS locked", (int(lock_key),))
+                lock_row = cur.fetchone()
+                if not bool(lock_row and lock_row.get("locked")):
+                    self._conn.rollback()
+                    return None
+
+                cur.execute(
+                    """
+                    SELECT *
+                    FROM linkedin_draft_schedules schedule
+                    WHERE schedule.enabled = true
+                      AND schedule.next_run_at_utc IS NOT NULL
+                      AND schedule.next_run_at_utc <= %(now_utc)s
+                      AND NOT EXISTS (
+                          SELECT 1
+                          FROM linkedin_draft_schedule_executions execution
+                          WHERE execution.schedule_id = schedule.id
+                            AND execution.status = 'running'
+                      )
+                    ORDER BY schedule.next_run_at_utc, schedule.id
+                    FOR UPDATE SKIP LOCKED
+                    """,
+                    {"now_utc": now_utc},
+                )
+                schedules = cur.fetchall()
+
+                claimed: list[dict[str, Any]] = []
+                for schedule in schedules:
+                    cur.execute(
+                        """
+                        INSERT INTO linkedin_draft_schedule_executions (
+                            schedule_id,
+                            trigger_type,
+                            status
+                        ) VALUES (
+                            %s,
+                            %s,
+                            'running'
+                        )
+                        RETURNING *
+                        """,
+                        (int(schedule["id"]), trigger_type),
+                    )
+                    execution = cur.fetchone()
+                    payload = dict(schedule)
+                    payload["claimed_execution"] = dict(execution) if execution else None
+                    claimed.append(payload)
+            self._conn.commit()
+            return claimed
+        except Exception:
+            self._conn.rollback()
+            raise
+
     def create_schedule(
         self,
         *,

@@ -1,10 +1,11 @@
 from __future__ import annotations
 
 import json
-from datetime import date, datetime
+from datetime import date, datetime, timezone
 from typing import Any
 
 from src.pipeline.storage import SupabaseStorage
+from src.theme_intel.scheduling import compute_next_run_at_utc, parse_run_time_local
 
 
 class LinkedInDraftPublisherRepository:
@@ -694,12 +695,39 @@ class LinkedInDraftPublisherRepository:
                 **existing_stats,
                 "stage": "recovered_stale_schedule_execution",
             }
-            self.finalize_schedule_execution(
+            finalized = self.finalize_schedule_execution(
                 execution_id=execution_id,
                 status=final_status,
                 stats=existing_stats,
                 errors=existing_errors,
             )
+            finished_at = finalized.get("finished_at") if finalized else datetime.now(tz=timezone.utc)
+            if isinstance(finished_at, datetime):
+                if finished_at.tzinfo is None:
+                    finished_at = finished_at.replace(tzinfo=timezone.utc)
+                else:
+                    finished_at = finished_at.astimezone(timezone.utc)
+            else:
+                finished_at = datetime.now(tz=timezone.utc)
+
+            schedule = self.get_schedule(schedule_id=int(execution["schedule_id"]))
+            if schedule is not None:
+                next_run_at_utc = None
+                if bool(schedule.get("enabled")):
+                    next_run_at_utc = compute_next_run_at_utc(
+                        every_n_days=int(schedule["every_n_days"]),
+                        run_time_local=parse_run_time_local(str(schedule["run_time_local"])),
+                        timezone_name=str(schedule["timezone"]),
+                        now_utc=finished_at,
+                        last_run_at_utc=finished_at,
+                    )
+                self.update_schedule(
+                    schedule_id=int(schedule["id"]),
+                    patch={
+                        "last_run_at_utc": finished_at,
+                        "next_run_at_utc": next_run_at_utc,
+                    },
+                )
             recovered += 1
         return recovered
 
@@ -866,6 +894,28 @@ class LinkedInDraftPublisherRepository:
         return int(row["id"])
 
     def update_run_item(self, item_id: int, patch: dict[str, Any]) -> dict[str, Any] | None:
+        return self._update_run_item(item_id=item_id, patch=patch, allowed_statuses=None)
+
+    def update_run_item_if_status(
+        self,
+        item_id: int,
+        *,
+        patch: dict[str, Any],
+        allowed_statuses: list[str],
+    ) -> dict[str, Any] | None:
+        return self._update_run_item(
+            item_id=item_id,
+            patch=patch,
+            allowed_statuses=[str(status) for status in allowed_statuses],
+        )
+
+    def _update_run_item(
+        self,
+        *,
+        item_id: int,
+        patch: dict[str, Any],
+        allowed_statuses: list[str] | None,
+    ) -> dict[str, Any] | None:
         allowed = {
             "status",
             "title",
@@ -914,11 +964,16 @@ class LinkedInDraftPublisherRepository:
             return self.get_run_item(item_id)
 
         with self._conn.cursor() as cur:
+            status_filter = ""
+            if allowed_statuses is not None:
+                status_filter = "AND status = ANY(%(allowed_statuses)s)"
+                params["allowed_statuses"] = allowed_statuses
             cur.execute(
                 f"""
                 UPDATE linkedin_draft_run_items
                 SET {", ".join(sets)}
                 WHERE id = %(item_id)s
+                  {status_filter}
                 RETURNING *
                 """,
                 params,
@@ -943,6 +998,25 @@ class LinkedInDraftPublisherRepository:
                 ORDER BY item_index ASC, id ASC
                 """,
                 (int(run_id),),
+            )
+            rows = cur.fetchall()
+        return [dict(row) for row in rows]
+
+    def list_nonterminal_items_for_terminal_runs(self, *, limit: int = 200) -> list[dict[str, Any]]:
+        with self._conn.cursor() as cur:
+            cur.execute(
+                """
+                SELECT
+                    item.*,
+                    run.status AS run_status
+                FROM linkedin_draft_run_items item
+                JOIN linkedin_draft_runs run ON run.id = item.run_id
+                WHERE item.status IN ('queued', 'new', 'running')
+                  AND run.status NOT IN ('queued', 'running')
+                ORDER BY item.updated_at ASC, item.id ASC
+                LIMIT %s
+                """,
+                (max(1, min(1000, int(limit))),),
             )
             rows = cur.fetchall()
         return [dict(row) for row in rows]

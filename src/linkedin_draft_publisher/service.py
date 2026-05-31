@@ -11,7 +11,6 @@ import threading
 import time
 import urllib.error
 import urllib.request
-from concurrent.futures import ThreadPoolExecutor, as_completed
 from collections import defaultdict
 from datetime import date, datetime, time as dt_time, timedelta, timezone
 from pathlib import Path
@@ -484,6 +483,46 @@ class LinkedInDraftPublisherService:
         finally:
             storage.close()
 
+    def recover_scheduler_state(self) -> dict[str, Any]:
+        storage = SupabaseStorage(self._settings.supabase_db_url)
+        now_utc = datetime.now(tz=timezone.utc)
+        try:
+            storage.ensure_schema(self._schema_path)
+            repo = LinkedInDraftPublisherRepository(storage)
+            recovered_stale_runs = self._recover_stale_running_runs(repo=repo)
+            recovered_stale_executions = repo.recover_stale_schedule_executions(
+                cutoff=now_utc - timedelta(
+                    minutes=max(1, int(self._settings.linkedin_draft_publisher_stale_run_minutes))
+                )
+            )
+            recovered_orphan_items = 0
+            for item in repo.list_nonterminal_items_for_terminal_runs():
+                errors_json = item.get("errors_json")
+                if not isinstance(errors_json, list):
+                    errors_json = []
+                repo.update_run_item_if_status(
+                    item_id=int(item["id"]),
+                    allowed_statuses=["queued", "new", "running"],
+                    patch={
+                        "status": "failed",
+                        "errors_json": [
+                            *errors_json,
+                            "Item recuperado: el run padre ya estaba en estado terminal.",
+                        ],
+                        "warnings_json": item.get("warnings_json") if isinstance(item.get("warnings_json"), list) else [],
+                        "finished_at": datetime.utcnow(),
+                    },
+                )
+                recovered_orphan_items += 1
+            return {
+                "status": "ok",
+                "recovered_stale_runs": recovered_stale_runs,
+                "recovered_stale_executions": recovered_stale_executions,
+                "recovered_orphan_items": recovered_orphan_items,
+            }
+        finally:
+            storage.close()
+
     def _execute_schedule(
         self,
         *,
@@ -809,8 +848,13 @@ class LinkedInDraftPublisherService:
             stage1_model = self._resolve_model_for_stage("draft_stage1")
             stage2_model = self._resolve_model_for_stage("draft_stage2")
             enforce_related_integration = bool(self._settings.linkedin_draft_publisher_enforce_related_integration)
-            max_concurrency = max(1, int(self._settings.linkedin_draft_publisher_max_concurrency))
-            stage_timeout_seconds = int(self._settings.linkedin_draft_publisher_stage_timeout_seconds)
+            configured_max_concurrency = max(1, int(self._settings.linkedin_draft_publisher_max_concurrency))
+            max_concurrency = 1
+            stage_timeout_seconds = max(
+                15,
+                min(90, int(self._settings.linkedin_draft_publisher_stage_timeout_seconds)),
+            )
+            item_timeout_seconds = max(60.0, min(360.0, float(stage_timeout_seconds) * 4.0))
             min_chars = max(800, int(self._settings.linkedin_draft_publisher_min_chars))
             max_chars = max(min_chars, int(self._settings.linkedin_draft_publisher_max_chars))
             target_count = int(run.get("target_count") or 5)
@@ -821,6 +865,8 @@ class LinkedInDraftPublisherService:
                 related_counts_by_type = {}
             prompt_versions = self._prompt_versions()
             run_warnings: list[str] = []
+            if configured_max_concurrency > 1:
+                run_warnings.append("Procesado en serie para evitar workers colgados en el scheduler.")
 
             stage = "list_topic_candidates"
             candidates_raw = repo.list_topic_candidates_unused_by_client(
@@ -923,79 +969,116 @@ class LinkedInDraftPublisherService:
             stage = "process_items"
             related_cache: dict[str, list[dict[str, Any]]] = {}
             related_cache_lock = threading.Lock()
-            future_payload: dict[Any, int] = {}
-            with ThreadPoolExecutor(max_workers=max_concurrency) as executor:
-                for idx, topic in enumerate(selected_topics, start=1):
-                    item_id = item_ids_by_topic[topic.topic_id]
-                    future = executor.submit(
-                        self._process_run_item,
+            for idx, topic in enumerate(selected_topics, start=1):
+                item_id = item_ids_by_topic[topic.topic_id]
+                try:
+                    result = _run_callable_with_timeout(
+                        fn=lambda idx=idx, topic=topic, item_id=item_id: self._process_run_item(
+                            run_id=run_id,
+                            item_id=item_id,
+                            item_index=idx,
+                            topic=topic,
+                            run_payload=run,
+                            offline_mode=offline_mode,
+                            stage1_model=stage1_model,
+                            stage2_model=stage2_model,
+                            topic_selection_model=topic_selection_model,
+                            prompt_versions=prompt_versions,
+                            enforce_related_integration=enforce_related_integration,
+                            available_types=available_types,
+                            related_top_k=related_top_k,
+                            related_counts_by_type=related_counts_by_type,
+                            candidates_count=len(candidates),
+                            selected_count=len(selected_topics),
+                            stage_timeout_seconds=stage_timeout_seconds,
+                            min_chars=min_chars,
+                            max_chars=max_chars,
+                            related_cache=related_cache,
+                            related_cache_lock=related_cache_lock,
+                        ),
+                        timeout_seconds=item_timeout_seconds,
+                    )
+                except TimeoutError as exc:
+                    message = (
+                        f"Item timeout: item {idx} excedio {item_timeout_seconds:.0f}s "
+                        "y se marca como failed para continuar el scheduler."
+                    )
+                    result = self._mark_run_item_failed_from_scheduler(
+                        repo=repo,
                         run_id=run_id,
                         item_id=item_id,
                         item_index=idx,
-                        topic=topic,
-                        run_payload=run,
-                        offline_mode=offline_mode,
-                        stage1_model=stage1_model,
-                        stage2_model=stage2_model,
-                        topic_selection_model=topic_selection_model,
-                        prompt_versions=prompt_versions,
-                        enforce_related_integration=enforce_related_integration,
-                        available_types=available_types,
-                        related_top_k=related_top_k,
-                        related_counts_by_type=related_counts_by_type,
-                        candidates_count=len(candidates),
-                        selected_count=len(selected_topics),
-                        stage_timeout_seconds=stage_timeout_seconds,
-                        min_chars=min_chars,
-                        max_chars=max_chars,
-                        related_cache=related_cache,
-                        related_cache_lock=related_cache_lock,
+                        topic_id=topic.topic_id,
+                        message=f"{message} Detalle: {exc}",
+                        stage="item_timeout",
                     )
-                    future_payload[future] = idx
-
-                for future in as_completed(future_payload):
-                    result = future.result()
-                    if not isinstance(result, dict):
-                        continue
-                    if isinstance(result.get("global_error"), dict):
-                        global_errors.append(result["global_error"])
-
-                    durations = result.get("durations_ms")
-                    if isinstance(durations, dict):
-                        for stage_name, value in durations.items():
-                            try:
-                                stage_samples[str(stage_name)].append(float(value))
-                            except Exception:
-                                continue
-                    total_llm_calls += int(result.get("llm_calls_count") or 0)
-                    total_http_retries += int(result.get("http_retries_count") or 0)
-
-                    current_items = repo.list_run_items(run_id=run_id)
-                    current_succeeded = sum(1 for item in current_items if str(item.get("status") or "") == "succeeded")
-                    current_failed = sum(1 for item in current_items if str(item.get("status") or "") == "failed")
-                    current_running = sum(1 for item in current_items if str(item.get("status") or "") == "running")
-                    current_pending = sum(1 for item in current_items if str(item.get("status") or "") in {"queued", "new"})
-                    repo.update_run(
+                except Exception as exc:
+                    result = self._mark_run_item_failed_from_scheduler(
+                        repo=repo,
                         run_id=run_id,
-                        patch={
-                            "stats_json": {
-                                "stage": "process_items",
-                                "topics_candidates": len(candidates),
-                                "topics_selected": len(selected_topics),
-                                "items_total": len(current_items),
-                                "items_succeeded": current_succeeded,
-                                "items_failed": current_failed,
-                                "items_running": current_running,
-                                "items_pending": current_pending,
-                                "current_item_index": int(result.get("item_index") or 0),
-                                "current_item_step": str(result.get("last_step") or "processing"),
-                                "max_concurrency": max_concurrency,
-                            }
-                        },
+                        item_id=item_id,
+                        item_index=idx,
+                        topic_id=topic.topic_id,
+                        message=str(exc),
+                        stage="item_processing",
                     )
+
+                if not isinstance(result, dict):
+                    continue
+                if isinstance(result.get("global_error"), dict):
+                    global_errors.append(result["global_error"])
+
+                durations = result.get("durations_ms")
+                if isinstance(durations, dict):
+                    for stage_name, value in durations.items():
+                        try:
+                            stage_samples[str(stage_name)].append(float(value))
+                        except Exception:
+                            continue
+                total_llm_calls += int(result.get("llm_calls_count") or 0)
+                total_http_retries += int(result.get("http_retries_count") or 0)
+
+                current_items = repo.list_run_items(run_id=run_id)
+                current_succeeded = sum(1 for item in current_items if str(item.get("status") or "") == "succeeded")
+                current_failed = sum(1 for item in current_items if str(item.get("status") or "") == "failed")
+                current_running = sum(1 for item in current_items if str(item.get("status") or "") == "running")
+                current_pending = sum(1 for item in current_items if str(item.get("status") or "") in {"queued", "new"})
+                repo.update_run(
+                    run_id=run_id,
+                    patch={
+                        "stats_json": {
+                            "stage": "process_items",
+                            "topics_candidates": len(candidates),
+                            "topics_selected": len(selected_topics),
+                            "items_total": len(current_items),
+                            "items_succeeded": current_succeeded,
+                            "items_failed": current_failed,
+                            "items_running": current_running,
+                            "items_pending": current_pending,
+                            "current_item_index": int(result.get("item_index") or 0),
+                            "current_item_step": str(result.get("last_step") or "processing"),
+                            "max_concurrency": max_concurrency,
+                        }
+                    },
+                )
 
             stage = "finalize_run"
             final_items = repo.list_run_items(run_id=run_id)
+            unfinished_items = [
+                item for item in final_items if str(item.get("status") or "") in {"queued", "new", "running"}
+            ]
+            for item in unfinished_items:
+                self._mark_run_item_failed_from_scheduler(
+                    repo=repo,
+                    run_id=run_id,
+                    item_id=int(item["id"]),
+                    item_index=int(item.get("item_index") or 0),
+                    topic_id=int(item.get("topic_id") or 0),
+                    message="Item no terminal al finalizar el run; marcado como failed.",
+                    stage="finalize_run",
+                )
+            if unfinished_items:
+                final_items = repo.list_run_items(run_id=run_id)
             succeeded = sum(1 for item in final_items if str(item.get("status") or "") == "succeeded")
             failed = sum(1 for item in final_items if str(item.get("status") or "") == "failed")
             if succeeded and failed:
@@ -1056,6 +1139,51 @@ class LinkedInDraftPublisherService:
                 raise
         finally:
             storage.close()
+
+    def _mark_run_item_failed_from_scheduler(
+        self,
+        *,
+        repo: LinkedInDraftPublisherRepository,
+        run_id: int,
+        item_id: int,
+        item_index: int,
+        topic_id: int,
+        message: str,
+        stage: str,
+    ) -> dict[str, Any]:
+        current = repo.get_run_item(item_id=item_id) or {}
+        errors_json = current.get("errors_json")
+        if not isinstance(errors_json, list):
+            errors_json = []
+        warnings_json = current.get("warnings_json")
+        if not isinstance(warnings_json, list):
+            warnings_json = []
+        repo.update_run_item_if_status(
+            item_id=item_id,
+            allowed_statuses=["queued", "new", "running"],
+            patch={
+                "status": "failed",
+                "errors_json": [*errors_json, message],
+                "warnings_json": warnings_json,
+                "debug_json": {
+                    "scheduler_forced_failure": True,
+                    "stage": stage,
+                },
+                "finished_at": datetime.utcnow(),
+            },
+        )
+        return {
+            "item_index": item_index,
+            "last_step": stage,
+            "durations_ms": {},
+            "llm_calls_count": 0,
+            "http_retries_count": 0,
+            "global_error": {
+                "topic_id": topic_id,
+                "item_id": item_id,
+                "message": message,
+            },
+        }
 
     def _process_run_item(
         self,
@@ -1157,12 +1285,33 @@ class LinkedInDraftPublisherService:
             except Exception:
                 return
 
+        def _raise_if_cancelled(repo: LinkedInDraftPublisherRepository, step: str) -> None:
+            current_run = repo.get_run(run_id=run_id) or {}
+            current_item = repo.get_run_item(item_id=item_id) or {}
+            if str(current_run.get("status") or "") != "running":
+                raise RuntimeError(f"Run cancelado antes de {step}.")
+            if str(current_item.get("status") or "") != "running":
+                raise RuntimeError(f"Item cancelado antes de {step}.")
+
         try:
             storage.ensure_schema(self._schema_path)
             repo = LinkedInDraftPublisherRepository(storage)
             theme_repo = ThemeIntelRepository(storage)
 
-            repo.update_run_item(item_id=item_id, patch={"status": "running", "started_at": datetime.utcnow()})
+            started_item = repo.update_run_item_if_status(
+                item_id=item_id,
+                allowed_statuses=["queued", "new"],
+                patch={"status": "running", "started_at": datetime.utcnow()},
+            )
+            if started_item is None:
+                return {
+                    "item_index": item_index,
+                    "last_step": "skipped_not_queued",
+                    "durations_ms": durations_ms,
+                    "llm_calls_count": 0,
+                    "http_retries_count": 0,
+                    "global_error": None,
+                }
             _heartbeat(repo, "starting")
 
             _heartbeat(repo, "loading_topic_bundle")
@@ -1348,6 +1497,7 @@ class LinkedInDraftPublisherService:
             draft_publish: dict[str, Any] = {}
             slack_publish: dict[str, Any] = {}
             if not item_errors:
+                _raise_if_cancelled(repo, "publicar")
                 _heartbeat(repo, "publish_drafts")
                 try:
                     draft_publish = _time_stage(
@@ -1391,6 +1541,7 @@ class LinkedInDraftPublisherService:
 
             final_status = "succeeded" if not item_errors else "failed"
             if final_status == "succeeded":
+                _raise_if_cancelled(repo, "registrar uso de topic")
                 theme_repo.insert_topic_usage(
                     topic_id=topic.topic_id,
                     client_name=str(run_payload.get("client_name") or self._settings.linkedin_draft_publisher_client_name),
@@ -1405,8 +1556,10 @@ class LinkedInDraftPublisherService:
                 )
 
             thread_ctx = self._get_thread_item_context()
-            repo.update_run_item(
+            _raise_if_cancelled(repo, "finalizar item")
+            repo.update_run_item_if_status(
                 item_id=item_id,
+                allowed_statuses=["running"],
                 patch={
                     "status": final_status,
                     "title": stage2.titulo,
@@ -1464,8 +1617,9 @@ class LinkedInDraftPublisherService:
                 storage.ensure_schema(self._schema_path)
                 repo = LinkedInDraftPublisherRepository(storage)
                 thread_ctx = self._get_thread_item_context()
-                repo.update_run_item(
+                repo.update_run_item_if_status(
                     item_id=item_id,
+                    allowed_statuses=["queued", "new", "running"],
                     patch={
                         "status": "failed",
                         "errors_json": [message],

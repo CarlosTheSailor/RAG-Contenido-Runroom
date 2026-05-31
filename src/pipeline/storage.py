@@ -66,6 +66,7 @@ class SupabaseStorage:
     def __init__(self, dsn: str):
         self._dsn = dsn
         self._conn = psycopg.connect(dsn, row_factory=dict_row)
+        _configure_connection_timeouts(self._conn)
         self._query_conn: psycopg.Connection[Any] | None = None
 
     def close(self) -> None:
@@ -76,6 +77,7 @@ class SupabaseStorage:
     def _get_query_conn(self) -> psycopg.Connection[Any]:
         if self._query_conn is None or self._query_conn.closed:
             self._query_conn = psycopg.connect(self._dsn, row_factory=dict_row)
+            _configure_connection_timeouts(self._query_conn)
         return self._query_conn
 
     def ensure_schema(self, schema_path: Path) -> None:
@@ -1301,6 +1303,14 @@ class SupabaseStorage:
 
 def _vector_literal(values: list[float]) -> str:
     return "[" + ",".join(f"{v:.8f}" for v in values) + "]"
+
+
+def _configure_connection_timeouts(conn: psycopg.Connection[Any]) -> None:
+    with conn.cursor() as cur:
+        cur.execute("SET idle_in_transaction_session_timeout = '300000ms'")
+        cur.execute("SET lock_timeout = '5000ms'")
+        cur.execute("SET statement_timeout = '180000ms'")
+    conn.commit()
 
 
 def _apply_local_query_timeouts(

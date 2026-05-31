@@ -89,6 +89,24 @@ def _spawn_detached_job(target: Any, *args: Any) -> None:
     thread.start()
 
 
+def _spawn_interval_job(target: Any, *, interval_seconds: float, initial_delay_seconds: float) -> threading.Event:
+    stop_event = threading.Event()
+
+    def _loop() -> None:
+        if stop_event.wait(max(0.0, float(initial_delay_seconds))):
+            return
+        while not stop_event.is_set():
+            try:
+                target()
+            except Exception:
+                pass
+            stop_event.wait(max(1.0, float(interval_seconds)))
+
+    thread = threading.Thread(target=_loop, daemon=True)
+    thread.start()
+    return stop_event
+
+
 class QueryServicePort(Protocol):
     def query_similar(self, text: str, top_k: int, offline_mode: bool = False) -> dict[str, Any]:
         ...
@@ -483,6 +501,7 @@ def create_app(
     google_oauth_client: Optional[GoogleOAuthClientPort] = None,
 ) -> FastAPI:
     runtime = runtime_settings
+    created_default_service = service is None
     if service is None:
         settings = Settings.from_env()
         runtime = runtime or APIRuntimeSettings.from_env()
@@ -508,6 +527,12 @@ def create_app(
         https_only=runtime.session_cookie_secure,
         same_site="lax",
     )
+    if created_default_service and hasattr(service, "recover_linkedin_draft_publisher_scheduler"):
+        app.state.linkedin_draft_scheduler_watchdog_stop = _spawn_interval_job(
+            service.recover_linkedin_draft_publisher_scheduler,
+            interval_seconds=60.0,
+            initial_delay_seconds=30.0,
+        )
 
     templates = Jinja2Templates(directory=str(Path(__file__).resolve().parent / "templates"))
     oauth_client = google_oauth_client or _build_google_oauth_client(runtime)

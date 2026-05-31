@@ -681,6 +681,9 @@ class QueryApiService:
     def tick_linkedin_draft_publisher_scheduler(self, offline_mode: bool = False) -> dict[str, Any]:
         return self._linkedin_draft_publisher.scheduler_tick(force_offline=offline_mode)
 
+    def recover_linkedin_draft_publisher_scheduler(self) -> dict[str, Any]:
+        return self._linkedin_draft_publisher.recover_scheduler_state()
+
     def create_linkedin_draft_publisher_run(
         self,
         origin_category: str,

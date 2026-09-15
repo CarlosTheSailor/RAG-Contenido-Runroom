@@ -539,6 +539,26 @@ class WebAuthFlowTests(unittest.TestCase):
         self.assertIn("summary", payload)
         self.assertEqual(payload["summary"]["items_upserted"], 1)
 
+    def test_case_study_ingest_accepts_spanish_cases_path(self) -> None:
+        app = create_app(
+            service=_FakeService(),
+            api_key="secret",
+            runtime_settings=self._runtime(),
+            google_oauth_client=_FakeGoogleOAuthClient(
+                userinfo={"email": "person@runroom.com", "email_verified": True, "name": "Person"}
+            ),
+        )
+        client = TestClient(app)
+        client.get("/auth/google/callback", follow_redirects=False)
+
+        response = client.post(
+            "/app/api/case-studies/ingest-url",
+            json={"url": "https://www.runroom.com/casos/caso-valido"},
+        )
+
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.json()["url"], "https://www.runroom.com/casos/caso-valido")
+
     def test_new_runroom_lab_page_redirects_without_session(self) -> None:
         app = create_app(
             service=_FakeService(),
@@ -763,6 +783,28 @@ class WebAuthFlowTests(unittest.TestCase):
         self.assertEqual(payload["url"], "https://www.runroom.com/cases/caso-valido")
         self.assertEqual(payload["content_type"], "case_study")
         self.assertEqual(payload["summary"]["items_upserted"], 1)
+
+    def test_manual_ingest_case_study_accepts_spanish_cases_path(self) -> None:
+        app = create_app(
+            service=_FakeService(),
+            api_key="secret",
+            runtime_settings=self._runtime(),
+            google_oauth_client=_FakeGoogleOAuthClient(
+                userinfo={"email": "person@runroom.com", "email_verified": True, "name": "Person"}
+            ),
+        )
+        client = TestClient(app)
+        client.get("/auth/google/callback", follow_redirects=False)
+
+        response = client.post(
+            "/app/api/manual-ingest-url",
+            json={"url": "https://www.runroom.com/casos/caso-valido", "content_type": "case_study"},
+        )
+
+        self.assertEqual(response.status_code, 200)
+        payload = response.json()
+        self.assertEqual(payload["url"], "https://www.runroom.com/casos/caso-valido")
+        self.assertEqual(payload["content_type"], "case_study")
 
     def test_manual_ingest_training_with_session_contract(self) -> None:
         app = create_app(

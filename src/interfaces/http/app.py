@@ -440,8 +440,8 @@ def _validate_runroom_case_study_url(url: str) -> str:
         raise ValueError("URL inválida: solo se permiten esquemas http/https.")
     if host not in {"runroom.com", "www.runroom.com"}:
         raise ValueError("URL inválida: solo se permiten hosts runroom.com o www.runroom.com.")
-    if not parsed.path.startswith("/cases/"):
-        raise ValueError("URL inválida: el path debe empezar por /cases/.")
+    if not (parsed.path.startswith("/cases/") or parsed.path.startswith("/casos/")):
+        raise ValueError("URL inválida: el path debe empezar por /cases/ o /casos/.")
 
     return candidate
 

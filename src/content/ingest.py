@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import logging
+from datetime import datetime
 from pathlib import Path
 
 from src.config import RuntimeOptions, Settings
@@ -11,7 +12,8 @@ from src.content.runroom_labs_index import (
     DEFAULT_RUNROOM_LABS_INDEX_URL,
     discover_runroom_lab_urls,
 )
-from src.content.web_url import parse_runroom_web_url
+from src.content.web_feed import discover_feed_entries
+from src.content.web_url import parse_runroom_web_url, validate_public_web_url
 from src.content.chunking import chunk_sections
 from src.content.models import CanonicalChunk, CanonicalDocument
 from src.pipeline.ai_client import AIClient
@@ -115,6 +117,118 @@ def ingest_runroom_web_url(
         offline_mode=offline_mode,
         dry_run=dry_run,
     )
+
+
+def ingest_web_urls(
+    settings: Settings,
+    schema_path: Path,
+    urls: list[str],
+    content_type: str = "article",
+    published_at_by_url: dict[str, datetime] | None = None,
+    target_tokens: int = 240,
+    overlap_tokens: int = 40,
+    batch_size: int = 32,
+    offline_mode: bool = False,
+    dry_run: bool = False,
+) -> ContentIngestSummary:
+    """Ingest several public web URLs, isolating failures per URL.
+
+    Each URL is validated, parsed and ingested on its own, so one broken page does
+    not abort the rest; the outcome of every URL is reported under `results`.
+    `published_at_by_url` fills the publication date when the page itself has none.
+
+    With `dry_run` the pages are only fetched, parsed and chunked: nothing is sent
+    to the embedding API and the database is not opened.
+    """
+    fallback_dates = published_at_by_url or {}
+    summary: ContentIngestSummary = ContentIngestSummary(
+        documents_total=len(urls),
+        items_upserted=0,
+        sections_written=0,
+        chunks_written=0,
+        failed=0,
+        dry_run=dry_run,
+        content_type=content_type,
+        results=[],
+    )
+
+    for url in urls:
+        result: dict[str, object] = {"url": url}
+        try:
+            clean_url = validate_public_web_url(url, content_type)
+            doc = parse_runroom_web_url(url=clean_url, content_type=content_type)
+            if doc.item.published_at is None:
+                doc.item.published_at = fallback_dates.get(url)
+
+            if dry_run:
+                chunks = chunk_sections(doc.sections, target_tokens=target_tokens, overlap_tokens=overlap_tokens)
+                sections_written, chunks_written = len(doc.sections), len(chunks)
+            else:
+                counts = ingest_documents(
+                    settings=settings,
+                    schema_path=schema_path,
+                    documents=[doc],
+                    target_tokens=target_tokens,
+                    overlap_tokens=overlap_tokens,
+                    batch_size=batch_size,
+                    offline_mode=offline_mode,
+                    dry_run=False,
+                )
+                sections_written, chunks_written = counts["sections_written"], counts["chunks_written"]
+        except Exception as exc:
+            logger.exception("Failed to ingest web URL: %s", url)
+            summary["failed"] += 1
+            result.update({"status": "error", "error": f"{type(exc).__name__}: {exc}"})
+        else:
+            summary["items_upserted"] += 1
+            summary["sections_written"] += sections_written
+            summary["chunks_written"] += chunks_written
+            result.update(
+                {
+                    "status": "ok",
+                    "content_key": doc.item.content_key,
+                    "title": doc.item.title,
+                    "published_at": doc.item.published_at.isoformat() if doc.item.published_at else None,
+                    "sections_written": sections_written,
+                    "chunks_written": chunks_written,
+                }
+            )
+        summary["results"].append(result)
+
+    return summary
+
+
+def ingest_web_feed(
+    settings: Settings,
+    schema_path: Path,
+    feed_url: str,
+    content_type: str = "article",
+    limit: int | None = None,
+    target_tokens: int = 240,
+    overlap_tokens: int = 40,
+    batch_size: int = 32,
+    offline_mode: bool = False,
+    dry_run: bool = False,
+) -> ContentIngestSummary:
+    """Ingest every page listed in an RSS/Atom feed (newest `limit` entries if given)."""
+    validate_public_web_url(feed_url, content_type)
+    entries = discover_feed_entries(feed_url)
+    selected = entries[:limit] if limit is not None else entries
+
+    summary = ingest_web_urls(
+        settings=settings,
+        schema_path=schema_path,
+        urls=[entry.url for entry in selected],
+        content_type=content_type,
+        published_at_by_url={entry.url: entry.published_at for entry in selected if entry.published_at},
+        target_tokens=target_tokens,
+        overlap_tokens=overlap_tokens,
+        batch_size=batch_size,
+        offline_mode=offline_mode,
+        dry_run=dry_run,
+    )
+    summary.update({"feed_url": feed_url, "feed_entries_total": len(entries)})
+    return summary
 
 
 def ingest_runroom_labs(

@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import logging
 import os
 import secrets
 import threading
@@ -11,15 +12,18 @@ from uuid import uuid4
 
 from authlib.integrations.starlette_client import OAuth, OAuthError
 from fastapi import BackgroundTasks, Depends, FastAPI, File, Form, HTTPException, Request, Security, UploadFile
-from fastapi.responses import HTMLResponse, RedirectResponse
+from fastapi.responses import HTMLResponse, JSONResponse, RedirectResponse
 from fastapi.security import APIKeyHeader
 from fastapi.templating import Jinja2Templates
 from starlette.middleware.sessions import SessionMiddleware
 
 from src.config import APIRuntimeSettings, Settings
+from src.content.web_url import validate_public_web_url
 from src.interfaces.http.schemas import (
     CaseStudyIngestUrlRequestModel,
     CaseStudyIngestUrlResponseModel,
+    ContentIngestUrlsRequestModel,
+    ContentIngestUrlsResponseModel,
     EpisodeIngestRunCreateResponseModel,
     EpisodeIngestRunGetResponseModel,
     LinkedInDraftPublisherScheduleConfigCreateRequestModel,
@@ -78,6 +82,8 @@ from src.interfaces.http.schemas import (
 )
 from src.interfaces.http.services import QueryApiService
 from src.pipeline.manual_episode_ingest import DuplicateEpisodeSourceFilenameError
+
+logger = logging.getLogger(__name__)
 
 
 def _spawn_detached_job(target: Any, *args: Any) -> None:
@@ -482,19 +488,7 @@ def _validate_runroom_lab_url(url: str) -> str:
 
 
 def _validate_runroom_public_web_url(url: str, content_type: str = "other") -> str:
-    candidate = url.strip()
-    parsed = urlparse(candidate)
-    host = (parsed.hostname or "").lower()
-
-    if parsed.scheme not in {"http", "https"}:
-        raise ValueError("URL invalida: solo se permiten esquemas http/https.")
-    allowed_article_host = content_type == "article" and host in {"carlosiglesias.info", "www.carlosiglesias.info"}
-    if not (host == "runroom.com" or host.endswith(".runroom.com") or allowed_article_host):
-        if content_type == "article":
-            raise ValueError("URL invalida: solo se permiten articulos de Runroom o carlosiglesias.info.")
-        raise ValueError("URL invalida: solo se permiten URLs publicas de Runroom o sus subdominios.")
-
-    return candidate
+    return validate_public_web_url(url, content_type)
 
 
 def create_app(
@@ -543,6 +537,14 @@ def create_app(
 
     def require_api_key(client_key: Optional[str] = Security(api_key_header)) -> None:
         if not client_key or not secrets.compare_digest(client_key, api_key):
+            raise HTTPException(status_code=401, detail="Invalid API key")
+
+    def require_ingest_api_key(client_key: Optional[str] = Security(api_key_header)) -> None:
+        # Write access uses its own key so read-only API clients cannot ingest content.
+        ingest_key = runtime.ingest_api_key
+        if not ingest_key:
+            raise HTTPException(status_code=503, detail="Ingesta por API no configurada: falta INGEST_API_KEY.")
+        if not client_key or not secrets.compare_digest(client_key, ingest_key):
             raise HTTPException(status_code=401, detail="Invalid API key")
 
     def require_session_api_user(request: Request) -> dict[str, str]:
@@ -671,6 +673,40 @@ def create_app(
             "content_type": str(result["content_type"]),
             "summary": result["summary"],
         }
+
+    def content_ingest_urls_payload(payload: ContentIngestUrlsRequestModel) -> Any:
+        try:
+            urls = [validate_public_web_url(url, payload.content_type) for url in payload.urls]
+        except ValueError as exc:
+            raise HTTPException(status_code=422, detail=str(exc)) from exc
+
+        results: list[Dict[str, Any]] = []
+        for url in dict.fromkeys(urls):
+            try:
+                result = service.ingest_manual_url(url=url, content_type=payload.content_type)
+            except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError) as exc:
+                results.append({"url": url, "status": "error", "detail": f"No se pudo cargar la URL externa: {exc}"})
+            except ValueError as exc:
+                results.append({"url": url, "status": "error", "detail": str(exc)})
+            except Exception:
+                logger.exception("Unexpected error ingesting web URL: %s", url)
+                results.append({"url": url, "status": "error", "detail": "Error inesperado durante la ingesta."})
+            else:
+                results.append({"url": url, "status": "ok", "summary": result["summary"]})
+
+        failed = sum(1 for item in results if item["status"] == "error")
+        body = {
+            "request_id": str(uuid4()),
+            "content_type": payload.content_type,
+            "total": len(results),
+            "succeeded": len(results) - failed,
+            "failed": failed,
+            "results": results,
+        }
+        if failed == len(results):
+            # Nothing was ingested: fail the HTTP call so simple clients notice.
+            return JSONResponse(status_code=502, content=body)
+        return body
 
     def episode_ingest_payload(
         transcript_filename: str,
@@ -898,6 +934,13 @@ def create_app(
     @app.post("/v1/recommend-content", response_model=RecommendContentResponseModel)
     def recommend_content(payload: RecommendContentRequestModel, _: None = Security(require_api_key)) -> Dict[str, Any]:
         return recommend_payload(payload)
+
+    @app.post("/v1/content/ingest-urls", response_model=ContentIngestUrlsResponseModel)
+    def content_ingest_urls(
+        payload: ContentIngestUrlsRequestModel,
+        _: None = Security(require_ingest_api_key),
+    ) -> Any:
+        return content_ingest_urls_payload(payload)
 
     @app.post("/app/api/query-similar", response_model=QuerySimilarResponseModel)
     def app_query_similar(

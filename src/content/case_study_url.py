@@ -206,17 +206,12 @@ def _extract_published_at(html_text: str) -> datetime | None:
         if not body:
             continue
 
-        candidates: list[dict] = []
         try:
             parsed = json.loads(body)
-            if isinstance(parsed, dict):
-                candidates = [parsed]
-            elif isinstance(parsed, list):
-                candidates = [item for item in parsed if isinstance(item, dict)]
         except json.JSONDecodeError:
             continue
 
-        for node in candidates:
+        for node in _json_ld_nodes(parsed):
             for key in ("datePublished", "dateCreated"):
                 value = node.get(key)
                 if not isinstance(value, str):
@@ -225,6 +220,24 @@ def _extract_published_at(html_text: str) -> datetime | None:
                 if dt:
                     return dt
     return None
+
+
+def _json_ld_nodes(parsed: object) -> list[dict]:
+    """Flatten a JSON-LD payload into its nodes, including those nested under @graph."""
+    if isinstance(parsed, list):
+        roots = [item for item in parsed if isinstance(item, dict)]
+    elif isinstance(parsed, dict):
+        roots = [parsed]
+    else:
+        return []
+
+    nodes: list[dict] = []
+    for root in roots:
+        nodes.append(root)
+        graph = root.get("@graph")
+        if isinstance(graph, list):
+            nodes.extend(item for item in graph if isinstance(item, dict))
+    return nodes
 
 
 def _parse_iso_datetime(value: str) -> datetime | None:

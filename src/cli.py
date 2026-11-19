@@ -100,6 +100,23 @@ def build_parser() -> argparse.ArgumentParser:
     labs_cmd.add_argument("--offline-mode", action="store_true")
     labs_cmd.add_argument("--dry-run", action="store_true")
 
+    feed_cmd = sub.add_parser(
+        "ingest-web-feed",
+        help="Ingest every page listed in an RSS/Atom feed (e.g. a newsletter archive) as web content",
+    )
+    feed_cmd.add_argument("--feed", required=True, help="RSS/Atom feed URL listing the pages to ingest")
+    feed_cmd.add_argument("--content-type", default="article", choices=["article", "training", "other"])
+    feed_cmd.add_argument("--limit", type=int, default=None, help="Only the first N feed entries (newest first)")
+    feed_cmd.add_argument("--target-tokens", default=240, type=int)
+    feed_cmd.add_argument("--overlap-tokens", default=40, type=int)
+    feed_cmd.add_argument("--batch-size", default=32, type=int)
+    feed_cmd.add_argument("--offline-mode", action="store_true")
+    feed_cmd.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="Only fetch, parse and chunk the pages: no embeddings, no database access",
+    )
+
     backfill_cmd = sub.add_parser("backfill-canonical-content", help="Backfill legacy episodes/chunks into canonical tables")
     backfill_cmd.add_argument("--dry-run", action="store_true")
     backfill_cmd.add_argument("--limit", type=int, default=None)

@@ -16,6 +16,7 @@ class CliParserRegressionTests(unittest.TestCase):
         self.assertIn("recommend-content", commands)
         self.assertIn("review-matches", commands)
         self.assertIn("ingest-runroom-labs", commands)
+        self.assertIn("ingest-web-feed", commands)
         self.assertIn("reset-theme-intel", commands)
         self.assertIn("theme-intel-backfill-related", commands)
         self.assertIn("theme-intel-backfill-html-fallback", commands)

@@ -228,6 +228,7 @@ class APIRuntimeSettings:
     session_secret: str = "change-me"
     session_max_age_seconds: int = 86400
     session_cookie_secure: bool = False
+    ingest_api_key: str | None = None
 
     @classmethod
     def from_env(cls) -> "APIRuntimeSettings":
@@ -245,6 +246,7 @@ class APIRuntimeSettings:
         session_secret = os.getenv("SESSION_SECRET", "").strip() or api_key
         session_max_age_seconds = int(os.getenv("SESSION_MAX_AGE_SECONDS", "86400"))
         session_cookie_secure = _as_bool(os.getenv("SESSION_COOKIE_SECURE"), default=False)
+        ingest_api_key = os.getenv("INGEST_API_KEY", "").strip() or None
         return cls(
             api_key=api_key,
             host=host,
@@ -257,4 +259,5 @@ class APIRuntimeSettings:
             session_secret=session_secret,
             session_max_age_seconds=session_max_age_seconds,
             session_cookie_secure=session_cookie_secure,
+            ingest_api_key=ingest_api_key,
         )

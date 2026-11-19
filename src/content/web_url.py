@@ -9,6 +9,8 @@ from src.pipeline.normalization import estimate_tokens, normalize_text, slugify,
 
 _ALLOWED_CONTENT_TYPES = {"article", "training", "other"}
 
+_PERSONAL_ARTICLE_HOSTS = {"carlosiglesias.info", "www.carlosiglesias.info"}
+
 _BOILERPLATE_SECTION_TITLES = {
     "contacto",
     "nuestros servicios",
@@ -112,6 +114,23 @@ def parse_runroom_web_url(url: str, content_type: str) -> CanonicalDocument:
     document.item.raw_text = "\n\n".join(section.text for section in document.sections if section.text.strip())
 
     return document
+
+
+def validate_public_web_url(url: str, content_type: str = "other") -> str:
+    """Return the trimmed URL if its host may be ingested as `content_type`, else raise ValueError."""
+    candidate = url.strip()
+    parsed = urlparse(candidate)
+    host = (parsed.hostname or "").lower()
+
+    if parsed.scheme not in {"http", "https"}:
+        raise ValueError("URL invalida: solo se permiten esquemas http/https.")
+    allowed_article_host = content_type == "article" and host in _PERSONAL_ARTICLE_HOSTS
+    if not (host == "runroom.com" or host.endswith(".runroom.com") or allowed_article_host):
+        if content_type == "article":
+            raise ValueError("URL invalida: solo se permiten articulos de Runroom o carlosiglesias.info.")
+        raise ValueError("URL invalida: solo se permiten URLs publicas de Runroom o sus subdominios.")
+
+    return candidate
 
 
 def _content_key_from_url(url: str) -> str:

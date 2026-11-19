@@ -79,6 +79,7 @@ Variables clave:
 - `OPENAI_API_KEY`
 - `YOUTUBE_API_KEY` (opcional, necesario para leer descripción actual desde YouTube API en preview)
 - `API_KEY` (requerido para API HTTP)
+- `INGEST_API_KEY` (opcional, activa `POST /v1/content/ingest-urls` para ingestar URLs públicas por API; distinta de `API_KEY`)
 - `HOST` / `PORT` (servidor FastAPI)
 - `GOOGLE_OAUTH_CLIENT_ID` / `GOOGLE_OAUTH_CLIENT_SECRET`
 - `GOOGLE_OAUTH_REDIRECT_URI` (ejemplo local: `http://127.0.0.1:8000/auth/google/callback`)

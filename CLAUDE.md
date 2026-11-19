@@ -33,6 +33,7 @@ python -m src.cli ingest-transcripts
 python -m src.cli ingest-case-studies-markdown --input <file.md> [--dry-run]
 python -m src.cli ingest-case-study-url --url https://...
 python -m src.cli ingest-runroom-labs
+python -m src.cli ingest-web-feed --feed https://carlosiglesias.info/newsletter/rss.xml [--limit N] [--dry-run]
 python -m src.cli backfill-canonical-content [--dry-run] [--limit N]
 
 # Querying
@@ -83,7 +84,7 @@ Legacy podcast tables (`episodes`, `chunks`) are preserved unchanged; `backfill-
 | Module | Purpose |
 |--------|---------|
 | `src/content/` | Multi-source ingestion orchestrator, parsers, re-ranking |
-| `src/content/recommendation.py` | ANN search (pgvector) + diversity re-ranking |
+| `src/content/recommendation.py` | Vector search (pgvector) + diversity re-ranking |
 | `src/pipeline/` | Legacy podcast transcript ingestion |
 | `src/matching/` | Episode↔article semantic matching |
 | `src/theme_intel/` | Gmail-based theme extraction, topic persistence, scheduling |
@@ -92,7 +93,7 @@ Legacy podcast tables (`episodes`, `chunks`) are preserved unchanged; `backfill-
 
 ### Retrieval Flow
 1. Embed query with OpenAI text-embedding-3-large
-2. ANN search on `content_chunks.embedding` (pgvector cosine)
+2. Exact nearest-neighbour search on `content_chunks.embedding` (pgvector cosine, no ANN index: see `sql/013_drop_ivfflat_vector_indexes.sql`)
 3. Aggregate chunks → items (dedup, max score)
 4. Re-rank with diversity penalty
 5. Return top-k with matched excerpts
@@ -121,6 +122,7 @@ SQL migration files live in `sql/` (numbered 001+). Apply via `python -m src.cli
 
 ## Authentication
 - **API endpoints (`/v1/*`):** `X-Api-Key` header
+- **Ingestion endpoint (`POST /v1/content/ingest-urls`):** same header, but checked against `INGEST_API_KEY` (write access is kept apart from the read key; without it the endpoint returns 503). Up to 5 public URLs per call, same host allowlist as manual ingestion. Called by `npm run rag` in the `web-personal` repo after each newsletter edition is published.
 - **Web UI:** Google OAuth2 (`GOOGLE_OAUTH_ALLOWED_DOMAIN=runroom.com`) + server-side sessions
 - **Gmail integration (Theme Intel):** Separate Google OAuth refresh token (`GMAIL_OAUTH_REFRESH_TOKEN`)
 
@@ -129,4 +131,5 @@ SQL migration files live in `sql/` (numbered 001+). Apply via `python -m src.cli
 - `OPENAI_API_KEY`
 - `EMBEDDING_DIM=1536` — Fixed; changing breaks all existing vectors
 - `API_KEY` — HTTP API authentication
+- `INGEST_API_KEY` — enables and protects `POST /v1/content/ingest-urls`
 - `NEWSLETTER_RAG_MIN_SCORE=0.74` — Semantic similarity threshold for newsletter RAG

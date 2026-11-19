@@ -153,6 +153,26 @@ def dispatch_command(args: argparse.Namespace, settings: Settings, schema_path: 
         print(json.dumps(summary, indent=2, ensure_ascii=False))
         return
 
+    if args.command == "ingest-web-feed":
+        from src.content.ingest import ingest_web_feed
+
+        summary = ingest_web_feed(
+            settings=settings,
+            schema_path=schema_path,
+            feed_url=args.feed,
+            content_type=args.content_type,
+            limit=args.limit,
+            target_tokens=args.target_tokens,
+            overlap_tokens=args.overlap_tokens,
+            batch_size=args.batch_size,
+            offline_mode=args.offline_mode,
+            dry_run=args.dry_run,
+        )
+        print(json.dumps(summary, indent=2, ensure_ascii=False))
+        if summary["failed"]:
+            raise SystemExit(1)
+        return
+
     if args.command == "backfill-canonical-content":
         from src.content.backfill import backfill_episodes_to_canonical
 

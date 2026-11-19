@@ -147,6 +147,30 @@ class ManualUrlIngestResponseModel(BaseModel):
     summary: ManualUrlIngestSummaryModel
 
 
+WebUrlIngestContentType = Literal["article", "training", "other"]
+
+
+class ContentIngestUrlsRequestModel(BaseModel):
+    urls: list[str] = Field(..., min_length=1, max_length=5)
+    content_type: WebUrlIngestContentType = "article"
+
+
+class ContentIngestUrlResultModel(BaseModel):
+    url: str
+    status: Literal["ok", "error"]
+    summary: Optional[ManualUrlIngestSummaryModel] = None
+    detail: Optional[str] = None
+
+
+class ContentIngestUrlsResponseModel(BaseModel):
+    request_id: str
+    content_type: WebUrlIngestContentType
+    total: int
+    succeeded: int
+    failed: int
+    results: list[ContentIngestUrlResultModel]
+
+
 class EpisodeIngestSummaryModel(BaseModel):
     source_filename: str
     transcript_path: str

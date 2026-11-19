@@ -46,6 +46,19 @@ class RunroomWebUrlParserTests(unittest.TestCase):
         self.assertNotIn("Completa el formulario", payload)
         self.assertNotIn("Customer Experience Producto Digital", payload)
 
+    def test_personal_newsletter_excludes_subscription_and_footer(self) -> None:
+        html = """<h1>Adopción por diseño</h1><p>Contenido editorial completo.</p>
+        <h2>Recibe Impacto &amp; Producto</h2><p>Suscríbete aquí.</p>
+        <ul><li>Podcast</li><li>Privacidad</li></ul>"""
+        with patch("src.content.case_study_url.fetch_url_html", return_value=html):
+            doc = parse_runroom_web_url(
+                "https://carlosiglesias.info/newsletter/adopcion/", "article"
+            )
+        self.assertEqual(doc.item.raw_text, "Contenido editorial completo.")
+        self.assertEqual(doc.item.source, "web_url")
+        self.assertEqual(doc.item.metadata["source"], "web_url")
+        self.assertEqual(doc.item.content_key, "web:carlosiglesias.info:newsletter:adopcion")
+
     def test_parse_runroom_web_url_supports_training_type(self) -> None:
         html = """
         <html>

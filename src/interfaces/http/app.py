@@ -481,14 +481,17 @@ def _validate_runroom_lab_url(url: str) -> str:
     return candidate
 
 
-def _validate_runroom_public_web_url(url: str) -> str:
+def _validate_runroom_public_web_url(url: str, content_type: str = "other") -> str:
     candidate = url.strip()
     parsed = urlparse(candidate)
     host = (parsed.hostname or "").lower()
 
     if parsed.scheme not in {"http", "https"}:
         raise ValueError("URL invalida: solo se permiten esquemas http/https.")
-    if not host or not (host == "runroom.com" or host.endswith(".runroom.com")):
+    allowed_article_host = content_type == "article" and host in {"carlosiglesias.info", "www.carlosiglesias.info"}
+    if not (host == "runroom.com" or host.endswith(".runroom.com") or allowed_article_host):
+        if content_type == "article":
+            raise ValueError("URL invalida: solo se permiten articulos de Runroom o carlosiglesias.info.")
         raise ValueError("URL invalida: solo se permiten URLs publicas de Runroom o sus subdominios.")
 
     return candidate
@@ -649,7 +652,7 @@ def create_app(
             elif payload.content_type == "runroom_lab":
                 url = _validate_runroom_lab_url(payload.url)
             else:
-                url = _validate_runroom_public_web_url(payload.url)
+                url = _validate_runroom_public_web_url(payload.url, payload.content_type)
         except ValueError as exc:
             raise HTTPException(status_code=422, detail=str(exc)) from exc
 

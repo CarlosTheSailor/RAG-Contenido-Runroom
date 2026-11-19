@@ -760,6 +760,29 @@ class WebAuthFlowTests(unittest.TestCase):
 
         self.assertEqual(response.status_code, 422)
 
+    def test_manual_ingest_personal_newsletter_domain(self) -> None:
+        app = create_app(
+            service=_FakeService(), api_key="secret", runtime_settings=self._runtime(),
+            google_oauth_client=_FakeGoogleOAuthClient(
+                userinfo={"email": "person@runroom.com", "email_verified": True, "name": "Person"}
+            ),
+        )
+        client = TestClient(app)
+        client.get("/auth/google/callback", follow_redirects=False)
+        for host, kind, expected in [
+            ("carlosiglesias.info", "article", 200),
+            ("www.carlosiglesias.info", "article", 200),
+            ("carlosiglesias.info.evil.com", "article", 422),
+            ("evilcarlosiglesias.info", "article", 422),
+            ("carlosiglesias.info", "training", 422),
+            ("carlosiglesias.info", "other", 422),
+        ]:
+            with self.subTest(host=host, kind=kind):
+                response = client.post("/app/api/manual-ingest-url", json={
+                    "url": f"https://{host}/newsletter/edicion/", "content_type": kind,
+                })
+                self.assertEqual(response.status_code, expected)
+
     def test_manual_ingest_case_study_with_session_contract(self) -> None:
         app = create_app(
             service=_FakeService(),

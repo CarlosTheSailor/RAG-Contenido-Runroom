@@ -15,6 +15,7 @@ _BOILERPLATE_SECTION_TITLES = {
     "la empresa",
     "siguenos",
     "newsletter",
+    "recibe impacto producto",
     "legal",
     "certificaciones",
 }
@@ -94,13 +95,15 @@ def parse_runroom_web_url(url: str, content_type: str) -> CanonicalDocument:
     document.item.content_key = _content_key_from_url(url)
     document.item.content_type = normalized_type
     document.item.slug = slug
-    document.item.source = "runroom_web_url"
+    host = (urlparse(url).hostname or "").lower()
+    source = "runroom_web_url" if host == "runroom.com" or host.endswith(".runroom.com") else "web_url"
+    document.item.source = source
 
     metadata = dict(document.item.metadata or {})
     metadata.update(
         {
             "content_type": normalized_type,
-            "source": "runroom_web_url",
+            "source": source,
             "original_url": url,
         }
     )

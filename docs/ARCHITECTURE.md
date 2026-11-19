@@ -83,7 +83,7 @@ Para Runroom LABs se añade además una fase de descubrimiento desde índice:
 
 `recommend-content` aplica:
 
-- ANN sobre `content_chunks.embedding`,
+- búsqueda exacta por similitud coseno sobre `content_chunks.embedding` (sin índice ANN, ver `sql/013_drop_ivfflat_vector_indexes.sql`),
 - filtros por tipo/fuente/idioma,
 - agregación chunk→item,
 - reranking con diversidad por tipo,
